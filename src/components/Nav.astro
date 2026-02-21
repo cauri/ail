@@ -1,25 +1,27 @@
 ---
+import { baseUrl } from '../utils/base-url';
+
 const currentPath = Astro.url.pathname;
 
 const navLinks = [
-  { label: "About", href: "/about" },
-  { label: "Zones", href: "/zones" },
-  { label: "For Organizations", href: "/for-organizations" },
-  { label: "Toolkit", href: "/toolkit" },
-  { label: "Training", href: "/training" },
-  { label: "Research", href: "/research" },
+  { label: "About", href: baseUrl("/about") },
+  { label: "Zones", href: baseUrl("/zones") },
+  { label: "For Organizations", href: baseUrl("/for-organizations") },
+  { label: "Toolkit", href: baseUrl("/toolkit") },
+  { label: "Training", href: baseUrl("/training") },
+  { label: "Research", href: baseUrl("/research") },
 ];
 
 function isActive(href: string) {
-  if (href === "/") return currentPath === "/";
+  if (href === baseUrl("/")) return currentPath === baseUrl("/");
   return currentPath.startsWith(href);
 }
 ---
 
 <nav aria-label="Main navigation" class="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
   <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-    <a href="/" class="flex items-center gap-3">
-      <img src="/images/artium-logo.png" alt="Artium" class="h-5 w-auto" />
+    <a href={baseUrl("/")} class="flex items-center gap-3">
+      <img src={baseUrl("/images/artium-logo.png")} alt="Artium" class="h-5 w-auto" />
       <span class="border-l border-gray-300 pl-3 font-heading text-lg font-medium tracking-tight text-primary">ACE</span>
     </a>
 

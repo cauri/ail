@@ -1,5 +1,6 @@
 ---
 import MarketingLayout from '../layouts/MarketingLayout.astro';
+import { baseUrl } from '../utils/base-url';
 ---
 
 <MarketingLayout title="Page Not Found" description="The page you're looking for doesn't exist.">
@@ -12,13 +13,13 @@ import MarketingLayout from '../layouts/MarketingLayout.astro';
       </p>
       <div class="mt-8 flex justify-center gap-4">
         <a
-          href="/"
+          href={baseUrl("/")}
           class="rounded-full bg-magenta px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-pink"
         >
           Go home
         </a>
         <a
-          href="/toolkit"
+          href={baseUrl("/toolkit")}
           class="rounded-full border border-gray-200 px-6 py-2.5 text-sm font-medium text-primary transition-colors hover:border-gray-300"
         >
           Browse toolkit

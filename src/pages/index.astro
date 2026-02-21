@@ -4,6 +4,7 @@ import Hero from '../components/Hero.astro';
 import ZoneCard from '../components/ZoneCard.astro';
 import ZoneProgressionDiagram from '../components/ZoneProgressionDiagram.astro';
 import EngagementSteps from '../components/EngagementSteps.astro';
+import { baseUrl } from '../utils/base-url';
 
 const zones = [
   {
@@ -56,7 +57,7 @@ const steps = [
   <Hero
     subtitle="ACE is a framework that helps organizations understand their current AI competency, set meaningful goals, and work alongside experienced practitioners to build real capability."
     ctaText="Explore the Framework"
-    ctaHref="/about"
+    ctaHref={baseUrl("/about")}
   >
     <Fragment slot="title">Know Where You Are.<br />Choose Where You're Going.</Fragment>
   </Hero>
