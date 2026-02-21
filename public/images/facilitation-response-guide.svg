@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1000" height="780" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="500" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Facilitation Response Guide</text>
+  <text x="500" y="54" text-anchor="middle" font-size="12" fill="#666">Quick Reference for Workshop Facilitation Challenges</text>
+
+  <!-- Column Headers -->
+  <rect x="30" y="70" width="340" height="30" rx="4" fill="#1e293b"/>
+  <text x="200" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">WHAT YOU SEE</text>
+  <rect x="380" y="70" width="590" height="30" rx="4" fill="#1e293b"/>
+  <text x="675" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">WHAT TO DO</text>
+
+  <!-- Row 1: Defensive Team -->
+  <rect x="30" y="108" width="940" height="95" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="30" y="108" width="6" height="95" rx="3" fill="#64748b"/>
+  <text x="50" y="128" font-size="12" font-weight="bold" fill="#334155">Defensive Team</text>
+  <text x="50" y="146" font-size="10" fill="#475569">All 5s claimed. Vague justifications.</text>
+  <text x="50" y="161" font-size="10" fill="#475569">Team deflects probing questions.</text>
+  <text x="50" y="176" font-size="10" fill="#475569">Body language suggests performance,</text>
+  <text x="50" y="191" font-size="10" fill="#475569">not reflection.</text>
+  <text x="395" y="130" font-size="11" font-weight="bold" fill="#1e40af">Switch from scores to stories.</text>
+  <text x="395" y="150" font-size="10" fill="#334155">"Walk me through yesterday — when did you use AI</text>
+  <text x="395" y="165" font-size="10" fill="#334155">tools, and what for?"</text>
+  <text x="395" y="186" font-size="10" fill="#64748b" font-style="italic">Behavioral stories are harder to inflate than numbers.</text>
+
+  <!-- Row 2: Overconfident Team -->
+  <rect x="30" y="211" width="940" height="95" rx="4" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="30" y="211" width="6" height="95" rx="3" fill="#64748b"/>
+  <text x="50" y="231" font-size="12" font-weight="bold" fill="#334155">Overconfident Team</text>
+  <text x="50" y="249" font-size="10" fill="#475569">High scores driven by 1-2 enthusiasts</text>
+  <text x="50" y="264" font-size="10" fill="#475569">who speak for the group. Quieter</text>
+  <text x="50" y="279" font-size="10" fill="#475569">members nod but don't contribute</text>
+  <text x="50" y="294" font-size="10" fill="#475569">examples.</text>
+  <text x="395" y="233" font-size="11" font-weight="bold" fill="#1e40af">Individualize.</text>
+  <text x="395" y="253" font-size="10" fill="#334155">"Let's go around — each person give me one specific</text>
+  <text x="395" y="268" font-size="10" fill="#334155">example from this past week."</text>
+  <text x="395" y="289" font-size="10" fill="#64748b" font-style="italic">When the enthusiast speaks first and others can't match,</text>
+  <text x="395" y="302" font-size="10" fill="#64748b" font-style="italic">the picture clarifies.</text>
+
+  <!-- Row 3: Dominant Voice -->
+  <rect x="30" y="314" width="940" height="95" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="30" y="314" width="6" height="95" rx="3" fill="#64748b"/>
+  <text x="50" y="334" font-size="12" font-weight="bold" fill="#334155">Dominant Voice</text>
+  <text x="50" y="352" font-size="10" fill="#475569">One person answers every question.</text>
+  <text x="50" y="367" font-size="10" fill="#475569">Others defer or stay silent.</text>
+  <text x="395" y="336" font-size="11" font-weight="bold" fill="#1e40af">Use independent scoring (before discussion).</text>
+  <text x="395" y="356" font-size="10" fill="#334155">"[Quieter member], what score did you give, and</text>
+  <text x="395" y="371" font-size="10" fill="#334155">what were you thinking?"</text>
+  <text x="395" y="392" font-size="10" fill="#334155">If interrupted: "[Name], let's hear from [other] first."</text>
+
+  <!-- Row 4: Honest Outlier (HIGHLIGHTED) -->
+  <rect x="30" y="417" width="940" height="95" rx="4" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <rect x="30" y="417" width="6" height="95" rx="3" fill="#dc2626"/>
+  <text x="50" y="437" font-size="12" font-weight="bold" fill="#991b1b">Honest Outlier ★</text>
+  <text x="50" y="455" font-size="10" fill="#7f1d1d">One member scores significantly lower.</text>
+  <text x="50" y="470" font-size="10" fill="#7f1d1d">Others push back or dismiss the</text>
+  <text x="50" y="485" font-size="10" fill="#7f1d1d">low score.</text>
+  <text x="395" y="439" font-size="11" font-weight="bold" fill="#dc2626">PROTECT the outlier.</text>
+  <text x="395" y="459" font-size="10" fill="#334155">"I want to stay with [name]'s perspective — it's different</text>
+  <text x="395" y="474" font-size="10" fill="#334155">from the group and that difference is worth understanding."</text>
+  <text x="395" y="495" font-size="10" fill="#991b1b" font-weight="600">Do NOT let the group pressure them into recanting.</text>
+
+  <!-- Row 5: Absent PM -->
+  <rect x="30" y="520" width="940" height="95" rx="4" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="30" y="520" width="6" height="95" rx="3" fill="#64748b"/>
+  <text x="50" y="540" font-size="12" font-weight="bold" fill="#334155">Absent PM</text>
+  <text x="50" y="558" font-size="10" fill="#475569">PM is missing from the workshop.</text>
+  <text x="50" y="573" font-size="10" fill="#475569">Engineers attempt to answer</text>
+  <text x="50" y="588" font-size="10" fill="#475569">PM-specific Zone 2 questions.</text>
+  <text x="395" y="542" font-size="11" font-weight="bold" fill="#1e40af">Do NOT rate PM questions from secondhand reports.</text>
+  <text x="395" y="562" font-size="10" fill="#334155">Note the gap explicitly in the report. Schedule a</text>
+  <text x="395" y="577" font-size="10" fill="#334155">follow-up session or flag as a risk.</text>
+
+  <!-- Row 6: High Score Variance -->
+  <rect x="30" y="623" width="940" height="95" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="30" y="623" width="6" height="95" rx="3" fill="#64748b"/>
+  <text x="50" y="643" font-size="12" font-weight="bold" fill="#334155">High Score Variance</text>
+  <text x="50" y="661" font-size="10" fill="#475569">A 2 and a 5 on the same question.</text>
+  <text x="50" y="676" font-size="10" fill="#475569">The group is split.</text>
+  <text x="395" y="645" font-size="11" font-weight="bold" fill="#1e40af">Start with the LOW scorer.</text>
+  <text x="395" y="665" font-size="10" fill="#334155">"I see a range. Let me start with the lower end —</text>
+  <text x="395" y="680" font-size="10" fill="#334155">what are you seeing?"</text>
+  <text x="395" y="701" font-size="10" fill="#64748b" font-style="italic">Starting low prevents social pressure from silencing</text>
+  <text x="395" y="714" font-size="10" fill="#64748b" font-style="italic">honest dissent.</text>
+
+  <!-- Footer -->
+  <rect x="30" y="730" width="940" height="36" rx="4" fill="#1e293b"/>
+  <text x="500" y="753" text-anchor="middle" font-size="11" fill="#e2e8f0">Default probe for any high score: "What does that look like on a typical Tuesday?" If they can't answer, the score is aspirational.</text>
+</svg>

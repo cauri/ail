@@ -1,0 +1,120 @@
+---
+title: "Facilitator Guide: Getting Started with ACE"
+description: "This tutorial is your introduction to facilitating ACE diagnostic engagements."
+section: "guides"
+order: 1
+---
+This tutorial is your introduction to facilitating ACE diagnostic engagements. By the end, you will understand your role, the engagement lifecycle, and the principles that make the difference between a diagnostic that produces real insight and one that produces numbers on a page.
+
+## What You'll Learn
+
+- What a facilitator's role is -- and what it is not
+- The full lifecycle of an ACE engagement
+- The key principles that underpin effective facilitation
+- Common challenges new facilitators face and how to handle them
+- How to build confidence before your first engagement
+
+## Your Role as a Facilitator
+
+You are a guide, not a judge. This distinction is the single most important thing to internalize before you facilitate your first diagnostic.
+
+Your job is to create the conditions in which a team can honestly assess its own AI adoption practices. You are not there to evaluate them, grade them, or tell them where they should be. You are there to hold a mirror up and help them see clearly. The team's scores are their scores. Your value is in the quality of the conversation those scores produce.
+
+**What you do:**
+
+- Create psychological safety so team members can be honest about their actual practices -- not their aspirational ones
+- Guide discussion so the team moves from "what number did I pick?" to "what does this tell us about how we really work?"
+- Protect confidentiality -- what happens in the diagnostic workshop stays in the team report, not in the management report
+- Help the team and leadership translate results into concrete investment decisions
+
+**What you do not do:**
+
+- Audit the team's practices or verify their scores against external evidence
+- Advocate for a particular target zone or push teams toward higher scores
+- Share team-specific results with management (the [dual reporting model](/toolkit/engagement-model) exists for a reason)
+- Judge a team for being at Zone 0 or Zone 1 -- every starting point is a valid starting point
+
+If you have a consulting background, you may feel a pull to diagnose problems and prescribe solutions. Resist that pull during the diagnostic workshop. Your facilitation creates the space for the team to discover their own situation. The consulting happens later, during goal setting and roadmap development.
+
+## The Engagement Lifecycle
+
+A full ACE engagement has four phases. Understanding all four gives you context for where the diagnostic fits in the bigger picture.
+
+**1. Discovery (2-4 weeks).** Before you ever run a diagnostic, you learn about the organization. You interview stakeholders across business leadership, engineering leadership, and individual contributors. You build a context analysis that captures team composition, current AI tool usage, development maturity, and organizational constraints. This preparation is what lets you facilitate with depth rather than going through the motions. See the [engagement model](/toolkit/engagement-model) for the full Discovery process.
+
+**2. Diagnostic (1-2 weeks).** You facilitate self-assessment workshops with individual teams. Each workshop is a half-day session where the team works through the diagnostic questions, scores themselves individually, reveals scores as a group, and discusses what the results mean. You produce a team report for each team and a management report with aggregate patterns. This is the phase covered in detail in [Running Your First Diagnostic](/toolkit/running-your-first-diagnostic).
+
+**3. Goal Setting and Roadmap (1-2 weeks).** You work with leadership to choose target zones based on diagnostic results, and with teams to build progression roadmaps. This is where the diagnostic results become actionable. See [How to Choose a Target Zone](/toolkit/choose-target-zone) and [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
+
+**4. Implementation Support (3-12 months).** Ongoing advisory where you help the organization execute its roadmap, track progress through leading indicators, and periodically re-administer the diagnostic to measure actual competency changes.
+
+As a new facilitator, you will focus primarily on Phases 1 and 2. Goal setting and implementation support come with experience and deeper client relationships.
+
+## The Diagnostic Workshop
+
+The diagnostic workshop is where the framework comes alive. It is a 90-120 minute facilitated session with a complete delivery team -- developers, product managers, designers, QA engineers.
+
+Here is what happens, at a high level:
+
+1. You open by setting the tone: this is a self-assessment, not an audit. Honest low scores are more valuable than inflated high scores.
+2. Team members score themselves individually on the diagnostic questions for each zone being assessed. Individual scoring happens before any discussion to prevent anchoring.
+3. You reveal the score distribution to the group. The team sees where they agree and where they diverge.
+4. You facilitate a discussion about what the scores mean. High-variance items are especially rich -- when half the team scores a 5 and the other half scores a 2, there is a story there worth exploring.
+5. You close by summarizing what you heard and setting expectations for reports.
+
+The scores are the starting point, not the destination. The facilitated discussion is where the real insight happens. See [Running Your First Diagnostic](/toolkit/running-your-first-diagnostic) for the full step-by-step tutorial.
+
+## Dual Reporting
+
+ACE uses a dual reporting model, and this is non-negotiable. Understanding why will help you hold the line when clients push back.
+
+**The team report** goes to the team and their direct leadership. It contains specific scores, discussion themes, identified strengths and gaps, and investment recommendations. This report is detailed enough to be actionable at the team level.
+
+**The management report** goes to organizational leadership. It contains aggregate patterns across teams -- systemic findings, common investment themes, zone distribution across the organization. It does not contain individual team scores or team-specific discussion details.
+
+The separation exists because honest self-assessment requires safety. If team members believe their candid scores will be reported to senior leadership and compared against other teams, they will game the assessment. The diagnostic loses its value. You must confirm this model with the organizational sponsor before the engagement begins, and you must explain it clearly to teams at the start of every workshop.
+
+## Common Facilitation Challenges
+
+**The expert in the room.** One team member dominates discussion and pushes others toward their scores. Your job is to ensure every voice is heard. Use techniques like round-robin responses, or say: "I want to hear from someone who scored this differently."
+
+**The defensive team.** A team that feels like the diagnostic is a test will produce defensive, inflated scores. If you sense this, pause and re-establish safety. Remind them that there is no "right" answer and that you have seen highly effective teams score low in certain areas because they are honest about where they are still building habits.
+
+**The overly optimistic scorer.** Some individuals rate based on what they aspire to do rather than what they actually do under pressure. Ground them with specific examples: "Think about this past week specifically. On which days did you actually use AI tools? What happened on the days you didn't?"
+
+**Leadership who want team-level data.** Sponsors sometimes request individual team scores for the management report. Do not accommodate this. Explain the data quality argument: team-level data shared with management produces worse data quality on the next assessment, because teams learn to game the system.
+
+**Low scores that feel uncomfortable.** Teams sometimes feel embarrassed by low scores. Normalize this. Low scores are not failure -- they are an honest starting point. A team at Zone 0 with honest scores is in a better position than a team that inflates to Zone 2 because their roadmap will be based on reality.
+
+## Building Your Confidence
+
+Facilitating your first diagnostic can feel daunting. Here is how to prepare:
+
+**Study the model deeply.** Read the [zone reference documents](/toolkit/), the [competency concept](/toolkit/competency-vs-knowledge), and the [progressive competency model](/toolkit/progressive-competency-model) until you can explain them conversationally without referring to notes. You do not need to memorize every proficiency, but you need to understand the core ideas well enough to answer questions naturally.
+
+**Practice with the questions.** Read through the [diagnostic questionnaires](/toolkit/) and imagine how you would introduce each zone and each question. Practice saying the opening framing aloud. It will feel awkward the first few times. That is normal.
+
+**Run a mock workshop.** Ask colleagues or fellow facilitators-in-training to play the role of a team. Practice the full workshop flow: opening, individual scoring, score reveal, facilitated discussion, closing. The mock will feel artificial, but it builds muscle memory for the transitions between phases.
+
+**Shadow an experienced facilitator.** If you have the opportunity to observe a certified facilitator running a diagnostic, take it. Pay attention not to what they say, but to what they do when things go off-script -- when a discussion gets heated, when scores are surprising, when a team member is silent.
+
+**Accept imperfection.** Your first diagnostic will not be your best. That is fine. The certification program includes two supervised facilitations with feedback precisely because the skill develops through practice. Focus on creating safety and asking good questions. The rest improves with repetition.
+
+## Next Steps
+
+1. If you have not already, review the [pre-workshop checklist](/toolkit/pre-workshop-checklist) to understand the full preparation process.
+2. Read [Running Your First Diagnostic](/toolkit/running-your-first-diagnostic) for a detailed walkthrough of the workshop itself.
+3. Read [Interpreting Results](/toolkit/interpreting-results) to understand how to make sense of the scores your workshops produce.
+4. Work through the [facilitator certification program](/training/facilitator-certification) modules, starting with Module 1: The ACE Model.
+5. Connect with your mentor or cohort to schedule practice sessions and discuss questions.
+
+The best facilitators are not the ones who know the most about AI. They are the ones who ask the best questions and create the safest spaces for honest conversation. You are building that skill. Trust the process.
+
+## Related Documentation
+
+- [Running Your First Diagnostic](/toolkit/running-your-first-diagnostic) -- Step-by-step tutorial for the workshop itself
+- [Interpreting Results](/toolkit/interpreting-results) -- How to make sense of diagnostic scores
+- [Pre-Workshop Checklist](/toolkit/pre-workshop-checklist) -- Preparation checklist
+- [Engagement Model](/toolkit/engagement-model) -- Full engagement lifecycle
+- [Facilitator Certification](/training/facilitator-certification) -- Certification program overview
+- [Scoring Thresholds](/toolkit/scoring-thresholds) -- How scores are calculated and interpreted

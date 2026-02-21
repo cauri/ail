@@ -1,0 +1,49 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  ogType?: string;
+}
+
+const { title, description = "AI Competency Evaluation — a diagnostic framework for organizations navigating AI adoption.", ogType = "website" } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://example.com');
+const pageTitle = title === "AI Competency Evaluation" ? `${title} | ACE` : `${title} | ACE`;
+
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonicalURL.href} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <link rel="canonical" href={canonicalURL.href} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="min-h-screen bg-white text-primary antialiased">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-magenta focus:px-4 focus:py-2 focus:text-white">
+      Skip to main content
+    </a>
+    <slot />
+  </body>
+</html>

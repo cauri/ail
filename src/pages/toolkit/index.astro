@@ -1,0 +1,86 @@
+---
+import MarketingLayout from '../../layouts/MarketingLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allDocs = await getCollection('toolkit');
+
+const sectionOrder = ['diagnostic', 'reports', 'consulting', 'roadmaps', 'reference', 'guides', 'metrics'] as const;
+const sectionMeta: Record<string, { label: string; description: string; icon: string }> = {
+  diagnostic: {
+    label: "Diagnostic",
+    description: "Questionnaires, facilitation scripts, and scoring tools for team assessments.",
+    icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
+  },
+  reports: {
+    label: "Reports",
+    description: "Templates and samples for team and management diagnostic reports.",
+    icon: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
+  },
+  consulting: {
+    label: "Consulting",
+    description: "Engagement models, goal-setting frameworks, and discovery tools.",
+    icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
+  },
+  roadmaps: {
+    label: "Roadmaps",
+    description: "Zone-to-zone progression roadmap templates with investments and milestones.",
+    icon: "M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7",
+  },
+  reference: {
+    label: "Reference",
+    description: "Zone definitions, glossary, catalogs of proficiencies, investments, and techniques.",
+    icon: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+  },
+  guides: {
+    label: "Guides",
+    description: "Step-by-step guides for facilitators on running diagnostics, interpreting results, and more.",
+    icon: "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+  },
+  metrics: {
+    label: "Metrics",
+    description: "Metrics trees, zone-specific metrics, and organizational health indicators.",
+    icon: "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z",
+  },
+};
+---
+
+<MarketingLayout title="Facilitator Toolkit" description="Resources for certified ACE facilitators: diagnostic tools, report templates, and reference materials.">
+  <section class="bg-white px-6 py-24">
+    <div class="mx-auto max-w-4xl">
+      <h1 class="font-heading text-4xl leading-tight tracking-[-0.06em] text-primary md:text-5xl">
+        Facilitator Toolkit
+      </h1>
+      <p class="mt-6 text-lg text-gray-500">
+        Everything certified facilitators need to diagnose, plan, and guide organizations through their AI competency journey.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 px-6 py-20">
+    <div class="mx-auto grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {sectionOrder.map((sec) => {
+        const meta = sectionMeta[sec];
+        const items = allDocs.filter((doc) => doc.data.section === sec);
+        if (items.length === 0) return null;
+        const firstItem = items.sort((a, b) => a.data.order - b.data.order)[0];
+        return (
+          <a
+            href={`/toolkit/${firstItem.id}`}
+            class="group rounded-xl border border-gray-200 bg-white p-6 transition-shadow hover:shadow-md"
+          >
+            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-lavender">
+              <svg class="h-5 w-5 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={meta.icon} />
+              </svg>
+            </div>
+            <h3 class="mt-4 font-heading text-lg text-primary">{meta.label}</h3>
+            <p class="mt-2 text-sm text-gray-500">{meta.description}</p>
+            <p class="mt-3 text-sm font-medium text-magenta group-hover:text-pink">
+              {items.length} {items.length === 1 ? 'resource' : 'resources'} &rarr;
+            </p>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</MarketingLayout>

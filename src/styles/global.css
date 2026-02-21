@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #151D1A;
+  --color-magenta: #D912AE;
+  --color-pink: #FC55DE;
+  --color-lavender: #EDE8F5;
+  --color-light-blue: #EDF2FE;
+  --color-gray-50: #F9FAFB;
+  --color-gray-200: #E5E7EB;
+  --color-gray-500: #6B7280;
+
+  --font-heading: "DM Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+/* Base typography */
+html {
+  font-family: var(--font-body);
+  color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+}
+
+h1 {
+  letter-spacing: -0.06em;
+}
+
+/* Prose styling for markdown content */
+.prose {
+  max-width: 72ch;
+  line-height: 1.75;
+}
+
+.prose h1 {
+  font-size: 2.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  letter-spacing: -0.06em;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.prose h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose h4 {
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.prose p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.prose a {
+  color: var(--color-magenta);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  color: var(--color-pink);
+}
+
+.prose strong {
+  font-weight: 600;
+}
+
+.prose ul, .prose ol {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose li {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.prose li > ul, .prose li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.prose blockquote {
+  border-left: 4px solid var(--color-magenta);
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-gray-500);
+  font-style: italic;
+}
+
+.prose code {
+  font-size: 0.875em;
+  background-color: var(--color-gray-50);
+  border: 1px solid var(--color-gray-200);
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.375rem;
+}
+
+.prose pre {
+  background-color: var(--color-primary);
+  color: #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.prose pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.prose thead {
+  border-bottom: 2px solid var(--color-gray-200);
+}
+
+.prose th {
+  text-align: left;
+  padding: 0.75rem;
+  font-weight: 600;
+}
+
+.prose td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.prose tbody tr:hover {
+  background-color: var(--color-gray-50);
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--color-gray-200);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.prose img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}

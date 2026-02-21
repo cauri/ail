@@ -1,0 +1,26 @@
+---
+import TrainingLayout from '../../layouts/TrainingLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const modules = await getCollection('training');
+  return modules.map((mod) => ({
+    params: { slug: mod.id },
+    props: { mod },
+  }));
+}
+
+const { mod } = Astro.props;
+const { Content, headings } = await render(mod);
+---
+
+<TrainingLayout
+  title={mod.data.title}
+  description={mod.data.description}
+  headings={headings}
+>
+  <article class="prose">
+    <h1>{mod.data.title}</h1>
+    <Content />
+  </article>
+</TrainingLayout>

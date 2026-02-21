@@ -1,0 +1,45 @@
+---
+import MarketingLayout from '../../layouts/MarketingLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allModules = await getCollection('training');
+const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
+---
+
+<MarketingLayout title="Training Program" description="The ACE Facilitator Certification program prepares practitioners to diagnose, advise, and guide organizations through AI adoption.">
+  <section class="bg-white px-6 py-24">
+    <div class="mx-auto max-w-4xl">
+      <h1 class="font-heading text-4xl leading-tight tracking-[-0.06em] text-primary md:text-5xl">
+        Facilitator Certification Program
+      </h1>
+      <p class="mt-6 text-lg text-gray-500">
+        The ACE Facilitator Certification program prepares practitioners to diagnose organizational AI competency, set meaningful goals, and guide teams through progressive AI adoption.
+      </p>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 px-6 py-20">
+    <div class="mx-auto max-w-4xl space-y-4">
+      {sorted.map((mod, index) => (
+        <a
+          href={`/training/${mod.id}`}
+          class="group flex items-start gap-6 rounded-xl border border-gray-200 bg-white p-6 transition-shadow hover:shadow-md"
+        >
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-lavender font-heading text-sm font-medium text-magenta">
+            {index === 0 ? "O" : index < 6 ? String(index) : "V"}
+          </span>
+          <div class="min-w-0">
+            <h3 class="font-heading text-lg text-primary group-hover:text-magenta">
+              {mod.data.title}
+            </h3>
+            <p class="mt-1 text-sm text-gray-500">{mod.data.description}</p>
+            {mod.data.duration && (
+              <p class="mt-2 text-xs text-gray-500">Duration: {mod.data.duration}</p>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+</MarketingLayout>

@@ -1,0 +1,91 @@
+---
+interface NavSection {
+  title: string;
+  items: { label: string; href: string }[];
+}
+
+interface Props {
+  sections: NavSection[];
+  currentPath: string;
+}
+
+const { sections, currentPath } = Astro.props;
+---
+
+<aside class="hidden w-64 shrink-0 lg:block">
+  <nav class="sticky top-20 space-y-6 overflow-y-auto pr-4" style="max-height: calc(100vh - 6rem);">
+    {sections.map((section) => (
+      <div>
+        <p class="text-xs font-medium uppercase tracking-wider text-gray-500">
+          {section.title}
+        </p>
+        <ul class="mt-2 space-y-1">
+          {section.items.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  "block rounded-md px-3 py-1.5 text-sm transition-colors",
+                  currentPath === item.href
+                    ? "bg-lavender font-medium text-primary"
+                    : "text-gray-500 hover:bg-gray-50 hover:text-primary",
+                ]}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </nav>
+</aside>
+
+<!-- Mobile sidebar toggle -->
+<div class="mb-4 lg:hidden">
+  <button
+    id="sidebar-toggle"
+    class="flex items-center gap-2 rounded-lg border border-gray-200 px-4 py-2 text-sm font-medium text-gray-500"
+    aria-expanded="false"
+  >
+    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+    Navigation
+  </button>
+  <div id="mobile-sidebar" class="mt-2 hidden rounded-lg border border-gray-200 bg-white p-4">
+    {sections.map((section) => (
+      <div class="mb-4">
+        <p class="text-xs font-medium uppercase tracking-wider text-gray-500">
+          {section.title}
+        </p>
+        <ul class="mt-2 space-y-1">
+          {section.items.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                class:list={[
+                  "block rounded-md px-3 py-1.5 text-sm",
+                  currentPath === item.href
+                    ? "bg-lavender font-medium text-primary"
+                    : "text-gray-500",
+                ]}
+              >
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  const toggle = document.getElementById("sidebar-toggle");
+  const sidebar = document.getElementById("mobile-sidebar");
+  toggle?.addEventListener("click", () => {
+    const open = sidebar?.classList.toggle("hidden") === false;
+    toggle.setAttribute("aria-expanded", String(open));
+  });
+</script>

@@ -1,0 +1,127 @@
+---
+import MarketingLayout from '../layouts/MarketingLayout.astro';
+import Hero from '../components/Hero.astro';
+import ZoneCard from '../components/ZoneCard.astro';
+import ZoneProgressionDiagram from '../components/ZoneProgressionDiagram.astro';
+import EngagementSteps from '../components/EngagementSteps.astro';
+
+const zones = [
+  {
+    zone: 1,
+    title: "Augmenting",
+    description: "Individual developers use AI coding assistants to enhance personal productivity within existing workflows and processes.",
+  },
+  {
+    zone: 2,
+    title: "Integrating",
+    description: "Teams incorporate AI tools into shared development practices, adapting workflows and collaboration patterns around AI capabilities.",
+  },
+  {
+    zone: 3,
+    title: "Accelerating",
+    description: "Organizations redesign development processes and architecture around AI capabilities, achieving step-change improvements in delivery.",
+  },
+  {
+    zone: 4,
+    title: "Industrializing",
+    description: "AI becomes a core organizational competency with systematic governance, custom tooling, and strategic advantage through AI-native development.",
+  },
+];
+
+const steps = [
+  {
+    number: "01",
+    title: "Diagnose",
+    description: "Assess your teams' current AI competency zone through facilitated diagnostic workshops with calibrated questions.",
+  },
+  {
+    number: "02",
+    title: "Set Goals",
+    description: "Collaboratively choose target zones aligned with your strategic objectives and organizational competency.",
+  },
+  {
+    number: "03",
+    title: "Plan",
+    description: "Build a customized progression roadmap with specific investments, milestones, and measurable outcomes.",
+  },
+  {
+    number: "04",
+    title: "Progress",
+    description: "Execute your roadmap with ongoing coaching, periodic re-assessment, and adaptive guidance from certified facilitators.",
+  },
+];
+---
+
+<MarketingLayout title="AI Competency Evaluation">
+  <Hero
+    title="Know Where You Are. Choose Where You're Going."
+    subtitle="ACE is a diagnostic framework that helps organizations understand their current AI competency, set meaningful goals, and build actionable roadmaps for progression."
+    ctaText="Explore the Framework"
+    ctaHref="/about"
+  />
+
+  <ZoneProgressionDiagram />
+
+  <!-- Value proposition -->
+  <section class="bg-white px-6 py-20">
+    <div class="mx-auto max-w-5xl">
+      <h2 class="text-center font-heading text-3xl text-primary">A Framework for AI Adoption</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-center text-gray-500">
+        ACE provides a structured approach to organizational AI adoption that goes beyond tool selection.
+      </p>
+      <div class="mt-14 grid gap-8 md:grid-cols-3">
+        <div class="rounded-xl bg-gray-50 p-8 text-center">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-lavender">
+            <svg class="h-6 w-6 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="mt-4 font-heading text-lg text-primary">Diagnose</h3>
+          <p class="mt-2 text-sm text-gray-500">
+            Calibrated diagnostic questions reveal where your teams actually are — not where you hope they are.
+          </p>
+        </div>
+        <div class="rounded-xl bg-gray-50 p-8 text-center">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-lavender">
+            <svg class="h-6 w-6 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <h3 class="mt-4 font-heading text-lg text-primary">Plan</h3>
+          <p class="mt-2 text-sm text-gray-500">
+            Roadmaps with specific investments, metrics, and milestones tailored to your organization's context and goals.
+          </p>
+        </div>
+        <div class="rounded-xl bg-gray-50 p-8 text-center">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-lavender">
+            <svg class="h-6 w-6 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+            </svg>
+          </div>
+          <h3 class="mt-4 font-heading text-lg text-primary">Progress</h3>
+          <p class="mt-2 text-sm text-gray-500">
+            Measurable outcomes track real competency growth, not just tool adoption, with periodic re-assessment.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zone cards -->
+  <section class="bg-light-blue px-6 py-20">
+    <div class="mx-auto max-w-5xl">
+      <h2 class="text-center font-heading text-3xl text-primary">Four Zones of AI Competency</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-center text-gray-500">
+        Each zone represents a qualitatively different way that teams relate to AI in their software development practice.
+      </p>
+      <div class="mt-14 grid gap-6 md:grid-cols-2">
+        {zones.map((z) => (
+          <ZoneCard zone={z.zone} title={z.title} description={z.description} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <EngagementSteps steps={steps} />
+
+</MarketingLayout>

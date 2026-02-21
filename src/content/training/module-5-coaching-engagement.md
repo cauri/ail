@@ -1,0 +1,206 @@
+---
+title: "Module 5: Coaching Through Implementation"
+description: "How to support organizations through zone transitions with structured check-ins, investment retrospectives, re-diagnostics, regression handling, and ethical long-term engagement management."
+order: 5
+duration: "1-day intensive or 5 hours async"
+prerequisites: "Module 5 of 5 (capstone; requires Modules 1-4)"
+---
+
+**Duration:** 1-day intensive or 5 hours async
+**Position in program:** Module 5 of 5 (capstone; requires Modules 1-4)
+
+---
+
+## Learning Objectives
+
+By the end of this module, trainees will be able to:
+
+1. **Conduct effective monthly check-ins that maintain accountability without micromanagement.** Facilitate structured check-in conversations that surface progress, blockers, and leading indicator trends while preserving the client relationship -- asking the accountability question without issuing an accusation, and escalating appropriately when progress has stalled.
+
+2. **Facilitate quarterly investment retrospectives that identify what is working and what is not.** Guide a structured retrospective conversation that evaluates investments against outcomes, differentiates skill deficit from organizational environment failure, and produces a documented Investment Retrospective Report that informs the next roadmap cycle.
+
+3. **Administer and interpret re-diagnostics in comparison to baseline results.** Re-facilitate the diagnostic assessment, compare results to the baseline with analytical rigor, identify genuine behavioral progress versus score inflation, and translate the comparison into updated roadmap recommendations.
+
+4. **Handle regression when teams slide back to previous zone behaviors under pressure.** Diagnose whether regression reflects a competency issue, an environmental issue, or a leadership issue; respond without assigning blame; and determine when regression signals a need to revisit the target zone or the investment plan rather than simply redouble practice effort.
+
+5. **Manage the ongoing facilitator-client relationship through obstacles, organizational change, and disengagement.** Navigate the dynamics of trust, dependency, and appropriate professional distance across a multi-month engagement; handle client disengagement requests with honesty about competency; and apply the ethical standards the framework requires when assessing progress, handling confidential information, and representing what ACE can and cannot claim.
+
+---
+
+## Content Outline
+
+### Session 1: The Implementation Support Model
+
+**Why Implementation Support exists.** Plans that sit in drawers are the norm, not the exception, in organizational change. The goal-setting session produces a zone commitment. The roadmap design session produces a plan. Neither output produces behavioral change on its own. Without structured follow-through, the roadmap becomes a document that leadership approved and then did not act on. Implementation Support exists to close the gap between plan and practice.
+
+**The three functions.** Implementation Support has three distinct functions that must be held simultaneously. Accountability: checking whether the investments that were committed have actually been made, and whether the activities the roadmap specified are actually happening. Obstacle navigation: identifying organizational friction that is blocking progress and helping leadership see what needs to change. Course correction: using re-diagnostic evidence to update the roadmap when reality has diverged from the plan. Facilitators who focus only on accountability become enforcers. Facilitators who focus only on support lose the productive tension that accountability creates. All three functions are required.
+
+**Structuring the ongoing engagement.** The cadence of Implementation Support is: monthly check-ins with engineering leadership, quarterly investment retrospectives, re-diagnostics every 3-6 months depending on the zone transition timeline, and roadmap refreshes after each re-diagnostic. Each engagement type has a different purpose and a different conversation structure. The facilitator must distinguish between them clearly and resist the tendency to let check-ins drift into retrospective territory or retrospectives drift into re-diagnostic territory.
+
+**When to escalate versus when to coach through.** Most implementation obstacles can be navigated through facilitated conversation with the team and their immediate leadership. Some obstacles require escalation to senior leadership: when investment commitments made at the goal-setting session have not been honored and the team has no authority to change that; when organizational decisions made after the roadmap was designed have materially changed what is achievable; when the engagement is at risk of producing results that would mislead leadership about actual progress. Facilitators should develop clear escalation criteria before they need them.
+
+### Session 2: Effective Check-Ins
+
+**The check-in agenda.** Each monthly check-in covers four items in order: progress against the current roadmap phase (which milestones are complete, which are in progress, which are behind), leading indicator review (what do the dashboard numbers show, and what trends are visible), blockers (what is preventing progress that was not anticipated in the roadmap), and cross-team learnings (what has the team learned that should be shared with other teams in a multi-team engagement). The agenda is short. The check-in is not a status meeting; it is a coaching conversation with a structured spine.
+
+**The accountability question without the accusation.** "Why haven't you done X?" is an accusation posing as a question. It assigns blame before understanding. "How are you feeling about the roadmap progress?" is an invitation to reflect before reporting. The facilitator's job in a check-in is to understand the team's honest experience of their own progress, not to catch them falling short. When progress is behind, the productive questions are: "What is making this harder than we expected?" and "What would need to change for this to be easier?" These questions open problem-solving rather than defensive justification.
+
+**When a team is behind: diagnosing skill, will, or environment.** A team behind on its roadmap may be behind for three distinct reasons, each requiring a different response. Skill deficit: the team is willing but lacks the capability to execute the practices consistently. Response: additional coaching, pairing support, or targeted training. Will deficit: the team has the capability but has deprioritized the practices under competing pressures. Response: a direct conversation about prioritization, escalating to leadership if the deprioritization is systemic. Environmental barrier: the organizational conditions the roadmap assumed are not in place -- the infrastructure does not exist, the policy has not been updated, the time allocation was consumed by other demands. Response: surface the gap to leadership; this is not the team's failure to fix.
+
+**Escalation triggers.** Not every obstacle warrants escalation. The facilitator escalates when: the team has been unable to make progress for two consecutive check-in periods despite genuine effort; an investment that was committed at the goal-setting session has not been made and the team has no authority to change that; or the team's honest assessment is that they do not have leadership support for the work the roadmap requires. Escalation means re-engaging the leadership stakeholders from the goal-setting session, not bypassing the team's manager.
+
+### Session 3: Facilitating Investment Retrospectives
+
+**The quarterly retrospective purpose.** The investment retrospective is distinct from a check-in. Check-ins monitor progress week-to-week and month-to-month. The quarterly retrospective steps back and asks: are our investments producing results? This requires evaluating each investment category -- tools, policies, time, structural changes -- against what the roadmap predicted they would produce. If investments were made and results did not materialize, the retrospective diagnoses why. If investments were not made, the retrospective surfaces that fact without turning it into a blame event.
+
+**Questions to guide the retrospective.** "Which investments have produced the behavioral changes they were intended to produce?" "Which investments have stalled, and what is the clearest explanation for why?" "Are the organizational investments keeping pace with what the team's progress requires?" "If we had to redirect one planned investment and add one we have not tried yet, what would those be?" These questions surface the distinction between investments that worked and investments that were made without producing results -- a distinction that is easy to obscure if the retrospective is run as a celebration of effort rather than an evaluation of effect.
+
+**Differentiating skill deficit from organizational environment failure.** The retrospective must diagnose honestly whether stalled progress reflects the team's skill development (the team needs more practice time and coaching) or an organizational environment that is working against the practices (the infrastructure is not there, the policy has not changed, management behavior continues to reward old patterns). These require different responses. Skill deficit calls for more support within the current investment plan. Environment failure calls for new organizational investments that were not in the original roadmap. Conflating the two -- blaming the team for not practicing when the environment makes practice difficult -- is one of the most common and damaging errors a facilitator can make.
+
+**Producing the Investment Retrospective Report.** The quarterly retrospective produces a documented report (1-2 pages) that records: which investments were active in the quarter, what behavioral evidence emerged from each, what the leading indicators showed, a summary diagnosis for each investment category (working, stalled, or not yet measurable), and recommended adjustments for the next quarter. This report serves as the input to the next roadmap refresh and as the institutional memory of what was tried, what worked, and why.
+
+### Session 4: Re-Diagnostics and Competency Progression
+
+**Why re-diagnostics are essential.** Behavioral competency cannot be declared; it must be demonstrated. Teams and leadership can sincerely believe that practices have become habitual when they have not yet survived the stress test. The re-diagnostic is the structured mechanism for measuring behavioral competency against the same instrument used at baseline, under the same facilitated self-assessment conditions. Without re-diagnostics, the engagement lacks an evidence base for the claims it makes about progress.
+
+**How to prepare a team for re-assessment.** Teams sometimes experience re-diagnostics as tests -- an evaluation of whether they passed or failed since the last assessment. The facilitator must reframe this explicitly: the re-diagnostic measures where the team is now so the next roadmap phase can be designed accurately. Progress matters; perfection does not. If scores have not improved, that is useful information for calibrating the roadmap, not a verdict on the team's effort or value. Teams who are anxious about re-assessment tend to over-rate their practices; the facilitator should address this directly in the pre-session framing.
+
+**Interpreting re-diagnostic results versus baseline.** Genuine progress looks like higher scores on behaviors that the roadmap specifically targeted, accompanied by leading indicator trends that are consistent with the score changes. The re-diagnostic should not produce surprises that the leading indicators did not predict. If diagnostic scores have improved dramatically but the leading indicators showed no movement during the period, the score improvement requires scrutiny.
+
+**Score inflation.** Score inflation occurs when teams rate their practices higher without actual behavioral change. It manifests as: scores improve on dimensions that received no targeted investment; self-assessment answers shift to more positive responses without the team being able to name specific behavioral changes; or scores improve on the group instrument but would not survive a behavioral observation in the team's daily work. The facilitator's job is to probe responses that seem higher than the evidence supports -- not to challenge the team's honesty, but to ensure the assessment reflects observable behavior rather than aspirational self-perception. The probe is gentle and specific: "That score is higher than last time. Can you point to a specific example from the past month when you used that practice under pressure?"
+
+**Adjusting the roadmap based on re-diagnostic findings.** When re-diagnostic results diverge from roadmap expectations -- whether ahead, behind, or sideways -- the roadmap must be updated before the next Implementation Support phase begins. The Module 5 skill is facilitating the conversation with leadership that produces a shared understanding of what the re-diagnostic found and what the updated roadmap requires, including delivering findings that conflict with what leadership hoped to hear.
+
+### Session 5: Handling Regression
+
+**What regression is.** Regression is when a team reverts to pre-zone behaviors under pressure. A Zone 2 team under a major delivery crunch stops using externalized plans, skips the Plan/Code/Verify workflow, and each developer falls back on individual AI usage without reference to the shared configuration. Regression is not a failure of the engagement; it is a diagnostic signal about which practices are deeply habitual (they survive pressure) and which are still fragile (they do not).
+
+**Why regression happens.** Stress exposes fragile habits. When a team is under pressure, they revert to what is most automatic. Practices that have not yet become truly habitual -- which is the definition of being in the Learning or Proficient stage rather than the Competent stage -- are the first to go when cognitive load increases. Regression is most common during major delivery deadlines, organizational disruptions (reorgs, leadership changes), and after periods of team instability (turnover, new members who have not yet learned the shared practices).
+
+**The regression diagnostic.** When regression is identified, the facilitator diagnoses the cause before prescribing a response. Three categories: competency issue (the practices were not yet habitual -- the team was at Proficient, not Competent, and pressure revealed the gap); environmental issue (the organizational conditions for the practices were removed or degraded -- the infrastructure is down, the policy changed, management is no longer supporting the practices); leadership issue (leadership is explicitly or implicitly signaling that the old behaviors are acceptable under pressure -- "just ship it" culture overriding "practice the workflow" culture). Each calls for a different response, and misdiagnosing the cause produces a response that fails.
+
+**How to respond to regression without blame.** "Let us understand what happened, not who failed" is the framing that opens a productive regression conversation. The facilitator's first move is descriptive: here is what the leading indicators showed, here is when the regression appears to have started, here is what the re-diagnostic shows. The second move is diagnostic: what changed in the environment around that time? What pressure was the team under? Were the organizational conditions for the practices still in place? The third move is prescriptive: given what we found, here is what the updated roadmap should address.
+
+**When regression signals a need to revisit the target zone or investment plan.** Repeated regression -- the team reverts consistently when under pressure despite sustained investment -- may signal that the target zone is not achievable with the current investment level, or that the target zone was not the right choice for this organization's actual risk tolerance and capacity. The facilitator must be willing to raise this possibility directly and without softening it into an easy message. A Zone 3 target with Zone 1 investment produces Zone 1 regression under pressure every time.
+
+### Session 6: Relationship Management and Disengagement
+
+**The facilitator-client relationship over time.** Long engagements produce trust, which is valuable; they also produce dependency, which is a risk. A client who cannot evaluate their own roadmap progress without the facilitator's interpretation has not developed internal capability. Facilitators should actively build the client's capacity to use the leading indicators dashboard, interpret re-diagnostic results, and facilitate internal retrospectives -- not because the facilitator wants to disengage prematurely, but because client capability is one of the outcomes the engagement is designed to produce.
+
+**When clients want to disengage before achieving competency.** Clients sometimes request disengagement when they feel they have "got the idea" and can manage from here, when the engagement has hit a difficult period and disengagement feels easier than the hard conversation it requires, or when budget pressure makes the ongoing engagement expendable. The facilitator's response is not to argue for continued engagement but to give an honest assessment of what "done" looks like for this engagement and what the evidence says about whether the team is there. If the team is genuinely competent, disengagement is appropriate. If the team is at Proficient but has not yet demonstrated Competent-stage behavior under sustained stress, the facilitator should say so plainly and let the client make an informed decision.
+
+**Advising zone target recalibration.** Sometimes the right recommendation is not "keep investing until you reach the target" -- it is "the target you chose is not the right target for your organization." The facilitator must be equipped to have this conversation proactively, without waiting for the client to raise it.
+
+Recalibration is warranted -- and the facilitator should raise it -- when:
+
+- The organization has made genuine, sustained investment for 6+ months and behavioral change has not compounded in the expected pattern. Investment without progress is not evidence of insufficient effort; it may be evidence that the target zone requires organizational conditions that are not present.
+- Organizational context has changed materially since the goal-setting session. Leadership changes, strategic pivots, budget reductions, or major market shifts can invalidate the reasoning behind the original zone selection. A facilitator who operates as if the original decision is immutable is not serving the client.
+- The re-diagnostic and leading indicators show that the team is performing well at a zone that is lower than the declared target. A team that achieves genuine, resilient Zone 2 Independently Competent competency has succeeded. If Zone 3 was the declared target but was never strategically necessary, the right conclusion may be "you have reached an excellent destination" rather than "you have not reached your declared target."
+- Repeated regression specifically in the practices that define the target zone -- rather than foundational practices -- suggests the target zone requires capabilities or conditions the organization cannot yet sustain.
+
+**How to facilitate the recalibration conversation.** Recalibration is not a failure announcement. It is a strategic update -- the same kind of strategic reasoning that informed the original zone selection, applied to current evidence. The facilitator opens the conversation with evidence, not a conclusion: "I want to walk you through what the data shows and then have a conversation about whether the target we set 9 months ago still makes sense for where you are now." Present the re-diagnostic and leading indicator trends honestly. Then ask the questions from the goal-setting decision framework against current conditions: Has the strategic need for Zone 3 velocity changed? Has the investment capacity to sustain this transition changed? What does the competitive landscape look like now versus when we made this decision?
+
+Avoid framing recalibration as "giving up." A zone recalibration that reduces the target from Zone 3 to Zone 2 Independently Competent is a success if Zone 2 genuinely serves the organization's needs. The facilitator should say this explicitly: "Reaching deeply competent Zone 2 is a meaningful achievement. That was always a valid destination, and it may be the right one."
+
+**Graceful engagement endings.** Implementation Support reaches a natural conclusion when: the team has demonstrated Competent-stage behavior on the leading indicators across at least two consecutive measurement periods, including at least one high-pressure period; the client team has internal capability to run leading indicator reviews and investment retrospectives without the facilitator; and the most recent re-diagnostic shows Competent or Independently Competent scores on the target zone proficiencies. These are observable criteria, not a feeling about competency.
+
+**Keeping the door open.** Disengagement is not permanent. Organizational conditions change. Teams that achieved Zone 2 competency may later decide to pursue Zone 3. Leadership changes may create new openings for investments that were previously blocked. The facilitator should close engagements in a way that leaves a clear path for re-engagement, including a brief summary of where the team was at disengagement and what a future re-engagement would logically address.
+
+**Ethical considerations.** Two ethical pressures are specific to long engagements. The first is perpetuating engagement for revenue: the facilitator has a financial incentive to keep the engagement active, which can bias assessments toward "more work needed" when the honest assessment is "this team is done." The second is sycophancy: after building a genuine relationship with a client team, it is natural to want to report positive progress. Facilitators must hold both pressures honestly and report what they actually observe, not what sustains the engagement or pleases the client.
+
+### Session 7: Ethical Standards in Practice
+
+**Confidentiality in multi-team engagements.** When the facilitator runs diagnostics across multiple teams in the same organization, they produce both team-level reports (shared with the team) and management-level reports (shared with leadership). Team-specific scores belong in team reports, not in comparative management summaries. A leadership stakeholder who asks "which team scored lowest?" is asking the facilitator to violate the confidentiality structure the diagnostic process depends on. The response is direct: the management report identifies systemic patterns across the engagement; individual team results are shared with each team, not with leadership as a comparative ranking.
+
+**Conflicts of interest.** A facilitator who is also providing implementation consulting to the same client faces a conflict between the honest-broker role the ACE diagnostic requires and the commercial interest of the consulting relationship. The facilitator should disclose this conflict explicitly at engagement initiation and establish with leadership how diagnostic results will be interpreted independently of consulting recommendations. When in doubt, separate roles: have the diagnostic facilitated by someone without a consulting relationship with the client.
+
+**When diagnostic results conflict with leadership expectations.** Leadership may expect the diagnostic to confirm that their AI investment is working. When the results show otherwise, the facilitator faces pressure to soften the findings. The response is: the diagnostic reflects what the team reported, facilitated under the standard protocol. The facilitator can help leadership interpret the findings and identify what investments would change them, but cannot change what the findings are. A facilitator who softens diagnostic results to please leadership has undermined the single most valuable thing the framework provides: an honest picture.
+
+**Representing the framework accurately.** ACE makes claims about the competency model, the diagnostic methodology, and the organizational investment patterns that are supported by practice and organizational change research. The AI-specific zone proficiencies are newer and less validated. Zone 4 practices are less mature than those in earlier zones. Facilitators should represent this accurately: what the framework has strong grounds for claiming, and where the framework is still maturing. Overstating the framework's validation to close a sale or retain a client is a misrepresentation that ultimately damages the facilitator's credibility and the framework's integrity.
+
+---
+
+## Learning Activities
+
+### Activity 1: Check-In Simulation
+
+**Format:** Pairs role-play exercise, 45 minutes
+
+One trainee plays the facilitator conducting a monthly check-in. The other plays a mid-level engineering manager using a persona card. The persona card describes: a team that has missed two consecutive roadmap milestones; the manager's explanation, which attributes the failures to external factors (a major incident response, a surprise audit, a leadership reorganization); and a defensive posture that resists direct accountability.
+
+The facilitating trainee must conduct the check-in agenda without turning it into an accusation session, use the leading indicator data provided in the scenario to surface what actually happened, distinguish between genuine environmental obstacles and post-hoc rationalization, and end the check-in with a clear next step the manager has genuinely committed to rather than agreed to under pressure.
+
+After 20 minutes, pairs switch roles with a new persona card. The full group debriefs: what techniques maintained accountability without triggering defensiveness? What questions opened up honest conversation? Where did facilitators slip into accusation mode or, conversely, let the manager avoid accountability entirely?
+
+### Activity 2: Investment Retrospective Practice
+
+**Format:** Small group exercise, 30 minutes
+
+Each group of 3-4 trainees receives a quarterly investment package for a team six months into a Zone 1-to-2 roadmap. The package includes: the original investment commitments from the goal-setting session (5 named investments with owners and timelines), a leading indicators dashboard showing 6 months of data, brief monthly check-in summaries, and a one-page investment status update from the engineering manager. Two of the five investments are producing clear behavioral change; one was made but shows no measurable effect; one was partially made (budget approved but not yet spent); one was not made at all (the policy update that was promised has stalled).
+
+One trainee in each group facilitates a 15-minute mock retrospective with the others playing the engineering manager and a leadership sponsor. The facilitating trainee must:
+
+1. Walk through each investment category using the retrospective questions from Session 3: which investments produced behavioral change, which stalled, and why?
+2. Distinguish between the investment that was made without producing results (a skill deficit diagnosis -- the team may need more coaching) and the investment that was not made (an environment failure diagnosis -- leadership needs to re-commit or acknowledge the gap).
+3. Produce a brief verbal summary of what the Investment Retrospective Report would contain: which investments to continue, which to adjust, and what new organizational commitment is needed.
+
+After the mock retrospective, groups rotate facilitators and repeat with a different investment package. The full group debriefs: How did facilitators handle the "investment not made" finding without turning it into an accusation? What questions surfaced the distinction between "made but ineffective" and "not made at all"?
+
+### Activity 3: Regression Diagnosis Exercise
+
+**Format:** Small group exercise, 30 minutes
+
+Each group of 3-4 trainees receives a scenario package: a team's original diagnostic results, their roadmap, their leading indicators dashboard over 6 months, and a re-diagnostic result that shows score decline in 3-4 proficiency areas. The scenario includes contextual details about what happened in the organization during the measurement period.
+
+Groups must identify which regression category applies (competency issue, environmental issue, or leadership issue), cite specific evidence from the scenario that supports the diagnosis, and propose a specific response -- what should the roadmap adjustment be, and what conversation does the facilitator need to have with whom?
+
+Groups present their diagnoses and rationale to the full cohort. The facilitator highlights cases where the same evidence could support multiple diagnoses, and discusses how the facilitator decides which diagnosis is most actionable when the evidence is ambiguous.
+
+### Activity 4: Ethical Dilemma Discussion
+
+**Format:** Full group discussion, 40 minutes
+
+The facilitator presents 3-4 ethical scenarios, one at a time. For each scenario, small groups have 5 minutes to discuss the appropriate response and what ACE ethical standards require, then share with the full group.
+
+Example scenarios: "A client's VP of Engineering asks you to share which of the four teams in the engagement scored lowest on the re-diagnostic, saying they want to direct more support to that team." "You have been facilitating an engagement for 14 months and the team's last re-diagnostic showed Competent-stage scores in their target zone. The client wants to continue for another 6 months -- this represents a significant portion of your annual revenue." "You are facilitating a diagnostic for a client where you are also the implementation consultant. The diagnostic results suggest the implementation approach you recommended is not producing results." "A CEO asks you to confirm in a public press release that their organization is 'Zone 3 certified by ACE.'"
+
+Discussion focuses on: what ACE ethical standards apply to this scenario, what the short-term pressure to respond differently looks like, and what the long-term consequence of the ethically compromised response would be for the client, the facilitator, and the framework's credibility.
+
+---
+
+## Assessment
+
+### Capstone Case Study
+
+**Format:** Take-home written assessment
+
+Trainees receive a complete engagement scenario package covering: the discovery findings and initial diagnostic results from 7 months ago, the roadmap that was designed after goal-setting, monthly check-in summaries for months 1-6, the leading indicators dashboard through month 6, and a re-diagnostic result from month 7 that shows mixed results -- clear progress in three Zone 2 proficiency areas, a slight regression in two others, and scores that are ambiguous on one proficiency where the answers shifted upward but the facilitation notes flagged possible score inflation.
+
+Trainees produce a re-engagement memo addressed to the client's engineering leadership. The memo must:
+
+1. Summarize the re-diagnostic findings honestly, including the ambiguous proficiency and the basis for flagging possible score inflation.
+2. Explain the regression findings in diagnostic rather than accusatory terms, including a recommended root cause assessment.
+3. Recommend specific roadmap adjustments for the next 3 months, with rationale.
+4. Address the question of whether Implementation Support should continue past month 10 and, if so, what milestones would indicate that the engagement has reached a natural conclusion.
+
+Assessment evaluates the trainee's integration of all five module learning objectives: check-in quality (is the progress assessment grounded in evidence?), retrospective reasoning (does the memo distinguish skill deficit from environment failure?), re-diagnostic interpretation (is the score inflation concern handled appropriately?), regression response (is the regression diagnosed and addressed without blame?), and relationship management (does the memo address engagement continuation honestly rather than in a way that serves the facilitator's financial interests?).
+
+---
+
+## Preparation for Supervised Facilitations
+
+After completing Module 5, trainees move into the supervised practice phase of the certification program. Before beginning a supervised engagement, trainees should:
+
+- Review the complete facilitator certification requirements in the [Program Overview](/training/program-overview/) to understand what the supervising facilitator will observe and evaluate during live engagements.
+- Complete a personal self-assessment against all five modules: which learning objectives feel secure, and which feel fragile under real conditions when the client pushes back, the evidence is ambiguous, or the relationship is under stress?
+- Identify a supervising facilitator through the certification program and schedule an orientation conversation before the first supervised engagement begins. Use the orientation to surface any open questions from the five modules that remain unresolved.
+- Review the diagnostic instruments, roadmap templates, and report formats from all previous modules as a practical reference during live facilitations -- not to memorize, but to know where they are and how they connect to the situations this module addresses.
+
+The supervised facilitation phase requires completing at least two full engagements (through at least one re-diagnostic cycle each) under observation, with structured feedback from a certified supervising facilitator. Certification is granted when the supervising facilitator documents that the trainee has demonstrated all five module objectives in live engagement conditions -- not by performing under ideal circumstances, but by navigating the real obstacles, relationship dynamics, and ambiguous evidence that actual implementations produce.
+
+---
+
+## Related Documentation
+
+- [Competency vs. Knowledge](/toolkit/competency-vs-knowledge/)
+- [Organizational Investments](/toolkit/organizational-investments/)

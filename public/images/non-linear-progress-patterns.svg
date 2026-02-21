@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1100" height="650" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Non-Linear Progress Patterns</text>
+  <text x="450" y="50" text-anchor="middle" font-size="12" fill="#666">What competency development actually looks like over time</text>
+
+  <!-- Chart Area: x=100 to x=780 -->
+  <!-- Y-axis -->
+  <line x1="100" y1="80" x2="100" y2="440" stroke="#334155" stroke-width="1.5"/>
+  <text x="50" y="260" text-anchor="middle" font-size="10" fill="#64748b" transform="rotate(-90 50 260)">Competency Score / Leading Indicator Signal</text>
+  <!-- Y-axis ticks -->
+  <line x1="95" y1="100" x2="100" y2="100" stroke="#334155" stroke-width="1"/>
+  <text x="88" y="104" text-anchor="end" font-size="8" fill="#94a3b8">High</text>
+  <line x1="95" y1="260" x2="100" y2="260" stroke="#334155" stroke-width="1"/>
+  <text x="88" y="264" text-anchor="end" font-size="8" fill="#94a3b8">Mid</text>
+  <line x1="95" y1="420" x2="100" y2="420" stroke="#334155" stroke-width="1"/>
+  <text x="88" y="424" text-anchor="end" font-size="8" fill="#94a3b8">Low</text>
+
+  <!-- X-axis -->
+  <line x1="100" y1="440" x2="780" y2="440" stroke="#334155" stroke-width="1.5"/>
+  <text x="440" y="470" text-anchor="middle" font-size="10" fill="#64748b">Months</text>
+  <!-- X-axis ticks: 0=100, 3=270, 6=440, 9=610, 12=780 (spacing=56.67/mo) -->
+  <line x1="100" y1="440" x2="100" y2="445" stroke="#334155" stroke-width="1"/>
+  <text x="100" y="458" text-anchor="middle" font-size="9" fill="#94a3b8">0</text>
+  <line x1="270" y1="440" x2="270" y2="445" stroke="#334155" stroke-width="1"/>
+  <text x="270" y="458" text-anchor="middle" font-size="9" fill="#94a3b8">3</text>
+  <line x1="440" y1="440" x2="440" y2="445" stroke="#334155" stroke-width="1"/>
+  <text x="440" y="458" text-anchor="middle" font-size="9" fill="#94a3b8">6</text>
+  <line x1="610" y1="440" x2="610" y2="445" stroke="#334155" stroke-width="1"/>
+  <text x="610" y="458" text-anchor="middle" font-size="9" fill="#94a3b8">9</text>
+  <line x1="780" y1="440" x2="780" y2="445" stroke="#334155" stroke-width="1"/>
+  <text x="780" y="458" text-anchor="middle" font-size="9" fill="#94a3b8">12</text>
+
+  <!-- Grid lines (light) -->
+  <line x1="100" y1="180" x2="780" y2="180" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="100" y1="260" x2="780" y2="260" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="100" y1="340" x2="780" y2="340" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="270" y1="80" x2="270" y2="440" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="440" y1="80" x2="440" y2="440" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="610" y1="80" x2="610" y2="440" stroke="#f1f5f9" stroke-width="1"/>
+
+  <!-- Line 1: "What clients expect" (thin gray dashed) -->
+  <line x1="100" y1="410" x2="760" y2="120" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="690" y="110" font-size="9" fill="#94a3b8">Expected: steady,</text>
+  <text x="690" y="122" font-size="9" fill="#94a3b8">linear improvement</text>
+
+  <!-- Line 2: "What actually happens" (thick solid) -->
+  <!-- Rescaled: mo 0=x100, 1=157, 2=213, 3=270, 4=327, 5=383, 6=440, 7=497, 8=553, 9=610, 10=667, 11=723, 12=780 -->
+  <polyline
+    points="100,400 157,370 213,340 242,335 270,333 300,332 327,333 355,333 383,330 400,310 420,260 440,210 470,185 497,170 525,162 553,155 580,152 597,155 610,165 625,180 640,175 660,160 685,150 710,145 745,140 770,138"
+    fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Leading indicators line (dotted, secondary) -->
+  <polyline
+    points="100,395 157,365 213,330 242,318 270,305 300,295 327,285 355,280 383,270 400,260 420,240 440,205 470,188 497,178 525,170 553,165 580,163 597,168 610,178 625,172 640,160 660,148 685,142 710,138 745,135 770,133"
+    fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="5,3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- PLATEAU bracket and label -->
+  <line x1="213" y1="350" x2="213" y2="360" stroke="#475569" stroke-width="1"/>
+  <line x1="213" y1="360" x2="383" y2="360" stroke="#475569" stroke-width="1.5"/>
+  <line x1="383" y1="350" x2="383" y2="360" stroke="#475569" stroke-width="1"/>
+  <rect x="218" y="368" width="160" height="52" rx="4" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+  <text x="298" y="383" text-anchor="middle" font-size="10" font-weight="bold" fill="#1e40af">PLATEAU</text>
+  <text x="298" y="396" text-anchor="middle" font-size="8" fill="#3b82f6">Practices adopted but not yet</text>
+  <text x="298" y="407" text-anchor="middle" font-size="8" fill="#3b82f6">habitual under stress. This is normal.</text>
+
+  <!-- JUMP label -->
+  <rect x="400" y="225" width="95" height="42" rx="4" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+  <text x="447" y="242" text-anchor="middle" font-size="10" font-weight="bold" fill="#15803d">JUMP</text>
+  <text x="447" y="256" text-anchor="middle" font-size="8" fill="#16a34a">Compound</text>
+  <text x="447" y="265" text-anchor="middle" font-size="8" fill="#16a34a">improvement</text>
+
+  <!-- REGRESSION label -->
+  <rect x="580" y="190" width="100" height="42" rx="4" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="630" y="207" text-anchor="middle" font-size="10" font-weight="bold" fill="#dc2626">REGRESSION</text>
+  <text x="630" y="219" text-anchor="middle" font-size="8" fill="#ef4444">Reveals which</text>
+  <text x="630" y="228" text-anchor="middle" font-size="8" fill="#ef4444">practices are fragile</text>
+
+  <!-- Annotations (right panel) -->
+  <rect x="810" y="80" width="270" height="370" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Plateau annotation -->
+  <text x="825" y="108" font-size="10" font-weight="bold" fill="#1e40af">At the plateau:</text>
+  <text x="825" y="126" font-size="9" fill="#475569">"The indicators show you are practicing.</text>
+  <text x="825" y="141" font-size="9" fill="#475569">The behavioral shift will come."</text>
+
+  <!-- Jump annotation -->
+  <text x="825" y="175" font-size="10" font-weight="bold" fill="#15803d">At the jump:</text>
+  <text x="825" y="193" font-size="9" fill="#475569">This is NOT a breakthrough — it's the</text>
+  <text x="825" y="208" font-size="9" fill="#475569">accumulated result of plateau investment.</text>
+
+  <!-- Regression annotation -->
+  <text x="825" y="245" font-size="10" font-weight="bold" fill="#dc2626">At regression:</text>
+  <text x="825" y="263" font-size="9" fill="#475569">This is NOT a failure — it's diagnostic</text>
+  <text x="825" y="278" font-size="9" fill="#475569">info about where more practice is needed.</text>
+
+  <!-- Leading indicator note -->
+  <text x="825" y="320" font-size="10" font-weight="bold" fill="#7c3aed">Leading indicators:</text>
+  <text x="825" y="338" font-size="9" fill="#475569">Move BEFORE diagnostic scores. They</text>
+  <text x="825" y="353" font-size="9" fill="#475569">are the early warning system.</text>
+
+  <!-- Legend -->
+  <rect x="100" y="485" width="980" height="42" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="120" y1="505" x2="160" y2="505" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="8,4"/>
+  <text x="168" y="509" font-size="9" fill="#64748b">What clients expect</text>
+  <line x1="360" y1="505" x2="400" y2="505" stroke="#2563eb" stroke-width="3"/>
+  <text x="408" y="509" font-size="9" fill="#64748b">What actually happens (diagnostic score)</text>
+  <line x1="680" y1="505" x2="720" y2="505" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="728" y="509" font-size="9" fill="#64748b">Leading indicators</text>
+
+  <!-- Bottom note -->
+  <rect x="100" y="540" width="980" height="30" rx="4" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+  <text x="590" y="560" text-anchor="middle" font-size="10" fill="#92400e">Typical plateau duration: 4-8 weeks. If no movement after 8 weeks with continued investment, consider re-diagnostic.</text>
+</svg>

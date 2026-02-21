@@ -1,0 +1,73 @@
+---
+title: "Zone 3 (Accelerating) Diagnostic Questions"
+description: "These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements."
+section: "diagnostic"
+order: 3
+---
+## Purpose
+
+These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements. Zone 3 competency means engineers operate as process designers rather than manual implementers --- they build and maintain the systems that enable AI to do the bulk of implementation work reliably. The questions measure organizational-level behaviors: Continuous Alignment Testing (CAT), observability of AI-driven processes, eval harnesses, prompt versioning, and the emergence of the AI Engineer role.
+
+## Questions
+
+All questions are answered on a 1-5 frequency scale (see Scale below). Each team member answers individually. Questions measure observable behavior at the team and organizational level --- what the engineering organization actually does, not what it aspires to or is experimenting with.
+
+**Core Metric**
+
+1. Engineers operate as process designers who build, tune, and maintain AI-driven development systems (eval harnesses, CAT pipelines, prompt configurations) rather than performing the bulk of implementation work manually --- even when it would be faster to "just write the code" for a particular task.
+
+**Additional Questions**
+
+2. The team maintains a Continuous Alignment Testing (CAT) pipeline that automatically verifies AI-generated output against project standards, architectural constraints, and behavioral expectations on every change, separate from traditional CI/CD tests.
+
+3. Engineers instrument and monitor AI-driven development processes with observability tooling --- tracking metrics such as agent success rates, rework frequency, context window utilization, and failure mode distributions --- and use this data to improve the system.
+
+4. The team maintains an eval harness: a suite of repeatable evaluations that measure AI agent performance against known benchmarks, used to validate changes to prompts, model versions, context configurations, or workflow modifications before deploying them.
+
+5. Prompt configurations, context templates, and agent workflow definitions are versioned, reviewed, and deployed through the same rigor as production code --- including rollback capability when a change degrades agent performance.
+
+6. When AI-generated output fails or produces unexpected results, engineers diagnose the failure systematically (context issues, prompt drift, model limitations, specification gaps) and apply targeted fixes to the generation pipeline rather than manually correcting individual outputs.
+
+7. Product managers include AI-specific criteria in user stories and acceptance requirements --- specifying expected agent behavior, acceptable output variance, required eval thresholds, or observability requirements --- as a standard part of story writing.
+
+## Scale
+
+1 = Never | 2 = Rarely | 3 = Sometimes | 4 = Often | 5 = Always
+
+## Notes for Facilitator
+
+### What to Watch For
+
+- **The Prime Directive is the core identity shift.** Zone 3 is fundamentally about engineers shifting from "I write code" to "I design and maintain the systems that produce code." The core metric question (Question 1) tests whether this shift has occurred. Probe: "When was the last time you chose to build a better generation pipeline instead of manually implementing a feature? What made you choose that approach?"
+
+- **"Separate generation from decisioning" should be observable.** In a Zone 3 organization, the acts of generating code (AI) and deciding whether that code is acceptable (human) are distinct steps with different owners. Ask: "Who generates the code? Who decides whether it ships? Are these clearly separated in your workflow?"
+
+- **CAT is not just CI/CD.** Continuous Alignment Testing (Question 2) is distinct from traditional test suites. CAT verifies that AI-generated output aligns with project standards, architectural constraints, and behavioral expectations --- things that traditional tests may not cover. If the team says "we have CI/CD" but cannot describe alignment checks specific to AI-generated output, they have not yet established CAT.
+
+- **Observability should produce actionable data.** Question 3 asks about monitoring AI-driven processes. If the team collects metrics but does not use them to make decisions, the observability is not yet mature. Ask: "What did your last observability insight tell you? What did you change as a result?"
+
+- **Eval harnesses should be run regularly.** Question 4 asks about eval suites. These should be run before and after changes to the AI pipeline, not just created once. Ask: "When was the last time you ran your eval suite? What prompted it? What did you learn?"
+
+### Common Traps
+
+- **Confusing sophisticated Zone 2 practices with Zone 3.** A team that has excellent AGENTS.md, thorough Plan/Code/Verify, and strong feedback loops is a mature Zone 2 team. Zone 3 requires the additional infrastructure of CAT, eval harnesses, observability, and prompt versioning. The shift is from "we use AI well in our workflow" to "we engineer the AI systems that do the work."
+
+- **Treating prompt engineering as prompt versioning.** Writing good prompts (Zone 1-2 skill) is different from versioning, reviewing, testing, and deploying prompt configurations as production artifacts (Zone 3 practice). Look for version control, review processes, and rollback capability.
+
+- **Manual correction masquerading as pipeline improvement.** If engineers routinely fix AI output by hand rather than fixing the generation pipeline, the team is still operating in a Zone 2 pattern. Zone 3 competency means fixing the system, not the output. Question 6 specifically tests this behavior.
+
+- **PM exclusion from AI criteria.** If product managers write traditional acceptance criteria and engineers add AI-specific criteria after the fact, the PM role has not shifted. Zone 3 PMs understand and specify AI behavioral requirements as part of their standard work.
+
+- **Overestimating maturity based on tooling.** Having an eval framework installed is not the same as using it habitually. Having observability dashboards is not the same as acting on the data. Probe for habitual use and evidence of decisions made based on these systems.
+
+---
+
+## Related Documentation
+
+- [Zone 2 Questions](/toolkit/zone-2-questions) -- The prerequisite zone questionnaire; Zone 2 competency must be established before Zone 3 assessment
+- [Zone 4 Questions](/toolkit/zone-4-questions) -- The next zone questionnaire
+- [Scoring Thresholds](/toolkit/scoring-thresholds) -- How to calculate composite scores and determine competency stage from these responses
+- [Zone 3 Reference](/toolkit/zone-3-accelerating) -- Full Zone 3 definition; provides context for interpreting responses and scoring
+- [Technique Catalog](/toolkit/technique-catalog) -- Detailed descriptions of CAT, eval harnesses, and other Zone 3 techniques referenced in the questions
+- [Workshop Script](/toolkit/workshop-script) -- The facilitation script that administers these questions in the workshop context
+- [Discussion Prompts](/toolkit/discussion-prompts) -- Zone 3-specific facilitation prompts for the discussion phase

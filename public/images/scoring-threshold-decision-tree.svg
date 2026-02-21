@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="820" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Scoring Threshold Decision Tree</text>
+  <text x="450" y="56" text-anchor="middle" font-size="12" fill="#666">Zone Assessment: Determine Competency Stage</text>
+
+  <!-- Step 1 Header -->
+  <rect x="200" y="75" width="500" height="28" rx="4" fill="#f1f5f9"/>
+  <text x="450" y="94" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Step 1: Check All Three Criteria</text>
+
+  <!-- Criterion 1 -->
+  <rect x="100" y="115" width="220" height="60" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="115" y="135" font-size="10" font-weight="bold" fill="#1e40af">Criterion 1</text>
+  <text x="115" y="150" font-size="9" fill="#334155">Do ALL team members rate the</text>
+  <text x="115" y="163" font-size="9" fill="#334155">core metric question 5/Always?</text>
+
+  <!-- Criterion 2 -->
+  <rect x="340" y="115" width="220" height="60" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="355" y="135" font-size="10" font-weight="bold" fill="#1e40af">Criterion 2</text>
+  <text x="355" y="150" font-size="9" fill="#334155">Are 75%+ of ALL individual</text>
+  <text x="355" y="163" font-size="9" fill="#334155">responses rated 5/Always?</text>
+
+  <!-- Criterion 3 -->
+  <rect x="580" y="115" width="220" height="60" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="595" y="135" font-size="10" font-weight="bold" fill="#1e40af">Criterion 3</text>
+  <text x="595" y="150" font-size="9" fill="#334155">Do at least 6 of 7 questions</text>
+  <text x="595" y="163" font-size="9" fill="#334155">have a composite avg of 5.0?</text>
+
+  <!-- Decision Diamond -->
+  <line x1="450" y1="175" x2="450" y2="205" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+  <rect x="385" y="210" width="130" height="50" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="450" y="232" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">ALL THREE</text>
+  <text x="450" y="248" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">criteria met?</text>
+
+  <!-- YES path -->
+  <line x1="515" y1="235" x2="610" y2="235" stroke="#16a34a" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="560" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#16a34a">YES</text>
+
+  <!-- Independently Competent Box -->
+  <rect x="620" y="210" width="230" height="50" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="735" y="232" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">Independently Competent</text>
+  <text x="735" y="248" text-anchor="middle" font-size="9" fill="#166534">All criteria met — universal, consistent competency</text>
+
+  <!-- NO path -->
+  <line x1="450" y1="260" x2="450" y2="300" stroke="#dc2626" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="465" y="285" font-size="10" font-weight="bold" fill="#dc2626">NO</text>
+
+  <!-- Step 2 Header -->
+  <rect x="200" y="305" width="500" height="28" rx="4" fill="#f1f5f9"/>
+  <text x="450" y="324" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Step 2: Determine Stage from Composite Score</text>
+
+  <!-- Arrow down to stages -->
+  <line x1="450" y1="333" x2="450" y2="360" stroke="#475569" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <!-- Competent (4.0 - 4.9) -->
+  <rect x="150" y="368" width="600" height="55" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="200" y="390" font-size="12" font-weight="bold" fill="#1e40af">Composite 4.0 - 4.9</text>
+  <rect x="480" y="376" width="120" height="28" rx="14" fill="#2563eb"/>
+  <text x="540" y="395" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Competent</text>
+  <text x="200" y="410" font-size="9" fill="#475569">Habitual and consistent, approaching full threshold</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="423" x2="450" y2="440" stroke="#475569" stroke-width="1"/>
+
+  <!-- Proficient (3.0 - 3.9) -->
+  <rect x="150" y="445" width="600" height="55" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="200" y="467" font-size="12" font-weight="bold" fill="#a16207">Composite 3.0 - 3.9</text>
+  <rect x="480" y="453" width="120" height="28" rx="14" fill="#ca8a04"/>
+  <text x="540" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Proficient</text>
+  <text x="200" y="487" font-size="9" fill="#475569">Mostly consistent but untested by sustained pressure</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="500" x2="450" y2="517" stroke="#475569" stroke-width="1"/>
+
+  <!-- Learning (2.0 - 2.9) -->
+  <rect x="150" y="522" width="600" height="55" rx="6" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+  <text x="200" y="544" font-size="12" font-weight="bold" fill="#c2410c">Composite 2.0 - 2.9</text>
+  <rect x="480" y="530" width="120" height="28" rx="14" fill="#ea580c"/>
+  <text x="540" y="549" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Learning</text>
+  <text x="200" y="564" font-size="9" fill="#475569">Practicing but inconsistent</text>
+
+  <!-- Arrow -->
+  <line x1="450" y1="577" x2="450" y2="594" stroke="#475569" stroke-width="1"/>
+
+  <!-- Not yet at this zone (<2.0) -->
+  <rect x="150" y="599" width="600" height="55" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <text x="200" y="621" font-size="12" font-weight="bold" fill="#64748b">Composite below 2.0</text>
+  <rect x="440" y="607" width="175" height="28" rx="14" fill="#94a3b8"/>
+  <text x="527" y="626" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Not Yet At Zone</text>
+  <text x="200" y="641" font-size="9" fill="#475569">Assess the previous zone instead</text>
+
+  <!-- Side annotations -->
+  <rect x="50" y="680" width="800" height="50" rx="6" fill="#fefce8" stroke="#eab308" stroke-width="1"/>
+  <text x="70" y="700" font-size="10" font-weight="bold" fill="#854d0e">Important:</text>
+  <text x="140" y="700" font-size="10" fill="#713f12">The thresholds are criteria, not a formula. Check each criterion independently — do not just compute an average.</text>
+  <text x="70" y="718" font-size="10" fill="#713f12">A team at 4.8 composite that fails core metric unanimity is COMPETENT, not Independently Competent.</text>
+
+  <!-- Example box -->
+  <rect x="50" y="745" width="800" height="55" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+  <text x="70" y="765" font-size="10" font-weight="bold" fill="#166534">Example:</text>
+  <text x="140" y="765" font-size="10" fill="#15803d">Team scores 4.6 composite. Core metric: 6 of 7 scored 5, one scored 4.</text>
+  <text x="70" y="783" font-size="10" fill="#15803d">Criterion 1 fails (not ALL members rated core metric 5). Stage = Competent (not Independently Competent).</text>
+</svg>

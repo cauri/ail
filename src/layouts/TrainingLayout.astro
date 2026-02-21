@@ -1,0 +1,52 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import SidebarNav from '../components/SidebarNav.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  description?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+}
+
+const { title, description, headings = [] } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+const allModules = await getCollection('training');
+const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
+
+const sections = [
+  {
+    title: 'Training Program',
+    items: sorted.map((mod) => ({
+      label: mod.data.title,
+      href: `/training/${mod.id}`,
+    })),
+  },
+];
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Training', href: '/training' },
+  ...(title !== 'Training Program' ? [{ label: title }] : []),
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Nav />
+  <div class="mx-auto flex max-w-7xl gap-8 px-6 py-10">
+    <SidebarNav sections={sections} currentPath={currentPath} />
+    <div class="min-w-0 flex-1">
+      <Breadcrumbs items={breadcrumbs} />
+      <main id="main-content">
+        <slot />
+      </main>
+    </div>
+    <TableOfContents headings={headings} />
+  </div>
+  <Footer />
+</BaseLayout>

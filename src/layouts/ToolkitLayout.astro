@@ -1,0 +1,66 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import SidebarNav from '../components/SidebarNav.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  description?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+  section?: string;
+}
+
+const { title, description, headings = [], section } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+const allDocs = await getCollection('toolkit');
+
+const sectionOrder = ['diagnostic', 'reports', 'consulting', 'roadmaps', 'reference', 'guides', 'metrics'];
+const sectionLabels: Record<string, string> = {
+  diagnostic: 'Diagnostic',
+  reports: 'Reports',
+  consulting: 'Consulting',
+  roadmaps: 'Roadmaps',
+  reference: 'Reference',
+  guides: 'Guides',
+  metrics: 'Metrics',
+};
+
+const sections = sectionOrder
+  .map((sec) => {
+    const items = allDocs
+      .filter((doc) => doc.data.section === sec)
+      .sort((a, b) => a.data.order - b.data.order)
+      .map((doc) => ({
+        label: doc.data.title,
+        href: `/toolkit/${doc.id}`,
+      }));
+    return items.length > 0 ? { title: sectionLabels[sec], items } : null;
+  })
+  .filter((s): s is NonNullable<typeof s> => s !== null);
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Toolkit', href: '/toolkit' },
+  ...(title !== 'Facilitator Toolkit' ? [{ label: title }] : []),
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Nav />
+  <div class="mx-auto flex max-w-7xl gap-8 px-6 py-10">
+    <SidebarNav sections={sections} currentPath={currentPath} />
+    <div class="min-w-0 flex-1">
+      <Breadcrumbs items={breadcrumbs} />
+      <main id="main-content">
+        <slot />
+      </main>
+    </div>
+    <TableOfContents headings={headings} />
+  </div>
+  <Footer />
+</BaseLayout>
