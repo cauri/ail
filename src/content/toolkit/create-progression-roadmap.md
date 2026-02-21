@@ -31,6 +31,7 @@ Consult the zone reference documentation for the target zone to compile the full
 - **Who owns the change.** Identify the specific person or team responsible for each investment.
 - **What blocks it.** Dependencies, approvals, budget requirements, or prerequisite changes.
 - **How you will know it is done.** Observable criteria for completion, not aspirational goals.
+- **Whether the investment is Artisan-led, jointly owned, or client-owned.** In engagements with an embedded Artisan team, some investments are led by Artisans (introducing new practices through collaborative work), some are jointly owned (Artisans and client team members working together), and some are client-owned (organizational changes that only the client can make). Clarify ownership to avoid ambiguity about who drives each investment.
 
 ## Step 3: Sequence Investments into Phases
 
@@ -51,8 +52,8 @@ Blocker removal has the highest return on investment because it unlocks capabili
 
 Introduce the new zone's core practices in a structured way:
 
-- Training on new practices and tools
-- Pilot teams adopt new workflows
+- In engagements with embedded Artisans: Artisans introduce new practices through joint work on real stories from the team's backlog -- pair programming, collaborative design, shared PR reviews -- rather than classroom training
+- In self-directed engagements: pilot teams adopt new workflows through structured practice
 - Shared standards and conventions are drafted
 - Feedback loops are established
 
@@ -157,20 +158,31 @@ Target State
 Phase 1: Remove Blockers (Months 1-2)
 - Investment: [specific change]
   - Owner: [person/team]
+  - Ownership: [Artisan-led / Joint / Client-owned]
   - Completion criteria: [observable outcome]
 - Investment: [specific change]
   - Owner: [person/team]
+  - Ownership: [Artisan-led / Joint / Client-owned]
   - Completion criteria: [observable outcome]
 - Leading indicators: [list]
 
 Phase 2: Establish Foundation (Months 2-4)
-- [same structure]
+- Investment: [specific change]
+  - Owner: [person/team]
+  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Completion criteria: [observable outcome]
 
 Phase 3: Broaden and Deepen (Months 4-8)
-- [same structure]
+- Investment: [specific change]
+  - Owner: [person/team]
+  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Completion criteria: [observable outcome]
 
 Phase 4: Sustain and Assess (Months 8-12)
-- [same structure]
+- Investment: [specific change]
+  - Owner: [person/team]
+  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Completion criteria: [observable outcome]
 
 Reassessment Schedule
 - Reassessment 1: Month [X]

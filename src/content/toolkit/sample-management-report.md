@@ -186,6 +186,8 @@ The following actions are recommended for CTO, VP Engineering, and organizationa
 
 5. **Schedule a 6-month re-assessment.** The next formal diagnostic should be conducted in July-August 2026. This provides enough time for the organizational investments to take effect and for teams to act on their individual recommendations. A re-assessment at 3 months is too early to see habit formation; 12 months is too long to wait to course-correct if investments stall.
 
+6. **Consider embedded Artisan support for the Zone 2 transition.** The organizational investments described above create the conditions for Zone 2 adoption. For teams that would benefit from hands-on support in building Zone 2 practices, an embedded Artisan team — experienced engineers, product managers, and designers who join the team to deliver software together while mentoring through the shared work — can accelerate the transition. The Artisan team works the same backlog, demonstrates practices like Plan/Code/Verify and shared AGENTS.md through daily collaboration, and ramps down as the client team builds competency. This approach is particularly valuable for the first team to adopt Zone 2 practices, as their experience can then be leveraged to support other teams.
+
 ---
 
 ## Methodology Note

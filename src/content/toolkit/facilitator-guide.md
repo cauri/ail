@@ -36,6 +36,8 @@ Your job is to create the conditions in which a team can honestly assess its own
 
 If you have a consulting background, you may feel a pull to diagnose problems and prescribe solutions. Resist that pull during the diagnostic workshop. Your facilitation creates the space for the team to discover their own situation. The consulting happens later, during goal setting and roadmap development.
 
+**A note on the Facilitator role during Collaborative Delivery.** The principle "resist the pull to prescribe" applies during the diagnostic phases (Discovery, Diagnostic, Goal Setting). During Phase 4 — Collaborative Delivery — hands-on work IS the model. But the hands-on work is done by the embedded Artisan team, not the Facilitator. The Facilitator's role during Collaborative Delivery is the assessment and coaching layer: conducting check-ins, facilitating retrospectives, administering re-diagnostics, and refreshing the roadmap. The Facilitator maintains diagnostic objectivity by remaining separate from the delivery work itself. If you serve as both Facilitator and embedded Artisan (common in smaller engagements), be explicit about which hat you are wearing in each interaction.
+
 ## The Engagement Lifecycle
 
 A full ACE engagement has four phases. Understanding all four gives you context for where the diagnostic fits in the bigger picture.
@@ -46,7 +48,7 @@ A full ACE engagement has four phases. Understanding all four gives you context 
 
 **3. Goal Setting and Roadmap (1-2 weeks).** You work with leadership to choose target zones based on diagnostic results, and with teams to build progression roadmaps. This is where the diagnostic results become actionable. See [How to Choose a Target Zone](/toolkit/choose-target-zone) and [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
 
-**4. Implementation Support (3-12 months).** Ongoing advisory where you help the organization execute its roadmap, track progress through leading indicators, and periodically re-administer the diagnostic to measure actual competency changes.
+**4. Collaborative Delivery (3-18 months).** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work. As the Facilitator, your role during this phase is the assessment layer: conducting monthly check-ins, facilitating quarterly retrospectives, administering re-diagnostics, and refreshing the roadmap. You coordinate with the Artisan team lead but maintain diagnostic independence. See the [engagement model](/toolkit/engagement-model) for full details on how the Facilitator and Artisan roles interact.
 
 As a new facilitator, you will focus primarily on Phases 1 and 2. Goal setting and implementation support come with experience and deeper client relationships.
 
@@ -99,6 +101,8 @@ Facilitating your first diagnostic can feel daunting. Here is how to prepare:
 **Shadow an experienced facilitator.** If you have the opportunity to observe a certified facilitator running a diagnostic, take it. Pay attention not to what they say, but to what they do when things go off-script -- when a discussion gets heated, when scores are surprising, when a team member is silent.
 
 **Accept imperfection.** Your first diagnostic will not be your best. That is fine. The certification program includes two supervised facilitations with feedback precisely because the skill develops through practice. Focus on creating safety and asking good questions. The rest improves with repetition.
+
+**Understand the Facilitator-Artisan distinction.** If you will be facilitating engagements that include embedded Artisan teams, review [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/) to understand what the Artisans do. Your certification covers the Facilitator role — diagnostics, assessment, and coaching. The Artisan role requires deep craft expertise and is a separate competency. Understanding both roles helps you facilitate more effectively during Collaborative Delivery, even though you are responsible only for the Facilitator side.
 
 ## Next Steps
 

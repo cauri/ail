@@ -1,23 +1,23 @@
 ---
 title: "ACE Consulting Engagement Model"
-description: "This document defines the four-phase consulting engagement structure for ACE diagnostic and advisory work."
+description: "This document defines the four-phase consulting engagement structure for ACE — from diagnostic through embedded delivery, where Artisans work alongside client teams to build real capability."
 section: "consulting"
 order: 1
 ---
-This document defines the four-phase consulting engagement structure for ACE diagnostic and advisory work. It is designed to be specific enough to quote in a proposal and flexible enough to adapt to organizations of different sizes, industries, and AI adoption stages.
+This document defines the four-phase consulting engagement structure for ACE — from diagnostic through embedded delivery, where Artisans work alongside client teams to build real capability. It is designed to be specific enough to quote in a proposal and flexible enough to adapt to organizations of different sizes, industries, and AI adoption stages.
 
 ---
 
 ## Engagement Overview
 
-An ACE engagement guides an organization from "we don't know where we are" to "we have a roadmap and are making measurable progress." The engagement follows four phases:
+An ACE engagement guides an organization from "we don't know where we are" to "we have a roadmap and experienced practitioners working alongside our teams to build real capability." The engagement follows four phases:
 
 1. **Discovery** -- Understand the organization's context before any assessment begins.
 2. **Diagnostic** -- Facilitate team self-assessments to establish current zones and competency stages.
 3. **Goal Setting & Roadmap** -- Help leadership choose target zones and build progression plans.
-4. **Implementation Support** -- Ongoing advisory to track progress, adjust course, and re-assess.
+4. **Collaborative Delivery** -- Experienced Artisans embed with client teams to deliver real software together while mentoring through the shared work.
 
-Each phase produces specific deliverables. Phases are sequential: Discovery informs the Diagnostic, the Diagnostic informs Goal Setting, and the Roadmap guides Implementation Support.
+Each phase produces specific deliverables. Phases are sequential: Discovery informs the Diagnostic, the Diagnostic informs Goal Setting, and the Roadmap guides Collaborative Delivery — where Artisans embed with the client team to execute the roadmap through shared work.
 
 ---
 
@@ -217,81 +217,84 @@ See the roadmap templates for zone-specific progression plans:
 
 ---
 
-## Phase 4: Implementation Support
+## Phase 4: Collaborative Delivery
 
-**Duration:** Ongoing, typically 3-12 months
+**Duration:** Variable, typically 3-18 months depending on engagement scope
 
-**Purpose:** Provide ongoing advisory support as the organization executes its roadmap. This phase prevents the common failure mode of producing a great plan that sits in a drawer. Implementation Support keeps the organization accountable, helps navigate obstacles, and adjusts the roadmap as conditions change.
+**Purpose:** Deploy a balanced cross-craft team of Artisans who embed with the client's delivery teams to build real software together while mentoring through the shared work. This phase is where the roadmap becomes reality — not through advisory check-ins, but through Artisans and client team members working the same backlog, writing production code, designing features, and managing product work side by side.
 
 ### Activities
 
-**Periodic Check-ins (monthly or bi-monthly)**
+**Artisan Team Composition**
 
-Regular sessions with engineering leadership and team leads to:
-- Review progress against roadmap milestones
-- Discuss leading indicators and what they signal
-- Identify blockers and develop mitigation strategies
-- Share cross-team learnings (what is working for one team may help another)
-- Adjust timelines and activities as needed
+A balanced, cross-craft team sized to the engagement: engineers, product managers, and designers. The specific composition depends on the client team's needs identified during the Diagnostic and Goal Setting phases. Every Artisan brings deep craft expertise in their discipline plus experience mentoring through collaborative delivery.
 
-Check-in format:
-- 60-90 minutes with engineering leadership (monthly)
-- 30-45 minutes with individual team leads (bi-monthly or as needed)
+**Embedded Delivery Model**
 
-**Metrics Tracking Setup**
+Artisans join the client team as full members — not as advisors sitting in on meetings. They work the same backlog, attend the same standups, participate in the same planning sessions. Engineers write production code alongside client engineers. Product managers manage product work alongside client PMs. Designers collaborate on design work alongside client designers. The distinction between "Artisan work" and "client work" dissolves by design — the work is shared.
 
-At the start of Implementation Support, work with the engineering leadership team to establish a shared metrics framework:
+**Mentoring Through Delivery**
 
-- Review the [Metrics Tree](/toolkit/metrics-tree) to identify the North Star metric and zone-specific leading indicators relevant to the team's target zone
-- Pull the applicable zone-specific metrics from [Zone-Specific Metrics](/toolkit/zone-specific-metrics) — these are the behavioral measures most predictive of competency progression
-- Add [Organizational Health Metrics](/toolkit/organizational-health-metrics) where the organization shows early warning signs in culture, safety, or capacity
+Learning happens through the work itself, not through workshops or training sessions. The primary mechanism is pair programming -- one Artisan paired with one client team member, working on real stories from the team's backlog. Pairs rotate every few days, spreading knowledge across the entire team rather than creating single dependent relationships.
 
-The metrics framework becomes the standing agenda for monthly check-ins: leading indicators are reviewed at each check-in, and any indicator that has moved in an unexpected direction becomes a discussion topic. Do not wait for re-diagnostics to notice stalls — the purpose of leading indicators is to surface problems while they are still correctable.
+The practices Artisans introduce are rooted in Extreme Programming (XP) -- test-driven development, pair programming, continuous integration, and small iterations -- extended for AI-augmented development through LEAP (LLM Enhanced Agile Process), which incorporates AI as a pair programming partner, TDD with LLMs, and context management as a discipline.
 
-**Facilitated Investment Retrospectives (quarterly)**
+Day-to-day mentoring includes:
+- Pair programming on real stories with rotating pairs
+- TDD and red-green-refactor cycles demonstrated through actual work
+- Collaborative design sessions on actual features
+- Shared PR reviews where Artisans model review practices
+- Joint sprint planning and estimation
+- Real-time coaching on practices like Plan/Code/Verify, context engineering, and eval design as they arise naturally in delivery
 
-Structured retrospective sessions that examine:
-- What investments are producing results?
-- What investments are stalling and why?
-- Are organizational-level investments keeping pace with team-level progress?
-- Do any teams need their target zone reconsidered?
-- What new obstacles or opportunities have emerged?
+This is the core mechanism: Artisans don't teach practices in a classroom and hope they transfer. They demonstrate practices shoulder-to-shoulder on production work and build the habit alongside the client team. Interactive workshops may supplement the pairing -- covering topics like AGENTS.md design or eval harness architecture at a team level -- but the pairing is the primary vehicle for capability transfer.
 
-**Re-Diagnostic (at 3-6 month intervals)**
+**Cross-Craft Collaboration**
 
-Administer the diagnostic again to measure actual competency progression:
-- Same facilitated workshop format as the initial diagnostic
-- Compare results to baseline scores
-- Identify areas of genuine progress and areas of stagnation
-- Produce updated team reports and management report
-- Adjust roadmaps based on re-diagnostic findings
+The embedded team operates across disciplines:
+- Artisan Engineers mentor engineering practices
+- Artisan Product Managers mentor product management practices
+- Artisan Designers mentor design practices
 
-Re-diagnostics are essential because competency is behavioral, not declarative. Teams may believe they have progressed when their habits under pressure have not actually changed. The re-diagnostic provides an honest check.
+Each craft mentors within its discipline, but the team operates as an integrated unit — the same way a well-functioning delivery team naturally works.
 
-**Roadmap Refresh (following each re-diagnostic)**
+**Periodic Assessment**
 
-Update the progression roadmap based on re-diagnostic findings:
-- Advance milestones that have been achieved
-- Extend timelines where progress is slower than planned
-- Add new activities to address newly identified gaps
-- Remove activities that proved unnecessary
-- Update leading indicators if current ones are not predictive
+Within the broader embedded engagement, the ACE Facilitator conducts periodic check-ins and re-diagnostics:
+- Monthly progress reviews against roadmap milestones
+- Leading indicator tracking to surface stalls early
+- Quarterly investment retrospectives to evaluate what's working
+- Re-diagnostics every 3-6 months to measure actual competency progression
+- Roadmap refreshes following each re-diagnostic
+
+These assessment activities are conducted by the ACE Facilitator, not the embedded Artisans. The Facilitator maintains the diagnostic objectivity the framework requires while the Artisans focus on delivery and mentoring.
+
+**Ramp-Down Planning**
+
+As client team members build competency in the practices the Artisans have introduced, the Artisan team gradually reduces involvement:
+- Artisans shift from leading to pairing to observing as client team members take ownership
+- The pace of ramp-down is governed by re-diagnostic evidence, not by calendar
+- Specific practices are handed off individually as competency is demonstrated
+- The engagement concludes when the client team demonstrates sustained competency without Artisan involvement — verified through at least one re-diagnostic cycle after ramp-down
 
 ### Deliverables
 
 | Deliverable | Description | Frequency |
 |---|---|---|
-| Progress Report | Summary of roadmap progress, leading indicators, and blockers | Monthly |
+| Working Software | Production code, features, and improvements delivered collaboratively | Continuous |
+| Progress Report | Summary of roadmap progress, leading indicators, and competency development | Monthly |
 | Investment Retrospective Report | Findings from quarterly retrospective | Quarterly |
 | Re-Diagnostic Reports | Updated team and management reports | Every 3-6 months |
 | Updated Roadmap | Refreshed progression plan reflecting current state | After each re-diagnostic |
+| Ramp-Down Plan | Documented transition plan as client team builds competency | Updated quarterly |
 
 ### Client Involvement Required
 
-- **Engineering Leadership:** 60-90 minutes monthly for check-ins, half-day quarterly for investment retrospectives
-- **Team Leads:** 30-45 minutes bi-monthly for check-ins, participation in re-diagnostic workshops
-- **Full Teams:** Half-day per re-diagnostic workshop (same as initial diagnostic)
-- **Engagement Sponsor:** Quarterly review of progress and investment decisions
+- **Full Team Integration:** Artisans join as team members — backlog access, team communication channels, planning sessions, standups, retrospectives
+- **Engineering Leadership:** 60-90 minutes monthly for progress reviews with ACE Facilitator, half-day quarterly for investment retrospectives
+- **Team Leads:** Active collaboration with Artisan team leads; participation in re-diagnostic workshops
+- **Full Teams:** Daily collaboration with embedded Artisans; half-day per re-diagnostic workshop
+- **Engagement Sponsor:** Quarterly review of progress, investment decisions, and ramp-down planning
 
 ---
 
@@ -302,10 +305,10 @@ Update the progression roadmap based on re-diagnostic findings:
 | Discovery | 2-4 weeks | 2 weeks | 3 weeks | 4 weeks |
 | Diagnostic | 1-2 weeks | 1 week | 1.5 weeks | 2-3 weeks (or multiple facilitators) |
 | Goal Setting & Roadmap | 1-2 weeks | 1 week | 1.5 weeks | 2 weeks |
-| Implementation Support | 3-12 months | 3-6 months typical | 6-12 months typical | 6-12 months typical |
+| Collaborative Delivery | 3-18 months | 3-18 months | 3-18 months | 3-18 months |
 | **Total initial engagement** | **4-8 weeks + ongoing** | **4-5 weeks + ongoing** | **6-7 weeks + ongoing** | **8-9 weeks + ongoing** |
 
-The initial engagement (Phases 1-3) is typically scoped as a fixed-price engagement. Implementation Support (Phase 4) is structured as a retainer or time-and-materials arrangement.
+The initial engagement (Phases 1-3) is typically scoped as a fixed-price engagement. Collaborative Delivery (Phase 4) is priced based on Artisan team composition and engagement duration.
 
 ---
 
@@ -320,7 +323,7 @@ The following pricing structures are appropriate for ACE engagements. Actual rat
 | Discovery | Fixed scope, fixed deliverables | Fixed price per engagement |
 | Diagnostic | Per-team pricing | Base price + per-team increment |
 | Goal Setting & Roadmap | Fixed scope following diagnostic | Fixed price per engagement |
-| Implementation Support | Ongoing | Monthly retainer or time-and-materials |
+| Collaborative Delivery | Variable (3-18 months) | Artisan team composition x duration |
 
 This model provides cost predictability for the client and clear scope boundaries for the facilitator.
 
@@ -334,22 +337,23 @@ Bundle Phases 1-3 into a single fixed-price engagement, priced by organization s
 | Medium (4-8 teams) | 4-8 | Mid tier |
 | Large (9-15+ teams) | 9-15+ | Upper tier (may require multiple facilitators) |
 
-Implementation Support is always priced separately as an ongoing retainer.
+Collaborative Delivery (Phase 4) is always priced separately based on Artisan team size and engagement duration.
 
-### Option C: Annual Advisory Relationship
+### Option C: Embedded Delivery Partnership
 
-For organizations that want ongoing support, structure the engagement as an annual advisory:
+For organizations that want the full engagement arc from diagnostic through delivery:
 
-- Initial diagnostic and roadmap (Phases 1-3) included in Year 1
-- Quarterly re-diagnostics included
-- Monthly check-ins and advisory included
-- Annual renewal based on continued need
+- Phases 1-3 (Discovery, Diagnostic, Goal Setting & Roadmap) included in initial period
+- Artisan team embedded for delivery and mentoring during Phase 4
+- Periodic re-diagnostics included throughout the engagement
+- Ramp-down based on competency evidence from re-diagnostics
 
-This model works well for larger organizations with multiple teams progressing at different rates.
+This model works well for organizations that want to build lasting capability through collaborative delivery rather than advisory alone.
 
 ### Pricing Principles
 
 - **Never price by zone.** Pricing should reflect facilitator effort, not the client's current or target zone. A Zone 0-to-1 engagement requires the same diagnostic rigor as a Zone 2-to-3 engagement.
+- **Price Phase 4 by team composition.** The Artisan team is sized to the engagement — the cost reflects the number and craft mix of Artisans embedded, multiplied by engagement duration.
 - **Re-diagnostics are separate deliverables.** Each re-diagnostic requires workshop facilitation and report generation. Price accordingly.
 - **Travel and expenses are additional.** For on-site engagements, travel costs are passed through at cost.
 - **Multi-facilitator engagements carry coordination overhead.** When multiple facilitators are needed, add coordination time to the scope.
@@ -382,6 +386,16 @@ An ACE facilitator should have:
 - Ability to synthesize qualitative data from interviews and workshops into actionable reports
 - Comfort with organizational dynamics (navigating political sensitivities, managing defensive reactions, delivering difficult findings)
 
+### Roles in an ACE Engagement
+
+An ACE engagement involves two distinct roles:
+
+**ACE Facilitator** — Runs the diagnostic and assessment activities: Discovery interviews, Diagnostic workshops, Goal Setting sessions, and the periodic assessment layer during Collaborative Delivery (check-ins, re-diagnostics, investment retrospectives). The Facilitator maintains the objectivity the diagnostic requires. Not every Artisan is a Facilitator; this is a specialized role requiring certification.
+
+**Embedded Artisans** — Join the client team during Collaborative Delivery to do the actual work of delivery and mentoring. Artisans are experienced engineers, product managers, and designers who build software alongside the client team while mentoring through that shared work. Artisans do not need Facilitator certification — they need deep craft expertise and experience mentoring through collaborative delivery.
+
+In smaller engagements, one person may serve as both Facilitator and Artisan. In larger engagements, these roles are typically held by different people to maintain the Facilitator's diagnostic independence.
+
 ---
 
 ## Engagement Anti-Patterns
@@ -394,6 +408,8 @@ The following patterns reduce the effectiveness of an ACE engagement:
 - **Setting target zones without investment commitment.** Declaring a target zone without committing the organizational investments required to reach it is aspirational theater. Phase 3 must include real investment decisions.
 - **Skipping re-diagnostics.** Without periodic re-assessment, organizations lose accountability. The roadmap becomes a historical document rather than a living plan. Re-diagnostics are not optional extras; they are how the engagement produces lasting value.
 - **Rushing from diagnostic to "doing things."** The goal-setting and roadmap phase exists to ensure that action is directed by strategy, not by urgency. Skipping structured roadmapping in favor of "just start improving" produces scattered effort and minimal competency gains.
+- **Treating embedded engagement as staff augmentation.** Artisans are not extra hands to increase throughput. They are mentors who happen to deliver software alongside the client team. If the engagement is structured so that Artisans are simply doing work the client team could do, without transferring capability, it has devolved into staff augmentation. The test: are client team members demonstrably more competent at the end of the engagement than they were at the start? If not, the mentoring purpose has been lost.
+- **Failing to ramp down.** An embedded engagement that continues at full Artisan staffing indefinitely is not building client capability — it is creating dependency. Ramp-down should begin as soon as re-diagnostic evidence shows client team members building competency in the practices the Artisans introduced. A successful engagement ends with the Artisan team departing and the client team sustaining the practices independently.
 
 ---
 

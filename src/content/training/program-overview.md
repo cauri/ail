@@ -38,12 +38,13 @@ The program consists of five sequential training modules, two supervised diagnos
 | Module 2: Diagnostic Facilitation Skills | Intensive or async | 2 days / 10 hours |
 | Module 3: Goal Setting & Zone Selection | Intensive or async | 1 day / 6 hours |
 | Module 4: Progression Roadmap Design | Intensive or async | 1 day / 5 hours |
-| Module 5: Coaching & Ongoing Engagement | Intensive or async | 1 day / 5 hours |
+| Module 5a: Facilitator-Led Assessment and Coaching | Intensive or async | 1 day / 5 hours |
+| Module 5b: Embedded Delivery and Mentoring | Intensive or async | 1 day / 5 hours |
 | Written Assessment | Take-home | 4-6 hours |
 | Supervised Facilitation 1 | Live diagnostic | Half-day + debrief |
 | Supervised Facilitation 2 | Live diagnostic | Half-day + debrief |
 
-Total instructional time: approximately 34 hours across modules, plus assessment and supervised practice.
+Total instructional time: approximately 39 hours across modules, plus assessment and supervised practice.
 
 ### Cohort Model
 
@@ -204,7 +205,9 @@ The five training modules build on each other sequentially. Each module has deta
 
 4. **[Module 4: Progression Roadmap Design](/training/module-4-roadmap-design/)** -- How to design realistic, zone-specific progression roadmaps with appropriate leading indicators and reassessment cadences.
 
-5. **[Module 5: Coaching & Ongoing Engagement](/training/module-5-coaching-engagement/)** -- How to support organizations through zone transitions, handle regression, and manage the ongoing facilitator-client relationship.
+5. **Module 5a: [Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/)** -- How to support organizations through zone transitions as the ACE Facilitator: structured check-ins, investment retrospectives, re-diagnostics, regression handling, and managing the ongoing facilitator-client relationship within engagements that include embedded Artisan teams.
+
+6. **Module 5b: [Embedded Delivery and Mentoring](/training/module-5b-embedded-delivery/)** -- How to deliver software alongside client teams as an embedded Artisan: mentoring through collaborative work, maintaining the capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management as an embedded team member. (For Artisans; Facilitator certification not required.)
 
 ---
 

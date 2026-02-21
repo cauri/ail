@@ -1,13 +1,13 @@
 ---
-title: "Module 5: Coaching Through Implementation"
-description: "How to support organizations through zone transitions with structured check-ins, investment retrospectives, re-diagnostics, regression handling, and ethical long-term engagement management."
+title: "Module 5a: Facilitator-Led Assessment and Coaching"
+description: "How to support organizations through zone transitions with structured check-ins, investment retrospectives, re-diagnostics, regression handling, and ethical long-term engagement management — within the context of engagements that include embedded Artisan delivery teams."
 order: 5
 duration: "1-day intensive or 5 hours async"
-prerequisites: "Module 5 of 5 (capstone; requires Modules 1-4)"
+prerequisites: "Module 5a of 5 (capstone; requires Modules 1-4)"
 ---
 
 **Duration:** 1-day intensive or 5 hours async
-**Position in program:** Module 5 of 5 (capstone; requires Modules 1-4)
+**Position in program:** Module 5a of 5 (see also [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/))
 
 ---
 
@@ -25,23 +25,38 @@ By the end of this module, trainees will be able to:
 
 5. **Manage the ongoing facilitator-client relationship through obstacles, organizational change, and disengagement.** Navigate the dynamics of trust, dependency, and appropriate professional distance across a multi-month engagement; handle client disengagement requests with honesty about competency; and apply the ethical standards the framework requires when assessing progress, handling confidential information, and representing what ACE can and cannot claim.
 
+6. **Distinguish the Facilitator role from the embedded Artisan role and coordinate effectively across both.** Understand how the Facilitator's assessment and coaching activities complement the embedded Artisans' delivery and mentoring work. Maintain diagnostic objectivity while the Artisan team is actively working alongside the client team. Coordinate check-in findings with the Artisan team's day-to-day observations without compromising the Facilitator's independent perspective.
+
 ---
 
 ## Content Outline
 
-### Session 1: The Implementation Support Model
+### Session 1: The Collaborative Delivery Model
 
-**Why Implementation Support exists.** Plans that sit in drawers are the norm, not the exception, in organizational change. The goal-setting session produces a zone commitment. The roadmap design session produces a plan. Neither output produces behavioral change on its own. Without structured follow-through, the roadmap becomes a document that leadership approved and then did not act on. Implementation Support exists to close the gap between plan and practice.
+**Why Collaborative Delivery exists.** Plans that sit in drawers are the norm, not the exception, in organizational change. The goal-setting session produces a zone commitment. The roadmap design session produces a plan. Neither output produces behavioral change on its own. Without structured follow-through, the roadmap becomes a document that leadership approved and then did not act on. Collaborative Delivery exists to close the gap between plan and practice — not through advisory follow-through alone, but through embedded Artisans who deliver real software alongside the client team while the Facilitator maintains the assessment and coaching layer.
 
-**The three functions.** Implementation Support has three distinct functions that must be held simultaneously. Accountability: checking whether the investments that were committed have actually been made, and whether the activities the roadmap specified are actually happening. Obstacle navigation: identifying organizational friction that is blocking progress and helping leadership see what needs to change. Course correction: using re-diagnostic evidence to update the roadmap when reality has diverged from the plan. Facilitators who focus only on accountability become enforcers. Facilitators who focus only on support lose the productive tension that accountability creates. All three functions are required.
+**The two roles within Collaborative Delivery.** Phase 4 is no longer just advisory follow-through. It now includes embedded Artisans who deliver alongside the client team, mentoring through shared work on the actual backlog. The Facilitator's role within Phase 4 is the assessment and coaching layer — check-ins, retrospectives, re-diagnostics, and roadmap refreshes. The Artisans handle delivery and mentoring. These roles are complementary but distinct, and the Facilitator must understand both to perform their own role effectively.
 
-**Structuring the ongoing engagement.** The cadence of Implementation Support is: monthly check-ins with engineering leadership, quarterly investment retrospectives, re-diagnostics every 3-6 months depending on the zone transition timeline, and roadmap refreshes after each re-diagnostic. Each engagement type has a different purpose and a different conversation structure. The facilitator must distinguish between them clearly and resist the tendency to let check-ins drift into retrospective territory or retrospectives drift into re-diagnostic territory.
+**The three Facilitator functions.** The Facilitator holds three distinct functions simultaneously. Accountability: checking whether the investments that were committed have actually been made, and whether the activities the roadmap specified are actually happening. Obstacle navigation: identifying organizational friction that is blocking progress and helping leadership see what needs to change. Course correction: using re-diagnostic evidence to update the roadmap when reality has diverged from the plan. Facilitators who focus only on accountability become enforcers. Facilitators who focus only on support lose the productive tension that accountability creates. All three functions are required.
+
+**The Facilitator's role within Collaborative Delivery.** The Facilitator is not part of the embedded Artisan team. The Facilitator maintains the diagnostic objectivity the framework requires. During Collaborative Delivery, the Facilitator:
+- Conducts monthly check-ins with engineering leadership
+- Facilitates quarterly investment retrospectives
+- Administers re-diagnostics on the scheduled cadence
+- Refreshes the roadmap based on re-diagnostic findings
+- Coordinates with the Artisan team lead to share observations (without compromising diagnostic independence)
+
+The Artisan team's day-to-day observations about client team competency development are valuable input to the Facilitator's assessment — but the Facilitator must form their own independent judgment through the formal diagnostic process.
+
+**Structuring the ongoing engagement.** The cadence of the Facilitator's engagement is: monthly check-ins with engineering leadership, quarterly investment retrospectives, re-diagnostics every 3-6 months depending on the zone transition timeline, and roadmap refreshes after each re-diagnostic. Each engagement type has a different purpose and a different conversation structure. The facilitator must distinguish between them clearly and resist the tendency to let check-ins drift into retrospective territory or retrospectives drift into re-diagnostic territory.
 
 **When to escalate versus when to coach through.** Most implementation obstacles can be navigated through facilitated conversation with the team and their immediate leadership. Some obstacles require escalation to senior leadership: when investment commitments made at the goal-setting session have not been honored and the team has no authority to change that; when organizational decisions made after the roadmap was designed have materially changed what is achievable; when the engagement is at risk of producing results that would mislead leadership about actual progress. Facilitators should develop clear escalation criteria before they need them.
 
 ### Session 2: Effective Check-Ins
 
 **The check-in agenda.** Each monthly check-in covers four items in order: progress against the current roadmap phase (which milestones are complete, which are in progress, which are behind), leading indicator review (what do the dashboard numbers show, and what trends are visible), blockers (what is preventing progress that was not anticipated in the roadmap), and cross-team learnings (what has the team learned that should be shared with other teams in a multi-team engagement). The agenda is short. The check-in is not a status meeting; it is a coaching conversation with a structured spine.
+
+**Incorporating Artisan team observations.** In engagements with embedded Artisans, the Facilitator now has another source of information: the embedded Artisan team's day-to-day observations about how the client team is developing. The check-in should incorporate what the Artisans are seeing — which practices are taking hold, where client team members are struggling, what environmental factors are affecting progress. However, the Facilitator should triangulate Artisan observations against the leading indicators and the team's own self-report rather than taking them at face value. The Artisans see the team's behavior firsthand, which is valuable, but the Facilitator's independent assessment through the formal diagnostic process is what gives the framework its rigor.
 
 **The accountability question without the accusation.** "Why haven't you done X?" is an accusation posing as a question. It assigns blame before understanding. "How are you feeling about the roadmap progress?" is an invitation to reflect before reporting. The facilitator's job in a check-in is to understand the team's honest experience of their own progress, not to catch them falling short. When progress is behind, the productive questions are: "What is making this harder than we expected?" and "What would need to change for this to be easier?" These questions open problem-solving rather than defensive justification.
 
@@ -69,7 +84,7 @@ By the end of this module, trainees will be able to:
 
 **Score inflation.** Score inflation occurs when teams rate their practices higher without actual behavioral change. It manifests as: scores improve on dimensions that received no targeted investment; self-assessment answers shift to more positive responses without the team being able to name specific behavioral changes; or scores improve on the group instrument but would not survive a behavioral observation in the team's daily work. The facilitator's job is to probe responses that seem higher than the evidence supports -- not to challenge the team's honesty, but to ensure the assessment reflects observable behavior rather than aspirational self-perception. The probe is gentle and specific: "That score is higher than last time. Can you point to a specific example from the past month when you used that practice under pressure?"
 
-**Adjusting the roadmap based on re-diagnostic findings.** When re-diagnostic results diverge from roadmap expectations -- whether ahead, behind, or sideways -- the roadmap must be updated before the next Implementation Support phase begins. The Module 5 skill is facilitating the conversation with leadership that produces a shared understanding of what the re-diagnostic found and what the updated roadmap requires, including delivering findings that conflict with what leadership hoped to hear.
+**Adjusting the roadmap based on re-diagnostic findings.** When re-diagnostic results diverge from roadmap expectations -- whether ahead, behind, or sideways -- the roadmap must be updated before the next Collaborative Delivery phase begins. The Module 5 skill is facilitating the conversation with leadership that produces a shared understanding of what the re-diagnostic found and what the updated roadmap requires, including delivering findings that conflict with what leadership hoped to hear.
 
 ### Session 5: Handling Regression
 
@@ -80,6 +95,8 @@ By the end of this module, trainees will be able to:
 **The regression diagnostic.** When regression is identified, the facilitator diagnoses the cause before prescribing a response. Three categories: competency issue (the practices were not yet habitual -- the team was at Proficient, not Competent, and pressure revealed the gap); environmental issue (the organizational conditions for the practices were removed or degraded -- the infrastructure is down, the policy changed, management is no longer supporting the practices); leadership issue (leadership is explicitly or implicitly signaling that the old behaviors are acceptable under pressure -- "just ship it" culture overriding "practice the workflow" culture). Each calls for a different response, and misdiagnosing the cause produces a response that fails.
 
 **How to respond to regression without blame.** "Let us understand what happened, not who failed" is the framing that opens a productive regression conversation. The facilitator's first move is descriptive: here is what the leading indicators showed, here is when the regression appears to have started, here is what the re-diagnostic shows. The second move is diagnostic: what changed in the environment around that time? What pressure was the team under? Were the organizational conditions for the practices still in place? The third move is prescriptive: given what we found, here is what the updated roadmap should address.
+
+**Early regression signals from embedded Artisans.** In engagements with embedded Artisans, regression may be visible to the Artisans before it shows up in leading indicators, since Artisans see the team's behavior firsthand during pair programming and collaborative work. A client engineer who reverts to skipping Plan/Code/Verify under deadline pressure is something the paired Artisan notices immediately — weeks before it manifests in the leading indicator dashboard. The Facilitator should establish a communication channel with the Artisan team lead for this kind of early signal. This does not replace the formal diagnostic process, but it allows the Facilitator to investigate sooner and respond before fragile practices erode further.
 
 **When regression signals a need to revisit the target zone or investment plan.** Repeated regression -- the team reverts consistently when under pressure despite sustained investment -- may signal that the target zone is not achievable with the current investment level, or that the target zone was not the right choice for this organization's actual risk tolerance and capacity. The facilitator must be willing to raise this possibility directly and without softening it into an easy message. A Zone 3 target with Zone 1 investment produces Zone 1 regression under pressure every time.
 
@@ -102,7 +119,11 @@ Recalibration is warranted -- and the facilitator should raise it -- when:
 
 Avoid framing recalibration as "giving up." A zone recalibration that reduces the target from Zone 3 to Zone 2 Independently Competent is a success if Zone 2 genuinely serves the organization's needs. The facilitator should say this explicitly: "Reaching deeply competent Zone 2 is a meaningful achievement. That was always a valid destination, and it may be the right one."
 
-**Graceful engagement endings.** Implementation Support reaches a natural conclusion when: the team has demonstrated Competent-stage behavior on the leading indicators across at least two consecutive measurement periods, including at least one high-pressure period; the client team has internal capability to run leading indicator reviews and investment retrospectives without the facilitator; and the most recent re-diagnostic shows Competent or Independently Competent scores on the target zone proficiencies. These are observable criteria, not a feeling about competency.
+**Graceful engagement endings and the Collaborative Delivery ramp-down.** Collaborative Delivery has an intentional ramp-down built in: as the client team builds competency, the embedded Artisan team gradually reduces its presence (see [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/) for the ramp-down process). The Facilitator's engagement may extend slightly beyond the Artisan team's ramp-down to conduct the final re-diagnostic that confirms the client team's sustained competency without embedded support. This transitional period — after the Artisans depart but before the Facilitator disengages — is when the evidence for genuine, independent competency is strongest. The Facilitator should plan for this period explicitly: schedule the final re-diagnostic for 1-2 months after the Artisan team's departure so the client team has time to operate independently before being assessed.
+
+**Managing the transition when Artisans depart but the Facilitator continues.** When the Artisan team ramps down, the client team loses both delivery capacity and the day-to-day mentoring relationship. The Facilitator should anticipate a period of adjustment and potential anxiety from the client team. The Facilitator's role during this transition is to provide continuity — the assessment cadence remains, the check-ins continue, and the Facilitator can surface any regression early. This is not a time to increase the Facilitator's involvement; it is a time to hold steady and let the evidence accumulate about whether the client team sustains its practices independently.
+
+The full engagement reaches a natural conclusion when: the team has demonstrated Competent-stage behavior on the leading indicators across at least two consecutive measurement periods (including at least one after the Artisan team's departure), including at least one high-pressure period; the client team has internal capability to run leading indicator reviews and investment retrospectives without the facilitator; and the most recent re-diagnostic shows Competent or Independently Competent scores on the target zone proficiencies. These are observable criteria, not a feeling about competency.
 
 **Keeping the door open.** Disengagement is not permanent. Organizational conditions change. Teams that achieved Zone 2 competency may later decide to pursue Zone 3. Leadership changes may create new openings for investments that were previously blocked. The facilitator should close engagements in a way that leaves a clear path for re-engagement, including a brief summary of where the team was at disengagement and what a future re-engagement would logically address.
 
@@ -126,11 +147,11 @@ Avoid framing recalibration as "giving up." A zone recalibration that reduces th
 
 **Format:** Pairs role-play exercise, 45 minutes
 
-One trainee plays the facilitator conducting a monthly check-in. The other plays a mid-level engineering manager using a persona card. The persona card describes: a team that has missed two consecutive roadmap milestones; the manager's explanation, which attributes the failures to external factors (a major incident response, a surprise audit, a leadership reorganization); and a defensive posture that resists direct accountability.
+One trainee plays the facilitator conducting a monthly check-in. The other plays a mid-level engineering manager using a persona card. The persona card describes: a team that has missed two consecutive roadmap milestones; the manager's explanation, which attributes the failures to external factors (a major incident response, a surprise audit, a leadership reorganization); and a defensive posture that resists direct accountability. The scenario also includes a brief report from the embedded Artisan team lead noting that the client team has been pairing less frequently and has reverted to individual work patterns during the crunch period — an additional input the Facilitator must process and triangulate against the leading indicators and the manager's self-report.
 
-The facilitating trainee must conduct the check-in agenda without turning it into an accusation session, use the leading indicator data provided in the scenario to surface what actually happened, distinguish between genuine environmental obstacles and post-hoc rationalization, and end the check-in with a clear next step the manager has genuinely committed to rather than agreed to under pressure.
+The facilitating trainee must conduct the check-in agenda without turning it into an accusation session, use the leading indicator data provided in the scenario to surface what actually happened, incorporate the Artisan team's observations without treating them as the definitive account, distinguish between genuine environmental obstacles and post-hoc rationalization, and end the check-in with a clear next step the manager has genuinely committed to rather than agreed to under pressure.
 
-After 20 minutes, pairs switch roles with a new persona card. The full group debriefs: what techniques maintained accountability without triggering defensiveness? What questions opened up honest conversation? Where did facilitators slip into accusation mode or, conversely, let the manager avoid accountability entirely?
+After 20 minutes, pairs switch roles with a new persona card. The full group debriefs: what techniques maintained accountability without triggering defensiveness? What questions opened up honest conversation? Where did facilitators slip into accusation mode or, conversely, let the manager avoid accountability entirely? How did facilitators handle the Artisan team's observations — did they over-rely on the Artisan report, or did they appropriately triangulate it against other evidence?
 
 ### Activity 2: Investment Retrospective Practice
 
@@ -174,16 +195,17 @@ Discussion focuses on: what ACE ethical standards apply to this scenario, what t
 
 **Format:** Take-home written assessment
 
-Trainees receive a complete engagement scenario package covering: the discovery findings and initial diagnostic results from 7 months ago, the roadmap that was designed after goal-setting, monthly check-in summaries for months 1-6, the leading indicators dashboard through month 6, and a re-diagnostic result from month 7 that shows mixed results -- clear progress in three Zone 2 proficiency areas, a slight regression in two others, and scores that are ambiguous on one proficiency where the answers shifted upward but the facilitation notes flagged possible score inflation.
+Trainees receive a complete engagement scenario package covering: the discovery findings and initial diagnostic results from 7 months ago, the roadmap that was designed after goal-setting, monthly check-in summaries for months 1-6, the leading indicators dashboard through month 6, a re-diagnostic result from month 7 that shows mixed results -- clear progress in three Zone 2 proficiency areas, a slight regression in two others, and scores that are ambiguous on one proficiency where the answers shifted upward but the facilitation notes flagged possible score inflation. The scenario also includes observations from an embedded Artisan team that has been working alongside the client team for 5 months; the Artisan team lead has begun discussing ramp-down with the engagement sponsor.
 
 Trainees produce a re-engagement memo addressed to the client's engineering leadership. The memo must:
 
 1. Summarize the re-diagnostic findings honestly, including the ambiguous proficiency and the basis for flagging possible score inflation.
 2. Explain the regression findings in diagnostic rather than accusatory terms, including a recommended root cause assessment.
 3. Recommend specific roadmap adjustments for the next 3 months, with rationale.
-4. Address the question of whether Implementation Support should continue past month 10 and, if so, what milestones would indicate that the engagement has reached a natural conclusion.
+4. Address whether the Artisan team's ramp-down is supported by the re-diagnostic evidence — specifically, whether the practices the Artisans introduced are sufficiently habitual for the client team to sustain them independently.
+5. Address the question of whether the Facilitator's engagement should continue past the Artisan team's departure, and if so, what milestones would indicate that the engagement has reached a natural conclusion.
 
-Assessment evaluates the trainee's integration of all five module learning objectives: check-in quality (is the progress assessment grounded in evidence?), retrospective reasoning (does the memo distinguish skill deficit from environment failure?), re-diagnostic interpretation (is the score inflation concern handled appropriately?), regression response (is the regression diagnosed and addressed without blame?), and relationship management (does the memo address engagement continuation honestly rather than in a way that serves the facilitator's financial interests?).
+Assessment evaluates the trainee's integration of all six module learning objectives: check-in quality (is the progress assessment grounded in evidence?), retrospective reasoning (does the memo distinguish skill deficit from environment failure?), re-diagnostic interpretation (is the score inflation concern handled appropriately?), regression response (is the regression diagnosed and addressed without blame?), relationship management (does the memo address engagement continuation honestly rather than in a way that serves the facilitator's financial interests?), and Facilitator-Artisan coordination (does the memo appropriately incorporate Artisan team observations while maintaining the Facilitator's independent diagnostic judgment?).
 
 ---
 
@@ -195,6 +217,7 @@ After completing Module 5, trainees move into the supervised practice phase of t
 - Complete a personal self-assessment against all five modules: which learning objectives feel secure, and which feel fragile under real conditions when the client pushes back, the evidence is ambiguous, or the relationship is under stress?
 - Identify a supervising facilitator through the certification program and schedule an orientation conversation before the first supervised engagement begins. Use the orientation to surface any open questions from the five modules that remain unresolved.
 - Review the diagnostic instruments, roadmap templates, and report formats from all previous modules as a practical reference during live facilitations -- not to memorize, but to know where they are and how they connect to the situations this module addresses.
+- Understand how to coordinate with embedded Artisan teams during live engagements: establishing the communication channel with the Artisan team lead, incorporating Artisan observations into check-ins without compromising diagnostic independence, and managing the transition period when the Artisan team ramps down but the Facilitator continues assessment.
 
 The supervised facilitation phase requires completing at least two full engagements (through at least one re-diagnostic cycle each) under observation, with structured feedback from a certified supervising facilitator. Certification is granted when the supervising facilitator documents that the trainee has demonstrated all five module objectives in live engagement conditions -- not by performing under ideal circumstances, but by navigating the real obstacles, relationship dynamics, and ambiguous evidence that actual implementations produce.
 
@@ -202,5 +225,6 @@ The supervised facilitation phase requires completing at least two full engageme
 
 ## Related Documentation
 
+- [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/)
 - [Competency vs. Knowledge](/toolkit/competency-vs-knowledge/)
 - [Organizational Investments](/toolkit/organizational-investments/)

@@ -12,6 +12,8 @@ Zone 4 practices are less mature than those in earlier zones. The practices, tim
 
 **Before pursuing Zone 4, consult with practitioners who have achieved durable Zone 3 competency.** The Zone 3→4 transition involves organizational and cultural changes that are difficult to reverse and costly to get wrong. Organizations that have lived at Zone 3 competency for multiple years will have pattern-matched on failure modes that no amount of planning can anticipate in advance.
 
+> **A note on Artisan involvement:** Zone 3→4 is a multi-year cultural transformation that must ultimately be driven internally. Artisans may participate in the early phases of this transition — helping establish factory governance foundations, modeling the identity shift from "code writer" to "production system governor," and building initial portfolio-scale eval infrastructure alongside client engineers. However, the cultural transformation at the heart of Zone 4 — redefining what it means to be an engineer in this organization — cannot be led by external practitioners. Artisan involvement typically concentrates in the first 6-12 months and ramps down as the organization's internal AI Engineer leadership takes ownership of the transformation.
+
 ---
 
 ## What Zone 4 Represents
