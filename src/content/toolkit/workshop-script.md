@@ -152,7 +152,7 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 
 ### Facilitated Discussion (10-15 minutes)
 
-*This is where the value is. The scores are the conversation starter; the discussion is the insight generator. Use discussion prompts from discussion-prompts.md, but also follow the energy in the room.*
+*This is where the value is. The scores are the conversation starter; the discussion is the insight generator. Use discussion prompts from [Discussion Prompts](/toolkit/discussion-prompts), but also follow the energy in the room.*
 
 "Let us talk about what these scores tell us. I want to focus on a few things I noticed."
 
