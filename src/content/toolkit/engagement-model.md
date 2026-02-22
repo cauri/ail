@@ -390,9 +390,9 @@ An ACE facilitator should have:
 
 An ACE engagement involves two distinct roles:
 
-**ACE Facilitator** — Runs the diagnostic and assessment activities: Discovery interviews, Diagnostic workshops, Goal Setting sessions, and the periodic assessment layer during Collaborative Delivery (check-ins, re-diagnostics, investment retrospectives). The Facilitator maintains the objectivity the diagnostic requires. Not every Artisan is a Facilitator; this is a specialized role requiring certification.
+**ACE Facilitator** — Runs the diagnostic and assessment activities: Discovery interviews, Diagnostic workshops, Goal Setting sessions, and the periodic assessment layer during Collaborative Delivery (check-ins, re-diagnostics, investment retrospectives). The Facilitator maintains the objectivity the diagnostic requires. Not every Artisan is a Facilitator; this is a specialized role requiring completion of the training program.
 
-**Embedded Artisans** — Join the client team during Collaborative Delivery to do the actual work of delivery and mentoring. Artisans are experienced engineers, product managers, and designers who build software alongside the client team while mentoring through that shared work. Artisans do not need Facilitator certification — they need deep craft expertise and experience mentoring through collaborative delivery.
+**Embedded Artisans** — Join the client team during Collaborative Delivery to do the actual work of delivery and mentoring. Artisans are experienced engineers, product managers, and designers who build software alongside the client team while mentoring through that shared work. Artisans do not need Facilitator training — they need deep craft expertise and experience mentoring through collaborative delivery.
 
 In smaller engagements, one person may serve as both Facilitator and Artisan. In larger engagements, these roles are typically held by different people to maintain the Facilitator's diagnostic independence.
 
