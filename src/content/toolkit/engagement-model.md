@@ -47,7 +47,7 @@ Compile findings into a structured context analysis covering:
 
 - Organization profile (size, industry, team composition, geographic distribution)
 - Current AI tool inventory (what is deployed, who uses it, how consistently)
-- Development maturity baseline (CI/CD practices, testing culture, agile practices, deployment frequency)
+- Development maturity baseline (CI/CD practices, testing culture, delivery practices, deployment frequency)
 - AI-relevant organizational context (security policies, compliance requirements, procurement process, data sensitivity)
 - Competitive landscape (what are peers and competitors doing with AI-augmented development?)
 - Key stakeholders and their perspectives on AI adoption
@@ -237,7 +237,7 @@ Artisans join the client team as full members — not as advisors sitting in on 
 
 Learning happens through the work itself, not through workshops or training sessions. The primary mechanism is pair programming -- one Artisan paired with one client team member, working on real stories from the team's backlog. Pairs rotate every few days, spreading knowledge across the entire team rather than creating single dependent relationships.
 
-The practices Artisans introduce are rooted in Extreme Programming (XP) -- test-driven development, pair programming, continuous integration, and small iterations -- extended for AI-augmented development through LEAP (LLM Enhanced Agile Process), which incorporates AI as a pair programming partner, TDD with LLMs, and context management as a discipline.
+The practices Artisans introduce -- test-driven development, pair programming, continuous integration, and small iterations -- are essential for agentic development to work reliably. TDD gives AI agents a feedback loop that catches errors immediately. Pair programming is the primary mechanism for capability transfer. CI validates AI-generated code against the full codebase on every change. These are not process for process's sake; they are the engineering discipline that makes it safe to let agents produce code at scale.
 
 Day-to-day mentoring includes:
 - Pair programming on real stories with rotating pairs

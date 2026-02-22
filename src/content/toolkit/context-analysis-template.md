@@ -101,7 +101,7 @@ Key observations about the gap between officially sanctioned tools and actual us
 
 *If metrics are not tracked, note that explicitly — it is itself a maturity signal.*
 
-### 3c. Agile and Delivery Practices
+### 3c. Delivery Practices
 
 Describe the organization's actual development process — sprints vs. flow, how work is defined, how reviews happen, how done is defined:
 
