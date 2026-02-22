@@ -1,6 +1,6 @@
 ---
 title: "Module 5b: Embedded Delivery and Mentoring"
-description: "How to deliver software alongside client teams as an embedded Artisan — building lasting competency through pair programming, rotating pairs, TDD, and the discipline of shoulder-to-shoulder craft — then helping the client build the permanent team to carry it forward."
+description: "How to deliver software alongside client teams as an embedded Artisan — building lasting competency through pair programming, rotating pairs, TDD, and the discipline of shoulder-to-shoulder craft."
 order: 6
 duration: "1-day intensive or 5 hours async"
 prerequisites: "Deep craft expertise in engineering, product management, or design; familiarity with ACE zones and the progressive competency model (Module 1 recommended)"
@@ -19,11 +19,11 @@ By the end of this module, Artisans will be able to:
 
 2. **Mentor through paired delivery rather than instruction.** Pair with client team members on real stories, rotating pairs every few days to spread knowledge across the team. Demonstrate practices -- TDD, Plan/Code/Verify, context engineering, continuous integration, collaborative design -- through the shared work rather than through workshops or training sessions. Recognize when to drive, when to navigate, and when to step back as the client team member's competency develops.
 
-3. **Maintain the capability-building purpose throughout delivery.** Distinguish embedded delivery from staff augmentation. The engagement has three pillars -- build a product, build a capability, and build a team -- and all three must be served simultaneously. Continuously assess whether the work is building client team competency or simply getting features shipped. Adjust the approach when delivery pressure threatens to overwhelm the mentoring purpose.
+3. **Maintain the capability-building purpose throughout delivery.** Distinguish embedded delivery from staff augmentation. The engagement has two pillars -- build a product and build a capability -- and both must be served simultaneously. Continuously assess whether the work is building client team competency or simply getting features shipped. Adjust the approach when delivery pressure threatens to overwhelm the mentoring purpose.
 
 4. **Collaborate effectively across crafts within the embedded team.** Work as an integrated cross-craft team -- Engineering, Product, and Design -- where each Artisan mentors within their discipline while operating as part of a unified delivery team. Coordinate mentoring approaches across crafts to ensure the client team builds capability holistically.
 
-5. **Plan and execute ramp-down based on competency evidence, including team building.** Recognize the signals that indicate a client team member is ready to take ownership of a practice. Shift gradually from driving to navigating to observing. Help the client build the permanent team they need -- recruiting, interviewing, and onboarding new hires into the practices the engagement established. Coordinate with the ACE Facilitator to ensure ramp-down timing aligns with re-diagnostic evidence.
+5. **Plan and execute ramp-down based on competency evidence.** Recognize the signals that indicate a client team member is ready to take ownership of a practice. Shift gradually from driving to navigating to observing. Coordinate with the ACE Facilitator to ensure ramp-down timing aligns with re-diagnostic evidence.
 
 6. **Embody the values that make embedded work effective.** Mastery: pursue continuous improvement in your own craft, not just the client's. Humanity: put the client team's success ahead of your own comfort or ego. Courage: be transparent with clients even when the message is difficult. Iteration: improve the software, the process, and the engagement itself in constant small steps.
 
@@ -35,12 +35,11 @@ By the end of this module, Artisans will be able to:
 
 **What embedded delivery means.** Artisans join the client team as full members. This is not advisory work where you observe, diagnose, and recommend. You work the same backlog. You attend the same standups. You write production code, design real features, manage actual product work -- alongside the client team. The distinction between "your work" and "their work" should dissolve quickly. The mentoring happens through the work, not alongside it.
 
-Artium's embedded model serves three purposes simultaneously:
+Artium's embedded model serves two purposes simultaneously:
 - **Build a Product** -- deliver working software that matters to the client's business
 - **Build a Capability** -- teach the client team how to build great software themselves through the shared work
-- **Build a Team** -- help the client recruit, assess, and develop the talent they need to sustain the work after the engagement ends
 
-All three purposes operate concurrently. An engagement that only ships code without building capability has failed. An engagement that only mentors without shipping has no credibility. The integration of delivery and capability building is what makes embedded work effective.
+Both purposes operate concurrently. An engagement that only ships code without building capability has failed. An engagement that only mentors without shipping has no credibility. The integration of delivery and capability building is what makes embedded work effective.
 
 **Why embedded delivery works for competency building.** The ACE framework defines competency as habitual behavior under pressure. Habits form through repeated practice in real conditions, not through training sessions. When an Artisan pairs with a client engineer on a real story under real deadline pressure, the client engineer experiences the practice in the environment where they need to sustain it. Transfer of training is not an issue because there is no transfer -- the practice is built in place.
 
@@ -161,8 +160,6 @@ A typical ramp-down might look like:
 - Month 7-9: Artisan team reduces to 60-70% of original staffing; senior Artisans observe more, pair less
 - Month 10-12: Artisan team at 30-40%; primarily available for questions and occasional pairing on advanced practices
 - Month 12+: Artisan team departs; ACE Facilitator conducts final re-diagnostic to confirm sustained competency
-
-**Building the permanent team.** Part of "Build a Team" may involve helping the client recruit, assess, and onboard permanent team members. Artisans may participate in interviewing candidates, help design technical assessment processes, and -- critically -- onboard new hires through the same pairing model used with existing team members. New hires who are paired with Artisans from their first week absorb the team's practices as they learn the codebase. This is often more effective than having existing team members (who are themselves still building competency) train new hires.
 
 **The final re-diagnostic.** The engagement should not conclude until at least one re-diagnostic cycle has been completed after the Artisan team's ramp-down. This is the evidence that the client team sustains competency independently. If the final re-diagnostic shows regression, the ramp-down was premature, and the Artisan team should re-engage temporarily.
 
