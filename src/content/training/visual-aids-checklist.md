@@ -1,12 +1,12 @@
 ---
 title: "Training Visual Aids -- Production Checklist"
-description: "Checklist tracking the visual aids needed for the facilitator certification program, including full production specifications for each SVG visual."
+description: "Checklist tracking the visual aids needed for the facilitator training program, including full production specifications for each SVG visual."
 order: 6
 duration: ""
 prerequisites: ""
 ---
 
-This checklist tracks visual aids needed for the facilitator certification program. Each visual aid includes its full production specification below.
+This checklist tracks visual aids needed for the facilitator training program. Each visual aid includes its full production specification below.
 
 **Format:** All visuals are SVG files -- scalable, print-friendly, and suitable for projection during intensive-format sessions. Each visual works as a standalone handout.
 
@@ -75,24 +75,24 @@ This checklist tracks visual aids needed for the facilitator certification progr
 - Criterion 3: "Do at least 6 of 7 questions have a composite average of 5.0?"
 
 **Decision branch:**
-- If ALL THREE criteria met -> **"Independently Competent"** (green box, bold)
+- If ALL THREE criteria met -> **"Mastery"** (green box, bold)
 - If fewer than three criteria met -> proceed to Step 2
 
 **Step 2 -- Determine stage from composite score range:**
 - Composite average 4.0 - 4.9 -> **"Competent"** (blue box) -- "Habitual and consistent, approaching full threshold"
-- Composite average 3.0 - 3.9 -> **"Proficient"** (yellow box) -- "Mostly consistent but untested by sustained pressure"
+- Composite average 3.0 - 3.9 -> **"Practicing"** (yellow box) -- "Mostly consistent but untested by sustained pressure"
 - Composite average 2.0 - 2.9 -> **"Learning"** (orange box) -- "Practicing but inconsistent"
 - Composite average below 2.0 -> **"Not yet at this zone"** (gray box) -- "Assess the previous zone instead"
 
 **Side annotation (outside the tree):**
 - "The thresholds are criteria, not a formula. Check each criterion independently -- do not just compute an average."
-- "A team at 4.8 composite that fails core metric unanimity is COMPETENT, not Independently Competent."
+- "A team at 4.8 composite that fails core metric unanimity is COMPETENT, not Mastery."
 
 **Key visual cues:**
 - The three criteria should be visually parallel and equally weighted -- no one criterion is "more important"
 - The "all three met" path should be visually distinct from the "score range" path
 - Color-code the four stages consistently (these colors should match across all framework materials)
-- Include a small example: "Example: Team scores 4.6 composite. Core metric: 6 of 7 scored 5, one scored 4. Criterion 1 fails. Stage = Competent (not Independently Competent)."
+- Include a small example: "Example: Team scores 4.6 composite. Core metric: 6 of 7 scored 5, one scored 4. Criterion 1 fails. Stage = Competent (not Mastery)."
 
 ---
 
