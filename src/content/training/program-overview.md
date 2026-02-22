@@ -28,7 +28,7 @@ Approximately 3 months from cohort start to completion, depending on scheduling 
 
 ### Components
 
-The program consists of five sequential training modules, two supervised diagnostic facilitations, and a written assessment:
+The program consists of six sequential training modules, two supervised diagnostic facilitations, and a written assessment:
 
 | Component | Format | Duration |
 |-----------|--------|----------|
@@ -36,8 +36,8 @@ The program consists of five sequential training modules, two supervised diagnos
 | Module 2: Diagnostic Facilitation Skills | Intensive or async | 2 days / 10 hours |
 | Module 3: Goal Setting & Zone Selection | Intensive or async | 1 day / 6 hours |
 | Module 4: Progression Roadmap Design | Intensive or async | 1 day / 5 hours |
-| Module 5a: Facilitator-Led Assessment and Coaching | Intensive or async | 1 day / 5 hours |
-| Module 5b: Embedded Delivery and Mentoring | Intensive or async | 1 day / 5 hours |
+| Module 5: Facilitator-Led Assessment and Coaching | Intensive or async | 1 day / 5 hours |
+| Module 6: Embedded Delivery and Mentoring | Intensive or async | 1 day / 5 hours |
 | Written Assessment | Take-home | 4-6 hours |
 | Supervised Facilitation 1 | Live diagnostic | Half-day + debrief |
 | Supervised Facilitation 2 | Live diagnostic | Half-day + debrief |
@@ -64,7 +64,7 @@ Both formats include the same learning objectives, activities, and assessments. 
 
 ### Supervised Facilitations
 
-After completing all five modules, each trainee must conduct two complete diagnostic facilitations under the supervision of a master facilitator. These are real diagnostics with real teams, not simulations.
+After completing all six modules, each trainee must conduct two complete diagnostic facilitations under the supervision of a master facilitator. These are real diagnostics with real teams, not simulations.
 
 **First supervised facilitation:** The master facilitator observes the entire diagnostic -- pre-workshop preparation, the workshop itself, and report writing. The master facilitator provides detailed feedback on facilitation technique, scoring accuracy, and report quality. If significant issues are identified, the trainee receives targeted coaching before the second facilitation.
 
@@ -110,7 +110,7 @@ Participants must meet the following prerequisites before joining a cohort:
 
 To complete the training program, a participant must fulfill all of the following:
 
-1. **Complete all five training modules** with satisfactory attendance and participation. Each module includes learning activities that require active engagement. Passive attendance is not sufficient.
+1. **Complete all six training modules** with satisfactory attendance and participation. Each module includes learning activities that require active engagement. Passive attendance is not sufficient.
 
 2. **Pass the written assessment** with a minimum score of 80%. The assessment tests application of knowledge to realistic scenarios, not recall of facts.
 
@@ -155,7 +155,7 @@ Trained facilitators accept the following responsibilities:
 
 ## Program Modules
 
-The five training modules build on each other sequentially. Each module has detailed learning objectives, content outlines, learning activities, and assessments documented in separate module guides:
+The six training modules build on each other sequentially. Each module has detailed learning objectives, content outlines, learning activities, and assessments documented in separate module guides:
 
 1. **[Module 1: The ACE Model](/training/module-1-model-foundations/)** -- Deep understanding of the framework: zones, competency, progressive competency, organizational investments. The knowledge foundation on which all facilitation skills are built.
 
@@ -165,9 +165,9 @@ The five training modules build on each other sequentially. Each module has deta
 
 4. **[Module 4: Progression Roadmap Design](/training/module-4-roadmap-design/)** -- How to design realistic, zone-specific progression roadmaps with appropriate leading indicators and reassessment cadences.
 
-5. **Module 5a: [Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/)** -- How to support organizations through zone transitions as the ACE Facilitator: structured check-ins, investment retrospectives, re-diagnostics, regression handling, and managing the ongoing facilitator-client relationship within engagements that include embedded Artisan teams.
+5. **Module 5: [Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/)** -- How to support organizations through zone transitions as the ACE Facilitator: structured check-ins, investment retrospectives, re-diagnostics, regression handling, and managing the ongoing facilitator-client relationship within engagements that include embedded Artisan teams.
 
-6. **Module 5b: [Embedded Delivery and Mentoring](/training/module-5b-embedded-delivery/)** -- How to deliver software alongside client teams as an embedded Artisan: mentoring through collaborative work, maintaining the capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management as an embedded team member. (For all Artisans participating in embedded delivery; not limited to trained facilitators.)
+6. **Module 6: [Embedded Delivery and Mentoring](/training/module-6-embedded-delivery/)** -- How to deliver software alongside client teams as an embedded Artisan: mentoring through collaborative work, maintaining the capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management as an embedded team member. (For all Artisans participating in embedded delivery; not limited to trained facilitators.)
 
 ---
 

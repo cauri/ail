@@ -98,11 +98,11 @@ Facilitating your first diagnostic can feel daunting. Here is how to prepare:
 
 **Run a mock workshop.** Ask colleagues or fellow facilitators-in-training to play the role of a team. Practice the full workshop flow: opening, individual scoring, score reveal, facilitated discussion, closing. The mock will feel artificial, but it builds muscle memory for the transitions between phases.
 
-**Shadow an experienced facilitator.** If you have the opportunity to observe a certified facilitator running a diagnostic, take it. Pay attention not to what they say, but to what they do when things go off-script -- when a discussion gets heated, when scores are surprising, when a team member is silent.
+**Shadow an experienced facilitator.** If you have the opportunity to observe a trained facilitator running a diagnostic, take it. Pay attention not to what they say, but to what they do when things go off-script -- when a discussion gets heated, when scores are surprising, when a team member is silent.
 
-**Accept imperfection.** Your first diagnostic will not be your best. That is fine. The certification program includes two supervised facilitations with feedback precisely because the skill develops through practice. Focus on creating safety and asking good questions. The rest improves with repetition.
+**Accept imperfection.** Your first diagnostic will not be your best. That is fine. The training program includes two supervised facilitations with feedback precisely because the skill develops through practice. Focus on creating safety and asking good questions. The rest improves with repetition.
 
-**Understand the Facilitator-Artisan distinction.** If you will be facilitating engagements that include embedded Artisan teams, review [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/) to understand what the Artisans do. Your certification covers the Facilitator role — diagnostics, assessment, and coaching. The Artisan role requires deep craft expertise and is a separate competency. Understanding both roles helps you facilitate more effectively during Collaborative Delivery, even though you are responsible only for the Facilitator side.
+**Understand the Facilitator-Artisan distinction.** If you will be facilitating engagements that include embedded Artisan teams, review [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/) to understand what the Artisans do. Your training covers the Facilitator role — diagnostics, assessment, and coaching. The Artisan role requires deep craft expertise and is a separate competency. Understanding both roles helps you facilitate more effectively during Collaborative Delivery, even though you are responsible only for the Facilitator side.
 
 ## Next Steps
 

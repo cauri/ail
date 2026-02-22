@@ -1,13 +1,13 @@
 ---
-title: "Module 5a: Facilitator-Led Assessment and Coaching"
+title: "Module 5: Facilitator-Led Assessment and Coaching"
 description: "How to support organizations through zone transitions with structured check-ins, investment retrospectives, re-diagnostics, regression handling, and ethical long-term engagement management — within the context of engagements that include embedded Artisan delivery teams."
 order: 5
 duration: "1-day intensive or 5 hours async"
-prerequisites: "Module 5a of 5 (capstone; requires Modules 1-4)"
+prerequisites: "Module 5 of 6 (requires Modules 1-4)"
 ---
 
 **Duration:** 1-day intensive or 5 hours async
-**Position in program:** Module 5a of 5 (see also [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/))
+**Position in program:** Module 5 of 6 (see also [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/))
 
 ---
 
@@ -119,7 +119,7 @@ Recalibration is warranted -- and the facilitator should raise it -- when:
 
 Avoid framing recalibration as "giving up." A zone recalibration that reduces the target from Zone 3 to Zone 2 Mastery is a success if Zone 2 genuinely serves the organization's needs. The facilitator should say this explicitly: "Reaching deeply competent Zone 2 is a meaningful achievement. That was always a valid destination, and it may be the right one."
 
-**Graceful engagement endings and the Collaborative Delivery ramp-down.** Collaborative Delivery has an intentional ramp-down built in: as the client team builds competency, the embedded Artisan team gradually reduces its presence (see [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/) for the ramp-down process). The Facilitator's engagement may extend slightly beyond the Artisan team's ramp-down to conduct the final re-diagnostic that confirms the client team's sustained competency without embedded support. This transitional period — after the Artisans depart but before the Facilitator disengages — is when the evidence for genuine, independent competency is strongest. The Facilitator should plan for this period explicitly: schedule the final re-diagnostic for 1-2 months after the Artisan team's departure so the client team has time to operate independently before being assessed.
+**Graceful engagement endings and the Collaborative Delivery ramp-down.** Collaborative Delivery has an intentional ramp-down built in: as the client team builds competency, the embedded Artisan team gradually reduces its presence (see [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/) for the ramp-down process). The Facilitator's engagement may extend slightly beyond the Artisan team's ramp-down to conduct the final re-diagnostic that confirms the client team's sustained competency without embedded support. This transitional period — after the Artisans depart but before the Facilitator disengages — is when the evidence for genuine, independent competency is strongest. The Facilitator should plan for this period explicitly: schedule the final re-diagnostic for 1-2 months after the Artisan team's departure so the client team has time to operate independently before being assessed.
 
 **Managing the transition when Artisans depart but the Facilitator continues.** When the Artisan team ramps down, the client team loses both delivery capacity and the day-to-day mentoring relationship. The Facilitator should anticipate a period of adjustment and potential anxiety from the client team. The Facilitator's role during this transition is to provide continuity — the assessment cadence remains, the check-ins continue, and the Facilitator can surface any regression early. This is not a time to increase the Facilitator's involvement; it is a time to hold steady and let the evidence accumulate about whether the client team sustains its practices independently.
 
@@ -211,20 +211,20 @@ Assessment evaluates the trainee's integration of all six module learning object
 
 ## Preparation for Supervised Facilitations
 
-After completing Module 5, trainees move into the supervised practice phase of the training program. Before beginning a supervised engagement, trainees should:
+After completing Modules 5 and 6, trainees move into the supervised practice phase of the training program. Before beginning a supervised engagement, trainees should:
 
 - Review the complete facilitator training requirements in the [Program Overview](/training/program-overview/) to understand what the supervising facilitator will observe and evaluate during live engagements.
-- Complete a personal self-assessment against all five modules: which learning objectives feel secure, and which feel fragile under real conditions when the client pushes back, the evidence is ambiguous, or the relationship is under stress?
-- Identify a supervising facilitator through the training program and schedule an orientation conversation before the first supervised engagement begins. Use the orientation to surface any open questions from the five modules that remain unresolved.
+- Complete a personal self-assessment against all six modules: which learning objectives feel secure, and which feel fragile under real conditions when the client pushes back, the evidence is ambiguous, or the relationship is under stress?
+- Identify a supervising facilitator through the training program and schedule an orientation conversation before the first supervised engagement begins. Use the orientation to surface any open questions from the six modules that remain unresolved.
 - Review the diagnostic instruments, roadmap templates, and report formats from all previous modules as a practical reference during live facilitations -- not to memorize, but to know where they are and how they connect to the situations this module addresses.
 - Understand how to coordinate with embedded Artisan teams during live engagements: establishing the communication channel with the Artisan team lead, incorporating Artisan observations into check-ins without compromising diagnostic independence, and managing the transition period when the Artisan team ramps down but the Facilitator continues assessment.
 
-The supervised facilitation phase requires completing at least two full engagements (through at least one re-diagnostic cycle each) under observation, with structured feedback from the supervising facilitator. Training is complete when the supervising facilitator documents that the trainee has demonstrated all five module objectives in live engagement conditions -- not by performing under ideal circumstances, but by navigating the real obstacles, relationship dynamics, and ambiguous evidence that actual implementations produce.
+The supervised facilitation phase requires completing at least two full engagements (through at least one re-diagnostic cycle each) under observation, with structured feedback from the supervising facilitator. Training is complete when the supervising facilitator documents that the trainee has demonstrated all six modules' objectives in live engagement conditions -- not by performing under ideal circumstances, but by navigating the real obstacles, relationship dynamics, and ambiguous evidence that actual implementations produce.
 
 ---
 
 ## Related Documentation
 
-- [Module 5b: Embedded Delivery](/training/module-5b-embedded-delivery/)
+- [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/)
 - [Competency vs. Knowledge](/toolkit/competency-vs-knowledge/)
 - [Organizational Investments](/toolkit/organizational-investments/)

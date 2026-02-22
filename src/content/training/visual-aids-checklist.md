@@ -28,10 +28,10 @@ This checklist tracks visual aids needed for the facilitator training program. E
   - Placement: [Module 4](/training/module-4-roadmap-design/), Session 2 (primary)
 
 - [x] **VA-5: Non-Linear Progress Patterns** -- `non-linear-progress-patterns.svg`
-  - Placement: [Module 4](/training/module-4-roadmap-design/), Session 5 (primary); [Module 5a](/training/module-5-coaching-engagement/), Session 5 (reference)
+  - Placement: [Module 4](/training/module-4-roadmap-design/), Session 5 (primary); [Module 5](/training/module-5-coaching-engagement/), Session 5 (reference)
 
 - [x] **VA-6: Collaborative Delivery Cadence** -- `collaborative-delivery-cadence.svg`
-  - Placement: [Module 5a](/training/module-5-coaching-engagement/), Session 1 (primary)
+  - Placement: [Module 5](/training/module-5-coaching-engagement/), Session 1 (primary)
 
 ---
 
@@ -254,7 +254,7 @@ This checklist tracks visual aids needed for the facilitator training program. E
 - A decision diamond: "Continue, recalibrate, or disengage?"
 - Three exit arrows:
   - "Continue" -> arrow loops back to month 1 of a new cycle
-  - "Recalibrate target zone" -> see [Module 5a](/training/module-5-coaching-engagement/) Session 6
+  - "Recalibrate target zone" -> see [Module 5](/training/module-5-coaching-engagement/) Session 6
   - "Disengage" -> "Team is Competent, has internal capability, re-diagnostic confirms"
 
 **Bottom annotation:**

@@ -1,5 +1,5 @@
 ---
-title: "Module 5b: Embedded Delivery and Mentoring"
+title: "Module 6: Embedded Delivery and Mentoring"
 description: "How to deliver software alongside client teams as an embedded Artisan — building lasting competency through pair programming, rotating pairs, TDD, and the discipline of shoulder-to-shoulder craft."
 order: 6
 duration: "1-day intensive or 5 hours async"
@@ -7,7 +7,7 @@ prerequisites: "Deep craft expertise in engineering, product management, or desi
 ---
 
 **Duration:** 1-day intensive or 5 hours async
-**Position in program:** Module 5b of 5 (companion to [Module 5a: Facilitator-Led Assessment and Coaching](/training/module-5a-coaching-engagement/); see [Program Overview](/training/program-overview/) for full program structure)
+**Position in program:** Module 6 of 6 (companion to [Module 5: Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/); see [Program Overview](/training/program-overview/) for full program structure)
 
 ---
 
@@ -236,7 +236,7 @@ Assessment evaluates the trainee's integration of all six learning objectives: e
 
 ## Related Documentation
 
-- [Module 5a: Facilitator-Led Assessment and Coaching](/training/module-5a-coaching-engagement/)
+- [Module 5: Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/)
 - [Engagement Model](/toolkit/engagement-model/)
 - [Competency vs. Knowledge](/toolkit/competency-vs-knowledge/)
 - [Organizational Investments](/toolkit/organizational-investments/)
