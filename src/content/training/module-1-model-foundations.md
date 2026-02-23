@@ -49,7 +49,7 @@ By the end of this module, trainees will be able to:
 
 **Why best-day performance is insufficient.** Assessment based on demos, hackathons, or pilot projects overstates actual capability. ACE assesses what teams do consistently, especially when conditions are least conducive to new practices.
 
-**Four stages within a zone.** Learning (practicing but inconsistent), Proficient (mostly consistent but untested by sustained pressure), Competent (habitual and consistent even under stress), Independently Competent (can coach others and innovate within the zone). These stages apply within each zone independently.
+**Four stages within a zone.** Learning (practicing but inconsistent), Practicing (mostly consistent but untested by sustained pressure), Competent (habitual and consistent even under stress), Mastery (can coach others and innovate within the zone). These stages apply within each zone independently.
 
 **Implications for measurement.** Assess what teams do, not what they know. Assess behavior under pressure, not under ideal conditions. Use facilitated self-assessment, not external audit.
 

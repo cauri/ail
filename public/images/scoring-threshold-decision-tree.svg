@@ -44,9 +44,9 @@
   <line x1="515" y1="235" x2="610" y2="235" stroke="#16a34a" stroke-width="2" marker-end="url(#arr)"/>
   <text x="560" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#16a34a">YES</text>
 
-  <!-- Independently Competent Box -->
+  <!-- Mastery Box -->
   <rect x="620" y="210" width="230" height="50" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2.5"/>
-  <text x="735" y="232" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">Independently Competent</text>
+  <text x="735" y="232" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">Mastery</text>
   <text x="735" y="248" text-anchor="middle" font-size="9" fill="#166534">All criteria met — universal, consistent competency</text>
 
   <!-- NO path -->
@@ -70,11 +70,11 @@
   <!-- Arrow -->
   <line x1="450" y1="423" x2="450" y2="440" stroke="#475569" stroke-width="1"/>
 
-  <!-- Proficient (3.0 - 3.9) -->
+  <!-- Practicing (3.0 - 3.9) -->
   <rect x="150" y="445" width="600" height="55" rx="6" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
   <text x="200" y="467" font-size="12" font-weight="bold" fill="#a16207">Composite 3.0 - 3.9</text>
   <rect x="480" y="453" width="120" height="28" rx="14" fill="#ca8a04"/>
-  <text x="540" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Proficient</text>
+  <text x="540" y="472" text-anchor="middle" font-size="13" font-weight="bold" fill="#fff">Practicing</text>
   <text x="200" y="487" font-size="9" fill="#475569">Mostly consistent but untested by sustained pressure</text>
 
   <!-- Arrow -->
@@ -101,11 +101,11 @@
   <rect x="50" y="680" width="800" height="50" rx="6" fill="#fefce8" stroke="#eab308" stroke-width="1"/>
   <text x="70" y="700" font-size="10" font-weight="bold" fill="#854d0e">Important:</text>
   <text x="140" y="700" font-size="10" fill="#713f12">The thresholds are criteria, not a formula. Check each criterion independently — do not just compute an average.</text>
-  <text x="70" y="718" font-size="10" fill="#713f12">A team at 4.8 composite that fails core metric unanimity is COMPETENT, not Independently Competent.</text>
+  <text x="70" y="718" font-size="10" fill="#713f12">A team at 4.8 composite that fails core metric unanimity is COMPETENT, not Mastery.</text>
 
   <!-- Example box -->
   <rect x="50" y="745" width="800" height="55" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
   <text x="70" y="765" font-size="10" font-weight="bold" fill="#166534">Example:</text>
   <text x="140" y="765" font-size="10" fill="#15803d">Team scores 4.6 composite. Core metric: 6 of 7 scored 5, one scored 4.</text>
-  <text x="70" y="783" font-size="10" fill="#15803d">Criterion 1 fails (not ALL members rated core metric 5). Stage = Competent (not Independently Competent).</text>
+  <text x="70" y="783" font-size="10" fill="#15803d">Criterion 1 fails (not ALL members rated core metric 5). Stage = Competent (not Mastery).</text>
 </svg>

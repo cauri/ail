@@ -64,7 +64,7 @@ order: 3
 ### Current State: Teams by Zone and Stage
 
 ```
-Zone / Stage         | Learning | Proficient | Competent | Ind. Competent | Total
+Zone / Stage         | Learning | Practicing | Competent | Mastery | Total
 ---------------------|----------|------------|--------|-------------|------
 Zone 0 (Baseline)    |          |            |        |             |
 Zone 1 (Augmenting)  |    [N]   |    [N]     |  [N]   |    [N]      |  [N]
@@ -77,7 +77,7 @@ Total                |          |            |        |             |  [N]
 
 *Facilitator guidance: Add a one-sentence interpretive note below the table — for example, whether the distribution is narrow (most teams at one stage) or spread across multiple zones, and what that implies about organizational investment priorities.*
 
-[DISTRIBUTION INTERPRETATION — e.g., "Teams are clustered at Zone 1 Proficient, indicating that individual AI adoption has occurred but team-level integration has not yet begun. This is a common distribution in organizations that have adopted AI tools without accompanying practice investment."]
+[DISTRIBUTION INTERPRETATION — e.g., "Teams are clustered at Zone 1 Practicing, indicating that individual AI adoption has occurred but team-level integration has not yet begun. This is a common distribution in organizations that have adopted AI tools without accompanying practice investment."]
 
 ---
 
@@ -154,7 +154,7 @@ Total                |          |            |        |             |  [N]
 ### Theme 1: [INVESTMENT THEME TITLE]
 
 **Addresses findings:** [FINDING NUMBERS]
-**Benefits:** [e.g., "All assessed teams" or "Teams currently at Zone 1 Proficient/Competent preparing for Zone 2 transition"]
+**Benefits:** [e.g., "All assessed teams" or "Teams currently at Zone 1 Practicing/Competent preparing for Zone 2 transition"]
 **Priority:** [High / Medium / Low]
 **Estimated effort:** [e.g., "Low — policy decision and communication, no infrastructure required"]
 
@@ -273,7 +273,7 @@ The four zones form a single progression. Zone 2 is the typical near-term target
 
 ### Competency Stages
 
-Within each zone, teams progress through four stages: Learning (practicing but inconsistent), Proficient (mostly consistent but fragile under pressure), Competent (habitual even under stress), and Independently Competent (can coach others and innovate within the zone). Competency is reached when all team members rate the zone's core metric at 5/Always, 75% or more of all responses across the zone are at 5, and at least 6 of 7 items reach a composite score of 5.
+Within each zone, teams progress through four stages: Learning (practicing but inconsistent), Practicing (mostly consistent but fragile under pressure), Competent (habitual even under stress), and Mastery (can coach others and innovate within the zone). Competency is reached when all team members rate the zone's core metric at 5/Always, 75% or more of all responses across the zone are at 5, and at least 6 of 7 items reach a composite score of 5.
 
 ### How the Diagnostic Works
 

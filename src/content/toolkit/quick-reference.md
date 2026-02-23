@@ -37,13 +37,13 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 | Stage | Average Score | What It Means |
 |---|---|---|
 | **Learning** | 2.0–2.9 | Inconsistent; behaviors drop under pressure |
-| **Proficient** | 3.0–3.9 | Mostly consistent; occasional lapses; self-corrects |
+| **Practicing** | 3.0–3.9 | Mostly consistent; occasional lapses; self-corrects |
 | **Competent** | 4.0–4.9 (threshold not met) | Largely habitual; approaching full competency |
-| **Independently Competent** | Meets all 3 threshold criteria | Habitual under stress; can coach others |
+| **Mastery** | Meets all 3 threshold criteria | Habitual under stress; can coach others |
 
 ---
 
-## Independently Competent: Three-Criterion Threshold
+## Mastery: Three-Criterion Threshold
 
 All three must be met **simultaneously**:
 

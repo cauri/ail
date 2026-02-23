@@ -19,7 +19,7 @@ Before starting this process, you need:
 Run the ACE diagnostic to determine where your organization is today. The diagnostic produces two key outputs:
 
 - **Current zone:** Which zone's proficiencies does the organization practice habitually?
-- **Competency stage within that zone:** Learning, Proficient, Competent, or Independently Competent?
+- **Competency stage within that zone:** Learning, Practicing, Competent, or Mastery?
 
 If your current zone is 0 or 1, your typical near-term target is Zone 2 -- the competitive baseline for modern software teams. The question of whether to continue to Zone 3 or Zone 4 becomes relevant after you have achieved at least Zone 2 proficiency. Each transition along the progression deserves its own strategic analysis.
 
@@ -78,7 +78,7 @@ Choose this when:
 - Software development is important but not your primary competitive differentiator
 - Your competitive position does not require AI-native development capabilities
 
-This is a strong, defensible position. Focus on moving from Proficient to Competent or from Competent to Independently Competent within Zone 2.
+This is a strong, defensible position. Focus on moving from Practicing to Competent or from Competent to Mastery within Zone 2.
 
 ### Target Zone 3
 

@@ -42,7 +42,7 @@ The team is practicing the behaviors described by the zone's questions, but prac
 
 **Recommended action:** Continue investing in the current zone. Focus on consistency and pressure resilience rather than expanding scope. Identify specific behaviors that drop off under pressure and address the root causes.
 
-### Proficient (Average Score 3.0 - 3.9)
+### Practicing (Average Score 3.0 - 3.9)
 
 The team is mostly consistent in exhibiting the zone's behaviors. Occasional lapses occur, but the team self-corrects. Behaviors are part of established practice, though they may require reminders or deliberate effort rather than being fully automatic.
 
@@ -56,7 +56,7 @@ The team is mostly consistent in exhibiting the zone's behaviors. Occasional lap
 
 ### Competent (Average Score 4.0 - 4.9, Not Meeting Full Threshold)
 
-The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. The team is approaching full competency but does not yet meet all three threshold criteria for Independently Competent.
+The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. The team is approaching full Competent stage but does not yet meet all three threshold criteria for Mastery.
 
 **Characteristics:**
 - Behaviors are habitual for most team members in most situations.
@@ -66,7 +66,7 @@ The team consistently exhibits the zone's behaviors. The practices are well-esta
 
 **Recommended action:** Identify which specific threshold criteria are not yet met and focus effort there. This is often the "last mile" --- the gap between mostly consistent and fully habitual. Begin parallel investment in the next zone if organizational competency exists.
 
-### Independently Competent (Meets All Threshold Criteria)
+### Mastery (Meets All Threshold Criteria)
 
 The team exhibits the zone's behaviors habitually, even under stress. The team can coach others in these practices. Behaviors persist through personnel changes, deadline pressure, production incidents, and other disruptions. This is the target state.
 
@@ -83,7 +83,7 @@ The team exhibits the zone's behaviors habitually, even under stress. The team c
 
 ## Competency Threshold
 
-A team achieves **Independently Competent** status within a zone when ALL THREE of the following criteria are met simultaneously:
+A team achieves **Mastery** status within a zone when ALL THREE of the following criteria are met simultaneously:
 
 ### Criterion 1: Core Metric Unanimity
 
@@ -107,7 +107,7 @@ This criterion ensures that competency is broad, not concentrated in a few areas
 
 ### All Three Required
 
-A team that meets two of three criteria is Competent but not Independently Competent. Common patterns:
+A team that meets two of three criteria is Competent but not Mastery. Common patterns:
 
 - **Meets 2 and 3 but not 1:** The team is broadly consistent, but one or more members have not fully adopted the core behavior. Focus coaching on those individuals.
 - **Meets 1 and 3 but not 2:** Everyone agrees on the core metric, and question-level averages are strong, but there is a "long tail" of sub-5 responses scattered across questions and team members. Focus on the specific situations where behaviors lapse.
@@ -141,7 +141,7 @@ For each question, calculate the average (mean) score across all team members. R
 2. **Response Distribution:** What percentage of all 35 responses are rated 5? Count: 28 out of 35 = 80%. Threshold met (>= 75%).
 3. **Question-Level Composites:** How many questions have a composite of 5.0? In the example: 1 out of 7. Threshold NOT met (needs 6 of 7).
 
-**Result:** This team meets criteria 1 and 2 but not 3. They are **Competent** but not yet **Independently Competent**.
+**Result:** This team meets criteria 1 and 2 but not 3. They are **Competent** but not yet **Mastery**.
 
 ### Step 4: Determine Maturity Stage
 
@@ -150,9 +150,9 @@ Calculate the overall average score (mean of all individual responses) and use i
 | Overall Average | Threshold Criteria Met? | Maturity Stage |
 |-----------------|------------------------|----------------|
 | 2.0 - 2.9      | N/A                    | Learning |
-| 3.0 - 3.9      | N/A                    | Proficient |
+| 3.0 - 3.9      | N/A                    | Practicing |
 | 4.0 - 4.9      | Not all three met      | Competent |
-| 4.0+            | All three met          | Independently Competent |
+| 4.0+            | All three met          | Mastery |
 
 ---
 
@@ -184,7 +184,7 @@ Instead of most scores clustering around 3-4, some team members score 4-5 while 
 
 ### Uniform High Scores (4.5+ average, low variance)
 
-The team is consistently practicing the zone's behaviors. Check whether the threshold criteria are met. If yes, the team is Independently Competent. If not, identify the specific gaps preventing full competency.
+The team is consistently practicing the zone's behaviors. Check whether the threshold criteria are met. If yes, the team has achieved Mastery. If not, identify the specific gaps preventing Mastery.
 
 **Caution:** Very uniform high scores with no variation can indicate social desirability bias. Probe with specific examples: "Can you describe a time this week when you did this? Can you describe a time when you didn't?"
 
@@ -210,9 +210,9 @@ If initial scores are high but decrease when the facilitator asks for specific e
 
 ## Reassessment Cadence
 
-- **Teams in Learning or Proficient stages:** Reassess every 2-3 months to track progress.
-- **Teams in Competent stage:** Reassess every 3-4 months to verify continued progress toward Independently Competent.
-- **Teams at Independently Competent:** Reassess every 6-12 months to verify competency is maintained, especially after significant team composition changes or organizational disruptions.
+- **Teams in Learning or Practicing stages:** Reassess every 2-3 months to track progress.
+- **Teams in Competent stage:** Reassess every 3-4 months to verify continued progress toward Mastery.
+- **Teams at Mastery:** Reassess every 6-12 months to verify competency is maintained, especially after significant team composition changes or organizational disruptions.
 - **After major changes:** Reassess within 1-2 months of significant events such as team reorganizations, major personnel changes (more than 25% of the team), tool migrations, or process overhauls.
 
 ---

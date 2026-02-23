@@ -39,15 +39,15 @@ Here are the raw scores for all seven questions:
 
 The first thing to check is always the core metric. In Zone 1, that is Question 1.
 
-**Why the core metric comes first:** Each zone has one question that represents its defining behavior. For Zone 1, that is pressure-resilient AI usage -- not "do you use AI tools" but "do you still use AI tools when things get hard." The [scoring thresholds](/toolkit/scoring-thresholds) make this non-negotiable: for a team to be Independently Competent, every single member must rate the core metric at 5. A single person below 5 on Q1 means the team has not achieved competency, regardless of any other scores.
+**Why the core metric comes first:** Each zone has one question that represents its defining behavior. For Zone 1, that is pressure-resilient AI usage -- not "do you use AI tools" but "do you still use AI tools when things get hard." The [scoring thresholds](/toolkit/scoring-thresholds) make this non-negotiable: for a team to achieve Mastery, every single member must rate the core metric at 5. A single person below 5 on Q1 means the team has not achieved competency, regardless of any other scores.
 
 **Looking at the data:** The Q1 scores are 5, 4, 5, 3, 4.
 
 What do you see? Alex and Casey are at 5. Blair and Morgan are at 4 -- they use AI tools under pressure often, but not always. Dana is at 3 -- sometimes, but inconsistently.
 
-**Applying the threshold:** For Independently Competent, we need all five members at 5. We have two. For Competent (the stage below Independently Competent), we need a question composite average of 4.5 or higher. The Q1 composite is 4.2 -- below that mark. This means that regardless of what the other questions show, the team is not yet in the Competent stage based on the core metric alone.
+**Applying the threshold:** For Mastery, we need all five members at 5. We have two. For Competent (the stage below Mastery), we need a question composite average of 4.5 or higher. The Q1 composite is 4.2 -- below that mark. This means that regardless of what the other questions show, the team is not yet in the Competent stage based on the core metric alone.
 
-Already, the core metric has narrowed your range. The team is not at Competent or Independently Competent. You are now looking at Learning (average 2.0--2.9) or Proficient (3.0--3.9). The Q1 average of 4.2 is above 3.9, but the stage definition uses the overall average across all questions, not just Q1. Keep reading.
+Already, the core metric has narrowed your range. The team is not at Competent or Mastery. You are now looking at Learning (average 2.0--2.9) or Practicing (3.0--3.9). The Q1 average of 4.2 is above 3.9, but the stage definition uses the overall average across all questions, not just Q1. Keep reading.
 
 ---
 
@@ -72,13 +72,13 @@ Let's verify:
 
 Total: 34+30+33+23+28 = 148. Divide by 35 = **4.23**, which rounds to 4.2.
 
-An overall average of 4.2 places us in the Competent range (4.0--4.9), not Learning or Proficient. The overall average is used to anchor the stage, but remember: we still need to check whether the three Independently Competent criteria are met.
+An overall average of 4.2 places us in the Competent range (4.0--4.9), not Learning or Practicing. The overall average is used to anchor the stage, but remember: we still need to check whether the three Mastery criteria are met.
 
 ---
 
 ## Step 3: Identify the Zone Stage
 
-With an overall average of 4.2, the team is in the Competent band. Now check whether they meet all three criteria for Independently Competent:
+With an overall average of 4.2, the team is in the Competent band. Now check whether they meet all three criteria for Mastery:
 
 **Criterion 1 -- Core Metric Unanimity:** All members must rate Q1 at 5. The Q1 scores are 5, 4, 5, 3, 4. Three members are below 5. Criterion 1 is **not met**.
 
@@ -93,11 +93,11 @@ Total fives: 6+2+5+0+1 = 14 out of 35 responses. That is 40%. Threshold is 75%. 
 
 **Criterion 3 -- Question-Level Composites:** At least 6 of 7 questions must have a composite average of exactly 5.0. Looking at the averages: 4.2, 4.4, 4.2, 3.8, 4.2, 4.6, 4.2. None of them are 5.0. Criterion 3 is **not met**.
 
-**Stage determination:** Overall average 4.2, none of the three Independently Competent criteria met.
+**Stage determination:** Overall average 4.2, none of the three Mastery criteria met.
 
 The team is **Zone 1, Competent**.
 
-Not Learning (average is above 2.9). Not Proficient (average is above 3.9). Not Independently Competent (criteria not met). Competent is the correct call.
+Not Learning (average is above 2.9). Not Practicing (average is above 3.9). Not Mastery (criteria not met). Competent is the correct call.
 
 ---
 
@@ -111,7 +111,7 @@ Look at Dana's row: 3, 4, 3, 3, 3, 4, 3. Every engineering-focused question is a
 
 **What does an outlier mean?**
 
-This is important: a single outlier on a team of five tells a very different story than a team where everyone is at 3. If all five members scored 3s, you would have a team with consistent, moderate adoption -- they are practicing the Zone 1 behaviors but not yet habitually. That would be a uniform Proficient team.
+This is important: a single outlier on a team of five tells a very different story than a team where everyone is at 3. If all five members scored 3s, you would have a team with consistent, moderate adoption -- they are practicing the Zone 1 behaviors but not yet habitually. That would be a uniform Practicing team.
 
 What you have here is different. Four team members are clearly in the Competent range. One member -- Dana -- joined three months ago from a team with no AI tool usage. This pattern almost always has an explanation rooted in onboarding and access, not in resistance or capability. Dana has not had the time or support to build the habits the rest of the team has.
 
@@ -147,7 +147,7 @@ Here is a draft narrative for this team:
 
 *Across the whole team, Question 4 (mode selection: vibe-coding vs. CHOP vs. AI-assisted coding) is the weakest area. The team uses AI tools well but may benefit from a brief discussion on deliberate mode selection -- when to let the AI run vs. when to apply rigorous review. This is a refinement, not a foundational gap.*
 
-*The team is well-positioned to reach Independently Competent within 1--3 months with targeted support for Dana and a light team conversation on mode selection.*
+*The team is well-positioned to reach Mastery within 1--3 months with targeted support for Dana and a light team conversation on mode selection.*
 
 ---
 
@@ -161,11 +161,11 @@ Notice what this narrative does not do. It does not say "Dana is behind." It say
 
 **Over-weighting the highest scorer.** Conversely, one enthusiastic AI adopter who rates everything a 5 can inflate the team's average and obscure the reality that most team members are at 3. A single person's competency does not constitute team competency.
 
-**Confusing Zone 1 proficiency with Zone 2 proficiency.** A team with strong Zone 1 scores has not necessarily done any Zone 2 work. Individual AI tool usage and team-level AI integration are genuinely different capabilities. A team of excellent individual AI users with no shared AGENTS.md and no mandatory feedback loops is Zone 1 Independently Competent, not Zone 2 anything.
+**Confusing Zone 1 proficiency with Zone 2 proficiency.** A team with strong Zone 1 scores has not necessarily done any Zone 2 work. Individual AI tool usage and team-level AI integration are genuinely different capabilities. A team of excellent individual AI users with no shared AGENTS.md and no mandatory feedback loops is Zone 1 Mastery, not Zone 2 anything.
 
 **Assuming high scores mean competency.** Self-reported scores can reflect aspiration as much as behavior. A team that enthusiastically believes they should be using AI tools may rate themselves higher than their actual behavior warrants. When scores seem surprisingly high, probe in discussion: "Can you describe what happened when you had that deployment incident last month -- did you reach for AI tools during that?" Behavioral specificity reveals whether scores reflect habit or intention.
 
-**Treating stage boundaries as precise.** The difference between an average of 3.9 (Proficient) and 4.0 (Competent) is not meaningful. These are bands, not bright lines. A team at 3.95 average is not categorically different from one at 4.05. Report the stage, but do not suggest that one decimal point of progress is a transformation. Focus on the patterns and the narrative, not the boundary.
+**Treating stage boundaries as precise.** The difference between an average of 3.9 (Practicing) and 4.0 (Competent) is not meaningful. These are bands, not bright lines. A team at 3.95 average is not categorically different from one at 4.05. Report the stage, but do not suggest that one decimal point of progress is a transformation. Focus on the patterns and the narrative, not the boundary.
 
 ---
 
@@ -189,7 +189,7 @@ Here is a second Zone 1 dataset for you to interpret. Work through the five step
 
 **Answers:**
 
-**Step 1 -- Core metric:** Q1 scores are 3, 3, 4, 2. No one is at 5. The composite is 3.0. The team clearly does not meet Independently Competent or Competent criteria on the core metric.
+**Step 1 -- Core metric:** Q1 scores are 3, 3, 4, 2. No one is at 5. The composite is 3.0. The team clearly does not meet Mastery or Competent criteria on the core metric.
 
 **Step 2 -- Overall average:** Total all scores: Priya (20) + Sam (20) + Teo (26) + Wen (13) = 79. Divide by 28 responses (4 × 7) = **2.82**.
 

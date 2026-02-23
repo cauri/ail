@@ -92,19 +92,19 @@ Other evidence-probing techniques: "Can you walk me through the last time your t
 - Zone 2, Q1 (core metric): teams often score high because they have the workflow documented but not habitual. Ask: "During the last production incident, did the team use Plan/Code/Verify, or did they go straight to 'fix this now'?"
 - Zone 2, Q3 (mandatory feedback loops): teams with a linter in CI/CD score high. Teams where the linter is optional or bypassed should score lower. Ask: "What happens if someone commits code that fails the linter?"
 
-**When to stop.** Most teams will not reach Zone 3. The facilitator should assess Zone 3 only if Zone 2 produces scores consistent with Competent or Independently Competent. If Zone 2 scores are in the Learning or Proficient range, stop at Zone 2 and note in the report that Zone 3 assessment was not conducted because Zone 2 foundations are not yet stable. This is not a failure -- it is accurate information.
+**When to stop.** Most teams will not reach Zone 3. The facilitator should assess Zone 3 only if Zone 2 produces scores consistent with Competent or Mastery. If Zone 2 scores are in the Learning or Practicing range, stop at Zone 2 and note in the report that Zone 3 assessment was not conducted because Zone 2 foundations are not yet stable. This is not a failure -- it is accurate information.
 
 ### Session 6: Scoring and Interpretation
 
 **How to score from workshop observations and team responses.** Scoring in ACE uses the three-criterion competency threshold. The three criteria are: (1) all team members rate the core metric question 5/Always; (2) 75% or more of all individual responses across all questions are rated 5/Always; (3) at least 6 of 7 questions have a composite average of 5.0.
 
-A team meets all three criteria only when competency is genuinely universal and consistent. Missing any one criterion determines the stage: meeting none or one criterion with scores in the 2.0-2.9 range is Learning; scores in the 3.0-3.9 range is Proficient; scores in the 4.0-4.9 range with fewer than three criteria met is Competent; all three criteria met is Independently Competent.
+A team meets all three criteria only when competency is genuinely universal and consistent. Missing any one criterion determines the stage: meeting none or one criterion with scores in the 2.0-2.9 range is Learning; scores in the 3.0-3.9 range is Practicing; scores in the 4.0-4.9 range with fewer than three criteria met is Competent; all three criteria met is Mastery.
 
 **The difference between self-report scores and facilitated scores.** Self-report scores are what team members put on the form before discussion. Facilitated scores are the defensible scores that emerge after evidence-probing discussion. These are often different. A team member who scores a question 5 before discussion but cannot produce a single specific example during discussion has given an aspirational self-report score. The facilitated score is lower. The facilitator notes this discrepancy in the workshop notes and uses the facilitated score as the basis for the report.
 
 **When to challenge a score vs. accept it.** Challenge a score when: the discussion reveals no concrete behavioral evidence for a high score; the team's description of their practice matches a lower-frequency behavior than the score suggests; or there is a clear discrepancy between what one or two vocal members claim and what quieter members acknowledge. Accept a score when: the team produces specific, recent, concrete behavioral examples; multiple team members independently describe consistent behavior; and the facilitator's own observations during the session are consistent with the score.
 
-**Applying competency thresholds.** The thresholds are criteria, not a formula. A team with a composite average of 4.8 that fails the core metric unanimity criterion is Competent, not Independently Competent. The facilitator must check all three criteria independently, not just compute an average.
+**Applying competency thresholds.** The thresholds are criteria, not a formula. A team with a composite average of 4.8 that fails the core metric unanimity criterion is Competent, not Mastery. The facilitator must check all three criteria independently, not just compute an average.
 
 ### Session 7: Common Facilitation Challenges
 
@@ -211,7 +211,7 @@ Describe one facilitation challenge from the mock workshop (or from a prior faci
 After completing Module 2, trainees should:
 
 - Reflect on the mock workshop experience: which facilitation challenge was hardest to handle in real time, and what does that reveal about where additional practice is needed?
-- Review the management report template and consider: how would you translate a Zone 2 Proficient assessment into investment language for an engineering director?
+- Review the management report template and consider: how would you translate a Zone 2 Practicing assessment into investment language for an engineering director?
 - Revisit the progressive competency model from Module 1, specifically the factors that inform strategic analysis at each zone transition.
 
 Module 3 builds on Module 2 by extending from assessment facilitation to strategic goal-setting with organizational leadership -- a different audience with different competency needs.

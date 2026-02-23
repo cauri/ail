@@ -24,7 +24,7 @@ The Payments Platform team completed a facilitated ACE diagnostic workshop on Ja
 
 **Current zone and stage: Zone 1 — Competent**
 
-The team has achieved Zone 1 Competency. All six members rated the Zone 1 core metric at 5/Always, overall Zone 1 scores average 4.4, and the team met the competency threshold on 3 of 7 items at composite 5 with all remaining items at composite 4. This places the team solidly in the Competent stage — AI tool usage is habitual across roles and holds under pressure. Zone 1 Independently Competent would require broader 5s across the full item set; for now, the right focus is Zone 2 transition, not chasing the last increment of Zone 1 refinement.
+The team has achieved Zone 1 Competency. All six members rated the Zone 1 core metric at 5/Always, overall Zone 1 scores average 4.4, and the team met the competency threshold on 3 of 7 items at composite 5 with all remaining items at composite 4. This places the team solidly in the Competent stage — AI tool usage is habitual across roles and holds under pressure. Zone 1 Mastery would require broader 5s across the full item set; for now, the right focus is Zone 2 transition, not chasing the last increment of Zone 1 refinement.
 
 Zone 2 screening revealed emerging but inconsistent Zone 2 practices. The team does not yet have the shared configuration, mandatory feedback loops, or Plan/Code/Verify discipline that Zone 2 requires. The recommended next focus for this team is the Zone 2 transition.
 

@@ -118,14 +118,14 @@ Before beginning this roadmap, confirm:
 | Zone 2 practices maintained through at least one high-pressure period | End of Month 5 | Manager and team self-report; retrospective discussion |
 | AGENTS.md has been iterated at least 8 times since creation | End of Month 5 | Git commit history |
 | Delivery metrics show measurable improvement in at least one area | End of Month 6 | Metric comparison to pre-Zone 2 baseline |
-| Zone 2 competency check shows Proficient or Competent stage | End of Month 6 | Diagnostic results |
+| Zone 2 competency check shows Practicing or Competent stage | End of Month 6 | Diagnostic results |
 | Decision made: pursue deep Zone 2 competency or begin Zone 3 planning | End of Month 6 | Decision documented and communicated |
 
 ### Common Obstacles
 
 - **Metrics show no improvement (yet).** Zone 2 benefits often appear first as consistency improvements (less variance in quality, fewer surprise defects) before showing throughput improvements. If delivery speed has not increased but defect rates have decreased, that is real progress. Ensure metrics capture quality improvements, not just velocity.
 - **Zone 2 practices feel like overhead.** During the consolidation phase, some team members may feel that the structured workflow, retrospectives, and configuration management add more process than value. This is usually a signal that the team is in the "conscious competence" stage -- practices are not yet automatic. Persist through this phase; automation of habit takes time.
-- **Team treats Zone 2 as "done" once proficient.** Proficiency (can do it when thinking about it) is not competency (does it habitually under pressure). The transition from Proficient to Competent typically takes 1-2 additional months of deliberate practice and pressure-testing.
+- **Team treats Zone 2 as "done" once proficient.** Proficiency (can do it when thinking about it) is not competency (does it habitually under pressure). The transition from Practicing to Competent typically takes 1-2 additional months of deliberate practice and pressure-testing.
 
 ---
 

@@ -23,7 +23,7 @@ order: 4
 
 FinServ Corp's engineering organization has meaningful AI tool adoption underway. Across five delivery teams, individual engineers are using AI coding tools regularly, and in several cases this usage is becoming habitual. The organization is not, however, operating at the team-level AI integration that characterizes Zone 2 competency, and the gap between where teams are and where the industry baseline is heading is widening faster than individual adoption can close it on its own.
 
-Four of the five teams assessed are operating at Zone 1 — two at the Competent stage and two at the Proficient stage. One team has crossed into Zone 2 Learning, with a committed shared workflow in its early stages. No team has achieved Zone 2 Proficiency or beyond. This distribution is consistent with an organization where individual AI adoption has been left largely to individual initiative: engineers who care about it have made progress, but that progress has not yet become a team capability. The practical consequence is high variance — both within teams and across teams — and fragility under pressure.
+Four of the five teams assessed are operating at Zone 1 — two at the Competent stage and two at the Practicing stage. One team has crossed into Zone 2 Learning, with a committed shared workflow in its early stages. No team has achieved Zone 2 Proficiency or beyond. This distribution is consistent with an organization where individual AI adoption has been left largely to individual initiative: engineers who care about it have made progress, but that progress has not yet become a team capability. The practical consequence is high variance — both within teams and across teams — and fragility under pressure.
 
 The five assessments revealed a set of systemic conditions that are not within individual teams' power to fix. Inconsistent tool access across teams, the absence of an organizational AI usage policy, compliance-related friction that suppresses adoption in the most regulated workstreams, and no shared templates or configuration standards are all organizational-level problems. These conditions are not obstacles to Zone 1 progress, but they are direct blockers to Zone 2. Without organizational action on these items, the teams that are currently at Zone 1 Competent will stall — not because the teams lack motivation or capability, but because the infrastructure for Zone 2 does not exist.
 
@@ -46,7 +46,7 @@ Five teams participated in facilitated ACE diagnostic workshops between January 
 ### Zone Distribution
 
 ```
-Zone / Stage         | Learning | Proficient | Competent | Ind. Competent | Total
+Zone / Stage         | Learning | Practicing | Competent | Mastery | Total
 ---------------------|----------|------------|--------|-------------|------
 Zone 0 (Baseline)    |    0     |     0      |   0    |      0      |   0
 Zone 1 (Augmenting)  |    0     |     2      |   2    |      0      |   4
@@ -56,7 +56,7 @@ Zone 3 (Accelerating)|    0     |     0      |   0    |      0      |   0
 Total                |    1     |     2      |   2    |      0      |   5
 ```
 
-All five teams have meaningful AI adoption underway. The distribution clusters at Zone 1 Proficient and Competent, with one team beginning the Zone 2 transition. No teams are at Zone 0, and no teams are at Zone 3 or beyond. The Zone 2 Learning team is the most advanced and represents the current ceiling for the organization.
+All five teams have meaningful AI adoption underway. The distribution clusters at Zone 1 Practicing and Competent, with one team beginning the Zone 2 transition. No teams are at Zone 0, and no teams are at Zone 3 or beyond. The Zone 2 Learning team is the most advanced and represents the current ceiling for the organization.
 
 ---
 
@@ -117,7 +117,7 @@ No organizational templates exist for team-level AI configuration (AGENTS.md or 
 ### Theme 1: AI Tooling Standardization and Access
 
 **Addresses findings:** 1, 3
-**Benefits:** All 5 assessed teams; effect is largest for teams currently at Zone 1 Proficient where uneven access is blocking team-level adoption
+**Benefits:** All 5 assessed teams; effect is largest for teams currently at Zone 1 Practicing where uneven access is blocking team-level adoption
 **Priority:** High
 **Estimated effort:** Medium — requires procurement process changes and budget allocation; deliverable is a decision and a standard, not an infrastructure build
 
@@ -163,9 +163,9 @@ Zone 2 requires that product managers write acceptance criteria in AI-verifiable
 | Team | Current Zone/Stage | Recommended Target | Timeline | Rationale |
 |---|---|---|---|---|
 | Payments Platform | Zone 1 Competent | Zone 2 Competent | 18 months | Strong Zone 1 foundation and PM AI adoption create near-term Zone 2 competency; primary needs are shared configuration and Plan/Code/Verify discipline. |
-| Core Banking | Zone 1 Proficient | Zone 2 Competent | 18 months | Compliance friction is the primary barrier; policy investment (Theme 2) is prerequisite to progress. |
+| Core Banking | Zone 1 Practicing | Zone 2 Competent | 18 months | Compliance friction is the primary barrier; policy investment (Theme 2) is prerequisite to progress. |
 | Developer Experience | Zone 2 Learning | Zone 2 Competent | 12 months | Already in Zone 2; with organizational support on templates and tooling, Competency is achievable in 12 months. Evaluate for Zone 3 competency at 12-month re-assessment. |
-| Data Science | Zone 1 Proficient | Zone 2 Competent | 18 months | Role composition (data scientists, not primarily software engineers) requires adapted Zone 2 content; standard Zone 2 templates will need adjustment for this team's workflow. |
+| Data Science | Zone 1 Practicing | Zone 2 Competent | 18 months | Role composition (data scientists, not primarily software engineers) requires adapted Zone 2 content; standard Zone 2 templates will need adjustment for this team's workflow. |
 | Mobile | Zone 1 Competent | Zone 2 Competent | 18 months | Similar profile to Payments Platform; benefits most from organizational investments in tooling standardization and shared templates. |
 
 These targets are conditional on the organizational investments in Themes 1-3 being made. Without the AI usage policy (Theme 2) in particular, Core Banking and Data Science teams face structural blockers that cannot be resolved at the team level.

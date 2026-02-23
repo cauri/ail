@@ -18,7 +18,7 @@ Before creating a roadmap, you need:
 
 Start with the diagnostic results. Document:
 
-- **Current zone and competency stage.** For example: "Zone 1, Proficient stage" or "Zone 2, Learning stage."
+- **Current zone and competency stage.** For example: "Zone 1, Practicing stage" or "Zone 2, Learning stage."
 - **Specific proficiency gaps.** Which proficiencies within the current zone are not yet habitual? These must be addressed before or concurrently with advancing to the next zone.
 - **Existing organizational investments.** What has the organization already committed in terms of tools, policies, training, and structural changes? Build on what exists rather than starting from scratch.
 - **Known blockers.** What organizational friction is currently preventing progress? Policy restrictions, procurement delays, management resistance, tool limitations, cultural resistance.
@@ -131,9 +131,9 @@ Each reassessment should produce:
 
 Zone transitions are not linear. Expect setbacks and plan for them:
 
-- **Regression under pressure.** Teams may revert to pre-zone behaviors during crises. This is normal during the Learning and Proficient stages. Note it, address it, but do not treat it as failure.
+- **Regression under pressure.** Teams may revert to pre-zone behaviors during crises. This is normal during the Learning and Practicing stages. Note it, address it, but do not treat it as failure.
 - **Organizational priority shifts.** If leadership attention moves elsewhere, investment may slow. Build in checkpoints where you explicitly re-confirm organizational commitment.
-- **Team turnover.** New team members may not share the competency of the existing team. Build onboarding practices that bring new members up to the team's current competency level.
+- **Team turnover.** New team members may not share the practices of the existing team. Build onboarding practices that bring new members up to the team's current practice level.
 - **Tool or vendor changes.** AI tools evolve rapidly. Practices built around specific tools may need adaptation. Build practices around capabilities, not products.
 
 When setbacks occur, adjust the roadmap rather than abandoning it. Move timelines out, add support investments, or narrow scope. A slower progression is better than a stalled one.
@@ -147,7 +147,7 @@ ACE Progression Roadmap
 ============================
 
 Current State
-- Zone: [X], Stage: [Learning/Proficient/Competent/Independently Competent]
+- Zone: [X], Stage: [Learning/Practicing/Competent/Mastery]
 - Key proficiency gaps: [list]
 - Known blockers: [list]
 

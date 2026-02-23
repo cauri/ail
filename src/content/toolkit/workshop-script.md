@@ -272,7 +272,7 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 
 "Thank you for your honesty and engagement today. Here is what happens next.
 
-Within the next [1-2 weeks], I will prepare two reports based on today's session:
+Within the next few days, I will prepare two reports based on today's session:
 
 1. **A team report** that comes back to this team. It will include your scores, the themes from our discussion, and specific investment recommendations. This report is yours. It is meant to help you decide what to work on.
 

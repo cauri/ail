@@ -61,11 +61,11 @@ Within each zone, teams progress through four stages of competency:
 
 **Learning.** The team is actively practicing the zone's behaviors. They sometimes forget or revert under pressure. They need reminders and external support to maintain new practices. Progress is visible but inconsistent.
 
-**Proficient.** The team performs the zone's behaviors mostly consistently. They need occasional reminders but rarely require intervention. The practices are becoming habitual but have not yet been tested by sustained pressure.
+**Practicing.** The team performs the zone's behaviors mostly consistently. They need occasional reminders but rarely require intervention. The practices are becoming habitual but have not yet been tested by sustained pressure.
 
 **Competent.** The zone's behaviors are habitual and consistent even under deadline pressure, during production incidents, and in unfamiliar domains. The team does not revert to pre-zone behaviors when conditions deteriorate. This is the target state for each zone.
 
-**Independently Competent.** The team not only practices the zone's behaviors competently but can coach other teams, adapt practices to novel contexts, and innovate within the zone's framework. Independently competent teams are a resource for organizational learning, not just practitioners of established practices.
+**Mastery.** The team not only practices the zone's behaviors competently but can coach other teams, adapt practices to novel contexts, and innovate within the zone's framework. Teams at Mastery are a resource for organizational learning, not just practitioners of established practices.
 
 These stages apply within each zone independently. A team can be competent in Zone 1 while still learning Zone 2 behaviors. The stages help organizations track progress within a zone and set realistic expectations for the timeline from initial adoption to reliable competency.
 

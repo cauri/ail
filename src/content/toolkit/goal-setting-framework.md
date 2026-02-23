@@ -154,7 +154,7 @@ Use these questions during the leadership goal-setting session to help decision-
 
 ### Current Capability
 
-8. **Do our teams currently maintain their AI development practices under deadline pressure?** If practices degrade under stress, the teams are not yet competent at their current zone. Invest in deepening current competency before targeting a higher zone.
+8. **Do our teams currently maintain their AI development practices under deadline pressure?** If practices degrade under stress, the teams are not yet consistent at their current zone. Invest in deepening current practice before targeting a higher zone.
 
 9. **Do our teams have regular retrospectives specifically about their AI development workflow?** If not, Zone 2 habits are not yet self-improving, which means they are not yet mature enough to serve as a foundation for Zone 3.
 

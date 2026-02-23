@@ -24,7 +24,7 @@ order: 1
 
 ### Current Competency Stage
 
-Based on the diagnostic results and facilitated discussion, the team is currently operating at **{{CURRENT_ZONE}}** with a competency stage of **{{COMPETENCY_STAGE}}** (Learning / Proficient / Competent / Independently Competent).
+Based on the diagnostic results and facilitated discussion, the team is currently operating at **{{CURRENT_ZONE}}** with a competency stage of **{{COMPETENCY_STAGE}}** (Learning / Practicing / Competent / Mastery).
 
 {{COMPETENCY_STAGE_EXPLANATION}}
 
