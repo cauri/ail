@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "skills": {
+    "active-research": {
+      "source": "actionbook/actionbook",
+      "sourceType": "github",
+      "computedHash": "a5da8e87b0ff81a44e459021c3673955b7bd72fc816fd17a21dd054b6aabef69"
+    },
+    "content-evaluation-framework": {
+      "source": "panaversity/agentfactory",
+      "sourceType": "github",
+      "computedHash": "26cd10494c1a0d7e8410921f2907b36e36584d9387a70ed2df1da765c3a963d0"
+    },
+    "course-designer": {
+      "source": "teachingai/full-stack-skills",
+      "sourceType": "github",
+      "computedHash": "684b3d5c01cd184213ad2397e14591cfff78b74f75599cd86d0302c6139d0077"
+    },
+    "curriculum-develop-content": {
+      "source": "pauljbernard/content",
+      "sourceType": "github",
+      "computedHash": "1ce2e1b83e572be97efbbbf52572af09d106fa9373bcccb4505d5698ce4b13f0"
+    },
+    "curriculum-review-pedagogy": {
+      "source": "pauljbernard/content",
+      "sourceType": "github",
+      "computedHash": "7e1738cab0b6383e1eafa972b21b212e615c4cd6f94b15bcb22e00785a44009a"
+    },
+    "discovery-interviews-surveys": {
+      "source": "lyndonkl/claude",
+      "sourceType": "github",
+      "computedHash": "3db98cc18cfea2fbe14a8294f8cbb2e3676092be5fea211be62f67e22e31adec"
+    },
+    "documentation-writing": {
+      "source": "rysweet/amplihack",
+      "sourceType": "github",
+      "computedHash": "32b1bb6c007df076cfba8b802dd27911c96f6b85b9c50c953a8fff37edf682dc"
+    },
+    "evaluation-rubrics": {
+      "source": "lyndonkl/claude",
+      "sourceType": "github",
+      "computedHash": "3739dcf5255ded7e772c59c290dc5b242f3e261744ba9ab3a9feb7fe5ae45084"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "6412eb4eb3b91595ebab937f0c69501240e7ba761b3d82510b5cf506ec5c7adc"
+    },
+    "learning-pedagogy": {
+      "source": "pauljbernard/content",
+      "sourceType": "github",
+      "computedHash": "ff39ff32d1386370aeccd1487b6a090e915cbe4a1f84e363800abbb7fb634674"
+    },
+    "learning-platform-training": {
+      "source": "pauljbernard/content",
+      "sourceType": "github",
+      "computedHash": "608a3fb3db69c1a22870d4874f35ce668b25638b28047ae572f6dedd976c8346"
+    },
+    "metrics-tree": {
+      "source": "lyndonkl/claude",
+      "sourceType": "github",
+      "computedHash": "031dd8b33a691b7091b8052d13dff7489a9d38c1682deceb4ae080d48e00bb3f"
+    },
+    "people-analytics": {
+      "source": "borghei/claude-skills",
+      "sourceType": "github",
+      "computedHash": "13040232a9623c8af051a314f9a0715364c4b9ae4f37641453791cff83756478"
+    },
+    "pptx-generator": {
+      "source": "jwynia/agent-skills",
+      "sourceType": "github",
+      "computedHash": "8bf8f22070c2e5406d2a7ee351f1b8ec2bbd2823a90288bc1a60dd3ebc24fd9f"
+    },
+    "quality-auditor": {
+      "source": "daffy0208/ai-dev-standards",
+      "sourceType": "github",
+      "computedHash": "84b09816a4fd91227fd229ba2de28ced5f22e24e7bf50aee6303e9322160706d"
+    },
+    "report-generator": {
+      "source": "curiouslearner/devkit",
+      "sourceType": "github",
+      "computedHash": "0df12e325c1cc21ab88bd58db3f00de6c5e4dec70b8f8dc01a4f6b1ca2b9bdce"
+    },
+    "scholar-evaluation": {
+      "source": "ovachiever/droid-tings",
+      "sourceType": "github",
+      "computedHash": "a4719d0b059e4148fcd400b78eef874219b64fc92220f3883d43f5c8a0362c45"
+    },
+    "scientific-slides": {
+      "source": "davila7/claude-code-templates",
+      "sourceType": "github",
+      "computedHash": "1d5776e2706957f5b65b7466b541ed59ce686b09e800606afbf55ced85a0db63"
+    },
+    "skills-proficiency-mapper": {
+      "source": "panaversity/agentfactory",
+      "sourceType": "github",
+      "computedHash": "83adcd81960aebee91007ea0b1ccfaf768a2b5722d82a71846715c858e89dd9c"
+    },
+    "sociologist-analyst": {
+      "source": "rysweet/amplihack",
+      "sourceType": "github",
+      "computedHash": "a47f24b9074d9febd5d4ed17a2e8045581cb314e0cf4a6936a5c1791068237dd"
+    },
+    "survey-analyzer": {
+      "source": "dkyazzentwatwa/chatgpt-skills",
+      "sourceType": "github",
+      "computedHash": "291e58d5b5a023c1f947e9bb280f86a1351ea8fe219454e98566558df41fca5a"
+    },
+    "user-research-analysis": {
+      "source": "aj-geddes/useful-ai-prompts",
+      "sourceType": "github",
+      "computedHash": "3d080a426269160703521bb45415c2a1003d910c6cb2d4e7d6202f5ee7f8304b"
+    },
+    "ux-researcher": {
+      "source": "borghei/claude-skills",
+      "sourceType": "github",
+      "computedHash": "f6b9dc3272fed15ab875f55555455a15901b8d13c08bb9eadf3e05c4083a5d0f"
+    }
+  }
+}

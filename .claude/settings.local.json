@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills find:*)",
+      "Bash(npx skills add:*)",
+      "Bash(npx @actionbookdev/json-ui:*)",
+      "Bash(xargs:*)",
+      "mcp__plugin_Notion_notion__notion-search",
+      "mcp__plugin_Notion_notion__notion-fetch",
+      "Bash(find:*)",
+      "Bash(wc:*)",
+      "Bash(cd /home/jwilger/projects/ai-asdf/website && npm install && npx astro add tailwind mdx --yes 2>&1)",
+      "Bash(npm run:*)",
+      "Bash(cd:*)",
+      "Bash(tail:*)"
+    ]
+  },
+  "spinnerTipsEnabled": false
+}
