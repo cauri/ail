@@ -22,15 +22,15 @@ order: 2
 
 The Payments Platform team completed a facilitated ACE diagnostic workshop on January 28, 2026. All six team members participated for the full 110-minute session. The team assessed Zone 1 in full and completed a screening pass through Zone 2 to establish competency.
 
-**Current zone and stage: Zone 1 — Competent**
+**Current zone and stage: Zone 1 — Established**
 
-The team has achieved Zone 1 Competency. All six members rated the Zone 1 core metric at 5/Always, overall Zone 1 scores average 4.4, and the team met the competency threshold on 3 of 7 items at composite 5 with all remaining items at composite 4. This places the team solidly in the Competent stage — AI tool usage is habitual across roles and holds under pressure. Zone 1 Mastery would require broader 5s across the full item set; for now, the right focus is Zone 2 transition, not chasing the last increment of Zone 1 refinement.
+The team has achieved Zone 1 Competency. All six members rated the Zone 1 core metric at 5/Always, overall Zone 1 scores average 4.4, and the team met the competency threshold on 3 of 7 items at composite 5 with all remaining items at composite 4. This places the team solidly in the Established stage — AI tool usage is habitual across roles and holds under pressure. Zone 1 Exemplary would require broader 5s across the full item set; for now, the right focus is Zone 2 transition, not chasing the last increment of Zone 1 refinement.
 
 Zone 2 screening revealed emerging but inconsistent Zone 2 practices. The team does not yet have the shared configuration, mandatory feedback loops, or Plan/Code/Verify discipline that Zone 2 requires. The recommended next focus for this team is the Zone 2 transition.
 
 ---
 
-## Zone 1 Proficiency Breakdown
+## Zone 1 Assessment Breakdown
 
 The table below shows each Zone 1 proficiency item, the team's composite score, and a brief observation based on scores and workshop discussion.
 
@@ -46,7 +46,7 @@ The table below shows each Zone 1 proficiency item, the team's composite score, 
 
 **Zone 1 competency threshold met: Yes**
 
-Core metric: 6/6 members at 5. Overall zone average: 4.4. Composite 5 items: 3 of 7. Composite 4 items: 4 of 7. All items at composite 4 or above: 7 of 7. The competency threshold (core metric unanimous at 5, 75%+ of individual responses at 5, 6/7 items at composite 5) is met on the core metric condition and on the per-item floor. The team is Competent. The 4s on Q4-Q7 are real growth areas and will matter in Zone 2, but they do not change the zone or stage designation.
+Core metric: 6/6 members at 5. Zone composite average: 4.4. Standard deviation across all individual responses: approximately 0.6. All question composites at 4.0 or above: yes. The competency threshold (composite average ≥ 4.7, SD ≤ 0.5, no question composite below 4.0) is not fully met — the composite average of 4.4 falls below 4.7, and the SD of 0.6 exceeds 0.5. The team is Established. The 4s on Q4-Q7 are real growth areas and will matter in Zone 2, but they do not change the zone or stage designation.
 
 ---
 
@@ -68,7 +68,7 @@ Zone 2 (Integrating) requires the team to operate as a unit around a shared AI-a
 - No externalized plans in the repository (Q4). Work planning lives in Jira tickets and Slack threads, neither of which is readable by an AI agent working from the codebase.
 - The PM does not yet write acceptance criteria in AI-verifiable form (Q7). Criteria are functional and well-structured, but not written with AI agent consumption in mind. This will become a meaningful gap as the team moves toward agentic workflows.
 
-**Zone 2 competency threshold met: No.** The team is not yet operating in Zone 2. Zone 2 Learning requires consistent practice of the foundational items; none are yet habitual.
+**Zone 2 competency threshold met: No.** The team is not yet operating in Zone 2. Zone 2 Emerging requires consistent practice of the foundational items; none are yet habitual.
 
 ---
 
@@ -174,7 +174,7 @@ This is a gradual shift. A useful starting point: the PM picks two stories per s
 - PM running structured acceptance criteria on at least half of all stories.
 - AGENTS.md updated at each sprint retro as a standing 15-minute agenda item.
 - If Artisan team is embedded: Artisan Engineers are actively pairing with client engineers on Plan/Code/Verify and AGENTS.md evolution; ramp-down indicators are being tracked.
-- Schedule re-assessment for 90 days out (late April 2026) to evaluate Zone 2 Learning stage competency.
+- Schedule re-assessment for 90 days out (late April 2026) to evaluate Zone 2 Emerging stage competency.
 
 ---
 

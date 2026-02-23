@@ -1,26 +1,26 @@
 ---
 title: "Zone 1: Augmenting"
-description: "Individual developers use AI coding assistants -- copilot, autocomplete, chat -- habitually as part of their daily work."
+description: "Individual team members -- developers, PMs, designers, QA engineers -- use AI tools habitually as part of their daily software production work."
 section: "reference"
 order: 1
 ---
-Individual developers use AI coding assistants -- copilot, autocomplete, chat -- habitually as part of their daily work. AI usage is personal, optional, and ad-hoc. The fundamental shift in this zone is from "AI is new, unfamiliar, or threatening" to "AI tools are a normal part of how I work every day." Zone 1 represents the first step in the AI Competency Evaluation (ACE) model, a progressive framework spanning four zones. Every organization pursuing AI-augmented development passes through this zone, and the proficiencies established here form the foundation for all subsequent zones.
+Individual team members involved in software production -- developers, product managers, designers, QA engineers -- use AI tools habitually as part of their daily work. AI usage is personal, optional, and ad-hoc. The fundamental shift in this zone is from "AI is new, unfamiliar, or threatening" to "AI tools are a normal part of how I work every day." Zone 1 represents the first step in the AI Competency Evaluation (ACE) model, a progressive framework spanning four zones. Every organization pursuing AI-augmented development passes through this zone, and the proficiencies established here form the foundation for all subsequent zones.
 
-**Shift type:** Individual skills shift
+**Shift type:** Tool adoption shift
 
 ---
 
 ## Who Is This For?
 
-Zone 1 is relevant to any software organization where individual contributors -- developers, product managers, designers -- have not yet adopted AI tools as a habitual part of their workflow. This includes organizations that have purchased AI tool licenses but see low or inconsistent usage, organizations where AI adoption is driven by a few enthusiasts rather than being broadly practiced, and organizations where team members are curious about AI but uncertain how to integrate it into real work.
+Zone 1 is relevant to any software organization where individual contributors -- developers, product managers, designers, QA engineers -- have not yet adopted AI tools as a habitual part of their workflow. This includes organizations that have purchased AI tool licenses but see low or inconsistent usage, organizations where AI adoption is driven by a few enthusiasts rather than being broadly practiced, and organizations where team members are curious about AI but uncertain how to integrate it into real work.
 
 Organizations at this zone are not yet asking AI to change how teams collaborate or how delivery processes work. The goal is simpler and more immediate: get every individual comfortable and productive with AI tools so that the team has a foundation to build on. If your developers reach for AI tooling as naturally as they reach for their IDE or version control, you have achieved Zone 1 competency. If they abandon AI tools when deadlines tighten or when working in unfamiliar codebases, you have not.
 
 ## Core Metric
 
-**Developers habitually use AI coding tools in their daily work, even under deadline pressure or in unfamiliar codebases.**
+**Team members involved in software production -- developers, PMs, designers, QA engineers -- habitually use AI tools in their daily work, even under deadline pressure or in unfamiliar codebases.**
 
-Habitual use is the key qualifier. Occasional or experimental use does not constitute competency. The test is whether AI tools remain part of a developer's workflow when conditions are least favorable -- tight deadlines, production incidents, legacy code, unfamiliar domains. If AI tools are the first thing dropped when pressure increases, the organization has not yet reached Zone 1 competency.
+Habitual use is the key qualifier. Occasional or experimental use does not constitute competency. The test is whether AI tools remain part of each team member's software production workflow when conditions are least favorable -- tight deadlines, production incidents, legacy code, unfamiliar domains. If AI tools are the first thing dropped when pressure increases, the organization has not yet reached Zone 1 competency.
 
 ## Benefits
 
@@ -56,6 +56,16 @@ Proficiencies are specific, observable behaviors that are practiced habitually -
 
 - **Uses AI for ideation, content generation, and design exploration.** AI tools assist with generating design alternatives, creating placeholder content, exploring layout options, and producing copy variations. The designer treats AI as a brainstorming partner that accelerates the exploration phase.
 - **Incorporates AI-powered tools into the design workflow.** AI capabilities within design tools (image generation, layout suggestions, content-aware features) are part of the designer's standard toolkit rather than novelties used occasionally.
+
+### Quality Assurance
+
+- **Uses AI to assist with test case generation and test strategy design.** AI tools help generate test cases from requirements, suggest edge cases, and assist with structuring test plans. The QA engineer refines and validates AI-generated test artifacts against their domain knowledge.
+- **Uses AI for bug triage, reproduction, and root cause analysis.** When investigating defects, the QA engineer queries AI to help analyze logs, suggest reproduction steps, identify likely root causes, and cross-reference similar issues -- as a standard diagnostic step alongside traditional investigation techniques.
+- **Uses AI to create and manage test data.** AI assists with generating realistic test data sets, creating test fixtures, and producing data that covers boundary conditions and edge cases, reducing the manual effort that often makes thorough test data preparation impractical.
+
+### A Note on Data Science and ML Practitioners
+
+Data science and ML practitioners on the team should participate in Zone 1 adoption alongside other roles. Their existing practices -- notebooks, data analysis, model experimentation -- naturally overlap with AI tool usage, and many will find adoption straightforward. ACE does not define a separate data science proficiency track because data science is a specialization rather than a universal team role in software production. Where data science practitioners are present, they should be included in training, assessed alongside the team, and their AI tool adoption should be measured by the same habitual-use standard applied to all other roles.
 
 ## Organizational Investments
 

@@ -32,7 +32,7 @@ This checklist covers everything a facilitator must prepare before running an AC
 
 - [ ] **Prepare question sheets.** Print or set up digital forms for each zone being assessed. Each participant needs their own copy. Include:
   - The zone name and brief description
-  - All 7 questions with the 1-5 scale
+  - All questions for each zone with the 1-5 scale
   - Space for optional notes next to each question
   - Participant name or anonymous identifier (discuss anonymity approach with sponsor)
 

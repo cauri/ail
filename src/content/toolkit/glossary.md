@@ -43,7 +43,7 @@ The first level of the "separate generation from decisioning" framework. Defines
 The discipline of deliberately deciding what information goes into AI context windows, how it is structured, and when it is refreshed. Distinct from prompt engineering: context engineering operates at the project or system level, not at the individual-prompt level. Practiced at Zone 2 (session/project level) and Zone 3 (system level). See [Proficiency Catalog](/toolkit/proficiency-catalog).
 
 **Core metric**
-The single most important behavioral question for a zone, marked with a star in the diagnostic questionnaire. All team members must individually rate the core metric 5/Always for the team to achieve Mastery status in that zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+The single most important behavioral question for a zone, marked with a star in the diagnostic questionnaire. All team members must individually rate the core metric 5/Always for the team to achieve Exemplary status in that zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 ---
 
@@ -70,7 +70,7 @@ A feature plan or implementation design written to a markdown file in the reposi
 Habitual behavior under stress. What a team does reliably when conditions are unfavorable — tight deadlines, production incidents, unfamiliar codebases, organizational pressure. Not knowledge about best practices. Not peak performance on a team's best day. See [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Competency stages**
-The four stages within each zone: Learning, Practicing, Competent, Mastery. These stages describe progression toward full competency within a given zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+The four stages within each zone: Emerging, Developing, Established, Exemplary. These stages describe progression toward full competency within a given zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 **Fresh session**
 Starting a new agent session with no prior context about an implementation before performing code review. Ensures the review is independent of the implementation decisions rather than anchored to them. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).
@@ -79,8 +79,8 @@ Starting a new agent session with no prior context about an implementation befor
 
 ## M
 
-**Mastery**
-The highest of the four competency stages within a zone. A team has achieved Mastery when all three threshold criteria are met simultaneously: core metric unanimity (all members score the core metric 5/Always), response distribution (≥75% of all responses at 5/Always), and question-level composites (≥6 of 7 questions at composite 5.0). Teams at Mastery can coach others, innovate within the zone, and sustain practices under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+**Exemplary**
+The highest of the four competency stages within a zone. A team has achieved Exemplary when all three threshold criteria are met simultaneously: zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0. Teams at Exemplary can coach others, innovate within the zone, and sustain practices under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 ---
 
@@ -170,7 +170,7 @@ A defined stage of AI-augmented software development capability, characterized b
 - [Zone 2 Reference](/toolkit/zone-2-integrating) -- Full definition of Zone 2 proficiencies, investments, and benefits
 - [Zone 3 Reference](/toolkit/zone-3-accelerating) -- Full definition of Zone 3 proficiencies, investments, and benefits
 - [Zone 4 Reference](/toolkit/zone-4-industrializing) -- Full definition of Zone 4 proficiencies, investments, and benefits
-- [Scoring Thresholds](/toolkit/scoring-thresholds) -- Definitions of competency stages, thresholds, and the frequency scale referenced by terms like "competency" and "Mastery"
+- [Scoring Thresholds](/toolkit/scoring-thresholds) -- Definitions of competency stages, thresholds, and the frequency scale referenced by terms like "competency" and "Exemplary"
 - [Proficiency Catalog](/toolkit/proficiency-catalog) -- Complete catalog of all proficiencies across all zones; most proficiency terms defined here have entries there
 - [Technique Catalog](/toolkit/technique-catalog) -- Complete catalog of techniques; vibe-coding, CHOP, Plan/Code/Verify, and other technique terms defined here have entries there
 - [Quick Reference](/toolkit/quick-reference) -- One-page summary of zones, competency stages, and key terms for use during workshops

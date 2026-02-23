@@ -88,17 +88,17 @@ The diagnostic establishes the starting point. Target zones must be realistic gi
 | Current State | Realistic Near-Term Target | Timeline |
 |---|---|---|
 | Zone 0 | Zone 1 | 1-3 months |
-| Zone 1, Learning stage | Zone 1 Competent, then Zone 2 | 3-6 months to Zone 1 Competent, 6-9 months to Zone 2 |
-| Zone 1, Competent stage | Zone 2 | 3-6 months |
-| Zone 2, Learning stage | Zone 2 Competent | 3-6 months |
-| Zone 2, Competent stage | Zone 2 Deep Competency or Zone 3 | 6-12 months (Zone 2 deep) or 12-24 months (Zone 3) |
-| Zone 3, Learning stage | Zone 3 Competent | 12-18 months |
+| Zone 1, Emerging stage | Zone 1 Established, then Zone 2 | 3-6 months to Zone 1 Established, 6-9 months to Zone 2 |
+| Zone 1, Established stage | Zone 2 | 3-6 months |
+| Zone 2, Emerging stage | Zone 2 Established | 3-6 months |
+| Zone 2, Established stage | Zone 2 Deep Competency or Zone 3 | 6-12 months (Zone 2 deep) or 12-24 months (Zone 3) |
+| Zone 3, Emerging stage | Zone 3 Established | 12-18 months |
 
-**Do not skip zones.** Organizations at Zone 0 should not target Zone 3. Organizations at Zone 1 Learning should not target Zone 2 Competent on an aggressive timeline. Each zone builds on the habits and infrastructure of the previous zone, and attempting to skip stages produces fragile capabilities that collapse under pressure.
+**Do not skip zones.** Organizations at Zone 0 should not target Zone 3. Organizations at Zone 1 Emerging should not target Zone 2 Established on an aggressive timeline. Each zone builds on the habits and infrastructure of the previous zone, and attempting to skip stages produces fragile capabilities that collapse under pressure.
 
 ### 5. Team Competency
 
-Zone 3 requires that Zone 2 practices are not just present but competent -- habitual under pressure, consistently applied, and continuously improving. Teams that have recently achieved Zone 2 scores in the Learning stage are not ready for Zone 3 investment.
+Zone 3 requires that Zone 2 practices are not just present but competent -- habitual under pressure, consistently applied, and continuously improving. Teams that have recently achieved Zone 2 scores in the Emerging stage are not ready for Zone 3 investment.
 
 Questions to assess team competency:
 

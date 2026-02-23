@@ -44,7 +44,7 @@ This checklist tracks visual aids needed for the facilitator training program. E
 **Layout:** Horizontal flow diagram, left to right. Single linear path.
 
 **Flow:**
-- Four boxes in a linear sequence connected by solid forward arrows: **Zone 1: Augmenting** (labeled "Individual skills shift") -> **Zone 2: Integrating** (labeled "Team skills shift") -> **Zone 3: Accelerating** (labeled "Org structure shift") -> **Zone 4: Industrializing** (labeled "Org culture shift")
+- Four boxes in a linear sequence connected by solid forward arrows: **Zone 1: Augmenting** (labeled "Tool adoption shift") -> **Zone 2: Integrating** (labeled "Workflow integration shift") -> **Zone 3: Accelerating** (labeled "Engineering identity shift") -> **Zone 4: Industrializing** (labeled "Production model shift")
 - Between each pair of boxes, a decision gate icon (diamond) labeled "Evaluate strategic fit"
 - All arrows are solid (not dashed). All boxes use uniform styling.
 
@@ -70,29 +70,29 @@ This checklist tracks visual aids needed for the facilitator training program. E
 **Entry point (top):** "Zone Assessment: Determine Competency Stage"
 
 **Step 1 -- Check all three criteria (show as three parallel check boxes):**
-- Criterion 1: "Do ALL team members rate the core metric question 5/Always?"
-- Criterion 2: "Are 75%+ of ALL individual responses across ALL questions rated 5/Always?"
-- Criterion 3: "Do at least 6 of 7 questions have a composite average of 5.0?"
+- Criterion 1: "Is the zone composite average ≥ 4.7?"
+- Criterion 2: "Is the standard deviation across ALL individual responses ≤ 0.5?"
+- Criterion 3: "Are ALL question composites ≥ 4.0 (no weak links)?"
 
 **Decision branch:**
-- If ALL THREE criteria met -> **"Mastery"** (green box, bold)
+- If ALL THREE criteria met -> **"Exemplary"** (green box, bold)
 - If fewer than three criteria met -> proceed to Step 2
 
 **Step 2 -- Determine stage from composite score range:**
-- Composite average 4.0 - 4.9 -> **"Competent"** (blue box) -- "Habitual and consistent, approaching full threshold"
-- Composite average 3.0 - 3.9 -> **"Practicing"** (yellow box) -- "Mostly consistent but untested by sustained pressure"
-- Composite average 2.0 - 2.9 -> **"Learning"** (orange box) -- "Practicing but inconsistent"
+- Composite average 4.0 - 4.9 -> **"Established"** (blue box) -- "Habitual and consistent, approaching full threshold"
+- Composite average 3.0 - 3.9 -> **"Developing"** (yellow box) -- "Mostly consistent but untested by sustained pressure"
+- Composite average 2.0 - 2.9 -> **"Emerging"** (orange box) -- "Practicing but inconsistent"
 - Composite average below 2.0 -> **"Not yet at this zone"** (gray box) -- "Assess the previous zone instead"
 
 **Side annotation (outside the tree):**
-- "The thresholds are criteria, not a formula. Check each criterion independently -- do not just compute an average."
-- "A team at 4.8 composite that fails core metric unanimity is COMPETENT, not Mastery."
+- "The thresholds measure both high performance AND consistency. Check each criterion independently."
+- "A team at 4.8 composite with high variance (SD > 0.5) is ESTABLISHED, not Exemplary."
 
 **Key visual cues:**
 - The three criteria should be visually parallel and equally weighted -- no one criterion is "more important"
 - The "all three met" path should be visually distinct from the "score range" path
 - Color-code the four stages consistently (these colors should match across all framework materials)
-- Include a small example: "Example: Team scores 4.6 composite. Core metric: 6 of 7 scored 5, one scored 4. Criterion 1 fails. Stage = Competent (not Mastery)."
+- Include a small example: "Example: Team scores 4.8 composite. SD = 0.6 (one member consistently lower). Criterion 2 fails. Stage = Established (not Exemplary)."
 
 ---
 
@@ -255,7 +255,7 @@ This checklist tracks visual aids needed for the facilitator training program. E
 - Three exit arrows:
   - "Continue" -> arrow loops back to month 1 of a new cycle
   - "Recalibrate target zone" -> see [Module 5](/training/module-5-coaching-engagement/) Session 6
-  - "Disengage" -> "Team is Competent, has internal capability, re-diagnostic confirms"
+  - "Disengage" -> "Team is Established, has internal capability, re-diagnostic confirms"
 
 **Bottom annotation:**
 - "Each activity type has a different purpose and a different conversation structure. Do not let check-ins drift into retrospective territory or retrospectives drift into re-diagnostic territory."

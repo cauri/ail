@@ -6,7 +6,7 @@ order: 4
 ---
 ## Purpose
 
-These questions assess whether an organization operates as an AI-first software factory where engineers design, govern, and maintain the factory itself rather than performing development work directly. Zone 4 competency means the engineering organization has industrialized AI-driven development: multiple AI pipelines operate at portfolio scale with formal governance, drift management, production SLAs, and systematic evaluation. Engineers are factory designers and operators; AI systems are the production workforce.
+These questions assess whether an organization operates as an AI-first software factory where a multi-role team -- engineers, PMs, designers, and QA engineers -- designs, governs, and maintains the factory itself rather than performing development work directly. Zone 4 competency means the organization has industrialized AI-driven development: multiple AI pipelines operate at portfolio scale with formal governance, drift management, production SLAs, and systematic evaluation. Engineers are factory designers and operators, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA engineers operate the evaluation infrastructure; AI systems are the production workforce.
 
 ## Questions
 
@@ -29,6 +29,10 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 6. Product managers operate at the portfolio level --- defining what the AI production system should produce across multiple products or capability domains, specifying system-level acceptance criteria, and managing the tension between production volume and quality governance.
 
 7. Engineers rotate between factory design, evaluation infrastructure, and production operations roles --- building cross-functional understanding of the full AI production system rather than specializing in a single aspect of pipeline management.
+
+8. Design and UX functions are integrated into the factory system: design standards, component libraries, and interaction specifications are encoded as factory inputs that AI pipelines consume and validate against, with automated design compliance verification at portfolio scale.
+
+9. Quality governance operates at the factory level: standardized quality criteria, acceptance thresholds, and risk assessment frameworks are applied uniformly across all products in the portfolio, with systematic escalation paths when any product falls below quality thresholds.
 
 ## Scale
 

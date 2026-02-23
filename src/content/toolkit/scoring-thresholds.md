@@ -30,7 +30,7 @@ A score of 5 ("Always") is the target for competency. It does not mean literally
 
 Each zone has four maturity stages. These stages describe the team's progression toward competency within that zone, based on the composite scores across all diagnostic questions.
 
-### Learning (Average Score 2.0 - 2.9)
+### Emerging (Average Score 2.0 - 2.9)
 
 The team is practicing the behaviors described by the zone's questions, but practice is inconsistent and fragile. Behaviors tend to appear when conditions are favorable (low pressure, familiar work, ample time) and disappear when conditions deteriorate (deadlines, incidents, unfamiliar territory).
 
@@ -42,7 +42,7 @@ The team is practicing the behaviors described by the zone's questions, but prac
 
 **Recommended action:** Continue investing in the current zone. Focus on consistency and pressure resilience rather than expanding scope. Identify specific behaviors that drop off under pressure and address the root causes.
 
-### Practicing (Average Score 3.0 - 3.9)
+### Developing (Average Score 3.0 - 3.9)
 
 The team is mostly consistent in exhibiting the zone's behaviors. Occasional lapses occur, but the team self-corrects. Behaviors are part of established practice, though they may require reminders or deliberate effort rather than being fully automatic.
 
@@ -54,9 +54,9 @@ The team is mostly consistent in exhibiting the zone's behaviors. Occasional lap
 
 **Recommended action:** Continue building consistency. Focus on the specific questions where scores lag. Begin exploring whether the team is ready to invest in the next zone's practices alongside current zone maintenance.
 
-### Competent (Average Score 4.0 - 4.9, Not Meeting Full Threshold)
+### Established (Average Score 4.0 - 4.9, Not Meeting Full Threshold)
 
-The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. The team is approaching full Competent stage but does not yet meet all three threshold criteria for Mastery.
+The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. The team is approaching full competency but does not yet meet all three threshold criteria for Exemplary.
 
 **Characteristics:**
 - Behaviors are habitual for most team members in most situations.
@@ -66,7 +66,7 @@ The team consistently exhibits the zone's behaviors. The practices are well-esta
 
 **Recommended action:** Identify which specific threshold criteria are not yet met and focus effort there. This is often the "last mile" --- the gap between mostly consistent and fully habitual. Begin parallel investment in the next zone if organizational competency exists.
 
-### Mastery (Meets All Threshold Criteria)
+### Exemplary (Meets All Threshold Criteria)
 
 The team exhibits the zone's behaviors habitually, even under stress. The team can coach others in these practices. Behaviors persist through personnel changes, deadline pressure, production incidents, and other disruptions. This is the target state.
 
@@ -83,35 +83,35 @@ The team exhibits the zone's behaviors habitually, even under stress. The team c
 
 ## Competency Threshold
 
-A team achieves **Mastery** status within a zone when ALL THREE of the following criteria are met simultaneously:
+A team achieves **Exemplary** status within a zone when ALL THREE of the following criteria are met simultaneously. This model measures both high performance AND consistency across the team.
 
-### Criterion 1: Core Metric Unanimity
+### Criterion 1: High Composite Average
 
-**ALL team members rate the core metric question (marked with a star) at 5/Always.**
+**The zone composite average (mean of all question composites) is ≥ 4.7.**
 
-The core metric is the single most important behavior for the zone. Every team member must individually report that this behavior is habitual. A single team member rating the core metric below 5 means the team has not achieved competency, because competency is a team property --- it requires universal adoption.
+This criterion ensures the team's overall performance is at a high level across all assessed behaviors. Calculate the composite for each question (average across all team members), then average those composites to get the zone composite.
 
-### Criterion 2: Response Distribution
+### Criterion 2: Response Consistency
 
-**75% or more of ALL individual responses across ALL questions are rated 5/Always.**
+**The standard deviation across ALL individual responses is ≤ 0.5.**
 
-This criterion measures the overall consistency of competent behavior across the team. Calculate this by counting the total number of individual responses (team members x questions) and determining what percentage are rated 5.
+This criterion measures consistency --- both across team members and across questions. A low standard deviation means the team is performing uniformly, without significant gaps in any area or for any individual. Calculate the standard deviation of every individual response in the zone (team members × questions).
 
-*Example: A team of 6 members answering 7 questions produces 42 individual responses. At least 32 of those 42 responses (76.2%) must be rated 5/Always.*
+*Example: A team of 5 members answering 10 questions produces 50 individual responses. Calculate the standard deviation of all 50 scores. If the SD is ≤ 0.5, the team demonstrates the consistency required for Exemplary status.*
 
-### Criterion 3: Question-Level Composites
+### Criterion 3: No Weak Links
 
-**At least 6 of 7 questions have a composite (average) score of 5.0 across all team members.**
+**No single question composite falls below 4.0.**
 
-This criterion ensures that competency is broad, not concentrated in a few areas. For each question, calculate the average score across all team members. At least 6 of the 7 questions must have a composite average of exactly 5.0.
+This criterion ensures competency is broad, not concentrated in a few areas while others lag. Even if the overall average is high, a question composite below 4.0 reveals a significant gap in one behavioral area that must be addressed before the team can be considered Exemplary.
 
 ### All Three Required
 
-A team that meets two of three criteria is Competent but not Mastery. Common patterns:
+A team that meets two of three criteria is Established but not Exemplary. Common patterns:
 
-- **Meets 2 and 3 but not 1:** The team is broadly consistent, but one or more members have not fully adopted the core behavior. Focus coaching on those individuals.
-- **Meets 1 and 3 but not 2:** Everyone agrees on the core metric, and question-level averages are strong, but there is a "long tail" of sub-5 responses scattered across questions and team members. Focus on the specific situations where behaviors lapse.
-- **Meets 1 and 2 but not 3:** Strong core metric and high overall 5-ratings, but one or two questions drag down question-level composites. Focus on the specific behaviors represented by those lagging questions.
+- **High average but high variance (fails Criterion 2):** The team performs well on average, but some members or some behaviors are significantly weaker. Focus on the specific individuals or questions that drive the variance.
+- **High average and consistency but a weak question (fails Criterion 3):** The team is broadly strong and uniform, but one behavioral area lags behind. Focus coaching on the specific practice represented by the lagging question.
+- **Consistent and no weak links but average too low (fails Criterion 1):** The team is uniform and has no major gaps, but overall performance needs to rise. This is a "good but not yet great" pattern --- continue building depth across all behaviors.
 
 ---
 
@@ -125,23 +125,25 @@ Each team member completes the zone's questions independently, rating each quest
 
 For each question, calculate the average (mean) score across all team members. Round to one decimal place.
 
-*Example for a team of 5:*
-| Team Member | Q1 (Core) | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 |
-|-------------|-----------|----|----|----|----|----|----|
-| A           | 5         | 5  | 4  | 5  | 5  | 4  | 5  |
-| B           | 5         | 5  | 5  | 5  | 4  | 5  | 5  |
-| C           | 5         | 4  | 5  | 5  | 5  | 5  | 5  |
-| D           | 5         | 5  | 5  | 4  | 5  | 5  | 4  |
-| E           | 5         | 5  | 5  | 5  | 5  | 4  | 5  |
-| **Composite** | **5.0** | **4.8** | **4.8** | **4.8** | **4.8** | **4.6** | **4.8** |
+*Example for a team of 5 on a 10-question zone assessment:*
+| Team Member | Q1 (Core) | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
+|-------------|-----------|----|----|----|----|----|----|----|----|-----|
+| A           | 5         | 5  | 4  | 5  | 5  | 4  | 5  | 5  | 4  | 5   |
+| B           | 5         | 5  | 5  | 5  | 4  | 5  | 5  | 5  | 5  | 4   |
+| C           | 5         | 4  | 5  | 5  | 5  | 5  | 5  | 4  | 5  | 5   |
+| D           | 5         | 5  | 5  | 4  | 5  | 5  | 4  | 5  | 5  | 5   |
+| E           | 5         | 5  | 5  | 5  | 5  | 4  | 5  | 5  | 5  | 5   |
+| **Composite** | **5.0** | **4.8** | **4.8** | **4.8** | **4.8** | **4.6** | **4.8** | **4.8** | **4.8** | **4.8** |
 
 ### Step 3: Check Threshold Criteria
 
-1. **Core Metric Unanimity:** Are all individual scores for Question 1 equal to 5? In the example: Yes.
-2. **Response Distribution:** What percentage of all 35 responses are rated 5? Count: 28 out of 35 = 80%. Threshold met (>= 75%).
-3. **Question-Level Composites:** How many questions have a composite of 5.0? In the example: 1 out of 7. Threshold NOT met (needs 6 of 7).
+1. **Zone Composite Average:** Average of all question composites = (5.0 + 4.8 + 4.8 + 4.8 + 4.8 + 4.6 + 4.8 + 4.8 + 4.8 + 4.8) / 10 = 4.82. Threshold met (≥ 4.7).
+2. **Response Consistency:** Calculate the standard deviation of all 50 individual responses. In this example, most scores are 4 or 5 with SD ≈ 0.41. Threshold met (≤ 0.5).
+3. **No Weak Links:** Lowest question composite is 4.6 (Q6). Threshold met (all ≥ 4.0).
 
-**Result:** This team meets criteria 1 and 2 but not 3. They are **Competent** but not yet **Mastery**.
+**Result:** This team meets all three criteria. They are **Exemplary**.
+
+*Contrast: If Q6 composite were 3.8, the team would fail Criterion 3 (No Weak Links) despite strong overall performance. They would be **Established** --- focus coaching on the behavior Q6 represents.*
 
 ### Step 4: Determine Maturity Stage
 
@@ -149,10 +151,10 @@ Calculate the overall average score (mean of all individual responses) and use i
 
 | Overall Average | Threshold Criteria Met? | Maturity Stage |
 |-----------------|------------------------|----------------|
-| 2.0 - 2.9      | N/A                    | Learning |
-| 3.0 - 3.9      | N/A                    | Practicing |
-| 4.0 - 4.9      | Not all three met      | Competent |
-| 4.0+            | All three met          | Mastery |
+| 2.0 - 2.9      | N/A                    | Emerging |
+| 3.0 - 3.9      | N/A                    | Developing |
+| 4.0 - 4.9      | Not all three met      | Established |
+| 4.0+            | All three met          | Exemplary |
 
 ---
 
@@ -184,7 +186,7 @@ Instead of most scores clustering around 3-4, some team members score 4-5 while 
 
 ### Uniform High Scores (4.5+ average, low variance)
 
-The team is consistently practicing the zone's behaviors. Check whether the threshold criteria are met. If yes, the team has achieved Mastery. If not, identify the specific gaps preventing Mastery.
+The team is consistently practicing the zone's behaviors. Check whether the threshold criteria are met. If yes, the team has achieved Exemplary. If not, identify the specific gaps preventing Exemplary.
 
 **Caution:** Very uniform high scores with no variation can indicate social desirability bias. Probe with specific examples: "Can you describe a time this week when you did this? Can you describe a time when you didn't?"
 
@@ -210,9 +212,9 @@ If initial scores are high but decrease when the facilitator asks for specific e
 
 ## Reassessment Cadence
 
-- **Teams in Learning or Practicing stages:** Reassess every 2-3 months to track progress.
-- **Teams in Competent stage:** Reassess every 3-4 months to verify continued progress toward Mastery.
-- **Teams at Mastery:** Reassess every 6-12 months to verify competency is maintained, especially after significant team composition changes or organizational disruptions.
+- **Teams in Emerging or Developing stages:** Reassess every 2-3 months to track progress.
+- **Teams in Established stage:** Reassess every 3-4 months to verify continued progress toward Exemplary.
+- **Teams at Exemplary:** Reassess every 6-12 months to verify competency is maintained, especially after significant team composition changes or organizational disruptions.
 - **After major changes:** Reassess within 1-2 months of significant events such as team reorganizations, major personnel changes (more than 25% of the team), tool migrations, or process overhauls.
 
 ---

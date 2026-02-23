@@ -10,6 +10,10 @@ ACE addresses AI adoption across all crafts involved in software production -- e
 
 This is a framework document, not a peer-reviewed paper. Where research exists, it is cited. Where evidence is emerging or speculative, that is stated explicitly. The goal is intellectual honesty about what we know, what we suspect, and what remains to be validated.
 
+### Framework Lineage
+
+ACE's zone-based progression model draws on a lineage of capability frameworks including CMMI (staged maturity), the DORA research program (organizational capability measurement), and the Agile Fluency Model (Larsen & Shore, 2012), which demonstrated that team capability is best understood as habitual practice under pressure rather than knowledge or best-day performance. ACE applies this insight to AI adoption specifically, with a diagnostic instrument, engagement model, and domain content designed for the distinct challenges of organizational AI integration.
+
 ---
 
 ## Section 1: Current State of AI Adoption in Software Development (2024-2025)
@@ -249,6 +253,7 @@ See the [Validation Study Plan](/research/validation-study-plan) for a structure
 - Thoughtworks. (2024). Technology Radar Volume 31.
 - Uplevel. (2024). The Real Impact of AI on Engineering Productivity. Uplevel research report.
 - Vaithilingam, P., Zhang, T., & Glassman, E. L. (2022). Expectation vs. Experience: Evaluating the Usability of Code Generation Tools Powered by Large Language Models. CHI Extended Abstracts.
+- Larsen, D. & Shore, J. (2012). Your Path through Agile Fluency. Martin Fowler's blog / Agile Fluency Project.
 - Ziegler, A., et al. (2024). Measuring GitHub Copilot's Impact on Productivity. Communications of the ACM.
 
 ---

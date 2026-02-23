@@ -4,9 +4,9 @@ description: "AI drives core development work."
 section: "reference"
 order: 3
 ---
-AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Zone 3 represents a deep organizational structure shift in the AI Competency Evaluation (ACE) model. Not every organization will progress this far, and not every organization will benefit from the structural and role changes it demands. The decision to pursue Zone 3 should be grounded in strategic analysis of whether the investment is justified by the organization's context. Organizations that do pursue Zone 3 unlock dramatic throughput gains by treating AI as the primary implementation engine and redefining engineering as pipeline design, specification, and verification.
+AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Zone 3 represents a deep engineering identity shift in the AI Competency Evaluation (ACE) model. Not every organization will progress this far, and not every organization will benefit from the structural and role changes it demands. The decision to pursue Zone 3 should be grounded in strategic analysis of whether the investment is justified by the organization's context. Organizations that do pursue Zone 3 unlock dramatic throughput gains by treating AI as the primary implementation engine and redefining engineering as pipeline design, specification, and verification.
 
-**Shift type:** Organizational structure shift
+**Shift type:** Engineering identity shift
 
 ---
 
@@ -16,11 +16,23 @@ AI drives core development work. Humans specify, review, and orchestrate; AI imp
 >
 > This is the fundamental identity shift at Zone 3. Consider the Michelin Star chef who transitions from executing each dish personally to designing kitchens for other chefs -- shaping the environment, the workflow, the quality controls, and the feedback loops that produce excellence at scale. The chef's expertise does not diminish; it operates at a higher level of abstraction. The same is true for the engineer who moves from writing implementations to designing the specifications, constraints, and verification systems that guide AI to produce correct software reliably.
 
+### The Parallel Transformation Across Roles
+
+The Prime Directive describes an engineering identity shift, but Zone 3 transforms the entire software production pipeline, not just engineering. A lights-out software factory requires specifications, design standards, and evaluation infrastructure -- not just engineering pipeline design.
+
+The **product manager** shifts from writing feature specifications to defining the behavioral envelope of AI systems: what accuracy and reliability the business can tolerate, what measurable acceptance criteria AI pipelines must satisfy, and how non-determinism is communicated to stakeholders. The PM becomes a behavioral specifier whose definitions directly govern what the factory produces.
+
+The **designer** shifts from producing design artifacts to encoding design standards as machine-verifiable factory inputs: component specifications, interaction patterns, and accessibility requirements that AI pipelines consume and validate against. The designer becomes a specification author whose standards are enforced automatically, not manually.
+
+The **QA engineer** shifts from testing individual outputs to designing evaluation infrastructure: eval harnesses, failure mode taxonomies, acceptance thresholds, and quality gates that validate AI-produced artifacts at scale. The QA engineer becomes an evaluation pipeline specialist whose systems replace manual spot-checking with systematic quality assessment.
+
+These role transformations are equally essential to the production pipeline. A factory with excellent engineering pipelines but no machine-verifiable design standards, no quantified behavioral envelopes, and no systematic evaluation infrastructure is incomplete -- it produces fast but ungoverned output.
+
 ---
 
 ## Who Is This For?
 
-Zone 3 is appropriate for organizations where the volume, velocity, or complexity of software delivery justifies fundamentally restructuring how engineering work is organized. This includes organizations building AI-native products where the product itself depends on AI pipelines and model behavior, organizations with large codebases and delivery volumes where the leverage from AI-driven implementation compounds significantly, organizations that have achieved Zone 2 competency and find themselves constrained by the ceiling of human implementation throughput, and organizations willing to invest in creating new roles, new infrastructure, and new definitions of engineering identity.
+Zone 3 is appropriate for organizations where the volume, velocity, or complexity of software delivery justifies fundamentally restructuring how engineering work is organized. This restructuring extends beyond engineering: PMs, designers, and QA engineers undergo parallel role transformations that are necessary for the production pipeline to function reliably. This includes organizations building AI-native products where the product itself depends on AI pipelines and model behavior, organizations with large codebases and delivery volumes where the leverage from AI-driven implementation compounds significantly, organizations that have achieved Zone 2 competency and find themselves constrained by the ceiling of human implementation throughput, and organizations willing to invest in creating new roles, new infrastructure, and new definitions of engineering identity.
 
 Zone 3 is not appropriate for every team. Small teams with low delivery volume, organizations in highly regulated domains where human authorship of every line is legally required, and teams that have not yet achieved durable Zone 2 competency should not pursue Zone 3. Attempting this zone prematurely -- before teams have strong AI collaboration habits, robust review practices, and effective prompt engineering skills -- produces fragile systems and frustrated engineers.
 
@@ -28,7 +40,7 @@ The decision to pursue Zone 3 should be made deliberately, with full awareness t
 
 ## Core Metric
 
-**Engineers operate as process designers -- they define specifications, constraints, and verification criteria, and the AI pipeline produces working software that meets those criteria habitually.**
+**Engineers operate as process designers, PMs as behavioral specifiers, designers as specification encoders, and QA engineers as evaluation pipeline specialists -- each role defines its respective inputs to the AI production pipeline, and the pipeline produces working software that meets those criteria habitually.**
 
 The key qualifier is "habitually." An organization where engineers occasionally delegate implementation to AI but routinely fall back to writing code themselves has not achieved Zone 3 competency. The test is whether the primary mode of engineering work is specification and verification rather than implementation, and whether this holds across routine features, complex integrations, and high-pressure delivery cycles alike.
 
@@ -80,6 +92,14 @@ The term "AI Engineer" describes the evolved role identity for software engineer
 - **Architects design systems with "functional core / imperative shell" patterns that guide agents to success.** System architecture is structured so that AI agents operate within well-defined boundaries: pure functions, clear interfaces, typed contracts, and deterministic verification layers. The architecture makes it easy for AI to succeed and hard for AI to cause undetected damage.
 - **Architects design for AI observability from day one.** Observability is not bolted on after the fact. Systems are designed with trace points, logging boundaries, and cost attribution built into the architecture so that AI pipeline behavior is visible and diagnosable from the start.
 - **Designers participate in defining AI behavioral expectations and evaluation criteria.** UX and product designers collaborate on defining what "good" AI behavior looks like from the user's perspective. These behavioral expectations feed directly into eval harnesses and CAT pipelines, ensuring that quality is measured against user-relevant criteria.
+- **Designers encode design standards, component specifications, and interaction patterns as machine-verifiable inputs to AI pipelines.** This is the Zone 3 design identity: designers become specification authors whose standards are consumed by the factory, not artifact producers who hand off mockups. Design compliance is verified automatically through the production pipeline, not through manual review.
+
+### Quality Assurance (Evaluation Pipeline Specialists)
+
+- **Designs eval harnesses and defines evaluation criteria for AI pipelines.** QA engineers bring their testing expertise to the systematic evaluation of AI-produced artifacts, defining what "correct" looks like across functional, security, accessibility, and performance dimensions. Eval harness design is a QA-owned competency that serves the entire production pipeline.
+- **Owns and operates CAT pipelines (coverage, health, effectiveness).** QA engineers are responsible for the ongoing health of Continuous Alignment Testing infrastructure -- monitoring coverage gaps, maintaining test case quality, tracking eval effectiveness over time, and ensuring that CAT pipelines catch real regressions rather than producing false confidence.
+- **Develops and maintains the failure mode taxonomy.** QA engineers maintain the structured taxonomy of AI failure modes (context missing, retrieval error, hallucination, task underspecification, constraint violation, eval gap) and lead systematic analysis of failures across the pipeline to identify patterns and prevention strategies.
+- **Defines acceptance thresholds and quality gates for AI-produced artifacts.** QA engineers collaborate with PMs and engineering to set the quantitative quality standards that AI-produced artifacts must meet -- pass rates, tolerance ranges, coverage requirements, and escalation criteria -- and ensure these thresholds are enforced in the production pipeline.
 
 ## Organizational Investments
 

@@ -6,7 +6,7 @@ order: 2
 ---
 ## Zone Definition
 
-Zone 2 represents the point at which AI-augmented development moves from individual experimentation to **team-level integration**. In an Integrating team, AI is embedded in team-level workflows: code review, testing, documentation, and CI/CD. Usage is systematic, not ad-hoc. The team has a shared, evolving agentic setup --- committed to source control, understood by all members, and improved through regular retrospectives. This is a **team skills shift**: the team collectively develops the discipline and infrastructure to make AI a reliable, consistent part of how they deliver software, rather than leaving it to individual initiative.
+Zone 2 represents the point at which AI-augmented development moves from individual experimentation to **team-level integration**. In an Integrating team, AI is embedded in team-level workflows: code review, testing, documentation, CI/CD, PM specification, design integration, and QA adaptation. Usage is systematic, not ad-hoc. The team has a shared, evolving agentic setup --- committed to source control, understood by all members, and improved through regular retrospectives. This is a **workflow integration shift**: the team collectively develops the discipline and infrastructure to make AI a reliable, consistent part of how they deliver software, rather than leaving it to individual initiative.
 
 ## Who Is This For?
 
@@ -16,6 +16,8 @@ Zone 2 is for teams that have established individual competence with AI tools (Z
 - **Organizations** that want consistent, measurable returns from AI investment rather than pockets of individual productivity.
 - **Teams** that have experienced the "AI skill variance" problem: some members get great results, others struggle, and there is no shared understanding of how to use these tools well.
 - **Engineering leaders** who need to ensure AI-generated code meets the team's quality standards reliably, not just when the most skilled AI user happens to write it.
+- **Product managers** whose specifications feed into the team's shared AI workflow and who need to understand how AI behavioral criteria shape the team's delivery process.
+- **Designers and QA engineers** whose work intersects with and validates the team's AI-augmented delivery -- designers integrating with shared AI configuration, QA adapting test strategies to account for AI-generated code patterns.
 
 Zone 2 is the **minimum viable competency** for any team that wants AI to be a durable competitive advantage rather than an individual convenience. All organizations adopting AI-augmented development should target at least Zone 2 competency.
 
@@ -23,7 +25,7 @@ Zone 2 is the **minimum viable competency** for any team that wants AI to be a d
 
 **The team ships AI-verified, production-ready code using a shared agentic workflow that all members contribute to and evolve.**
 
-This metric is assessed by observing whether the team habitually --- even under deadline pressure --- follows its shared workflow, uses its shared AI configuration, and collectively maintains the quality gates that govern AI-generated output.
+This metric is assessed by observing whether the team habitually --- even under deadline pressure --- follows its shared workflow, uses its shared AI configuration, and collectively maintains the quality gates that govern AI-generated output. All team roles participate in and contribute to the shared workflow, since the production pipeline depends on inputs from PM (specifications), design (standards), and QA (verification) alongside engineering.
 
 ## Benefits
 
@@ -80,6 +82,12 @@ Proficiencies are observable team behaviors, exhibited habitually even under pre
 - **Designers use AI for systematic design exploration and documentation.** AI tools are part of the design workflow for generating alternatives, documenting decisions, and exploring trade-offs --- used as a regular practice, not an occasional experiment.
 
 - **Designers can participate in the Plan/Code/Verify workflow for design-adjacent work.** When design work intersects with implementation (component libraries, design tokens, CSS architecture), designers can engage with the team's shared agentic workflow.
+
+### Quality Assurance
+
+- **Adapts test strategies to account for characteristic AI-generated code patterns.** QA engineers understand the specific failure modes of AI-generated code -- subtle logic errors, security oversights, convention mismatches, hallucinated APIs -- and design test strategies that address these patterns systematically rather than relying on traditional test approaches alone.
+- **Participates in the team's shared agentic workflow and retrospectives.** QA engineers are active contributors to the team's AI practices, participating in retrospectives about the agentic workflow's quality impact and helping evolve the shared configuration -- not downstream consumers of engineering decisions.
+- **Uses AI tools systematically for test automation and regression analysis as part of the shared workflow.** AI assists with generating test scripts, analyzing regression results, identifying flaky tests, and maintaining test infrastructure -- integrated with the team's shared AI configuration rather than as isolated individual tool use.
 
 ## Organizational Investments
 

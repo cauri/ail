@@ -87,24 +87,28 @@ Other evidence-probing techniques: "Can you walk me through the last time your t
 
 **Zone 2 facilitation: shared vs. individual, mandatory vs. aspirational.** Zone 2 is about team-level behavior, and the two critical distinctions are: shared vs. individual (does the whole team use the same setup, or does each person have their own), and mandatory vs. aspirational (are feedback loops enforced by the CI/CD pipeline, or are they polite recommendations?). Watch for the AGENTS.md-as-one-time-setup pattern: a team that has AGENTS.md committed but has not touched it in months. Probe: "When did you last update your AGENTS.md? What prompted it? What was in the retrospective?"
 
+**Probing role-based score variance.** When Zone 2 scores show high variance, check whether the variance breaks along role lines. If engineering scores high but PM, design, and QA score low, this is a significant diagnostic signal: the "shared workflow" may be shared only among engineers while other roles remain outside it. Name this pattern explicitly: "I'm noticing that the engineering scores are clustered around 4-5 but the PM and QA scores are around 2-3. That gap suggests the shared workflow may not be truly shared across the full team yet. Let's explore what that looks like."
+
 **Facilitator notes from the questionnaires.** The zone questionnaires include facilitator notes on each question that flag common patterns. The most important patterns:
 - Zone 1, core metric: teams often score this high because they conflate "has used AI" with "uses AI habitually." Probe for under-pressure behavior.
 - Zone 2, Q1 (core metric): teams often score high because they have the workflow documented but not habitual. Ask: "During the last production incident, did the team use Plan/Code/Verify, or did they go straight to 'fix this now'?"
 - Zone 2, Q3 (mandatory feedback loops): teams with a linter in CI/CD score high. Teams where the linter is optional or bypassed should score lower. Ask: "What happens if someone commits code that fails the linter?"
 
-**When to stop.** Most teams will not reach Zone 3. The facilitator should assess Zone 3 only if Zone 2 produces scores consistent with Competent or Mastery. If Zone 2 scores are in the Learning or Practicing range, stop at Zone 2 and note in the report that Zone 3 assessment was not conducted because Zone 2 foundations are not yet stable. This is not a failure -- it is accurate information.
+**Zone 3/4 facilitation: include all role transformations.** When introducing Zone 3, do not describe it solely as an engineering identity shift. The spoken introduction must include the parallel role transformations: PMs as behavioral specifiers, designers as specification encoders, QA as evaluation pipeline specialists. These are not optional additions -- they are essential to the production pipeline that Zone 3 describes. Similarly, when introducing Zone 4, name the multi-role factory team: engineers as factory designers, PMs as portfolio-level specifiers, designers as specification layer owners, and QA as evaluation infrastructure operators. A facilitator who describes Zone 3 or Zone 4 in exclusively engineering terms will produce assessments that miss critical gaps in non-engineering role transformation.
+
+**When to stop.** Most teams will not reach Zone 3. The facilitator should assess Zone 3 only if Zone 2 produces scores consistent with Established or Exemplary. If Zone 2 scores are in the Emerging or Developing range, stop at Zone 2 and note in the report that Zone 3 assessment was not conducted because Zone 2 foundations are not yet stable. This is not a failure -- it is accurate information.
 
 ### Session 6: Scoring and Interpretation
 
-**How to score from workshop observations and team responses.** Scoring in ACE uses the three-criterion competency threshold. The three criteria are: (1) all team members rate the core metric question 5/Always; (2) 75% or more of all individual responses across all questions are rated 5/Always; (3) at least 6 of 7 questions have a composite average of 5.0.
+**How to score from workshop observations and team responses.** Scoring in ACE uses the Composite + Consistency competency threshold. The three criteria are: (1) the zone composite average (mean of all question composites) is 4.7 or higher; (2) the standard deviation across all individual responses is 0.5 or lower; (3) no single question composite falls below 4.0.
 
-A team meets all three criteria only when competency is genuinely universal and consistent. Missing any one criterion determines the stage: meeting none or one criterion with scores in the 2.0-2.9 range is Learning; scores in the 3.0-3.9 range is Practicing; scores in the 4.0-4.9 range with fewer than three criteria met is Competent; all three criteria met is Mastery.
+A team meets all three criteria only when competency is genuinely universal and consistent. Missing any criterion determines the stage: scores in the 2.0-2.9 range is Emerging; scores in the 3.0-3.9 range is Developing; scores in the 4.0-4.9 range without meeting all three threshold criteria is Established; all three criteria met is Exemplary.
 
 **The difference between self-report scores and facilitated scores.** Self-report scores are what team members put on the form before discussion. Facilitated scores are the defensible scores that emerge after evidence-probing discussion. These are often different. A team member who scores a question 5 before discussion but cannot produce a single specific example during discussion has given an aspirational self-report score. The facilitated score is lower. The facilitator notes this discrepancy in the workshop notes and uses the facilitated score as the basis for the report.
 
 **When to challenge a score vs. accept it.** Challenge a score when: the discussion reveals no concrete behavioral evidence for a high score; the team's description of their practice matches a lower-frequency behavior than the score suggests; or there is a clear discrepancy between what one or two vocal members claim and what quieter members acknowledge. Accept a score when: the team produces specific, recent, concrete behavioral examples; multiple team members independently describe consistent behavior; and the facilitator's own observations during the session are consistent with the score.
 
-**Applying competency thresholds.** The thresholds are criteria, not a formula. A team with a composite average of 4.8 that fails the core metric unanimity criterion is Competent, not Mastery. The facilitator must check all three criteria independently, not just compute an average.
+**Applying competency thresholds.** The thresholds are criteria, not a formula. A team with a composite average of 4.8 but a standard deviation of 0.7 is Established, not Exemplary. The facilitator must check all three criteria independently — high composite average, low variance, and no weak-link questions.
 
 ### Session 7: Common Facilitation Challenges
 
@@ -211,7 +215,7 @@ Describe one facilitation challenge from the mock workshop (or from a prior faci
 After completing Module 2, trainees should:
 
 - Reflect on the mock workshop experience: which facilitation challenge was hardest to handle in real time, and what does that reveal about where additional practice is needed?
-- Review the management report template and consider: how would you translate a Zone 2 Practicing assessment into investment language for an engineering director?
+- Review the management report template and consider: how would you translate a Zone 2 Developing assessment into investment language for an engineering director?
 - Revisit the progressive competency model from Module 1, specifically the factors that inform strategic analysis at each zone transition.
 
 Module 3 builds on Module 2 by extending from assessment facilitation to strategic goal-setting with organizational leadership -- a different audience with different competency needs.

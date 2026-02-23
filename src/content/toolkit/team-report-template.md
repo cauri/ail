@@ -24,7 +24,7 @@ order: 1
 
 ### Current Competency Stage
 
-Based on the diagnostic results and facilitated discussion, the team is currently operating at **{{CURRENT_ZONE}}** with a competency stage of **{{COMPETENCY_STAGE}}** (Learning / Practicing / Competent / Mastery).
+Based on the diagnostic results and facilitated discussion, the team is currently operating at **{{CURRENT_ZONE}}** with a competency stage of **{{COMPETENCY_STAGE}}** (Emerging / Developing / Established / Exemplary).
 
 {{COMPETENCY_STAGE_EXPLANATION}}
 
@@ -62,8 +62,11 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 | Q5: Reviewing AI output before accepting | {{Z1_Q5_1}} | {{Z1_Q5_2}} | {{Z1_Q5_3}} | {{Z1_Q5_4}} | {{Z1_Q5_5}} | {{Z1_Q5_COMPOSITE}} |
 | Q6: PM/non-engineering AI usage | {{Z1_Q6_1}} | {{Z1_Q6_2}} | {{Z1_Q6_3}} | {{Z1_Q6_4}} | {{Z1_Q6_5}} | {{Z1_Q6_COMPOSITE}} |
 | Q7: AI for tests/docs/artifacts | {{Z1_Q7_1}} | {{Z1_Q7_2}} | {{Z1_Q7_3}} | {{Z1_Q7_4}} | {{Z1_Q7_5}} | {{Z1_Q7_COMPOSITE}} |
+| Q8: Design/UX AI tool usage | {{Z1_Q8_1}} | {{Z1_Q8_2}} | {{Z1_Q8_3}} | {{Z1_Q8_4}} | {{Z1_Q8_5}} | {{Z1_Q8_COMPOSITE}} |
+| Q9: QA AI tool usage | {{Z1_Q9_1}} | {{Z1_Q9_2}} | {{Z1_Q9_3}} | {{Z1_Q9_4}} | {{Z1_Q9_5}} | {{Z1_Q9_COMPOSITE}} |
+| Q10: AI-assisted onboarding | {{Z1_Q10_1}} | {{Z1_Q10_2}} | {{Z1_Q10_3}} | {{Z1_Q10_4}} | {{Z1_Q10_5}} | {{Z1_Q10_COMPOSITE}} |
 
-**Competency threshold met:** {{ZONE_1_FLUENCY_MET}} (Yes / No)
+**Competency threshold met:** {{ZONE_1_THRESHOLD_MET}} (Yes / No)
 
 #### Discussion Highlights
 
@@ -93,8 +96,11 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 | Q5: PR-level review of AI-generated code | {{Z2_Q5_1}} | {{Z2_Q5_2}} | {{Z2_Q5_3}} | {{Z2_Q5_4}} | {{Z2_Q5_5}} | {{Z2_Q5_COMPOSITE}} |
 | Q6: Agentic setup discussed in retros | {{Z2_Q6_1}} | {{Z2_Q6_2}} | {{Z2_Q6_3}} | {{Z2_Q6_4}} | {{Z2_Q6_5}} | {{Z2_Q6_COMPOSITE}} |
 | Q7: PM writes AI-relevant criteria | {{Z2_Q7_1}} | {{Z2_Q7_2}} | {{Z2_Q7_3}} | {{Z2_Q7_4}} | {{Z2_Q7_5}} | {{Z2_Q7_COMPOSITE}} |
+| Q8: Design integration with agentic workflow | {{Z2_Q8_1}} | {{Z2_Q8_2}} | {{Z2_Q8_3}} | {{Z2_Q8_4}} | {{Z2_Q8_5}} | {{Z2_Q8_COMPOSITE}} |
+| Q9: QA practices for AI-generated code | {{Z2_Q9_1}} | {{Z2_Q9_2}} | {{Z2_Q9_3}} | {{Z2_Q9_4}} | {{Z2_Q9_5}} | {{Z2_Q9_COMPOSITE}} |
+| Q10: Onboarding effectiveness | {{Z2_Q10_1}} | {{Z2_Q10_2}} | {{Z2_Q10_3}} | {{Z2_Q10_4}} | {{Z2_Q10_5}} | {{Z2_Q10_COMPOSITE}} |
 
-**Competency threshold met:** {{ZONE_2_FLUENCY_MET}} (Yes / No)
+**Competency threshold met:** {{ZONE_2_THRESHOLD_MET}} (Yes / No)
 
 #### Discussion Highlights
 
@@ -125,8 +131,10 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 | Q5: Prompt/config versioning with rollback | {{Z3_Q5_1}} | {{Z3_Q5_2}} | {{Z3_Q5_3}} | {{Z3_Q5_4}} | {{Z3_Q5_5}} | {{Z3_Q5_COMPOSITE}} |
 | Q6: Systematic pipeline failure diagnosis | {{Z3_Q6_1}} | {{Z3_Q6_2}} | {{Z3_Q6_3}} | {{Z3_Q6_4}} | {{Z3_Q6_5}} | {{Z3_Q6_COMPOSITE}} |
 | Q7: PM includes AI-specific criteria | {{Z3_Q7_1}} | {{Z3_Q7_2}} | {{Z3_Q7_3}} | {{Z3_Q7_4}} | {{Z3_Q7_5}} | {{Z3_Q7_COMPOSITE}} |
+| Q8: Design specifications in AI pipeline | {{Z3_Q8_1}} | {{Z3_Q8_2}} | {{Z3_Q8_3}} | {{Z3_Q8_4}} | {{Z3_Q8_5}} | {{Z3_Q8_COMPOSITE}} |
+| Q9: QA as evaluation pipeline specialists | {{Z3_Q9_1}} | {{Z3_Q9_2}} | {{Z3_Q9_3}} | {{Z3_Q9_4}} | {{Z3_Q9_5}} | {{Z3_Q9_COMPOSITE}} |
 
-**Competency threshold met:** {{ZONE_3_FLUENCY_MET}} (Yes / No)
+**Competency threshold met:** {{ZONE_3_THRESHOLD_MET}} (Yes / No)
 
 #### Discussion Highlights
 
@@ -156,8 +164,10 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 | Q5: Production SLAs for AI pipelines | {{Z4_Q5_1}} | {{Z4_Q5_2}} | {{Z4_Q5_3}} | {{Z4_Q5_4}} | {{Z4_Q5_5}} | {{Z4_Q5_COMPOSITE}} |
 | Q6: Portfolio-level PM practice | {{Z4_Q6_1}} | {{Z4_Q6_2}} | {{Z4_Q6_3}} | {{Z4_Q6_4}} | {{Z4_Q6_5}} | {{Z4_Q6_COMPOSITE}} |
 | Q7: Cross-functional rotation | {{Z4_Q7_1}} | {{Z4_Q7_2}} | {{Z4_Q7_3}} | {{Z4_Q7_4}} | {{Z4_Q7_5}} | {{Z4_Q7_COMPOSITE}} |
+| Q8: Design standards in factory system | {{Z4_Q8_1}} | {{Z4_Q8_2}} | {{Z4_Q8_3}} | {{Z4_Q8_4}} | {{Z4_Q8_5}} | {{Z4_Q8_COMPOSITE}} |
+| Q9: Factory-level quality governance | {{Z4_Q9_1}} | {{Z4_Q9_2}} | {{Z4_Q9_3}} | {{Z4_Q9_4}} | {{Z4_Q9_5}} | {{Z4_Q9_COMPOSITE}} |
 
-**Competency threshold met:** {{ZONE_4_FLUENCY_MET}} (Yes / No)
+**Competency threshold met:** {{ZONE_4_THRESHOLD_MET}} (Yes / No)
 
 #### Discussion Highlights
 
@@ -271,7 +281,7 @@ Based on the diagnostic scores, facilitated discussion, and identified blockers,
 ### Suggested Roadmap Toward {{TARGET_ZONE}}
 
 **Current state:** {{CURRENT_ZONE}}, {{COMPETENCY_STAGE}}
-**Target state:** {{TARGET_ZONE}}, Competent
+**Target state:** {{TARGET_ZONE}}, Established
 
 #### Months 1-2: Foundation
 
@@ -311,7 +321,7 @@ These observable behaviors will indicate progress before the next formal diagnos
 
 - **Scale:** 1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always
 - **Composite score:** The most frequent response across all team members for a given question. Ties are resolved by taking the lower value.
-- **Competency threshold:** ALL team members rate the core metric at 5, 75%+ of all responses across the zone are at 5, and at least 6 of 7 items have a composite score of 5.
+- **Competency threshold (Exemplary):** Zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0.
 - **High-variance item:** Any question where the range between the lowest and highest individual score is 3 or more points.
 
 ---

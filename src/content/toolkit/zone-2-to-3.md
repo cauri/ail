@@ -1,14 +1,14 @@
 ---
 title: "Roadmap: Zone 2 (Integrating) to Zone 3 (Accelerating)"
-description: "Roadmap template for progressing from Zone 2 (Integrating) to Zone 3 (Accelerating) with an organizational structure shift."
+description: "Roadmap template for progressing from Zone 2 (Integrating) to Zone 3 (Accelerating) with an engineering identity shift."
 section: "roadmaps"
 order: 3
 ---
-**Transition type:** Organizational structure shift
+**Transition type:** Engineering identity shift
 **Typical duration:** 12-24 months
 **Investment level:** Significant -- requires sustained executive commitment and dedicated engineering capacity
 
-This roadmap guides organizations from systematic team-level AI integration (Zone 2) to an AI-driven development model (Zone 3). The transition from Zone 2 to Zone 3 involves a significantly larger investment than earlier zone transitions. Zone 1→2 was a team skills shift. Zone 2→3 is an organizational structure shift. New roles must be created, new infrastructure must be built, and leadership must commit to operating in conditions of irreducible non-determinism.
+This roadmap guides organizations from systematic team-level AI integration (Zone 2) to an AI-driven development model (Zone 3). The transition from Zone 2 to Zone 3 involves a significantly larger investment than earlier zone transitions. Zone 1→2 was a workflow integration shift. Zone 2→3 is an engineering identity shift. New roles must be created, new infrastructure must be built, and leadership must commit to operating in conditions of irreducible non-determinism.
 
 **This transition requires an explicit organizational decision.** Zone 3 is not the default next step for every organization that achieves Zone 2 competency. It is appropriate only where the strategic context justifies the investment: organizations where AI-driven development velocity is a competitive necessity, where engineering capacity is a meaningful constraint on growth, or where the nature of the product makes AI-generated software economically advantageous at scale. If the organization's strategic context does not clearly justify Zone 3 investment, pursuing deep Zone 2 competency is the right choice. A highly competent Zone 2 organization outperforms a fragile Zone 3 organization in every dimension.
 
@@ -47,6 +47,7 @@ Before beginning this roadmap, confirm:
 | **Run a Conditioning-level design workshop (Level 1)** | Artisan AI Engineer / AI Engineer Lead + Team | Week 3-5 | Introduce the "separate generation from decisioning" framework at Level 1 (Conditioning): define what agents work within. For each major AI-assisted workflow, document the constraints, boundaries, and context that define the agent's operating environment. These are the walls of the sandbox -- not rules inside it, but the shape of the space. Workshop outputs should be committed as constraint documents in the repository. |
 | **Identify initial eval targets** | AI Engineer Lead / Tech Leads | Week 4-6 | Select 2-3 high-value, high-volume AI workflows as the first targets for formal evaluation. Criteria: workflows where output quality is measurable, where failures have known consequences, and where current quality assessment depends on manual review. These become the first eval harness candidates. Document why each was selected. |
 | **Draft organizational non-determinism policy** | Engineering Leadership | Week 4-8 | AI systems produce different outputs for the same inputs. Write down what this means for the organization: how are quality standards defined statistically? What failure rates are acceptable for which types of outputs? How are incidents caused by AI-generated code handled? Who owns AI output quality? This policy makes implicit assumptions explicit and surfaces disagreements early. |
+| **PM training on AI behavioral specification** | Product Leadership + AI Engineer Lead | Week 3-6 | Train PMs on defining efficacy thresholds -- what accuracy and reliability the business can tolerate for each AI-driven workflow. PMs learn to write measurable acceptance criteria that directly govern AI pipeline behavior: response quality thresholds, acceptable variance bounds, edge case handling requirements, and failure mode definitions. This is a factory input -- PMs need to define what "good enough" means quantitatively for AI-driven workflows. |
 
 ### Milestones
 
@@ -80,6 +81,8 @@ Before beginning this roadmap, confirm:
 | **Expand observability to drift monitoring** | AI Engineer | Month 4-6 | Model behavior drifts over time as providers update models and context shifts. Set up automated drift detection: compare current eval scores against the baselines established in Month 1-2. Define a drift threshold that triggers review. Assign ownership for investigating drift alerts. Drift that goes undetected is quality degradation that compounds silently. |
 | **Build second and third eval harnesses** | AI Engineer | Month 5-6 | Extend eval coverage to the other target workflows identified in Month 1-2. Each harness may require a different scoring approach: some outputs are best evaluated by deterministic rules, others by LLM-as-judge, others by human spot-check sampling. Document the evaluation strategy and rationale for each harness. |
 | **Train tech leads on eval thinking** | Artisan AI Engineer / AI Engineer Lead | Month 5-6 | Eval design is a skill. Tech leads moving toward the AI Engineer identity need to identify what "good output" means for a given workflow, construct representative test cases, and define scoring criteria. Run a workshop that practices eval design on real workflows from the team's own backlog. |
+| **Designer specification encoding** | Design Lead + AI Engineer | Month 3-5 | Designers begin encoding design standards, component specifications, and interaction patterns as machine-verifiable inputs for AI pipelines. This transforms design from artifact production to specification authorship -- the factory needs design standards it can consume and validate against automatically, not mockups that require human interpretation. Start with the team's most-used components and design patterns. |
+| **QA transition to evaluation pipeline ownership** | QA Lead + AI Engineer | Month 3-6 | QA engineers begin co-owning eval harness design, bringing their testing expertise to the systematic evaluation of AI-produced artifacts. QA defines evaluation criteria across functional, security, accessibility, and performance dimensions. Start with one eval harness where QA co-owns the evaluation criteria alongside engineering. |
 | **Design first multi-agent workflow (Level 3)** | AI Engineer + Tech Lead | Month 5-6 | Level 3 of the framework addresses orchestrated multi-agent pipelines. Identify one workflow currently handled by a single AI call that would benefit from decomposition into specialized agents with defined handoffs. Design the pipeline: what does each agent receive, produce, and pass forward? What evals cover the handoff quality? Keep this first pipeline deliberately simple -- two agents, one handoff. |
 
 ### Milestones
@@ -92,6 +95,9 @@ Before beginning this roadmap, confirm:
 | Drift monitoring operational with defined thresholds | End of Month 6 | Alert configuration exists; at least one drift check has run |
 | Three eval harnesses exist covering initial target workflows | End of Month 6 | Three harnesses in repository with documented evaluation strategies |
 | First multi-agent workflow designed | End of Month 6 | Design document reviewed by AI Engineer and Tech Lead |
+| PMs trained on behavioral specification and efficacy thresholds | End of Month 6 | PMs can write measurable acceptance criteria for AI workflows |
+| QA co-owns at least one eval harness | End of Month 6 | QA-defined evaluation criteria present in at least one harness |
+| Design standards encoded as verifiable eval criteria for at least one component area | End of Month 5 | Machine-verifiable design specifications committed to repository |
 
 ### Common Obstacles
 
@@ -115,6 +121,7 @@ Before beginning this roadmap, confirm:
 | **Run AI Engineer career development program** | VP Engineering / People | Month 8-12 | The AI Engineer identity needs a career path. Define what progression looks like: from Zone 2 practitioner to AI Engineer Associate to AI Engineer to Staff AI Engineer. Create the curriculum, mentorship structure, and evaluation criteria for each stage. This is how the organization builds a durable pipeline of people who can do this work. |
 | **Conduct first external eval audit** | Third Party | Month 10-12 | Invite an external party -- another organization's AI engineers, an academic collaborator, or a consulting partner -- to review the eval harness design, coverage, and scoring validity. External review surfaces blind spots that internal teams cannot see. A team that has been inside a system long enough cannot assess its own coverage gaps reliably. |
 | **Document institutional AI engineering practices** | AI Engineer Lead | Month 10-12+ | By Month 10-12, the organization has accumulated significant tacit knowledge about what makes AI workflows reliable. Convert this into explicit documentation: engineering standards for AI workflow design, eval coverage requirements, observability instrumentation standards, and the authority matrix governance model. This documentation is what makes Zone 3 practices durable through team turnover. |
+| **Cross-role eval ownership** | AI Engineer Lead + PM + Design + QA | Month 8-12 | Eval harnesses should have cross-functional ownership: engineering owns pipeline infrastructure, QA owns evaluation criteria and failure mode taxonomy, PMs own efficacy thresholds, and designers own design-compliance criteria. Establish shared ownership models for at least 2-3 eval harnesses, ensuring that eval coverage reflects the full production pipeline -- not just engineering concerns. |
 
 ### Milestones
 
@@ -125,6 +132,7 @@ Before beginning this roadmap, confirm:
 | AI cost governance policy in place | End of Month 9 | Budget accountability structure documented and active |
 | AI Engineer career path defined and in use | End of Month 12 | Career path document published; at least one engineer is formally on it |
 | External eval audit completed with findings triaged | End of Month 12 | Audit report exists; findings reviewed and assigned |
+| Cross-functional eval ownership established for 2+ harnesses | End of Month 12 | Eval harnesses have documented ownership across engineering, QA, PM, and design |
 
 ### Common Obstacles
 
@@ -184,6 +192,10 @@ The organization has achieved Zone 3 competency when:
 - [ ] Engineering leadership can answer "What is the current quality level of our AI-driven workflows?" from instrumentation data, not intuition
 - [ ] AI cost is tracked, owned, and managed as a first-class engineering metric
 - [ ] Zone 3 practices hold under pressure: evals are not bypassed, prompt versioning is not skipped, observability is not ignored when teams face deadline stress
+- [ ] PMs define measurable efficacy thresholds and behavioral specifications for AI workflows as standard practice
+- [ ] Designers have encoded key design standards as machine-verifiable specifications consumed by AI pipelines
+- [ ] QA engineers co-own eval harness evaluation criteria and maintain the failure mode taxonomy
+- [ ] Eval harnesses have cross-functional ownership (engineering: pipeline infrastructure, QA: evaluation criteria, PM: efficacy thresholds, design: design-compliance criteria)
 
 If all criteria are met and the organization's strategic context warrants it, assess competency for Zone 4 using the [Zone 3 to Zone 4 Roadmap](/toolkit/zone-3-to-4). Zone 4 represents the next step in the progression and requires evaluating whether that deeper investment is justified using the same strategic analysis framework applied at every zone transition.
 

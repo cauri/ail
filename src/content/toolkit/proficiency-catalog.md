@@ -37,11 +37,21 @@ Zone 1 represents individual AI tool adoption. The shift is from "AI is new, unf
 - **Uses AI for ideation, content generation, and design exploration.** AI tools assist with generating design alternatives, creating placeholder content, exploring layout options, and producing copy variations. The designer treats AI as a brainstorming partner that accelerates the exploration phase.
 - **Incorporates AI-powered tools into the design workflow.** AI capabilities within design tools (image generation, layout suggestions, content-aware features) are part of the designer's standard toolkit rather than novelties used occasionally.
 
+### Quality Assurance
+
+- **Uses AI to assist with test case generation and test strategy design.** AI tools help generate test cases from requirements, suggest edge cases, and assist with structuring test plans. The QA engineer refines and validates AI-generated test artifacts against their domain knowledge.
+- **Uses AI for bug triage, reproduction, and root cause analysis.** When investigating defects, the QA engineer queries AI to help analyze logs, suggest reproduction steps, identify likely root causes, and cross-reference similar issues -- as a standard diagnostic step alongside traditional investigation techniques.
+- **Uses AI to create and manage test data.** AI assists with generating realistic test data sets, creating test fixtures, and producing data that covers boundary conditions and edge cases, reducing the manual effort that often makes thorough test data preparation impractical.
+
+### A Note on Data Science and ML Practitioners
+
+Data science and ML practitioners on the team should participate in Zone 1 adoption alongside other roles. Their existing practices -- notebooks, data analysis, model experimentation -- naturally overlap with AI tool usage. ACE does not define a separate data science proficiency track because data science is a specialization rather than a universal team role in software production. Where data science practitioners are present, they should be included in training, assessed alongside the team, and their AI tool adoption measured by the same habitual-use standard applied to all other roles.
+
 ---
 
 ## Zone 2: Integrating Proficiencies
 
-Zone 2 shifts from individual tool use to team-level integration. AI is embedded in team-level workflows: code review, testing, documentation, and CI/CD. Usage is systematic, not ad-hoc. The team has a shared, evolving agentic setup committed to source control. This is a team skills shift. See [Zone 2: Integrating](/toolkit/zone-2-integrating) for full context.
+Zone 2 shifts from individual tool use to team-level integration. AI is embedded in team-level workflows: code review, testing, documentation, and CI/CD. Usage is systematic, not ad-hoc. The team has a shared, evolving agentic setup committed to source control. This is a workflow integration shift. See [Zone 2: Integrating](/toolkit/zone-2-integrating) for full context.
 
 ### Engineering
 
@@ -66,11 +76,17 @@ Zone 2 shifts from individual tool use to team-level integration. AI is embedded
 - **Designers use AI for systematic design exploration and documentation.** AI tools are part of the design workflow for generating alternatives, documenting decisions, and exploring trade-offs -- used as a regular practice, not an occasional experiment.
 - **Designers can participate in the Plan/Code/Verify workflow for design-adjacent work.** When design work intersects with implementation (component libraries, design tokens, CSS architecture), designers can engage with the team's shared agentic workflow.
 
+### Quality Assurance
+
+- **Adapts test strategies to account for characteristic AI-generated code patterns.** QA engineers understand the specific failure modes of AI-generated code -- subtle logic errors, security oversights, convention mismatches, hallucinated APIs -- and design test strategies that address these patterns systematically rather than relying on traditional test approaches alone.
+- **Participates in the team's shared agentic workflow and retrospectives.** QA engineers are active contributors to the team's AI practices, participating in retrospectives about the agentic workflow's quality impact and helping evolve the shared configuration -- not downstream consumers of engineering decisions.
+- **Uses AI tools systematically for test automation and regression analysis as part of the shared workflow.** AI assists with generating test scripts, analyzing regression results, identifying flaky tests, and maintaining test infrastructure -- integrated with the team's shared AI configuration rather than as isolated individual tool use.
+
 ---
 
 ## Zone 3: Accelerating Proficiencies
 
-Zone 3 represents an organizational structure shift. AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Not every organization will progress this far. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating) for full context.
+Zone 3 represents an engineering identity shift. AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Not every organization will progress this far. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating) for full context.
 
 ### AI Engineering
 
@@ -104,12 +120,20 @@ The term "AI Engineer" describes the evolved role identity for software engineer
 - **Architects design systems with "functional core / imperative shell" patterns that guide agents to success.** System architecture is structured so that AI agents operate within well-defined boundaries: pure functions, clear interfaces, typed contracts, and deterministic verification layers. The architecture makes it easy for AI to succeed and hard for AI to cause undetected damage.
 - **Architects design for AI observability from day one.** Observability is not bolted on after the fact. Systems are designed with trace points, logging boundaries, and cost attribution built into the architecture so that AI pipeline behavior is visible and diagnosable from the start.
 - **Designers participate in defining AI behavioral expectations and evaluation criteria.** UX and product designers collaborate on defining what "good" AI behavior looks like from the user's perspective. These behavioral expectations feed directly into eval harnesses and CAT pipelines, ensuring that quality is measured against user-relevant criteria.
+- **Designers encode design standards, component specifications, and interaction patterns as machine-verifiable inputs to AI pipelines.** This is the Zone 3 design identity: designers become specification authors whose standards are consumed by the factory, not artifact producers who hand off mockups. Design compliance is verified automatically through the production pipeline, not through manual review.
+
+### Quality Assurance (Evaluation Pipeline Specialists)
+
+- **Designs eval harnesses and defines evaluation criteria for AI pipelines.** QA engineers bring their testing expertise to the systematic evaluation of AI-produced artifacts, defining what "correct" looks like across functional, security, accessibility, and performance dimensions. Eval harness design is a QA-owned competency that serves the entire production pipeline.
+- **Owns and operates CAT pipelines (coverage, health, effectiveness).** QA engineers are responsible for the ongoing health of Continuous Alignment Testing infrastructure -- monitoring coverage gaps, maintaining test case quality, tracking eval effectiveness over time, and ensuring that CAT pipelines catch real regressions rather than producing false confidence.
+- **Develops and maintains the failure mode taxonomy.** QA engineers maintain the structured taxonomy of AI failure modes (context missing, retrieval error, hallucination, task underspecification, constraint violation, eval gap) and lead systematic analysis of failures across the pipeline to identify patterns and prevention strategies.
+- **Defines acceptance thresholds and quality gates for AI-produced artifacts.** QA engineers collaborate with PMs and engineering to set the quantitative quality standards that AI-produced artifacts must meet -- pass rates, tolerance ranges, coverage requirements, and escalation criteria -- and ensure these thresholds are enforced in the production pipeline.
 
 ---
 
 ## Zone 4: Industrializing Proficiencies
 
-Zone 4 represents an organizational culture shift. The organization operates an AI-first software factory. Engineers maintain the factory; AI produces the software. Zone 4 represents the deepest level of organizational commitment to AI-driven development. See [Zone 4: Industrializing](/toolkit/zone-4-industrializing) for full context.
+Zone 4 represents a production model shift. The organization operates an AI-first software factory. Engineers maintain the factory; AI produces the software. Zone 4 represents the deepest level of organizational commitment to AI-driven development. See [Zone 4: Industrializing](/toolkit/zone-4-industrializing) for full context.
 
 ### Engineering / Factory Operations
 
@@ -125,6 +149,17 @@ Zone 4 represents an organizational culture shift. The organization operates an 
 - **Product managers operate at the portfolio level, defining factory production targets.** Rather than specifying individual features for individual teams, product managers define what the factory should produce at a strategic level. This requires thinking in terms of production capacity, factory specifications, and portfolio-level prioritization rather than sprint-level user stories.
 - **Product managers can specify system-level acceptance criteria for entire AI pipelines.** Acceptance criteria are defined for the factory's behavior, not just for individual features.
 - **Product managers manage the tension between production volume and quality governance.** The factory can produce faster than the organization can govern. Product managers understand this tension and make informed trade-offs about where to prioritize speed versus where to prioritize additional governance and evaluation.
+
+### Design
+
+- **Owns the factory's design specification layer.** Designers own and maintain the factory's design inputs -- component libraries, interaction patterns, accessibility requirements, and visual standards -- encoded as machine-verifiable specifications that AI pipelines consume and validate against. This is the Zone 4 design role: not producing design artifacts, but governing the specification layer that ensures factory output meets design standards at portfolio scale.
+- **Operates design compliance verification at portfolio scale.** Design compliance is verified automatically across all factory output, not through manual review of individual artifacts. Designers maintain the design evaluation criteria, monitor compliance rates across the portfolio, and evolve specifications as design standards change.
+
+### Quality Assurance (Factory Evaluation Operations)
+
+- **Operates the factory's evaluation infrastructure as their primary function.** QA engineers at Zone 4 are evaluation infrastructure operators. Their primary work is designing, maintaining, monitoring, and improving the automated evaluation systems that verify all factory output. This is an operational role -- analogous to running a quality control program in a manufacturing facility -- not a testing role in the traditional sense.
+- **Defines and maintains factory-level quality SLAs.** QA engineers collaborate with engineering and product leadership to set measurable quality targets for factory output: defect rates, evaluation coverage, false positive/negative rates for quality gates, and time-to-detection for quality regressions. These SLAs are monitored and reported on alongside engineering production SLAs.
+- **Designs and executes the factory's drift detection program.** QA engineers own the systematic detection of quality drift across the factory's output -- identifying when output quality shifts due to model updates, specification changes, or pipeline modifications before degraded artifacts reach production. This requires statistical process control techniques applied to factory quality metrics.
 
 ### Architecture
 
@@ -163,9 +198,18 @@ The following tables show how proficiencies evolve across zones for each role. E
 
 | Capability Area | Zone 1: Augmenting | Zone 2: Integrating | Zone 3: Accelerating | Zone 4: Industrializing |
 |---|---|---|---|---|
-| **AI tool usage** | Uses AI for ideation, content generation, and design exploration; incorporates AI-powered tools into design workflow | Uses AI for systematic design exploration and documentation | Participates in defining AI behavioral expectations and evaluation criteria | -- |
+| **AI tool usage** | Uses AI for ideation, content generation, and design exploration; incorporates AI-powered tools into design workflow | Uses AI for systematic design exploration and documentation | Participates in defining AI behavioral expectations and evaluation criteria; encodes design standards as machine-verifiable inputs | Owns the factory's design specification layer; operates design compliance verification at portfolio scale |
 | **Workflow integration** | -- | Participates in the Plan/Code/Verify workflow for design-adjacent work | Designs systems with "functional core / imperative shell" patterns; designs for AI observability from day one | Designs for factory-scale observability and governance |
 | **System design** | -- | -- | Architects design systems that guide agents to success within well-defined boundaries | Defines the "production system" architecture as a system in its own right |
+
+### Quality Assurance Progression
+
+| Capability Area | Zone 1: Augmenting | Zone 2: Integrating | Zone 3: Accelerating | Zone 4: Industrializing |
+|---|---|---|---|---|
+| **Primary work mode** | Uses AI to assist with test case generation, bug triage, and test data creation | Adapts test strategies for AI-generated code patterns; participates in shared agentic workflow | Designs eval harnesses and defines evaluation criteria; owns CAT pipeline health | Operates the factory's evaluation infrastructure as primary function |
+| **Quality focus** | Individual test quality improvement through AI assistance | Team-level test strategy adaptation for AI-specific failure modes | Pipeline-level evaluation and systematic quality assessment | Factory-level quality SLAs, drift detection, and portfolio-scale evaluation |
+| **Collaboration** | Individual tool use for testing tasks | Active participant in team retrospectives and shared workflow evolution | Co-owns eval harnesses with engineering; maintains failure mode taxonomy | Collaborates with engineering and product leadership on factory quality targets |
+| **Failure analysis** | Uses AI for root cause analysis of individual bugs | Documents characteristic AI-generated code error patterns | Develops and maintains the failure mode taxonomy; leads systematic failure analysis | Designs and executes factory-scale drift detection program |
 
 ---
 

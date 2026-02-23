@@ -1,10 +1,10 @@
 ---
 title: "Roadmap: Zone 1 (Augmenting) to Zone 2 (Integrating)"
-description: "Roadmap template for progressing from Zone 1 (Augmenting) to Zone 2 (Integrating) with a team skills shift."
+description: "Roadmap template for progressing from Zone 1 (Augmenting) to Zone 2 (Integrating) with a workflow integration shift."
 section: "roadmaps"
 order: 2
 ---
-**Transition type:** Team skills shift
+**Transition type:** Workflow integration shift
 **Typical duration:** 3-6 months
 **Investment level:** Moderate
 
@@ -41,6 +41,8 @@ Before beginning this roadmap, confirm:
 | **Introduce Plan/Code/Verify workflow** | Artisan Engineer / Tech Lead | Week 2-3 | Deliver hands-on training on the three-phase agentic coding workflow. Use a real feature or task from the team's backlog as the training exercise. Every team member should complete at least one full Plan/Code/Verify cycle during training. |
 | **Set up mandatory feedback loops** | Tech Lead / DevOps | Week 3-4 | Configure pre-commit hooks or CI pipeline gates that require code to pass compiler checks, linter rules, and automated tests before commit. This is non-negotiable infrastructure. The goal is that agents cannot produce committed code that fails basic quality checks. |
 | **Establish context engineering basics** | Artisan Engineer / Tech Lead | Week 4-6 | Train the team on context management: when to start fresh sessions, how to use /compact or summarization, when to use subagents, and how to structure externalized plans so agents can consume them. |
+| **PM onboarding to shared workflow** | Product Manager + Tech Lead | Week 3-5 | PMs learn how Plan/Code/Verify applies to their specification artifacts. PMs begin writing user stories that include AI-relevant behavioral criteria, participate in discussions about the shared configuration, and learn how their specifications feed into the team's agentic workflow. Early PM integration prevents the common pattern of PM engagement lagging behind engineering. |
+| **Designer integration with shared AI configuration** | Designer + Tech Lead | Week 4-6 | Designers begin using the shared AI configuration for design-adjacent tasks: generating design system documentation, creating accessibility check prompts, producing design-to-code specifications. Designers contribute design context to AGENTS.md so that AI-generated code aligns with design standards. |
 | **First externalized plan exercise** | Artisan Engineer + Team (paired exercises) | Week 4-6 | Each team member completes a feature using an externalized plan: write the plan to a markdown file in the repo, use it to guide agent implementation, then verify the result. Review plans as a team to establish shared expectations for plan quality. |
 | **Begin "One Team, One Setup" transition** | Tech Lead + Team | Week 5-8 | Migrate personal AI configurations, prompt libraries, and individual tool settings into the shared repository configuration. Team members who have developed effective personal setups contribute their best practices to the shared configuration. |
 
@@ -77,6 +79,7 @@ Before beginning this roadmap, confirm:
 | **Introduce Vibe TDD (VTDD)** | Tech Lead / Senior Developer | Week 10-14 | Train the team on VTDD: agent stubs tests based on requirements, human reviews stubs for intent misunderstandings, then tests are collaboratively generated. Practice on 2-3 real features before expecting habitual use. |
 | **Build first team skills/commands** | Tech Lead + Team | Week 12-14 | Identify 2-3 repetitive workflows and build reusable agent skills or commands for them. Examples: a /commit command that follows team conventions, a /review skill that applies team review criteria, a /plan command that generates plans in the team's preferred format. |
 | **PM integration: AI behavioral criteria** | Product Manager | Week 10-16 | Train PMs to include AI-relevant criteria in user stories: verification requirements, documentation expectations, quality gates. PMs participate in retrospectives about the agentic workflow. |
+| **QA adaptation for AI-generated code** | QA Lead / QA Engineers | Week 8-14 | QA engineers document the characteristic error patterns of AI-generated code (subtle logic errors, security oversights, convention mismatches, hallucinated APIs) and adapt test strategies to address these patterns. QA participates in retrospectives about the agentic workflow's quality impact and contributes to evolving the shared configuration with quality-focused context. |
 
 ### Milestones
 
@@ -118,14 +121,14 @@ Before beginning this roadmap, confirm:
 | Zone 2 practices maintained through at least one high-pressure period | End of Month 5 | Manager and team self-report; retrospective discussion |
 | AGENTS.md has been iterated at least 8 times since creation | End of Month 5 | Git commit history |
 | Delivery metrics show measurable improvement in at least one area | End of Month 6 | Metric comparison to pre-Zone 2 baseline |
-| Zone 2 competency check shows Practicing or Competent stage | End of Month 6 | Diagnostic results |
+| Zone 2 competency check shows Developing or Established stage | End of Month 6 | Diagnostic results |
 | Decision made: pursue deep Zone 2 competency or begin Zone 3 planning | End of Month 6 | Decision documented and communicated |
 
 ### Common Obstacles
 
 - **Metrics show no improvement (yet).** Zone 2 benefits often appear first as consistency improvements (less variance in quality, fewer surprise defects) before showing throughput improvements. If delivery speed has not increased but defect rates have decreased, that is real progress. Ensure metrics capture quality improvements, not just velocity.
 - **Zone 2 practices feel like overhead.** During the consolidation phase, some team members may feel that the structured workflow, retrospectives, and configuration management add more process than value. This is usually a signal that the team is in the "conscious competence" stage -- practices are not yet automatic. Persist through this phase; automation of habit takes time.
-- **Team treats Zone 2 as "done" once proficient.** Proficiency (can do it when thinking about it) is not competency (does it habitually under pressure). The transition from Practicing to Competent typically takes 1-2 additional months of deliberate practice and pressure-testing.
+- **Team treats Zone 2 as "done" once proficient.** Proficiency (can do it when thinking about it) is not competency (does it habitually under pressure). The transition from Developing to Established typically takes 1-2 additional months of deliberate practice and pressure-testing.
 
 ---
 
@@ -140,6 +143,8 @@ The team has achieved Zone 2 competency when:
 - [ ] Code review includes AI-specific review norms and fresh-session reviews
 - [ ] The team has built and uses reusable skills/commands for common workflows
 - [ ] PMs include AI behavioral criteria in user stories and participate in agentic workflow retrospectives
+- [ ] Designers participate in the shared workflow for design-adjacent tasks and contribute design context to the shared configuration
+- [ ] QA engineers have adapted test strategies for AI-generated code patterns and participate in workflow retrospectives
 - [ ] The team can articulate what their AI setup does well and what needs improvement
 - [ ] Delivery metrics show measurable improvement compared to pre-Zone 2 baseline
 
@@ -159,6 +164,8 @@ Track these during the roadmap to detect progress or stalls early:
 | Retrospective AI discussion frequency | Team engagement with continuous improvement | Retrospective notes |
 | PR review cycle time | Whether AI-assisted review is accelerating the process | Git/CI metrics |
 | Team members who can explain the shared workflow | Depth of understanding vs. surface compliance | Informal conversation or team survey |
+| QA test strategy updated for AI-generated code patterns | QA integration into shared workflow | Test strategy documentation review |
+| Designer contributions to shared AI configuration | Design integration into shared workflow | AGENTS.md commit history, design context present |
 
 ---
 

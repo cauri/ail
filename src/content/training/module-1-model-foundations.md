@@ -43,13 +43,13 @@ By the end of this module, trainees will be able to:
 
 **What competency means.** Habitual behavior under stress. What a team does reliably when conditions are unfavorable -- tight deadlines, production incidents, unfamiliar codebases, organizational pressure.
 
-**The language competency analogy.** A competent French speaker thinks in French naturally, even when tired or stressed. They do not translate from English in their head. Contrast with someone who studied French for years but freezes in conversation. Knowledge is necessary but not sufficient for competency.
+**The performance under pressure analogy.** A basketball player who drills free throws at 90% in the gym but drops to 50% in a playoff game has skill but not competency. Competency is the performance that holds up when the stakes rise and the conditions deteriorate. Knowledge is necessary but not sufficient for competency.
 
 **Why knowledge is insufficient.** Common knowledge-without-competency patterns: teams that completed training but do not use tools, developers who can explain prompting strategies but default to manual coding under pressure, organizations with documented standards that are not followed.
 
 **Why best-day performance is insufficient.** Assessment based on demos, hackathons, or pilot projects overstates actual capability. ACE assesses what teams do consistently, especially when conditions are least conducive to new practices.
 
-**Four stages within a zone.** Learning (practicing but inconsistent), Practicing (mostly consistent but untested by sustained pressure), Competent (habitual and consistent even under stress), Mastery (can coach others and innovate within the zone). These stages apply within each zone independently.
+**Four stages within a zone.** Emerging (practicing but inconsistent), Developing (mostly consistent but untested by sustained pressure), Established (habitual and consistent even under stress), Exemplary (can coach others and innovate within the zone). These stages apply within each zone independently.
 
 **Implications for measurement.** Assess what teams do, not what they know. Assess behavior under pressure, not under ideal conditions. Use facilitated self-assessment, not external audit.
 
@@ -59,7 +59,7 @@ By the end of this module, trainees will be able to:
 
 **Core metric.** Developers habitually use AI coding tools in their daily work, even under deadline pressure or in unfamiliar codebases.
 
-**Proficiencies.** Walk through engineering proficiencies (inline completion, AI for debugging, mode selection between vibe-coding/CHOP/AI-assisted coding, code review of AI output, test and documentation generation), product management proficiencies (story writing, meeting notes, effective prompting), and design proficiencies (ideation, AI-powered design tools).
+**Proficiencies.** Walk through engineering proficiencies (inline completion, AI for debugging, mode selection between vibe-coding/CHOP/AI-assisted coding, code review of AI output, test and documentation generation), product management proficiencies (story writing, meeting notes, effective prompting), design proficiencies (ideation, AI-powered design tools), and QA proficiencies (test case generation, bug triage and root cause analysis, test data creation). Note that data science/ML practitioners should participate in Zone 1 adoption alongside other roles -- their existing practices naturally overlap with AI tool usage.
 
 **Organizational investments.** Tool licenses for all roles, clear policies on approved tools and data handling, structured training, removing fear and stigma, practical access (API keys, accounts), guidelines for when AI-generated code needs extra review.
 
@@ -89,11 +89,13 @@ By the end of this module, trainees will be able to:
 
 **Definition.** AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role changes from writing code to designing the process by which code is produced.
 
+**The cross-functional identity shift.** Zone 3 transforms the entire software production pipeline, not just engineering. Explain the parallel transformations: PMs shift from writing feature specs to defining the behavioral envelope of AI systems. Designers shift from producing artifacts to encoding design standards as machine-verifiable factory inputs. QA engineers shift from testing individual outputs to designing evaluation infrastructure. These role transformations are equally essential to the production pipeline -- a factory with excellent engineering pipelines but no machine-verifiable design standards, no quantified behavioral envelopes, and no systematic evaluation infrastructure is incomplete.
+
 **The AI Engineer identity.** This is not a senior developer who uses AI tools. It is a distinct role focused on designing and operating the systems that produce software rather than producing the software directly.
 
-**Core metric.** Engineers operate as process designers who define specifications, constraints, and verification criteria, and the AI pipeline produces working software that meets those criteria habitually.
+**Core metric.** Engineers operate as process designers, PMs as behavioral specifiers, designers as specification encoders, and QA engineers as evaluation pipeline specialists -- each role defines its respective inputs to the AI production pipeline.
 
-**Key proficiencies.** Continuous Alignment Testing (CAT) pipelines, eval harness design, context engineering at the system level, observability instrumentation, pipeline-level failure diagnosis, prompt versioning, "separate generation from decisioning" patterns (four levels: Conditioning, Authority, Workflows, Evals).
+**Key proficiencies.** Continuous Alignment Testing (CAT) pipelines, eval harness design, context engineering at the system level, observability instrumentation, pipeline-level failure diagnosis, prompt versioning, "separate generation from decisioning" patterns (four levels: Conditioning, Authority, Workflows, Evals). QA proficiencies: eval harness design, CAT pipeline ownership, failure mode taxonomy, acceptance thresholds. Design proficiency: encoding design standards as machine-verifiable pipeline inputs.
 
 **Organizational investments.** Creating the AI Engineer role, team budget authority for experimentation, CAT in the definition of done, AI observability infrastructure, prompt versioning practices, dedicated pipeline improvement time, cross-functional training, organizational tolerance for non-determinism.
 
@@ -101,13 +103,13 @@ By the end of this module, trainees will be able to:
 
 ### Session 6: Zone 4 Deep Dive -- Industrializing
 
-**The factory metaphor.** The organization operates an AI-first software factory. Engineers maintain the factory; AI produces the software. The shift from craft production to industrial production.
+**The factory metaphor.** The organization operates an AI-first software factory. Engineers maintain the factory, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA engineers operate the evaluation infrastructure; AI produces the software. The shift from craft production to industrial production.
 
 **Maturity of practice.** Zone 4 practices are less mature than those in earlier zones. The proficiencies represent the current understanding of what competency at this level looks like and will evolve as more organizations operate at this level.
 
-**Core metric (working formulation).** The organization can reliably specify, produce, evaluate, and deploy AI-generated software at scale, with engineers operating as factory designers rather than individual producers.
+**Core metric (working formulation).** The organization can reliably specify, produce, evaluate, and deploy AI-generated software at scale, with all production roles operating in their factory functions -- engineers as factory designers, PMs as portfolio-level specifiers, designers as specification layer owners, and QA as evaluation infrastructure operators.
 
-**Key proficiencies.** Engineers design and maintain the AI production pipeline as their primary job function, systematic governance for AI system changes, factory-level failure diagnosis and repair, evaluations at scale, model/prompt/tool changes as factory maintenance events, defined SLAs for AI production reliability.
+**Key proficiencies.** Engineers design and maintain the AI production pipeline as their primary job function, systematic governance for AI system changes, factory-level failure diagnosis and repair, evaluations at scale, model/prompt/tool changes as factory maintenance events, defined SLAs for AI production reliability. Design proficiencies: factory design specification layer ownership, portfolio-scale design compliance verification. QA proficiencies: factory evaluation infrastructure operations, factory-level quality SLAs, drift detection program design and execution.
 
 **Organizational investments.** Fundamental reorganization around AI production, factory infrastructure investment, governance and compliance frameworks for AI production, factory-floor metrics and reporting, risk management for AI production at scale, cross-functional rotation programs, external audit mechanisms.
 
@@ -203,6 +205,7 @@ After each presentation, the group provides feedback on:
 - Framing: Did the trainee avoid maturity-model language (e.g., "better" or "more advanced")?
 - Concreteness: Did the trainee use specific examples rather than abstract descriptions?
 - Progressive competency: Did the trainee correctly position their zone within the single-path progression? Did they explain why organizations might choose this zone as their stopping point? Did they avoid maturity-model language?
+- Cross-role inclusivity: Did the trainee address how non-engineering roles (PM, design, QA) participate at this zone? Especially for Zone 3 and Zone 4, did they describe the parallel role transformations, not just the engineering identity shift?
 
 This activity serves a triple purpose: it tests zone understanding, it practices the communication skills facilitators need when working with organizational leadership, and it ensures every trainee articulates the progressive competency model regardless of which zone they present.
 

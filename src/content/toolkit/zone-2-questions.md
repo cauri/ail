@@ -6,7 +6,7 @@ order: 2
 ---
 ## Purpose
 
-These questions assess whether a team has moved from individual AI tool usage to systematic, team-level AI integration. Zone 2 competency means the team has a shared agentic workflow --- committed to source control, understood by all members, and improved through regular retrospectives. AI is embedded in how the team delivers software, not left to individual initiative. The questions measure team-level behaviors: shared setup, mandatory quality gates, consistent workflow execution, and collective ownership of the agentic configuration.
+These questions assess whether a team has moved from individual AI tool usage to systematic, team-level AI integration. Zone 2 competency means the team has a shared agentic workflow --- committed to source control, understood by all members, and improved through regular retrospectives. AI is embedded in how the team delivers software, not left to individual initiative. The questions measure team-level behaviors across all roles involved in software production --- engineering, product management, design, and QA --- including shared setup, mandatory quality gates, consistent workflow execution, and collective ownership of the agentic configuration.
 
 ## Questions
 
@@ -29,6 +29,12 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 6. The team discusses and iterates on its agentic setup (AI configuration, feedback loops, workflow practices) in retrospectives, treating the setup as a living system that requires continuous improvement.
 
 7. Product managers write user stories that include AI-relevant behavioral criteria or verification requirements, and participate in retrospectives about the team's agentic workflow alongside engineers.
+
+8. Designers participate in the team's agentic workflow by using the shared AI configuration for design-related tasks --- generating design system documentation, creating accessibility checks, or producing design-to-code specifications --- rather than working with AI tools in isolation from the team's shared setup.
+
+9. The team's quality assurance practices explicitly address AI-generated code: test strategies account for characteristic AI error patterns, regression suites cover AI-introduced risks, and QA team members are trained to identify the specific failure modes that AI-generated code produces.
+
+10. When new team members join, they can become productive with the team's agentic workflow within their first week by following the committed AI configuration, documented workflow practices, and onboarding materials --- without requiring extensive oral tradition or tribal knowledge transfer.
 
 ## Scale
 

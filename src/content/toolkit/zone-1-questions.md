@@ -6,7 +6,7 @@ order: 1
 ---
 ## Purpose
 
-These questions assess whether individual team members have adopted AI tools as a habitual part of their daily work. Zone 1 competency is demonstrated when AI tool usage persists under pressure --- tight deadlines, production incidents, unfamiliar codebases --- rather than being the first thing dropped when conditions deteriorate. The questions cover engineering, product management, and communication activities to ensure assessment spans the full range of roles on a development team.
+These questions assess whether individual team members have adopted AI tools as a habitual part of their daily work. Zone 1 competency is demonstrated when AI tool usage persists under pressure --- tight deadlines, production incidents, unfamiliar codebases --- rather than being the first thing dropped when conditions deteriorate. The questions cover engineering, product management, design, QA, and communication activities to ensure assessment spans the full range of roles involved in software production.
 
 ## Questions
 
@@ -29,6 +29,12 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 6. Product managers and other non-engineering team members use AI tools for their role-specific work: drafting user stories, synthesizing research, preparing stakeholder communications, or summarizing meetings.
 
 7. Team members use AI to assist with writing and improving tests, documentation, commit messages, or other development artifacts that are frequently skipped or rushed under time pressure.
+
+8. Designers and UX practitioners use AI tools in their workflow --- generating design alternatives, synthesizing user research, creating prototypes, or analyzing usability data --- as a regular part of their practice rather than an occasional experiment.
+
+9. QA team members use AI to assist with test case generation, exploratory testing strategies, bug triage, or test data creation as a habitual part of their quality assurance work.
+
+10. When onboarding to a new project, codebase, or domain, team members across all roles use AI tools to accelerate their ramp-up --- querying AI about architecture decisions, generating summaries of unfamiliar code, or using AI to understand domain-specific terminology.
 
 ## Scale
 

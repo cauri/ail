@@ -4,7 +4,7 @@ description: "Roadmap template for progressing from Zone 3 (Accelerating) to Zon
 section: "roadmaps"
 order: 4
 ---
-**Transition type:** Strategic and cultural transformation
+**Transition type:** Production model shift
 **Typical duration:** 3-5+ years
 **Investment level:** Very high -- sustained multi-year commitment at the executive and board level
 
@@ -54,6 +54,9 @@ Before beginning this roadmap, confirm:
 | **Portfolio-scale eval governance** | AI Engineer Lead | Month 4-9 | Extend CAT infrastructure to provide genuine portfolio governance: aggregate eval results across all production pipelines into a health dashboard with defined quality floors, SLA alignment indicators, and trend alerting. When any pipeline degrades below its quality floor, the governance process activates -- not a team conversation, but a formal incident. |
 | **Implement systematic drift management program** | AI Engineer Lead + DevOps | Month 4-10 | Drift management at Zone 4 scale is not a dashboard -- it is a program. Define the full drift management lifecycle: detection, triage, root cause analysis, remediation, and post-mortem. Assign dedicated ownership. Establish that model provider updates, prompt dependency changes, and context schema changes each trigger defined drift review protocols. |
 | **Pilot external audit mechanism** | CTO + External Auditor | Month 8-12 | Design and pilot the external audit process that will provide ongoing independent validation of AI production quality. Select an external auditor (another advanced organization, an academic partner, or a specialized consulting firm), conduct the first audit of the most mature pipeline, and use the findings to calibrate the audit process itself before expanding it. |
+| **Product leadership portfolio-scale specification training** | VP Product + AI Engineer Lead | Month 3-6 | Train product leadership on defining factory production targets at portfolio scale: what the AI production system should produce across product lines, system-level acceptance criteria for entire AI pipelines, and how to manage the tension between production volume and quality governance. This is a fundamentally different specification skill from sprint-level story writing -- PMs must think in terms of factory output specifications, not individual feature requests. |
+| **Design specification layer for factory inputs** | Design Leadership + AI Engineer Lead | Month 4-8 | Designers establish the factory's design specification layer: component libraries, interaction patterns, accessibility requirements, and visual standards encoded as machine-verifiable inputs that AI pipelines consume and validate against. This layer replaces manual design review with automated design compliance verification and must cover the organization's design standards at portfolio scale. |
+| **QA transition to factory-scale evaluation operations** | QA Leadership + AI Engineer Lead | Month 4-10 | QA engineers transition to operating the factory's evaluation infrastructure as their primary function: designing and maintaining factory-level quality SLAs, operating portfolio-scale eval systems, and designing the factory's drift detection program. This is a significant role transformation -- from testing individual artifacts to operating the quality control program for an industrial production system. |
 
 ### Milestones
 
@@ -65,6 +68,9 @@ Before beginning this roadmap, confirm:
 | Portfolio-level quality floor monitoring active | End of Month 9 | Dashboard shows all pipelines with quality floor alignment indicators |
 | Drift management program operational with defined protocols | End of Month 10 | Protocols documented; at least one drift event has been handled through the formal process |
 | First external audit completed with findings incorporated | End of Month 12 | Audit report exists; findings reviewed by governance board and triaged |
+| Product leadership trained on portfolio-scale specification | End of Month 6 | PMs can define system-level acceptance criteria for AI pipelines |
+| Design specification layer operational for core component areas | End of Month 8 | Machine-verifiable design specifications in use; automated compliance checks running |
+| QA operating factory-level evaluation infrastructure | End of Month 10 | QA owns evaluation criteria, quality SLAs, and drift detection for at least one production pipeline |
 
 ### Common Obstacles
 
@@ -119,6 +125,9 @@ Given that Zone 4 practices are less mature than those in earlier zones, these c
 - [ ] Cross-functional rotation has distributed AI production knowledge across the engineering organization
 - [ ] AI production reliability is a first-class business metric reviewed at the executive level
 - [ ] Zone 4 practices hold through leadership transitions and business stress -- they are organizational, not personal
+- [ ] Product managers operate at portfolio scale, defining factory production specifications and system-level acceptance criteria
+- [ ] Designers own and maintain the factory's design specification layer with automated compliance verification
+- [ ] QA engineers operate the factory's evaluation infrastructure as their primary function, including quality SLAs and drift detection
 
 ---
 

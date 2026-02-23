@@ -27,7 +27,7 @@ Can experienced practitioners, coaches, and researchers reliably distinguish Zon
 Does the diagnostic instrument produce consistent results when administered by different facilitators to the same team? Are the questions interpreted consistently by participants across different organizations and contexts?
 
 **RQ3: Is the competency threshold predictive of organizational behavior under pressure?**
-Do teams that meet the competency threshold (all members rating the core metric 5, 75%+ overall at 5, 6/7 items at composite 5) actually exhibit competent behavior when observed directly -- particularly under deadline stress or organizational disruption?
+Do teams that meet the competency threshold (zone composite average ≥ 4.7, standard deviation ≤ 0.5, no question composite below 4.0) actually exhibit competent behavior when observed directly -- particularly under deadline stress or organizational disruption?
 
 **RQ4: Do the organizational investment recommendations predict successful zone progression?**
 Do teams and organizations that make the investments described for a given zone actually progress to the next zone? Do organizations that skip those investments stall or regress?

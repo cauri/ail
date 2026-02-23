@@ -4,7 +4,7 @@ description: "Why ACE measures habitual behavior under stress rather than knowle
 section: "reference"
 order: 11
 ---
-The word "competency" in ACE carries specific meaning borrowed from language acquisition research and organizational change literature. Understanding this distinction is essential to using the framework correctly, because it determines how organizations assess their current state, set goals, and measure progress.
+The word "competency" in ACE carries specific meaning borrowed from performance science and organizational change literature. Understanding this distinction is essential to using the framework correctly, because it determines how organizations assess their current state, set goals, and measure progress.
 
 ## What Competency Means
 
@@ -12,13 +12,11 @@ Competency is habitual behavior under stress. It is what a team or individual do
 
 A developer who uses AI tools effectively during a calm sprint but reverts to manual coding when a production issue demands fast response is not competent. A team that follows AI-assisted code review practices when they have slack time but skips them under deadline pressure is not competent. Competency is the behavior that persists when every incentive pushes toward shortcuts.
 
-## The Language Competency Analogy
+## The Performance Under Pressure Analogy
 
-Consider what it means to be competent in a spoken language. A competent French speaker does not translate from English in their head and then speak; they think and respond in French naturally, even when tired, stressed, or caught off guard. They do not lose the ability when the conversation becomes difficult or emotionally charged.
+Consider what it means to perform under pressure in a competitive sport. An athlete who executes perfectly in practice but falls apart during a game does not have competitive competence. The basketball player who drills free throws at 90% in the gym but drops to 50% in a playoff game has skill but not competency. Competency is the performance that holds up when the stakes rise and the conditions deteriorate.
 
-Contrast this with someone who studied French for years and can read it well but freezes in conversation, or someone who performs brilliantly in a classroom exercise but struggles in an unstructured real-world interaction. That person has knowledge. They may even have skill. But they do not have competency.
-
-AI adoption follows the same pattern. Organizations can have extensive knowledge about AI best practices, can demonstrate impressive AI integration in controlled settings, and still lack the habitual, stress-resistant behaviors that constitute competency.
+AI adoption follows the same pattern. Organizations can demonstrate impressive AI integration in controlled settings -- hackathons, demos, dedicated innovation time -- and still lack the habitual, stress-resistant behaviors that constitute competency.
 
 ## Why Knowledge Is Insufficient
 
@@ -59,15 +57,15 @@ Because competency is about habitual behavior rather than knowledge or peak perf
 
 Within each zone, teams progress through four stages of competency:
 
-**Learning.** The team is actively practicing the zone's behaviors. They sometimes forget or revert under pressure. They need reminders and external support to maintain new practices. Progress is visible but inconsistent.
+**Emerging.** The team is actively practicing the zone's behaviors. They sometimes forget or revert under pressure. They need reminders and external support to maintain new practices. Progress is visible but inconsistent.
 
-**Practicing.** The team performs the zone's behaviors mostly consistently. They need occasional reminders but rarely require intervention. The practices are becoming habitual but have not yet been tested by sustained pressure.
+**Developing.** The team performs the zone's behaviors mostly consistently. They need occasional reminders but rarely require intervention. The practices are becoming habitual but have not yet been tested by sustained pressure.
 
-**Competent.** The zone's behaviors are habitual and consistent even under deadline pressure, during production incidents, and in unfamiliar domains. The team does not revert to pre-zone behaviors when conditions deteriorate. This is the target state for each zone.
+**Established.** The zone's behaviors are habitual and consistent even under deadline pressure, during production incidents, and in unfamiliar domains. The team does not revert to pre-zone behaviors when conditions deteriorate. This is the target state for each zone.
 
-**Mastery.** The team not only practices the zone's behaviors competently but can coach other teams, adapt practices to novel contexts, and innovate within the zone's framework. Teams at Mastery are a resource for organizational learning, not just practitioners of established practices.
+**Exemplary.** The team not only practices the zone's behaviors at an established level but can coach other teams, adapt practices to novel contexts, and innovate within the zone's framework. Teams at Exemplary are a resource for organizational learning, not just practitioners of established practices.
 
-These stages apply within each zone independently. A team can be competent in Zone 1 while still learning Zone 2 behaviors. The stages help organizations track progress within a zone and set realistic expectations for the timeline from initial adoption to reliable competency.
+These stages apply within each zone independently. A team can be at Established in Zone 1 while still at Emerging in Zone 2. The stages help organizations track progress within a zone and set realistic expectations for the timeline from initial adoption to reliable competency.
 
 ## Implications for the Diagnostic
 

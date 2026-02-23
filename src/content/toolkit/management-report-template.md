@@ -64,7 +64,7 @@ order: 3
 ### Current State: Teams by Zone and Stage
 
 ```
-Zone / Stage         | Learning | Practicing | Competent | Mastery | Total
+Zone / Stage         | Emerging | Developing | Established | Exemplary | Total
 ---------------------|----------|------------|--------|-------------|------
 Zone 0 (Baseline)    |          |            |        |             |
 Zone 1 (Augmenting)  |    [N]   |    [N]     |  [N]   |    [N]      |  [N]
@@ -77,7 +77,7 @@ Total                |          |            |        |             |  [N]
 
 *Facilitator guidance: Add a one-sentence interpretive note below the table — for example, whether the distribution is narrow (most teams at one stage) or spread across multiple zones, and what that implies about organizational investment priorities.*
 
-[DISTRIBUTION INTERPRETATION — e.g., "Teams are clustered at Zone 1 Practicing, indicating that individual AI adoption has occurred but team-level integration has not yet begun. This is a common distribution in organizations that have adopted AI tools without accompanying practice investment."]
+[DISTRIBUTION INTERPRETATION — e.g., "Teams are clustered at Zone 1 Developing, indicating that individual AI adoption has occurred but team-level integration has not yet begun. This is a common distribution in organizations that have adopted AI tools without accompanying practice investment."]
 
 ---
 
@@ -154,7 +154,7 @@ Total                |          |            |        |             |  [N]
 ### Theme 1: [INVESTMENT THEME TITLE]
 
 **Addresses findings:** [FINDING NUMBERS]
-**Benefits:** [e.g., "All assessed teams" or "Teams currently at Zone 1 Practicing/Competent preparing for Zone 2 transition"]
+**Benefits:** [e.g., "All assessed teams" or "Teams currently at Zone 1 Developing/Established preparing for Zone 2 transition"]
 **Priority:** [High / Medium / Low]
 **Estimated effort:** [e.g., "Low — policy decision and communication, no infrastructure required"]
 
@@ -255,7 +255,7 @@ Total                |          |            |        |             |  [N]
 
 ### What ACE Measures
 
-The AI Competency Evaluation System (ACE) is a diagnostic framework for measuring how deeply AI-assisted practices have become habitual within software delivery teams. It measures observable behavior, not knowledge or intent. The core question at every zone is: does the team actually do this consistently, including under deadline pressure and in unfamiliar conditions?
+The AI Competency Evaluation (ACE) framework is a diagnostic system for measuring how deeply AI-assisted practices have become habitual within software delivery teams. It measures observable behavior, not knowledge or intent. The core question at every zone is: does the team actually do this consistently, including under deadline pressure and in unfamiliar conditions?
 
 ### The Zones
 
@@ -273,11 +273,11 @@ The four zones form a single progression. Zone 2 is the typical near-term target
 
 ### Competency Stages
 
-Within each zone, teams progress through four stages: Learning (practicing but inconsistent), Practicing (mostly consistent but fragile under pressure), Competent (habitual even under stress), and Mastery (can coach others and innovate within the zone). Competency is reached when all team members rate the zone's core metric at 5/Always, 75% or more of all responses across the zone are at 5, and at least 6 of 7 items reach a composite score of 5.
+Within each zone, teams progress through four stages: Emerging (practicing but inconsistent), Developing (mostly consistent but fragile under pressure), Established (habitual even under stress), and Exemplary (can coach others and innovate within the zone). Competency is reached when the zone composite average is 4.7 or higher, the standard deviation across all individual responses is 0.5 or lower, and no single question composite falls below 4.0.
 
 ### How the Diagnostic Works
 
-The diagnostic is a facilitated self-assessment, not an external audit. A trained facilitator guides each intact delivery team through a 90-120 minute workshop. Team members individually score 7 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always), then discuss their scores, variance, and blockers. Results are aggregated at the team level and reported in two separate documents: a confidential team report shared only with the team, and this management report, which aggregates organizational patterns without disclosing team-specific data.
+The diagnostic is a facilitated self-assessment, not an external audit. A trained facilitator guides each intact delivery team through a 90-120 minute workshop. Team members individually score 9-10 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always), then discuss their scores, variance, and blockers. Results are aggregated at the team level and reported in two separate documents: a confidential team report shared only with the team, and this management report, which aggregates organizational patterns without disclosing team-specific data.
 
 ---
 

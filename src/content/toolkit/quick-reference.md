@@ -12,10 +12,10 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 
 | Zone | Name | Shift Type | One-Line Definition |
 |---|---|---|---|
-| 1 | **Augmenting** | Individual skills | Every developer uses AI tools habitually, even under pressure |
-| 2 | **Integrating** | Team skills | The team ships code through a shared, evolving agentic workflow |
-| 3 | **Accelerating** | Org structure | AI implements; humans specify, review, and orchestrate |
-| 4 | **Industrializing** | Org culture | Engineers maintain the AI factory; AI produces the software |
+| 1 | **Augmenting** | Tool adoption | Every team member uses AI tools habitually, even under pressure |
+| 2 | **Integrating** | Workflow integration | The team ships code through a shared, evolving agentic workflow |
+| 3 | **Accelerating** | Engineering identity | AI implements; humans specify, review, and orchestrate |
+| 4 | **Industrializing** | Production model | The multi-role team maintains the AI factory; AI produces the software |
 
 **Progression:** Zones form a single path: 1 → 2 → 3 → 4. Each builds on the previous. Organizations choose their stopping point based on strategy and investment capacity.
 
@@ -36,21 +36,20 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 
 | Stage | Average Score | What It Means |
 |---|---|---|
-| **Learning** | 2.0–2.9 | Inconsistent; behaviors drop under pressure |
-| **Practicing** | 3.0–3.9 | Mostly consistent; occasional lapses; self-corrects |
-| **Competent** | 4.0–4.9 (threshold not met) | Largely habitual; approaching full competency |
-| **Mastery** | Meets all 3 threshold criteria | Habitual under stress; can coach others |
+| **Emerging** | 2.0–2.9 | Inconsistent; behaviors drop under pressure |
+| **Developing** | 3.0–3.9 | Mostly consistent; occasional lapses; self-corrects |
+| **Established** | 4.0–4.9 (threshold not met) | Largely habitual; approaching full competency |
+| **Exemplary** | Meets all 3 threshold criteria | Habitual under stress; can coach others |
 
 ---
 
-## Mastery: Three-Criterion Threshold
+## Exemplary: Three-Criterion Threshold
 
 All three must be met **simultaneously**:
 
-1. **Core metric unanimity:** Every team member scores the ★ question **5/Always**
-2. **Response distribution:** ≥75% of all individual responses (team × questions) are **5/Always**
-3. **Question-level composites:** ≥6 of 7 questions have a composite average of **exactly 5.0**
-   *(All zones use 7 questions)*
+1. **High composite average:** Zone composite average ≥ **4.7**
+2. **Response consistency:** Standard deviation across all individual responses ≤ **0.5**
+3. **No weak links:** Every question composite ≥ **4.0**
 
 ---
 

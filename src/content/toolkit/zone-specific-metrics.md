@@ -10,13 +10,13 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 
 ## Zone 1: Augmenting
 
-**Zone summary:** Individual developers use AI coding assistants habitually in their daily work.
+**Zone summary:** Individual team members -- developers, PMs, designers, QA engineers -- use AI tools habitually in their daily software production work.
 
 ### Primary Metric
 
-**Percentage of developers who use AI tools daily as part of their standard workflow.**
+**Percentage of team members (across all software production roles) who use AI tools daily as part of their standard workflow.**
 
-- **How to measure:** Weekly self-report survey or tool telemetry (active sessions per day per developer). A developer counts as "daily user" if they interact with AI tools on 4+ of 5 workdays.
+- **How to measure:** Weekly self-report survey or tool telemetry (active sessions per day per team member). A team member counts as "daily user" if they interact with AI tools on 4+ of 5 workdays. Track across engineering, PM, design, and QA roles separately to identify role-specific adoption gaps.
 - **Target:** 85%+ of team members are daily AI users within 3 months of tool provisioning.
 
 ### Secondary Metrics
@@ -42,14 +42,15 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 ### Leading Indicators (Predict Zone 1 Competency)
 
 - **Tool activation rate:** Rising activation predicts upcoming habitual use.
-- **Training completion rate:** Developers who complete structured AI tool training adopt faster.
-- **Peer sharing frequency:** Developers sharing AI tips with colleagues signals growing comfort and enthusiasm.
-- **Prompt sophistication growth:** Developers progressing from simple to multi-step, context-rich prompts.
+- **Training completion rate:** Team members who complete structured AI tool training (including role-specific training for PM, design, and QA) adopt faster.
+- **Peer sharing frequency:** Team members sharing AI tips with colleagues signals growing comfort and enthusiasm.
+- **Prompt sophistication growth:** Team members progressing from simple to multi-step, context-rich prompts.
+- **QA test strategy adaptation rate:** QA engineers beginning to use AI for test case generation and bug analysis.
 
 ### Lagging Indicators (Confirm Zone 1 Competency Achieved)
 
-- **Sustained daily usage over 3+ months:** Habitual behavior persists beyond the novelty period.
-- **AI usage maintained during high-pressure periods:** The competency test -- developers use AI tools during production incidents, tight deadlines, and unfamiliar codebases.
+- **Sustained daily usage over 3+ months:** Habitual behavior persists beyond the novelty period across all roles.
+- **AI usage maintained during high-pressure periods:** The competency test -- team members use AI tools during production incidents, tight deadlines, and unfamiliar codebases.
 - **Individual task completion time reduction:** 15-30% improvement from pre-AI baseline.
 - **Reduced "blank page" time:** Developers report faster starts on new tasks.
 - **Junior developer independence improvement:** Junior developers resolve more issues independently using AI assistance.
@@ -96,6 +97,8 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 - **Plan artifact creation rate:** PRs increasingly include externalized plans.
 - **Team members seeking context engineering training:** Interest in deepening AI workflow skills.
 - **Cross-team config pattern sharing:** Teams exchanging AGENTS.md patterns or skill libraries.
+- **QA test strategy documentation:** QA engineers documenting AI-specific testing strategies and error patterns.
+- **Designer contributions to shared configuration:** Designers adding design context to AGENTS.md and participating in design-adjacent workflow tasks.
 
 ### Lagging Indicators (Confirm Zone 2 Competency Achieved)
 
@@ -109,7 +112,7 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 
 ## Zone 3: Accelerating
 
-**Zone summary:** AI fundamentally changes the engineering role. Developers become "AI Engineers" who architect solutions around AI capabilities.
+**Zone summary:** AI fundamentally changes all roles in the production pipeline. Engineers become process designers, PMs become behavioral specifiers, designers become specification encoders, and QA engineers become evaluation pipeline specialists.
 
 ### Primary Metric
 
@@ -146,6 +149,9 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 - **Developers initiating cross-functional work:** Developers voluntarily picking up tasks outside their specialty.
 - **Architecture discussions referencing AI capabilities:** Team designs solutions that leverage AI strengths.
 - **Eval pipeline creation rate:** New evals being defined and integrated.
+- **QA eval harness co-ownership:** QA engineers beginning to co-own evaluation criteria in eval harnesses.
+- **Design specification encoding rate:** Designers beginning to encode design standards as machine-verifiable pipeline inputs.
+- **PM behavioral specification quality:** PMs writing measurable efficacy thresholds for AI workflows.
 - **Decreasing implementation time per feature:** Features are completed faster while specification quality remains stable or improves.
 
 ### Lagging Indicators (Confirm Zone 3 Competency Achieved)
@@ -160,7 +166,7 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 
 ## Zone 4: Industrializing
 
-**Zone summary:** AI is a strategic organizational capability. The organization builds proprietary AI infrastructure and competes on its ability to leverage AI across the software lifecycle.
+**Zone summary:** The organization operates an AI-first software factory. Engineers maintain the factory, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA operates the evaluation infrastructure.
 
 ### Primary Metric
 
@@ -198,6 +204,9 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 - **Executive sponsorship of AI strategy:** AI capability is a board-level or C-suite strategic priority.
 - **AI-related hiring and role creation:** Organization hires for AI-specific engineering roles.
 - **Investment in custom model training or fine-tuning:** Organization begins building proprietary AI assets.
+- **Design specification layer operationalization:** Designers establishing machine-verifiable design specifications at portfolio scale.
+- **QA evaluation infrastructure ownership:** QA engineers operating factory-level evaluation systems as their primary function.
+- **PM portfolio-scale specification capability:** PMs defining factory production targets and system-level acceptance criteria.
 
 ### Lagging Indicators (Confirm Zone 4 Competency Achieved)
 

@@ -4,7 +4,7 @@ description: "Overview of the ACE framework for organizational AI adoption."
 section: "reference"
 order: 10
 ---
-The AI Competency Evaluation System (ACE) is a framework that helps software organizations understand where they are in AI adoption, decide where they want to go, and build a practical roadmap to get there.
+The AI Competency Evaluation (ACE) framework helps software organizations understand where they are in AI adoption, decide where they want to go, and build a practical roadmap to get there.
 
 ACE provides a structured approach to AI adoption that respects organizational context and treats competency as something deeper than knowledge or occasional best-day performance.
 
@@ -26,13 +26,13 @@ ACE defines four zones of AI-augmented software development, plus a pre-AI basel
 
 - **Zone 0 (Baseline):** Traditional software development with no meaningful AI integration. Individual team members may have experimented with AI tools, but usage is sporadic and unsupported.
 
-- **Zone 1 (Augmenting):** Individual developers use AI coding assistants habitually in their daily work. AI usage is personal, ad-hoc, and tool-focused. The shift is from "AI is unfamiliar" to "AI tools are a normal part of how I work."
+- **Zone 1 (Augmenting):** Individual team members -- developers, PMs, designers, QA engineers -- use AI tools habitually in their daily software production work. AI usage is personal, ad-hoc, and tool-focused. The shift is from "AI is unfamiliar" to "AI tools are a normal part of how I work."
 
 - **Zone 2 (Integrating):** AI is embedded in team-level delivery workflows. The shift is from individual tool use to systematic team practices: shared AI conventions, automated pipelines, and collective standards for working with AI.
 
-- **Zone 3 (Accelerating):** AI drives core development work. Humans specify, review, and orchestrate; AI implements. Engineers shift into an "AI Engineer" identity defined by The Prime Directive: *"You are no longer writing the code. You are designing the process by which code is produced."* This is an organizational structure shift, not just a skills shift. Not every organization will progress this far, but for those that do, the investment builds directly on Zone 2 foundations.
+- **Zone 3 (Accelerating):** AI drives core development work. Humans specify, review, and orchestrate; AI implements. Engineers shift into an "AI Engineer" identity defined by The Prime Directive: *"You are no longer writing the code. You are designing the process by which code is produced."* This identity shift extends across the production pipeline: PMs become behavioral specifiers, designers become specification encoders, and QA engineers become evaluation pipeline specialists. Not every organization will progress this far, but for those that do, the investment builds directly on Zone 2 foundations.
 
-- **Zone 4 (Industrializing):** The organization operates an AI-first software factory. Engineers maintain the factory; AI produces the software. This is a fundamental cultural transformation — from software development as craft production to industrial production. This zone represents the deepest level of organizational commitment to AI-driven development and requires sustained investment at the executive level.
+- **Zone 4 (Industrializing):** The organization operates an AI-first software factory. Engineers maintain the factory, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA engineers operate the evaluation infrastructure; AI produces the software. This is a fundamental cultural transformation — from software development as craft production to industrial production. This zone represents the deepest level of organizational commitment to AI-driven development and requires sustained investment at the executive level.
 
 Each zone represents a distinct set of proficiencies, organizational investments, and expected benefits. See the [zone reference documents](../reference/) for detailed descriptions.
 

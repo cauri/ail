@@ -6,7 +6,7 @@ order: 3
 ---
 ## Purpose
 
-These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements. Zone 3 competency means engineers operate as process designers rather than manual implementers --- they build and maintain the systems that enable AI to do the bulk of implementation work reliably. The questions measure organizational-level behaviors: Continuous Alignment Testing (CAT), observability of AI-driven processes, eval harnesses, prompt versioning, and the emergence of the AI Engineer role.
+These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements. Zone 3 competency means the entire production pipeline has transformed: engineers operate as process designers, PMs as behavioral specifiers, designers as specification encoders, and QA engineers as evaluation pipeline specialists. The questions measure organizational-level behaviors: Continuous Alignment Testing (CAT), observability of AI-driven processes, eval harnesses, prompt versioning, cross-functional role transformation, and the emergence of the AI Engineer role.
 
 ## Questions
 
@@ -29,6 +29,10 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 6. When AI-generated output fails or produces unexpected results, engineers diagnose the failure systematically (context issues, prompt drift, model limitations, specification gaps) and apply targeted fixes to the generation pipeline rather than manually correcting individual outputs.
 
 7. Product managers include AI-specific criteria in user stories and acceptance requirements --- specifying expected agent behavior, acceptable output variance, required eval thresholds, or observability requirements --- as a standard part of story writing.
+
+8. Designers contribute to the specification layer of the AI development pipeline --- defining UI behavioral expectations, interaction patterns, and visual standards that AI-generated implementations must satisfy, with automated checks that verify design compliance.
+
+9. QA engineers operate as evaluation pipeline specialists: they design, maintain, and improve the automated evaluation infrastructure that validates AI-generated output at scale, rather than primarily performing manual testing of individual outputs.
 
 ## Scale
 

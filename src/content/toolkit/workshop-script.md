@@ -50,7 +50,7 @@ Let me start by telling you what this is and what this is not.
 
 For each zone we assess, we will follow this pattern:
 - I will introduce the zone briefly -- what it is about, what it measures
-- You will score yourself individually and silently on 7 questions using a 1 to 5 scale
+- You will score yourself individually and silently on a set of questions using a 1 to 5 scale
 - We will reveal the scores as a group so we can see the distribution
 - We will discuss the results, especially where scores vary a lot
 
@@ -93,23 +93,23 @@ Read each screening question from the baseline screening document. Tally respons
 
 **For Zone 1 (Augmenting):**
 
-"Zone 1 is about individual AI tool adoption. The question is simple: do the individuals on this team use AI tools -- coding assistants, chat-based AI, AI for writing and research -- as a habitual part of their daily work? Not occasionally, not experimentally, but habitually. The key test is whether AI tool usage persists when things get hard -- tight deadlines, production issues, unfamiliar code."
+"Zone 1 is about individual AI tool adoption across all roles involved in software production -- developers, PMs, designers, QA engineers. The question is simple: do the individuals on this team use AI tools as a habitual part of their daily work? Not occasionally, not experimentally, but habitually. The key test is whether AI tool usage persists when things get hard -- tight deadlines, production issues, unfamiliar code."
 
 **For Zone 2 (Integrating):**
 
-"Zone 2 is about team-level integration. The question shifts from 'do individuals use AI tools' to 'does the team have a shared, systematic way of working with AI.' This means shared AI configuration committed to source control, mandatory quality gates for AI-generated code, externalized plans, and collective ownership of the team's AI workflow. The phrase to remember is 'One Team, One Setup.'"
+"Zone 2 is about team-level integration. The question shifts from 'do individuals use AI tools' to 'does the team have a shared, systematic way of working with AI.' This means shared AI configuration committed to source control, mandatory quality gates for AI-generated code, externalized plans, and collective ownership of the team's AI workflow. It also means PMs contributing specifications to the shared workflow, designers integrating with the shared AI configuration, and QA adapting testing strategies for AI-generated code patterns. The phrase to remember is 'One Team, One Setup.'"
 
 **For Zone 3 (Accelerating):**
 
-"Zone 3 is about a fundamental shift in the engineering role. At this level, AI drives the core implementation work. Engineers operate as process designers -- they define specifications, constraints, and verification criteria, and AI pipelines produce the working software. This zone includes Continuous Alignment Testing, eval harness design, observability, and the organizational changes to support these practices."
+"Zone 3 is about a fundamental shift across all roles in the production pipeline. Engineers operate as process designers, PMs become behavioral specifiers who define what accuracy and reliability the business can tolerate, designers become specification encoders whose standards are machine-verifiable factory inputs, and QA engineers become evaluation pipeline specialists who design the infrastructure that validates AI output at scale. AI drives the core implementation work, and all roles define their respective inputs to the production pipeline."
 
 **For Zone 4 (Industrializing):**
 
-"Zone 4 describes an AI-first software factory where the organization's core competency is operating the system that produces software, not producing software directly. This zone requires sustained executive commitment and represents the deepest level of organizational transformation in the model."
+"Zone 4 describes an AI-first software factory where the organization's core competency is operating the system that produces software, not producing software directly. Engineers maintain the factory, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA operates the evaluation infrastructure. This zone requires sustained executive commitment and represents the deepest level of organizational transformation in the model."
 
 ### Individual Scoring (5 minutes, silent)
 
-"Please take 5 minutes to score yourself on each of the 7 questions for this zone. Work silently and independently. Do not discuss your answers with your neighbors.
+"Please take 5-7 minutes to score yourself on each of the questions for this zone. Work silently and independently. Do not discuss your answers with your neighbors.
 
 For each question, circle a number from 1 to 5:
 - 1 = Never -- this does not happen
@@ -140,7 +140,7 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 
 **Digital tool method:** If using a shared scoring tool, display the aggregated results on screen once all scores are submitted.
 
-*After revealing all 7 questions, display or describe the distribution:*
+*After revealing all questions, display or describe the distribution:*
 
 "Here is what the scores look like for this zone. Let me highlight a few things I notice..."
 
@@ -206,9 +206,9 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 - *Overall zone pattern: does the team meet the competency threshold?*
 
 *Competency threshold reminder (for your reference, do not read this verbatim to the team):*
-- *ALL team members rate the core metric (Q1) at 5*
-- *75%+ of all responses across the zone are at 5*
-- *At least 6 of 7 items have a composite score of 5*
+- *Zone composite average (mean of all question composites) ≥ 4.7*
+- *Standard deviation across all individual responses ≤ 0.5*
+- *No single question composite below 4.0*
 
 "Here is the summary. For Zone [X], your scores cluster around [describe]. The core metric -- [read it] -- shows [describe distribution]. For Zone [Y], your scores show [describe]."
 

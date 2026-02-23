@@ -37,7 +37,7 @@ The facilitator's role in the transition: bridge the two conversations. Leadersh
 
 **What leadership needs to hear: the strategic picture, not the technical details.** The management report contains the detailed findings. The goal-setting session should not re-present those details. Leadership needs to understand three things: where the organization is relative to competitive baseline (Zones 1-2), what strategic choices are available to them (Zones 2-3-4), and what those choices cost. Technical details about Plan/Code/Verify workflows or AGENTS.md configuration are not relevant to this conversation -- systemic investment gaps and competitive positioning are.
 
-**Presenting the management report effectively.** The facilitator walks leadership through the management report before the zone-selection discussion begins. This is not a reading exercise -- it is an orientation. Move through findings quickly, flag the two or three most strategically significant patterns, and explicitly name what is and is not a question for leadership. "The team's Zone 2 scores indicate Practicing-stage adoption, with one structural gap: mandatory feedback loops are not enforced by the CI/CD pipeline. Closing that gap requires organizational infrastructure investment, which is a leadership decision. That is what we are here to discuss today."
+**Presenting the management report effectively.** The facilitator walks leadership through the management report before the zone-selection discussion begins. This is not a reading exercise -- it is an orientation. Move through findings quickly, flag the two or three most strategically significant patterns, and explicitly name what is and is not a question for leadership. "The team's Zone 2 scores indicate Developing-stage adoption, with one structural gap: mandatory feedback loops are not enforced by the CI/CD pipeline. Closing that gap requires organizational infrastructure investment, which is a leadership decision. That is what we are here to discuss today."
 
 ### Session 2: The Progressive Competency Model in Practice
 
@@ -63,7 +63,7 @@ Avoid urgency language that triggers defensive reactions. Leadership who feel ac
 
 **Competitive position** measures what the industry is doing and what happens if the organization does not invest. The facilitation question: "Which of your competitors are visibly investing in AI-augmented development? What are you seeing them do that you are not doing?"
 
-**When to push back on target zone selection.** Push back when: leadership is selecting a zone that the diagnostic does not support as a realistic near-term target (Zone 3 target when the team is at Zone 1 Learning); when the selection is aspirational with no named budget owner; when Zone 4 is selected without acknowledging the maturity-of-practice considerations; or when Zone 3 is selected but leadership has said they are not willing to change role definitions or create an AI Engineer role. The push-back is not confrontational -- it is clarifying: "I want to make sure we are setting a target you can actually achieve. To reach Zone 3, we would need [specific structural changes]. Are those on the table?"
+**When to push back on target zone selection.** Push back when: leadership is selecting a zone that the diagnostic does not support as a realistic near-term target (Zone 3 target when the team is at Zone 1 Emerging); when the selection is aspirational with no named budget owner; when Zone 4 is selected without acknowledging the maturity-of-practice considerations; or when Zone 3 is selected but leadership has said they are not willing to change role definitions or create an AI Engineer role. The push-back is not confrontational -- it is clarifying: "I want to make sure we are setting a target you can actually achieve. To reach Zone 3, we would need [specific structural changes]. Are those on the table?"
 
 **The investment commitment test.** A target zone declaration that cannot pass this test is not a commitment -- it is a wish. The test: "Can you name the specific investments you will make, assign a person who owns each one, and give me a realistic timeline?" If the answer is "we'll figure that out in the roadmap," the goal-setting session is not finished. Investment commitment is part of zone selection, not a downstream step.
 
@@ -77,13 +77,13 @@ Avoid urgency language that triggers defensive reactions. Leadership who feel ac
 
 **Handling political tensions.** In some organizations, different leadership stakeholders have different stakes in the AI adoption agenda. The CTO wants to invest; the CFO wants to contain costs; the VP of Engineering is skeptical. The facilitator should be aware of these tensions from the discovery phase and should not pretend they are not present. Name the tension explicitly when it emerges: "I'm hearing two different perspectives on the investment case. Let me try to map out the trade-off explicitly so we can discuss the specific disagreement."
 
-**Handling defensive reactions.** Leadership who feel that the diagnostic findings reflect poorly on their organization will sometimes dispute the findings rather than engage with the investment case. The facilitation response: redirect from the assessment to the decision. "Whether the current Zone 2 score is Practicing or Competent is less important than this question: what investment, if any, are you prepared to make? Let's start there and work backward."
+**Handling defensive reactions.** Leadership who feel that the diagnostic findings reflect poorly on their organization will sometimes dispute the findings rather than engage with the investment case. The facilitation response: redirect from the assessment to the decision. "Whether the current Zone 2 score is Developing or Established is less important than this question: what investment, if any, are you prepared to make? Let's start there and work backward."
 
 ### Session 5: Documenting the Decision
 
 **What the Target Zone Declaration must contain.** A declaration that contains only a target zone is not a declaration -- it is an intention. The Target Zone Declaration must contain: the current zone and stage as established by the diagnostic; the target zone and the strategic rationale for that selection; the specific investments leadership has committed to, with named owners and timelines; the declared timeline for the transition; and any conditions or reservations noted during the session.
 
-**The difference between a target zone declaration and an aspiration.** An aspiration sounds like: "We want to reach Zone 3 in the next 12 months." A declaration sounds like: "We are targeting Zone 2 Mastery by Q4. Specific investments: [CFO name] will approve the CI/CD infrastructure budget of $X by [date]; [VP Engineering name] will protect 15% of sprint capacity for AI practice improvement through Q3; [CTO name] will update role descriptions to include AI workflow requirements by [date]." The test is specificity. If the document could have been written before the goal-setting session without anyone in the room, it is an aspiration.
+**The difference between a target zone declaration and an aspiration.** An aspiration sounds like: "We want to reach Zone 3 in the next 12 months." A declaration sounds like: "We are targeting Zone 2 Exemplary by Q4. Specific investments: [CFO name] will approve the CI/CD infrastructure budget of $X by [date]; [VP Engineering name] will protect 15% of sprint capacity for AI practice improvement through Q3; [CTO name] will update role descriptions to include AI workflow requirements by [date]." The test is specificity. If the document could have been written before the goal-setting session without anyone in the room, it is an aspiration.
 
 **Creating accountability: who owns each investment, by when.** The zone-selection document serves as the foundation for the roadmap (Module 4) and as the reference point when implementation encounters friction. When, six months later, the CI/CD infrastructure budget has not been approved, the facilitator can return to the document: "We agreed that [name] would approve this budget by [date]. What happened?" Without this document, every subsequent conversation about stalled progress starts from zero. With it, there is a shared baseline.
 
@@ -105,17 +105,17 @@ When multiple teams have been through the diagnostic, the goal-setting session s
 
 **Format:** Small groups, 45 minutes
 
-Each small group (3-4 trainees) receives a detailed organizational profile: a mid-size product company in a competitive SaaS market, currently at Zone 1 Learning, with moderate budget capacity, a CTO who wants Zone 3, and a diagnostic that shows the team has sporadic AI tool usage and no shared Zone 2 practices. The profile includes the four decision factors as observed through discovery interviews.
+Each small group (3-4 trainees) receives a detailed organizational profile: a mid-size product company in a competitive SaaS market, currently at Zone 1 Emerging, with moderate budget capacity, a CTO who wants Zone 3, and a diagnostic that shows the team has sporadic AI tool usage and no shared Zone 2 practices. The profile includes the four decision factors as observed through discovery interviews.
 
 Groups work through the decision framework, assess each factor, and produce: a target zone recommendation with rationale; the top three investments required for the transition; and the specific push-back they would offer the CTO's Zone 3 preference.
 
-Groups present their recommendations. The facilitator guides discussion around disagreements, particularly around whether the Zone 1 Learning starting point changes the near-term target even if Zone 3 is the ultimate aspiration.
+Groups present their recommendations. The facilitator guides discussion around disagreements, particularly around whether the Zone 1 Emerging starting point changes the near-term target even if Zone 3 is the ultimate aspiration.
 
 ### Activity 2: Responding to "We Want Zone 4"
 
 **Format:** Role-play pairs, 30 minutes
 
-One trainee plays the facilitator. One plays a CEO who has just read a competitor's press release about an "AI-first engineering organization" and arrives at the goal-setting session declaring Zone 4 as the target. The CEO persona card includes: no allocated budget beyond tool licenses, a track record of abandoning initiatives at 18 months, and a team currently at Zone 1 Practicing with no Zone 2 practices.
+One trainee plays the facilitator. One plays a CEO who has just read a competitor's press release about an "AI-first engineering organization" and arrives at the goal-setting session declaring Zone 4 as the target. The CEO persona card includes: no allocated budget beyond tool licenses, a track record of abandoning initiatives at 18 months, and a team currently at Zone 1 Developing with no Zone 2 practices.
 
 The facilitating trainee must respond to the Zone 4 declaration without dismissing it, use the decision framework to surface the gaps between the declaration and the organizational reality, and guide the CEO toward a grounded target zone declaration. After 15 minutes, pairs switch roles with the scenario reversed: the facilitator must respond to a VP of Engineering who wants to stop at Zone 1 to avoid "organizational disruption." After both rounds, the group debriefs: what techniques worked for redirecting without confronting?
 
@@ -143,7 +143,7 @@ This activity simulates the complete leadership goal-setting session arc, not ju
 
 - **CFO (Persona C):** Not technical but financially rigorous. Wants to understand what "investment" means in concrete budget terms. Will ask about ROI and about what "not doing this" costs the organization. Has final budget authority. Will not approve open-ended budget commitments; she needs specificity.
 
-**The scenario:** The management report shows 5 teams at Zone 2 Practicing. The diagnosis indicates that Zone 2 is genuine but fragile -- two of the five teams have shown signs of regression under delivery pressure. One team has strong Zone 3 signals in how they are experimenting with AI-driven workflows. The competitive context (a product company in a growth market) suggests Zone 3 might be justified, but the organizational capacity evidence from discovery is mixed.
+**The scenario:** The management report shows 5 teams at Zone 2 Developing. The diagnosis indicates that Zone 2 is genuine but fragile -- two of the five teams have shown signs of regression under delivery pressure. One team has strong Zone 3 signals in how they are experimenting with AI-driven workflows. The competitive context (a product company in a growth market) suggests Zone 3 might be justified, but the organizational capacity evidence from discovery is mixed.
 
 **The facilitating trainee must:**
 1. Present the management report findings in under 10 minutes (not re-reading -- orienting)
@@ -161,7 +161,7 @@ This activity simulates the complete leadership goal-setting session arc, not ju
 
 **Format:** Take-home
 
-Trainees receive a 2-page diagnostic scenario including: a management report summary for a 50-person engineering organization in the financial services sector, currently at Zone 2 Learning, with a VP of Engineering who wants Zone 3 and a CFO who wants to contain costs. The scenario includes discovery interview notes and the four decision factors as observed.
+Trainees receive a 2-page diagnostic scenario including: a management report summary for a 50-person engineering organization in the financial services sector, currently at Zone 2 Emerging, with a VP of Engineering who wants Zone 3 and a CFO who wants to contain costs. The scenario includes discovery interview notes and the four decision factors as observed.
 
 Trainees produce:
 
