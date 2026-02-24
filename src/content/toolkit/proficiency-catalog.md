@@ -88,6 +88,7 @@ Zone 2 shifts from individual tool use to team-level integration. AI is embedded
 - **Adapts test strategies to account for characteristic AI-generated code patterns.** QA engineers understand the specific failure modes of AI-generated code -- subtle logic errors, security oversights, convention mismatches, hallucinated APIs -- and design test strategies that address these patterns systematically rather than relying on traditional test approaches alone.
 - **Participates in the team's shared agentic workflow and retrospectives.** QA engineers are active contributors to the team's AI practices, participating in retrospectives about the agentic workflow's quality impact and helping evolve the shared configuration -- not downstream consumers of engineering decisions.
 - **Uses AI tools systematically for test automation and regression analysis as part of the shared workflow.** AI assists with generating test scripts, analyzing regression results, identifying flaky tests, and maintaining test infrastructure -- integrated with the team's shared AI configuration rather than as isolated individual tool use.
+- **Evaluates AI-generated test artifacts with the same rigor applied to AI-generated code.** When AI tools generate test scripts, test data, or test infrastructure, QA engineers review these artifacts for the same categories of AI-characteristic errors that affect production code -- hallucinated assertions, incomplete edge case coverage, tests that pass trivially without actually exercising the behavior under test.
 
 ---
 
@@ -131,6 +132,7 @@ The term "AI Engineer" describes the evolved role identity for software engineer
 
 - **Designers participate in defining AI behavioral expectations and evaluation criteria from the user experience perspective.** UX and product designers collaborate on defining what "good" AI behavior looks like from the user's perspective. These behavioral expectations feed directly into eval harnesses and CAT pipelines, ensuring that quality is measured against user-relevant criteria.
 - **Designers encode design standards, component specifications, and interaction patterns as machine-verifiable inputs to AI pipelines.** This is the Zone 3 design identity: designers become specification authors whose standards are consumed by the factory, not artifact producers who hand off mockups. Design compliance is verified automatically through the production pipeline, not through manual review.
+- **Designers own the design evaluation criteria within the CAT pipeline.** Design compliance checks -- visual consistency, component usage, interaction pattern adherence, accessibility standards -- are defined and maintained by designers, not delegated to engineering. Designers operate as evaluation specialists for the design dimension of AI-produced output.
 
 ### Quality Assurance (Evaluation Pipeline Specialists)
 

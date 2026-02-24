@@ -166,7 +166,7 @@ These metrics predict whether teams are achieving the role transformation and ar
 
 ### 3.1 CAT Suite Pass Rate on First Submission
 
-- **What it measures:** Percentage of code changes that pass the Comprehensive Automated Testing (CAT) suite -- including compiler, linter, unit tests, integration tests, and security scans -- on first submission without manual intervention.
+- **What it measures:** Percentage of code changes that pass the Continuous Alignment Testing (CAT) pipeline -- the automated evaluation suite that verifies AI outputs remain consistent, accurate, and aligned with behavioral expectations -- on first submission without manual intervention.
 - **Why it matters:** High first-pass rates indicate that the AI-augmented workflow is producing production-quality output reliably, which is the prerequisite for accelerated delivery.
 - **How to measure:** CI/CD pipeline analytics.
 - **What "good" looks like:** [Expert judgment] 85%+ first-pass rate.

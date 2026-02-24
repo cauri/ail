@@ -76,7 +76,7 @@ If the expert has already reviewed the materials thoroughly, skip this section a
 
 *Zone 4, Industrializing: AI-first software production at scale. Practices are less mature -- we're still learning what this looks like in established organizations.*
 
-*The diagnostic instrument is a facilitated self-assessment: 9-10 questions per zone on a 1-5 frequency scale. Competency threshold: zone composite average of 4.7 or higher, standard deviation across all individual responses of 0.5 or lower, and no single question composite below 4.0. The idea is that competency is behavioral -- you don't 'achieve' a zone by knowing things, you achieve it by doing those things habitually, including when you're under pressure.*
+*The diagnostic instrument is a facilitated self-assessment: 10-12 questions per zone on a 1-5 frequency scale. Competency threshold: zone composite average of 4.7 or higher, standard deviation across all individual responses of 0.5 or lower, and no single question composite below 4.0. The idea is that competency is behavioral -- you don't 'achieve' a zone by knowing things, you achieve it by doing those things habitually, including when you're under pressure.*
 
 *That's the structure. You've seen the materials. What jumped out at you?"*
 
