@@ -223,7 +223,16 @@ Describe a real or hypothetical organization at each of the four zones. For each
 - The organizational investments that support (or are missing for) the current state
 - What would need to change for the organization to advance (or why it should not advance)
 
-Trainees may use a single organization progressing through zones, or four different organizations each at a different zone. The assessment evaluates the trainee's ability to apply zone definitions to concrete situations and reason about investments and progression.
+Trainees may use a single organization progressing through zones, or four different organizations each at a different zone.
+
+**Assessment criteria.** The written reflection is evaluated across four dimensions, each rated as Satisfactory or Not Yet Satisfactory:
+
+1. **Zone identification accuracy.** The observable behaviors described are consistent with the claimed zone and stage. The trainee distinguishes between knowledge, best-day performance, and habitual behavior in their examples.
+2. **Investment reasoning.** The trainee identifies specific investment categories (structural, policy, resource, management behavior) rather than generic descriptions. Missing investments are connected to observable behavioral gaps.
+3. **Progression judgment.** The trainee demonstrates understanding of the progressive competency model: advancing is not always the right choice, each transition deserves strategic analysis, and the reasoning addresses the organization's context rather than defaulting to "higher is better."
+4. **Concreteness.** Examples describe specific, plausible organizational situations rather than abstract descriptions that could apply to any organization. Behaviors are described in terms of what people do, not what they know or intend.
+
+A satisfactory written reflection meets all four criteria. Trainees who receive "Not Yet Satisfactory" on any dimension receive specific written feedback identifying the gap and may revise and resubmit once before Module 2.
 
 ### Case Study Quiz
 

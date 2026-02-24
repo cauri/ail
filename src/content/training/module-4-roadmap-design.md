@@ -144,6 +144,14 @@ After 12 minutes, pairs switch roles with a different scenario: a team whose lea
 
 The group debriefs: What language helped the VP shift from "this failed" to "this is developing"? When leading indicators also flatline, how does the facilitator's message change? What re-diagnostic interval did people recommend, and why?
 
+**Evaluation criteria for Activity 4.** The facilitator trainer evaluates each trainee's performance across three dimensions:
+
+1. **Conceptual accuracy.** The trainee correctly distinguishes a plateau (leading indicators show practice but diagnostic scores have not yet responded) from a genuine stall (leading indicators have also flatlined), and communicates the distinction clearly to the VP without jargon.
+2. **Evidence grounding.** The trainee uses specific leading indicator data from the scenario to support their explanation — not generic reassurance. The VP should leave the conversation understanding what the data shows, not just feeling better about the timeline.
+3. **Adaptive recommendation.** The trainee's re-diagnostic interval recommendation is justified by the specific scenario evidence (not a default answer), and the trainee can articulate what conditions would change their recommendation. In the second scenario (genuine stall), the trainee's response is substantively different from the plateau response — recommending investigation of root causes rather than patience.
+
+This activity is developmental, not scored for certification. The facilitator trainer provides verbal feedback after each round and identifies trainees who may need additional practice with client-facing communication before the supervised facilitation.
+
 ---
 
 ## Assessment
