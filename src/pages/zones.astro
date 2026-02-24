@@ -1,5 +1,6 @@
 ---
 import MarketingLayout from '../layouts/MarketingLayout.astro';
+import ZoneProgressionDiagram from '../components/ZoneProgressionDiagram.astro';
 
 const zones = [
   {
@@ -87,16 +88,7 @@ const zones = [
     </div>
   </section>
 
-  <section class="bg-lavender px-6 py-10">
-    <div class="mx-auto max-w-5xl">
-      <img
-        src="/images/zone-progression-diagram.svg"
-        alt="Zone progression diagram showing four zones of AI competency progressing left to right: Augmenting (individual), Integrating (team), Accelerating (role), and Industrializing (organization), with decision gates between each zone"
-        class="mx-auto w-full max-w-5xl"
-        data-zoomable
-      />
-    </div>
-  </section>
+  <ZoneProgressionDiagram />
 
   {zones.map((z) => (
     <section id={z.id} class:list={[z.zone % 2 === 0 ? "bg-gray-50" : "bg-white", "px-6 py-20"]}>
