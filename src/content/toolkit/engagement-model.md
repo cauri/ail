@@ -12,16 +12,23 @@ This document defines the four-phase consulting engagement structure for ACE —
 
 ## Engagement Overview
 
-An ACE engagement guides an organization from "we don't know where we are" to "we have a roadmap and experienced practitioners working alongside our teams to build real capability." The engagement follows four phases:
+An ACE engagement guides an organization from "we don't know where we are" to "we have a roadmap and experienced practitioners working alongside our teams to build real capability." **The engagement runs two concurrent tracks:**
+
+**Assessment track** (facilitator-led, sequential):
 
 1. **Discovery** -- Understand the organization's context before any assessment begins.
 2. **Diagnostic** -- Facilitate team self-assessments to establish current zones and competency stages.
 3. **Goal Setting & Roadmap** -- Help leadership choose target zones and build progression plans.
-4. **Collaborative Delivery** -- Experienced Artisans embed with client teams to deliver real software together while mentoring through the shared work.
 
-Each phase produces specific deliverables. Discovery informs the Diagnostic, the Diagnostic informs Goal Setting, and the Roadmap guides the focus of Collaborative Delivery. However, the phases are not strictly sequential: **Collaborative Delivery can begin in parallel with Discovery.** Most client teams start at Zone 0 or Zone 1, which means their foundational engineering disciplines — TDD, pair programming, continuous integration, small iterations — often need strengthening before AI-augmented workflows can take hold. Artisans can embed early to assess the team's actual XP discipline through the shared work (providing ground-truth signal that complements the Facilitator's diagnostic), and immediately begin getting the team "AI-ready" by establishing the engineering habits that Zone 2 requires. This early embedding means the team is not waiting idle during the assessment phases — they are already building the foundational capability that the roadmap will formalize.
+**Delivery track** (runs concurrently from the start):
 
-**Phase boundaries are decision points.** At the end of Discovery, the client reviews the Context Analysis Summary and decides whether the diagnostic scope is right. At the end of the Diagnostic, the client reviews the reports and decides whether to proceed to Goal Setting. At the end of Goal Setting, the client reviews the roadmap and confirms the scope and direction of Collaborative Delivery. These are genuine decision points, not formalities. A client who decides that the diagnostic findings are sufficient and does not want to proceed to Goal Setting has received legitimate value. The facilitator should make these decision points visible and protect the client's freedom to choose at each one. When Collaborative Delivery begins in parallel with the assessment phases, the Goal Setting decision point confirms and refines the Artisan team's focus rather than initiating it — the team has already been building foundational capability through the shared work.
+4. **Collaborative Delivery** -- Experienced Artisans embed with client teams to deliver real software together while assessing and strengthening the team's foundational capabilities through the shared work.
+
+Collaborative Delivery does not wait for the assessment track to complete. Most client teams start at Zone 0 or Zone 1, which means their foundational engineering disciplines — TDD, pair programming, continuous integration, small iterations — often need strengthening before AI-augmented workflows can take hold. Artisans embed from the start of the engagement to assess the team's actual discipline through the shared work (providing ground-truth signal that complements the Facilitator's diagnostic) and immediately begin getting the team "AI-ready" by establishing the engineering habits that Zone 2 requires. The team is building foundational capability from day one — not waiting idle during the assessment phases.
+
+As assessment outputs arrive, they refine the Artisan team's focus. The roadmap does not initiate the delivery work — it formalizes what is already underway and sets the direction forward.
+
+**Phase boundaries are decision points.** At the end of Discovery, the client reviews the Context Analysis Summary and decides whether the diagnostic scope is right. At the end of the Diagnostic, the client reviews the reports and decides whether to proceed to Goal Setting. At the end of Goal Setting, the client reviews the roadmap and confirms the scope and direction of Collaborative Delivery going forward. These are genuine decision points, not formalities. A client who decides that the diagnostic findings are sufficient and does not want to proceed to Goal Setting has received legitimate value. The facilitator should make these decision points visible and protect the client's freedom to choose at each one.
 
 ---
 

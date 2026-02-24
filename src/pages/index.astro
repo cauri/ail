@@ -56,7 +56,7 @@ const zones = [
   },
 ];
 
-const phases = [
+const assessmentPhases = [
   {
     number: "01",
     title: "Discovery",
@@ -73,12 +73,7 @@ const phases = [
     number: "03",
     title: "Goal Setting & Roadmap",
     description: "Client leadership reviews results and chooses target zones based on strategic context. Artisans help build progression plans with specific investments, timelines, and leading indicators.",
-    decision: "At this point, the client has a detailed progression plan. They decide whether to engage Artisans for collaborative delivery.",
-  },
-  {
-    number: "04",
-    title: "Collaborative Delivery",
-    description: "Experienced Artisans — engineers, product managers, and designers — embed with client teams to deliver real software together. Artisans complete intensive internal training through Artium Academy before joining the team, ensuring they bring tested practices to the engagement. The client team builds competency through the shared work, not through workshops or training sessions.",
+    decision: "At this point, the client has a detailed progression plan with clear investments and leading indicators.",
   },
 ];
 ---
@@ -234,36 +229,72 @@ const phases = [
 
   <!-- Section 7: How It Works -->
   <section id="how-it-works" class="bg-lavender px-6 py-20">
-    <div class="mx-auto max-w-3xl">
+    <div class="mx-auto max-w-4xl">
       <h2 class="font-heading text-3xl text-primary">How It Works</h2>
       <p class="mx-auto mt-4 max-w-2xl text-gray-500">
-        A structured engagement with clear decision points at every stage. The client chooses their depth of engagement.
+        Two tracks run concurrently. Facilitators build the diagnostic and roadmap while Artisans embed with the team to deliver real software and build foundational capability from day one.
       </p>
-      <div class="mt-10 space-y-6">
-        {phases.map((phase, i) => (
-          <div>
-            <div class="rounded-xl bg-white p-6 shadow-sm">
-              <div class="flex items-start gap-4">
-                <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-lavender font-heading text-sm font-medium text-magenta">
-                  {phase.number}
-                </span>
-                <div>
-                  <h3 class="font-heading text-lg text-primary">{phase.title}</h3>
-                  <p class="mt-2 text-sm text-gray-500">{phase.description}</p>
-                </div>
-              </div>
-            </div>
-            {phase.decision && (
-              <div class="ml-5 mt-2 flex items-center gap-2 border-l-2 border-magenta/30 py-2 pl-4">
-                <svg class="h-4 w-4 shrink-0 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                </svg>
-                <p class="text-xs font-medium text-gray-500">{phase.decision}</p>
-              </div>
-            )}
+
+      <div class="mt-10 grid gap-8 md:grid-cols-2">
+        <!-- Assessment Track -->
+        <div>
+          <div class="mb-4 flex items-center gap-2">
+            <span class="rounded-full bg-magenta/10 px-3 py-1 text-xs font-medium text-magenta">Assessment Track</span>
+            <span class="text-xs text-gray-400">Facilitator-led</span>
           </div>
-        ))}
+          <div class="space-y-4">
+            {assessmentPhases.map((phase) => (
+              <div>
+                <div class="rounded-xl bg-white p-5 shadow-sm">
+                  <div class="flex items-start gap-3">
+                    <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-lavender font-heading text-xs font-medium text-magenta">
+                      {phase.number}
+                    </span>
+                    <div>
+                      <h3 class="font-heading text-base text-primary">{phase.title}</h3>
+                      <p class="mt-1.5 text-sm text-gray-500">{phase.description}</p>
+                    </div>
+                  </div>
+                </div>
+                {phase.decision && (
+                  <div class="ml-4 mt-1.5 flex items-center gap-2 border-l-2 border-magenta/30 py-1.5 pl-3">
+                    <svg class="h-3.5 w-3.5 shrink-0 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                    <p class="text-xs font-medium text-gray-500">{phase.decision}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Delivery Track -->
+        <div>
+          <div class="mb-4 flex items-center gap-2">
+            <span class="rounded-full bg-emerald-100 px-3 py-1 text-xs font-medium text-emerald-700">Delivery Track</span>
+            <span class="text-xs text-gray-400">Runs concurrently</span>
+          </div>
+          <div class="rounded-xl border-2 border-dashed border-emerald-300 bg-white p-5 shadow-sm">
+            <h3 class="font-heading text-base text-primary">Collaborative Delivery</h3>
+            <p class="mt-2 text-sm text-gray-500">
+              Experienced Artisans — engineers, product managers, and designers — embed with client teams from the start. They deliver real software shoulder-to-shoulder while assessing and strengthening the foundational practices (TDD, pair programming, continuous integration, small iterations) that teams need before AI-augmented workflows can take hold.
+            </p>
+            <p class="mt-3 text-sm text-gray-500">
+              This is not sequential — Artisans don't wait for the roadmap to start helping. While facilitators build the diagnostic and progression plan, the delivery team is already providing ground-truth signal about the team's capabilities and building "AI-ready" engineering habits through the shared work.
+            </p>
+            <p class="mt-3 text-sm text-gray-500">
+              As assessment outputs arrive, they refine the Artisan team's focus. The roadmap doesn't initiate the work — it formalizes what's already underway and sets the direction forward.
+            </p>
+            <div class="mt-4 rounded-lg bg-emerald-50 p-3">
+              <p class="text-xs font-medium text-emerald-800">
+                Artisans complete intensive internal training through Artium Academy before joining the team, ensuring they bring tested practices to every engagement.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+
       <p class="mt-8 text-sm text-gray-500">
         <a href={baseUrl("/training")} class="text-magenta hover:text-pink underline">Learn about facilitator certification</a> for the assessment and coaching methodology.
       </p>
@@ -278,7 +309,7 @@ const phases = [
         <div class="rounded-xl bg-gray-50 p-6">
           <h3 class="font-heading text-lg text-primary">Duration</h3>
           <p class="mt-2 text-gray-500">
-            Discovery and Diagnostic phases typically span 4-6 weeks. Roadmap development adds 2-3 weeks. Collaborative Delivery typically runs 3-18 months, with Artisans ramping down as the client team demonstrates competency through periodic re-assessment.
+            The assessment track (Discovery, Diagnostic, Roadmap) typically spans 6-9 weeks. Collaborative Delivery runs concurrently from the start and typically continues for 3-18 months total, with Artisans ramping down as the client team demonstrates competency through periodic re-assessment.
           </p>
         </div>
         <div class="rounded-xl bg-gray-50 p-6">

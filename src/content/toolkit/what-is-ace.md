@@ -50,15 +50,19 @@ A team that knows how to integrate AI into their CI/CD pipeline but abandons tha
 
 ## How ACE Is Used
 
-A typical ACE engagement follows this sequence:
+A typical ACE engagement runs two tracks concurrently:
 
-1. **Facilitated diagnostic.** A trained facilitator guides a team through a structured self-assessment to establish their current zone and competency stage. This is not an external audit; it is a collaborative process that builds shared understanding.
+**Assessment track (facilitator-led):**
 
-2. **Goal setting.** The team and organizational leadership review the diagnostic results and choose a target zone based on strategic context, risk appetite, and investment capacity. See [How to Choose a Target Zone](/toolkit/choose-target-zone).
+1. **Discovery.** A trained facilitator builds a thorough understanding of the organization's context before administering any diagnostic.
 
-3. **Roadmap creation.** The facilitator works with the team and leadership to map the specific organizational investments required to reach the target zone, with timelines, leading indicators, and reassessment cadences. See [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
+2. **Facilitated diagnostic.** The facilitator guides teams through structured self-assessments to establish their current zone and competency stage. This is not an external audit; it is a collaborative process that builds shared understanding.
 
-4. **Collaborative Delivery.** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work. The Facilitator conducts ongoing check-ins, re-diagnostics, and roadmap refreshes to track progress and adjust course as conditions change. Collaborative Delivery can begin in parallel with the diagnostic phases -- Artisans embed early to assess the team's engineering discipline firsthand and start getting the team "AI-ready" by establishing the XP fundamentals (TDD, pair programming, continuous integration, small iterations) that Zone 2 requires.
+3. **Goal setting and roadmap.** The team and organizational leadership review the diagnostic results, choose a target zone based on strategic context, and map the specific investments required to get there. See [How to Choose a Target Zone](/toolkit/choose-target-zone) and [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
+
+**Delivery track (runs concurrently from the start):**
+
+4. **Collaborative Delivery.** Embedded Artisans join the client team to deliver real software together from the beginning of the engagement -- they do not wait for the assessment to complete. While facilitators build the diagnostic picture and progression plan, Artisans are already assessing the team's engineering discipline firsthand and strengthening the foundational practices (TDD, pair programming, continuous integration, small iterations) that teams need before AI-augmented workflows can take hold. As assessment outputs arrive, they refine the delivery team's focus. The roadmap formalizes what is already underway and sets the direction forward.
 
 5. **Reassessment.** Periodic re-administration of the diagnostic measures actual competency progression and informs roadmap adjustments.
 
