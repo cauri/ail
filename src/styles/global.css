@@ -177,7 +177,9 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.prose img {
+.prose img,
+img[data-zoomable],
+[data-zoomable] img {
   max-width: 100%;
   border-radius: 0.5rem;
   margin-top: 1.5rem;

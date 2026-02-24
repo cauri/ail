@@ -59,8 +59,9 @@ import '../styles/global.css';
           return;
         }
 
-        // Open lightbox when clicking a prose image
-        const img = target.closest('.prose img') as HTMLImageElement | null;
+        // Open lightbox when clicking a zoomable image
+        // Matches: any img inside .prose, or any img/svg with data-zoomable
+        const img = (target.closest('.prose img') || target.closest('img[data-zoomable]') || target.closest('[data-zoomable] img')) as HTMLImageElement | null;
         if (!img) return;
 
         const overlay = document.createElement('div');
