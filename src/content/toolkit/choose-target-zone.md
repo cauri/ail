@@ -10,22 +10,22 @@ The goal is not to reach the highest zone possible but to choose the zone that b
 
 ## Prerequisites
 
-Before starting this process, you need:
+Before starting this process, the facilitator needs:
 
-- Completed ACE diagnostic results establishing your current zone and competency stage
+- Completed ACE diagnostic results establishing the client's current zone and competency stage
 - Access to organizational leadership who can discuss strategic priorities and investment capacity
 - Understanding of the [progressive competency model](/toolkit/progressive-competency-model) -- how zone progression works and why organizations choose their stopping point
 
-## Step 1: Establish Your Current Zone
+## Step 1: Establish the Current Zone
 
-Run the ACE diagnostic to determine where your organization is today. The diagnostic produces two key outputs:
+Run the ACE diagnostic to determine where the organization is today. The diagnostic produces two key outputs:
 
 - **Current zone:** Which zone's proficiencies does the organization practice habitually?
 - **Competency stage within that zone:** Emerging, Developing, Established, or Exemplary?
 
-If your current zone is 0 or 1, Zone 2 is the typical near-term target for most organizations -- but this should be confirmed through strategic analysis, not assumed as a default. Some organizations may find that deep Zone 1 competency across all roles meets their strategic needs without requiring team-level process integration. The question of whether to continue to Zone 3 or Zone 4 becomes relevant after you have achieved at least Zone 2 proficiency. Each transition along the progression deserves its own strategic analysis.
+If the current zone is 0 or 1, Zone 2 is the typical near-term target for most organizations -- but this should be confirmed through strategic analysis, not assumed as a default. Some organizations may find that deep Zone 1 competency across all roles meets their strategic needs without requiring team-level process integration. The question of whether to continue to Zone 3 or Zone 4 becomes relevant after the organization has achieved at least Zone 2 proficiency. Each transition along the progression deserves its own strategic analysis.
 
-If you are already at Zone 2, proceed to Step 2 to determine whether Zones 3 or 4 are appropriate targets.
+If the organization is already at Zone 2, proceed to Step 2 to determine whether Zones 3 or 4 are appropriate targets.
 
 ## Step 2: Assess Organizational Context
 
@@ -115,7 +115,7 @@ Choose this when:
 
 ## Step 4: Build the Investment Case
 
-Once you have identified a target zone, build the investment case for leadership. Frame the transition as a business investment, not an AI training initiative. See [How to Present to Leadership](/toolkit/present-to-leadership) for detailed guidance.
+Once a target zone has been identified, help the client build the investment case for leadership. Frame the transition as a business investment, not an AI training initiative. See [How to Present to Leadership](/toolkit/present-to-leadership) for detailed guidance.
 
 The investment case should include:
 
@@ -148,7 +148,7 @@ If any of these apply, revisit the strategic need assessment in Step 2 to confir
 
 ## Next Steps
 
-After choosing your target zone:
+After the target zone has been chosen:
 
 1. Create a progression roadmap. See [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
 2. Present the plan to leadership. See [How to Present to Leadership](/toolkit/present-to-leadership).

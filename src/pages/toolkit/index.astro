@@ -1,6 +1,7 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import { getCollection } from 'astro:content';
+import { baseUrl } from '../../utils/base-url';
 
 const allDocs = await getCollection('toolkit');
 
@@ -54,7 +55,7 @@ const sectionMeta: Record<string, { label: string; description: string; icon: st
         Everything certified facilitators need to diagnose, plan, and guide organizations through their AI competency journey.
       </p>
       <p class="mt-4 text-sm text-gray-500">
-        The toolkit is your working reference library for live engagements. The <a href="/training/program-overview" class="text-magenta hover:text-pink underline">training program</a> teaches you how to use these tools effectively. If you are new to ACE, start with the Facilitator Tutorials for orientation, then complete the training program for certification.
+        The toolkit is your working reference library for live engagements. The <a href={baseUrl("/training/program-overview")} class="text-magenta hover:text-pink underline">training program</a> teaches you how to use these tools effectively. If you are new to ACE, start with the Facilitator Tutorials for orientation, then complete the training program for certification.
       </p>
     </div>
   </section>
@@ -68,7 +69,7 @@ const sectionMeta: Record<string, { label: string; description: string; icon: st
         const firstItem = items.sort((a, b) => a.data.order - b.data.order)[0];
         return (
           <a
-            href={`/toolkit/${firstItem.id}`}
+            href={baseUrl(`/toolkit/${firstItem.id}`)}
             class="group rounded-xl border border-gray-200 bg-white p-6 transition-shadow hover:shadow-md"
           >
             <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-lavender">

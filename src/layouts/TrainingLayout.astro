@@ -6,6 +6,7 @@ import SidebarNav from '../components/SidebarNav.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import { getCollection } from 'astro:content';
+import { baseUrl } from '../utils/base-url';
 
 interface Props {
   title: string;
@@ -24,14 +25,14 @@ const sections = [
     title: 'Training Program',
     items: sorted.map((mod) => ({
       label: mod.data.title,
-      href: `/training/${mod.id}`,
+      href: baseUrl(`/training/${mod.id}`),
     })),
   },
 ];
 
 const breadcrumbs = [
-  { label: 'Home', href: '/' },
-  { label: 'Training', href: '/training' },
+  { label: 'Home', href: baseUrl('/') },
+  { label: 'Training', href: baseUrl('/training') },
   ...(title !== 'Training Program' ? [{ label: title }] : []),
 ];
 ---

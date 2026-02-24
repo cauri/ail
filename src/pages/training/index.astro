@@ -1,6 +1,7 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
 import { getCollection } from 'astro:content';
+import { baseUrl } from '../../utils/base-url';
 
 const allModules = await getCollection('training');
 const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
@@ -16,7 +17,7 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
         The ACE Facilitator Certification program prepares practitioners to diagnose organizational AI competency, set meaningful goals, and guide teams through progressive AI adoption.
       </p>
       <p class="mt-4 text-sm text-gray-500">
-        During training, you will reference documents from the <a href="/toolkit" class="text-magenta hover:text-pink underline">facilitator toolkit</a> — these are the same scripts, scoring tools, and reference materials you will use during live engagements after certification.
+        During training, you will reference documents from the <a href={baseUrl("/toolkit")} class="text-magenta hover:text-pink underline">facilitator toolkit</a> — these are the same scripts, scoring tools, and reference materials you will use during live engagements after certification.
       </p>
     </div>
   </section>
@@ -25,7 +26,7 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
     <div class="mx-auto max-w-4xl space-y-4">
       {sorted.map((mod, index) => (
         <a
-          href={`/training/${mod.id}`}
+          href={baseUrl(`/training/${mod.id}`)}
           class="group flex items-start gap-6 rounded-xl border border-gray-200 bg-white p-6 transition-shadow hover:shadow-md"
         >
           <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-lavender font-heading text-sm font-medium text-magenta">
@@ -50,7 +51,7 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
     <div class="mx-auto max-w-4xl">
       <h2 class="font-heading text-2xl text-primary">How Artisans Prepare</h2>
       <p class="mt-4 text-sm text-gray-500">
-        The ACE Facilitator Certification program and Artium Academy serve complementary purposes. Facilitator Certification prepares consultants to diagnose and guide organizations. Artium Academy prepares Artisans for the hands-on embedded delivery described in <a href="/training/module-6-embedded-delivery" class="text-magenta hover:text-pink underline">Module 6</a>. Both programs assess readiness through practical demonstration — building working systems or facilitating real engagements — not through quizzes or self-reported confidence.
+        The ACE Facilitator Certification program and Artium Academy serve complementary purposes. Facilitator Certification prepares consultants to diagnose and guide organizations. Artium Academy prepares Artisans for the hands-on embedded delivery described in <a href={baseUrl("/training/module-6-embedded-delivery")} class="text-magenta hover:text-pink underline">Module 6</a>. Both programs assess readiness through practical demonstration — building working systems or facilitating real engagements — not through quizzes or self-reported confidence.
       </p>
 
       <div class="mt-8 overflow-x-auto">

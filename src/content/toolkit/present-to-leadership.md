@@ -1,14 +1,14 @@
 ---
 title: "How to Present ACE Results to Leadership"
-description: "This guide helps consultants, engineering leaders, and change agents present ACE diagnostic results and progression plans to organizational leadership."
+description: "How to help a client presenter frame ACE diagnostic results and progression plans as business investments for their leadership."
 section: "guides"
 order: 6
 ---
-This guide helps consultants, engineering leaders, and change agents present ACE diagnostic results and progression plans to organizational leadership. The goal is to frame zone transitions as business investments that leadership can evaluate, fund, and champion -- not as "AI training" requests that get deprioritized.
+This guide helps facilitators prepare a client-side presenter (typically an engineering leader or change agent) to bring ACE diagnostic results and a progression plan to their leadership. The goal is to frame zone transitions as business investments that leadership can evaluate, fund, and champion -- not as "AI training" requests that get deprioritized.
 
 ## Prerequisites
 
-Before presenting to leadership, you need:
+Before the presentation, the facilitator should ensure the client presenter has:
 
 - Completed ACE diagnostic results for one or more teams
 - A recommended target zone with supporting rationale. See [How to Choose a Target Zone](/toolkit/choose-target-zone).
@@ -47,7 +47,7 @@ For each recommended investment, provide:
 
 ### Zone-Specific ROI Narratives
 
-Tailor the ROI narrative to the specific zone transition being proposed.
+Tailor the ROI narrative to the specific zone transition being proposed. The examples below are written in the voice of the client presenter -- language they can adapt for their own leadership audience.
 
 **Zone 0 to 1:** "Our developers are not yet using AI tools habitually. This means we are paying for slower individual task completion, longer onboarding times, and more time spent on boilerplate work than our competitors. The investment to reach Zone 1 is modest -- primarily tool licenses, training time, and policy clarity -- and returns appear within 2-4 weeks of adoption."
 
@@ -70,6 +70,8 @@ Key presentation elements:
 - **Resource requirements by phase.** Avoid asking for 12 months of commitment upfront. Ask for Phase 1 commitment with a decision point before Phase 2.
 
 ## Common Leadership Objections and Responses
+
+The responses below are written in the voice of the client presenter. Coach the presenter to adapt these to their organization's context and terminology.
 
 ### "We already bought AI tool licenses. Why isn't that enough?"
 

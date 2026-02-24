@@ -6,6 +6,7 @@ import SidebarNav from '../components/SidebarNav.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import { getCollection } from 'astro:content';
+import { baseUrl } from '../utils/base-url';
 
 interface Props {
   title: string;
@@ -37,15 +38,15 @@ const sections = sectionOrder
       .sort((a, b) => a.data.order - b.data.order)
       .map((doc) => ({
         label: doc.data.title,
-        href: `/toolkit/${doc.id}`,
+        href: baseUrl(`/toolkit/${doc.id}`),
       }));
     return items.length > 0 ? { title: sectionLabels[sec], items } : null;
   })
   .filter((s): s is NonNullable<typeof s> => s !== null);
 
 const breadcrumbs = [
-  { label: 'Home', href: '/' },
-  { label: 'Toolkit', href: '/toolkit' },
+  { label: 'Home', href: baseUrl('/') },
+  { label: 'Toolkit', href: baseUrl('/toolkit') },
   ...(title !== 'Facilitator Toolkit' ? [{ label: title }] : []),
 ];
 ---
