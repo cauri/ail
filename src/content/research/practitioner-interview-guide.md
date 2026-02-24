@@ -26,7 +26,7 @@ Appropriate practitioners meet the following criteria:
 
 **Exclude:** Practitioners who have never personally used AI tools in their software production work; practitioners whose AI usage is entirely outside software production (e.g., using AI only for email or administrative tasks).
 
-**Estimated prior to interview:** Assess the practitioner's approximate zone level based on a brief pre-screening conversation. This allows you to prepare the appropriate zone description for the Zone Recognition questions.
+**Estimated prior to interview:** Assess the practitioner's approximate zone level based on a brief pre-screening conversation. This allows you to prepare the appropriate zone description for the Zone Recognition questions. To reduce confirmation bias, interviewers should also read the zone description one level below and one level above their pre-estimate. If you estimate Zone 2, read Zone 1, Zone 2, and Zone 3 descriptions (in that order, spending most time on Zone 2). Record which zone the practitioner most strongly recognizes -- particularly if it differs from your pre-estimate. Disagreement between the interviewer's pre-estimate and the practitioner's self-recognition is a high-value data point that may indicate zone boundary ambiguity.
 
 ---
 

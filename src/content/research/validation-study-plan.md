@@ -38,6 +38,9 @@ Are there important AI-augmented development practices that the framework misses
 **RQ6: Are the zone progression timelines realistic?**
 The framework estimates timelines for progression between zones. Do organizations actually progress in those timeframes, or are the estimates systematically optimistic or pessimistic?
 
+**RQ7: Do organizations implement the framework's ethical provisions alongside capability-building practices?**
+Do organizations that progress through zones implement the accountability, workforce transition, and ethical governance practices described in the zone references? Or do organizations selectively adopt capability-enhancing practices while deprioritizing ethical infrastructure? This can be assessed through the same longitudinal tracking planned in Phase 3, by adding ethical infrastructure items to the investment completion tracking.
+
 ---
 
 ## 3. Study Design
@@ -127,7 +130,7 @@ Establish construct validity and practical utility: does the diagnostic instrume
 
 1. **Pre-diagnostic baseline (Week 1).** Collect baseline metrics per team: AI tool usage rates, delivery metrics (cycle time, defect escape rate), team satisfaction.
 2. **Diagnostic administration (Weeks 2-3).** Trained facilitators administer the diagnostic to each team. Record the session with participant consent.
-3. **Behavioral observation session (Week 3).** For a subset of pilot teams (at least 2 per organization), conduct a structured behavioral observation: observe the team working under real conditions for a half-day, using a standardized observation protocol that maps observable behaviors to zone proficiencies. This provides convergent validity evidence -- a check on whether the self-reported diagnostic scores align with independently observed behavior. The observation protocol should specify: which behaviors to observe (mapped to each zone's core proficiencies), a time-sampling method (e.g., 5-minute observation intervals), and behavioral anchors corresponding to each scoring level. Observations should be conducted by a researcher who did not facilitate the team's diagnostic to reduce confirmation bias.
+3. **Behavioral observation session (Week 3).** For a subset of pilot teams (at least 2 per organization), conduct a structured behavioral observation: observe the team working under real conditions for a half-day, using a standardized observation protocol that maps observable behaviors to zone proficiencies. This provides convergent validity evidence -- a check on whether the self-reported diagnostic scores align with independently observed behavior. The observation protocol should specify: which behaviors to observe (mapped to each zone's core proficiencies), a time-sampling method (e.g., 5-minute observation intervals), and behavioral anchors corresponding to each scoring level. Observations should be conducted by a researcher who did not facilitate the team's diagnostic to reduce confirmation bias. The behavioral observation protocol will be developed as a Phase 1 deliverable and piloted with at least two observers coding the same session to establish inter-observer agreement (target kappa >= 0.7) before Phase 2 data collection begins.
 
 **Measurement bias mitigation protocol.** The ACE diagnostic relies on self-reported frequency ratings, which are subject to several known biases that the facilitator and research team should actively mitigate:
 
@@ -177,7 +180,7 @@ For each team at 6-month intervals:
 
 ### Key Analyses
 
-- **Zone stability:** Test-retest reliability at 6-month intervals. Target ICC >= 0.8. A team classified as Zone 2 at baseline should remain Zone 2 at follow-up absent significant organizational change.
+- **Zone stability:** Test-retest reliability at 6-month intervals, assessed conditional on organizational context. For teams where no significant zone-targeted investments were made between assessments, classification stability is interpreted as measurement reliability (target ICC >= 0.8). For teams where significant investments were made, classification change is expected and is interpreted as evidence of responsiveness to intervention (construct validity), not measurement unreliability. Report test-retest ICC separately for "stable context" and "intervention context" subgroups.
 - **Investment-outcome correlation:** Spearman's rho between investment completion rate and zone progression.
 - **Metric change analysis:** Paired Wilcoxon signed-rank tests comparing baseline to follow-up metrics for each team.
 - **Competency prediction accuracy:** Percentage of teams classified as "competent" that demonstrate competent behaviors in direct observation (observing the team work under real deadline pressure).
@@ -301,6 +304,7 @@ For expert interviews specifically: map themes to validity dimensions (accuracy,
 - Intraclass correlation coefficient (two-way mixed, absolute agreement) for proficiency ratings (Phase 2-3)
 - Cronbach's alpha for internal consistency within each zone's diagnostic items (Phase 2-3)
 - Exploratory factor analysis (EFA) to test whether diagnostic items within each zone load on a single factor and whether items across zones load on distinct factors (Phase 2-3). Administer all zone questions to all pilot teams (not just the zone-appropriate subset) where feasible. Key questions: (a) How many factors emerge? (b) Do items cluster by zone as expected? (c) Are there cross-loading items suggesting zone boundary problems? Note: Phase 2 sample sizes (8-32 respondents) are marginal for stable factor solutions; treat Phase 2 EFA as exploratory and plan for confirmatory factor analysis (CFA) in Phase 3 when the sample is larger.
+- Within-team agreement: For each team, calculate rwg (James, Demaree, & Wolf, 1984) or awg (Brown & Hauenstein, 2005) for each zone's question set. Acceptable within-team agreement (rwg >= 0.70) supports aggregation of individual responses to team-level composites. Low within-team agreement for specific teams should be reported and investigated qualitatively -- it may indicate genuine disagreement within the team about their practices, which is itself a diagnostic finding. (Phase 2-3)
 - Spearman's rho for investment-outcome correlation (Phase 3)
 - Wilcoxon signed-rank test for pre-post metric changes (Phase 3)
 - ROC analysis for threshold refinement (Phase 3)

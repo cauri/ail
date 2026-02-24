@@ -108,6 +108,8 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 ---
 
+**A note on survey instrument validation.** The survey instruments described in Sections 4.1-4.4 are operational tools designed for organizational health monitoring. They have not been validated as psychometric instruments; their reliability and construct validity have not been established. Targets should be interpreted as directional benchmarks, not clinical or research-grade thresholds. The validation study plan includes Phase 2 pilot administration of these instruments to assess face validity and response distributions. Formal psychometric validation of organizational health instruments is identified as future work.
+
 ## 4. Team Satisfaction with AI Tools and Workflow
 
 ### 4.1 AI Tool Satisfaction Score
