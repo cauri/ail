@@ -1,12 +1,12 @@
 ---
 title: "How to Choose a Target Zone"
-description: "This guide walks through the process of selecting the right ACE target zone for your organization."
+description: "This guide walks through the process of selecting the right ACE target zone for a client organization."
 section: "guides"
 order: 4
 ---
-This guide walks through the process of selecting the right ACE target zone for your organization. It covers ground taught in depth in [Module 3: Goal Setting & Zone Selection](/training/module-3-goal-setting). Use this as a preview before training or as a refresher before engagements.
+This guide walks through the process of selecting the right ACE target zone for a client organization. It covers ground taught in depth in [Module 3: Goal Setting & Zone Selection](/training/module-3-goal-setting). Use this as a preview before training or as a refresher before engagements.
 
-The goal is not to reach the highest zone possible but to choose the zone that best serves your strategic position, risk tolerance, and investment capacity.
+The goal is not to reach the highest zone possible but to choose the zone that best serves the organization's strategic position, risk tolerance, and investment capacity.
 
 ## Prerequisites
 
@@ -30,6 +30,17 @@ If you are already at Zone 2, proceed to Step 2 to determine whether Zones 3 or 
 ## Step 2: Assess Organizational Context
 
 Every zone transition deserves strategic analysis. For organizations at Zone 2 considering further progression, evaluate across three dimensions:
+
+### Ethical Readiness
+
+Higher zones amplify the impact of AI-generated output, which means they also amplify ethical risks — bias in specifications, gaps in accountability, and insufficient review of AI-produced artifacts affecting users. Ask:
+
+- Does the organization have mechanisms (review boards, incident response processes, external audit capacity) for governing AI-produced output at the scale the target zone implies?
+- Has the organization identified which software categories require additional human review or are inappropriate for AI-driven production (safety-critical systems, consequential decisions about people, highly regulated domains)?
+- Are there structured channels for external stakeholders to raise concerns about AI-driven product behavior?
+- Does the organization monitor for emergent bias patterns across AI-produced artifacts, not just within individual outputs?
+
+**Low ethical readiness** suggests the organization should invest in governance infrastructure before pursuing zones where AI output scales beyond individual review capacity. Zone 2 with strong verification practices builds the governance habits that higher zones require.
 
 ### Risk Appetite
 

@@ -175,13 +175,19 @@ Use these questions during the leadership goal-setting session to help decision-
 
 14. **How much organizational change has this team absorbed in the past 12 months?** Teams experiencing change fatigue -- from recent reorganizations, methodology shifts, leadership transitions, or other structural changes -- have reduced capacity for additional transformation. If the team is already processing significant change, a lower target zone with deeper competency may produce better outcomes than an ambitious target that exhausts the team's adaptive capacity. See Bridges (2009) on how cumulative transitions reduce the organization's capacity to process new change effectively.
 
+### Aspiration and Purpose
+
+15. **What kind of engineering organization do we want to be?** Beyond strategic ROI, this question surfaces the organization's identity aspirations. Some organizations aspire to be at the frontier of AI-augmented development; others aspire to deliver reliably with proven practices. Both are legitimate, and the answer should inform zone selection alongside the analytical factors.
+
+16. **What do our practitioners want their work to look like in two years?** The people who will live through the transition have perspectives that leadership may not share. If engineers, PMs, and designers are energized by the target zone's vision, adoption is more likely to succeed. If they are skeptical or fearful, that signal is important data, not resistance to be overcome.
+
 ### Destination Clarity
 
-15. **If we achieve our target zone, what will be different about how we deliver software in 12 months?** The answer should be concrete and specific. Vague answers ("we'll be more productive") suggest the organization has not yet thought clearly about what it wants.
+17. **If we achieve our target zone, what will be different about how we deliver software in 12 months?** The answer should be concrete and specific. Vague answers ("we'll be more productive") suggest the organization has not yet thought clearly about what it wants.
 
-16. **What is the minimum zone that addresses our strategic needs?** This question deliberately pushes against the "higher is better" bias. The right zone is the lowest zone that serves the organization's actual strategic requirements.
+18. **What is the minimum zone that addresses our strategic needs?** This question deliberately pushes against the "higher is better" bias. The right zone is the lowest zone that serves the organization's actual strategic requirements.
 
-17. **Would Zone 1 with deep competency meet our needs?** This question explicitly opens the door to Zone 1 as a legitimate destination. For organizations where individual AI tool fluency across all roles would address the primary strategic need -- without requiring team-level process integration -- deep Zone 1 competency is a sound choice, not a failure to be ambitious.
+19. **Would Zone 1 with deep competency meet our needs?** This question explicitly opens the door to Zone 1 as a legitimate destination. For organizations where individual AI tool fluency across all roles would address the primary strategic need -- without requiring team-level process integration -- deep Zone 1 competency is a sound choice, not a failure to be ambitious.
 
 ---
 
