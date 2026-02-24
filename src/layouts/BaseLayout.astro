@@ -47,5 +47,46 @@ import '../styles/global.css';
       Skip to main content
     </a>
     <slot />
+    <script>
+      document.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement;
+
+        // Close lightbox when clicking overlay
+        if (target.closest('.lightbox-overlay')) {
+          const overlay = target.closest('.lightbox-overlay') as HTMLElement;
+          overlay.removeAttribute('data-visible');
+          setTimeout(() => overlay.remove(), 200);
+          return;
+        }
+
+        // Open lightbox when clicking a prose image
+        const img = target.closest('.prose img') as HTMLImageElement | null;
+        if (!img) return;
+
+        const overlay = document.createElement('div');
+        overlay.className = 'lightbox-overlay';
+        overlay.setAttribute('role', 'dialog');
+        overlay.setAttribute('aria-label', img.alt || 'Enlarged image');
+
+        const clone = document.createElement('img');
+        clone.src = img.src;
+        clone.alt = img.alt;
+        overlay.appendChild(clone);
+        document.body.appendChild(overlay);
+
+        // Trigger transition
+        requestAnimationFrame(() => overlay.setAttribute('data-visible', ''));
+
+        // Close on Escape
+        const onKey = (ev: KeyboardEvent) => {
+          if (ev.key === 'Escape') {
+            overlay.removeAttribute('data-visible');
+            setTimeout(() => overlay.remove(), 200);
+            document.removeEventListener('keydown', onKey);
+          }
+        };
+        document.addEventListener('keydown', onKey);
+      });
+    </script>
   </body>
 </html>

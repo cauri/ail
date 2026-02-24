@@ -11,7 +11,7 @@ Key terms used throughout the ACE framework, in alphabetical order. For full con
 ## A
 
 **Artisan**
-A practitioner -- typically an engineer, but may also be a PM, designer, or QA specialist -- who operates at a higher zone than the client team and is embedded with the team to model target-zone behaviors through daily work. The artisan demonstrates practices through pair programming and collaborative work rather than through instruction. See [Training Program Overview](/training/program-overview).
+A practitioner -- typically an engineer, but may also be a PM, designer, or QA specialist -- who is embedded with a client team to model target-zone behaviors through daily work. Artisans must operate at Zone 2 or above in their own practice. Since most client teams begin at Zone 0 or Zone 1, this means Artisans are already practicing the foundational disciplines (TDD, pair programming, continuous integration, small iterations) that make AI-augmented development reliable. Without the humans on the team understanding these engineering basics, they will struggle to master AI-assisted development regardless of tooling. The Artisan demonstrates these practices through pair programming and collaborative delivery rather than through instruction. See [Training Program Overview](/training/program-overview).
 
 **AGENTS.md / CLAUDE.md**
 A shared AI configuration file committed to source control. Contains project context, coding standards, architectural constraints, workflow instructions, and team conventions. The primary Zone 2 infrastructure artifact — the team's "AI constitution." See [Zone 2: Integrating](/toolkit/zone-2-integrating).
