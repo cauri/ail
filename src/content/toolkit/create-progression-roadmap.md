@@ -4,7 +4,9 @@ description: "This guide walks through the process of building a practical roadm
 section: "guides"
 order: 5
 ---
-This guide walks through the process of building a practical roadmap for progressing from your current ACE zone to your target zone. A well-constructed roadmap maps specific organizational investments to a timeline, identifies leading indicators that signal progress, and establishes a cadence for reassessment.
+This guide walks through the process of building a practical roadmap for progressing from your current ACE zone to your target zone. It covers ground taught in depth in [Module 4: Progression Roadmap Design](/training/module-4-roadmap-design). Use this as a preview before training or as a refresher before engagements.
+
+A well-constructed roadmap maps specific organizational investments to a timeline, identifies leading indicators that signal progress, and establishes a cadence for reassessment.
 
 ## Prerequisites
 

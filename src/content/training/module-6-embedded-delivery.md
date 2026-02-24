@@ -223,7 +223,7 @@ One trainee plays an Artisan who needs to have a difficult conversation. Scenari
 
 ### Practical Assessment
 
-**Format:** Take-home written assessment
+**Format:** Take-home applied scenario assessment
 
 Trainees receive a complete embedded engagement scenario: a client team's diagnostic results, the engagement roadmap, the Artisan team composition, weekly summaries for months 1-6, the ACE Facilitator's check-in notes, and a re-diagnostic at month 7 showing mixed results.
 

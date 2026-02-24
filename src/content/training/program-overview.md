@@ -30,7 +30,7 @@ Approximately 3 months from cohort start to completion, depending on scheduling 
 
 ### Components
 
-The program consists of six sequential training modules, two supervised engagements (each including a diagnostic facilitation through at least one re-diagnostic cycle), and a written assessment:
+The program consists of six sequential training modules, two supervised engagements (each including a diagnostic facilitation through at least one re-diagnostic cycle), and an applied scenario assessment:
 
 | Component | Format | Duration |
 |-----------|--------|----------|
@@ -40,7 +40,7 @@ The program consists of six sequential training modules, two supervised engageme
 | Module 4: Progression Roadmap Design | Intensive or async | 1 day / 5 hours |
 | Module 5: Facilitator-Led Assessment and Coaching | Intensive or async | 1 day / 5 hours |
 | Module 6: Embedded Delivery and Mentoring | Intensive or async | 1 day / 5 hours |
-| Written Assessment | Take-home | 4-6 hours |
+| Applied Scenario Assessment | Take-home, online | 4-6 hours |
 | Supervised Engagement 1 | Live engagement through re-diagnostic | Variable (months) + debrief |
 | Supervised Engagement 2 | Live engagement through re-diagnostic | Variable (months) + debrief |
 
@@ -86,9 +86,9 @@ After completing all six modules, each trainee must conduct two supervised engag
 
 Supervised engagements are conducted through Artium's client engagements. The program coordinates with engagement leads to identify appropriate opportunities for supervised practice.
 
-### Written Assessment
+### Applied Scenario Assessment
 
-The written assessment is a take-home exam that tests the trainee's ability to apply ACE concepts to realistic scenarios. It covers:
+The applied scenario assessment is a take-home exam that tests the trainee's ability to apply ACE concepts to realistic scenarios. It covers:
 
 - Model knowledge (zones, proficiencies, investments, the progressive competency model)
 - Diagnostic interpretation (given workshop data, determine zone and stage)
@@ -96,13 +96,17 @@ The written assessment is a take-home exam that tests the trainee's ability to a
 - Goal-setting analysis (given organizational context, recommend target zone with rationale)
 - Ethical reasoning (given challenging scenarios, articulate appropriate facilitator behavior)
 
-The written assessment uses a provisional passing threshold of 80%, established by expert judgment as a starting point. This threshold has not been empirically validated against post-certification facilitation quality. Trainees who do not pass may retake the assessment once after additional study time. The written assessment serves as a knowledge screening tool; it identifies gaps in conceptual understanding that should be addressed before supervised facilitation. It is not a substitute for the supervised facilitation assessment, which is the primary measure of facilitation competency. After the first 3-5 cohorts (approximately 16-40 trainees), the training program will conduct a threshold validation analysis: (1) calculate the point-biserial correlation between written assessment scores and supervised facilitation pass/fail outcomes; (2) construct a ROC curve using written assessment scores to predict supervised facilitation success, and identify the score that maximizes sensitivity + specificity; (3) compare the empirically optimal threshold against the current 80% threshold; and (4) examine the false-positive rate (trainees who passed the written assessment but failed supervised facilitation) and false-negative rate (trainees who failed the written assessment but passed supervised facilitation). If the optimal threshold differs substantially from 80%, or if the false-negative rate exceeds 15% (indicating the written assessment is screening out competent facilitators), the threshold will be revised.
+The applied scenario assessment uses a provisional passing threshold of 80%, established by expert judgment as a starting point. This threshold has not been empirically validated against post-certification facilitation quality. Trainees who do not pass may retake the assessment once after additional study time. The applied scenario assessment serves as a knowledge screening tool; it identifies gaps in conceptual understanding that should be addressed before supervised facilitation. It is not a substitute for the supervised facilitation assessment, which is the primary measure of facilitation competency. After the first 3-5 cohorts (approximately 16-40 trainees), the training program will conduct a threshold validation analysis: (1) calculate the point-biserial correlation between applied scenario assessment scores and supervised facilitation pass/fail outcomes; (2) construct a ROC curve using applied scenario assessment scores to predict supervised facilitation success, and identify the score that maximizes sensitivity + specificity; (3) compare the empirically optimal threshold against the current 80% threshold; and (4) examine the false-positive rate (trainees who passed the applied scenario assessment but failed supervised facilitation) and false-negative rate (trainees who failed the applied scenario assessment but passed supervised facilitation). If the optimal threshold differs substantially from 80%, or if the false-negative rate exceeds 15% (indicating the applied scenario assessment is screening out competent facilitators), the threshold will be revised.
 
 ---
 
 ## Prerequisites
 
-Participants must meet the following prerequisites before joining a cohort:
+Participants must meet the following prerequisites before joining a cohort.
+
+### Pre-Reading
+
+Before Module 1, read the [Facilitator Guide](/toolkit/facilitator-guide) for an orientation to the engagement lifecycle and your role as a facilitator. The facilitator guide provides context that Module 1 builds on. During training, you will also reference toolkit documents — scripts, question banks, scoring thresholds, and report templates — as these are the same materials you will use during live engagements after certification.
 
 ### Required
 
@@ -126,13 +130,13 @@ To complete the training program, a participant must fulfill all of the followin
 
 1. **Complete all six training modules** with satisfactory attendance and participation. Each module includes learning activities that require active engagement. Passive attendance is not sufficient.
 
-2. **Pass the written assessment** with a minimum score of 80%. The assessment tests application of knowledge to realistic scenarios, not recall of facts.
+2. **Pass the applied scenario assessment** with a minimum score of 80%. The assessment tests application of knowledge to realistic scenarios, not recall of facts.
 
-Note: The written assessment and the supervised engagements measure different things. The written assessment measures knowledge application in low-pressure conditions (conceptual understanding, analytical reasoning, ethical judgment). The supervised engagements measure performance under real-world conditions (facilitation skill, adaptive judgment, interpersonal dynamics, ongoing engagement management). A trainee who scores below the written threshold but demonstrates strong facilitation should receive targeted knowledge coaching rather than program removal. A trainee who passes the written assessment but struggles in supervised engagements has a more significant competency gap that requires additional practice.
+Note: The applied scenario assessment and the supervised engagements measure different things. The applied scenario assessment measures knowledge application in low-pressure conditions (conceptual understanding, analytical reasoning, ethical judgment). The supervised engagements measure performance under real-world conditions (facilitation skill, adaptive judgment, interpersonal dynamics, ongoing engagement management). A trainee who scores below the assessment threshold but demonstrates strong facilitation should receive targeted knowledge coaching rather than program removal. A trainee who passes the applied scenario assessment but struggles in supervised engagements has a more significant competency gap that requires additional practice.
 
 3. **Successfully complete two supervised engagements.** Each supervised engagement must include a complete diagnostic facilitation and extend through at least one re-diagnostic cycle. Both engagements must be observed by a master facilitator. The second engagement serves as the primary practical assessment. "Successfully complete" means the master facilitator confirms that the trainee demonstrated competent facilitation across the full engagement arc -- accurate scoring, appropriate confidentiality management, acceptable report quality, and effective ongoing engagement management through re-diagnostic.
 
-4. **Receive sign-off from a master facilitator.** The master facilitator who supervised the engagements provides a holistic assessment of the participant's readiness to facilitate independently. This sign-off considers the full arc of the participant's performance across modules, the written assessment, and both supervised engagements.
+4. **Receive sign-off from a master facilitator.** The master facilitator who supervised the engagements provides a holistic assessment of the participant's readiness to facilitate independently. This sign-off considers the full arc of the participant's performance across modules, the applied scenario assessment, and both supervised engagements.
 
 ---
 

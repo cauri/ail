@@ -4,6 +4,8 @@ description: "You have just facilitated your first ACE diagnostic workshop."
 section: "guides"
 order: 3
 ---
+This tutorial is a companion reference for trained facilitators. It provides worked examples of the interpretation process covered in [Module 2: Diagnostic Facilitation Skills](/training/module-2-diagnostic-facilitation). If you have not completed Module 2, start there.
+
 You have just facilitated your first ACE diagnostic workshop. The team filled out the questionnaire, you collected the scores, and now you are staring at a spreadsheet of numbers. The next step is interpretation: turning those numbers into a zone stage assessment, a set of observations, and a narrative the team can act on.
 
 This tutorial walks through that process using a realistic example. By the end, you will be able to look at a raw score table, identify the zone and stage, spot meaningful patterns, and formulate a narrative that is accurate, useful, and honest. You will also practice with a second dataset on your own.

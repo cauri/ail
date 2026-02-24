@@ -4,7 +4,9 @@ description: "This tutorial is your introduction to facilitating ACE diagnostic 
 section: "guides"
 order: 1
 ---
-This tutorial is your introduction to facilitating ACE diagnostic engagements. By the end, you will understand your role, the engagement lifecycle, and the principles that make the difference between a diagnostic that produces real insight and one that produces numbers on a page.
+This guide serves two purposes: as an orientation for new facilitators before formal training, and as a reference for trained facilitators preparing for engagements. If you are new to ACE, this is a good starting point — but it is not a substitute for the [ACE Facilitator Training Program](/training/program-overview), which includes structured learning activities, assessments, and supervised practice.
+
+By the end, you will understand your role, the engagement lifecycle, and the principles that make the difference between a diagnostic that produces real insight and one that produces numbers on a page.
 
 ## What You'll Learn
 
@@ -153,11 +155,12 @@ Facilitating your first diagnostic can feel daunting. Here is how to prepare:
 
 ## Next Steps
 
-1. If you have not already, review the [pre-workshop checklist](/toolkit/pre-workshop-checklist) to understand the full preparation process.
-2. Read [Running Your First Diagnostic](/toolkit/running-your-first-diagnostic) for a detailed walkthrough of the workshop itself.
-3. Read [Interpreting Results](/toolkit/interpreting-results) to understand how to make sense of the scores your workshops produce.
-4. Work through the [ACE Facilitator Training Program](/training/program-overview) modules, starting with Module 1: The ACE Model.
-5. Connect with your mentor or cohort to schedule practice sessions and discuss questions.
+1. Work through the [ACE Facilitator Training Program](/training/program-overview) modules, starting with Module 1: The ACE Model. The training program is the recommended path to facilitator certification.
+2. Use the following toolkit tutorials as study companions during training and as refreshers before engagements:
+   - [Running Your First Diagnostic](/toolkit/running-your-first-diagnostic) — a walkthrough of the workshop itself
+   - [Interpreting Results](/toolkit/interpreting-results) — how to make sense of the scores your workshops produce
+3. Review the [pre-workshop checklist](/toolkit/pre-workshop-checklist) to understand the full preparation process.
+4. Connect with your mentor or cohort to schedule practice sessions and discuss questions.
 
 The best facilitators are not the ones who know the most about AI. They are the ones who ask the best questions and create the safest spaces for honest conversation. You are building that skill. Trust the process.
 

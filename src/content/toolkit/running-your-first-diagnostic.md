@@ -4,7 +4,9 @@ description: "This tutorial walks you through the full arc of an ACE diagnostic 
 section: "guides"
 order: 2
 ---
-This tutorial walks you through the full arc of an ACE diagnostic workshop -- from preparation to follow-up. It is written as a learning journey, not a checklist. You will understand not just what to do at each step, but why it matters and what to watch for.
+This tutorial walks you through the full arc of an ACE diagnostic workshop — from preparation to follow-up. It is written as a learning journey, not a checklist. You will understand not just what to do at each step, but why it matters and what to watch for.
+
+This tutorial covers ground taught in depth in [Module 2: Diagnostic Facilitation Skills](/training/module-2-diagnostic-facilitation) of the training program. If you have not completed Module 2, this guide provides orientation but is not a substitute for the full module, which includes learning activities, role-play practice, and supervised assessment. Use this as a preview before training or as a refresher before engagements.
 
 If you have not yet read the [Facilitator Guide](/toolkit/facilitator-guide), start there. It covers the broader context of your role and the engagement lifecycle. This tutorial focuses specifically on the diagnostic workshop itself.
 

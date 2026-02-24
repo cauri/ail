@@ -4,7 +4,9 @@ description: "This is a detailed, ready-to-use script for running an ACE diagnos
 section: "diagnostic"
 order: 7
 ---
-This is a detailed, ready-to-use script for running an ACE diagnostic workshop. Text in plain format is what the facilitator says or does. *Text in italics is facilitator notes -- internal guidance, not spoken aloud.*
+This is a detailed, ready-to-use script for running an ACE diagnostic workshop. It is used during both training (as a practice tool in Module 2) and live engagements (as a facilitation reference). Mastering this script during training directly prepares you for practice.
+
+Text in plain format is what the facilitator says or does. *Text in italics is facilitator notes -- internal guidance, not spoken aloud.*
 
 **Duration:** 90-120 minutes depending on number of zones assessed
 **Participants:** Full delivery team (developers, PM, designer, QA)

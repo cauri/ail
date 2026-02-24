@@ -4,7 +4,9 @@ description: "This guide walks through the process of selecting the right ACE ta
 section: "guides"
 order: 4
 ---
-This guide walks through the process of selecting the right ACE target zone for your organization. The goal is not to reach the highest zone possible but to choose the zone that best serves your strategic position, risk tolerance, and investment capacity.
+This guide walks through the process of selecting the right ACE target zone for your organization. It covers ground taught in depth in [Module 3: Goal Setting & Zone Selection](/training/module-3-goal-setting). Use this as a preview before training or as a refresher before engagements.
+
+The goal is not to reach the highest zone possible but to choose the zone that best serves your strategic position, risk tolerance, and investment capacity.
 
 ## Prerequisites
 

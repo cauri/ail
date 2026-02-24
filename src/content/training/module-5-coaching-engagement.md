@@ -211,7 +211,7 @@ Discussion focuses on: what ACE ethical standards apply to this scenario, what t
 
 ### Capstone Case Study
 
-**Format:** Take-home written assessment
+**Format:** Take-home applied scenario assessment
 
 Trainees receive a complete engagement scenario package covering: the discovery findings and initial diagnostic results from 7 months ago, the roadmap that was designed after goal-setting, monthly check-in summaries for months 1-6, the leading indicators dashboard through month 6, a re-diagnostic result from month 7 that shows mixed results -- clear progress in three Zone 2 proficiency areas, a slight regression in two others, and scores that are ambiguous on one proficiency where the answers shifted upward but the facilitation notes flagged possible score inflation. The scenario also includes observations from an embedded Artisan team that has been working alongside the client team for 5 months; the Artisan team lead has begun discussing ramp-down with the engagement sponsor.
 
