@@ -31,6 +31,8 @@ By the end of this module, trainees will be able to:
 
 ### Session 1: Introduction to the ACE Framework
 
+![VA-21: Content Architecture Map](/images/content-architecture-map.svg)
+
 **Origin and purpose.** ACE provides a structured approach to AI adoption that respects organizational context, focusing on habitual behaviors rather than checklist compliance.
 
 **The three problems ACE solves.** Organizations do not know where they are (confusion between individual enthusiasm and organizational capability), where to go (pressure to pursue the highest level rather than the right destination), or how to get there (lack of structured investment planning).
