@@ -71,7 +71,7 @@ Developers want to work as AI Engineers but cannot because:
 - Career ladders do not include AI-focused progression paths
 - Team topology does not support the smaller, more autonomous teams that AI-native development enables
 
-The organizational investment for Zone 3 is about role and structure: new job families, updated compensation bands, revised hiring criteria, and reorganized team structures.
+The organizational investment for Zone 3 is about role and structure: new job families, updated compensation bands, revised hiring criteria, and reorganized team structures. It also includes ethical infrastructure: accountability structures for AI-generated output, non-determinism policies, and workforce transition planning. Without these parallel investments, the organization creates ungoverned AI production capability without the ethical infrastructure to manage it responsibly.
 
 ### Zone 4: Strategic AI Requires Executive Commitment
 
@@ -81,8 +81,9 @@ Organizations want to build AI as a strategic capability but cannot because:
 - Capital allocation processes do not account for the long-horizon, uncertain-return profile of AI infrastructure investment
 - The organization lacks the specialized talent (ML engineers, platform engineers, AI researchers) required for proprietary AI development
 - Cross-functional alignment between engineering, product, and business leadership on AI strategy is absent
+- AI factory governance addresses operational reliability but not ethical review, creating a system that produces efficiently but without mechanisms to detect or prevent harm at scale
 
-The organizational investment for Zone 4 is about strategy and governance: executive sponsorship, dedicated capital allocation, specialized talent acquisition, and cross-functional alignment.
+The organizational investment for Zone 4 is about strategy and governance: executive sponsorship, dedicated capital allocation, specialized talent acquisition, cross-functional alignment, and ethical governance infrastructure that scales with production capacity.
 
 ## Why Management Must Understand and Sponsor Each Transition
 
@@ -100,8 +101,8 @@ Each zone transition can be framed as an investment with identifiable costs and 
 |------|-------------------|--------------|
 | 0 to 1 | Tool licenses, training time, policy clarity, management attention | Faster individual task completion, reduced boilerplate, improved onboarding |
 | 1 to 2 | Infrastructure changes, process updates, team time for practice establishment | Systematic quality improvements, faster delivery cycles, reduced variability |
-| 2 to 3 | Role restructuring, compensation changes, hiring profile updates, team reorganization | Fundamentally higher engineering leverage, AI-native development capabilities |
-| 3 to 4 | Executive commitment, capital investment, specialized talent, strategic alignment | AI as competitive advantage, proprietary capabilities, market differentiation |
+| 2 to 3 | Role restructuring, compensation changes, hiring profile updates, team reorganization, accountability infrastructure | Fundamentally higher engineering leverage, AI-native development capabilities, governed AI production |
+| 3 to 4 | Executive commitment, capital investment, specialized talent, strategic alignment, ethical governance at scale | AI as competitive advantage, proprietary capabilities, market differentiation, regulatory preparedness |
 
 Each subsequent zone requires larger investments but delivers returns that are meaningful only in certain strategic contexts. This is why the [progressive competency model](/toolkit/progressive-competency-model) frames each zone transition as a strategic investment decision, with the required investment growing at each step.
 
