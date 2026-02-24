@@ -58,7 +58,7 @@ A typical ACE engagement follows this sequence:
 
 3. **Roadmap creation.** The facilitator works with the team and leadership to map the specific organizational investments required to reach the target zone, with timelines, leading indicators, and reassessment cadences. See [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
 
-4. **Collaborative Delivery.** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work. The Facilitator conducts ongoing check-ins, re-diagnostics, and roadmap refreshes to track progress and adjust course as conditions change.
+4. **Collaborative Delivery.** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work. The Facilitator conducts ongoing check-ins, re-diagnostics, and roadmap refreshes to track progress and adjust course as conditions change. Collaborative Delivery can begin in parallel with the diagnostic phases -- Artisans embed early to assess the team's engineering discipline firsthand and start getting the team "AI-ready" by establishing the XP fundamentals (TDD, pair programming, continuous integration, small iterations) that Zone 2 requires.
 
 5. **Reassessment.** Periodic re-administration of the diagnostic measures actual competency progression and informs roadmap adjustments.
 
