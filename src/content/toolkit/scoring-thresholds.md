@@ -24,6 +24,8 @@ The scoring methodology in this document --- including the frequency scale, comp
 
 **These thresholds may be revised** as validation data accumulates. Facilitators should expect periodic updates to threshold values as the framework moves through its validation phases.
 
+**Sensitivity note:** The Exemplary threshold criteria interact. Small changes in any single criterion (e.g., shifting the composite threshold from 4.7 to 4.5, or the SD threshold from 0.5 to 0.6) would meaningfully change the proportion of teams that qualify. Until empirical validation data is available, facilitators should treat scores near a boundary (within ±0.2 of any threshold) as ambiguous and rely more heavily on behavioral evidence from the workshop discussion than on the numeric result alone.
+
 ---
 
 ## The Frequency Scale
@@ -152,6 +154,16 @@ A team that meets two of three criteria is Established but not Exemplary. Common
 ---
 
 ## How to Score and Aggregate Responses
+
+### Handling Missing or "Not Applicable" Responses
+
+Occasionally a team member may leave a question blank or mark it "not applicable" (e.g., a QA engineer on a question about code generation practices). Handle these cases as follows:
+
+- **Role-based non-applicability:** If a question genuinely does not apply to a team member's role, exclude that response from the question composite calculation. Adjust the denominator accordingly. Note the exclusion in your facilitator notes.
+- **Unanswered questions (no explanation):** Treat as missing data. During the discussion phase, ask the team member why they did not answer. If the question is applicable, encourage them to provide a score. If they cannot, exclude the response and note it.
+- **Small teams (fewer than 5 members):** Missing responses have a disproportionate effect on composites. When more than 20% of responses for a single question are missing, flag the question composite as having reduced reliability in your report.
+
+Do not impute missing values (e.g., by substituting the team average). Missing data should reduce the denominator, not be replaced by an estimate.
 
 ### Step 1: Collect Individual Responses
 

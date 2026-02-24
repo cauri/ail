@@ -54,7 +54,7 @@ Proficiencies are observable team behaviors, exhibited habitually even under pre
 
 - **The team executes Plan/Code/Verify as the default workflow for all changes.** The three-phase agentic coding workflow --- Plan (context gathering, plan construction, plan externalization), Code (plan-guided iteration with agent, incremental progress, maintaining coherence), Verify (correctness, quality, safety) --- is the habitual approach for every change, not just when it is convenient or when the change is complex.
 
-- **Engineers maintain and evolve a shared AGENTS.md/CLAUDE.md with project context.** The team's AI configuration is committed to source control as the team's "AI constitution." It contains project-specific context, coding standards, architectural constraints, and workflow instructions. All members contribute to its evolution.
+- **Engineers maintain and evolve a shared AGENTS.md/CLAUDE.md with project context.** The team's AI configuration is committed to source control as the team's "AI constitution." It contains project-specific context, coding standards, architectural constraints, workflow instructions, and ethical constraints (e.g., data handling rules, prohibited patterns, domain-specific compliance requirements). All members contribute to its evolution.
 
 - **The team enforces automated quality checks on all AI-generated code.** Pre-commit hooks or CI pipeline gates require that AI-generated code passes compiler checks and linter rules before it can be committed. These surface-level quality gates catch the most common categories of AI-generated code errors: syntax violations, style inconsistencies, and convention mismatches.
 

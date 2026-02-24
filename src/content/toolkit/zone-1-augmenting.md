@@ -55,14 +55,14 @@ Proficiencies are specific, observable behaviors that are practiced habitually -
 - **Uses AI tools for meeting notes and summaries.** Meeting recordings or notes are processed through AI to produce structured summaries, action items, and decisions, reducing the overhead of documentation and improving team alignment.
 - **Prompts effectively for PM-relevant tasks.** The product manager can construct prompts that provide sufficient context, constraints, and intent to get useful output from AI tools for product work, rather than receiving generic or unhelpful responses.
 - **Uses AI to accelerate product discovery work.** AI assists with synthesizing customer interview data, analyzing competitive positioning, generating and pressure-testing product hypotheses, and structuring prioritization frameworks. The PM uses AI to do better product thinking, not just faster artifact production.
-- **Uses AI to analyze quantitative product data and extract actionable insights.** AI assists with interpreting usage analytics, identifying patterns in customer feedback, modeling scenario outcomes, and summarizing market research. The PM treats AI as an analytical partner for the strategic dimensions of product work, not just the documentation dimensions.
+- **Uses AI to analyze quantitative product data and extract actionable insights.** AI assists with interpreting usage analytics, identifying patterns in customer feedback, modeling scenario outcomes, and summarizing market research. The PM treats AI as an analytical partner for the strategic dimensions of product work, not just the documentation dimensions. This includes awareness that AI-generated analysis may reflect biases in training data -- for example, overweighting well-documented market segments, reproducing demographic assumptions, or generating recommendations that reflect the patterns of larger organizations rather than the PM's specific context.
 
 ### Design and Architecture
 
 - **Uses AI for ideation, content generation, and design exploration.** AI tools assist with generating design alternatives, creating placeholder content, exploring layout options, and producing copy variations. The designer treats AI as a brainstorming partner that accelerates the exploration phase.
 - **Incorporates AI-powered tools into the design workflow.** AI capabilities within design tools (image generation, layout suggestions, content-aware features) are part of the designer's standard toolkit rather than novelties used occasionally.
 - **Uses AI to synthesize user research and analyze usability data.** AI assists with identifying patterns in user research transcripts, summarizing usability test findings, flagging accessibility issues in existing designs, and generating insights from qualitative data. The designer uses AI to deepen understanding of user needs, not just to produce artifacts faster.
-- **Uses AI to explore and evaluate information architecture and interaction design alternatives.** AI assists with generating navigation structures, evaluating content organization patterns, analyzing competitor UX approaches, and identifying potential usability issues in proposed designs. The designer treats AI as a design thinking partner for the analytical dimensions of design work.
+- **Uses AI to explore and evaluate information architecture and interaction design alternatives.** AI assists with generating navigation structures, evaluating content organization patterns, analyzing competitor UX approaches, and identifying potential usability issues in proposed designs. The designer treats AI as a design thinking partner for the analytical dimensions of design work. This includes awareness that AI-generated design suggestions may embed cultural assumptions, accessibility blind spots, or aesthetic biases from training data -- for example, defaulting to patterns optimized for able-bodied users, Western reading conventions, or majority-demographic personas.
 
 ### Quality Assurance
 
@@ -113,6 +113,14 @@ Vibe-coding is exploratory, low-stakes AI-assisted coding used for prototypes, p
 - **Visible productivity improvements:** Within 2-4 weeks of adoption, individual developers report faster task completion and reduced friction on routine work.
 - **Organization-wide adoption:** 2-6 months depending on organizational culture, the strength of the investment in removing barriers, and whether leadership actively champions adoption. Organizations with strong learning cultures and low bureaucratic friction reach broad adoption faster.
 - **Competency (habitual under pressure):** True competency -- where AI tool usage persists under deadline pressure and in unfamiliar contexts -- typically lags initial adoption by 1-2 months. Early adoption is often enthusiastic but fragile; competency is demonstrated when the behavior is durable.
+
+## Recognizing and Addressing Regression
+
+Zone 1 competency can regress. Common triggers include: team member turnover (new members who have not built AI habits), tool migrations (switching AI providers disrupts established workflows), organizational stress (extended crunch periods where teams revert to pre-AI practices), and policy changes (new security or compliance requirements that create friction around AI tool usage).
+
+**Signs of regression:** AI tool usage metrics decline; team members report abandoning AI tools during recent high-pressure periods; new team members are not onboarded into AI workflows; retrospectives stop discussing AI practices.
+
+**What to do:** Treat regression as a signal that the organizational investments supporting Zone 1 are insufficient, not as individual failure. Revisit the investments (training, tooling, policy clarity) and address the specific trigger. Re-run the diagnostic to establish current state and plan targeted re-investment.
 
 ## Progressive Competency Note
 

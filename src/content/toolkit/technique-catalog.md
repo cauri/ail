@@ -354,6 +354,37 @@ Organizational-level AI engineering. These practices shift the primary mode of e
 
 ---
 
+## Zone 3 Cross-Craft Techniques
+
+Role transformation practices for non-engineering disciplines at Zone 3. These techniques reflect the identity shifts described by the Prime Directive -- PMs, designers, and QA engineers transform their professional practice alongside engineers.
+
+### Behavioral Specification Design (PM)
+
+**Zone(s):** 3
+**Summary:** PMs write machine-parseable behavioral specifications that define what AI pipelines must produce, including acceptance criteria expressed as testable assertions, edge case coverage requirements, and behavioral constraints.
+**Purpose:** Transforms the PM role from writing user stories for human developers to defining behavioral contracts for AI production pipelines. The quality of specification directly determines the quality of AI-generated output.
+**See Also:** [CAT (Continuous Alignment Testing)](#cat-continuous-alignment-testing), [Eval Harness Design](#eval-harness-design), [Zone 3: Accelerating](/toolkit/zone-3-accelerating)
+
+---
+
+### Specification Encoding (Design)
+
+**Zone(s):** 3
+**Summary:** Designers encode design intent into machine-readable specifications -- design tokens, component contracts, layout grammars, and interaction rules -- that AI pipelines consume as constraints during generation.
+**Purpose:** Transforms the designer role from producing visual artifacts to encoding design systems as specifications that govern AI output quality. Ensures AI-generated interfaces meet design standards systematically rather than through post-generation review.
+**See Also:** [Context Engineering at System Level](#context-engineering-at-system-level), [Conditioning (Level 1)](#conditioning-separate-generation-from-decisioning--level-1), [Zone 3: Accelerating](/toolkit/zone-3-accelerating)
+
+---
+
+### Evaluation Pipeline Specialization (QA)
+
+**Zone(s):** 3
+**Summary:** QA engineers design, build, and operate the evaluation pipelines that verify AI-generated output quality: defining eval criteria, building eval harnesses, analyzing eval results for systemic patterns, and improving eval coverage over time.
+**Purpose:** Transforms the QA role from testing human-written code to operating the quality infrastructure for AI-generated output. QA becomes the team's authority on what "correct" means for AI pipelines and how to measure it at scale.
+**See Also:** [Eval Harness Design](#eval-harness-design), [CAT (Continuous Alignment Testing)](#cat-continuous-alignment-testing), [Failure Mode Taxonomy](#failure-mode-taxonomy), [Zone 3: Accelerating](/toolkit/zone-3-accelerating)
+
+---
+
 ## Zone 4 Techniques
 
 Factory-scale AI production. These techniques are less mature than those in earlier zones, as fewer organizations have operated at this level. Some extrapolate Zone 3 practices to industrial scale; others represent newer concepts with limited established implementations. See [Zone 4: Industrializing](/toolkit/zone-4-industrializing) for full context.
