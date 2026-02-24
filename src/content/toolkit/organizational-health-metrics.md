@@ -15,7 +15,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 ### 1.1 Team-Level Zone Distribution
 
 - **What it measures:** The distribution of teams across ACE zones. How many teams are at Zone 0, Zone 1, Zone 2, Zone 3, or Zone 4?
-- **Why it matters:** Gives leadership a snapshot of where the organization stands overall. A healthy organization should see progressive movement toward higher zones over time.
+- **Why it matters:** Gives leadership a snapshot of where the organization stands overall. A healthy organization should see teams progressing toward their chosen target zones over time — not necessarily toward higher zones. An organization that has deliberately chosen Zone 2 as its target should see consolidation at Zone 2, not pressure to reach Zone 3.
 - **How to measure:** Aggregate results from facilitated diagnostic assessments. Each team receives a zone classification; report the distribution.
 - **Reporting frequency:** Quarterly or after each round of diagnostic assessments.
 - **What "good" looks like:** [Expert judgment] The following benchmarks assume the organization has chosen to progress toward Zone 3. Organizations that have chosen a different stopping point should adjust targets accordingly -- a Zone 2 stopping point, for example, would show a healthy distribution concentrated at Zone 2 with no expectation of Zone 3 progression. See [How to Choose a Target Zone](/toolkit/choose-target-zone) for guidance on stopping-point decisions.
@@ -119,7 +119,15 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Reporting frequency:** Quarterly.
 - **What "good" looks like:** [Expert judgment] Declining number of unique friction points over time. Zero "critical" friction points (blockers that prevent AI usage entirely).
 
-### 4.3 AI Investment Value Perception
+### 4.3 AI Adoption Emotional Climate
+
+- **What it measures:** Team members' emotional experience of AI adoption — including excitement, anxiety, identity threat, change fatigue, and confidence in their evolving role.
+- **Why it matters:** Adoption anxiety and identity threat are significant predictors of resistance and regression. Teams may adopt tools behaviorally while experiencing emotional distress that undermines sustained competency. Burnout indicators (C2 in the counter-metrics) capture sustained overload, but emotional climate captures the specific psychological dynamics of role transition — which can be present even without overwork.
+- **How to measure:** Quarterly survey with items such as: "I feel confident about my evolving role as AI tools change how we work" (5-point scale); "I feel anxious about how AI will affect my career" (reverse-scored); "The pace of AI-related change feels manageable" (5-point scale). Report at the organizational level to preserve confidentiality.
+- **Reporting frequency:** Quarterly.
+- **What "good" looks like:** [Expert judgment] Average confidence score of 3.5+ and average anxiety score below 2.5 (reverse-scored). Rising anxiety scores — even when adoption metrics are improving — warrant investigation and may indicate the need for explicit emotional support interventions (see [Baseline to Zone 1 Roadmap](/toolkit/baseline-to-zone-1) and [Zone 1 to Zone 2 Roadmap](/toolkit/zone-1-to-2) for emotional support activities).
+
+### 4.4 AI Investment Value Perception
 
 - **What it measures:** Whether team members believe the organization's AI investments are producing meaningful value for their work.
 - **Why it matters:** Perception drives engagement. If teams do not perceive value from AI investments, adoption becomes compliance rather than competency.
@@ -159,7 +167,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 ## 6. Leading Indicators for Zone 2 Progression at Organizational Level
 
-These metrics specifically predict whether the organization is on track to achieve widespread Zone 2 competency -- the minimum target for all organizations adopting AI-augmented development.
+These metrics specifically predict whether the organization is on track to achieve widespread Zone 2 competency -- the typical near-term target for most organizations adopting AI-augmented development. Organizations that have chosen Zone 1 as their stopping point (see [How to Choose a Target Zone](/toolkit/choose-target-zone)) may still find these indicators useful for monitoring readiness, but should not treat Zone 2 progression as an obligation.
 
 ### 6.1 Shared Configuration Adoption Rate
 

@@ -212,7 +212,22 @@ Does leadership sustain attention through 12+ month initiatives, or does organiz
 
 > _[Facilitator: Zone 2 transitions take 3-6 months; Zone 3 takes 12-24 months; Zone 4 takes 3-5 years. If leadership attention historically dissipates after 6 months, Zone 3+ transitions carry a significant risk of abandonment mid-stream.]_
 
-### 5b-5. Change Readiness Summary
+### 5b-5. Emotional Climate Assessment
+
+*Sources: IC interviews, team lead interviews. Focus on what people feel, not just what they do.*
+
+**Purpose of this section:** Assess the emotional dimensions of readiness for AI adoption change. Behavioral adoption without emotional readiness produces fragile competency that regresses under stress. Teams experiencing high adoption anxiety, identity threat, or change fatigue will resist at levels that cannot be resolved through training or tooling alone.
+
+| Dimension | Assessment | Evidence |
+|---|---|---|
+| **Adoption anxiety:** Do team members express anxiety about AI replacing their role or reducing their value? | None observed / Mild / Moderate / Significant | |
+| **Identity threat:** Do team members describe their professional identity in terms that AI adoption directly challenges? (e.g., "I'm someone who writes elegant code" facing a shift to process design) | None observed / Mild / Moderate / Significant | |
+| **Change fatigue:** Are teams already absorbing other significant changes that reduce their emotional capacity for additional transition? | Low / Moderate / High | |
+| **Excitement and opportunity:** Do team members express genuine enthusiasm about AI tools and what they enable? | Absent / Present in some / Widespread | |
+
+> _[Facilitator: emotional climate often varies significantly across teams. Note which teams show the strongest positive or negative emotional signals. This information should influence the order of diagnostic workshops and the intensity of emotional support activities in the roadmap.]_
+
+### 5b-6. Change Readiness Summary
 
 **Overall change readiness assessment:** High / Moderate / Low
 
@@ -220,9 +235,11 @@ Does leadership sustain attention through 12+ month initiatives, or does organiz
 
 > _[Facilitator: brief summary of the organization's change readiness and how it should inform target zone recommendations and roadmap design.]_
 
+**Impact on zone targeting:** Change readiness is a direct input to target zone selection — not just to timeline. An organization with low change readiness should consider Zone 1 as a legitimate stopping point, building deep individual adoption before attempting the team-level process change that Zone 2 requires. An organization with moderate readiness and high change fatigue may be best served by a Zone 2 target with an extended timeline, rather than a Zone 3 target that demands sustained organizational energy the culture cannot currently provide. See the [Goal-Setting Framework](/toolkit/goal-setting-framework) for how change readiness maps to zone target decisions.
+
 **Impact on engagement design:**
 
-> _[Facilitator: if change readiness is low, consider recommending a smaller initial scope, longer timelines, or explicit change readiness investments before pursuing zone transitions.]_
+> _[Facilitator: if change readiness is low, consider recommending a smaller initial scope, longer timelines, or explicit change readiness investments before pursuing zone transitions. If emotional climate assessment reveals significant anxiety or identity threat, include emotional support activities in the roadmap (see roadmap templates for specific activities).]_
 
 ---
 

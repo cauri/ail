@@ -76,7 +76,7 @@ These metrics predict whether individuals are on the path to habitual AI tool us
 ### 1.6 Individual Task Completion Time
 
 - **What it measures:** Average time from task start to first working implementation for individual contributors.
-- **Why it matters:** Confirms that AI tool adoption is producing the expected individual productivity benefit.
+- **Why it matters:** A reduction in individual task completion time is expected to accompany habitual AI tool adoption, though the relationship is correlational — teams that adopt AI tools may also be adopting other productivity practices simultaneously.
 - **How to measure:** Issue tracker timestamps (task assigned to first PR opened).
 - **What "good" looks like:** [Emerging evidence] 15-30% reduction from pre-AI baseline within 3 months. Extrapolated from Peng et al. (2023) finding of 55% improvement on controlled coding tasks, adjusted downward for the broader range of real-world development activities.
 
@@ -197,8 +197,8 @@ These metrics predict whether teams are achieving the role transformation and ar
 ### 3.5 Feature Delivery Velocity
 
 - **What it measures:** Number of production-shipped features per team per sprint, normalized for feature complexity.
-- **Why it matters:** Zone 3 should produce measurable acceleration in delivery throughput as role transformation and AI-native practices take effect.
-- **How to measure:** Sprint delivery metrics from issue tracker.
+- **Why it matters:** Zone 3 is expected to be associated with measurable acceleration in delivery throughput as role transformation and AI-native practices take effect. However, this is a correlation claim, not a causal one — many organizational factors affect velocity simultaneously, and isolating the contribution of Zone 3 practices requires controlled comparison that does not yet exist in the literature.
+- **How to measure:** Sprint delivery metrics from issue tracker. "Normalized for feature complexity" means the organization should use a consistent sizing method (e.g., T-shirt sizing by the same estimation group, or counting only features that pass a defined minimum scope threshold) to reduce noise from feature-size variation across sprints. Avoid using story points for this purpose — they are team-specific, non-comparable, and subject to inflation (Forsgren, Humble, & Kim, 2018). The normalization method should be documented and held constant across measurement periods.
 - **What "good" looks like:** [Expert judgment] 2-3x throughput improvement from Zone 2 baseline. No empirical basis exists for this specific range; it is an aspirational target based on trajectory analysis.
 
 ### 3.6 Team Size to Output Ratio
@@ -292,6 +292,12 @@ Counter-metrics ensure that improvements in the North Star metric and zone indic
 - **What it measures:** Whether documentation (architecture docs, API docs, onboarding guides) keeps pace with code changes.
 - **Why it matters:** Faster code delivery can outpace documentation, creating a growing knowledge gap. AI should help documentation keep pace, not widen the gap.
 - **Threshold:** Documentation update frequency should scale proportionally with code change frequency.
+
+---
+
+## Aggregation Note
+
+When aggregating team-level metrics to organizational dashboards (as described in [Organizational Health Metrics](/toolkit/organizational-health-metrics)), report distributions rather than averages. An organizational average of "Zone 2" obscures whether most teams are at Zone 2 or whether a few Zone 3 teams are pulling up a majority at Zone 1. For percentage-based metrics (activation rate, daily engagement), report both the organization-wide figure and the inter-team range to surface variance that averages would hide. For "What good looks like" thresholds, apply them at the team level, not the organizational average — a team that meets the threshold has met it regardless of other teams' performance.
 
 ---
 
