@@ -1,167 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 360"
      font-family="'Inter', sans-serif">
   <title>Zone Progression — Four zones of AI competency, progressing left to right</title>
   <desc>A horizontal diagram showing four zones of AI competency progression: Zone 1 (Augmenting) focuses on individual tool adoption. Zone 2 (Integrating) focuses on team workflow integration. Zone 3 (Accelerating) shifts role identities so humans specify and AI implements. Zone 4 (Industrializing) transforms the production model to an AI-first software factory. Between each zone, a decision gate asks whether to deepen mastery in the current zone or continue to the next one. Organizations choose their stopping point based on strategic context. Depth within a chosen zone is more valuable than overextension across zones.</desc>
 
-  <defs>
-    <marker id="arrow-r" markerWidth="8" markerHeight="7" refX="8" refY="3.5" orient="auto">
-      <polygon points="0 0, 8 3.5, 0 7" fill="#6B7280"/>
-    </marker>
-    <marker id="arrow-d" markerWidth="7" markerHeight="8" refX="3.5" refY="8" orient="auto">
-      <polygon points="0 0, 7 0, 3.5 8" fill="#6B7280"/>
-    </marker>
-  </defs>
-
   <!-- Background -->
-  <rect width="880" height="440" fill="#fff" rx="8"/>
+  <rect width="1080" height="360" fill="#fff" rx="8"/>
 
-  <!-- ==================== -->
-  <!-- Title Area -->
-  <!-- ==================== -->
+  <!-- Title -->
   <text x="24" y="28" font-family="'DM Sans', sans-serif" font-size="20"
-        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Zone Progression</text>
+        font-weight="500" fill="#151D1A" letter-spacing="-0.03em">Zone Progression</text>
   <text x="24" y="48" font-size="12" fill="#6B7280">Each zone represents a different relationship with AI. Organizations choose their depth.</text>
 
-  <!-- ==================== -->
-  <!-- Zone 1: Augmenting (Blue) -->
-  <!-- x: 24-208, y: 160-380, 184x220 -->
-  <!-- ==================== -->
-  <rect x="24" y="160" width="184" height="220" rx="8" fill="#EFF6FF" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="24" y="168" width="3" height="204" rx="1.5" fill="#60A5FA"/>
+  <!-- ======================================== -->
+  <!-- Zone 1: Augmenting (Blue)               -->
+  <!-- x: 24–249, y: 66–286, 225 × 220        -->
+  <!-- ======================================== -->
+  <rect x="24" y="66" width="225" height="220" rx="8" fill="#EFF6FF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="25" y="76" width="3" height="200" rx="1.5" fill="#60A5FA"/>
 
-  <!-- Zone 1 text -->
-  <text x="39" y="180" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Augmenting</text>
-  <text x="39" y="198" font-size="11" fill="#6B7280">Tool adoption shift</text>
-  <text x="39" y="218" font-size="10" font-weight="500" fill="#6B7280">Individual</text>
-  <text x="39" y="236" font-size="10" fill="#6B7280">AI as personal assistant</text>
+  <text x="40" y="92" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Augmenting</text>
+  <text x="40" y="112" font-size="11" fill="#6B7280">Tool adoption shift</text>
+  <text x="40" y="130" font-size="10" font-weight="500" fill="#6B7280">Individual</text>
+  <text x="40" y="148" font-size="10" fill="#6B7280">AI as personal assistant</text>
 
-  <!-- Zone 1 depth bars (5 bars, uniform opacity) -->
-  <rect x="44" y="280" width="144" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
-  <rect x="44" y="292" width="144" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
-  <rect x="44" y="304" width="144" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
-  <rect x="44" y="316" width="144" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
-  <rect x="44" y="328" width="144" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
+  <rect x="40" y="178" width="193" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
+  <rect x="40" y="192" width="193" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
+  <rect x="40" y="206" width="193" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
+  <rect x="40" y="220" width="193" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
+  <rect x="40" y="234" width="193" height="4" rx="2" fill="#60A5FA" opacity="0.15"/>
 
-  <!-- ==================== -->
-  <!-- Gate 1 (between Zone 1-2) -->
-  <!-- x: 208-240, center: 224 -->
-  <!-- ==================== -->
-  <line x1="224" y1="160" x2="224" y2="380" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- ======================================== -->
+  <!-- Gate 1 · 249–293 · center 271           -->
+  <!-- ======================================== -->
+  <line x1="271" y1="66" x2="271" y2="286" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
 
-  <!-- Fork icon at gate 1 (scaled up 50%) -->
-  <circle cx="224" cy="250" r="4" fill="#6B7280"/>
-  <line x1="228" y1="250" x2="242" y2="250" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-r)"/>
-  <line x1="224" y1="254" x2="224" y2="268" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-d)"/>
+  <circle cx="271" cy="172" r="4" fill="#6B7280"/>
+  <line x1="276" y1="172" x2="283" y2="172" stroke="#6B7280" stroke-width="2"/>
+  <polygon points="287,172 283,168.5 283,175.5" fill="#6B7280"/>
+  <line x1="271" y1="177" x2="271" y2="184" stroke="#6B7280" stroke-width="2"/>
+  <polygon points="271,188 267.5,184 274.5,184" fill="#6B7280"/>
 
-  <!-- Gate 1 labels -->
-  <text x="224" y="290" text-anchor="middle" font-size="9" fill="#6B7280">Deepen or</text>
-  <text x="224" y="302" text-anchor="middle" font-size="9" fill="#6B7280">continue</text>
-  <text x="224" y="322" text-anchor="middle" font-size="8" font-weight="500" fill="#6B7280">3&#x2013;6 months</text>
+  <text x="271" y="210" text-anchor="middle" font-size="9" fill="#6B7280">Deepen or</text>
+  <text x="271" y="223" text-anchor="middle" font-size="9" fill="#6B7280">continue</text>
+  <text x="271" y="248" text-anchor="middle" font-size="8.5" font-weight="500" fill="#6B7280">3&#x2013;6 months</text>
 
-  <!-- ==================== -->
-  <!-- Zone 2: Integrating (Emerald) -->
-  <!-- x: 240-424, y: 160-380, 184x220 -->
-  <!-- ==================== -->
-  <rect x="240" y="160" width="184" height="220" rx="8" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="240" y="168" width="3" height="204" rx="1.5" fill="#34D399"/>
+  <!-- ======================================== -->
+  <!-- Zone 2: Integrating (Emerald)           -->
+  <!-- x: 293–518, y: 66–286, 225 × 220       -->
+  <!-- ======================================== -->
+  <rect x="293" y="66" width="225" height="220" rx="8" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="294" y="76" width="3" height="200" rx="1.5" fill="#34D399"/>
 
-  <!-- Zone 2 text -->
-  <text x="255" y="180" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#065F46">Integrating</text>
-  <text x="255" y="198" font-size="11" fill="#6B7280">Workflow integration</text>
-  <text x="255" y="212" font-size="11" fill="#6B7280">shift</text>
-  <text x="255" y="232" font-size="10" font-weight="500" fill="#6B7280">Team</text>
-  <text x="255" y="250" font-size="10" fill="#6B7280">Shared team practices</text>
+  <text x="309" y="92" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#065F46">Integrating</text>
+  <text x="309" y="112" font-size="11" fill="#6B7280">Workflow integration shift</text>
+  <text x="309" y="130" font-size="10" font-weight="500" fill="#6B7280">Team</text>
+  <text x="309" y="148" font-size="10" fill="#6B7280">Shared team practices</text>
 
-  <!-- Zone 2 depth bars -->
-  <rect x="260" y="280" width="144" height="4" rx="2" fill="#34D399" opacity="0.15"/>
-  <rect x="260" y="292" width="144" height="4" rx="2" fill="#34D399" opacity="0.15"/>
-  <rect x="260" y="304" width="144" height="4" rx="2" fill="#34D399" opacity="0.15"/>
-  <rect x="260" y="316" width="144" height="4" rx="2" fill="#34D399" opacity="0.15"/>
-  <rect x="260" y="328" width="144" height="4" rx="2" fill="#34D399" opacity="0.15"/>
+  <rect x="309" y="178" width="193" height="4" rx="2" fill="#34D399" opacity="0.15"/>
+  <rect x="309" y="192" width="193" height="4" rx="2" fill="#34D399" opacity="0.15"/>
+  <rect x="309" y="206" width="193" height="4" rx="2" fill="#34D399" opacity="0.15"/>
+  <rect x="309" y="220" width="193" height="4" rx="2" fill="#34D399" opacity="0.15"/>
+  <rect x="309" y="234" width="193" height="4" rx="2" fill="#34D399" opacity="0.15"/>
 
-  <!-- ==================== -->
-  <!-- Gate 2 (between Zone 2-3) -->
-  <!-- x: 424-456, center: 440 -->
-  <!-- ==================== -->
-  <line x1="440" y1="160" x2="440" y2="380" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- ======================================== -->
+  <!-- Gate 2 · 518–562 · center 540           -->
+  <!-- ======================================== -->
+  <line x1="540" y1="66" x2="540" y2="286" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
 
-  <!-- Fork icon at gate 2 -->
-  <circle cx="440" cy="250" r="4" fill="#6B7280"/>
-  <line x1="444" y1="250" x2="458" y2="250" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-r)"/>
-  <line x1="440" y1="254" x2="440" y2="268" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-d)"/>
+  <circle cx="540" cy="172" r="4" fill="#6B7280"/>
+  <line x1="545" y1="172" x2="552" y2="172" stroke="#6B7280" stroke-width="2"/>
+  <polygon points="556,172 552,168.5 552,175.5" fill="#6B7280"/>
+  <line x1="540" y1="177" x2="540" y2="184" stroke="#6B7280" stroke-width="2"/>
+  <polygon points="540,188 536.5,184 543.5,184" fill="#6B7280"/>
 
-  <!-- Gate 2 labels -->
-  <text x="440" y="290" text-anchor="middle" font-size="9" fill="#6B7280">Deepen or</text>
-  <text x="440" y="302" text-anchor="middle" font-size="9" fill="#6B7280">continue</text>
-  <text x="440" y="322" text-anchor="middle" font-size="8" font-weight="500" fill="#6B7280">12&#x2013;24 months</text>
+  <text x="540" y="210" text-anchor="middle" font-size="9" fill="#6B7280">Deepen or</text>
+  <text x="540" y="223" text-anchor="middle" font-size="9" fill="#6B7280">continue</text>
+  <text x="540" y="248" text-anchor="middle" font-size="8.5" font-weight="500" fill="#6B7280">12&#x2013;24 months</text>
 
-  <!-- ==================== -->
-  <!-- Zone 3: Accelerating (Amber) -->
-  <!-- x: 456-640, y: 160-380, 184x220 -->
-  <!-- ==================== -->
-  <rect x="456" y="160" width="184" height="220" rx="8" fill="#FFFBEB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="456" y="168" width="3" height="204" rx="1.5" fill="#FBBF24"/>
+  <!-- ======================================== -->
+  <!-- Zone 3: Accelerating (Amber)            -->
+  <!-- x: 562–787, y: 66–286, 225 × 220       -->
+  <!-- ======================================== -->
+  <rect x="562" y="66" width="225" height="220" rx="8" fill="#FFFBEB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="563" y="76" width="3" height="200" rx="1.5" fill="#FBBF24"/>
 
-  <!-- Zone 3 text -->
-  <text x="471" y="180" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E">Accelerating</text>
-  <text x="471" y="198" font-size="11" fill="#6B7280">Role identity shift</text>
-  <text x="471" y="218" font-size="10" font-weight="500" fill="#6B7280">Role</text>
-  <text x="471" y="236" font-size="10" fill="#6B7280">Humans specify,</text>
-  <text x="471" y="250" font-size="10" fill="#6B7280">AI implements</text>
+  <text x="578" y="92" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E">Accelerating</text>
+  <text x="578" y="112" font-size="11" fill="#6B7280">Role identity shift</text>
+  <text x="578" y="130" font-size="10" font-weight="500" fill="#6B7280">Role</text>
+  <text x="578" y="148" font-size="10" fill="#6B7280">Humans specify, AI implements</text>
 
-  <!-- Zone 3 depth bars -->
-  <rect x="476" y="280" width="144" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
-  <rect x="476" y="292" width="144" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
-  <rect x="476" y="304" width="144" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
-  <rect x="476" y="316" width="144" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
-  <rect x="476" y="328" width="144" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
+  <rect x="578" y="178" width="193" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
+  <rect x="578" y="192" width="193" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
+  <rect x="578" y="206" width="193" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
+  <rect x="578" y="220" width="193" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
+  <rect x="578" y="234" width="193" height="4" rx="2" fill="#FBBF24" opacity="0.15"/>
 
-  <!-- ==================== -->
-  <!-- Gate 3 (between Zone 3-4) -->
-  <!-- x: 640-672, center: 656 -->
-  <!-- ==================== -->
-  <line x1="656" y1="160" x2="656" y2="380" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- ======================================== -->
+  <!-- Gate 3 · 787–831 · center 809           -->
+  <!-- ======================================== -->
+  <line x1="809" y1="66" x2="809" y2="286" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4 4"/>
 
-  <!-- Fork icon at gate 3 -->
-  <circle cx="656" cy="250" r="4" fill="#6B7280"/>
-  <line x1="660" y1="250" x2="674" y2="250" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-r)"/>
-  <line x1="656" y1="254" x2="656" y2="268" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow-d)"/>
+  <circle cx="809" cy="172" r="4" fill="#6B7280"/>
+  <line x1="814" y1="172" x2="821" y2="172" stroke="#6B7280" stroke-width="2"/>
+  <polygon points="825,172 821,168.5 821,175.5" fill="#6B7280"/>
+  <line x1="809" y1="177" x2="809" y2="184" stroke="#6B7280" stroke-width="2"/>
+  <polygon points="809,188 805.5,184 812.5,184" fill="#6B7280"/>
 
-  <!-- Gate 3 labels -->
-  <text x="656" y="290" text-anchor="middle" font-size="9" fill="#6B7280">Deepen or</text>
-  <text x="656" y="302" text-anchor="middle" font-size="9" fill="#6B7280">continue</text>
-  <text x="656" y="322" text-anchor="middle" font-size="8" font-weight="500" fill="#6B7280">3&#x2013;5+ years</text>
+  <text x="809" y="210" text-anchor="middle" font-size="9" fill="#6B7280">Deepen or</text>
+  <text x="809" y="223" text-anchor="middle" font-size="9" fill="#6B7280">continue</text>
+  <text x="809" y="248" text-anchor="middle" font-size="8.5" font-weight="500" fill="#6B7280">3&#x2013;5+ years</text>
 
-  <!-- ==================== -->
-  <!-- Zone 4: Industrializing (Purple) -->
-  <!-- x: 672-856, y: 160-380, 184x220 -->
-  <!-- ==================== -->
-  <rect x="672" y="160" width="184" height="220" rx="8" fill="#F5F3FF" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="672" y="168" width="3" height="204" rx="1.5" fill="#A78BFA"/>
+  <!-- ======================================== -->
+  <!-- Zone 4: Industrializing (Purple)        -->
+  <!-- x: 831–1056, y: 66–286, 225 × 220      -->
+  <!-- ======================================== -->
+  <rect x="831" y="66" width="225" height="220" rx="8" fill="#F5F3FF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="832" y="76" width="3" height="200" rx="1.5" fill="#A78BFA"/>
 
-  <!-- Zone 4 text -->
-  <text x="687" y="180" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">Industrializing</text>
-  <text x="687" y="198" font-size="11" fill="#6B7280">Production model shift</text>
-  <text x="687" y="218" font-size="10" font-weight="500" fill="#6B7280">Organization</text>
-  <text x="687" y="236" font-size="10" fill="#6B7280">AI-first software</text>
-  <text x="687" y="250" font-size="10" fill="#6B7280">factory</text>
+  <text x="847" y="92" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">Industrializing</text>
+  <text x="847" y="112" font-size="11" fill="#6B7280">Production model shift</text>
+  <text x="847" y="130" font-size="10" font-weight="500" fill="#6B7280">Organization</text>
+  <text x="847" y="148" font-size="10" fill="#6B7280">AI-first software factory</text>
 
-  <!-- Zone 4 depth bars -->
-  <rect x="692" y="280" width="144" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
-  <rect x="692" y="292" width="144" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
-  <rect x="692" y="304" width="144" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
-  <rect x="692" y="316" width="144" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
-  <rect x="692" y="328" width="144" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
+  <rect x="847" y="178" width="193" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
+  <rect x="847" y="192" width="193" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
+  <rect x="847" y="206" width="193" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
+  <rect x="847" y="220" width="193" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
+  <rect x="847" y="234" width="193" height="4" rx="2" fill="#A78BFA" opacity="0.15"/>
 
-  <!-- ==================== -->
-  <!-- Shared bottom baseline -->
-  <!-- ==================== -->
-  <line x1="24" y1="380" x2="856" y2="380" stroke="#E5E7EB" stroke-width="1"/>
+  <!-- Shared baseline -->
+  <line x1="24" y1="286" x2="1056" y2="286" stroke="#E5E7EB" stroke-width="1"/>
 
-  <!-- ==================== -->
-  <!-- Bottom Annotation -->
-  <!-- ==================== -->
-  <text x="440" y="406" text-anchor="middle" font-size="11" font-weight="500" fill="#151D1A">Depth within a chosen zone is more valuable than overextension across zones.</text>
-  <text x="440" y="424" text-anchor="middle" font-size="10" fill="#6B7280">The right zone is the one that matches your strategic context.</text>
+  <!-- Bottom annotation -->
+  <text x="540" y="314" text-anchor="middle" font-size="11" font-weight="500" fill="#151D1A">Depth within a chosen zone is more valuable than overextension across zones.</text>
+  <text x="540" y="334" text-anchor="middle" font-size="10" fill="#6B7280">The right zone is the one that matches your strategic context.</text>
 
 </svg>
