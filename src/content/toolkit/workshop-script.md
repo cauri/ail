@@ -294,6 +294,8 @@ After you receive the team report, I recommend scheduling a goal-setting session
 
 ## Facilitator Troubleshooting Guide
 
+*The troubleshooting responses below are all interventions within the diagnosis-intervention cycle: observe a pattern, form a hypothesis about what is driving it, choose a specific intervention, and assess whether it shifts the dynamic. When using these responses, be explicit with yourself about what you are diagnosing and why you chose this particular intervention. If the intervention does not produce the expected shift, update your diagnosis and try a different approach.*
+
 ### The team is giving uniformly high scores
 
 *This may indicate social desirability bias -- people scoring what they think they should score rather than what they actually do.*
