@@ -1,5 +1,5 @@
 ---
-import MarketingLayout from '../../layouts/MarketingLayout.astro';
+import PageLayout from '../../layouts/PageLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allDocs = await getCollection('toolkit');
@@ -44,7 +44,7 @@ const sectionMeta: Record<string, { label: string; description: string; icon: st
 };
 ---
 
-<MarketingLayout title="Facilitator Toolkit" description="Resources for certified ACE facilitators: diagnostic tools, report templates, and reference materials.">
+<PageLayout title="Facilitator Toolkit" description="Resources for certified ACE facilitators: diagnostic tools, report templates, and reference materials.">
   <section class="bg-white px-6 py-24">
     <div class="mx-auto max-w-4xl">
       <h1 class="font-heading text-4xl leading-tight tracking-[-0.06em] text-primary md:text-5xl">
@@ -86,4 +86,4 @@ const sectionMeta: Record<string, { label: string; description: string; icon: st
       })}
     </div>
   </section>
-</MarketingLayout>
+</PageLayout>

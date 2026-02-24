@@ -1,12 +1,12 @@
 ---
-import MarketingLayout from '../../layouts/MarketingLayout.astro';
+import PageLayout from '../../layouts/PageLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allDocs = await getCollection('research');
 const sorted = allDocs.sort((a, b) => a.data.order - b.data.order);
 ---
 
-<MarketingLayout title="Research" description="Research supporting the ACE framework, including literature reviews, validation study designs, and interview guides.">
+<PageLayout title="Research" description="Research supporting the ACE framework, including literature reviews, validation study designs, and interview guides.">
   <section class="bg-white px-6 py-24">
     <div class="mx-auto max-w-4xl">
       <h1 class="font-heading text-4xl leading-tight tracking-[-0.06em] text-primary md:text-5xl">
@@ -39,4 +39,4 @@ const sorted = allDocs.sort((a, b) => a.data.order - b.data.order);
     </div>
   </section>
 
-</MarketingLayout>
+</PageLayout>

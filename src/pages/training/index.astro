@@ -1,12 +1,12 @@
 ---
-import MarketingLayout from '../../layouts/MarketingLayout.astro';
+import PageLayout from '../../layouts/PageLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allModules = await getCollection('training');
 const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
 ---
 
-<MarketingLayout title="Training Program" description="The ACE Facilitator Certification program prepares practitioners to diagnose, advise, and guide organizations through AI adoption.">
+<PageLayout title="Training Program" description="The ACE Facilitator Certification program prepares practitioners to diagnose, advise, and guide organizations through AI adoption.">
   <section class="bg-white px-6 py-24">
     <div class="mx-auto max-w-4xl">
       <h1 class="font-heading text-4xl leading-tight tracking-[-0.06em] text-primary md:text-5xl">
@@ -101,4 +101,4 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
     </div>
   </section>
 
-</MarketingLayout>
+</PageLayout>
