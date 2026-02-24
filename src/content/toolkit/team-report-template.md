@@ -2,6 +2,8 @@
 title: "ACE Diagnostic: Team Report"
 description: "Template for producing a team-level diagnostic report after an ACE workshop."
 section: "reports"
+type: "report"
+audience: "facilitator"
 order: 1
 ---
 **Team:** {{TEAM_NAME}}
@@ -9,6 +11,18 @@ order: 1
 **Facilitator:** {{FACILITATOR_NAME}}
 **Participants:** {{PARTICIPANT_COUNT}} team members ({{PARTICIPANT_ROLES}})
 **Zones Assessed:** {{ZONES_ASSESSED}}
+
+---
+
+## How to Read This Report
+
+This report is the product of a facilitated self-assessment workshop in which your team scored its own practices against the ACE framework's behavioral criteria. Scores reflect the team's collective judgment about how frequently specific behaviors occur in daily work -- not an external audit or a performance evaluation. No individual scores are recorded; every number in this report is a team-level composite.
+
+The report is structured in four parts. The **Executive Summary** gives the overall zone and competency stage assessment with key strengths and opportunities. **Zone-by-Zone Results** presents composite scores for each diagnostic question along with discussion highlights and high-variance items -- areas where team members' experiences diverged significantly. The **Proficiency Analysis** maps scores to specific observable behaviors, distinguishing between strong, developing, and gap proficiencies. Finally, **Recommended Investments** translates the findings into sequenced, actionable next steps with expected effort, timeline, and benefit.
+
+Scores use a 1-5 frequency scale (1 = Never, 5 = Always). A composite score is the most frequent response across all team members for a given question; ties resolve to the lower value. Competency stages (Emerging, Developing, Established, Exemplary) describe how habitual the zone's behaviors are under real working conditions, including pressure. For full scoring methodology, see the Appendix at the end of this report or the [Scoring Thresholds](/toolkit/scoring-thresholds) reference.
+
+This report is confidential to your team. A separate management report with aggregated, anonymized patterns has been provided to organizational leadership. That report does not contain your scores, discussion content, or identified blockers.
 
 ---
 

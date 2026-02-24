@@ -2,6 +2,8 @@
 title: "Organizational Health Metrics"
 description: "Metrics for the management report covering systemic organizational health indicators for AI adoption success."
 section: "metrics"
+type: "catalog"
+audience: "facilitator"
 order: 3
 ---
 This document defines metrics for the **management report** -- systemic organizational health indicators that measure whether the organization is creating the conditions for AI adoption success. These metrics are distinct from the team-level metrics in the [Metrics Tree](/toolkit/metrics-tree) and [Zone-Specific Metrics](/toolkit/zone-specific-metrics). They belong in leadership dashboards and organizational reviews, not team retrospectives.

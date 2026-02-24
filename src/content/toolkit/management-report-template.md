@@ -3,6 +3,8 @@ title: "ACE Diagnostic: Management Report"
 description: "Template for producing a management-level report summarizing diagnostic results across multiple teams."
 section: "reports"
 order: 3
+type: "report"
+audience: "leadership"
 ---
 **Organization:** [ORGANIZATION NAME]
 **Date:** [DATE]
@@ -60,6 +62,14 @@ order: 3
 ## Zone Distribution
 
 *Facilitator guidance: Use the table below to show how many teams are at each zone and stage. Do not name which team is at which zone. The purpose is to show the organizational distribution, not to rank teams against each other. If a team requested that even their zone not be disclosed in aggregate, honor that and note the adjusted total.*
+
+> **Small-Organization Anonymization Check:** Before completing this section, assess whether the zone distribution table would effectively de-anonymize individual teams. With fewer than 5 teams, a distribution table often makes it trivial for leadership to infer which team is at which zone -- especially when leadership already knows team characteristics, recent performance, or AI enthusiasm levels. Apply the following guidance:
+>
+> - **Fewer than 3 teams assessed:** Do not include the zone distribution table. Report only organization-level findings and investment themes. State: *"With fewer than three teams assessed, a zone distribution would effectively disclose individual team results. This section presents organization-level patterns only."* Skip the table entirely and proceed to the Systemic Findings section.
+> - **3-4 teams assessed:** Include the table only if the distribution does not isolate any single team in a zone/stage cell. If any cell in the table would contain "1" and leadership could reasonably identify which team that represents, either (a) collapse the stage columns and report only zone totals, or (b) report only the organizational center of gravity (e.g., "The majority of teams are operating at Zone 1") without a detailed table. State which approach you used and why.
+> - **5 or more teams assessed:** The table format below is generally safe. Still check for outlier cells that isolate a single team.
+>
+> When in doubt, err on the side of protecting team anonymity. The management report's value comes from organizational patterns and investment themes, not from team-level zone assignments. If the table cannot be presented without compromising confidentiality, omit it -- the report remains useful without it.
 
 ### Current State: Teams by Zone and Stage
 

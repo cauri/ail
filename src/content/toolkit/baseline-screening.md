@@ -2,6 +2,8 @@
 title: "Zone 0 Baseline Screening"
 description: "These screening questions determine whether an organization has any meaningful AI usage in software development."
 section: "diagnostic"
+type: "diagnostic"
+audience: "facilitator"
 order: 5
 ---
 ## Purpose

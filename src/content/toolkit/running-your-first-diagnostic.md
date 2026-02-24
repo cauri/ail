@@ -2,6 +2,8 @@
 title: "Running Your First Diagnostic Workshop"
 description: "This tutorial walks you through the full arc of an ACE diagnostic workshop -- from preparation to follow-up."
 section: "guides"
+type: "diagnostic"
+audience: "facilitator"
 order: 2
 ---
 This tutorial walks you through the full arc of an ACE diagnostic workshop — from preparation to follow-up. It is written as a learning journey, not a checklist. You will understand not just what to do at each step, but why it matters and what to watch for.

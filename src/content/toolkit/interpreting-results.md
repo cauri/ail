@@ -2,6 +2,8 @@
 title: "Interpreting Diagnostic Results: A Tutorial for New Facilitators"
 description: "You have just facilitated your first ACE diagnostic workshop."
 section: "guides"
+type: "diagnostic"
+audience: "facilitator"
 order: 3
 ---
 This tutorial is a companion reference for trained facilitators. It provides worked examples of the interpretation process covered in [Module 2: Diagnostic Facilitation Skills](/training/module-2-diagnostic-facilitation). If you have not completed Module 2, start there.
@@ -41,13 +43,13 @@ Here are the raw scores for all twelve Zone 1 questions:
 
 The first thing to check is always the core metric. In Zone 1, that is Question 1.
 
-**Why the core metric comes first:** Each zone has one question that represents its defining behavior. For Zone 1, that is pressure-resilient AI usage -- not "do you use AI tools" but "do you still use AI tools when things get hard." The core metric is the single most important behavior to examine. If the core metric composite is low, the team is not yet approaching Exemplary regardless of other scores.
+**Why the core metric comes first:** Each zone has one question that represents its defining behavior. For Zone 1, that is pressure-resilient AI usage -- not "do you use AI tools" but "do you still use AI tools when things get hard." The core metric is the single most important behavior to examine. If the core metric composite is low, the team is not yet approaching Consistent or Exemplary regardless of other scores.
 
 **Looking at the data:** The Q1 scores are 5, 4, 5, 3, 4.
 
 What do you see? Alex and Casey are at 5. Blair and Morgan are at 4 -- they use AI tools under pressure often, but not always. Dana is at 3 -- sometimes, but inconsistently.
 
-**Applying the threshold:** For Exemplary, we need all three criteria met: zone composite average ≥ 4.7, standard deviation ≤ 0.5, and no question composite below 4.0. The Q1 composite of 4.2 already shows significant variation (individual scores range from 3 to 5), which will drive up the overall standard deviation. This is a signal worth noting early.
+**Applying the threshold:** For Consistent status (the quantitative threshold), we need all three criteria met: zone composite average ≥ 4.7, standard deviation ≤ 0.5, and no question composite below 4.0. The Q1 composite of 4.2 already shows significant variation (individual scores range from 3 to 5), which will drive up the overall standard deviation. This is a signal worth noting early.
 
 Already, the core metric has told you something important: the team has significant variation in its most critical behavior. Keep reading to see the full picture.
 
@@ -74,13 +76,13 @@ Let's verify:
 
 Total: 57+50+57+39+47 = 250. Divide by 60 = **4.17**.
 
-An overall average of 4.17 places us in the Established range (4.0--4.9), not Emerging or Developing. The overall average is used to anchor the stage, but remember: we still need to check whether the three Exemplary criteria are met.
+An overall average of 4.17 places us in the Established range (4.0--4.9), not Emerging or Developing. The overall average is used to anchor the stage, but remember: we still need to check whether the three quantitative threshold criteria for Consistent are met.
 
 ---
 
 ## Step 3: Identify the Zone Stage
 
-With an overall average of 4.17, the team is in the Established band. Now check whether they meet all three criteria for Exemplary:
+With an overall average of 4.17, the team is in the Established band. Now check whether they meet all three quantitative criteria for Consistent:
 
 **Criterion 1 -- High Composite Average:** The zone composite average must be ≥ 4.7. The average of all question composites is (4.2 + 4.4 + 4.2 + 3.8 + 4.2 + 4.6 + 4.2 + 4.0 + 3.8 + 4.2 + 4.0 + 4.4) / 12 = 4.17. Threshold is 4.7. Criterion 1 is **not met**.
 
@@ -88,13 +90,13 @@ With an overall average of 4.17, the team is in the Established band. Now check 
 
 **Criterion 3 -- No Weak Links:** Every question composite must be ≥ 4.0. Looking at the composites: 4.2, 4.4, 4.2, 3.8, 4.2, 4.6, 4.2, 4.0, 3.8, 4.2, 4.0, 4.4. Q4 and Q9 both have composites of 3.8, which is below 4.0. Criterion 3 is **not met**.
 
-**Stage determination:** Overall average 4.17, none of the three Exemplary criteria met.
+**Stage determination:** Overall average 4.17, none of the three quantitative threshold criteria met.
 
 The team is **Zone 1, Established**.
 
 *Note: These threshold values are expert-judgment starting points, not empirically validated cutoffs. See the [Evidence Basis](/toolkit/scoring-thresholds#evidence-basis) section of the scoring thresholds document. For scores within +/-0.2 of any threshold boundary, rely more heavily on behavioral evidence from the workshop discussion than on the numeric classification (see the [sensitivity guidance](/toolkit/scoring-thresholds#evidence-basis) in the scoring thresholds document). Your facilitated judgment about the team's actual behavior should take precedence over the numeric classification.*
 
-Not Emerging (average is above 2.9). Not Developing (average is above 3.9). Not Exemplary (criteria not met). Established is the correct call.
+Not Emerging (average is above 2.9). Not Developing (average is above 3.9). Not Consistent or Exemplary (quantitative criteria not met). Established is the correct call.
 
 ---
 
@@ -148,7 +150,7 @@ Here is a draft narrative for this team:
 
 *Across the whole team, Question 4 (mode selection: vibe-coding vs. CHOP vs. AI-assisted coding) and Question 9 (QA AI usage) are the weakest areas, both at 3.8 composite. The team uses AI tools well but may benefit from a brief discussion on deliberate mode selection and on extending AI-assisted practices to testing workflows. These are refinements, not foundational gaps.*
 
-*The team is well-positioned to reach Exemplary within 1--3 months with targeted support for Dana and a light team conversation on mode selection.*
+*The team is well-positioned to reach Consistent status within 1--3 months with targeted support for Dana and a light team conversation on mode selection.*
 
 ---
 
@@ -162,7 +164,7 @@ Notice what this narrative does not do. It does not say "Dana is behind." It say
 
 **Over-weighting the highest scorer.** Conversely, one enthusiastic AI adopter who rates everything a 5 can inflate the team's average and obscure the reality that most team members are at 3. A single person's competency does not constitute team competency.
 
-**Confusing Zone 1 proficiency with Zone 2 proficiency.** A team with strong Zone 1 scores has not necessarily done any Zone 2 work. Individual AI tool usage and team-level AI integration are genuinely different capabilities. A team of excellent individual AI users with no shared AGENTS.md and no mandatory feedback loops is Zone 1 Exemplary, not Zone 2 anything.
+**Confusing Zone 1 proficiency with Zone 2 proficiency.** A team with strong Zone 1 scores has not necessarily done any Zone 2 work. Individual AI tool usage and team-level AI integration are genuinely different capabilities. A team of excellent individual AI users with no shared AGENTS.md and no mandatory feedback loops is Zone 1 Consistent (or Exemplary), not Zone 2 anything.
 
 **Assuming high scores mean competency.** Self-reported scores can reflect aspiration as much as behavior. A team that enthusiastically believes they should be using AI tools may rate themselves higher than their actual behavior warrants. When scores seem surprisingly high, probe in discussion: "Can you describe what happened when you had that deployment incident last month -- did you reach for AI tools during that?" Behavioral specificity reveals whether scores reflect habit or intention.
 
@@ -190,7 +192,7 @@ Here is a second Zone 1 dataset for you to interpret. Work through the five step
 
 **Answers:**
 
-**Step 1 -- Core metric:** Q1 scores are 3, 3, 4, 2. No one is at 5. The composite is 3.0. The team clearly does not meet Exemplary or Established criteria on the core metric.
+**Step 1 -- Core metric:** Q1 scores are 3, 3, 4, 2. No one is at 5. The composite is 3.0. The team clearly does not meet Consistent or Established criteria on the core metric.
 
 **Step 2 -- Overall average:** Total all scores: Priya (33) + Sam (32) + Teo (42) + Wen (21) = 128. Divide by 48 responses (4 × 12) = **2.67**.
 
@@ -205,6 +207,63 @@ Here is a second Zone 1 dataset for you to interpret. Work through the five step
 **Step 5 -- Narrative:** This team is in the early stages of Zone 1 adoption. AI tool usage is present but inconsistent and fragile. Teo is the most advanced adopter; Wen has the most ground to cover. The team does not yet have habitual AI usage under pressure (all Q1 scores are 3 or below). The recommended focus is on building consistent daily habits through reduced barriers, clearer permission to use AI tools in all contexts (including production pressure), and structured practice rather than ad-hoc experimentation. Address Wen's low scores specifically -- there may be an access or confidence barrier worth surfacing directly. The low Q6/Q8/Q11 scores may simply reflect lack of PM and design presence on the team rather than a gap, but AI usage for documentation and commit messages (also covered by Q6--Q7) is worth encouraging. Q12 (onboarding) scores suggest the team has no structured process for bringing new members into AI-assisted workflows.
 
 **Facilitator note on role composition:** This practice exercise features an engineering-only team with no PM or designer. Facilitators should consider how the interpretation would differ if the team had a different role composition. For example: a full cross-functional team (engineers, PM, designer, QA) with these same score patterns would warrant a different narrative -- the low Q6/Q8/Q11 scores would be a genuine gap rather than an artifact of role composition. Conversely, an engineering-only team may show artificially high averages on engineering-focused questions because every respondent works in that domain. When interpreting real diagnostic results, always account for who is on the team and how role composition shapes which questions are most meaningful. A team's role composition does not invalidate the diagnostic, but it does change which patterns are diagnostic signals and which are compositional artifacts.
+
+---
+
+## Triangulating Assessment Sources
+
+The ACE diagnostic produces richer, more reliable results when the team's self-assessment is triangulated against independent data sources. Three assessment sources are available, each with a different bias profile and a different kind of validity.
+
+### Source 1: Team Self-Assessment (Primary Measurement)
+
+The team's post-discussion self-assessment scores are the primary measurement for threshold calculations and stage determination. These scores reflect the team's own assessment of their behavioral frequency, recalibrated through facilitated discussion and behavioral probing.
+
+**Bias profile:** Self-report data is subject to social desirability bias (reporting what one should do rather than what one does), aspiration bias (reporting intended behavior rather than actual behavior), and conformity effects (adjusting scores toward perceived group norms during discussion). The facilitation methodology partially mitigates these biases, but residual inflation is expected.
+
+**When to use:** Always. Team self-assessment is the foundational data source for every diagnostic.
+
+### Source 2: Facilitator Evidence-Based Assessment (Concurrent Validity Check)
+
+After the workshop discussion --- not during, and not before --- the facilitator independently rates the team on each question based solely on the behavioral evidence produced during the session. This creates a concurrent validity check: the facilitator's assessment is based on the same time window as the team's self-assessment but represents an independent evaluation of the evidence.
+
+**How to conduct:** After the workshop concludes, the facilitator completes the same zone questionnaire, scoring each question based on the behavioral examples, specific incidents, and evidence the team produced during discussion. The facilitator does not base scores on their general impression of the team or on information obtained outside the workshop.
+
+**Bias profile:** Facilitator ratings may be influenced by halo effects (overall impression of the team coloring individual question scores), anchoring to the team's stated scores, and limited evidence (the facilitator only sees evidence the team chose to share during discussion). However, facilitator ratings are not subject to the self-serving biases that affect self-assessment.
+
+**When to use:** Every diagnostic. The facilitator completes their independent assessment as part of the standard post-workshop process.
+
+**Reporting:** Both score sets appear in the team report as separate data sources: "Team Self-Assessment" and "Facilitator Evidence-Based Assessment." The discrepancy between the two is a reported finding, not a correction. If the team self-assesses at 4.5 on a question and the facilitator rates it at 3.8, the report says: "The team rated this behavior at 4.5. Based on the behavioral evidence discussed, the facilitator rated it at 3.8. The gap suggests that the team's aspiration for this behavior exceeds the evidence produced during discussion --- either because the behavior is less consistent than the team perceives, or because the team did not surface representative evidence during the workshop."
+
+**Important:** For threshold calculations and stage determination, use the team's post-discussion self-assessment scores, not the facilitator's scores. The facilitator's scores are diagnostic context that enriches the report and provides a calibration check. They do not override the team's self-assessment. This preserves the self-assessment construct while making the calibration gap visible and actionable.
+
+### Source 3: Artisan Observation (Ecological Validity Check)
+
+For re-diagnostics (not initial diagnostics), the embedded Artisan team lead completes a structured behavioral assessment before the re-diagnostic workshop, based on what they have directly observed in the team's daily work during the engagement period. This provides ecological validity: the Artisan's observations cover the team's actual behavior over weeks or months of daily work, not a single session of facilitated recall.
+
+**How to conduct:** Before the re-diagnostic workshop, the Artisan team lead completes a structured observation form covering the same behavioral dimensions as the zone diagnostic. The form uses a 3-point scale:
+- **Observed consistently:** The behavior was a regular part of the team's daily work, including under pressure.
+- **Observed sometimes:** The behavior occurred but was inconsistent or dropped off under pressure.
+- **Not observed or rarely observed:** The behavior was absent or occurred too infrequently to characterize as a practice.
+
+The 3-point scale (rather than the 5-point self-report scale) is used because the Artisan is rating from direct observation, where finer distinctions are less reliable than in self-report. The Artisan form is shared with the Facilitator only --- it is not shown to the team before the workshop.
+
+**Bias profile:** Artisan observations may be influenced by observer effects (the team behaves differently when the Artisan is present), selection bias (the Artisan sees some work contexts more than others), and the Artisan's own relationship with the team. However, Artisan observations are the most ecologically valid data source because they are based on extended, direct observation of daily behavior rather than facilitated recall.
+
+**When to use:** Re-diagnostics only, where an Artisan has been embedded with the team. Initial diagnostics use Sources 1 and 2 only.
+
+**Reporting:** Artisan observations appear in the report as a separate data source: "Embedded practitioner observations for the period [start date] to [end date]." The Facilitator uses the Artisan observations as a calibration source for targeted probing: if the Artisan reports "not observed" on a behavior the team is likely to rate highly, the Facilitator knows where to probe for specific evidence during the workshop.
+
+### Interpreting Convergence and Divergence
+
+| Pattern | Interpretation | Action |
+|---------|---------------|--------|
+| All three sources converge (similar ratings) | High confidence in the assessment. The team's self-perception aligns with independent evidence. | Report the convergence as a confidence indicator. |
+| Team self-assessment higher than facilitator and Artisan | Systematic inflation. The team's aspiration exceeds observed behavior. | Report the pattern transparently. Focus coaching on the specific behaviors where divergence is largest. |
+| Facilitator higher than team self-assessment | Unusual but possible. The team may be underrating themselves, or the facilitator may have seen stronger evidence than the team recognized. | Probe with the team: "Your scores were lower than what I observed. Is there a reason you rated this lower?" |
+| Artisan observation diverges from workshop evidence | The team's daily behavior may differ from their workshop self-report. The Artisan sees daily practice; the workshop captures curated recall. | Focus probing on the specific behaviors where divergence occurs. The Artisan data is often more representative of daily practice. |
+| Facilitator and Artisan agree but team self-assesses higher | Strong signal of inflation. Two independent sources rate lower than the team's self-report. | Report the pattern directly. The behavioral evidence from two independent sources outweighs self-report for diagnostic purposes, though self-report scores remain the basis for threshold calculations. |
+
+**The discrepancy is a finding, not a correction.** When assessment sources diverge, the divergence itself is diagnostic information. It reveals where the team's self-perception differs from observable behavior. The report should present all available data sources transparently and interpret the pattern, not silently adjust scores to match the facilitator's or Artisan's assessment.
 
 ---
 

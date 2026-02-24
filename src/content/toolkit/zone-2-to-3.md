@@ -3,6 +3,8 @@ title: "Roadmap: Zone 2 (Integrating) to Zone 3 (Accelerating)"
 description: "Roadmap template for progressing from Zone 2 (Integrating) to Zone 3 (Accelerating) with a role identity shift."
 section: "roadmaps"
 order: 3
+type: "zone-reference"
+audience: "facilitator"
 ---
 **Transition type:** Role identity shift
 **Typical duration:** 12-24 months
@@ -12,7 +14,7 @@ This roadmap guides organizations from systematic team-level AI integration (Zon
 
 **This transition requires an explicit organizational decision.** Zone 3 is not the default next step for every organization that achieves Zone 2 competency. It is appropriate only where the strategic context justifies the investment: organizations where AI-driven development velocity is a competitive necessity, where engineering capacity is a meaningful constraint on growth, or where the nature of the product makes AI-generated software economically advantageous at scale. If the organization's strategic context does not clearly justify Zone 3 investment, pursuing deep Zone 2 competency is the right choice. A highly competent Zone 2 organization outperforms a fragile Zone 3 organization in every dimension.
 
-The Prime Directive of Zone 3 is: **You are no longer writing the code. You are designing the process by which code is produced.** Every practice, role, and infrastructure element in this roadmap flows from that reframing.
+The Prime Directive of Zone 3 is: **Your primary job is no longer writing code. It is designing the process by which code is produced.** This is a shift in default mode -- specification-first with implementation exceptions -- not an absolute prohibition on writing code. Every practice, role, and infrastructure element in this roadmap flows from that reframing.
 
 > **For teams with embedded Artisans:** Zone 2→3 involves significant new infrastructure and role definitions. When an Artisan team is embedded, the Artisan AI Engineer helps define and model the AI Engineer role through practice — demonstrating what the role looks like in daily work rather than just defining it on paper. Technical activities like building eval harnesses and implementing CAT pipelines are led jointly by the Artisan Engineer and the client's emerging AI Engineers. The Artisan's goal is not to build the infrastructure for the client, but to build it with them.
 
@@ -31,6 +33,36 @@ Before beginning this roadmap, confirm:
 - [ ] The organization has drafted an AI output accountability policy that addresses: who owns AI output quality, how incidents caused by AI-generated code are handled, what software categories require human authorship regardless of AI capability, and how the organization's regulatory and contractual obligations interact with AI-generated output
 
 **Critical prerequisite:** Zone 2 competency must be genuine, not performed. If teams are following Zone 2 practices because they are mandated rather than because they are habitual, Zone 3 investment will not compound on a solid foundation. Conduct a rigorous Zone 2 competency diagnostic before committing to Zone 3 work.
+
+---
+
+## What Distinguishes Zone 3 from a Sophisticated Zone 2
+
+A mature Zone 2 team -- with strong AGENTS.md, thorough Plan/Code/Verify, robust feedback loops, and high behavioral test coverage -- may reasonably ask: "How is what we are doing different from Zone 3?" The boundary is real but can be difficult to articulate without concrete examples.
+
+**The organizing principle:** Zone 2 testing asks "does the code work?" Zone 3's Continuous Alignment Testing (CAT) asks "is the pipeline producing code that is correct, consistent, and aligned with our standards -- and does it keep doing so even when models change, prompts evolve, and context shifts?"
+
+Three specific examples illustrate the distinction:
+
+**Model version drift.** A Zone 2 team has strong behavioral tests that run on every commit: given input X, the system produces output Y. On Tuesday, the LLM provider updates the underlying model. No code changed. No commits happened. The Zone 2 test suite does not run because nothing triggered it. But the AI pipeline that generates API endpoint implementations now produces subtly different error handling -- wrapping exceptions differently, returning different HTTP status codes for edge cases, or structuring response payloads with slightly different field ordering. A CAT pipeline runs on a schedule (not just on commits) and specifically tests whether AI pipeline outputs remain aligned with behavioral expectations even when the code has not changed. The distinguishing capability: CAT detects drift in AI behavior independent of code changes.
+
+**Prompt regression across contexts.** A Zone 2 team updates their AGENTS.md to add a new architectural constraint: "All new database queries must use parameterized queries, no string concatenation." Their existing tests verify that the application works correctly -- queries return right results, endpoints respond properly. But the tests do not verify that the AI agent, when generating new database code next week, will actually follow the new constraint. A CAT pipeline includes eval cases that feed the current prompt configuration a representative set of coding tasks and verify that the outputs comply with all stated constraints -- including the new one. It catches the case where adding constraint A causes the agent to forget or deprioritize constraint B. The distinguishing capability: CAT tests the generation pipeline's compliance with specifications, not just the generated code's functional correctness.
+
+**Cross-cutting behavioral consistency.** A Zone 2 team has tests for each feature. Feature A works, Feature B works, Feature C works. But the AI pipeline generated each feature in a separate session, and they handle errors inconsistently: Feature A returns structured JSON errors, Feature B returns plain text errors, Feature C returns HTML error pages. Each passes its own tests because the tests check "does an error response come back?" not "does the error response follow our organizational standard?" A CAT pipeline includes cross-cutting eval criteria that assess consistency across pipeline outputs -- not just "does each output work?" but "do all outputs conform to the same behavioral standards?" The distinguishing capability: CAT evaluates portfolio-level consistency, not just per-unit correctness.
+
+Teams that recognize these gaps in their current testing approach -- and are ready to invest in the infrastructure to address them -- are ready for Zone 3. Teams that have strong per-unit testing but have not yet encountered (or addressed) these cross-cutting quality concerns are demonstrating mature Zone 2 practice, which is a valuable and legitimate capability.
+
+---
+
+## Preparing for the Identity Shift
+
+The Zone 2-to-3 transition is not primarily a capability upgrade -- it is a professional identity redefinition. Organizations that treat it as "adding more sophisticated tools and practices" will encounter resistance that appears irrational until they recognize it as identity protection.
+
+At Zone 2, engineers are skilled professionals who use AI tools as part of their workflow. Their professional identity -- "I am a software engineer who writes good code" -- remains intact. Zone 3 asks them to redefine that identity: "I am an engineer who designs the systems that produce code." This is not a small ask. Engineers have spent years, sometimes decades, building mastery in implementation. The craft of writing code -- solving problems elegantly, understanding systems deeply enough to implement them correctly, the satisfaction of seeing working software that you built -- is a source of professional pride and personal meaning.
+
+Zone 3 does not eliminate this expertise. It redirects it toward a higher abstraction level. But the redirection involves a genuine loss that must be acknowledged before the new identity can take hold. Organizations that begin Zone 3 investment without preparing their teams for this identity shift will discover resistance mid-transition that is harder and more expensive to address than it would have been to prevent.
+
+The roadmap activities below include specific identity transition support: workshops, Neutral Zone check-ins, and structured conversations. These are not optional additions to the technical work -- they are prerequisites for the technical work to succeed.
 
 ---
 

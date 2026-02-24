@@ -3,6 +3,8 @@ title: "How to Choose a Target Zone"
 description: "This guide walks through the process of selecting the right ACE target zone for a client organization."
 section: "guides"
 order: 4
+type: "planning"
+audience: "facilitator"
 ---
 This guide walks through the process of selecting the right ACE target zone for a client organization. It covers ground taught in depth in [Module 3: Goal Setting & Zone Selection](/training/module-3-goal-setting). Use this as a preview before training or as a refresher before engagements.
 
@@ -29,7 +31,7 @@ If the organization is already at Zone 2, proceed to Step 2 to determine whether
 
 ## Step 2: Assess Organizational Context
 
-Every zone transition deserves strategic analysis. For organizations at Zone 2 considering further progression, evaluate across three dimensions:
+Every zone transition deserves strategic analysis. For organizations at Zone 2 considering further progression, evaluate across five dimensions:
 
 ### Ethical Readiness
 
@@ -74,6 +76,17 @@ Not every organization benefits from AI-native development capabilities. Ask:
 - Would the engineering talent we need to attract and retain expect Zone 3+ practices, or is Zone 2 sufficient for our talent market?
 
 **Low strategic need** suggests that investment in Zone 3 or 4 carries opportunity cost -- those resources might deliver more value applied elsewhere.
+
+### Change Capacity
+
+Zone transitions consume organizational adaptive capacity -- the finite bandwidth an organization has for absorbing change. An organization with strong strategic need and adequate investment capacity can still fail a zone transition if it is already saturated with other changes. Ask:
+
+- How many other significant change initiatives is the organization currently absorbing? (Reorg, new leadership, methodology change, major product pivot, etc.)
+- Has the organization recently completed a large change initiative -- and if so, has the organization recovered, or is change fatigue still present?
+- Do engineering managers have the bandwidth to support an additional transition, or are they already stretched by existing change demands?
+- Does the emotional climate across teams suggest sufficient energy for another transition? (See the [Context Analysis Template](/toolkit/context-analysis-template) Emotional Climate Assessment for how to assess this.)
+
+**Low change capacity** suggests deferring the zone transition until current changes are absorbed, reducing the scope of the transition (fewer teams, longer timeline), or targeting depth within the current zone rather than advancing. An organization with high change saturation that pushes forward anyway risks producing superficial adoption that regresses under stress -- people go through the motions during the transition but revert to previous behaviors when attention shifts.
 
 ![VA-9: Zone Selection Decision Framework](/images/zone-selection-decision-framework.svg)
 

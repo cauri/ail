@@ -1,6 +1,8 @@
 ---
 title: "Zone 1 (Augmenting) Diagnostic Questions"
 description: "These questions assess whether individual team members have adopted AI tools as a habitual part of their daily work."
+type: "diagnostic"
+audience: "facilitator"
 section: "diagnostic"
 order: 1
 ---
@@ -22,9 +24,16 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 3. When encountering unfamiliar code, error messages, or unexpected behavior, team members query an AI assistant as a standard diagnostic step alongside traditional approaches like reading documentation or searching the web.
 
-4. Developers select the appropriate mode of AI engagement for the task at hand --- distinguishing between vibe-coding for exploratory prototyping, CHOP (Chat-Oriented Programming) for interactive coding tasks, and AI-assisted coding with rigorous review for production work.
+4. Developers consciously select their mode of AI engagement based on the task context. *This question is scored as a composite of three sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
 
-5. Developers review and assess AI-generated code for correctness, security, and alignment with project conventions before accepting it, rather than accepting or rejecting output without examination.
+    - **4a.** Developers use different AI approaches for exploratory prototyping than for production work --- treating early-stage exploration as an occasion for rapid iteration with AI, not production-quality output.
+    - **4b.** Developers apply rigorous review to AI-generated code destined for production, treating it as a draft requiring verification rather than finished output.
+    - **4c.** Developers consciously choose their mode of AI engagement based on the task context rather than using the same approach for all tasks.
+
+5. Developers review and assess AI-generated code before accepting it. *This question is scored as a composite of two sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
+
+    - **5a.** Developers review AI-generated code for correctness and security before accepting it, rather than accepting or rejecting output without examination.
+    - **5b.** Developers verify that AI-generated code aligns with the project's conventions and architectural patterns before accepting it.
 
 6. Product managers and other non-engineering team members use AI tools for their role-specific work: drafting user stories, synthesizing research, preparing stakeholder communications, or summarizing meetings.
 
@@ -66,11 +75,11 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **PM and design underrepresentation.** If non-engineering roles are not present in the diagnostic session, their perspectives will be missing. Ensure these roles participate or are explicitly represented.
 
-- **Question 4 combines multiple concepts.** Question 4 (selecting appropriate AI engagement modes) references three distinct modes: vibe-coding, CHOP, and AI-assisted coding with review. Some teams may use AI effectively without using this specific taxonomy. Focus on whether the team demonstrates intentional mode selection -- choosing different approaches for exploration vs. production work -- rather than requiring familiarity with these specific terms.
+- **Question 4 sub-items capture distinct behaviors.** Question 4 is split into three sub-items to separate the behavioral components: using different approaches for prototyping vs. production (4a), applying rigorous review to production code (4b), and making conscious mode-selection decisions (4c). Some teams may use AI effectively without using specific terminology like "vibe-coding" or "CHOP." Focus on whether the team demonstrates the underlying behaviors -- choosing different approaches for exploration vs. production work -- rather than requiring familiarity with these specific terms. Score each sub-item independently; the average produces the Q4 composite.
 
 ### Role Applicability
 
-Not all questions apply equally to all roles. Questions 2, 3, 4, 5, and 7 are primarily engineering-focused. Questions 6 and 10 are PM-focused. Questions 8 and 11 are design-focused. Question 9 is QA-focused. Questions 1 and 12 apply to all roles. When a question is not relevant to a team member's role, the facilitator should instruct them to skip it rather than score it artificially. Composite scores should be calculated using only the questions each team member answered. This prevents role-irrelevant questions from diluting the assessment -- a PM who scores low on engineering-specific questions is providing noise, not signal.
+Not all questions apply equally to all roles. Questions 2, 3, 4 (all sub-items), 5 (all sub-items), and 7 are primarily engineering-focused. Questions 6 and 10 are PM-focused. Questions 8 and 11 are design-focused. Question 9 is QA-focused. Questions 1 and 12 apply to all roles. When a question is not relevant to a team member's role, the facilitator should instruct them to skip it rather than score it artificially. Composite scores should be calculated using only the questions each team member answered. This prevents role-irrelevant questions from diluting the assessment -- a PM who scores low on engineering-specific questions is providing noise, not signal.
 
 ---
 

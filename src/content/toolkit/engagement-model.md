@@ -1,6 +1,8 @@
 ---
 title: "ACE Consulting Engagement Model"
 description: "This document defines the ACE consulting engagement structure — two concurrent tracks (assessment and delivery) where facilitators build the diagnostic picture while Artisans work alongside client teams to build real capability."
+type: "engagement"
+audience: "facilitator"
 section: "consulting"
 order: 1
 ---
@@ -54,6 +56,18 @@ Conduct structured interviews with three stakeholder tiers:
 
 See [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide) for question sets.
 
+**Change Capacity Assessment (concurrent with interviews)**
+
+Every zone transition competes with the organization's other change initiatives for a finite pool of human adaptability. Before recommending zone targets or designing diagnostic scope, the facilitator should assess whether the organization has sufficient change capacity to absorb the AI adoption investment alongside its existing change load.
+
+During stakeholder interviews, probe for:
+- What other significant change initiatives are currently underway (reorganizations, cloud migrations, methodology shifts, leadership transitions)
+- How recently the organization completed a major transformation, and whether it is still recovering
+- Whether engineering teams would describe themselves as having capacity for another change initiative
+- How many transformation or process improvement programs have been launched in the past 18 months, and how many are still actively supported
+
+If the organization is simultaneously running multiple major change initiatives, this finding should shape diagnostic scope, goal-setting recommendations, and roadmap design. High change saturation does not mean AI adoption should be abandoned -- it means the pace, scope, and ambition of the engagement should be calibrated to the organization's actual absorption capacity. A change-saturated organization may benefit from targeting a nearer zone with a longer timeline rather than attempting an ambitious transition that will compete with other initiatives for the same pool of adaptive energy. See the [Context Analysis Template](/toolkit/context-analysis-template) for the full change capacity assessment structure, and the [How to Choose a Target Zone](/toolkit/choose-target-zone) guide for how change capacity informs zone selection.
+
 **Context Analysis (1-2 weeks)**
 
 Compile findings into a structured context analysis covering:
@@ -63,6 +77,7 @@ Compile findings into a structured context analysis covering:
 - Development maturity baseline (CI/CD practices, testing culture, delivery practices, deployment frequency)
 - AI-relevant organizational context (security policies, compliance requirements, procurement process, data sensitivity)
 - Competitive landscape (what are peers and competitors doing with AI-augmented development?)
+- Change capacity (concurrent change initiatives, change history, organizational resilience)
 - Key stakeholders and their perspectives on AI adoption
 - Initial zone hypothesis (the facilitator's pre-diagnostic estimate of where teams likely fall)
 

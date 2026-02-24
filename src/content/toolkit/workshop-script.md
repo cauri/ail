@@ -1,6 +1,8 @@
 ---
 title: "Diagnostic Workshop Facilitation Script"
 description: "This is a detailed, ready-to-use script for running an ACE diagnostic workshop."
+type: "diagnostic"
+audience: "facilitator"
 section: "diagnostic"
 order: 7
 ---
@@ -166,9 +168,21 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 - *Any questions where the entire team scored low*
 - *Any questions where scores cluster tightly*
 
+*Diagnostic reasoning pause. Before you open the discussion, stop and diagnose. You now have the score distribution in front of you. Ask yourself three questions:*
+
+*1. What is the most important pattern in this data? (High variance on a specific item? Uniform highs that may indicate social desirability? A core metric that is lower than surrounding questions? A role-based split?)*
+
+*2. What hypothesis do I have about what is driving that pattern? (Is the variance because of role differences, access differences, interpretation differences, or genuine behavioral differences?)*
+
+*3. What intervention will test that hypothesis? (Which discussion question will produce the behavioral evidence that confirms or disconfirms my hypothesis?)*
+
+*The sequence below -- high-variance items first, then core metric, then universally low items -- is a default order. If your diagnosis suggests a different starting point, follow your diagnosis. For example, if the core metric is the most striking pattern, start there. If you suspect social desirability bias because all scores are uniformly high, start with a pressure-resilience probe rather than a variance probe.*
+
 ### Facilitated Discussion (10-15 minutes)
 
 *This is where the value is. The scores are the conversation starter; the discussion is the insight generator. Use discussion prompts from [Discussion Prompts](/toolkit/discussion-prompts), but also follow the energy in the room.*
+
+*Transparency about scoring observations. When your probing is informed by something you observed during the silent scoring phase -- a hesitation, a glance, someone who finished very quickly or very slowly -- name the pattern when you use it. Example: "I noticed during the scoring that a few people paused on this question for a while before answering. That sometimes means the question was hard to answer clearly. Can anyone who found this question ambiguous share what made it difficult?" This is more transparent than probing without explaining why you chose that question. Name the pattern you observed, not the individual person.*
 
 "Let us talk about what these scores tell us. I want to focus on a few things I noticed."
 
@@ -199,6 +213,14 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 "Thank you. Before we move to the next zone, does anyone have a final thought about what these scores are telling us?"
 
 *Capture key themes in your notes. You will need these for the report.*
+
+*Between-zone diagnostic check. Before introducing the next zone, take 30 seconds to update your working diagnosis. Ask yourself:*
+
+*- What did I learn about this team's dynamics during the discussion? (Who speaks freely? Who defers? Who gave evidence easily and who struggled? Did anyone's body language suggest they were withholding?)*
+
+*- How should this inform my facilitation of the next zone? (If one person dominated Zone 1 discussion, I need to actively solicit other voices in Zone 2. If the team produced rich behavioral evidence easily, I can push harder on specificity. If the team was defensive about low scores, I need to re-establish safety before Zone 2 scoring.)*
+
+*- Did anything in the discussion change my hypothesis about where this team likely falls on the next zone? (Discovery suggested they might be Zone 2 Developing, but the discussion revealed they do not have shared AI configuration -- should I adjust my probing strategy?)*
 
 ---
 
@@ -234,11 +256,31 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 
 "Based on these scores, your team shows strong habitual practices in [areas] and has clear opportunities to develop in [areas]. This puts you solidly in [zone] with elements of [next zone] emerging."
 
+### Sharing the Pre-Workshop Hypothesis
+
+*Transparency about facilitator expectations. You formed an initial zone hypothesis during Discovery. You withheld it before scoring to avoid anchoring the team's self-assessment. Now that scoring is complete, share it -- the anchoring risk is gone and the divergence between your hypothesis and their scores is diagnostically valuable.*
+
+"Before we move to the retrospective, I want to share something with you. Based on my Discovery interviews and preparation for this workshop, I formed a working hypothesis about where your team might fall. I did not share it before scoring because I did not want it to influence your self-assessment. Now that you have scored independently, here is what I expected: [state hypothesis]. In some areas, your scores match what I expected. In others, they differ -- particularly [name the divergence]. I want to explore those differences together, because the places where my hypothesis and your self-assessment diverge are often where the most important insights are."
+
+### Facilitator Independent Rating
+
+*Complete your own independent rating for each zone question based on the behavioral evidence that surfaced during the facilitated discussion. Use the same 1-5 scale. Record these scores separately from the team's self-assessment scores -- do not adjust the team's scores. Both score sets will appear in the team report: the team's self-assessment scores and the facilitator's evidence-based assessment, with transparent reasoning for any discrepancies. Complete this rating after the workshop concludes, not during it, so that you can focus fully on facilitation during the session.*
+
 ---
 
 ## Retrospective Discussion (20-30 minutes)
 
 *This is the most important part of the workshop. The scores established the baseline; the retrospective generates the insights that drive action.*
+
+*Retrospective diagnosis. You have now spent 60-90 minutes observing this team discuss their AI practices. You have score data, behavioral evidence from discussion, and observations about team dynamics. Before opening the retrospective, form your overall diagnostic hypothesis:*
+
+*- What is the single most important finding from this workshop? (Not the most interesting score pattern -- the most important thing this team needs to understand about their current state.)*
+
+*- Is that finding something the team has already surfaced, or something they have not yet seen? (If they have surfaced it, the retrospective should deepen it. If they have not, the retrospective should surface it.)*
+
+*- Which of the four retrospective questions below will be most productive for this team, and which can be shortened or skipped? (A team that has already discussed their variance extensively during zone discussions does not need 7 more minutes on "where is the variance and why." A team that has been defensive throughout may need more time on "what surprised us" to build toward honesty before tackling blockers.)*
+
+*The four questions below are the standard retrospective structure. Use all four if the discussion warrants it. But if your diagnosis suggests that one question is the critical one for this team, give it more time and compress the others. The retrospective should be responsive to what happened in the room, not a separate set piece.*
 
 "Now that we have seen the scores, let us step back and talk about what this means for the team. I have four questions I would like us to discuss."
 
@@ -280,7 +322,15 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 - *Foundational investments: things that enable other improvements*
 - *Organizational asks: things the team needs from leadership*
 
-*Write down every suggestion. You will curate and prioritize them in the report.*
+*Write down every suggestion on the board or shared screen so the team can see the full list. Then facilitate a brief prioritization:*
+
+"We have [N] ideas on the board. I want to do a quick prioritization together. Looking at this list, which one or two changes would have the biggest impact on your daily practices? Not the easiest to do -- the most impactful."
+
+*Let the team discuss for 2-3 minutes. Then share your own perspective:*
+
+"Based on what I have heard today and what I learned during Discovery, here is what I think the highest-leverage investments are: [name 2-3]. My reasoning is [explain]. Does that match what you are seeing, or am I missing something?"
+
+*This transparent prioritization produces a report whose recommendations the team has already validated. If your assessment differs from the team's, name the difference and include both perspectives in the report: "The team prioritized X and Y. The facilitator also recommends Z based on [reasoning], which the team [agreed with / had a different view on]."*
 
 ---
 

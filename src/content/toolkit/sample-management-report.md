@@ -2,6 +2,8 @@
 title: "ACE Diagnostic: Management Report"
 description: "A sample completed management report summarizing diagnostic results across multiple teams at FinServ Corp."
 section: "reports"
+type: "report"
+audience: "leadership"
 order: 4
 ---
 ## FinServ Corp Engineering — January 2026

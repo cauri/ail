@@ -2,6 +2,8 @@
 title: "Scoring and Threshold Definitions"
 description: "This document defines how to score diagnostic responses, interpret results, and determine a team's competency stage within each zone."
 section: "diagnostic"
+type: "diagnostic"
+audience: "facilitator"
 order: 6
 ---
 ## Purpose
@@ -12,19 +14,19 @@ This document defines how to score diagnostic responses, interpret results, and 
 
 ## Evidence Basis
 
-The scoring methodology in this document --- including the frequency scale, competency stage boundaries, and the three Exemplary threshold criteria --- was designed through expert judgment informed by:
+The scoring methodology in this document --- including the frequency scale, competency stage boundaries, the three quantitative threshold criteria for Consistent status, and the qualitative Exemplary assessment --- was designed through expert judgment informed by:
 
 - The Agile Fluency Model's approach to facilitated competency assessment (Larsen & Shore, 2012), which demonstrated that habitual behavior under stress is the appropriate competency construct for team capability
 - The DORA research program's measurement principles (Forsgren, Humble, & Kim, 2018), which established that organizational capability classification should be grounded in observable behavior and that classification criteria should disclose their evidence basis
 - Practitioner experience from Artium engagements with software teams adopting AI-augmented practices
 
-**These thresholds have not yet been validated against empirical data.** The specific numeric values (composite >= 4.7, SD <= 0.5, no question composite below 4.0) are expert-judgment starting points, not empirically derived cutoffs. The [Validation Study Plan](/research/validation-study-plan) includes ROC analysis (Phase 3) to empirically calibrate these thresholds against independently observed competent behavior.
+**These thresholds have not yet been validated against empirical data.** The specific numeric values for Consistent status (composite >= 4.7, SD <= 0.5, no question composite below 4.0) are expert-judgment starting points, not empirically derived cutoffs. The qualitative Exemplary criteria (coaching capability, contextual adaptation, practice innovation) are similarly expert-informed. The [Validation Study Plan](/research/validation-study-plan) includes ROC analysis (Phase 3) to empirically calibrate these thresholds against independently observed competent behavior.
 
 **What this means for facilitators:** The thresholds are well-considered starting points designed to identify genuinely high-performing, consistent teams. Use them as a structured framework for your assessment. However, when results fall near a threshold boundary (e.g., composite of 4.5-4.8, or SD of 0.4-0.6), rely on your facilitated judgment about the team's actual behavior rather than treating the threshold as a bright line. The behavioral evidence from the workshop discussion is the authoritative basis for your assessment; the thresholds are a consistency check, not an override.
 
 **These thresholds may be revised** as validation data accumulates. Facilitators should expect periodic updates to threshold values as the framework moves through its validation phases.
 
-**Sensitivity note:** The Exemplary threshold criteria interact. Small changes in any single criterion (e.g., shifting the composite threshold from 4.7 to 4.5, or the SD threshold from 0.5 to 0.6) would meaningfully change the proportion of teams that qualify. Until empirical validation data is available, facilitators should treat scores near a boundary (within ±0.2 of any threshold) as ambiguous and rely more heavily on behavioral evidence from the workshop discussion than on the numeric result alone.
+**Sensitivity note:** The Consistent threshold criteria interact. Small changes in any single criterion (e.g., shifting the composite threshold from 4.7 to 4.5, or the SD threshold from 0.5 to 0.6) would meaningfully change the proportion of teams that qualify. Until empirical validation data is available, facilitators should treat scores near a boundary (within ±0.2 of any threshold) as ambiguous and rely more heavily on behavioral evidence from the workshop discussion than on the numeric result alone.
 
 ---
 
@@ -76,7 +78,7 @@ The team is mostly consistent in exhibiting the zone's behaviors. Occasional lap
 
 ### Established (Average Score 4.0 - 4.9, Not Meeting Full Threshold)
 
-The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. Behaviors are habitual for most team members in most situations, though some individual variation remains. The team demonstrates reliable competency but does not yet meet all three threshold criteria for Exemplary.
+The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. Behaviors are habitual for most team members in most situations, though some individual variation remains. The team demonstrates reliable competency but does not yet meet all three quantitative threshold criteria for Consistent.
 
 **Characteristics:**
 - Behaviors are habitual for most team members in most situations.
@@ -86,18 +88,31 @@ The team consistently exhibits the zone's behaviors. The practices are well-esta
 
 **Recommended action:** Identify which specific threshold criteria are not yet met and focus effort there. This is often the "last mile" --- the gap between mostly consistent and fully habitual. Begin parallel investment in the next zone if organizational competency exists.
 
-### Exemplary (Meets All Threshold Criteria)
+### Consistent (Meets All Quantitative Threshold Criteria)
 
-The team exhibits the zone's behaviors habitually, even under stress. The team can coach others in these practices. Behaviors persist through personnel changes, deadline pressure, production incidents, and other disruptions. This is the highest stage within each zone.
+The team exhibits the zone's behaviors habitually and uniformly, even under stress. Behaviors persist through personnel changes, deadline pressure, production incidents, and other disruptions. The team has achieved the quantitative standard for the zone's highest competency level.
 
 **Characteristics:**
-- All threshold criteria are met (see Competency Threshold below).
+- All three quantitative threshold criteria are met (see Competency Threshold below).
 - Behaviors are automatic --- they persist without reminders or enforcement.
 - The team self-corrects quickly when disruptions occur.
-- Team members can explain and teach the practices to others.
 - New team members are onboarded into the practices efficiently.
 
-**Recommended action:** Maintain current practices. Consider investing in the next zone. Share learnings with other teams. Periodically re-assess (every 6-12 months) to verify competency is maintained.
+**Recommended action:** Maintain current practices. Consider investing in the next zone. Consider whether the team is ready for the qualitative Exemplary assessment (see below). Periodically re-assess (every 6-12 months) to verify competency is maintained.
+
+**Consistent is a legitimate, positive classification.** It means the team performs the zone's behaviors habitually and uniformly. Most teams that reach this stage will remain here, and that represents genuine organizational capability. Consistent teams are the backbone of sustained competency within each zone.
+
+### Exemplary (Consistent + Qualitative Assessment)
+
+The team meets all quantitative threshold criteria for Consistent AND demonstrates qualitative capabilities that extend beyond habitual behavior: coaching other teams, adapting practices to novel contexts, and innovating within the zone's framework. This is the highest stage within each zone.
+
+**Characteristics:**
+- All quantitative threshold criteria are met (Consistent status achieved).
+- The team has been assessed on three qualitative dimensions (see Qualitative Exemplary Assessment below) and meets the qualitative standard.
+- Team members can explain, teach, and adapt the practices for other teams and contexts.
+- The team has developed practices beyond what the zone describes.
+
+**Recommended action:** Maintain current practices. Share learnings with other teams. Consider investing in the next zone. Periodically re-assess (every 6-12 months) to verify both quantitative and qualitative competency is maintained.
 
 ---
 
@@ -107,7 +122,7 @@ The team exhibits the zone's behaviors habitually, even under stress. The team c
 
 ## Competency Threshold
 
-A team achieves **Exemplary** status within a zone when ALL THREE of the following criteria are met simultaneously. This model measures both high performance AND consistency across the team.
+A team achieves **Consistent** status within a zone when ALL THREE of the following quantitative criteria are met simultaneously. This model measures both high performance AND consistency across the team. A team that meets all three quantitative criteria and also passes the qualitative Exemplary assessment achieves **Exemplary** status (see Qualitative Exemplary Assessment below).
 
 ### Criterion 1: High Composite Average
 
@@ -115,15 +130,19 @@ A team achieves **Exemplary** status within a zone when ALL THREE of the followi
 
 This criterion ensures the team's overall performance is at a high level across all assessed behaviors. Calculate the composite for each question (average across all team members), then average those composites to get the zone composite.
 
+*Rationale: 4.7 was selected because it represents the midpoint between "Often" (4.0) and "Always" (5.0), reflecting the judgment that Consistent teams should be closer to habitual than to merely regular practice. This value is an expert-judgment starting point subject to empirical calibration through ROC analysis in the validation study.*
+
 ### Criterion 2: Response Consistency
 
 **The standard deviation across ALL individual responses is ≤ 0.5.**
 
 This criterion measures consistency --- both across team members and across questions. A low standard deviation means the team is performing uniformly, without significant gaps in any area or for any individual. Calculate the standard deviation of every individual response in the zone (team members × questions).
 
-*Example: A team of 5 members answering 10 questions produces 50 individual responses. Calculate the standard deviation of all 50 scores. If the SD is ≤ 0.5, the team demonstrates the consistency required for Exemplary status.*
+*Example: A team of 5 members answering 10 questions produces 50 individual responses. Calculate the standard deviation of all 50 scores. If the SD is ≤ 0.5, the team demonstrates the consistency required for Consistent status.*
 
 *Methodological note:* The 0.5 SD threshold is an expert-judgment-based starting point, not an empirically derived cutoff. It was selected as a reasonable boundary for distinguishing "consistently high-performing" teams from those with meaningful internal variance, but it has not been tested against independently observed competency. The use of a single global SD rather than separate between-person and between-question thresholds is a simplicity-first design choice for the initial framework version. The [Validation Study Plan](/research/validation-study-plan) includes both ROC analysis (Phase 3) to empirically calibrate this threshold and variance decomposition analysis to evaluate whether decomposed thresholds would provide better diagnostic accuracy. Facilitators should expect this threshold to be revised as validation data becomes available.
+
+*Recommendation:* Facilitators should always compute the decomposed SDs (between-person and between-question) alongside the global SD, not just when Criterion 2 fails. The decomposed values provide richer diagnostic information regardless of whether the threshold is met.
 
 #### When Criterion 2 Is Not Met: Diagnosing the Source of Variance
 
@@ -149,15 +168,17 @@ This decomposition is methodologically standard in psychometric assessment of mu
 
 **No single question composite falls below 4.0.**
 
-This criterion ensures competency is broad, not concentrated in a few areas while others lag. Even if the overall average is high, a question composite below 4.0 reveals a significant gap in one behavioral area that must be addressed before the team can be considered Exemplary.
+This criterion ensures competency is broad, not concentrated in a few areas while others lag. Even if the overall average is high, a question composite below 4.0 reveals a significant gap in one behavioral area that must be addressed before the team can be considered Consistent.
+
+In practice, teams that meet Criteria 1 and 2 will nearly always also meet Criterion 3. Criterion 3 serves as a safety check against the uncommon but important case where strong overall performance and consistency mask a significant gap in a specific behavioral area.
 
 ### All Three Required
 
-A team that meets two of three criteria is Established but not Exemplary. Common patterns:
+A team that meets two of three criteria is Established but not Consistent. Common patterns:
 
 - **High average but high variance (fails Criterion 2):** The team performs well on average, but some members or some behaviors are significantly weaker. Focus on the specific individuals or questions that drive the variance.
 - **High average and consistency but a weak question (fails Criterion 3):** The team is broadly strong and uniform, but one behavioral area lags behind. Focus coaching on the specific practice represented by the lagging question.
-- **Consistent and no weak links but average too low (fails Criterion 1):** The team is uniform and has no major gaps, but overall performance needs to rise. This is a "good but not yet great" pattern --- continue building depth across all behaviors.
+- **Uniform and no weak links but average too low (fails Criterion 1):** The team is uniform and has no major gaps, but overall performance needs to rise. This is a "good but not yet great" pattern --- continue building depth across all behaviors.
 
 ---
 
@@ -199,7 +220,7 @@ For each question, calculate the average (mean) score across all team members. R
 2. **Response Consistency:** Calculate the standard deviation of all 50 individual responses. In this example, most scores are 4 or 5 with SD ≈ 0.41. Threshold met (≤ 0.5).
 3. **No Weak Links:** Lowest question composite is 4.6 (Q6). Threshold met (all ≥ 4.0).
 
-**Result:** This team meets all three criteria. They are **Exemplary**.
+**Result:** This team meets all three quantitative criteria. They are **Consistent**. If the team also passes the Qualitative Exemplary Assessment (see below), they achieve **Exemplary** status.
 
 *Contrast: If Q6 composite were 3.8, the team would fail Criterion 3 (No Weak Links) despite strong overall performance. They would be **Established** --- focus coaching on the behavior Q6 represents.*
 
@@ -207,12 +228,62 @@ For each question, calculate the average (mean) score across all team members. R
 
 Calculate the overall average score (mean of all individual responses) and use it alongside the threshold criteria:
 
-| Overall Average | Threshold Criteria Met? | Competency Stage |
-|-----------------|------------------------|----------------|
-| 2.0 - 2.9      | N/A                    | Emerging |
-| 3.0 - 3.9      | N/A                    | Developing |
-| 4.0 - 4.9      | Not all three met      | Established |
-| 4.0+            | All three met          | Exemplary |
+| Overall Average | Threshold Criteria Met? | Qualitative Assessment? | Competency Stage |
+|-----------------|------------------------|------------------------|----------------|
+| 2.0 - 2.9      | N/A                    | N/A                    | Emerging |
+| 3.0 - 3.9      | N/A                    | N/A                    | Developing |
+| 4.0 - 4.9      | Not all three met      | N/A                    | Established |
+| 4.0+            | All three met          | Not conducted or not met | Consistent |
+| 4.0+            | All three met          | Met                    | Exemplary |
+
+---
+
+## Qualitative Exemplary Assessment
+
+A team that meets all three quantitative threshold criteria achieves **Consistent** status. To achieve **Exemplary** status, the team must also demonstrate qualitative capabilities that extend beyond habitual behavior. The facilitator conducts a brief structured interview (15--20 minutes, conducted in the same workshop session or as a follow-up) covering three dimensions.
+
+This additional assessment step exists because the quantitative thresholds measure behavioral frequency and consistency but do not capture the coaching, adaptation, and innovation capabilities that distinguish a team that follows practices well from a team that has internalized the practices deeply enough to extend and teach them.
+
+### Dimension A: Coaching Capability
+
+**Probe:** "Has your team helped another team adopt or improve any of the practices in this zone? Describe what happened."
+
+**Evidence standard:** The team can describe a specific instance where they helped another team, including what advice they gave, what the other team did with it, and what the result was. General statements ("we share knowledge") do not satisfy this criterion. A specific episode with a specific other team does.
+
+**Alternative for single-team organizations:** "Could a new member of your team learn your zone practices from your documentation and configuration alone, without oral guidance from existing members? Have you tested this?" This tests the externalization capability that underlies coaching --- the ability to articulate practices in a form that others can learn from independently.
+
+### Dimension B: Contextual Adaptation
+
+**Probe:** "Describe a situation where your standard practices did not work well and you adapted them. What was the context, what did you change, and why?"
+
+**Evidence standard:** The team can describe a specific instance where they recognized that a zone practice was not appropriate for a particular context (different technology, different constraints, different risk profile) and deliberately modified it. The key word is "deliberately" --- accidental deviation is not adaptation. The team should be able to articulate why the standard practice did not fit and why their adaptation was appropriate.
+
+### Dimension C: Practice Innovation
+
+**Probe:** "Has your team developed any practices beyond what the zone describes that have improved your effectiveness? What are they?"
+
+**Evidence standard:** The team can describe at least one practice that goes beyond the zone's proficiency descriptions. This does not need to be groundbreaking --- it can be a small refinement, an integration of two practices, or an extension of an existing practice to a new context. The point is that the team has moved beyond implementing prescribed practices to generating their own.
+
+### Qualitative Scoring
+
+The facilitator rates each dimension as **Present** (clear, specific evidence), **Partial** (some evidence but incomplete or vague), or **Absent** (no specific evidence).
+
+**Exemplary qualification rule:** A team must receive **Present** on at least two of three dimensions to qualify as Exemplary. **Partial** on all three also qualifies. **Absent** on two or more dimensions does not qualify --- the team is classified as **Consistent**.
+
+| Dimension A | Dimension B | Dimension C | Classification |
+|-------------|-------------|-------------|----------------|
+| Present     | Present     | Any         | Exemplary |
+| Present     | Any         | Present     | Exemplary |
+| Any         | Present     | Present     | Exemplary |
+| Partial     | Partial     | Partial     | Exemplary |
+| Present     | Partial     | Absent      | Consistent |
+| Partial     | Absent      | Partial     | Consistent |
+| Absent      | Absent      | Any         | Consistent |
+| Any         | Absent      | Absent      | Consistent |
+
+*Note: The qualitative assessment is conducted only when the team has met all three quantitative criteria for Consistent. It is not a substitute for quantitative performance --- it is an additional assessment of depth beyond the quantitative standard.*
+
+*Note: The qualitative Exemplary criteria, like the quantitative thresholds, are expert-judgment starting points. The validation study will track how often the quantitative-qualitative gap occurs (teams that meet quantitative criteria but do not demonstrate qualitative capabilities) and whether this gap predicts different outcomes.*
 
 ---
 
@@ -248,7 +319,7 @@ Bimodal distributions can effectively identify specific individuals, especially 
 
 ### Uniform High Scores (4.5+ average, low variance)
 
-The team is consistently practicing the zone's behaviors. Check whether the threshold criteria are met. If yes, the team has achieved Exemplary. If not, identify the specific gaps preventing Exemplary.
+The team is consistently practicing the zone's behaviors. Check whether the threshold criteria are met. If yes, the team has achieved Consistent status. If the team also passes the qualitative Exemplary assessment, they achieve Exemplary. If the quantitative criteria are not met, identify the specific gaps preventing Consistent.
 
 **Caution:** Very uniform high scores with no variation can indicate social desirability bias. Probe with specific examples: "Can you describe a time this week when you did this? Can you describe a time when you didn't?"
 
@@ -282,9 +353,21 @@ If initial scores are high but decrease when the facilitator asks for specific e
 ## Reassessment Cadence
 
 - **Teams in Emerging or Developing stages:** Reassess every 2-3 months to track progress.
-- **Teams in Established stage:** Reassess every 3-4 months to verify continued progress toward Exemplary.
-- **Teams at Exemplary:** Reassess every 6-12 months to verify competency is maintained, especially after significant team composition changes or organizational disruptions.
+- **Teams in Established stage:** Reassess every 3-4 months to verify continued progress toward Consistent.
+- **Teams at Consistent or Exemplary:** Reassess every 6-12 months to verify competency is maintained, especially after significant team composition changes or organizational disruptions.
 - **After major changes:** Reassess within 1-2 months of significant events such as team reorganizations, major personnel changes (more than 25% of the team), tool migrations, or process overhauls.
+
+---
+
+## Methodological Assumptions
+
+The scoring methodology rests on several assumptions that are disclosed here for transparency. These assumptions are testable and will be evaluated through the [Validation Study Plan](/research/validation-study-plan).
+
+- **Aggregation assumption:** Aggregating individual responses to team composites assumes sufficient within-team agreement. If team members answer the same question very differently, the composite average may not represent a meaningful team-level construct. This assumption is tested in the validation study using r_wg (within-team agreement) analysis but has not yet been empirically confirmed. Facilitators should note when within-team agreement is low on specific questions (individual responses spanning a range of 3 or more points), as the composite for that question obscures a split that should be reported as a finding in its own right.
+
+- **Self-report validity assumption:** The scoring thresholds assume that self-reported behavioral frequency is a valid proxy for actual habitual behavior. Self-report data is subject to social desirability bias, aspiration bias, and conformity effects. The facilitation methodology (behavioral probing, discussion-based recalibration) partially mitigates these biases, but residual bias likely inflates scores modestly even under ideal conditions. This assumption will be tested in Phase 2 through behavioral observation comparing self-reported scores to independently observed behavior.
+
+- **Threshold provisionality:** These thresholds are expert-judgment starting points, subject to empirical revision based on ROC analysis in Phase 3 of the validation study. Facilitators should expect periodic updates to threshold values as the framework moves through its validation phases.
 
 ---
 

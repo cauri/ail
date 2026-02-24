@@ -3,6 +3,8 @@ title: "Context Analysis Template — ACE Discovery Phase"
 description: "Complete this template during Phase 1 (Discovery) to produce the Context Analysis Report."
 section: "consulting"
 order: 4
+type: "report"
+audience: "facilitator"
 ---
 ## How to Use This Template
 
@@ -227,7 +229,36 @@ Does leadership sustain attention through 12+ month initiatives, or does organiz
 
 > _[Facilitator: emotional climate often varies significantly across teams. Note which teams show the strongest positive or negative emotional signals. This information should influence the order of diagnostic workshops and the intensity of emotional support activities in the roadmap.]_
 
-### 5b-6. Change Readiness Summary
+### 5b-6. Change Capacity Assessment
+
+*Sources: Sections 5b-1 through 5b-5, supplemented by stakeholder interview data on concurrent initiatives.*
+
+**Purpose of this section:** Synthesize the preceding readiness dimensions into a single professional judgment about the organization's adaptive capacity for the specific zone transition being considered. Change capacity is distinct from change readiness: readiness measures cultural and structural preconditions, while capacity measures the organization's available bandwidth for absorbing additional change right now.
+
+**Current change load** -- List all significant concurrent initiatives (not just technology initiatives) and rate the aggregate organizational burden:
+
+| Initiative | Scale (S/M/L) | Status | Teams Affected |
+|---|---|---|---|
+| | | In progress / Winding down / Just launched | |
+| | | In progress / Winding down / Just launched | |
+| | | In progress / Winding down / Just launched | |
+
+> _[Facilitator: count both technology and non-technology initiatives. A company-wide rebranding or office relocation consumes the same adaptive capacity as a platform migration. If more than two large-scale initiatives are in progress, change capacity is likely constrained regardless of other readiness factors.]_
+
+**Organizational resilience indicators:**
+
+| Indicator | Assessment | Evidence |
+|---|---|---|
+| Do teams have slack in their current workload to absorb new practices? | Yes / Limited / No | |
+| Does the organization have internal change management expertise or experience? | Yes / Some / No | |
+| Have previous changes been absorbed without significant attrition or morale damage? | Yes / Partially / No | |
+| Is there middle-management capacity to support another transition? (Managers are not already overwhelmed by existing change.) | Yes / Limited / No | |
+
+**Facilitator's adaptive capacity judgment:**
+
+> _[Facilitator: based on the change load, resilience indicators, and the emotional climate assessment (5b-5), provide your professional judgment about whether this organization has sufficient adaptive capacity for the zone transition being considered. If capacity is constrained, state specifically what would need to change -- e.g., "defer until Q3 reorg is complete," "reduce scope to two pilot teams," or "target Zone 1 depth rather than Zone 2 transition." This judgment directly informs the target zone recommendation in Section 7 and the Change Capacity assessment dimension in the [Goal-Setting Framework](/toolkit/goal-setting-framework).]_
+
+### 5b-7. Change Readiness Summary
 
 **Overall change readiness assessment:** High / Moderate / Low
 

@@ -2,6 +2,8 @@
 title: "ACE Quick Reference"
 description: "A one-page reference for use during workshops."
 section: "reference"
+type: "diagnostic"
+audience: "facilitator"
 order: 6
 ---
 A one-page reference for use during workshops. Print or keep open alongside the [Workshop Script](/toolkit/workshop-script).

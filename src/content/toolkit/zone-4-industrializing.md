@@ -2,6 +2,8 @@
 title: "Zone 4: Industrializing"
 description: "The organization operates an AI-first software factory."
 section: "reference"
+type: "zone-reference"
+audience: "facilitator"
 order: 4
 ---
 The organization operates an AI-first software factory. Engineers maintain the factory, PMs define factory production specifications, designers own the factory's design specification layer, and QA engineers operate the factory's evaluation infrastructure; AI produces the software. Software delivery is treated as an industrial operation with AI as the primary production mechanism and humans as factory designers and operators. Zone 4 represents a fundamental cultural transformation -- the shift from software development as craft production (skilled individuals making things) to software development as industrial production (engineers designing and operating systems that make things). In the AI Competency Evaluation (ACE) model, Zone 4 is the deepest level of organizational commitment in the ACE model, requiring mastery of all preceding zones and a willingness to reorganize the entire software organization around the premise that AI is the primary producer of software artifacts.
@@ -59,7 +61,7 @@ These benefits carry significant risks and require sustained organizational comm
 
 Proficiencies at Zone 4 represent the current understanding of what competency at this level looks like. As more organizations operate at this level, these proficiencies will continue to evolve.
 
-### Engineering / Factory Operations
+### Engineering (Factory Operations)
 
 - **Engineers design and maintain the AI production pipeline as their primary job function.** The majority of engineering time is spent on the production system itself -- its architecture, its evaluation infrastructure, its operational health -- not on the application code the system produces. Writing application code by hand is the exception, reserved for situations where the factory cannot yet handle a particular class of problem.
 - **The organization has systematic governance processes for AI system changes.** Changes to models, prompts, tool configurations, and pipeline components are treated with the same rigor as changes to production infrastructure. These changes are versioned, tested, reviewed, and rolled out with the same care as any production deployment -- because they are production deployments. A prompt change that alters the behavior of the factory is not a minor tweak; it is a change to the production line.
@@ -68,13 +70,13 @@ Proficiencies at Zone 4 represent the current understanding of what competency a
 - **Engineers treat model updates, prompt changes, and tool changes as factory maintenance events.** When an AI model vendor releases an update, the organization has a defined process for evaluating the update's impact on factory output, testing it against existing specifications and quality standards, and rolling it out (or rolling it back) in a controlled manner. This is factory maintenance, not a casual upgrade.
 - **The organization has defined SLAs for AI production reliability.** The factory has measurable reliability targets: what percentage of production runs succeed, what the acceptable defect rate is, what the maximum time-to-recovery is when the factory fails. These SLAs are monitored, reported on, and used to drive improvement -- just as any industrial operation would manage its production reliability.
 
-### Product Management
+### Product Management (Portfolio-Level Specifiers)
 
 - **Product managers operate at the portfolio level, defining factory production targets.** Rather than specifying individual features for individual teams, product managers define what the factory should produce at a strategic level. This requires a different set of skills: thinking in terms of production capacity, factory specifications, and portfolio-level prioritization rather than sprint-level user stories.
 - **Product managers can specify system-level acceptance criteria for entire AI pipelines.** Acceptance criteria are defined for the factory's behavior, not just for individual features. "The factory should produce API endpoints that meet these performance, security, and documentation standards" is a different kind of specification than "as a user, I want to be able to reset my password."
 - **Product managers manage the tension between production volume and quality governance.** The factory can produce faster than the organization can govern. Product managers understand this tension and make informed trade-offs about where to prioritize speed versus where to prioritize additional governance and evaluation.
 
-### Design
+### Design (Factory Specification Layer Owners)
 
 - **Owns the factory's design specification layer.** Designers own and maintain the factory's design inputs -- component libraries, interaction patterns, accessibility requirements, and visual standards -- encoded as machine-verifiable specifications that AI pipelines consume and validate against. This is the Zone 4 design role: not producing design artifacts, but governing the specification layer that ensures factory output meets design standards at portfolio scale.
 - **Operates design compliance verification at portfolio scale.** Design compliance is verified automatically across all factory output, not through manual review of individual artifacts. Designers maintain the design evaluation criteria, monitor compliance rates across the portfolio, and evolve specifications as design standards change.
@@ -85,7 +87,7 @@ Proficiencies at Zone 4 represent the current understanding of what competency a
 - **Defines and maintains factory-level quality SLAs.** QA engineers collaborate with engineering and product leadership to set measurable quality targets for factory output: defect rates, evaluation coverage, false positive/negative rates for quality gates, and time-to-detection for quality regressions. These SLAs are monitored and reported on alongside engineering production SLAs.
 - **Designs and executes the factory's drift detection program.** QA engineers own the systematic detection of quality drift across the factory's output -- identifying when output quality shifts due to model updates, specification changes, or pipeline modifications before degraded artifacts reach production. This requires statistical process control techniques applied to factory quality metrics.
 
-### Architecture
+### Architecture (Production System Architects)
 
 - **Architects design for factory-scale observability and governance.** The architecture of the production system itself -- not just the applications it produces -- is a primary architectural concern. This includes observability infrastructure that can monitor factory output at scale, governance checkpoints that can evaluate artifacts without becoming bottlenecks, and feedback loops that connect production outcomes back to factory specifications.
 - **Architects define the "production system" architecture.** The AI production pipeline is a system in its own right, with its own architecture, its own scaling characteristics, its own failure modes, and its own evolution path. Architects at Zone 4 are responsible for this system architecture in addition to (or instead of) traditional application architecture.
@@ -161,6 +163,22 @@ These timelines may shorten as AI capabilities advance, tooling matures, and ear
 Zone 4 practices are less mature than those in earlier zones. The trajectory from Zone 1 through Zone 3 points toward increasingly systematic, governed, and scalable AI integration, and Zone 4 is the natural extension of that trajectory. Some organizations are actively pursuing elements of Zone 4 -- particularly large-scale AI production pipelines, factory-style governance, and engineer-as-operator role definitions.
 
 As with any zone, the specific practices described here will evolve as more organizations operate at this level. Organizations pursuing Zone 4 should expect to adapt and extend the practices described in this document based on their own operational experience.
+
+## Recognizing and Addressing Regression
+
+Zone 4 competency can regress, and the consequences of regression at factory scale are more severe than at earlier zones because the production system's output volume amplifies the impact. Common regression triggers include: key personnel departures (loss of engineers who designed and understand the factory architecture), model vendor changes (major model updates that alter factory output characteristics), governance fatigue (teams gradually relaxing quality gates under throughput pressure), and organizational restructuring (changes that disrupt the cross-functional operating model the factory depends on).
+
+**Signs of regression:** Factory evaluation coverage declines or quality gates are bypassed with increasing frequency; incident response reverts to ad-hoc rather than following AI production playbooks; engineers begin writing application code by hand rather than operating the factory; cross-functional roles (PM, design, QA) revert to pre-factory operating patterns; SLA compliance deteriorates without corresponding incident response.
+
+**What to do:** Treat regression as a signal that the organizational investments and governance structures supporting Zone 4 are under strain, not as individual or team failure. At factory scale, regression often indicates structural issues: insufficient staffing for factory maintenance, governance processes that have not kept pace with production volume, or loss of institutional knowledge about factory architecture. Re-run the diagnostic to establish current state, conduct a factory health assessment focused on the specific regression triggers, and plan targeted re-investment. If regression is severe (multiple proficiency areas declining simultaneously), consider whether the organization's current capacity can sustain factory-scale operations or whether a temporary reduction in factory scope is warranted.
+
+## Progressive Competency Note
+
+Zone 4 represents the deepest level of organizational commitment in the ACE model. It is not "better" than Zone 3 in a universal sense -- it is deeper, and the depth is only valuable in specific organizational contexts where software production volume is a strategic differentiator.
+
+Most software organizations will find their optimal stopping point at Zone 2 or Zone 3. Zone 4 is documented because the model should be complete and because some organizations will genuinely benefit from this level of capability. The framework's stopping-point principle applies to every zone, including Zone 4: the right zone is the one that matches the organization's actual strategic needs, not the highest one the organization can reach.
+
+Organizations that have achieved Zone 3 competency should evaluate Zone 4 investment through the same strategic analysis framework used for all zone transitions -- considering investment capacity, risk appetite, organizational culture, and strategic need. The multi-year timeline and fundamental reorganization required for Zone 4 mean that this decision should involve senior leadership and should be revisited periodically as organizational context evolves.
 
 ## Relationship to Other Zones
 

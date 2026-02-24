@@ -2,6 +2,8 @@
 title: "How to Create a Progression Roadmap"
 description: "This guide walks through the process of building a practical roadmap for progressing from your current ACE zone to your target zone."
 section: "guides"
+type: "planning"
+audience: "facilitator"
 order: 5
 ---
 This guide walks through the process of building a practical roadmap for progressing from your current ACE zone to your target zone. It covers ground taught in depth in [Module 4: Progression Roadmap Design](/training/module-4-roadmap-design). Use this as a preview before training or as a refresher before engagements.

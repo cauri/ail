@@ -1,6 +1,8 @@
 ---
 title: "Stakeholder Interview Guide — ACE Discovery Phase"
 description: "This guide supports the facilitated interviews conducted during Phase 1 (Discovery) of an ACE engagement."
+type: "diagnostic"
+audience: "facilitator"
 section: "consulting"
 order: 3
 ---
@@ -117,6 +119,18 @@ This guide supports the facilitated interviews conducted during Phase 1 (Discove
 **8. How do your teams generally respond to new tool or process mandates — do they adopt quickly, adapt slowly, or find workarounds?**
 
 *Listen for:* Change absorption capacity. This predicts how quickly Zone 2 interventions (shared tooling, mandated feedback loops) will take hold. Also listen for past adoption failures — if a previous tool rollout went badly, that history will affect this one.
+
+**8b. What other significant change initiatives are underway across the engineering organization right now — reorganizations, cloud migrations, methodology shifts, major tool rollouts?**
+
+*Listen for:* Change saturation. Every zone transition competes with other initiatives for a finite pool of adaptive capacity. An organization simultaneously absorbing a cloud migration, a DevOps transformation, and an AI adoption initiative is drawing from the same well of human adaptability. If the answer reveals multiple concurrent initiatives, probe: "How are your teams handling that load? Do people describe themselves as having capacity for more change?" High change saturation does not disqualify AI adoption, but it should shape the engagement's scope, ambition, and pacing.
+
+**8c. When was the last major organizational change completed — a process overhaul, a tool migration, a significant restructuring? How did it go, and is the organization still recovering from it?**
+
+*Listen for:* Change history and recovery. Organizations that have recently completed a difficult transformation may have depleted their change reserves. Also listen for whether the previous change was sustained or whether people reverted — this predicts whether the AI adoption investment will stick. If the leader describes a previous initiative that was launched enthusiastically but abandoned after six months, that pattern is likely to repeat unless the engagement design explicitly addresses it.
+
+**8d. How many transformation or process improvement programs have been launched in the past 18 months? How many are still actively supported with budget and leadership attention?**
+
+*Listen for:* Initiative fatigue and follow-through. A high ratio of launched-to-sustained initiatives signals an organization where practitioners have learned to wait out change programs rather than invest in them. This is not cynicism — it is rational adaptation to an environment where initiatives are started but not finished. If this pattern is present, the engagement must earn credibility through visible follow-through in early phases before teams will invest genuine effort in adoption.
 
 **9. Are there specific teams you're most interested in assessing, or any teams you'd prefer to defer or exclude from the diagnostic?**
 

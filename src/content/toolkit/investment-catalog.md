@@ -3,6 +3,8 @@ title: "Investment Catalog"
 description: "A comprehensive catalog of all organizational investments required across all zones of the AI Competency Evaluation (ACE) model."
 section: "reference"
 order: 7
+type: "catalog"
+audience: "facilitator"
 ---
 A comprehensive catalog of all organizational investments required across all zones of the AI Competency Evaluation (ACE) model. Investments are changes the organization must make -- not training individuals complete on their own. Each zone requires its own set of investments in addition to sustaining investments from prior zones.
 
@@ -32,6 +34,30 @@ Zone 1 competency requires organizational investment beyond individual motivatio
 
 6. **Establish basic guidelines on when AI-generated code needs extra review.** Not all AI-generated code carries equal risk. Code touching security-sensitive areas, authentication, authorization, financial calculations, or regulated domains warrants additional scrutiny. Provide clear, lightweight guidelines rather than blanket prohibitions.
 
+7. **Management behaviors that normalize adoption and protect learning space.** Engineering managers at Zone 1 set the tone for whether AI tool adoption feels safe or risky. The following observable behaviors distinguish managers who enable Zone 1 competency from those who inadvertently suppress it:
+
+   - **Use AI tools visibly in their own work.** Managers who use AI tools for their own tasks -- drafting communications, summarizing meeting notes, preparing reports -- signal that adoption is normal, not exceptional.
+     - *Do say:* "I used Claude to draft the sprint retrospective summary -- it saved me 30 minutes. Here's what I changed from the draft."
+     - *Don't say:* "I don't really use those tools myself, but you all should."
+
+   - **Ask about AI tool usage in one-on-ones without evaluating it.** Managers create space for adoption conversations by asking with genuine curiosity, not by auditing compliance.
+     - *Do say:* "Have you found any good uses for the AI tools this week? Anything frustrating about them?"
+     - *Don't say:* "Are you using Copilot yet? The team needs to get adoption numbers up."
+
+   - **Celebrate learning publicly, including failed experiments.** When someone shares a prompting technique that did not work, the manager treats it as useful information, not wasted time.
+     - *Do say:* "That's useful to know -- the rest of the team should hear that so they don't hit the same wall. Can you share it in our channel?"
+     - *Don't say:* "Let's focus on what actually works."
+
+   - **Protect time for AI tool exploration.** Managers ensure that learning AI tools is treated as legitimate work, not something squeezed into margins.
+     - *Do say:* "Take a couple of hours this week to try using it for that refactoring task. No pressure to ship anything from it."
+     - *Don't say:* "We're behind on the sprint, so AI exploration will have to wait."
+
+   - **Name the discomfort honestly.** When team members express anxiety about AI tools, managers acknowledge the feeling rather than dismissing it.
+     - *Do say:* "It makes sense to feel uncertain about this. The way we work is changing, and it's okay to have mixed feelings. What would help you feel more comfortable experimenting?"
+     - *Don't say:* "There's nothing to worry about -- these tools just make you more productive."
+
+   **Identity and emotional context for Zone 1.** Zone 1 adoption is often framed as a simple tooling change, but for many practitioners it carries emotional weight. Picking up AI tools means confronting unfamiliarity with a technology that seems to do part of your job, which can trigger a threat response -- especially for experienced engineers whose professional identity is deeply tied to their craft. Managers who recognize this dynamic and create space for practitioners to move through it at their own pace will see more durable adoption than those who treat Zone 1 as a straightforward training exercise.
+
 ---
 
 ## Zone 2: Integrating Investments
@@ -55,6 +81,30 @@ Zone 2 competency requires organizational support beyond team-level effort. Thes
 8. **Retrospective Culture.** The organization supports a retrospective culture around continuous improvement of the agentic setup. This means allocating time for retrospectives, valuing process improvement alongside feature delivery, and treating the team's AI workflow as a first-class subject of continuous improvement.
 
 9. **Manager enablement for AI-integrated workflows.** Engineering managers need training and support to manage teams that are integrating AI into their workflows. This includes: understanding the practices well enough to evaluate whether they are working, knowing how to coach team members who are struggling with adoption, having language for conversations about how performance is measured during the transition, and knowing when to escalate concerns about the transition's impact on team health. Managers who are not enabled become unintentional bottlenecks or, worse, quietly undermine the transition because they do not understand it.
+
+10. **Management behaviors that champion shared workflow and protect standardization.** Zone 2 is a team-level transition: individual tools become shared infrastructure, and personal preferences yield to team agreements. Engineering managers must actively champion this shift through observable behaviors:
+
+    - **Enforce "One Team, One Setup" consistently.** When individuals resist moving their personal AI configuration into the shared team setup, managers hold the line on the team agreement rather than quietly allowing exceptions.
+      - *Do say:* "I know your personal setup works well for you, but the team agreed to a shared configuration. Let's bring your best patterns into the shared setup so everyone benefits."
+      - *Don't say:* "Just use whatever works for you -- the team setup is more of a guideline."
+
+    - **Redirect individual heroics toward team patterns.** When someone builds an impressive personal workflow, the manager redirects the energy toward making it a team capability, not an individual advantage.
+      - *Do say:* "That's a great workflow. Can you pair with Alex this week to generalize it into a team skill so everyone can use it?"
+      - *Don't say:* "Nice work -- keep doing what you're doing."
+
+    - **Protect time for infrastructure work against delivery pressure.** When sprint pressure mounts, managers resist the temptation to reclaim time allocated for AI workflow infrastructure.
+      - *Do say:* "We committed two days this sprint to improving our shared AI setup. That commitment stands -- it's how we get faster over the next quarter."
+      - *Don't say:* "We'll get to the AI workflow stuff next sprint -- right now we need to focus on the feature deadline."
+
+    - **Make workflow improvement visible in team ceremonies.** Managers ensure that AI workflow improvements are reviewed and celebrated in retrospectives and demos, not treated as invisible plumbing.
+      - *Do say:* "In the demo today, I'd like the team to show the new feedback loop we set up -- it's reduced our review cycle by a day."
+      - *Don't say:* "Let's keep the demo focused on features -- the process stuff is internal."
+
+    - **Name the loss of autonomy as a real cost.** Zone 2 requires giving up personal tool preferences and individual workflows for shared team practices. Managers who acknowledge this as a genuine sacrifice -- not just a minor inconvenience -- build more trust during the transition.
+      - *Do say:* "I know standardizing on one setup means giving up configurations you've spent time perfecting. That's a real trade-off, and the team benefit has to be worth it. If it's not, let's talk about what's not working."
+      - *Don't say:* "Everyone just needs to get on board with the team setup."
+
+    **Identity and emotional context for Zone 2.** Zone 2 asks practitioners to surrender personal autonomy for shared practices -- a transition that touches professional identity more deeply than it appears. Engineers who have invested significant effort in crafting personal AI workflows may experience the move to "One Team, One Setup" as a loss of individual distinction. The emotional dynamic is not resistance to collaboration; it is grief over giving up something personally meaningful. Managers who recognize this distinction -- and who frame standardization as building on individual contributions rather than replacing them -- will navigate the transition with less friction and more durable adoption.
 
 ---
 
@@ -144,7 +194,9 @@ Role changes, performance criteria, behaviors, and organizational identity.
 | Investment | Zone |
 |---|---|
 | Actively remove fear and stigma about AI usage | 1 |
+| Management behaviors that normalize adoption and protect learning space | 1 |
 | Manager enablement: equip engineering managers to support AI adoption, model AI-positive behaviors, and coach teams through zone transitions | 1-2 |
+| Management behaviors that champion shared workflow and protect standardization | 2 |
 | Retrospective Culture | 2 |
 | Create the AI Engineer role or retrain existing engineers | 3 |
 | Create organizational tolerance for AI non-determinism | 3 |
@@ -201,31 +253,33 @@ The following table shows dependencies between investments. An investment listed
 | 2 | Provide AI tool licenses to all team members | 1 | Policy on approved tools (Z1) |
 | 3 | Ensure developers have appropriate API keys and accounts | 1 | Licenses provided (Z1) |
 | 4 | Actively remove fear and stigma about AI usage | 1 | -- |
-| 5 | Provide structured training on AI tool usage | 1 | Licenses and access (Z1) |
-| 6 | Establish basic guidelines on when AI-generated code needs extra review | 1 | Policy on approved tools (Z1) |
-| 7 | One Team, One Setup | 2 | Zone 1 competency achieved |
-| 8 | Tool Standardization | 2 | Zone 1 competency achieved |
-| 9 | Time for Infrastructure | 2 | One Team, One Setup (Z2) |
-| 10 | Quality Gate Policy | 2 | One Team, One Setup (Z2), Tool Standardization (Z2) |
-| 11 | Budget Integration | 2 | Tool Standardization (Z2) |
-| 12 | Workflow Training (Plan/Code/Verify) | 2 | One Team, One Setup (Z2), Tool Standardization (Z2) |
-| 13 | Cross-Team Knowledge Sharing | 2 | Multiple teams practicing Zone 2 |
-| 14 | Retrospective Culture | 2 | Time for Infrastructure (Z2) |
-| 15 | Create the AI Engineer role | 3 | Zone 2 competency achieved |
-| 16 | Give teams budget authority for AI experimentation | 3 | Budget Integration (Z2) |
-| 17 | Create infrastructure for AI observability | 3 | Quality Gate Policy (Z2) |
-| 18 | Integrate CAT into the definition of done | 3 | AI observability infrastructure (Z3), AI Engineer role (Z3) |
-| 19 | Establish prompt versioning and experiment management | 3 | AI observability infrastructure (Z3) |
-| 20 | Dedicate time for engineers to improve AI pipelines | 3 | AI Engineer role (Z3), budget authority (Z3) |
-| 21 | Cross-functional training for PMs and designers | 3 | AI Engineer role (Z3), CAT integration (Z3) |
-| 22 | Create organizational tolerance for AI non-determinism | 3 | Cross-functional training (Z3) |
-| 23 | Fundamental reorganization around AI production | 4 | Zone 3 competency achieved |
-| 24 | Investment in AI factory infrastructure | 4 | Reorganization (Z4) |
-| 25 | Governance and compliance frameworks for AI production | 4 | Reorganization (Z4), factory infrastructure (Z4) |
-| 26 | Organizational "factory floor" metrics and reporting | 4 | Factory infrastructure (Z4), governance frameworks (Z4) |
-| 27 | Risk management for AI production at scale | 4 | Governance frameworks (Z4), metrics and reporting (Z4) |
-| 28 | Cross-functional rotation | 4 | Reorganization (Z4), factory infrastructure (Z4) |
-| 29 | External audit and governance mechanisms | 4 | Governance frameworks (Z4), metrics and reporting (Z4) |
+| 5 | Management behaviors that normalize adoption and protect learning space | 1 | Actively remove fear and stigma (Z1) |
+| 6 | Provide structured training on AI tool usage | 1 | Licenses and access (Z1) |
+| 7 | Establish basic guidelines on when AI-generated code needs extra review | 1 | Policy on approved tools (Z1) |
+| 8 | One Team, One Setup | 2 | Zone 1 competency achieved |
+| 9 | Tool Standardization | 2 | Zone 1 competency achieved |
+| 10 | Management behaviors that champion shared workflow and protect standardization | 2 | One Team, One Setup (Z2), Manager enablement (Z2) |
+| 11 | Time for Infrastructure | 2 | One Team, One Setup (Z2) |
+| 12 | Quality Gate Policy | 2 | One Team, One Setup (Z2), Tool Standardization (Z2) |
+| 13 | Budget Integration | 2 | Tool Standardization (Z2) |
+| 14 | Workflow Training (Plan/Code/Verify) | 2 | One Team, One Setup (Z2), Tool Standardization (Z2) |
+| 15 | Cross-Team Knowledge Sharing | 2 | Multiple teams practicing Zone 2 |
+| 16 | Retrospective Culture | 2 | Time for Infrastructure (Z2) |
+| 17 | Create the AI Engineer role | 3 | Zone 2 competency achieved |
+| 18 | Give teams budget authority for AI experimentation | 3 | Budget Integration (Z2) |
+| 19 | Create infrastructure for AI observability | 3 | Quality Gate Policy (Z2) |
+| 20 | Integrate CAT into the definition of done | 3 | AI observability infrastructure (Z3), AI Engineer role (Z3) |
+| 21 | Establish prompt versioning and experiment management | 3 | AI observability infrastructure (Z3) |
+| 22 | Dedicate time for engineers to improve AI pipelines | 3 | AI Engineer role (Z3), budget authority (Z3) |
+| 23 | Cross-functional training for PMs and designers | 3 | AI Engineer role (Z3), CAT integration (Z3) |
+| 24 | Create organizational tolerance for AI non-determinism | 3 | Cross-functional training (Z3) |
+| 25 | Fundamental reorganization around AI production | 4 | Zone 3 competency achieved |
+| 26 | Investment in AI factory infrastructure | 4 | Reorganization (Z4) |
+| 27 | Governance and compliance frameworks for AI production | 4 | Reorganization (Z4), factory infrastructure (Z4) |
+| 28 | Organizational "factory floor" metrics and reporting | 4 | Factory infrastructure (Z4), governance frameworks (Z4) |
+| 29 | Risk management for AI production at scale | 4 | Governance frameworks (Z4), metrics and reporting (Z4) |
+| 30 | Cross-functional rotation | 4 | Reorganization (Z4), factory infrastructure (Z4) |
+| 31 | External audit and governance mechanisms | 4 | Governance frameworks (Z4), metrics and reporting (Z4) |
 
 ---
 

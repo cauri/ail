@@ -1,0 +1,233 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720"
+     font-family="'Inter', sans-serif">
+  <title>Leading Indicators Dashboard</title>
+  <desc>A small-multiples dashboard showing five organizational leading indicators for Zone 2 progression. Each panel shows the metric name, measurement method, target threshold, current-state gauge, and evidence level. Panels are arranged in a 3-over-2 grid for comparison. A sixth panel shows the reporting cadence summary. All indicators use gauge-style bar encodings with threshold markers.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="720" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="34" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Organizational Leading Indicators for Zone 2 Progression</text>
+  <text x="450" y="52" text-anchor="middle" font-size="11" fill="#6B7280">Five metrics that predict whether the organization is on track for widespread Zone 2 competency</text>
+
+  <!-- Evidence key -->
+  <g transform="translate(260, 66)">
+    <text x="0" y="0" font-size="9" font-weight="500" fill="#6B7280">All targets: </text>
+    <rect x="68" y="-10" width="14" height="14" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+    <text x="75" y="1" text-anchor="middle" font-size="8" font-weight="600" fill="#92400E">J</text>
+    <text x="88" y="0" font-size="9" fill="#6B7280">Expert judgment (unvalidated)</text>
+    <text x="300" y="0" font-size="9" fill="#9CA3AF">|  Gauge shows hypothetical example</text>
+  </g>
+
+  <!-- ==================== ROW 1: 3 panels ==================== -->
+
+  <!-- Panel 1: Shared Configuration Adoption -->
+  <g transform="translate(24, 90)">
+    <rect width="276" height="184" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">6.1 Shared Config Adoption</text>
+    <text x="16" y="40" font-size="9" fill="#6B7280">Teams with active AGENTS.md/CLAUDE.md</text>
+
+    <!-- Gauge bar: 0% to 100% -->
+    <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
+    <!-- Fill to 65% example -->
+    <rect x="16" y="54" width="159" height="16" rx="4" fill="#34D399" opacity="0.7"/>
+    <!-- 80% threshold marker -->
+    <line x1="211" y1="50" x2="211" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="211" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 80%</text>
+    <!-- Current value -->
+    <text x="175" y="66" font-size="9" font-weight="600" fill="#065F46">65%</text>
+
+    <!-- Scale labels -->
+    <text x="16" y="82" font-size="7" fill="#9CA3AF">0%</text>
+    <text x="138" y="82" text-anchor="middle" font-size="7" fill="#9CA3AF">50%</text>
+    <text x="260" y="82" text-anchor="end" font-size="7" fill="#9CA3AF">100%</text>
+
+    <!-- Details -->
+    <text x="16" y="100" font-size="9" font-weight="500" fill="#151D1A">Measure</text>
+    <text x="16" y="114" font-size="9" fill="#6B7280">Repository audit across all teams</text>
+    <text x="16" y="130" font-size="9" font-weight="500" fill="#151D1A">Cadence</text>
+    <text x="16" y="144" font-size="9" fill="#6B7280">Monthly</text>
+    <text x="16" y="160" font-size="9" font-weight="500" fill="#151D1A">Timeline</text>
+    <text x="16" y="174" font-size="9" fill="#6B7280">80%+ within 6 months of Zone 2 launch</text>
+  </g>
+
+  <!-- Panel 2: Feedback Loop Adoption -->
+  <g transform="translate(312, 90)">
+    <rect width="276" height="184" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">6.2 Feedback Loop Adoption</text>
+    <text x="16" y="40" font-size="9" fill="#6B7280">Repos with enforced CI quality gates</text>
+
+    <!-- Gauge bar -->
+    <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
+    <rect x="16" y="54" width="183" height="16" rx="4" fill="#34D399" opacity="0.7"/>
+    <!-- 90% threshold -->
+    <line x1="236" y1="50" x2="236" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="236" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 90%</text>
+    <text x="199" y="66" font-size="9" font-weight="600" fill="#065F46">75%</text>
+
+    <text x="16" y="82" font-size="7" fill="#9CA3AF">0%</text>
+    <text x="138" y="82" text-anchor="middle" font-size="7" fill="#9CA3AF">50%</text>
+    <text x="260" y="82" text-anchor="end" font-size="7" fill="#9CA3AF">100%</text>
+
+    <text x="16" y="100" font-size="9" font-weight="500" fill="#151D1A">Measure</text>
+    <text x="16" y="114" font-size="9" fill="#6B7280">CI/CD configuration audit across repos</text>
+    <text x="16" y="130" font-size="9" font-weight="500" fill="#151D1A">Cadence</text>
+    <text x="16" y="144" font-size="9" fill="#6B7280">Monthly</text>
+    <text x="16" y="160" font-size="9" font-weight="500" fill="#151D1A">Timeline</text>
+    <text x="16" y="174" font-size="9" fill="#6B7280">90%+ within 6 months</text>
+  </g>
+
+  <!-- Panel 3: Cross-Team Knowledge Sharing -->
+  <g transform="translate(600, 90)">
+    <rect width="276" height="184" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">6.3 Cross-Team Sharing</text>
+    <text x="16" y="40" font-size="9" fill="#6B7280">Knowledge sharing events per quarter</text>
+
+    <!-- Count gauge: 0 to 8 events (for a ~30-team org = 6 events target) -->
+    <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
+    <rect x="16" y="54" width="122" height="16" rx="4" fill="#FBBF24" opacity="0.6"/>
+    <!-- Target: 6 events -> x = 16 + 244*(6/8) = 199 -->
+    <line x1="199" y1="50" x2="199" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="199" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 6</text>
+    <text x="138" y="66" font-size="9" font-weight="600" fill="#92400E">4</text>
+
+    <text x="16" y="82" font-size="7" fill="#9CA3AF">0</text>
+    <text x="138" y="82" text-anchor="middle" font-size="7" fill="#9CA3AF">4</text>
+    <text x="260" y="82" text-anchor="end" font-size="7" fill="#9CA3AF">8+</text>
+
+    <text x="16" y="100" font-size="9" font-weight="500" fill="#151D1A">Measure</text>
+    <text x="16" y="114" font-size="9" fill="#6B7280">Count presentations, config exchanges</text>
+    <text x="16" y="130" font-size="9" font-weight="500" fill="#151D1A">Cadence</text>
+    <text x="16" y="144" font-size="9" fill="#6B7280">Quarterly</text>
+    <text x="16" y="160" font-size="9" font-weight="500" fill="#151D1A">Target</text>
+    <text x="16" y="174" font-size="9" fill="#6B7280">2+ events per quarter per 10 teams</text>
+  </g>
+
+  <!-- ==================== ROW 2: 2 panels + summary ==================== -->
+
+  <!-- Panel 4: Management Engagement -->
+  <g transform="translate(24, 290)">
+    <rect width="276" height="184" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">6.4 Management Engagement</text>
+    <text x="16" y="40" font-size="9" fill="#6B7280">Manager support for AI workflow (1-5 scale)</text>
+
+    <!-- Gauge bar: 1 to 5 -->
+    <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
+    <!-- Fill to 3.6 out of 5: (3.6-1)/(5-1) = 0.65 -> width = 159 -->
+    <rect x="16" y="54" width="159" height="16" rx="4" fill="#FBBF24" opacity="0.6"/>
+    <!-- Target: 4.0 -> (4.0-1)/(5-1) = 0.75 -> x = 16 + 244*0.75 = 199 -->
+    <line x1="199" y1="50" x2="199" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="199" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 4.0</text>
+    <text x="175" y="66" font-size="9" font-weight="600" fill="#92400E">3.6</text>
+
+    <text x="16" y="82" font-size="7" fill="#9CA3AF">1</text>
+    <text x="77" y="82" text-anchor="middle" font-size="7" fill="#9CA3AF">2</text>
+    <text x="138" y="82" text-anchor="middle" font-size="7" fill="#9CA3AF">3</text>
+    <text x="199" y="82" text-anchor="middle" font-size="7" fill="#9CA3AF">4</text>
+    <text x="260" y="82" text-anchor="end" font-size="7" fill="#9CA3AF">5</text>
+
+    <text x="16" y="100" font-size="9" font-weight="500" fill="#151D1A">Measure</text>
+    <text x="16" y="114" font-size="9" fill="#6B7280">Team lead survey on manager engagement</text>
+    <text x="16" y="130" font-size="9" font-weight="500" fill="#151D1A">Cadence</text>
+    <text x="16" y="144" font-size="9" fill="#6B7280">Quarterly</text>
+    <text x="16" y="160" font-size="9" font-weight="500" fill="#151D1A">Signal</text>
+    <text x="16" y="174" font-size="9" fill="#6B7280">Below 3.5 = disengaged management risk</text>
+  </g>
+
+  <!-- Panel 5: Budget Allocation -->
+  <g transform="translate(312, 290)">
+    <rect width="276" height="184" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">6.5 AI Infrastructure Time</text>
+    <text x="16" y="40" font-size="9" fill="#6B7280">Teams with allocated AI infra capacity</text>
+
+    <!-- Gauge bar -->
+    <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
+    <rect x="16" y="54" width="110" height="16" rx="4" fill="#FB923C" opacity="0.6"/>
+    <!-- 80% threshold -> x = 16 + 244*0.8 = 211 -->
+    <line x1="211" y1="50" x2="211" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="211" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 80%</text>
+    <text x="126" y="66" font-size="9" font-weight="600" fill="#9A3412">45%</text>
+
+    <text x="16" y="82" font-size="7" fill="#9CA3AF">0%</text>
+    <text x="138" y="82" text-anchor="middle" font-size="7" fill="#9CA3AF">50%</text>
+    <text x="260" y="82" text-anchor="end" font-size="7" fill="#9CA3AF">100%</text>
+
+    <text x="16" y="100" font-size="9" font-weight="500" fill="#151D1A">Measure</text>
+    <text x="16" y="114" font-size="9" fill="#6B7280">Sprint planning audit: % teams with capacity</text>
+    <text x="16" y="130" font-size="9" font-weight="500" fill="#151D1A">Cadence</text>
+    <text x="16" y="144" font-size="9" fill="#6B7280">Quarterly</text>
+    <text x="16" y="160" font-size="9" font-weight="500" fill="#151D1A">Allocation</text>
+    <text x="16" y="174" font-size="9" fill="#6B7280">10-20% of sprint capacity during transition</text>
+  </g>
+
+  <!-- Panel 6: Summary / Status legend -->
+  <g transform="translate(600, 290)">
+    <rect width="276" height="184" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="24" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Reading the Dashboard</text>
+
+    <!-- Color key for gauges -->
+    <rect x="16" y="40" width="16" height="10" rx="2" fill="#34D399" opacity="0.7"/>
+    <text x="38" y="49" font-size="9" fill="#151D1A">On track (within 80% of target)</text>
+
+    <rect x="16" y="58" width="16" height="10" rx="2" fill="#FBBF24" opacity="0.6"/>
+    <text x="38" y="67" font-size="9" fill="#151D1A">Progressing (50-80% of target)</text>
+
+    <rect x="16" y="76" width="16" height="10" rx="2" fill="#FB923C" opacity="0.6"/>
+    <text x="38" y="85" font-size="9" fill="#151D1A">At risk (below 50% of target)</text>
+
+    <line x1="16" y1="96" x2="260" y2="96" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="38" y="102" font-size="9" fill="#D912AE">Target threshold (expert judgment)</text>
+
+    <line x1="16" y1="116" x2="260" y2="116" stroke="#E5E7EB" stroke-width="1"/>
+
+    <text x="16" y="134" font-size="9" font-weight="500" fill="#151D1A">Reporting cadences</text>
+    <text x="16" y="148" font-size="9" fill="#6B7280">Monthly: 6.1, 6.2</text>
+    <text x="16" y="162" font-size="9" fill="#6B7280">Quarterly: 6.3, 6.4, 6.5</text>
+    <text x="16" y="176" font-size="9" fill="#9CA3AF">Values shown are hypothetical examples.</text>
+  </g>
+
+  <!-- ==================== BOTTOM: Organizational context ==================== -->
+  <line x1="24" y1="492" x2="876" y2="492" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Investment follow-through context -->
+  <text x="450" y="516" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14"
+        font-weight="500" fill="#151D1A">Companion: Investment Follow-Through (Section 3)</text>
+  <text x="450" y="534" text-anchor="middle" font-size="11" fill="#6B7280">The single most important organizational metric. Leading indicators predict; follow-through delivers.</text>
+
+  <!-- Compact horizontal bar comparison -->
+  <g transform="translate(100, 550)">
+    <!-- Investment completion -->
+    <text x="0" y="12" font-size="10" fill="#151D1A">3.1 Committed vs. Actual Investments</text>
+    <rect x="280" y="0" width="420" height="18" rx="4" fill="#E5E7EB"/>
+    <rect x="280" y="0" width="294" height="18" rx="4" fill="#34D399" opacity="0.7"/>
+    <line x1="616" y1="-4" x2="616" y2="22" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="616" y="-8" text-anchor="middle" font-size="7" fill="#D912AE">Target: 80%</text>
+    <text x="574" y="13" font-size="9" font-weight="500" fill="#065F46">70%</text>
+    <text x="700" y="13" text-anchor="end" font-size="7" fill="#9CA3AF">100%</text>
+
+    <!-- Blocker concentration -->
+    <text x="0" y="42" font-size="10" fill="#151D1A">3.2 Top blocker category concentration</text>
+    <rect x="280" y="30" width="420" height="18" rx="4" fill="#E5E7EB"/>
+    <rect x="280" y="30" width="147" height="18" rx="4" fill="#FBBF24" opacity="0.6"/>
+    <line x1="406" y1="26" x2="406" y2="52" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="406" y="22" text-anchor="middle" font-size="7" fill="#D912AE">Concern: >30%</text>
+    <text x="427" y="43" font-size="9" font-weight="500" fill="#92400E">35%</text>
+    <text x="700" y="43" text-anchor="end" font-size="7" fill="#9CA3AF">100%</text>
+  </g>
+
+  <!-- Bottom annotation -->
+  <line x1="24" y1="628" x2="876" y2="628" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="50" y="642" width="800" height="46" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="50" y="642" width="3" height="46" rx="1" fill="#D912AE"/>
+  <text x="72" y="662" font-size="10" font-weight="500" fill="#151D1A">Leading indicators predict Zone 2 readiness. They do not replace team-level diagnostic assessment.</text>
+  <text x="72" y="678" font-size="10" fill="#6B7280">Organizations targeting Zone 1 as their stopping point may track these for readiness monitoring, not as obligations.</text>
+
+  <text x="450" y="712" text-anchor="middle" font-size="9" fill="#9CA3AF">See Organizational Health Metrics for full definitions. Values shown are hypothetical examples for dashboard illustration.</text>
+</svg>

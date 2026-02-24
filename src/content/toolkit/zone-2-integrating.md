@@ -1,6 +1,8 @@
 ---
 title: "Zone 2: Integrating"
 description: "Zone 2 represents the point at which AI-augmented development moves from individual experimentation to team-level integration."
+type: "zone-reference"
+audience: "facilitator"
 section: "reference"
 order: 2
 ---
@@ -20,7 +22,11 @@ Zone 2 is for teams that have established individual competence with AI tools (Z
 - **Designers** who define the experience standards the team's AI-augmented delivery must meet and use AI to accelerate their own discovery and production work.
 - **QA engineers** who ensure the team's AI-augmented delivery meets quality standards -- adapting test strategies for AI-generated code patterns and contributing quality perspective to the team's shared workflow evolution.
 
-Zone 2 is the **typical near-term target** for organizations that want AI to be a durable competitive advantage rather than an individual convenience. For most software organizations, Zone 2 represents the competitive baseline. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Organizations whose strategic analysis supports a different conclusion should make that choice with confidence.
+Zone 2 is the **most common near-term target** for organizations pursuing AI-augmented development. Most organizations that complete an ACE diagnostic and choose to invest in progression will target Zone 2, because team-level integration is where AI adoption becomes durable and scalable. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Organizations whose strategic analysis supports Zone 1 as the appropriate destination -- because the investment in team-level process change is not justified by their context -- should make that choice with confidence. Zone 1 is a legitimate destination, not a waypoint.
+
+### Evidence Status
+
+**Confidence level: Moderate.** Zone 2 practices build on team-level software engineering practices (CI/CD, code review, shared configuration, test-driven development) that have strong evidence bases independently, combined with emerging evidence on AI-augmented team workflows. The specific integration patterns described here (Plan/Code/Verify, VTDD, shared AGENTS.md configuration) are expert-informed frameworks based on observed practitioner patterns that have not been validated in controlled studies. The organizational investment categories draw on well-established organizational change research. See the [Validation Study Plan](/research/validation-study-plan) for the research program developing empirical evidence for these practices.
 
 ## Core Metric
 
@@ -92,7 +98,7 @@ Proficiencies are observable team behaviors, exhibited habitually even under pre
 
 ### Quality Assurance
 
-- **Adapts test strategies to account for characteristic AI-generated code patterns and AI-specific failure modes.** QA engineers understand the specific failure modes of AI-generated code -- subtle logic errors, security oversights, convention mismatches, hallucinated APIs -- and design test strategies that address these patterns systematically rather than relying on traditional test approaches alone. Concretely, this means: identifying categories of errors that AI-generated code produces more frequently than human-written code (e.g., plausible-looking but incorrect error handling, inconsistent state management across generated modules, security patterns that appear correct but omit edge cases); designing targeted test cases and checklists for these AI-characteristic failure modes; adjusting regression test coverage to account for the higher variance in AI-generated code paths; and contributing AI-specific quality criteria to the team's definition of done. QA engineers maintain a living catalog of observed AI failure patterns and update test strategies as new patterns emerge -- this catalog is as important to Zone 2 QA as the shared AGENTS.md is to engineering.
+- **Adapts test strategies to account for characteristic AI-generated code patterns and AI-specific failure modes.** QA engineers understand the specific failure modes of AI-generated code -- subtle logic errors, security oversights, convention mismatches, hallucinated APIs, and biased assumptions embedded in generated code (e.g., hardcoded demographic defaults, culturally specific data patterns, accessibility-excluding interaction designs) -- and design test strategies that address these patterns systematically rather than relying on traditional test approaches alone. Concretely, this means: identifying categories of errors that AI-generated code produces more frequently than human-written code (e.g., plausible-looking but incorrect error handling, inconsistent state management across generated modules, security patterns that appear correct but omit edge cases); designing targeted test cases and checklists for these AI-characteristic failure modes; adjusting regression test coverage to account for the higher variance in AI-generated code paths; ensuring test data reflects the application's actual user demographics rather than AI training data defaults; checking that AI-generated UI components meet the team's accessibility standards; verifying that AI-generated business logic does not embed assumptions about user demographics; and contributing AI-specific quality criteria to the team's definition of done. QA engineers maintain a living catalog of observed AI failure patterns -- including bias patterns -- and update test strategies as new patterns emerge. This catalog is as important to Zone 2 QA as the shared AGENTS.md is to engineering.
 - **Participates in the team's shared agentic workflow and retrospectives.** QA engineers are active contributors to the team's AI practices, participating in retrospectives about the agentic workflow's quality impact and helping evolve the shared configuration -- not downstream consumers of engineering decisions.
 - **Uses AI tools systematically for test automation and regression analysis as part of the shared workflow.** AI assists with generating test scripts, analyzing regression results, identifying flaky tests, and maintaining test infrastructure -- integrated with the team's shared AI configuration rather than as isolated individual tool use.
 - **Evaluates AI-generated test artifacts with the same rigor applied to AI-generated code.** When AI tools generate test scripts, test data, or test infrastructure, QA engineers review these artifacts for the same categories of AI-characteristic errors that affect production code -- hallucinated assertions, incomplete edge case coverage, tests that pass trivially without actually exercising the behavior under test. A test suite generated by AI that looks comprehensive but does not catch real defects is worse than no tests at all because it creates false confidence.
@@ -119,7 +125,7 @@ The organization creates policy on AI-generated code quality gates. This include
 
 ### Budget Integration
 
-AI tool costs are integrated into project budgets as a team expense, not treated as personal expenses or departmental overhead. When AI tools are essential to the team's workflow, their cost must be visible and funded like any other infrastructure.
+AI tool costs are integrated into project budgets as a team expense, not treated as personal expenses or departmental overhead. When AI tools are essential to the team's workflow, their cost must be visible and funded like any other infrastructure. Visible AI tool budgets also provide the data foundation for tracking the resource footprint of AI usage -- API costs, compute consumption, and associated energy use -- which becomes increasingly important to monitor as AI usage scales through subsequent zones.
 
 ### Workflow Training
 
@@ -132,6 +138,35 @@ The organization enables cross-team sharing of AI configuration patterns. AGENTS
 ### Retrospective Culture
 
 The organization supports a retrospective culture around continuous improvement of the agentic setup. This means allocating time for retrospectives, valuing process improvement alongside feature delivery, and treating the team's AI workflow as a first-class subject of continuous improvement.
+
+### External Feedback Channel Readiness
+
+Ensure existing customer feedback and bug reporting channels can surface concerns about AI-generated output quality. This does not require new infrastructure at Zone 2 -- it means ensuring that customer support, QA triage, and product feedback processes are equipped to recognize and route issues that may be AI-characteristic. If a customer reports that the product behaves inconsistently, or that generated content contains biased assumptions, or that a feature does not work for their demographic, the team should be able to trace whether AI-generated code may be a contributing factor. The investment is in awareness and routing, not in building a new system. At Zone 3 and beyond, this awareness develops into structured external governance mechanisms; at Zone 2, the goal is ensuring the channels you already have can catch the signals AI adoption creates.
+
+### Addressing the Emotional Dimension of Shared Practice
+
+The identity shift at Zone 2 is often underestimated because it does not involve formal role changes. But the shift from personal AI setup to shared workflow requires practitioners to give up individual autonomy in exchange for team consistency. An engineer who has developed a personal prompting style that works well for them is being asked to subordinate that personal effectiveness to a shared configuration that may feel less optimal for their individual workflow. This is a real loss, and organizations that dismiss it -- "just use the shared setup" -- will encounter resistance that is misdiagnosed as stubbornness rather than recognized as a legitimate response to the loss of professional autonomy. Effective approaches include: acknowledging the trade-off explicitly ("we are asking you to give up some individual optimization for team consistency -- that is a real trade-off, and we want to hear where it hurts"); creating mechanisms within the shared configuration for individual contributions (the shared AGENTS.md should incorporate the best of individual practices, not replace them with a lowest-common-denominator alternative); and framing the shared workflow as a team creation that everyone owns, not a mandate imposed from outside.
+
+### Management Behavior
+
+Zone 2 competency requires specific management behaviors, not just management sponsorship. The organizational investments above address structural changes; the behaviors below address how managers act day-to-day during the transition. Without these behaviors, structural investments are undermined by managerial actions that signal the old ways are still acceptable.
+
+- **When the shared workflow is bypassed under pressure, treat the bypass as a diagnostic event, not an acceptable adaptation.** If the team abandons Plan/Code/Verify during a crunch, that bypass is information about which practices are fragile. The manager's response is to debrief after the pressure passes and reinforce the fragile practices -- not to normalize the bypass by saying "we had to ship."
+- **When someone maintains a personal AI setup instead of the shared configuration, redirect individual excellence toward team contribution.** The response is not to prohibit individual experimentation but to channel it: "That technique you developed is clearly effective -- can you propose it as an addition to the shared configuration so the whole team benefits?"
+- **In performance conversations, explicitly adjust what is valued to align with the zone transition.** If the organization rewards individual velocity while asking for team consistency, the incentive structure contradicts the stated direction. Performance criteria should reflect the Zone 2 shift: contributing to shared practices, improving the team's agentic setup, and maintaining quality gates under pressure matter as much as individual output.
+- **When retrospectives surface workflow friction, engage substantively rather than defending or abandoning.** If the team reports that the shared workflow creates friction for certain types of work, the manager's response is to investigate and iterate -- not to defend the workflow ("you just need to get used to it") or abandon it ("if it is not working, just do what works"). The retrospective is the mechanism for improving the workflow; management must treat its findings seriously.
+- **In interactions with their own management, advocate for and protect the team's practice-building time.** Zone 2 investments require protected time that competes with feature delivery. When upper management pressures for more features, the direct manager must advocate for the practice-building time the roadmap requires rather than quietly absorbing the pressure by squeezing practice time. This is the management behavior that most commonly fails and most directly predicts whether Zone 2 investments succeed.
+
+## Accountability at Zone 2
+
+At Zone 2, accountability for AI practices operates through the team's existing collaborative mechanisms rather than through formal accountability structures (which are introduced at Zone 3). The team holds itself accountable for the quality and integrity of its AI-augmented workflow through:
+
+- **Retrospectives.** The weekly agentic setup retrospective is the primary accountability mechanism. When AI-generated output causes problems -- bugs, regressions, inconsistencies, or bias patterns -- the retrospective is where the team diagnoses what happened and how to prevent recurrence. This is team-level accountability: the team takes collective responsibility for the quality of its AI-augmented output.
+- **Code review.** Review of AI-generated code at PR level or better is both a quality gate and an accountability practice. The reviewer who approves AI-generated code shares responsibility for its quality, just as they would for human-written code. This shared responsibility is what makes the review meaningful rather than ceremonial.
+- **Shared configuration review.** The periodic bias review of AGENTS.md and AI-generated outputs (described in the Techniques section) is an accountability practice: the team is answering the question "are our AI practices producing output we can stand behind?" on a regular cadence.
+- **Quality gate enforcement.** The mandatory feedback loops (compiler, linter, tests) are mechanical accountability: they enforce standards regardless of pressure, fatigue, or individual judgment. When the team maintains these gates even under deadline pressure, the gates are functioning as accountability infrastructure.
+
+This team-level accountability is proportionate to Zone 2's scope of AI authority. At Zone 2, AI-generated code is reviewed by humans, tested by automated suites, and produced through a shared workflow the team collectively maintains. The team is the accountability layer. At Zone 3, where AI becomes the primary implementation engine and operates at pipeline scale, formal accountability structures (chain of responsibility, audit trails, regulatory awareness) become necessary because the scope of AI authority exceeds what team-level mechanisms can govern.
 
 ## Techniques
 
@@ -198,7 +233,7 @@ Tools like Code Rabbit, GitHub Copilot, or similar automated review tools integr
 
 A regular (weekly or bi-weekly) practice of reflecting on how the team's agentic setup is working. What should change in AGENTS.md? Are the feedback loops catching the right things? Are there new skills or commands the team should build? This is integrated into the team's existing retrospective practice, not treated as a separate ceremony.
 
-**Periodic bias review.** As part of the retrospective cycle, the team should periodically review the shared AI configuration (AGENTS.md/CLAUDE.md) for unintended assumptions or constraints that may have accumulated over time. Configuration files evolve incrementally, and individual additions that seem reasonable in isolation can collectively encode biases -- favoring certain architectural patterns, coding styles, technology choices, or problem-solving approaches over equally valid alternatives. A quarterly review asking "what assumptions does our configuration encode, and are they still serving us?" helps surface constraints that have become invisible through familiarity. This review is particularly important when team composition changes, since new members bring fresh perspective on what the existing configuration takes for granted.
+**Periodic bias review.** As part of the retrospective cycle, the team should periodically review the shared AI configuration (AGENTS.md/CLAUDE.md) for unintended assumptions or constraints that may have accumulated over time. Configuration files evolve incrementally, and individual additions that seem reasonable in isolation can collectively encode biases -- favoring certain architectural patterns, coding styles, technology choices, or problem-solving approaches over equally valid alternatives. A quarterly review asking "what assumptions does our configuration encode, and are they still serving us?" helps surface constraints that have become invisible through familiarity. This review is particularly important when team composition changes, since new members bring fresh perspective on what the existing configuration takes for granted. This review should also include a periodic sample of the team's AI-generated outputs (code, designs, content, test data) to check whether the AI production workflow is introducing bias patterns that the AGENTS.md configuration alone would not reveal. Configuration review catches biases in what the team tells the AI; output review catches biases in what the AI produces despite correct configuration.
 
 ## Timeline
 
@@ -208,9 +243,33 @@ A regular (weekly or bi-weekly) practice of reflecting on how the team's agentic
 
 Progress is non-linear. Teams will experience plateaus as they establish new habits, jumps as workflow improvements compound, and occasional regression when under pressure. **Regression is normal and expected**, not a sign of failure. When a team reverts to pre-Zone-2 behaviors during a high-pressure period, the regression is diagnostic information: it reveals which practices have become truly habitual and which are still fragile. The appropriate response is to debrief after the pressure period and reinforce the practices that proved fragile, not to treat the regression as evidence that the transition is failing. The key indicator of Zone 2 competency is that the team returns to its shared workflow after disruptions, rather than abandoning it.
 
+## Recognizing and Addressing Regression
+
+Zone 2 competency can regress. Because Zone 2 practices are team-level rather than individual, regression affects the entire team's workflow rather than a single practitioner's habits.
+
+**Common regression triggers:**
+
+- **Delivery pressure.** Extended crunch periods where the team abandons Plan/Code/Verify and reverts to individual ad-hoc AI usage. The shared workflow is the first thing dropped because it is newer and requires more coordination than individual tool use.
+- **Team composition changes.** New members who have not built shared workflow habits, or the departure of a team member who was a strong advocate for the shared practices. The shared AGENTS.md may stop being updated when the person who championed it leaves.
+- **Tool disruptions.** AI tool migrations, provider outages, or policy changes that break the team's established workflow. When the shared setup stops working, individuals fall back on personal configurations.
+- **Management signal reversal.** When management stops protecting practice-building time, stops asking about shared workflow health in check-ins, or rewards individual velocity over team consistency, the organizational signal shifts and the team responds by deprioritizing shared practices.
+
+**Signs of regression:**
+
+- The shared AGENTS.md has not been updated in several retrospective cycles.
+- Team members report bypassing Plan/Code/Verify for "simple changes" that are expanding in scope.
+- Code review of AI-generated code becomes cursory or is skipped under time pressure.
+- Retrospectives stop discussing the agentic setup.
+- New team members are not onboarded into the shared workflow.
+- Individual team members maintain personal AI configurations that diverge from the shared setup.
+
+**What to do:**
+
+Treat regression as a signal that the organizational investments supporting Zone 2 are insufficient or have degraded, not as individual or team failure. Diagnose the trigger: is this a practice fragility issue (the team needs more time to build the habit), an environmental issue (the organizational conditions for the practice have changed), or a management behavior issue (the signals from leadership are undermining the practice)? Each calls for a different response. Revisit the investments (time allocation, tool access, management behavior, retrospective culture) and address the specific trigger. Re-run the diagnostic to establish current state and plan targeted re-investment. See [Module 5: Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/) for detailed regression diagnostic methodology.
+
 ## Progressive Competency Note
 
-Zone 2 is the **typical near-term target for most organizations** adopting AI-augmented software development. While Zone 1 (Augmenting) represents valuable individual capability, the benefits of AI-augmented development become durable and scalable when they are embedded in team-level workflows.
+Zone 2 is the **most common near-term target for most organizations** adopting AI-augmented software development. While Zone 1 (Augmenting) represents valuable individual capability, the benefits of AI-augmented development become durable and scalable when they are embedded in team-level workflows.
 
 For most software organizations, Zone 2 represents the point at which AI adoption becomes a durable team-level capability rather than a collection of individual practices. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Organizations whose strategic analysis supports Zone 1 as the appropriate destination -- because team-level process change is not justified by their context -- should make that choice with confidence. See [How to Choose a Target Zone](/toolkit/choose-target-zone) for the strategic analysis framework.
 

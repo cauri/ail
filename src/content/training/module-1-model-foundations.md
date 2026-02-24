@@ -257,7 +257,7 @@ Given 4-6 organizational descriptions (longer and more detailed than the gallery
 3. Identify the top 3 organizational investments required to reach the target zone.
 4. Identify one common pitfall the organization should watch for during the transition.
 
-Scoring emphasizes reasoning quality over specific answers. Multiple reasonable zone assessments may be acceptable if well-supported. A satisfactory quiz demonstrates strong-level reasoning on at least two of the four dimensions across the majority of scenarios. Trainees who receive surface-level ratings on two or more dimensions receive specific written feedback identifying the reasoning gaps and may revise before Module 2.
+Scoring emphasizes reasoning quality over specific answers. Multiple reasonable zone assessments may be acceptable if well-supported. A satisfactory quiz demonstrates strong-level reasoning on all four dimensions across the majority of scenarios (at least 4 of 6 scenarios, or equivalent). Trainees who demonstrate surface-level reasoning on any dimension receive specific written feedback identifying the reasoning gap and may revise and resubmit once before Module 2.
 
 **Assessment criteria.** The case study quiz is evaluated on four dimensions, each designed to distinguish surface-level recall from the deep understanding required for competent facilitation:
 

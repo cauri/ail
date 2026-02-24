@@ -2,6 +2,8 @@
 title: "ACE Metrics Tree"
 description: "This document defines the metrics tree for the AI Competency Evaluation framework."
 section: "metrics"
+type: "catalog"
+audience: "facilitator"
 order: 1
 ---
 This document defines the metrics tree for the AI Competency Evaluation framework. The tree decomposes a single North Star Metric into leading indicators, lagging indicators, and counter-metrics across the four ACE zones, providing organizations with a structured approach to measuring AI adoption progress.

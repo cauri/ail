@@ -2,6 +2,8 @@
 title: "How to Present ACE Results to Leadership"
 description: "How to help a client presenter frame ACE diagnostic results and progression plans as business investments for their leadership."
 section: "guides"
+type: "planning"
+audience: "leadership"
 order: 6
 ---
 This guide helps facilitators prepare a client-side presenter (typically an engineering leader or change agent) to bring ACE diagnostic results and a progression plan to their leadership. The goal is to frame zone transitions as business investments that leadership can evaluate, fund, and champion -- not as "AI training" requests that get deprioritized.

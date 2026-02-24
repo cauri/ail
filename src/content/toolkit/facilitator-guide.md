@@ -1,6 +1,8 @@
 ---
 title: "Facilitator Guide: Getting Started with ACE"
 description: "This tutorial is your introduction to facilitating ACE diagnostic engagements."
+type: "diagnostic"
+audience: "facilitator"
 section: "guides"
 order: 1
 ---
@@ -140,6 +142,90 @@ Team members have a right to understand how their assessment data will be handle
 **Leadership who want team-level data.** Sponsors sometimes request individual team scores for the management report. Do not accommodate this. Explain the data quality argument: team-level data shared with management produces worse data quality on the next assessment, because teams learn to game the system.
 
 **Low scores that feel uncomfortable.** Teams sometimes feel embarrassed by low scores. Normalize this. Low scores are not failure -- they are an honest starting point. A team at Zone 0 with honest scores is in a better position than a team that inflates to Zone 2 because their roadmap will be based on reality.
+
+## Evidence Verification Probes
+
+Discussion prompts (see [Discussion Prompts](/toolkit/discussion-prompts)) help the facilitator explore score patterns. Evidence verification probes serve a different purpose: they test whether a high self-reported score is supported by specific, recent behavioral evidence. Use these probes when a team rates a behavior at 4 or 5 but the discussion has not yet produced concrete examples.
+
+**The scoring principle:** If the team rates a behavior at 4 or 5 but cannot produce a specific recent example when probed, record the discrepancy. The inability to recall evidence is itself evidence -- it suggests the score may reflect aspiration rather than habitual behavior. Record both the team's score and the facilitator's evidence-based assessment in the team report, with transparent reasoning for the discrepancy.
+
+### Zone 1 Evidence Verification Probes
+
+1. **Q1 (Pressure-resilient AI usage):** "Walk me through the last production incident or tight deadline your team faced. Specifically: when the pressure hit, did you open your AI tools or close them? What did the first 30 minutes of your response look like?"
+
+2. **Q5 (Reviewing AI output before accepting):** "Show me -- or describe to me -- what your most recent AI code review looked like. What did you change? What did you accept? How long did the review take relative to the code generation?"
+
+3. **Q6 (PM/non-engineering AI usage):** "Product managers and designers: open your browser history or recent files right now. In the last three working days, which AI tools appear? What were you using them for?"
+
+4. **Q4 (Mode selection):** "Give me an example from this week where you deliberately chose between vibe-coding, CHOP, and rigorous AI-assisted coding. What made you choose the mode you chose? If you did not make a deliberate choice, what mode did you default to?"
+
+### Zone 2 Evidence Verification Probes
+
+1. **Q1 (Shared workflow under pressure):** "During your last crunch -- the last time the team was behind or under deadline -- did you use Plan/Code/Verify, or did you go straight to 'fix this now'? Be specific about what happened."
+
+2. **Q2 (Shared AI configuration):** "Can someone pull up your AGENTS.md or CLAUDE.md right now? When was it last modified? Who modified it? Can everyone on the team tell me where it lives in the repo?"
+
+3. **Q3 (Mandatory feedback loops):** "What happens if someone commits code that fails the linter? Is the linter a gate or a suggestion? When was the last time a commit was blocked by an automated check on AI-generated code?"
+
+4. **Q9 (QA practices for AI-generated code):** "Identify the last time an AI-generated behavioral error was caught by your test suite before it reached code review. If you cannot recall a specific example, what does that tell us about the test suite's coverage of AI-generated code patterns?"
+
+### Zone 3 Evidence Verification Probes
+
+1. **Q1 (Engineers as process designers):** "In the last sprint, what percentage of your time was spent writing specifications and verification criteria versus writing application code directly? Can you show me a recent specification you wrote that an AI pipeline consumed?"
+
+2. **Q2 (CAT pipeline):** "Walk me through your alignment testing pipeline. What does it test? How often does it run? When was the last time it caught something the team would have shipped otherwise?"
+
+3. **Q7 (PM AI-specific criteria):** "Show me a recent user story that includes AI behavioral criteria -- acceptance criteria that specify what the AI pipeline should and should not do. If you do not have one, what do your current acceptance criteria look like?"
+
+### Zone 4 Evidence Verification Probes
+
+1. **Q1 (Engineers as factory designers):** "Describe a typical week for your most senior engineer. What percentage of their time is spent on pipeline design and governance versus direct implementation? What would I see if I looked at their calendar?"
+
+2. **Q2 (Formal AI pipeline governance):** "Walk me through the last change to your AI pipeline configuration. What governance process did it go through? Who approved it? How was the change validated before deployment?"
+
+## Artisan Observation Protocol for Re-Diagnostics
+
+In engagements with embedded Artisans, the Facilitator has access to a source of behavioral evidence that complements the team's self-assessment: the Artisan team's direct observation of the team's daily practices. This protocol structures that observation for use during re-diagnostics.
+
+**Purpose:** The Artisan observation provides a calibration reference for the Facilitator. It does not replace the team's self-assessment or override it. When the Artisan's observations significantly diverge from the team's self-report, the divergence is a signal for the Facilitator to probe more deeply during the re-diagnostic workshop -- not a correction to apply privately.
+
+**Timing:** The Artisan team lead completes the observation form 1-2 weeks before the scheduled re-diagnostic workshop. The Facilitator reviews it before facilitating the workshop.
+
+**Audience:** The observation form is shared with the Facilitator only. It is not shared with the team, with management, or included in any report. It is a facilitation preparation tool.
+
+### Observation Form Structure
+
+For each zone question being re-assessed, the Artisan team lead rates the team's observed behavior on a 3-point scale:
+
+| Rating | Definition |
+|---|---|
+| **Observed consistently** | The Artisan has seen this behavior occur regularly in the team's daily work, including under pressure or in unfamiliar situations. |
+| **Observed sometimes** | The Artisan has seen this behavior occur in some contexts but not others, or from some team members but not others. |
+| **Not observed or rarely observed** | The Artisan has not seen this behavior in the team's regular work, or has seen it only in isolated instances. |
+
+For each rating, the Artisan provides one brief behavioral example: a specific instance they observed that supports their rating.
+
+### How the Facilitator Uses the Observation
+
+1. **Before the re-diagnostic workshop:** Compare the Artisan's observation ratings against the team's previous self-assessment scores. Identify questions where the Artisan's observation is significantly lower than the team's prior self-report (e.g., team reported 4-5, Artisan observed "sometimes" or "not observed").
+
+2. **During the re-diagnostic workshop:** Use the divergence points to guide probing. When the team self-reports a high score on a question where the Artisan's observation was lower, probe for specific evidence: "That score is higher than last time. Can you point to a specific example from the past month when you used that practice under pressure?"
+
+3. **After the workshop:** The Artisan observation is one input among several. The Facilitator's assessment should triangulate between the team's self-report, the Artisan's observations, and the leading indicator data. No single source is treated as ground truth.
+
+**Disclosure:** The existence of the Artisan observation protocol should be disclosed to the team during the engagement setup (see the [Engagement Model](/toolkit/engagement-model) guidance on transparency about the observation channel). Teams should understand that Artisan observations inform the Facilitator's preparation, not that they override the team's self-assessment.
+
+## Facilitator Independent Rating (Dual-Scoring Procedure)
+
+Alongside the team's self-assessment, the facilitator completes an independent evidence-based rating. This dual-scoring approach captures both the team's perception of their practices and the facilitator's assessment of the behavioral evidence produced during the workshop.
+
+**When to complete the rating:** After the workshop concludes, not during it. During the workshop, your attention should be fully on facilitation -- observing, diagnosing, intervening. Complete the independent rating within 24 hours while the workshop evidence is fresh.
+
+**How to complete the rating:** Use the same zone questions and the same 1-5 scale. For each question, rate the team based on the behavioral evidence that surfaced during the facilitated discussion -- specific examples produced, pressure-resilience stories, the quality and specificity of responses to evidence verification probes, and any observable discrepancies between scores and evidence.
+
+**What goes in the report:** The team report includes both score sets: the team's self-assessment composite scores and the facilitator's evidence-based composite scores. Where the two diverge, the report includes the facilitator's reasoning: "The team self-assessed at [score]. Based on the discussion evidence -- specifically [cite evidence] -- the facilitator's assessment is [score]. The divergence suggests [interpretation]."
+
+**What the facilitator should not do:** Do not privately replace the team's scores with the facilitator's assessment. Both scores are reported transparently. The team's self-assessment is their data; the facilitator's assessment is the facilitator's professional judgment. Presenting both with reasoning allows the report reader to form their own view.
 
 ## Building Your Confidence
 

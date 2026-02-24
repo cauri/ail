@@ -2,6 +2,8 @@
 title: "What Is ACE?"
 description: "Overview of the ACE framework for organizational AI adoption."
 section: "reference"
+type: "concept"
+audience: "facilitator"
 order: 10
 ---
 The AI Competency Evaluation (ACE) framework helps software organizations understand where they are in AI adoption, decide where they want to go, and build a practical roadmap to get there.

@@ -1,6 +1,8 @@
 ---
 title: "Zone 2 (Integrating) Diagnostic Questions"
 description: "These questions assess whether a team has moved from individual AI tool usage to systematic, team-level AI integration."
+type: "diagnostic"
+audience: "facilitator"
 section: "diagnostic"
 order: 2
 ---
@@ -18,7 +20,10 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 **Additional Questions**
 
-2. The team maintains a shared AI configuration (AGENTS.md, CLAUDE.md, or equivalent) committed to source control that encodes project context, coding standards, and workflow instructions, and all team members contribute to its evolution.
+2. The team maintains a shared AI configuration that all members co-own. *This question is scored as a composite of two sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
+
+    - **2a.** The team maintains a shared AI configuration (AGENTS.md, CLAUDE.md, or equivalent) committed to source control that encodes project context, coding standards, and workflow instructions.
+    - **2b.** All team members contribute to the evolution of the shared AI configuration --- it is not maintained by one person while others consume it.
 
 3. Mandatory feedback loops are enforced: AI-generated code must pass compiler checks, linters, and automated tests before being committed, with no exceptions or workarounds in regular practice.
 
@@ -32,7 +37,11 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 8. Designers participate in the team's agentic workflow by using the shared AI configuration for design-related tasks --- generating design system documentation, creating accessibility checks, or producing design-to-code specifications --- rather than working with AI tools in isolation from the team's shared setup.
 
-9. The team's quality assurance practices explicitly address AI-generated code: test strategies account for characteristic AI error patterns, regression suites cover AI-introduced risks, and QA team members are trained to identify the specific failure modes that AI-generated code produces.
+9. The team's quality assurance practices explicitly address AI-generated code. *This question is scored as a composite of three sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
+
+    - **9a.** The team's test strategies explicitly account for characteristic AI error patterns --- e.g., plausible-looking but incorrect logic, hallucinated APIs, inconsistent error handling.
+    - **9b.** Regression test suites include coverage for AI-introduced risks that traditional testing might miss.
+    - **9c.** QA team members can identify and articulate the specific failure modes that AI-generated code produces, distinct from typical human-authored bugs.
 
 10. When new team members join, they can become productive with the team's agentic workflow within their first week by following the committed AI configuration, documented workflow practices, and onboarding materials --- without requiring extensive oral tradition or tribal knowledge transfer.
 

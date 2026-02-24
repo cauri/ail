@@ -1,6 +1,8 @@
 ---
 title: "Zone 3 (Accelerating) Diagnostic Questions"
 description: "These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements."
+type: "diagnostic"
+audience: "facilitator"
 section: "diagnostic"
 order: 3
 ---
@@ -20,7 +22,10 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 2. The team maintains a Continuous Alignment Testing (CAT) pipeline that automatically verifies AI-generated output against project standards, architectural constraints, and behavioral expectations on every change, separate from traditional CI/CD tests.
 
-3. Engineers instrument and monitor AI-driven development processes with observability tooling --- tracking metrics such as agent success rates, rework frequency, context window utilization, and failure mode distributions --- and use this data to improve the system.
+3. Engineers maintain observability over AI-driven development processes and act on what they learn. *This question is scored as a composite of two sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
+
+    - **3a.** Engineers instrument AI-driven development processes with observability tooling that tracks metrics such as agent success rates, rework frequency, context window utilization, and failure mode distributions.
+    - **3b.** Engineers routinely use observability data about AI-driven processes to make specific improvements to the system --- not just collect the data but act on it.
 
 4. The team maintains an eval harness: a suite of repeatable evaluations that measure AI agent performance against known benchmarks, used to validate changes to prompts, model versions, context configurations, or workflow modifications before deploying them.
 
@@ -34,7 +39,7 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 9. QA engineers operate as evaluation pipeline specialists: they design, maintain, and improve the automated evaluation infrastructure that validates AI-generated output at scale, rather than primarily performing manual testing of individual outputs.
 
-10. When a task arises that could be completed faster by writing the code directly than by specifying it for an AI pipeline, engineers choose the specification approach because they are investing in pipeline capability rather than optimizing for immediate task completion. This choice is habitual, not exceptional.
+10. Specification-first is the team's default mode of working: engineers habitually specify intent for the AI pipeline rather than implementing directly. When manual coding does occur, it is a principled exception with a clear rationale (e.g., the task is genuinely unsuitable for the pipeline, or speed-of-response in an incident justifies it), and those exceptions feed back into pipeline improvement --- the team asks "what would need to change so the pipeline could handle this next time?" rather than treating the exception as normal.
 
 ## Scale
 
@@ -71,7 +76,7 @@ These probes address the concern that Zone 3's 10 scored questions are ~70% engi
 
 - **Confusing sophisticated Zone 2 practices with Zone 3.** A team that has excellent AGENTS.md, thorough Plan/Code/Verify, and strong feedback loops is a mature Zone 2 team. Zone 3 requires the additional infrastructure of CAT, eval harnesses, observability, and prompt versioning. The shift is from "we use AI well in our workflow" to "we engineer the AI systems that do the work."
 
-- **Infrastructure without identity shift.** A team may have CAT pipelines, eval harnesses, and observability dashboards but still routinely choose to write code directly rather than invest in pipeline specification. The infrastructure is a necessary but insufficient condition. Question 10 specifically tests the identity shift: do engineers choose the specification approach as a habitual default, even when writing code directly would be faster? Probe: "Tell me about the last time a team member chose to write code directly rather than specifying it for the pipeline. What was the reasoning? Was that a deliberate exception or a default behavior?"
+- **Infrastructure without identity shift.** A team may have CAT pipelines, eval harnesses, and observability dashboards but still routinely choose to write code directly rather than invest in pipeline specification. The infrastructure is a necessary but insufficient condition. Question 10 measures three things simultaneously: (a) specification-first is the default mode, (b) when manual coding happens there is a principled rationale, and (c) exceptions feed back into pipeline improvement. This framing measures the identity shift without penalizing appropriate manual coding --- the question distinguishes between teams that default to manual coding (not Zone 3) and teams that default to specification but make principled exceptions (Zone 3). Probe: "Tell me about the last time a team member chose to write code directly rather than specifying it for the pipeline. What was the reasoning? Did anything change in the pipeline as a result?"
 
 - **Treating prompt engineering as prompt versioning.** Writing good prompts (Zone 1-2 skill) is different from versioning, reviewing, testing, and deploying prompt configurations as production artifacts (Zone 3 practice). Look for version control, review processes, and rollback capability.
 

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640"
+     font-family="'Inter', sans-serif">
+  <title>Choose Your Stopping Point — Every Zone Is a Legitimate Destination</title>
+  <desc>A strategic visual for leadership audiences showing the four ACE zones as a single path with escalating investment and legitimate stopping points. Each zone shows its value proposition, investment required, and strategic context where it is the right destination. The visual uses a journey metaphor with ascending terrain to communicate that higher zones require larger investment, while emphasizing that depth within any chosen zone is more valuable than overextension.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="640" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="32" y="36" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Choose Your Stopping Point</text>
+  <text x="32" y="54" font-size="12" fill="#6B7280">Every zone is a legitimate destination when chosen through informed strategic analysis</text>
+
+  <!-- ================================================ -->
+  <!-- ASCENDING PATH — visual metaphor for escalating investment -->
+  <!-- The path ascends from left to right, each zone a plateau -->
+  <!-- ================================================ -->
+
+  <!-- Path line connecting all zones -->
+  <path d="M72,420 L240,420 L280,340 L480,340 L520,250 L700,250 L740,170 L868,170"
+        fill="none" stroke="#E5E7EB" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ================================================ -->
+  <!-- ZONE 1: Augmenting (lowest plateau) -->
+  <!-- ================================================ -->
+
+  <!-- Zone card -->
+  <rect x="32" y="350" width="240" height="110" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <rect x="32" y="350" width="4" height="110" rx="2" fill="#60A5FA"/>
+
+  <!-- Zone label -->
+  <text x="52" y="374" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Zone 1: Augmenting</text>
+  <text x="52" y="390" font-size="10" font-weight="500" fill="#6B7280">Individual tool adoption</text>
+
+  <!-- Value proposition -->
+  <text x="52" y="410" font-size="10" fill="#151D1A">Faster task completion, reduced boilerplate</text>
+  <text x="52" y="424" font-size="10" fill="#151D1A">Improved onboarding across all roles</text>
+
+  <!-- Investment tag -->
+  <rect x="52" y="436" width="86" height="16" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="95" y="448" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">3-6 months</text>
+
+  <!-- Stopping point indicator -->
+  <circle cx="260" cy="420" r="8" fill="#fff" stroke="#60A5FA" stroke-width="2"/>
+  <circle cx="260" cy="420" r="3" fill="#60A5FA"/>
+
+  <!-- ================================================ -->
+  <!-- ZONE 2: Integrating (second plateau) — emphasized as typical target -->
+  <!-- ================================================ -->
+
+  <rect x="260" y="260" width="240" height="118" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <rect x="260" y="260" width="4" height="118" rx="2" fill="#34D399"/>
+
+  <!-- Typical target badge -->
+  <rect x="364" y="250" width="128" height="18" rx="9" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="428" y="263" text-anchor="middle" font-size="9" font-weight="600" fill="#065F46">TYPICAL NEAR-TERM TARGET</text>
+
+  <text x="280" y="284" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#065F46">Zone 2: Integrating</text>
+  <text x="280" y="300" font-size="10" font-weight="500" fill="#6B7280">Team-level workflow integration</text>
+
+  <text x="280" y="320" font-size="10" fill="#151D1A">Systematic quality, faster delivery cycles</text>
+  <text x="280" y="334" font-size="10" fill="#151D1A">Reduced variability across team</text>
+  <text x="280" y="348" font-size="10" fill="#151D1A">Durable team-level AI capability</text>
+
+  <rect x="280" y="356" width="112" height="16" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <text x="336" y="368" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">6-12 months added</text>
+
+  <circle cx="492" cy="340" r="8" fill="#fff" stroke="#34D399" stroke-width="2"/>
+  <circle cx="492" cy="340" r="3" fill="#34D399"/>
+
+  <!-- ================================================ -->
+  <!-- ZONE 3: Accelerating (third plateau) -->
+  <!-- ================================================ -->
+
+  <rect x="504" y="170" width="220" height="118" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <rect x="504" y="170" width="4" height="118" rx="2" fill="#FBBF24"/>
+
+  <text x="524" y="194" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E">Zone 3: Accelerating</text>
+  <text x="524" y="210" font-size="10" font-weight="500" fill="#6B7280">Role identity transformation</text>
+
+  <text x="524" y="230" font-size="10" fill="#151D1A">Fundamentally higher leverage</text>
+  <text x="524" y="244" font-size="10" fill="#151D1A">AI-native development capabilities</text>
+
+  <!-- Warning: structural change -->
+  <rect x="524" y="254" width="186" height="16" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="617" y="266" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">12-24 months + role restructuring</text>
+
+  <circle cx="716" cy="250" r="8" fill="#fff" stroke="#FBBF24" stroke-width="2"/>
+  <circle cx="716" cy="250" r="3" fill="#FBBF24"/>
+
+  <!-- ================================================ -->
+  <!-- ZONE 4: Industrializing (summit) -->
+  <!-- ================================================ -->
+
+  <rect x="724" y="90" width="168" height="118" rx="8" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <rect x="724" y="90" width="4" height="118" rx="2" fill="#A78BFA"/>
+
+  <text x="744" y="114" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">Zone 4:</text>
+  <text x="744" y="130" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">Industrializing</text>
+  <text x="744" y="146" font-size="10" font-weight="500" fill="#6B7280">AI-first production</text>
+
+  <text x="744" y="166" font-size="10" fill="#151D1A">Strategic differentiator</text>
+  <text x="744" y="180" font-size="10" fill="#151D1A">Market-defining pace</text>
+
+  <rect x="744" y="188" width="136" height="16" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
+  <text x="812" y="200" text-anchor="middle" font-size="9" font-weight="500" fill="#5B21B6">3-5+ years + executive commitment</text>
+
+  <!-- ================================================ -->
+  <!-- INVESTMENT ESCALATION — right side annotation -->
+  <!-- Vertical arrow showing escalating investment -->
+  <!-- ================================================ -->
+
+  <line x1="880" y1="420" x2="880" y2="100" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="876" y="260" text-anchor="end" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#D912AE" transform="rotate(-90, 876, 260)">Investment Required</text>
+
+  <!-- ================================================ -->
+  <!-- STRATEGIC CONTEXT CARDS — bottom row -->
+  <!-- Who should stop at each zone? -->
+  <!-- ================================================ -->
+
+  <rect x="32" y="480" width="836" height="36" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="450" y="498" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">
+    When is each zone the right destination?</text>
+  <text x="450" y="510" text-anchor="middle" font-size="10" fill="#6B7280">The right zone matches strategic context, investment capacity, and risk appetite.</text>
+
+  <!-- Zone 1 context -->
+  <rect x="32" y="524" width="196" height="48" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="130" y="541" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Zone 1 is the destination when:</text>
+  <text x="130" y="555" text-anchor="middle" font-size="9" fill="#6B7280">Individual fluency meets the need</text>
+  <text x="130" y="567" text-anchor="middle" font-size="9" fill="#6B7280">without team process integration</text>
+
+  <!-- Zone 2 context -->
+  <rect x="240" y="524" width="210" height="48" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <text x="345" y="541" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">Zone 2 is the destination when:</text>
+  <text x="345" y="555" text-anchor="middle" font-size="9" fill="#6B7280">Software is important but not the</text>
+  <text x="345" y="567" text-anchor="middle" font-size="9" fill="#6B7280">primary competitive differentiator</text>
+
+  <!-- Zone 3 context -->
+  <rect x="462" y="524" width="196" height="48" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="560" y="541" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Zone 3 is the destination when:</text>
+  <text x="560" y="555" text-anchor="middle" font-size="9" fill="#6B7280">Engineering leverage is a strategic</text>
+  <text x="560" y="567" text-anchor="middle" font-size="9" fill="#6B7280">differentiator and competitors move</text>
+
+  <!-- Zone 4 context -->
+  <rect x="670" y="524" width="198" height="48" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
+  <text x="769" y="541" text-anchor="middle" font-size="9" font-weight="500" fill="#5B21B6">Zone 4 is the destination when:</text>
+  <text x="769" y="555" text-anchor="middle" font-size="9" fill="#6B7280">AI-driven production is a core</text>
+  <text x="769" y="567" text-anchor="middle" font-size="9" fill="#6B7280">strategic necessity</text>
+
+  <!-- ================================================ -->
+  <!-- KEY TAKEAWAY — bottom accent bar -->
+  <!-- ================================================ -->
+  <rect x="32" y="588" width="836" height="36" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="450" y="604" text-anchor="middle" font-size="11" fill="#D912AE" font-weight="500">A deeply competent Zone 2 organization that chose its destination through careful analysis</text>
+  <text x="450" y="618" text-anchor="middle" font-size="11" fill="#6B7280">is in a stronger position than a Zone 4 organization that overextended.</text>
+
+</svg>

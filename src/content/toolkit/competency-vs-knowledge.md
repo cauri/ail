@@ -2,6 +2,8 @@
 title: "Competency vs. Knowledge"
 description: "Why ACE measures habitual behavior under stress rather than knowledge or best-day performance."
 section: "reference"
+type: "concept"
+audience: "facilitator"
 order: 11
 ---
 The word "competency" in ACE carries specific meaning borrowed from performance science and organizational change literature. Understanding this distinction is essential to using the framework correctly, because it determines how organizations assess their current state, set goals, and measure progress.

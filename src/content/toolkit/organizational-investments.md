@@ -2,6 +2,8 @@
 title: "Organizational Investments"
 description: "The structural changes, policy changes, and resource allocation required for each zone transition."
 section: "reference"
+type: "catalog"
+audience: "facilitator"
 order: 13
 ---
 Every zone transition in ACE requires organizational investment -- structural changes, policy changes, resource allocation, and management behavior. Individual training and motivation are necessary but insufficient. The most common failure mode in AI adoption is investing in individuals while leaving the organizational system unchanged.

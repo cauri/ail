@@ -3,6 +3,8 @@ title: "Discussion Prompts for Diagnostic Workshop"
 description: "These prompts are organized by zone and by situation."
 section: "diagnostic"
 order: 9
+type: "diagnostic"
+audience: "facilitator"
 ---
 These prompts are organized by zone and by situation. Use them during the facilitated discussion phase of the diagnostic workshop to dig beneath the scores and surface actionable insights.
 
@@ -200,6 +202,87 @@ As the facilitator, you must capture:
 - Surprising moments (where did perception differ from reality?)
 
 These notes become the raw material for both the team report and the management report.
+
+---
+
+## Evidence Verification Probes
+
+> **These probes are not discussion prompts.** They serve a different purpose. Discussion prompts (above) generate insight by opening conversation. Evidence verification probes test whether a high self-report score is supported by specific behavioral evidence. Use them when a team's scores seem high relative to what you have observed, when variance is suspiciously low, or when the team's descriptions stay abstract rather than concrete. The inability to provide a specific example in response to a verification probe is itself diagnostic information -- it suggests the behavior may be aspirational rather than habitual.
+
+### When to Use Evidence Verification Probes
+
+- A question composite is 4.0 or higher but the team has not described concrete examples during discussion
+- Variance on a question is unusually low (SD < 0.3) across a team of 5 or more -- this may indicate social conformity rather than genuine agreement
+- Your facilitator independent rating diverges from the team's self-report by more than 1 point on a question
+- The team's descriptions use general language ("we usually," "we try to") rather than specific instances
+
+### Zone 1 Evidence Verification Probes
+
+These probes target the Zone 1 questions most susceptible to aspiration bias.
+
+**Q1 (Pressure-Resilient AI Usage):** "You scored high on using AI tools even under deadline pressure. Think about the last production incident or urgent hotfix your team handled. Walk me through exactly what happened -- did you use AI tools during that specific incident? Which tools? For what tasks? If you did not, what did you do instead?"
+
+*What to listen for: A specific incident with specific tool usage. Vague answers ("I think so" or "we probably would") suggest the behavior is not yet habitual under pressure.*
+
+**Q5 (Reviewing AI Output):** "You scored high on reviewing AI-generated code before accepting it. Can you show me -- or describe in detail -- what your review process looks like? Do you have a checklist? How long does a typical review take? What was the last thing you caught and changed during a review?"
+
+*What to listen for: A describable, repeatable process. If the answer is "I just look at it," the practice may not be as rigorous as the score suggests.*
+
+**Q6 (PM and Non-Engineering AI Usage):** "Product managers and designers who scored high: name the last three times you used an AI tool for your role-specific work -- not code generation, but PM or design work specifically. What tool, what task, what was the outcome?"
+
+*What to listen for: Three specific instances. Difficulty producing three recent examples for a practice scored as "Almost Always" (4-5) is meaningful.*
+
+**Q4 (Mode Selection):** "You scored high on selecting the right mode of AI engagement -- vibe-coding vs. CHOP vs. rigorous. Give me an example from the past week where you deliberately chose one mode over another. What made you choose that mode? What would have gone wrong if you had used a different mode?"
+
+*What to listen for: Deliberate selection with reasoning, not default behavior. If the answer is "I always use the same approach," the mode-selection competency may not be present.*
+
+### Zone 2 Evidence Verification Probes
+
+Zone 2 probes target the team-level practices most likely to be overreported by individual team members who assume the team does something it does not.
+
+**Q1 (Shared Workflow):** "You scored high on using a shared agentic workflow. Can one of you describe it right now -- the exact steps, from when a developer picks up a task to when it is merged? Does everyone on the team follow the same steps? Anyone want to add or correct anything?"
+
+*What to listen for: Agreement on the specific workflow. If team members describe different workflows, the "shared" part of the practice is not established.*
+
+**Q2 (Shared Configuration):** "You scored high on having a shared AI configuration committed to source control. Can you tell me the file path? When was it last updated? Who updates it? Has everyone on the team read the current version?"
+
+*What to listen for: A specific file that everyone knows about. If team members look at each other or are unsure, the configuration may exist but is not truly shared.*
+
+**Q3 (Mandatory Feedback Loops):** "You scored high on mandatory feedback loops -- AI-generated code must pass compiler, linter, and tests before committing. Is this enforced by tooling (CI gate, pre-commit hook), or is it a team norm that relies on individual discipline? What happens when someone is in a rush?"
+
+*What to listen for: Tooling enforcement vs. honor system. A practice that depends on individual discipline under pressure is not yet at the level the score implies.*
+
+**Q9 (QA Practices):** "You scored high on QA validating that AI-generated test coverage is genuine. Walk me through how you verify this. Do you have mutation testing or fault injection? Or is it code coverage percentage? Can you show me a recent example where QA flagged AI-generated tests as inadequate?"
+
+*What to listen for: A distinction between coverage metrics and genuine test adequacy. As Simon Willison has noted, AI-generated tests can achieve high coverage numbers while testing implementation details rather than behavior. If the team equates coverage percentage with test quality, this probe has surfaced a meaningful gap.*
+
+### Zone 3 Evidence Verification Probes
+
+Zone 3 probes focus on role transformation claims, which are the highest-inflation-risk area because the behaviors are aspirational for most teams.
+
+**Q1 (Engineers as Process Designers):** "You scored high on engineers operating as process designers rather than code writers. Describe what you did yesterday. What percentage of your time was spent writing specifications and verification criteria vs. writing or editing application code? If it was mostly code, what would need to change?"
+
+*What to listen for: An honest account of yesterday's work. If the answer is mostly code-writing, the role transformation has not yet occurred regardless of the score.*
+
+**Q2 (CAT Pipeline):** "You scored high on having a Continuous Alignment Testing pipeline. Can you describe it? How many alignment tests do you have? What do they evaluate? When did you last add a new alignment test? What triggered adding it?"
+
+*What to listen for: Specifics about the pipeline -- number of tests, what they measure, recent additions. A vague answer ("we have some checks") suggests the pipeline is nascent.*
+
+**Q7 (PM AI-Specific Criteria):** "Product managers who scored high: show me or describe the last user story or requirement you wrote that included AI-specific behavioral criteria. What did the AI-specific criteria look like? How are they different from traditional acceptance criteria?"
+
+*What to listen for: A concrete example with AI-specific language. If the PM cannot distinguish AI-specific criteria from traditional acceptance criteria, the practice is not yet established.*
+
+### Zone 4 Evidence Verification Probes
+
+Zone 4 scores above 3.0 are rare. If a team reports them, verification is essential.
+
+**Q1 (Factory Designers):** "You scored high on engineers designing and maintaining the AI production pipeline as their primary job function. What percentage of engineer time this sprint was spent on pipeline design vs. application code? Can you show me the pipeline architecture? How many production artifacts were produced by the pipeline without human code editing this week?"
+
+*What to listen for: Quantifiable evidence of the factory model in operation. Any answer that describes traditional development with AI assistance is Zone 1-2, not Zone 4.*
+
+**Q2 (Governance):** "You scored high on having AI-specific governance processes. Describe the governance process. Who participates? What triggers a governance review? How is it different from your standard code review and deployment process? When did it last block or modify a release?"
+
+*What to listen for: A distinct governance process with AI-specific criteria. If the answer describes standard code review, the governance infrastructure is not yet Zone 4.*
 
 ---
 

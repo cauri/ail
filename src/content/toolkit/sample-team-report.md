@@ -2,6 +2,8 @@
 title: "ACE Diagnostic: Team Report"
 description: "A sample completed team diagnostic report for the Payments Platform team at FinServ Corp."
 section: "reports"
+type: "report"
+audience: "facilitator"
 order: 2
 ---
 ## Payments Platform Team — FinServ Corp
@@ -15,6 +17,18 @@ order: 2
 ---
 
 > **Confidentiality:** This report is for the Payments Platform team and should not be shared with FinServ Corp management or other teams without explicit team consent. A separate management report covering aggregated organizational patterns has been provided to FinServ Corp leadership. That report does not include your scores, discussion content, or identified blockers.
+
+---
+
+## How to Read This Report
+
+This report is the product of a facilitated self-assessment workshop in which your team scored its own practices against the ACE framework's behavioral criteria. Scores reflect the team's collective judgment about how frequently specific behaviors occur in daily work -- not an external audit or a performance evaluation. No individual scores are recorded; every number in this report is a team-level composite.
+
+The report is structured in four parts. The **Assessment Summary** gives the overall zone and competency stage assessment with key context. **Zone Assessment Breakdowns** present composite scores for each diagnostic question along with observations from the workshop discussion. **Strengths** and **Growth Areas** translate scores into narrative findings. Finally, **Investment Recommendations** provides sequenced, actionable next steps with expected effort, timeline, and benefit.
+
+Scores use a 1-5 frequency scale (1 = Never, 5 = Always). A composite score is the most frequent response across all team members for a given question; ties resolve to the lower value. Competency stages (Emerging, Developing, Established, Exemplary) describe how habitual the zone's behaviors are under real working conditions, including pressure. For full scoring methodology, see [Scoring Thresholds](/toolkit/scoring-thresholds).
+
+This report is confidential to your team. A separate management report with aggregated, anonymized patterns has been provided to organizational leadership. That report does not contain your scores, discussion content, or identified blockers.
 
 ---
 

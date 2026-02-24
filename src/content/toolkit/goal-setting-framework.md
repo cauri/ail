@@ -2,6 +2,8 @@
 title: "Goal-Setting Framework: Choosing a Target Zone"
 description: "This framework helps organizations choose their target zone after completing the ACE diagnostic."
 section: "consulting"
+type: "planning"
+audience: "facilitator"
 order: 2
 ---
 This framework helps organizations choose their target zone after completing the ACE diagnostic. It is designed to be structured enough for a non-expert facilitator to use and rigorous enough to prevent organizations from selecting zones based on aspiration rather than strategic analysis.

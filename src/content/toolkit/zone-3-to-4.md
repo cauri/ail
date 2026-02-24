@@ -2,6 +2,8 @@
 title: "Roadmap: Zone 3 (Accelerating) to Zone 4 (Industrializing)"
 description: "Roadmap template for progressing from Zone 3 (Accelerating) to Zone 4 (Industrializing) with strategic and cultural transformation."
 section: "roadmaps"
+type: "zone-reference"
+audience: "facilitator"
 order: 4
 ---
 **Transition type:** Production model shift

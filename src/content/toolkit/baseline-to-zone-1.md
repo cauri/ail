@@ -2,6 +2,8 @@
 title: "Roadmap: Baseline (Zone 0) to Zone 1 (Augmenting)"
 description: "Roadmap template for progressing from Baseline (no AI adoption) to Zone 1 (Augmenting) with tool adoption shift."
 section: "roadmaps"
+type: "zone-reference"
+audience: "facilitator"
 order: 1
 ---
 **Transition type:** Tool adoption shift

@@ -2,6 +2,8 @@
 title: "Roadmap: Zone 1 (Augmenting) to Zone 2 (Integrating)"
 description: "Roadmap template for progressing from Zone 1 (Augmenting) to Zone 2 (Integrating) with a workflow integration shift."
 section: "roadmaps"
+type: "zone-reference"
+audience: "facilitator"
 order: 2
 ---
 **Transition type:** Workflow integration shift

@@ -2,6 +2,8 @@
 title: "The Progressive Competency Model"
 description: "The single linear progression path through four zones of AI competency."
 section: "reference"
+type: "concept"
+audience: "facilitator"
 order: 12
 ---
 ACE uses a progressive competency model with a single linear path: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the capabilities and habits of the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Higher zones are not universally better -- they represent deeper organizational commitment that is justified only in certain strategic contexts.

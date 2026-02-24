@@ -2,6 +2,8 @@
 title: "ACE Glossary"
 description: "Key terms used throughout the ACE framework, in alphabetical order."
 section: "reference"
+type: "catalog"
+audience: "facilitator"
 order: 5
 ---
 Key terms used throughout the ACE framework, in alphabetical order. For full context on any term, follow the cross-references to the relevant zone or concept document.
@@ -42,6 +44,9 @@ The delivery track of the ACE engagement model, running concurrently with the as
 **CAT (Continuous Alignment Testing)**
 The AI analog of test-driven development. Automated pipelines that verify AI outputs remain consistent, accurate, and aligned with behavioral expectations. No AI-produced feature ships without passing its eval criteria. A Zone 3 core practice. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).
 
+**Change Capacity**
+The finite pool of human adaptability available for organizational change at any given time. Every zone transition competes with the organization's other change initiatives for this capacity. High change saturation does not mean AI adoption should be abandoned -- it means the pace, scope, and ambition of the engagement should be calibrated to what the organization can actually absorb. Change capacity is assessed during discovery through stakeholder interviews and shapes zone target selection, diagnostic scope, and roadmap design. See [Engagement Model](/toolkit/engagement-model) and [How to Choose a Target Zone](/toolkit/choose-target-zone).
+
 **CHOP (Chat-Oriented Programming)**
 Interactive, chat-based AI collaboration for coding tasks. One of three Zone 1 engagement modes. More structured than vibe-coding but less formal than AI-assisted coding. See [Technique Catalog](/toolkit/technique-catalog).
 
@@ -73,6 +78,9 @@ The process of identifying an organization's current AI adoption state, strategi
 **Dual reporting structure**
 The design feature that separates diagnostic results into two reports with different audiences: the team report (shared with the team, contains specific scores and improvement recommendations) and the management report (shared with organizational leadership, contains systemic patterns and investment themes — never individual team scores or attribution). This separation is what makes honest participation possible. See [Workshop Script](/toolkit/workshop-script).
 
+**Dual-scoring procedure**
+The practice in which the facilitator completes an independent evidence-based rating alongside the team's self-assessment. The facilitator uses the same zone questions and the same 1-5 scale, rating the team based on behavioral evidence that surfaced during the workshop discussion -- specific examples produced, pressure-resilience stories, quality of responses to evidence verification probes, and discrepancies between scores and evidence. Both score sets appear in the team report with transparent reasoning where they diverge. The facilitator's rating does not replace the team's self-assessment; both are reported to allow the reader to form their own view. See [Facilitator Guide](/toolkit/facilitator-guide).
+
 ---
 
 ## E
@@ -88,6 +96,9 @@ A test suite for AI outputs. Defines what "correct" looks like for a given AI pi
 
 **Exemplary**
 The highest of the four competency stages within a zone. A team has achieved Exemplary when all three threshold criteria are met simultaneously: zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0. Teams at Exemplary can coach others, innovate within the zone, and sustain practices under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+
+**Evidence verification probe**
+A facilitation technique used to test whether a high self-reported score (4 or 5) is supported by specific, recent behavioral evidence. Distinct from discussion prompts, which explore score patterns: evidence verification probes directly ask the team to produce a concrete example. If the team cannot recall a specific instance, the inability itself is evidence that the score may reflect aspiration rather than habitual behavior. The facilitator records the discrepancy and includes both the team's score and the evidence-based assessment in the team report. Each zone has role-specific verification probes. See [Facilitator Guide](/toolkit/facilitator-guide).
 
 **Externalized plan**
 A feature plan or implementation design written to a markdown file in the repository rather than held in the AI's context window. Serves as both human documentation and agent context for multi-step implementations. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).

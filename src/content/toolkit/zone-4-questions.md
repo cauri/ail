@@ -1,6 +1,8 @@
 ---
 title: "Zone 4 (Industrializing) Diagnostic Questions"
 description: "These questions assess whether an organization operates as an AI-first software factory where engineers design, govern, and maintain the factory itself rather than performing development work directly"
+type: "diagnostic"
+audience: "facilitator"
 section: "diagnostic"
 order: 4
 ---
@@ -22,11 +24,17 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 **Additional Questions**
 
-2. The organization operates formal governance over its AI development pipelines --- including approval workflows for pipeline changes, audit trails for AI-generated output, compliance verification, and defined escalation paths when pipelines produce output outside acceptable bounds.
+2. The organization operates formal governance over its AI development pipelines. *This question is scored as a composite of two sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
+
+    - **2a.** Pipeline changes go through defined approval workflows with audit trails for AI-generated output and compliance verification.
+    - **2b.** Defined escalation paths exist and are followed when pipelines produce output outside acceptable bounds.
 
 3. Eval suites operate at portfolio scale: standardized evaluations run automatically across multiple products, teams, or codebases, with results aggregated into dashboards that inform organizational decisions about AI pipeline investment and configuration.
 
-4. The organization systematically detects and remediates drift in AI pipeline performance --- including model drift from provider updates, prompt drift from accumulated configuration changes, and specification drift from evolving requirements --- before degraded output reaches production.
+4. The organization systematically detects and remediates drift in AI pipeline performance. *This question is scored as a composite of two sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
+
+    - **4a.** The organization proactively detects drift in AI pipeline performance --- including model drift from provider updates, prompt drift from accumulated configuration changes, and specification drift from evolving requirements --- before degraded output reaches production.
+    - **4b.** When drift is detected, the organization remediates it systematically rather than through ad-hoc fixes, and the remediation process is documented and repeatable.
 
 5. AI-driven development pipelines operate under defined production SLAs (throughput targets, quality thresholds, failure rate bounds) that are monitored, reported on, and enforced with the same rigor as production system SLAs.
 
@@ -38,7 +46,10 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 9. Quality governance operates at the factory level: standardized quality criteria, acceptance thresholds, and risk assessment frameworks are applied uniformly across all products in the portfolio, with systematic escalation paths when any product falls below quality thresholds.
 
-10. The organization maintains ethical governance of its AI production pipelines --- including systematic monitoring for bias in AI-generated outputs, accountability structures for AI-caused harm, workforce transition support for affected roles, and regular review of which software categories are appropriate for AI-driven production versus those requiring human authorship.
+10. The organization maintains ethical governance of its AI production pipelines. *This question is scored as a composite of two sub-items. Sub-items are scored individually and averaged to produce the question composite. This approach provides finer-grained diagnostic information for facilitators while maintaining scoring continuity.*
+
+    - **10a.** The organization systematically monitors for bias in AI-generated outputs, maintains accountability structures for AI-caused harm, and provides workforce transition support for affected roles.
+    - **10b.** The organization regularly reviews which software categories are appropriate for AI-driven production versus those requiring human authorship, and acts on those reviews.
 
 ## Scale
 
