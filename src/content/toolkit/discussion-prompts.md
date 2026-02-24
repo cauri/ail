@@ -66,7 +66,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 2. "I see variance on the CAT pipeline question (Question 2). Does the team have any form of automated alignment testing for AI outputs today? If yes, how extensive is it? If no, what would be the first thing you would want to evaluate?"
 
-3. "Question 5 asks about observability -- instrumenting AI interactions with traces, timing, and costs. Some scored high, some low. What is behind the difference?" *(Follow-up if needed: "Is it about tooling, practice, knowledge, or something else?")*
+3. "Question 3 asks about observability -- instrumenting AI interactions with traces, timing, and costs. Some scored high, some low. What is behind the difference?" *(Follow-up if needed: "Is it about tooling, practice, knowledge, or something else?")*
 
 ### Surfacing Role Transformation Issues
 
@@ -74,7 +74,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 5. "For PMs: Question about writing AI behavioral criteria and measurable acceptance criteria. What would user stories look like if they included specifications for AI pipeline behavior? Can you give an example? If this feels abstract, what would help make it concrete?"
 
-6. "Question 7 asks about treating every AI failure as a pipeline design signal. When AI produces bad output today, what happens? Do you fix the output, fix the prompt, or diagnose the failure at a deeper level? What would need to change?"
+6. "Question 6 asks about treating every AI failure as a pipeline design signal. When AI produces bad output today, what happens? Do you fix the output, fix the prompt, or diagnose the failure at a deeper level? What would need to change?"
 
 ### Investment Identification
 

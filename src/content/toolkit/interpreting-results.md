@@ -20,16 +20,16 @@ The Zone 1 core metric is Question 1:
 
 > *When working under deadline pressure or in an unfamiliar codebase, team members use AI coding tools as part of their workflow rather than reverting to fully manual approaches.*
 
-Here are the raw scores for all ten Zone 1 questions:
+Here are the raw scores for all twelve Zone 1 questions:
 
-| Team Member | Q1 (Core) | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
-|-------------|-----------|----|----|----|----|----|----|----|----|-----|
-| Alex        | 5         | 5  | 5  | 4  | 5  | 5  | 5  | 4  | 5  | 5   |
-| Blair       | 4         | 5  | 4  | 4  | 4  | 5  | 4  | 4  | 4  | 4   |
-| Casey       | 5         | 4  | 5  | 5  | 4  | 5  | 5  | 5  | 4  | 5   |
-| Dana        | 3         | 4  | 3  | 3  | 3  | 4  | 3  | 3  | 3  | 3   |
-| Morgan      | 4         | 4  | 4  | 3  | 5  | 4  | 4  | 4  | 3  | 4   |
-| **Average** | **4.2**   | **4.4** | **4.2** | **3.8** | **4.2** | **4.6** | **4.2** | **4.0** | **3.8** | **4.2** |
+| Team Member | Q1 (Core) | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
+|-------------|-----------|----|----|----|----|----|----|----|----|-----|-----|-----|
+| Alex        | 5         | 5  | 5  | 4  | 5  | 5  | 5  | 4  | 5  | 5   | 4   | 5   |
+| Blair       | 4         | 5  | 4  | 4  | 4  | 5  | 4  | 4  | 4  | 4   | 4   | 4   |
+| Casey       | 5         | 4  | 5  | 5  | 4  | 5  | 5  | 5  | 4  | 5   | 5   | 5   |
+| Dana        | 3         | 4  | 3  | 3  | 3  | 4  | 3  | 3  | 3  | 3   | 3   | 4   |
+| Morgan      | 4         | 4  | 4  | 3  | 5  | 4  | 4  | 4  | 3  | 4   | 4   | 4   |
+| **Average** | **4.2**   | **4.4** | **4.2** | **3.8** | **4.2** | **4.6** | **4.2** | **4.0** | **3.8** | **4.2** | **4.0** | **4.4** |
 
 **Notes on this dataset:** Alex and Casey are senior engineers who have been using AI tools for over a year. Blair is mid-level, roughly eight months in. Dana joined the team three months ago from a shop with no AI tool usage. Morgan is the PM who started using ChatGPT for user story writing about six months ago.
 
@@ -57,36 +57,36 @@ Now calculate the question-level composites and the overall average.
 
 From the table above, the per-question averages are:
 
-| Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Overall Average |
-|----|----|----|----|----|----|----|----|----|-----|-----------------|
-| 4.2 | 4.4 | 4.2 | 3.8 | 4.2 | 4.6 | 4.2 | 4.0 | 3.8 | 4.2 | **4.16** |
+| Q1 | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 | Overall Average |
+|----|----|----|----|----|----|----|----|----|-----|-----|-----|-----------------|
+| 4.2 | 4.4 | 4.2 | 3.8 | 4.2 | 4.6 | 4.2 | 4.0 | 3.8 | 4.2 | 4.0 | 4.4 | **4.17** |
 
-The overall average is the mean of all individual responses: sum all 50 scores (5 people × 10 questions), divide by 50.
+The overall average is the mean of all individual responses: sum all 60 scores (5 people × 12 questions), divide by 60.
 
 Let's verify:
-- Alex: 5+5+5+4+5+5+5+4+5+5 = 48
-- Blair: 4+5+4+4+4+5+4+4+4+4 = 42
-- Casey: 5+4+5+5+4+5+5+5+4+5 = 47
-- Dana: 3+4+3+3+3+4+3+3+3+3 = 32
-- Morgan: 4+4+4+3+5+4+4+4+3+4 = 39
+- Alex: 5+5+5+4+5+5+5+4+5+5+4+5 = 57
+- Blair: 4+5+4+4+4+5+4+4+4+4+4+4 = 50
+- Casey: 5+4+5+5+4+5+5+5+4+5+5+5 = 57
+- Dana: 3+4+3+3+3+4+3+3+3+3+3+4 = 39
+- Morgan: 4+4+4+3+5+4+4+4+3+4+4+4 = 47
 
-Total: 48+42+47+32+39 = 208. Divide by 50 = **4.16**.
+Total: 57+50+57+39+47 = 250. Divide by 60 = **4.17**.
 
-An overall average of 4.16 places us in the Established range (4.0--4.9), not Emerging or Developing. The overall average is used to anchor the stage, but remember: we still need to check whether the three Exemplary criteria are met.
+An overall average of 4.17 places us in the Established range (4.0--4.9), not Emerging or Developing. The overall average is used to anchor the stage, but remember: we still need to check whether the three Exemplary criteria are met.
 
 ---
 
 ## Step 3: Identify the Zone Stage
 
-With an overall average of 4.16, the team is in the Established band. Now check whether they meet all three criteria for Exemplary:
+With an overall average of 4.17, the team is in the Established band. Now check whether they meet all three criteria for Exemplary:
 
-**Criterion 1 -- High Composite Average:** The zone composite average must be ≥ 4.7. The average of all question composites is (4.2 + 4.4 + 4.2 + 3.8 + 4.2 + 4.6 + 4.2 + 4.0 + 3.8 + 4.2) / 10 = 4.16. Threshold is 4.7. Criterion 1 is **not met**.
+**Criterion 1 -- High Composite Average:** The zone composite average must be ≥ 4.7. The average of all question composites is (4.2 + 4.4 + 4.2 + 3.8 + 4.2 + 4.6 + 4.2 + 4.0 + 3.8 + 4.2 + 4.0 + 4.4) / 12 = 4.17. Threshold is 4.7. Criterion 1 is **not met**.
 
-**Criterion 2 -- Response Consistency:** The standard deviation across all individual responses must be ≤ 0.5. With scores ranging from 3 to 5 across team members (Dana's 3s pull the range wide), the SD across all 50 responses is approximately 0.73. Criterion 2 is **not met**.
+**Criterion 2 -- Response Consistency:** The standard deviation across all individual responses must be ≤ 0.5. With scores ranging from 3 to 5 across team members (Dana's 3s pull the range wide), the SD across all 60 responses is approximately 0.72. Criterion 2 is **not met**.
 
-**Criterion 3 -- No Weak Links:** Every question composite must be ≥ 4.0. Looking at the composites: 4.2, 4.4, 4.2, 3.8, 4.2, 4.6, 4.2, 4.0, 3.8, 4.2. Q4 and Q9 both have composites of 3.8, which is below 4.0. Criterion 3 is **not met**.
+**Criterion 3 -- No Weak Links:** Every question composite must be ≥ 4.0. Looking at the composites: 4.2, 4.4, 4.2, 3.8, 4.2, 4.6, 4.2, 4.0, 3.8, 4.2, 4.0, 4.4. Q4 and Q9 both have composites of 3.8, which is below 4.0. Criterion 3 is **not met**.
 
-**Stage determination:** Overall average 4.16, none of the three Exemplary criteria met.
+**Stage determination:** Overall average 4.17, none of the three Exemplary criteria met.
 
 The team is **Zone 1, Established**.
 
@@ -102,7 +102,7 @@ A stage label tells you where the team is. Patterns tell you why and what to do 
 
 **Who is dragging and who is driving?**
 
-Look at Dana's row: 3, 4, 3, 3, 3, 4, 3, 3, 3, 3. Nearly every question is a 3 -- "sometimes." Dana is a Zone 1 team member who is in a different place from the rest of the team. Alex and Casey are at or near competency. Blair and Morgan are solid in the 4-range. Dana is the outlier.
+Look at Dana's row: 3, 4, 3, 3, 3, 4, 3, 3, 3, 3, 3, 4. Nearly every question is a 3 -- "sometimes." Dana is a Zone 1 team member who is in a different place from the rest of the team. Alex and Casey are at or near competency. Blair and Morgan are solid in the 4-range. Dana is the outlier.
 
 **What does an outlier mean?**
 
@@ -126,7 +126,7 @@ Q6 asks about PM and non-engineering AI usage. The composite is 4.6, and Morgan 
 
 **Bimodal risk.**
 
-Whenever one member is significantly below the rest, check whether the distribution is bimodal. Here: Alex (48 total), Blair (42), Casey (47), Morgan (39), Dana (32). Dana is notably lower, but it is not a split -- it is a single outlier on a skewed-high team. A true bimodal distribution would look like half the team at 3--4 and half at 1--2. That is not what you have here. What you have is a high-performing team with one member in an earlier stage of adoption.
+Whenever one member is significantly below the rest, check whether the distribution is bimodal. Here: Alex (57 total), Blair (50), Casey (57), Morgan (47), Dana (39). Dana is notably lower, but it is not a split -- it is a single outlier on a skewed-high team. A true bimodal distribution would look like half the team at 3--4 and half at 1--2. That is not what you have here. What you have is a high-performing team with one member in an earlier stage of adoption.
 
 ---
 
@@ -172,13 +172,13 @@ Here is a second Zone 1 dataset for you to interpret. Work through the five step
 
 **Team:** Four engineers (Priya, Sam, Teo, and Wen) and no PM (they are a backend platform team with no dedicated product manager).
 
-| Team Member | Q1 (Core) | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
-|-------------|-----------|----|----|----|----|----|----|----|----|-----|
-| Priya       | 3         | 4  | 3  | 2  | 3  | 2  | 3  | 2  | 3  | 3   |
-| Sam         | 3         | 3  | 3  | 3  | 3  | 2  | 3  | 2  | 3  | 2   |
-| Teo         | 4         | 4  | 4  | 3  | 4  | 3  | 4  | 3  | 4  | 3   |
-| Wen         | 2         | 2  | 2  | 2  | 2  | 1  | 2  | 1  | 2  | 2   |
-| **Average** | **3.0**   | **3.25** | **3.0** | **2.5** | **3.0** | **2.0** | **3.0** | **2.0** | **3.0** | **2.5** |
+| Team Member | Q1 (Core) | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 | Q11 | Q12 |
+|-------------|-----------|----|----|----|----|----|----|----|----|-----|-----|-----|
+| Priya       | 3         | 4  | 3  | 2  | 3  | 2  | 3  | 2  | 3  | 3   | 2   | 3   |
+| Sam         | 3         | 3  | 3  | 3  | 3  | 2  | 3  | 2  | 3  | 2   | 2   | 3   |
+| Teo         | 4         | 4  | 4  | 3  | 4  | 3  | 4  | 3  | 4  | 3   | 3   | 3   |
+| Wen         | 2         | 2  | 2  | 2  | 2  | 1  | 2  | 1  | 2  | 2   | 1   | 2   |
+| **Average** | **3.0**   | **3.25** | **3.0** | **2.5** | **3.0** | **2.0** | **3.0** | **2.0** | **3.0** | **2.5** | **2.0** | **2.75** |
 
 *Work through the steps before reading the answers.*
 
@@ -188,19 +188,19 @@ Here is a second Zone 1 dataset for you to interpret. Work through the five step
 
 **Step 1 -- Core metric:** Q1 scores are 3, 3, 4, 2. No one is at 5. The composite is 3.0. The team clearly does not meet Exemplary or Established criteria on the core metric.
 
-**Step 2 -- Overall average:** Total all scores: Priya (28) + Sam (27) + Teo (36) + Wen (18) = 109. Divide by 40 responses (4 × 10) = **2.73**.
+**Step 2 -- Overall average:** Total all scores: Priya (33) + Sam (32) + Teo (42) + Wen (21) = 128. Divide by 48 responses (4 × 12) = **2.67**.
 
-**Step 3 -- Stage:** Overall average 2.73 places the team in the Emerging band (2.0--2.9). Stage: **Zone 1, Emerging**.
+**Step 3 -- Stage:** Overall average 2.67 places the team in the Emerging band (2.0--2.9). Stage: **Zone 1, Emerging**.
 
 **Step 4 -- Patterns:**
-- Q6 and Q8 are the weakest questions overall (both composite 2.0). Q6 covers PM and non-engineering AI usage; Q8 covers design/UX AI usage. This team has no PM and no dedicated designer, so low scores on cross-craft questions may reflect role composition rather than resistance. However, AI usage for documentation, commit messages, and other non-code artifacts is worth encouraging.
-- Q4 (mode selection) and Q10 (onboarding) are also weak: composites of 2.5. The team has not developed deliberate mode distinctions, and new members do not get structured AI tool onboarding.
-- Wen's scores are the standout: mostly 2s with two 1s (Q6 and Q8). This is a different pattern from Dana in the first example. Wen is not a newcomer catching up -- with four engineers showing this pattern, it suggests Wen may have significantly less comfort or access than the others. Teo is the relative high performer at 3--4 range.
+- Q6, Q8, and Q11 are the weakest questions overall (all composite 2.0). Q6 covers PM and non-engineering AI usage; Q8 covers design/UX AI usage; Q11 covers design analysis and evaluation. This team has no PM and no dedicated designer, so low scores on cross-craft questions may reflect role composition rather than resistance. However, AI usage for documentation, commit messages, and other non-code artifacts is worth encouraging.
+- Q4 (mode selection) and Q10 (PM product discovery) are also weak: composites of 2.5. The team has not developed deliberate mode distinctions, and PM-focused AI usage is absent (this team has no dedicated PM).
+- Wen's scores are the standout: mostly 2s with three 1s (Q6, Q8, and Q11). This is a different pattern from Dana in the first example. Wen is not a newcomer catching up -- with four engineers showing this pattern, it suggests Wen may have significantly less comfort or access than the others. Teo is the relative high performer at 3--4 range.
 - This is not a bimodal split: it is a team where everyone is in the 2--4 range, with no one clearly competent. The team is uniformly early-stage.
 
-**Step 5 -- Narrative:** This team is in the early stages of Zone 1 adoption. AI tool usage is present but inconsistent and fragile. Teo is the most advanced adopter; Wen has the most ground to cover. The team does not yet have habitual AI usage under pressure (all Q1 scores are 3 or below). The recommended focus is on building consistent daily habits through reduced barriers, clearer permission to use AI tools in all contexts (including production pressure), and structured practice rather than ad-hoc experimentation. Address Wen's low scores specifically -- there may be an access or confidence barrier worth surfacing directly. The low Q6/Q8 scores may simply reflect lack of PM and design presence on the team rather than a gap, but AI usage for documentation and commit messages (also covered by Q6--Q7) is worth encouraging. Q10 (onboarding) scores suggest the team has no structured process for bringing new members into AI-assisted workflows.
+**Step 5 -- Narrative:** This team is in the early stages of Zone 1 adoption. AI tool usage is present but inconsistent and fragile. Teo is the most advanced adopter; Wen has the most ground to cover. The team does not yet have habitual AI usage under pressure (all Q1 scores are 3 or below). The recommended focus is on building consistent daily habits through reduced barriers, clearer permission to use AI tools in all contexts (including production pressure), and structured practice rather than ad-hoc experimentation. Address Wen's low scores specifically -- there may be an access or confidence barrier worth surfacing directly. The low Q6/Q8/Q11 scores may simply reflect lack of PM and design presence on the team rather than a gap, but AI usage for documentation and commit messages (also covered by Q6--Q7) is worth encouraging. Q12 (onboarding) scores suggest the team has no structured process for bringing new members into AI-assisted workflows.
 
-**Facilitator note on role composition:** This practice exercise features an engineering-only team with no PM or designer. Facilitators should consider how the interpretation would differ if the team had a different role composition. For example: a full cross-functional team (engineers, PM, designer, QA) with these same score patterns would warrant a different narrative -- the low Q6/Q8 scores would be a genuine gap rather than an artifact of role composition. Conversely, an engineering-only team may show artificially high averages on engineering-focused questions because every respondent works in that domain. When interpreting real diagnostic results, always account for who is on the team and how role composition shapes which questions are most meaningful. A team's role composition does not invalidate the diagnostic, but it does change which patterns are diagnostic signals and which are compositional artifacts.
+**Facilitator note on role composition:** This practice exercise features an engineering-only team with no PM or designer. Facilitators should consider how the interpretation would differ if the team had a different role composition. For example: a full cross-functional team (engineers, PM, designer, QA) with these same score patterns would warrant a different narrative -- the low Q6/Q8/Q11 scores would be a genuine gap rather than an artifact of role composition. Conversely, an engineering-only team may show artificially high averages on engineering-focused questions because every respondent works in that domain. When interpreting real diagnostic results, always account for who is on the team and how role composition shapes which questions are most meaningful. A team's role composition does not invalidate the diagnostic, but it does change which patterns are diagnostic signals and which are compositional artifacts.
 
 ---
 
