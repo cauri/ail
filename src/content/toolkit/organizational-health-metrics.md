@@ -18,7 +18,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Gives leadership a snapshot of where the organization stands overall. A healthy organization should see progressive movement toward higher zones over time.
 - **How to measure:** Aggregate results from facilitated diagnostic assessments. Each team receives a zone classification; report the distribution.
 - **Reporting frequency:** Quarterly or after each round of diagnostic assessments.
-- **What "good" looks like:**
+- **What "good" looks like:** [Expert judgment] The following benchmarks assume the organization has chosen to progress toward Zone 3. Organizations that have chosen a different stopping point should adjust targets accordingly -- a Zone 2 stopping point, for example, would show a healthy distribution concentrated at Zone 2 with no expectation of Zone 3 progression. See [How to Choose a Target Zone](/toolkit/choose-target-zone) for guidance on stopping-point decisions.
   - Within 6 months of AI adoption initiative: 0% Zone 0, 60%+ Zone 1, 20%+ Zone 2
   - Within 12 months: 0% Zone 0, 30% Zone 1, 50%+ Zone 2, 10%+ Zone 3
   - Within 24 months: 0% Zone 0, 10% Zone 1, 50%+ Zone 2, 25%+ Zone 3
@@ -29,7 +29,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Broad individual adoption is the foundation for team-level integration. Low adoption rates indicate systemic barriers.
 - **How to measure:** Tool telemetry aggregated across the organization, or quarterly survey.
 - **Reporting frequency:** Monthly.
-- **What "good" looks like:** 85%+ of licensed team members are daily active users within 6 months of license provisioning.
+- **What "good" looks like:** [Expert judgment] 85%+ of licensed team members are daily active users within 6 months of license provisioning.
 
 ### 1.3 Non-Developer AI Adoption Rate
 
@@ -37,7 +37,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** AI adoption confined to developers limits organizational benefit. Zone 2+ competency requires adoption across roles.
 - **How to measure:** Role-segmented survey or tool telemetry.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** 60%+ of non-developer team members report regular AI tool usage within 6 months.
+- **What "good" looks like:** [Expert judgment] 60%+ of non-developer team members report regular AI tool usage within 6 months.
 
 ---
 
@@ -49,7 +49,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** High variance means some teams are far ahead while others are left behind. This creates organizational friction, inconsistent quality, and inequitable investment returns.
 - **How to measure:** Calculate standard deviation of zone scores from diagnostic assessments.
 - **Reporting frequency:** After each round of diagnostic assessments.
-- **What "good" looks like:** Standard deviation of 0.5 zones or less. Teams should be within one zone of each other for the majority of the organization.
+- **What "good" looks like:** [Expert judgment] Standard deviation of 0.5 zones or less. Teams should be within one zone of each other for the majority of the organization.
 
 ### 2.2 Adoption Pace Variance
 
@@ -57,7 +57,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** If some teams achieve Zone 2 in 4 months and others take 18 months, the organization needs to understand why. The gap usually reflects differences in organizational investment, not team capability.
 - **How to measure:** Track time from AI tool provisioning to confirmed zone competency for each team.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** Slowest teams are within 2x the pace of fastest teams. Larger gaps indicate systemic barriers affecting specific teams.
+- **What "good" looks like:** [Expert judgment] Slowest teams are within 2x the pace of fastest teams. Larger gaps indicate systemic barriers affecting specific teams.
 
 ### 2.3 Practice Consistency Score
 
@@ -65,7 +65,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Two teams both classified as "Zone 2" should exhibit similar practices. If practices vary widely within the same zone classification, the diagnostic or the training may need refinement.
 - **How to measure:** Audit a sample of teams at each zone for adherence to zone-defining practices.
 - **Reporting frequency:** Semi-annually.
-- **What "good" looks like:** 80%+ practice consistency among teams at the same zone level.
+- **What "good" looks like:** [Expert judgment] 80%+ practice consistency among teams at the same zone level.
 
 ---
 
@@ -77,7 +77,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** This is the single most important organizational health metric. Teams cannot progress if the organization fails to make the investments it committed to. Common failures include: promised training not delivered, tool licenses delayed, policy decisions deferred, time for infrastructure not allocated.
 - **How to measure:** Quarterly audit comparing roadmap investment commitments to actual completion status.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** 80%+ of committed investments completed on time. Below 60% indicates systemic organizational follow-through problems.
+- **What "good" looks like:** [Expert judgment] 80%+ of committed investments completed on time. Below 60% indicates systemic organizational follow-through problems.
 
 ### 3.2 Investment Blockers by Category
 
@@ -85,7 +85,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Identifies the organizational system that is most frequently blocking AI adoption progress.
 - **How to measure:** Root cause analysis of each incomplete investment commitment.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** No single category accounts for more than 30% of blockers. Concentration in one category indicates a systemic organizational bottleneck.
+- **What "good" looks like:** [Expert judgment] No single category accounts for more than 30% of blockers. Concentration in one category indicates a systemic organizational bottleneck.
 
 ### 3.3 Time from Investment Decision to Implementation
 
@@ -93,7 +93,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Even when investments are eventually completed, long delays erode team trust and slow progression. If policy approval takes 6 months, teams stall regardless of their own effort.
 - **How to measure:** Track timestamps from roadmap approval to implementation completion for each investment.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:**
+- **What "good" looks like:** [Expert judgment]
   - Tool provisioning: < 2 weeks
   - Policy decisions: < 4 weeks
   - Training programs: < 6 weeks
@@ -109,7 +109,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Dissatisfaction with tools suppresses adoption. If the organization provides tools that developers find unhelpful, clunky, or restrictive, adoption will stall regardless of training or mandate.
 - **How to measure:** Quarterly survey (5-point Likert scale) covering: tool effectiveness, tool reliability, tool integration with existing workflow, and overall satisfaction.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** Average score of 3.8+ on a 5-point scale across all dimensions.
+- **What "good" looks like:** [Expert judgment] Average score of 3.8+ on a 5-point scale across all dimensions.
 
 ### 4.2 AI Workflow Friction Score
 
@@ -117,7 +117,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Identifies practical barriers that prevent teams from reaching or sustaining competency. These are often organizational issues (policy, procurement, infrastructure) rather than team-level issues.
 - **How to measure:** Quarterly survey with open-ended friction point identification, categorized into themes.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** Declining number of unique friction points over time. Zero "critical" friction points (blockers that prevent AI usage entirely).
+- **What "good" looks like:** [Expert judgment] Declining number of unique friction points over time. Zero "critical" friction points (blockers that prevent AI usage entirely).
 
 ### 4.3 AI Investment Value Perception
 
@@ -125,7 +125,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Perception drives engagement. If teams do not perceive value from AI investments, adoption becomes compliance rather than competency.
 - **How to measure:** Quarterly survey: "The organization's investment in AI tools and training has meaningfully improved my ability to do my job" (5-point Likert scale).
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** Average score of 3.5+ within 6 months, trending upward.
+- **What "good" looks like:** [Expert judgment] Average score of 3.5+ within 6 months, trending upward.
 
 ---
 
@@ -137,7 +137,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Policy blockers are the most common organizational-level impediment to AI adoption. They are invisible to leadership unless actively tracked.
 - **How to measure:** Maintain a blocker registry. Teams report policy blockers through a standardized intake process. Each blocker is classified by severity (critical: prevents AI usage; major: significantly impedes usage; minor: causes friction).
 - **Reporting frequency:** Monthly.
-- **What "good" looks like:** Zero critical blockers. Major blockers addressed within 30 days. Minor blockers addressed within 90 days.
+- **What "good" looks like:** [Expert judgment] Zero critical blockers. Major blockers addressed within 30 days. Minor blockers addressed within 90 days.
 
 ### 5.2 Tooling Gap Assessment
 
@@ -145,7 +145,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Tool gaps prevent zone progression. If teams need CI/CD-integrated AI review tools for Zone 2 but the organization has not procured them, progression stalls.
 - **How to measure:** Annual tool gap analysis: compare team-reported needs against available tools.
 - **Reporting frequency:** Semi-annually.
-- **What "good" looks like:** 90%+ of identified tool needs are met within 6 months of identification.
+- **What "good" looks like:** [Expert judgment] 90%+ of identified tool needs are met within 6 months of identification.
 
 ### 5.3 Training Gap Assessment
 
@@ -153,7 +153,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Training is a required organizational investment for every zone. Gaps in training prevent teams from developing the proficiencies needed for progression.
 - **How to measure:** Compare available training programs against zone-specific training requirements from the ACE framework.
 - **Reporting frequency:** Semi-annually.
-- **What "good" looks like:** Training programs exist for all proficiencies in the organization's target zone. 80%+ of team members have completed training relevant to their team's current or target zone.
+- **What "good" looks like:** [Expert judgment] Training programs exist for all proficiencies in the organization's target zone. 80%+ of team members have completed training relevant to their team's current or target zone.
 
 ---
 
@@ -167,7 +167,7 @@ These metrics specifically predict whether the organization is on track to achie
 - **Why it matters:** The shared configuration is the single most important artifact for Zone 2 competency. Its existence predicts team-level integration.
 - **How to measure:** Repository audit across all teams.
 - **Reporting frequency:** Monthly.
-- **What "good" looks like:** 80%+ of teams have active shared configurations within 6 months of Zone 2 initiative launch.
+- **What "good" looks like:** [Expert judgment] 80%+ of teams have active shared configurations within 6 months of Zone 2 initiative launch.
 
 ### 6.2 Mandatory Feedback Loop Adoption Rate
 
@@ -175,7 +175,7 @@ These metrics specifically predict whether the organization is on track to achie
 - **Why it matters:** Feedback loops are non-negotiable Zone 2 infrastructure. Low adoption rates predict that teams will not achieve Zone 2 competency.
 - **How to measure:** CI/CD configuration audit across all repositories.
 - **Reporting frequency:** Monthly.
-- **What "good" looks like:** 90%+ of active repositories have enforced feedback loops within 6 months.
+- **What "good" looks like:** [Expert judgment] 90%+ of active repositories have enforced feedback loops within 6 months.
 
 ### 6.3 Cross-Team Knowledge Sharing Activity
 
@@ -183,7 +183,7 @@ These metrics specifically predict whether the organization is on track to achie
 - **Why it matters:** Cross-team sharing accelerates organization-wide adoption and prevents redundant effort. Active sharing predicts faster zone progression.
 - **How to measure:** Count of cross-team sharing events (presentations, shared documents, config pattern exchanges) per quarter.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** At least 2 cross-team sharing events per quarter per 10 teams, with documented outcomes.
+- **What "good" looks like:** [Expert judgment] At least 2 cross-team sharing events per quarter per 10 teams, with documented outcomes.
 
 ### 6.4 Management Engagement in AI Workflow Discussions
 
@@ -191,7 +191,7 @@ These metrics specifically predict whether the organization is on track to achie
 - **Why it matters:** Zone 2 requires organizational investment. Managers who are disengaged from AI workflow discussions cannot identify or remove organizational blockers.
 - **How to measure:** Survey of team leads: "Does your manager actively support and engage with your team's AI workflow improvement efforts?" (5-point scale).
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** Average score of 4.0+ on a 5-point scale.
+- **What "good" looks like:** [Expert judgment] Average score of 4.0+ on a 5-point scale.
 
 ### 6.5 Budget Allocation for AI Infrastructure Time
 
@@ -199,7 +199,7 @@ These metrics specifically predict whether the organization is on track to achie
 - **Why it matters:** Teams that are expected to build Zone 2 infrastructure "on the side" while maintaining full feature velocity will not achieve competency. Explicit time allocation predicts successful Zone 2 transition.
 - **How to measure:** Sprint planning audit: percentage of teams with allocated AI infrastructure capacity.
 - **Reporting frequency:** Quarterly.
-- **What "good" looks like:** 80%+ of teams have 10-20% of sprint capacity allocated to AI infrastructure during Zone 2 transition.
+- **What "good" looks like:** [Expert judgment] 80%+ of teams have 10-20% of sprint capacity allocated to AI infrastructure during Zone 2 transition.
 
 ---
 

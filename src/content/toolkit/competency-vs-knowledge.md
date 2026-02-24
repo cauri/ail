@@ -51,7 +51,7 @@ Because competency is about habitual behavior rather than knowledge or peak perf
 
 - **Assess behavior under pressure, not under ideal conditions.** The diagnostic specifically probes for behavior during deadline pressure, production incidents, and unfamiliar work. If practices are abandoned under stress, they are not competent behaviors.
 
-- **Use facilitated self-assessment, not external audit.** Competency is best assessed by the people who live the daily reality of the team's practices. External auditors can observe snapshots, but team members know whether a behavior is habitual or performative. The facilitated self-assessment format supports honest reflection rather than impression management.
+- **Use facilitated self-assessment, not external audit.** Team members have the most direct access to their own habitual behavior -- they know whether AI tools get dropped under pressure, and they know whether documented practices are actually followed. However, self-assessment is subject to known biases: social desirability (reporting what sounds good), self-serving attribution (crediting the team for successes), and anchoring to aspirational rather than actual behavior. The facilitated self-assessment format mitigates these biases through skilled facilitation, behavioral probing ("What does that look like on a typical Tuesday?"), and the use of behavioral evidence standards that anchor scores to observable practice rather than self-perception. The facilitator's role is not to override self-assessment but to create conditions where honest reflection is more likely than impression management.
 
 ## Four Stages Within a Zone
 
@@ -71,9 +71,9 @@ These stages apply within each zone independently. A team can be at Established 
 
 The ACE diagnostic is a facilitated self-assessment, not an external audit. This design choice follows directly from the competency concept:
 
-- Team members are the best judges of their own habitual behavior. They know whether AI tools get dropped under pressure. They know whether documented practices are actually followed.
-- Facilitation creates a safe space for honest reflection. Teams are more likely to accurately report their actual behavior when the process is framed as self-assessment for improvement rather than external evaluation for judgment.
-- The diagnostic surfaces the gap between aspiration and reality. Teams often believe they are further along than they are. Structured self-assessment with a skilled facilitator helps bridge that gap.
+- Team members have the most direct access to information about their own habitual behavior -- they know whether AI tools get dropped under pressure, and they know whether documented practices are actually followed. However, self-report is subject to social desirability bias (reporting what sounds good rather than what actually happens) and self-serving attribution. These biases are real and well-documented in organizational assessment literature. The facilitated format is designed to mitigate -- not eliminate -- these biases through behavioral probing, evidence anchoring, and skilled facilitation. See the workshop script for the specific facilitation techniques that address these risks.
+- Facilitation creates conditions for honest reflection. Teams are more likely to accurately report their actual behavior when the process is framed as self-assessment for improvement rather than external evaluation for judgment. The dual reporting structure (team report vs. management report) supports this by ensuring that honest self-assessment does not expose the team to managerial consequences.
+- The diagnostic surfaces the gap between aspiration and reality. Teams often believe they are further along than they are. Structured self-assessment with a skilled facilitator helps bridge that gap -- but facilitators should be aware that residual bias likely inflates scores modestly even under ideal conditions. The validation study will quantify this effect by comparing facilitated self-assessment against behavioral observation.
 
 The goal of the diagnostic is not to assign a score or a grade. It is to build shared understanding of current competency so that the team and organization can make informed investment decisions about where to go next.
 
