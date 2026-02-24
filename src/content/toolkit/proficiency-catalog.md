@@ -31,11 +31,15 @@ Zone 1 represents individual AI tool adoption. The shift is from "AI is new, unf
 - **Uses AI for user story writing, research synthesis, and stakeholder communications.** AI assists with drafting user stories, summarizing research findings, preparing stakeholder updates, and structuring product documents. The product manager refines and validates AI output against their domain knowledge.
 - **Uses AI tools for meeting notes and summaries.** Meeting recordings or notes are processed through AI to produce structured summaries, action items, and decisions, reducing the overhead of documentation and improving team alignment.
 - **Prompts effectively for PM-relevant tasks.** The product manager can construct prompts that provide sufficient context, constraints, and intent to get useful output from AI tools for product work, rather than receiving generic or unhelpful responses.
+- **Uses AI to accelerate product discovery work.** AI assists with synthesizing customer interview data, analyzing competitive positioning, generating and pressure-testing product hypotheses, and structuring prioritization frameworks. The PM uses AI to do better product thinking, not just faster artifact production.
+- **Uses AI to analyze quantitative product data and extract actionable insights.** AI assists with interpreting usage analytics, identifying patterns in customer feedback, modeling scenario outcomes, and summarizing market research. The PM treats AI as an analytical partner for the strategic dimensions of product work, not just the documentation dimensions.
 
 ### Design and Architecture
 
 - **Uses AI for ideation, content generation, and design exploration.** AI tools assist with generating design alternatives, creating placeholder content, exploring layout options, and producing copy variations. The designer treats AI as a brainstorming partner that accelerates the exploration phase.
 - **Incorporates AI-powered tools into the design workflow.** AI capabilities within design tools (image generation, layout suggestions, content-aware features) are part of the designer's standard toolkit rather than novelties used occasionally.
+- **Uses AI to synthesize user research and analyze usability data.** AI assists with identifying patterns in user research transcripts, summarizing usability test findings, flagging accessibility issues in existing designs, and generating insights from qualitative data. The designer uses AI to deepen understanding of user needs, not just to produce artifacts faster.
+- **Uses AI to explore and evaluate information architecture and interaction design alternatives.** AI assists with generating navigation structures, evaluating content organization patterns, analyzing competitor UX approaches, and identifying potential usability issues in proposed designs. The designer treats AI as a design thinking partner for the analytical dimensions of design work.
 
 ### Quality Assurance
 
@@ -74,7 +78,9 @@ Zone 2 shifts from individual tool use to team-level integration. AI is embedded
 ### Design and Architecture
 
 - **Designers use AI for systematic design exploration and documentation.** AI tools are part of the design workflow for generating alternatives, documenting decisions, and exploring trade-offs -- used as a regular practice, not an occasional experiment.
-- **Designers can participate in the Plan/Code/Verify workflow for design-adjacent work.** When design work intersects with implementation (component libraries, design tokens, CSS architecture), designers can engage with the team's shared agentic workflow.
+- **Designers contribute design context, constraints, and standards to the team's shared AI configuration.** Design system rules, component specifications, accessibility requirements, and interaction patterns are encoded in the team's AGENTS.md/CLAUDE.md so that AI-generated code respects design standards by default. Designers are co-owners of the shared configuration, not downstream consumers.
+- **Designers use AI to maintain and evolve design system documentation and consistency.** AI assists with auditing design system usage across the codebase, identifying inconsistencies, generating component documentation, and flagging deviations from established patterns. Design system health is a team responsibility that designers lead.
+- **Designers engage with the team's shared agentic workflow for design-adjacent implementation work.** When design work intersects with implementation (component libraries, design tokens, CSS architecture, prototyping), designers can work within the team's Plan/Code/Verify workflow. This is collaborative engagement, not subordinate participation.
 
 ### Quality Assurance
 
@@ -201,8 +207,8 @@ The following tables show how proficiencies evolve across zones for each role. E
 
 | Capability Area | Zone 1: Augmenting | Zone 2: Integrating | Zone 3: Accelerating | Zone 4: Industrializing |
 |---|---|---|---|---|
-| **AI tool usage** | Uses AI for ideation, content generation, and design exploration; incorporates AI-powered tools into design workflow | Uses AI for systematic design exploration and documentation | Participates in defining AI behavioral expectations and evaluation criteria; encodes design standards as machine-verifiable inputs | Owns the factory's design specification layer; operates design compliance verification at portfolio scale |
-| **Workflow integration** | -- | Participates in the Plan/Code/Verify workflow for design-adjacent work | Designs systems with "functional core / imperative shell" patterns; designs for AI observability from day one | Designs for factory-scale observability and governance |
+| **AI tool usage** | Uses AI for ideation, content generation, design exploration, user research synthesis, and IA evaluation | Uses AI for systematic design exploration, documentation, and design system consistency | Participates in defining AI behavioral expectations and evaluation criteria; encodes design standards as machine-verifiable inputs | Owns the factory's design specification layer; operates design compliance verification at portfolio scale |
+| **Workflow integration** | -- | Contributes design context to shared AI configuration; engages with Plan/Code/Verify for design-adjacent work | Designs systems with "functional core / imperative shell" patterns; designs for AI observability from day one | Designs for factory-scale observability and governance |
 | **System design** | -- | -- | Architects design systems that guide agents to success within well-defined boundaries | Defines the "production system" architecture as a system in its own right |
 
 ### Quality Assurance Progression
