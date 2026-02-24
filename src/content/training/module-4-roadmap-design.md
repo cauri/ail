@@ -43,6 +43,10 @@ By the end of this module, trainees will be able to:
 
 ### Session 2: Zone-Specific Roadmap Patterns
 
+![VA-4: Roadmap Anatomy Template](/images/roadmap-anatomy-template.svg)
+
+![VA-18: Investment Dependency Chain](/images/investment-dependency-chain.svg)
+
 **Baseline to Zone 1.** This is the access and normalization transition. The dominant investment categories are tool access (licenses, accounts, API keys), policy (approved tools, data handling guidelines), and basic training. The roadmap pattern begins with organizational permission before asking individuals to adopt. Without explicit organizational endorsement, developers who want to use AI tools work around informal barriers or do not use them at all. Normalizing AI use requires visible management endorsement as well as practical access.
 
 **Zone 1 to Zone 2.** This transition requires more organizational investment because it involves changing how teams work together, not just how individuals work. Key investments include: the One Team One Setup mandate (standardizing on a shared agentic configuration), time allocation for building and evolving the shared setup, mandatory feedback loop infrastructure (CI gates for compiler, linter, and tests), and PM integration into the workflow. The Plan/Code/Verify pattern must be established as the team default, not an individual option. Without the mandate and the infrastructure, the team remains a collection of individual Zone 1 practitioners rather than a coherent Zone 2 unit.
@@ -76,6 +80,8 @@ By the end of this module, trainees will be able to:
 **Cross-team dependencies in multi-team engagements.** When a roadmap covers multiple teams, dependencies between teams must be mapped explicitly. One team's Zone 2 infrastructure may depend on a platform team's investment that is not on their roadmap. A shared AGENTS.md configuration may require coordination across teams with different codebases and constraints. The facilitator must identify these dependencies during roadmap design and surface them to leadership before the roadmap is finalized.
 
 ### Session 5: Managing Non-Linear Progress
+
+![VA-5: Non-Linear Progress Patterns](/images/non-linear-progress-patterns.svg)
 
 **Why competency development is not linear.** Competency is habit formation at the team and organizational level. Habits do not form on a smooth curve. They form through cycles of practice, reinforcement, backsliding, recovery, and stabilization. Organizations that expect steady, incremental progress against roadmap milestones will encounter reality and interpret normal competency development as roadmap failure.
 

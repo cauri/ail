@@ -10,6 +10,8 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 ---
 
+![VA-16: Metrics Tree Diagram](/images/metrics-tree-diagram.svg)
+
 ## 1. AI Adoption Rate Across Teams
 
 ### 1.1 Team-Level Zone Distribution

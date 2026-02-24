@@ -75,6 +75,12 @@ A full ACE engagement has four phases. Understanding all four gives you context 
 
 As a new facilitator, you will focus primarily on Phases 1 and 2. Goal setting and Collaborative Delivery come with experience and deeper client relationships.
 
+![VA-7: Diagnosis-Intervention Cycle](/images/diagnosis-intervention-cycle.svg)
+
+![VA-8: Competency Stage Quick Reference](/images/competency-stage-reference.svg)
+
+![VA-11: Competency vs Knowledge](/images/competency-vs-knowledge.svg)
+
 ## The Diagnostic Workshop
 
 The diagnostic workshop is where the framework comes alive. It is a 90-120 minute facilitated session with a complete delivery team -- developers, product managers, designers, QA engineers.
@@ -114,6 +120,8 @@ Team members have a right to understand how their assessment data will be handle
 **What happens if management requests more data.** The facilitator should prepare for this scenario and have a clear response ready: 'The management report contains the organizational-level findings that inform investment decisions. Team-specific data stays with the team. Sharing it would compromise the data quality of every future assessment in this organization, because teams would learn that the confidentiality promise was not honored.'
 
 **Small organization considerations.** In organizations with fewer than 5 teams, aggregate reporting may effectively identify teams even without naming them. The facilitator should address this directly with the sponsor during engagement setup: 'With only [N] teams, the management report's zone distribution may make specific teams identifiable. I want to discuss how we handle this. Options include: reporting only organization-wide findings without zone distribution, or sharing the management report in a meeting where teams are present and can see what leadership receives.' The goal is informed consent: all parties understand the limits of anonymization in small organizations.
+
+![VA-19: Role Transition Map](/images/role-transition-map.svg)
 
 ## Common Facilitation Challenges
 

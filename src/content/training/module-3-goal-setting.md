@@ -41,6 +41,8 @@ The facilitator's role in the transition: bridge the two conversations. Leadersh
 
 ### Session 2: The Progressive Competency Model in Practice
 
+![VA-1: Zone Progression Diagram](/images/zone-progression-diagram.svg)
+
 **Explaining Zones 1-2 as competitive baseline without triggering panic.** The message that every organization needs to reach Zone 2 can land in two unhelpful ways: as an accusation ("you're behind") or as an emergency ("you need to fix this immediately"). Neither is the goal. The right framing: "Zone 2 is where effective software development teams are heading across the industry. It is not exotic -- it is becoming the expectation. The diagnostic tells us how close your teams are to that expectation, and what specific investments would close the gap."
 
 Avoid urgency language that triggers defensive reactions. Leadership who feel accused of organizational failure tend to dispute the findings rather than engage with the investment case.
@@ -52,6 +54,8 @@ Avoid urgency language that triggers defensive reactions. Leadership who feel ac
 **The other common failure: leadership picks Zone 1 because Zone 2 sounds expensive.** The inverse failure mode: leadership hears "shared configuration, mandatory feedback loops, infrastructure investment" and retreats to "let's just make sure everyone is using AI tools." Zone 1 without Zone 2 investment is a predictable dead end. Individual AI adoption without team-level systematization produces uneven, unsustainable results. The facilitator must be direct about this: "Zone 1 without Zone 2 is where most AI adoption initiatives stall. The organizational cost of Zone 2 investment is real, but the organizational cost of stopping at Zone 1 is also real."
 
 ### Session 3: Zone Selection Decision Framework
+
+![VA-9: Zone Selection Decision Framework](/images/zone-selection-decision-framework.svg)
 
 **The four decision factors.** Risk appetite, investment capacity, strategic need, and competitive position. The facilitator must be competent in all four and in the questions that surface each factor in a leadership conversation.
 

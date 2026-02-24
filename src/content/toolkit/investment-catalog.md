@@ -14,6 +14,8 @@ This catalog synthesizes investments from the individual zone reference document
 
 ---
 
+![VA-18: Investment Dependency Chain](/images/investment-dependency-chain.svg)
+
 ## Zone 1: Augmenting Investments
 
 Zone 1 competency requires organizational investment beyond individual motivation. The goal is to remove barriers to adoption and establish habitual individual AI tool use. See [Zone 1: Augmenting](/toolkit/zone-1-augmenting) for full context.

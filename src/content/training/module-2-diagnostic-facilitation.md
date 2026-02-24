@@ -69,6 +69,8 @@ If the manager attends despite this conversation, the facilitator acknowledges t
 
 ### Session 4: Facilitation Techniques
 
+![VA-7: Diagnosis-Intervention Cycle](/images/diagnosis-intervention-cycle.svg)
+
 **The Diagnosis-Intervention Cycle.** Every facilitation move in the ACE diagnostic follows a four-step cycle: observe, diagnose, intervene, reflect. The facilitator observes a behavioral pattern in the room (e.g., uniformly high scores with sparse evidence, one person answering for the team, a team member looking at the manager before responding). The facilitator forms a diagnosis -- a working hypothesis about what is happening and why (e.g., "social desirability bias is inflating scores," "the dominant voice is suppressing honest dissent," "the manager's presence is distorting self-report"). The facilitator then chooses an intervention -- a specific facilitation move designed to test the hypothesis and improve data quality (e.g., "probe for behavioral evidence," "redirect to quieter voices," "name the dynamic transparently"). Finally, the facilitator reflects on whether the intervention produced the expected effect and updates the hypothesis accordingly. This cycle is the core facilitation methodology. The specific techniques described below are all interventions within this cycle. Trainees who learn techniques without the diagnosis-intervention cycle will apply them mechanically -- using the same response to every challenge. Trainees who internalize the cycle can adapt in real time because they understand why each technique works, not just how to execute it.
 
 **The difference between facilitating and leading.** A facilitator asks questions that help the team see their own practices clearly. A leader tells the team what good practice looks like and asks them to rate themselves against it. These produce very different data. "How often do all of you use AI tools when you're under deadline pressure?" is a facilitation question. "Best practice is to use AI tools even under pressure -- how often does your team do that?" is a leading question disguised as assessment.
@@ -104,6 +106,14 @@ Other evidence-probing techniques: "Can you walk me through the last time your t
 
 ### Session 6: Scoring and Interpretation
 
+![VA-2: Scoring Threshold Decision Tree](/images/scoring-threshold-decision-tree.svg)
+
+![VA-8: Competency Stage Quick Reference](/images/competency-stage-reference.svg)
+
+![VA-10: Score Distribution Archetypes](/images/score-distribution-archetypes.svg)
+
+![VA-14: Threshold Sensitivity](/images/threshold-sensitivity.svg)
+
 **How to score from workshop observations and team responses.** Scoring in ACE uses the Composite + Consistency competency threshold. The three criteria are: (1) the zone composite average (mean of all question composites) is 4.7 or higher; (2) the standard deviation across all individual responses is 0.5 or lower; (3) no single question composite falls below 4.0.
 
 A team meets all three criteria only when competency is genuinely universal and consistent. Missing any criterion determines the stage: scores in the 2.0-2.9 range is Emerging; scores in the 3.0-3.9 range is Developing; scores in the 4.0-4.9 range without meeting all three threshold criteria is Established; all three criteria met is Exemplary.
@@ -121,6 +131,8 @@ What the facilitator should not do is privately replace the team's scores with t
 **Applying competency thresholds.** The thresholds are criteria, not a formula. A team with a composite average of 4.8 but a standard deviation of 0.7 is Established, not Exemplary. The facilitator must check all three criteria independently — high composite average, low variance, and no weak-link questions.
 
 ### Session 7: Common Facilitation Challenges
+
+![VA-3: Facilitation Response Guide](/images/facilitation-response-guide.svg)
 
 **Defensive team: "We use AI all the time, this is all 5s."** This is a self-protection pattern, not a factual report. The facilitation response is not to argue -- it is to probe for specificity. "Let me try something. Instead of scores, let's start with a story. Can someone walk me through yesterday? From when you sat down to work until end of day -- when did you use AI tools, and what for?" Behavioral stories are much harder to inflate than numerical self-reports. One specific story from one team member will often reveal a more accurate picture than five minutes of defensive claims.
 

@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 990"
+     font-family="'Inter', sans-serif">
+  <title>VA-19: Role Transition Transparency Map</title>
+  <desc>Combined reference card and timeline showing the three facilitator roles (Facilitator, Evaluator, Consultant), their transition language, behavioral boundaries, and a timeline of which role is active during each engagement phase. Every role should be named and transparent.</desc>
+
+  <defs>
+    <marker id="arrow-gray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="990" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Role Transition Transparency Map</text>
+  <text x="40" y="60" font-size="12" fill="#6B7280">The three facilitator roles, when they apply, and how to name each transition</text>
+
+  <!-- Section 1: Role Cards -->
+  <text x="40" y="92" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#151D1A">Role Definitions</text>
+
+  <!-- Facilitator Card -->
+  <rect x="40" y="108" width="260" height="310" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="170" y="134" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF" text-anchor="middle">Facilitator</text>
+  <line x1="56" y1="144" x2="284" y2="144" stroke="#60A5FA" stroke-width="0.5"/>
+
+  <text x="56" y="164" font-size="10" font-weight="500" fill="#6B7280">ROLE DEFINITION</text>
+  <text x="56" y="180" font-size="10" fill="#151D1A">Guides the team's self-assessment.</text>
+  <text x="56" y="194" font-size="10" fill="#151D1A">Not evaluating. Asking questions</text>
+  <text x="56" y="208" font-size="10" fill="#151D1A">that help them see clearly.</text>
+
+  <text x="56" y="232" font-size="10" font-weight="500" fill="#6B7280">TRANSITION-IN LANGUAGE</text>
+  <rect x="56" y="240" width="228" height="44" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="0.5"/>
+  <text x="64" y="256" font-size="9.5" fill="#1E40AF" font-style="italic">"My role today is to facilitate your</text>
+  <text x="64" y="269" font-size="9.5" fill="#1E40AF" font-style="italic">self-assessment. I am not evaluating you."</text>
+
+  <text x="56" y="304" font-size="10" font-weight="500" fill="#6B7280">BEHAVIORAL BOUNDARY</text>
+  <text x="56" y="320" font-size="10" fill="#151D1A">Do not diagnose, prescribe, or</text>
+  <text x="56" y="334" font-size="10" fill="#151D1A">evaluate. Hold the mirror.</text>
+
+  <text x="56" y="358" font-size="10" font-weight="500" fill="#6B7280">TRANSITION-BACK LANGUAGE</text>
+  <rect x="56" y="366" width="228" height="44" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="0.5"/>
+  <text x="64" y="382" font-size="9.5" fill="#1E40AF" font-style="italic">"I am returning to my facilitator role.</text>
+  <text x="64" y="395" font-size="9.5" fill="#1E40AF" font-style="italic">Today: honest self-assessment."</text>
+
+  <!-- Evaluator Card -->
+  <rect x="310" y="108" width="260" height="310" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="440" y="134" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E" text-anchor="middle">Evaluator</text>
+  <line x1="326" y1="144" x2="554" y2="144" stroke="#FBBF24" stroke-width="0.5"/>
+
+  <text x="326" y="164" font-size="10" font-weight="500" fill="#6B7280">ROLE DEFINITION</text>
+  <text x="326" y="180" font-size="10" fill="#151D1A">Applies scoring methodology to</text>
+  <text x="326" y="194" font-size="10" fill="#151D1A">workshop data. Forms an evaluative</text>
+  <text x="326" y="208" font-size="10" fill="#151D1A">judgment of zone and stage.</text>
+
+  <text x="326" y="232" font-size="10" font-weight="500" fill="#6B7280">TRANSITION-IN LANGUAGE</text>
+  <rect x="326" y="240" width="228" height="44" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="0.5"/>
+  <text x="334" y="256" font-size="9.5" fill="#92400E" font-style="italic">"I have shifted into an interpretive role.</text>
+  <text x="334" y="269" font-size="9.5" fill="#92400E" font-style="italic">I want to check: does this reflect you?"</text>
+
+  <text x="326" y="304" font-size="10" font-weight="500" fill="#6B7280">BEHAVIORAL BOUNDARY</text>
+  <text x="326" y="320" font-size="10" fill="#151D1A">Share reasoning transparently.</text>
+  <text x="326" y="334" font-size="10" fill="#151D1A">Do not prescribe or advise.</text>
+
+  <text x="326" y="358" font-size="10" font-weight="500" fill="#6B7280">TRANSITION-BACK LANGUAGE</text>
+  <rect x="326" y="366" width="228" height="44" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="0.5"/>
+  <text x="334" y="382" font-size="9.5" fill="#92400E" font-style="italic">"The report contains my characterization.</text>
+  <text x="334" y="395" font-size="9.5" fill="#92400E" font-style="italic">If I got something wrong, I want to know."</text>
+
+  <!-- Consultant Card -->
+  <rect x="580" y="108" width="260" height="310" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="710" y="134" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#D912AE" text-anchor="middle">Consultant</text>
+  <line x1="596" y1="144" x2="824" y2="144" stroke="#D912AE" stroke-width="0.5"/>
+
+  <text x="596" y="164" font-size="10" font-weight="500" fill="#6B7280">ROLE DEFINITION</text>
+  <text x="596" y="180" font-size="10" fill="#151D1A">Makes recommendations about</text>
+  <text x="596" y="194" font-size="10" fill="#151D1A">target zones and investments.</text>
+  <text x="596" y="208" font-size="10" fill="#151D1A">Advisory work informed by findings.</text>
+
+  <text x="596" y="232" font-size="10" font-weight="500" fill="#6B7280">TRANSITION-IN LANGUAGE</text>
+  <rect x="596" y="240" width="228" height="44" rx="4" fill="#fff" stroke="#D912AE" stroke-width="0.5"/>
+  <text x="604" y="256" font-size="9.5" fill="#D912AE" font-style="italic">"I am now acting in an advisory role.</text>
+  <text x="604" y="269" font-size="9.5" fill="#D912AE" font-style="italic">These are recommendations, not directives."</text>
+
+  <text x="596" y="304" font-size="10" font-weight="500" fill="#6B7280">BEHAVIORAL BOUNDARY</text>
+  <text x="596" y="320" font-size="10" fill="#151D1A">Advise, do not dictate. Client</text>
+  <text x="596" y="334" font-size="10" fill="#151D1A">makes the decisions.</text>
+
+  <text x="596" y="358" font-size="10" font-weight="500" fill="#6B7280">TRANSITION-BACK LANGUAGE</text>
+  <rect x="596" y="366" width="228" height="44" rx="4" fill="#fff" stroke="#D912AE" stroke-width="0.5"/>
+  <text x="604" y="382" font-size="9.5" fill="#D912AE" font-style="italic">"My earlier recommendations are now</text>
+  <text x="604" y="395" font-size="9.5" fill="#D912AE" font-style="italic">context, not what I'm assessing today."</text>
+
+  <!-- Section 2: Engagement Phase Timeline -->
+  <text x="40" y="452" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#151D1A">Role Activity Across Engagement Phases</text>
+  <text x="40" y="470" font-size="11" fill="#6B7280">The facilitator cycles between roles multiple times in longer engagements</text>
+
+  <!-- Phase labels along the top -->
+  <!-- Phase 1: Discovery -->
+  <rect x="140" y="490" width="160" height="32" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="220" y="511" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A" text-anchor="middle">1. Discovery</text>
+
+  <!-- Phase 2: Diagnostic -->
+  <rect x="316" y="490" width="160" height="32" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="396" y="511" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A" text-anchor="middle">2. Diagnostic</text>
+
+  <!-- Phase 3: Goal Setting -->
+  <rect x="492" y="490" width="160" height="32" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="572" y="511" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A" text-anchor="middle">3. Goal Setting</text>
+
+  <!-- Phase 4: Collaborative Delivery -->
+  <rect x="668" y="490" width="172" height="32" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="754" y="511" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A" text-anchor="middle">4. Collab. Delivery</text>
+
+  <!-- Role Swim Lanes -->
+  <!-- Facilitator Lane -->
+  <text x="40" y="554" font-size="10" font-weight="500" fill="#1E40AF">Facilitator</text>
+  <rect x="140" y="538" width="160" height="28" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="220" y="557" font-size="9" fill="#1E40AF" text-anchor="middle">Context interviews</text>
+
+  <rect x="316" y="538" width="160" height="28" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="396" y="557" font-size="9" fill="#1E40AF" text-anchor="middle" font-weight="500">Self-assessment workshops</text>
+
+  <rect x="668" y="538" width="172" height="28" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="754" y="557" font-size="9" fill="#1E40AF" text-anchor="middle">Re-diagnostics</text>
+
+  <!-- Evaluator Lane -->
+  <text x="40" y="594" font-size="10" font-weight="500" fill="#92400E">Evaluator</text>
+  <rect x="316" y="578" width="160" height="28" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="396" y="597" font-size="9" fill="#92400E" text-anchor="middle">Scoring + reporting</text>
+
+  <rect x="668" y="578" width="172" height="28" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="754" y="597" font-size="9" fill="#92400E" text-anchor="middle">Re-diagnostic analysis</text>
+
+  <!-- Consultant Lane -->
+  <text x="40" y="634" font-size="10" font-weight="500" fill="#D912AE">Consultant</text>
+  <rect x="492" y="618" width="160" height="28" rx="4" fill="#FDF2FB" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="572" y="637" font-size="9" fill="#D912AE" text-anchor="middle" font-weight="500">Roadmap + zone targeting</text>
+
+  <rect x="668" y="618" width="172" height="28" rx="4" fill="#FDF2FB" stroke="#D912AE" stroke-width="1"/>
+  <text x="754" y="637" font-size="9" fill="#D912AE" text-anchor="middle">Roadmap refreshes</text>
+
+  <!-- Transition callout boxes -->
+  <!-- Transition 1: Diagnostic -> Evaluator -->
+  <line x1="396" y1="566" x2="396" y2="578" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="432" y="560" width="12" height="12" rx="6" fill="#FBBF24"/>
+
+  <!-- Transition 2: Evaluator -> Consultant -->
+  <line x1="476" y1="592" x2="492" y2="632" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="480" y="606" width="12" height="12" rx="6" fill="#D912AE"/>
+
+  <!-- Transition 3: Back to Facilitator in Phase 4 -->
+  <line x1="668" y1="552" x2="668" y2="558" stroke="#6B7280" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- Cycling indicator for Phase 4 -->
+  <rect x="668" y="658" width="172" height="36" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="754" y="674" font-size="9" fill="#6B7280" text-anchor="middle">Roles cycle: Facilitator</text>
+  <text x="754" y="686" font-size="9" fill="#6B7280" text-anchor="middle">Evaluator  Consultant  repeat</text>
+
+  <!-- Phase 4 cycle arrows -->
+  <text x="726" y="686" font-size="9" fill="#6B7280">&#8594;</text>
+  <text x="780" y="686" font-size="9" fill="#6B7280">&#8594;</text>
+
+  <!-- Legend for transition dots -->
+  <text x="40" y="680" font-size="10" font-weight="500" fill="#6B7280">Transitions</text>
+  <rect x="40" y="690" width="10" height="10" rx="5" fill="#FBBF24"/>
+  <text x="56" y="699" font-size="9" fill="#6B7280">Facilitator to Evaluator</text>
+  <rect x="40" y="708" width="10" height="10" rx="5" fill="#D912AE"/>
+  <text x="56" y="717" font-size="9" fill="#6B7280">Evaluator to Consultant</text>
+
+  <!-- Key Transition Details -->
+  <text x="40" y="756" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#151D1A">Transition Decision Points</text>
+  <line x1="40" y1="764" x2="840" y2="764" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Transition detail 1 -->
+  <rect x="40" y="776" width="260" height="80" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="52" y="796" font-size="10" font-weight="500" fill="#1E40AF">After workshop, before reporting</text>
+  <text x="52" y="814" font-size="10" fill="#151D1A">Shift from facilitating to</text>
+  <text x="52" y="828" font-size="10" fill="#151D1A">interpreting. Name the shift</text>
+  <text x="52" y="842" font-size="10" fill="#151D1A">to the team explicitly.</text>
+
+  <!-- Transition detail 2 -->
+  <rect x="310" y="776" width="260" height="80" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="322" y="796" font-size="10" font-weight="500" fill="#92400E">After reports, at goal setting</text>
+  <text x="322" y="814" font-size="10" fill="#151D1A">Shift from interpreting to</text>
+  <text x="322" y="828" font-size="10" fill="#151D1A">advising. Recommendations,</text>
+  <text x="322" y="842" font-size="10" fill="#151D1A">not directives.</text>
+
+  <!-- Transition detail 3 -->
+  <rect x="580" y="776" width="260" height="80" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="1"/>
+  <text x="592" y="796" font-size="10" font-weight="500" fill="#D912AE">At each re-diagnostic</text>
+  <text x="592" y="814" font-size="10" fill="#151D1A">Return to facilitator role.</text>
+  <text x="592" y="828" font-size="10" fill="#151D1A">Re-establish facilitation</text>
+  <text x="592" y="842" font-size="10" fill="#151D1A">stance each time.</text>
+
+  <!-- Note about non-one-directional -->
+  <rect x="40" y="876" width="800" height="44" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="40" y="876" width="4" height="44" rx="2" fill="#D912AE"/>
+  <text x="60" y="895" font-size="11" fill="#151D1A" font-weight="500">Role transitions are not one-directional.</text>
+  <text x="60" y="911" font-size="10" fill="#6B7280">In longer engagements, the facilitator cycles between all three roles. Each return requires re-establishing the stance.</text>
+
+  <!-- Footer principle -->
+  <rect x="40" y="940" width="800" height="28" rx="4" fill="#EDE8F5"/>
+  <text x="440" y="959" font-size="11" fill="#5B21B6" text-anchor="middle" font-style="italic">"Every role you occupy should be named and transparent to the people affected by it."</text>
+
+</svg>

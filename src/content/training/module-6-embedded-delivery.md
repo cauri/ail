@@ -69,6 +69,8 @@ These principles are not theoretical -- they are what Artisans practice daily an
 
 The Academy program includes: setting up and configuring agent-ready development environments from scratch; building working agentic coding pipelines (Plan/Code/Verify, feedback loops, AGENTS.md configuration) on real codebases; implementing tool calling and orchestration patterns; designing and running eval harnesses; and working with multi-agent systems. Each module culminates in a working deliverable — not a quiz or presentation, but a functioning system that demonstrates the Artisan's ability to apply the practice under realistic conditions. Readiness to join client engagements is assessed through practical demonstration: the Artisan must show that they can set up a client team's agentic workflow from a standing start, pair effectively with engineers at varying skill levels, and diagnose common pipeline failures. The Academy is continuously updated as tooling and best practices evolve — what is taught reflects what Artisans will encounter in current engagements, not a static curriculum.
 
+![VA-13: Engagement Lifecycle](/images/engagement-lifecycle.svg)
+
 **How embedded delivery relates to the ACE engagement.** Phases 1-3 (Discovery, Diagnostic, Goal Setting & Roadmap) produce the diagnosis and plan. Phase 4 (Collaborative Delivery) is where Artisans embed to execute the plan through shared work. The ACE Facilitator continues to run the assessment layer -- check-ins, retrospectives, re-diagnostics -- while the Artisan team focuses on delivery and mentoring. The Facilitator and the Artisan team lead coordinate regularly but maintain distinct roles.
 
 ### Session 2: Pairing and Pair Rotation

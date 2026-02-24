@@ -1,14 +1,16 @@
 ---
-title: "Training Visual Aids -- Production Checklist"
-description: "Checklist tracking the visual aids needed for the facilitator training program, including full production specifications for each SVG visual."
+title: "Visual Aids -- Production Checklist"
+description: "Canonical registry of all visual aids in the ACE framework, including production specifications for each SVG visual."
 order: 7
 duration: ""
 prerequisites: ""
 ---
 
-This checklist tracks visual aids needed for the facilitator training program. Each visual aid includes its full production specification below.
+This checklist tracks all visual aids in the ACE framework. Each visual aid includes its production specification below.
 
-**Format:** All visuals are SVG files -- scalable, print-friendly, and suitable for projection during intensive-format sessions. Each visual works as a standalone handout.
+**Format:** All visuals are SVG files -- scalable, print-friendly, and suitable for projection during sessions. Each visual works as a standalone handout.
+
+**Style:** All visuals follow the site design system -- DM Sans headings, Inter body text, zone-specific colors (blue/emerald/amber/purple), magenta accents, light fills with colored borders, generous whitespace. See `.team/svg-style-guide.md` for the full production style guide.
 
 ---
 
@@ -32,6 +34,66 @@ This checklist tracks visual aids needed for the facilitator training program. E
 
 - [x] **VA-6: Collaborative Delivery Cadence** -- `collaborative-delivery-cadence.svg`
   - Placement: [Module 5](/training/module-5-coaching-engagement/), Session 1 (primary)
+
+- [x] **VA-7: Diagnosis-Intervention Cycle** -- `diagnosis-intervention-cycle.svg`
+  - Circular four-step cycle (Observe -> Diagnose -> Intervene -> Reflect) with behavioral examples at each step
+  - Placement: [Module 2](/training/module-2-diagnostic-facilitation/), Session 4 (primary); Workshop Script (reference); Facilitator Guide (reference)
+
+- [x] **VA-8: Competency Stage Quick Reference** -- `competency-stage-reference.svg`
+  - Four-stage horizontal progression (Emerging/Developing/Established/Exemplary) with behavioral anchors and "sounds like" indicators
+  - Placement: [Module 1](/training/module-1-model-foundations/), Session 2 (primary); Facilitator Guide (reference); [Module 2](/training/module-2-diagnostic-facilitation/), Session 6 (reference)
+
+- [x] **VA-9: Zone Selection Decision Framework** -- `zone-selection-decision-framework.svg`
+  - Four decision factors (risk appetite, investment capacity, strategic need, competitive position) with facilitation questions and Investment Commitment Test
+  - Placement: [Module 3](/training/module-3-goal-setting/), Session 3 (primary); Choose Target Zone (reference); Goal-Setting Framework (reference)
+
+- [x] **VA-10: Score Distribution Archetypes** -- `score-distribution-archetypes.svg`
+  - Six small panels showing archetypal score distributions with diagnostic interpretation and facilitation response
+  - Placement: Scoring Thresholds (primary); Interpreting Results (reference); Workshop Script (reference)
+
+- [x] **VA-11: Competency vs Knowledge vs Best-Day Performance** -- `competency-vs-knowledge.svg`
+  - Three-column comparison distinguishing Knowledge, Best-Day Performance, and Competency with examples and assessment traps
+  - Placement: [Module 1](/training/module-1-model-foundations/), Session 2 (primary); Facilitator Guide (reference); diagnostic workshops (client-facing)
+
+- [x] **VA-12: Zone Comparison Matrix** -- `zone-comparison-matrix.svg`
+  - Four-column matrix (Zones 1-4) with rows for identity shift, core metric, unit of change, key investments, risk type, and cross-role progression
+  - Placement: [Module 1](/training/module-1-model-foundations/), Sessions 3-7 (primary); Progressive Competency Model (reference)
+
+- [x] **VA-13: Engagement Lifecycle** -- `engagement-lifecycle.svg`
+  - Horizontal swim-lane process flow showing four engagement phases with Facilitator and Artisan role lanes, decision gates, and deliverables
+  - Placement: Engagement Model (primary); [Module 5](/training/module-5-coaching-engagement/) (reference); [Module 6](/training/module-6-embedded-delivery/) (reference)
+
+- [x] **VA-14: Threshold Sensitivity** -- `threshold-sensitivity.svg`
+  - Two-panel chart showing how Exemplary classification changes as composite and SD thresholds shift, with ambiguity zones
+  - Placement: Scoring Thresholds (primary); [Module 2](/training/module-2-diagnostic-facilitation/) (reference)
+
+- [x] **VA-15: Regression Diagnostic Decision Tree** -- `regression-diagnostic-decision-tree.svg`
+  - Top-down decision tree diagnosing regression as competency, environmental, or leadership issue with distinct response paths
+  - Placement: [Module 5](/training/module-5-coaching-engagement/), Session 5 (primary)
+
+- [x] **VA-16: Metrics Tree Diagram** -- `metrics-tree-diagram.svg`
+  - Hierarchical tree from North Star Metric through zone-level branches to leading/lagging indicators with evidence-level badges
+  - Placement: Metrics Tree (primary); Zone-Specific Metrics (reference); Organizational Health Metrics (reference)
+
+- [x] **VA-17: Variance Decomposition Diagnostic** -- `variance-decomposition-diagnostic.svg`
+  - Three heatmap panels showing person-variance, question-variance, and both-high patterns with decision tree for intervention path
+  - Placement: Scoring Thresholds (primary)
+
+- [x] **VA-18: Investment Dependency Chain** -- `investment-dependency-chain.svg`
+  - Four per-transition panels showing investment sequencing with dependency arrows, zone boundaries, and critical-path highlighting
+  - Placement: [Module 4](/training/module-4-roadmap-design/), Session 2 (primary); Investment Catalog (reference); Create Progression Roadmap (reference)
+
+- [x] **VA-19: Role Transition Map** -- `role-transition-map.svg`
+  - Three-column card (Facilitator/Evaluator/Consultant) with role definitions, transition language, and timeline strip
+  - Placement: Facilitator Guide (primary); Workshop Script (reference); [Module 5](/training/module-5-coaching-engagement/) (reference)
+
+- [x] **VA-20: Check-In Conversation Structure** -- `check-in-conversation-structure.svg`
+  - Single-page card with four-item agenda, Skill/Will/Environment diagnostic, and escalation triggers
+  - Placement: [Module 5](/training/module-5-coaching-engagement/), Session 2 (primary)
+
+- [x] **VA-21: Content Architecture Map** -- `content-architecture-map.svg`
+  - Single-page map showing all files organized by collection with navigation pathways for each audience
+  - Placement: What is ACE (primary); [Module 1](/training/module-1-model-foundations/), Session 1 (reference)
 
 ---
 
@@ -269,8 +331,313 @@ This checklist tracks visual aids needed for the facilitator training program. E
 
 ---
 
+### VA-7: Diagnosis-Intervention Cycle
+
+**Purpose:** Laminated reference card showing the core facilitation methodology as a four-step cycle. The training materials describe this as the structural prerequisite that makes VA-3 work as diagnostic reasoning rather than a lookup table. Print as a 5x7" card or project during training role-plays.
+
+**Layout:** Circular four-step cycle diagram.
+
+**Cycle steps:**
+- **Observe**: "What patterns do you see in the scores and discussion?" -- Watch for score clustering, energy shifts, hesitation
+- **Diagnose**: "What is the most likely explanation?" -- Use VA-3 challenge patterns to match what you're observing
+- **Intervene**: "What facilitation move fits?" -- Select from the response repertoire (stories, individualization, protection)
+- **Reflect**: "Did the intervention shift the conversation?" -- If not, re-diagnose; the first hypothesis may be wrong
+
+**Center label:** "Continuous during workshop facilitation"
+
+**Key visual cues:**
+- The cycle should feel continuous (no start/end point emphasis)
+- Each step should have a clear behavioral example
+- Include a note: "You will cycle through this dozens of times in a single workshop"
+
+---
+
+### VA-8: Competency Stage Quick Reference
+
+**Purpose:** Quick-reference card for the four competency stages with behavioral anchors that complement VA-2's quantitative thresholds. Used during facilitated discussions when teams need qualitative descriptions of what each stage looks and sounds like.
+
+**Layout:** Four horizontal bands, one per stage, with behavioral definitions.
+
+**Stages (top to bottom):**
+- **Exemplary** (emerald): Behavioral definition, "sounds like" example quotes, key distinction from Established
+- **Established** (blue): Behavioral definition, "sounds like" example quotes, key distinction from Developing
+- **Developing** (amber): Behavioral definition, "sounds like" example quotes, key distinction from Emerging
+- **Emerging** (orange): Behavioral definition, "sounds like" example quotes
+
+**Key visual cues:**
+- Use stage-specific colors matching VA-2 and the style guide
+- "Sounds like" quotes should be visually prominent (facilitators scan for these during workshops)
+- Include distinction callouts between adjacent stages
+
+---
+
+### VA-9: Zone Selection Decision Framework
+
+**Purpose:** Reference card for the highest-stakes facilitation moment -- helping leadership choose a target zone. Shows the four decision factors with facilitation questions and signal interpretations, plus the Investment Commitment Test.
+
+**Layout:** Four-quadrant card with central decision summary.
+
+**Quadrants:**
+- **Risk Appetite**: Facilitation questions, high/low signal indicators
+- **Investment Capacity**: Facilitation questions, high/low signal indicators
+- **Strategic Need**: Facilitation questions, high/low signal indicators
+- **Competitive Position**: Facilitation questions, high/low signal indicators
+
+**Bottom section:** Investment Commitment Test -- "Before advancing to the next zone, can leadership commit to these specific investments?"
+
+**Key visual cues:**
+- All four factors should appear equally weighted
+- Include a warning: "Do NOT let enthusiasm substitute for investment commitment"
+
+---
+
+### VA-10: Score Distribution Archetypes
+
+**Purpose:** Gallery of six archetypal score distributions that facilitators encounter during workshops. Each panel shows what the data pattern looks like, what it means diagnostically, and how to respond.
+
+**Layout:** Six small-multiple panels in a 3x2 or 2x3 grid.
+
+**Panels:**
+1. **Uniform High** -- All scores clustered 4-5. Diagnostic: "Genuine strength or social pressure?" Response: "Probe with behavioral stories"
+2. **Uniform Low** -- All scores clustered 1-2. Diagnostic: "Honest baseline." Response: "Affirm honesty, focus on investment identification"
+3. **High Average, High Variance** -- Mean ~4.0 but SD > 0.5. Diagnostic: "Inconsistent practice." Response: "Explore what differs between high and low scorers"
+4. **Bimodal** -- Scores clustered at 2 and 5. Diagnostic: "Two subgroups with different experiences." Response: "Investigate structural differences (roles, projects, tenure)"
+5. **Single Outlier** -- One score significantly different from group. Diagnostic: "Either honest dissent or different context." Response: "Protect the outlier (see VA-3)"
+6. **Gradually Decreasing** -- Scores decline across questions. Diagnostic: "Early questions easier/more visible than later ones." Response: "Normal pattern -- focus energy on lower-scoring later questions"
+
+**Key visual cues:**
+- Each panel should be scannable in under 5 seconds
+- Use dot-plot style visualizations showing individual scores
+- Include composite mean and SD annotation on each panel
+
+---
+
+### VA-11: Competency vs Knowledge vs Best-Day Performance
+
+**Purpose:** The single most important conceptual foundation in the framework. Prevents the most common diagnostic error: confusing what a team knows or can do on a good day with what they do habitually under stress.
+
+**Layout:** Three-column comparison.
+
+**Columns:**
+- **Knowledge** -- "What the team KNOWS": Can describe AI capabilities, has read documentation, attended training. Assessment trap: "They described it perfectly in the interview."
+- **Best-Day Performance** -- "What they CAN DO on a good day": Has demonstrated the skill at least once, can perform when conditions are ideal. Assessment trap: "They showed me a great example last month."
+- **Competency** -- "What they DO HABITUALLY under stress": Consistent practice even when deadlines are tight, tools break, or the team is understaffed. Assessment trap: None -- this is what the diagnostic measures.
+
+**Bottom annotation:** Basketball analogy -- "Knowing the rules of basketball (knowledge) is not the same as making a great shot in practice (best-day performance), which is not the same as consistently performing in the fourth quarter of a close game (competency)."
+
+**Key visual cues:**
+- Competency column should be visually dominant (it's the target)
+- Assessment traps should be highlighted as warnings
+- The progression knowledge -> best-day -> competency should flow left to right
+
+---
+
+### VA-12: Zone Comparison Matrix
+
+**Purpose:** Enables cross-zone comparison that learners need during Module 1 Sessions 3-7. Learners cannot hold four zone descriptions in working memory simultaneously.
+
+**Layout:** Four-column matrix with zone-specific colors.
+
+**Columns:** Zone 1 (blue), Zone 2 (emerald), Zone 3 (amber), Zone 4 (purple)
+
+**Rows:**
+- Identity Shift
+- Core Metric
+- Unit of Change
+- Key Investments (top 3)
+- Risk Type
+- Engineering Role
+- PM Role
+- Design Role
+- QA Role
+
+**Key visual cues:**
+- Must NOT use visual treatment suggesting higher zones are "better"
+- Zone-specific colors from the style guide
+- Cross-role rows should be clearly grouped as a sub-section
+
+---
+
+### VA-13: Engagement Lifecycle
+
+**Purpose:** Shows how the four engagement phases (Discovery, Diagnostic, Goal Setting, Collaborative Delivery) relate to each other, with role lanes and decision gates. Used in proposals, training, and client onboarding.
+
+**Layout:** Horizontal swim-lane process flow.
+
+**Lanes:**
+- **Facilitator Lane**: Active during all four phases
+- **Artisan Lane**: Active primarily during Phase 4 (Collaborative Delivery)
+
+**Phases:**
+1. Discovery -> Decision Gate: "Proceed to Diagnostic?"
+2. Diagnostic -> Decision Gate: "Proceed to Goal Setting?"
+3. Goal Setting -> Decision Gate: "Proceed to Collaborative Delivery?"
+4. Collaborative Delivery (cyclical sub-process with check-ins, retrospectives, re-diagnostics)
+
+**Key annotations:**
+- "Stopping after any phase is legitimate"
+- Decision gates show what must be true to proceed
+- Phase 4 shows the cyclical cadence (links to VA-6)
+
+---
+
+### VA-14: Threshold Sensitivity
+
+**Purpose:** Makes concrete the claim that diagnostic thresholds "are not bright lines." Shows how the proportion of teams classified as Exemplary changes as composite and SD thresholds shift by small amounts.
+
+**Layout:** Two-panel chart.
+
+**Panel 1 -- Composite Threshold Sensitivity:**
+- X-axis: Composite threshold (4.3 to 5.0)
+- Y-axis: % of teams qualifying as Exemplary
+- Shows the steep part of the curve around 4.7 where small movements produce large reclassification effects
+- Ambiguity zone (+-0.2) highlighted
+
+**Panel 2 -- SD Threshold Sensitivity:**
+- X-axis: SD threshold (0.3 to 0.8)
+- Y-axis: % of teams qualifying as Exemplary
+- Shows similar sensitivity around 0.5
+
+**Key visual cues:**
+- The +-0.2 ambiguity zone should be clearly marked
+- Annotation: "In this region, a single team member changing one response can shift the classification"
+
+---
+
+### VA-15: Regression Diagnostic Decision Tree
+
+**Purpose:** Prevents the "most common and damaging error" -- misdiagnosing why scores declined. Distinguishes competency, environmental, and leadership regression.
+
+**Layout:** Top-down decision tree.
+
+**Entry:** "Scores declined from previous diagnostic"
+
+**Branch 1:** "Have organizational conditions changed?" (reorg, layoffs, new tools, budget cuts) -> YES -> **Environmental regression** -- "Response: Address the environmental factor. The team may still have the competency."
+
+**Branch 2:** "Is leadership signaling that old behaviors are acceptable?" (deprioritizing AI, rewarding manual work) -> YES -> **Leadership regression** -- "Response: Escalate to leadership. This is not a team issue."
+
+**Branch 3:** (Neither above) -> **Competency regression** -- "Response: The practices were not yet habitual. Extend practice time and add reinforcement activities."
+
+---
+
+### VA-16: Metrics Tree Diagram
+
+**Purpose:** Replaces the ASCII tree in `metrics-tree.md` with a proper hierarchical visualization showing the full metrics structure with evidence-level badges.
+
+**Layout:** Top-down tree diagram.
+
+**Structure:**
+- North Star Metric (top)
+- Zone-level branches (4 zones)
+- Leading indicators and lagging indicators per zone
+- Evidence-level badges: [V]alidated, [E]merging, [J]udgment, [S]peculative
+- Separate counter-metrics branch
+
+**Key visual cues:**
+- Evidence-level badges should be visible across the whole tree
+- Causal/predictive relationships between leading and lagging indicators should be shown with directional arrows
+
+---
+
+### VA-17: Variance Decomposition Diagnostic
+
+**Purpose:** Pairs with VA-2 as a back-of-card reference. When Criterion 2 (SD ≤ 0.5) is not met, this visual helps facilitators decompose the variance source and choose the right intervention.
+
+**Layout:** Three heatmap panels with decision tree annotation.
+
+**Panels:**
+1. **Person-variance dominant**: One or two team members consistently scoring differently
+2. **Question-variance dominant**: Specific questions generating high disagreement across the team
+3. **Both high**: Mixed pattern requiring deeper investigation
+
+**Decision tree:** Shows which intervention path matches each pattern.
+
+---
+
+### VA-18: Investment Dependency Chain
+
+**Purpose:** Shows how investments must be sequenced for each zone transition. Prevents the common error of starting activities before their prerequisite investments are in place.
+
+**Layout:** Four panels (one per zone transition) showing left-to-right dependency flows.
+
+**Per panel:**
+- Investment blocks with dependency arrows
+- Critical path highlighted
+- Parallelizable investments shown side by side
+- Zone boundary markers
+
+**Key visual cues:**
+- Dependency arrows should be clearly directional
+- Critical path should be visually prominent
+- Zone boundaries should match zone colors from the style guide
+
+---
+
+### VA-19: Role Transition Map
+
+**Purpose:** Reference card for the three facilitation roles (Facilitator, Evaluator, Consultant) with exact transition language and a timeline showing which role is active during each engagement phase.
+
+**Layout:** Three-column card with timeline strip.
+
+**Columns:**
+- **Facilitator**: Definition, behavioral boundaries, when active
+- **Evaluator**: Definition, behavioral boundaries, when active
+- **Consultant**: Definition, behavioral boundaries, when active
+
+**Bottom strip:** Timeline showing role sequencing across engagement phases
+
+**Transition language:** Verbatim from facilitator guide for transparent role shifts
+
+---
+
+### VA-20: Check-In Conversation Structure
+
+**Purpose:** Pocket reference card for monthly check-in conversations during Collaborative Delivery. Three sections cover the agenda, diagnostic approach, and escalation triggers.
+
+**Layout:** Single-page card with three sections.
+
+**Section 1 -- Four-Item Agenda:**
+- Progress update (10 min)
+- Leading indicator review (10 min)
+- Blocker identification (10 min)
+- Cross-team coordination (10 min)
+
+**Section 2 -- Skill/Will/Environment Triage:**
+- When a team is behind, diagnose: Is it a skill gap? A motivation issue? An environmental barrier?
+- Each path has distinct signals and responses
+
+**Section 3 -- Escalation Triggers:**
+- Checklist of conditions that require escalation beyond the facilitator role
+
+---
+
+### VA-21: Content Architecture Map
+
+**Purpose:** The framework's navigational skeleton -- shows all files organized by collection with navigation pathways for each audience. Addresses the "invisible structure" problem where 57 cross-referenced files have no visual overview.
+
+**Layout:** Single-page map organized by collection.
+
+**Collections:**
+- Training (modules, sessions)
+- Toolkit (facilitator tools, templates)
+- Research (validation, metrics)
+
+**Audience pathways:**
+- Facilitator learning path
+- Leadership reading path
+- Team member path
+- Researcher path
+
+**Key visual cues:**
+- Each collection should be visually distinct
+- Audience entry points should be clearly labeled
+- Cross-references between collections should be shown as connecting lines
+
+---
+
 ## Production Notes
 
-- All image files are in the `training/visual-aids/` directory
-- Module placeholders use the format `![VA-X: Title](visual-aids/filename.svg)` so links resolve when images are added
-- Visuals are referenced from modules using relative paths
+- All image files are in the `public/images/` directory
+- Content references use the format `![VA-X: Title](/images/filename.svg)`
+- All visuals follow the SVG production style guide at `.team/svg-style-guide.md`
+- Visuals are designed for three contexts: projected (training/workshop), printed (handouts/laminated cards), and web (embedded SVG)

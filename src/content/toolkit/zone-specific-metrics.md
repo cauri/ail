@@ -8,6 +8,8 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 
 ---
 
+![VA-16: Metrics Tree Diagram](/images/metrics-tree-diagram.svg)
+
 ## Zone 1: Augmenting
 
 **Zone summary:** Individual team members -- developers, PMs, designers, QA engineers -- use AI tools habitually in their daily software production work.

@@ -33,6 +33,8 @@ Consult the zone reference documentation for the target zone to compile the full
 - **How you will know it is done.** Observable criteria for completion, not aspirational goals.
 - **Whether the investment is Artisan-led, jointly owned, or client-owned.** In engagements with an embedded Artisan team, some investments are led by Artisans (introducing new practices through collaborative work), some are jointly owned (Artisans and client team members working together), and some are client-owned (organizational changes that only the client can make). Clarify ownership to avoid ambiguity about who drives each investment.
 
+![VA-18: Investment Dependency Chain](/images/investment-dependency-chain.svg)
+
 ## Step 3: Sequence Investments into Phases
 
 Not all investments can or should happen simultaneously. Sequence them into phases based on dependencies, risk, and impact.

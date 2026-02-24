@@ -12,6 +12,8 @@ This is a detailed, ready-to-use script for running an ACE diagnostic workshop. 
 
 ---
 
+![VA-7: Diagnosis-Intervention Cycle](/images/diagnosis-intervention-cycle.svg)
+
 ## The Facilitator's Core Reasoning Model
 
 Throughout this script, you will see specific facilitation moves for specific situations. These are not a checklist to follow mechanically. They are examples of the **diagnosis-intervention cycle** in action: you observe what is happening, form a hypothesis about what is driving it, choose an intervention, deliver it, and assess whether it shifted the dynamic. When a situation arises that the script does not cover, apply the same cycle. The script teaches you specific moves; the diagnosis-intervention cycle teaches you how to generate new moves when you need them.
@@ -109,6 +111,8 @@ Read each screening question from the baseline screening document. Tally respons
 
 "Zone 2 is about team-level integration. The question shifts from 'do individuals use AI tools' to 'does the team have a shared, systematic way of working with AI.' This means shared AI configuration committed to source control, mandatory quality gates for AI-generated code, externalized plans, and collective ownership of the team's AI workflow. It also means PMs contributing specifications to the shared workflow, designers integrating with the shared AI configuration, and QA adapting testing strategies for AI-generated code patterns. The phrase to remember is 'One Team, One Setup.'"
 
+![VA-19: Role Transition Map](/images/role-transition-map.svg)
+
 **For Zone 3 (Accelerating):**
 
 "Zone 3 is about a fundamental shift across all roles in the production pipeline. Engineers operate as process designers, PMs become behavioral specifiers who define what accuracy and reliability the business can tolerate, designers become specification authors whose standards are machine-verifiable factory inputs, and QA engineers become evaluation pipeline specialists who design the infrastructure that validates AI output at scale. AI drives the core implementation work, and all roles define their respective inputs to the production pipeline."
@@ -203,6 +207,8 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 "Let us take 5 minutes. Grab coffee, stretch, check your messages. We will start the next zone at [time]."
 
 ---
+
+![VA-10: Score Distribution Archetypes](/images/score-distribution-archetypes.svg)
 
 ## Score Aggregation (5 minutes)
 

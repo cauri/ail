@@ -1,0 +1,314 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760"
+     font-family="'Inter', sans-serif">
+  <title>Investment Dependency Chain</title>
+  <desc>Left-to-right dependency flow showing organizational investments required for each zone transition, organized in four panels. Investments compound: each transition requires everything from the previous transition plus new investments. Critical path highlighted in magenta.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+    </marker>
+    <marker id="arrow-z1" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#60A5FA"/>
+    </marker>
+    <marker id="arrow-z2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#34D399"/>
+    </marker>
+    <marker id="arrow-z3" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FBBF24"/>
+    </marker>
+    <marker id="arrow-z4" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#A78BFA"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="760" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="32" y="32" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Investment Dependency Chain</text>
+  <text x="32" y="50" font-size="12" fill="#6B7280">Organizational investments compound across zone transitions — each builds on all previous investments</text>
+
+  <!-- ================================================ -->
+  <!-- PANEL 1: Baseline to Zone 1 (y=70..240) -->
+  <!-- Foundation investments — mostly parallel -->
+  <!-- ================================================ -->
+  <rect x="16" y="70" width="422" height="172" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+
+  <!-- Panel header -->
+  <text x="32" y="90" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#1E40AF">Baseline &#8594; Zone 1: Augmenting</text>
+  <text x="32" y="104" font-size="10" fill="#6B7280">Foundation — remove barriers, establish habitual tool use</text>
+
+  <!-- Investment nodes — two parallel tracks -->
+  <!-- Track A: Policy first, then dependent items -->
+  <rect x="32" y="116" width="130" height="24" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="97" y="132" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Policy Clarity</text>
+
+  <!-- Arrow from Policy to Licenses -->
+  <line x1="162" y1="128" x2="176" y2="128" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-z1)"/>
+
+  <rect x="184" y="116" width="110" height="24" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="239" y="132" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Tool Licenses</text>
+
+  <!-- Arrow from Licenses to API Keys -->
+  <line x1="294" y1="128" x2="308" y2="128" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-z1)"/>
+
+  <rect x="316" y="116" width="110" height="24" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="371" y="132" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">API Keys / Access</text>
+
+  <!-- Arrow from Licenses to Training -->
+  <line x1="239" y1="140" x2="239" y2="152" stroke="#60A5FA" stroke-width="1" marker-end="url(#arrow-z1)"/>
+
+  <rect x="184" y="158" width="110" height="24" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="239" y="174" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Structured Training</text>
+
+  <!-- Arrow from Policy to Review Guidelines -->
+  <line x1="97" y1="140" x2="97" y2="152" stroke="#60A5FA" stroke-width="1" marker-end="url(#arrow-z1)"/>
+
+  <rect x="32" y="158" width="130" height="24" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="97" y="174" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Review Guidelines</text>
+
+  <!-- Track B: Parallel — Address workforce concerns (independent) -->
+  <rect x="316" y="158" width="110" height="24" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1"/>
+  <text x="371" y="174" text-anchor="middle" font-size="9" fill="#1E40AF">Workforce Concerns</text>
+
+  <!-- Critical path highlight -->
+  <rect x="30" y="114" width="400" height="28" rx="6" fill="none" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="32" y="196" font-size="9" fill="#D912AE" font-weight="500">Critical path: Policy &#8594; Licenses &#8594; Access</text>
+
+  <!-- Panel annotation -->
+  <text x="32" y="216" font-size="9" fill="#6B7280" font-style="italic">Mostly parallel investments. Policy enables everything else.</text>
+  <text x="32" y="230" font-size="9" fill="#6B7280" font-style="italic">Management endorsement unlocks adoption.</text>
+
+  <!-- ================================================ -->
+  <!-- PANEL 2: Zone 1 to Zone 2 (y=70..240, right side) -->
+  <!-- Infrastructure investments with dependencies -->
+  <!-- ================================================ -->
+  <rect x="454" y="70" width="430" height="172" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+
+  <text x="470" y="90" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#065F46">Zone 1 &#8594; Zone 2: Integrating</text>
+  <text x="470" y="104" font-size="10" fill="#6B7280">Infrastructure — team-level workflow integration</text>
+
+  <!-- Row 1: Two parallel starting points -->
+  <rect x="470" y="116" width="110" height="24" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="525" y="132" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">One Team, One Setup</text>
+
+  <rect x="600" y="116" width="110" height="24" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="655" y="132" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">Tool Standardization</text>
+
+  <!-- Both feed into dependent investments -->
+  <!-- One Team -> Time for Infra -->
+  <line x1="525" y1="140" x2="525" y2="152" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-z2)"/>
+
+  <rect x="470" y="158" width="110" height="24" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="525" y="174" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">Time for Infra</text>
+
+  <!-- Both -> Quality Gate Policy -->
+  <line x1="558" y1="140" x2="668" y2="152" stroke="#34D399" stroke-width="1" marker-end="url(#arrow-z2)"/>
+  <line x1="655" y1="140" x2="655" y2="152" stroke="#34D399" stroke-width="1" marker-end="url(#arrow-z2)"/>
+
+  <rect x="600" y="158" width="120" height="24" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="660" y="174" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">Quality Gate Policy</text>
+
+  <!-- Tool Std -> Budget Integration -->
+  <rect x="740" y="116" width="126" height="24" rx="4" fill="#fff" stroke="#34D399" stroke-width="1"/>
+  <text x="803" y="132" text-anchor="middle" font-size="9" fill="#065F46">Budget Integration</text>
+  <line x1="710" y1="128" x2="740" y2="128" stroke="#34D399" stroke-width="1" marker-end="url(#arrow-z2)"/>
+
+  <!-- Both -> Workflow Training -->
+  <rect x="740" y="158" width="126" height="24" rx="4" fill="#fff" stroke="#34D399" stroke-width="1"/>
+  <text x="803" y="174" text-anchor="middle" font-size="9" fill="#065F46">Workflow Training</text>
+
+  <!-- Time for Infra -> Retro Culture -->
+  <rect x="470" y="194" width="110" height="20" rx="4" fill="#fff" stroke="#34D399" stroke-width="1"/>
+  <text x="525" y="208" text-anchor="middle" font-size="8" fill="#065F46">Retrospective Culture</text>
+
+  <!-- Cross-team knowledge sharing -->
+  <rect x="600" y="194" width="120" height="20" rx="4" fill="#fff" stroke="#34D399" stroke-width="1"/>
+  <text x="660" y="208" text-anchor="middle" font-size="8" fill="#065F46">Cross-Team Sharing</text>
+
+  <!-- Manager enablement -->
+  <rect x="740" y="194" width="126" height="20" rx="4" fill="#fff" stroke="#34D399" stroke-width="1"/>
+  <text x="803" y="208" text-anchor="middle" font-size="8" fill="#065F46">Manager Enablement</text>
+
+  <!-- Critical path -->
+  <text x="470" y="232" font-size="9" fill="#D912AE" font-weight="500">Critical path: One Team Setup &#8594; Quality Gates &#8594; Workflow Training</text>
+
+  <!-- ================================================ -->
+  <!-- ZONE BOUNDARY: vertical divider between panels -->
+  <!-- ================================================ -->
+  <line x1="450" y1="70" x2="450" y2="240" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="450" y="254" text-anchor="middle" font-size="9" fill="#9CA3AF">+ Zone 1 investments sustained</text>
+
+  <!-- ================================================ -->
+  <!-- PANEL 3: Zone 2 to Zone 3 (y=280..470) -->
+  <!-- Structural investments — role/identity changes -->
+  <!-- ================================================ -->
+  <rect x="16" y="280" width="440" height="200" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+
+  <text x="32" y="300" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#92400E">Zone 2 &#8594; Zone 3: Accelerating</text>
+  <text x="32" y="314" font-size="10" fill="#6B7280">Structural — role transformations, identity shifts</text>
+
+  <!-- Row 1: Starting investments (depend on Z2) -->
+  <rect x="32" y="328" width="120" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="92" y="344" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">AI Engineer Role</text>
+
+  <rect x="170" y="328" width="120" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="230" y="344" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Experiment Budget</text>
+
+  <rect x="308" y="328" width="136" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="376" y="344" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">AI Observability Infra</text>
+
+  <!-- Dependencies: Budget depends on Z2 Budget Integration -->
+  <!-- Observability depends on Z2 Quality Gates -->
+
+  <!-- Row 2: Depends on Row 1 -->
+  <line x1="92" y1="352" x2="92" y2="368" stroke="#FBBF24" stroke-width="1.5" marker-end="url(#arrow-z3)"/>
+  <line x1="376" y1="352" x2="376" y2="368" stroke="#FBBF24" stroke-width="1.5" marker-end="url(#arrow-z3)"/>
+
+  <rect x="32" y="374" width="120" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="92" y="390" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Pipeline Time</text>
+
+  <rect x="170" y="374" width="120" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="230" y="390" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">CAT Integration</text>
+
+  <rect x="308" y="374" width="136" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="376" y="390" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Prompt Versioning</text>
+
+  <!-- CAT depends on both AI Engineer Role and Observability -->
+  <line x1="120" y1="352" x2="200" y2="374" stroke="#FBBF24" stroke-width="1" marker-end="url(#arrow-z3)"/>
+  <line x1="376" y1="352" x2="260" y2="374" stroke="#FBBF24" stroke-width="1"/>
+
+  <!-- Row 3: Cross-functional + tolerance -->
+  <line x1="230" y1="398" x2="230" y2="414" stroke="#FBBF24" stroke-width="1" marker-end="url(#arrow-z3)"/>
+
+  <rect x="32" y="420" width="136" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1"/>
+  <text x="100" y="436" text-anchor="middle" font-size="9" fill="#92400E">Cross-Functional Training</text>
+
+  <rect x="186" y="420" width="136" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1"/>
+  <text x="254" y="436" text-anchor="middle" font-size="9" fill="#92400E">Non-Determinism Tolerance</text>
+
+  <rect x="340" y="420" width="104" height="24" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1"/>
+  <text x="392" y="436" text-anchor="middle" font-size="9" fill="#92400E">Workforce Planning</text>
+
+  <text x="32" y="464" font-size="9" fill="#D912AE" font-weight="500">Critical path: AI Engineer Role &#8594; CAT &#8594; Cross-Functional Training</text>
+
+  <!-- ================================================ -->
+  <!-- PANEL 4: Zone 3 to Zone 4 (y=280..470, right side) -->
+  <!-- Cultural / strategic investments -->
+  <!-- ================================================ -->
+  <rect x="472" y="280" width="412" height="200" rx="8" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+
+  <text x="488" y="300" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#5B21B6">Zone 3 &#8594; Zone 4: Industrializing</text>
+  <text x="488" y="314" font-size="10" fill="#6B7280">Cultural — executive commitment, production model</text>
+
+  <!-- Row 1: Fundamental reorg -->
+  <rect x="488" y="328" width="190" height="24" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="583" y="344" text-anchor="middle" font-size="9" font-weight="500" fill="#5B21B6">Fundamental Reorganization</text>
+
+  <!-- Row 2: Depends on reorg -->
+  <line x1="583" y1="352" x2="583" y2="368" stroke="#A78BFA" stroke-width="1.5" marker-end="url(#arrow-z4)"/>
+
+  <rect x="488" y="374" width="140" height="24" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="558" y="390" text-anchor="middle" font-size="9" font-weight="500" fill="#5B21B6">Factory Infrastructure</text>
+
+  <rect x="646" y="374" width="140" height="24" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="716" y="390" text-anchor="middle" font-size="9" fill="#5B21B6">Cross-Fn Rotation</text>
+
+  <line x1="648" y1="352" x2="716" y2="374" stroke="#A78BFA" stroke-width="1" marker-end="url(#arrow-z4)"/>
+
+  <!-- Row 3: Depends on infra -->
+  <line x1="558" y1="398" x2="558" y2="414" stroke="#A78BFA" stroke-width="1.5" marker-end="url(#arrow-z4)"/>
+
+  <rect x="488" y="420" width="140" height="24" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="558" y="436" text-anchor="middle" font-size="9" font-weight="500" fill="#5B21B6">Governance Frameworks</text>
+
+  <!-- Depends on governance -->
+  <line x1="558" y1="444" x2="558" y2="456" stroke="#A78BFA" stroke-width="1" marker-end="url(#arrow-z4)"/>
+
+  <rect x="488" y="460" width="140" height="20" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="558" y="474" text-anchor="middle" font-size="8" fill="#5B21B6">Factory Metrics</text>
+
+  <rect x="646" y="420" width="140" height="24" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="716" y="436" text-anchor="middle" font-size="9" fill="#5B21B6">Risk Management</text>
+
+  <rect x="646" y="460" width="140" height="20" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="716" y="474" text-anchor="middle" font-size="8" fill="#5B21B6">External Audit</text>
+
+  <!-- Dependencies from governance and metrics to risk/audit -->
+  <line x1="628" y1="432" x2="646" y2="432" stroke="#A78BFA" stroke-width="1" marker-end="url(#arrow-z4)"/>
+  <line x1="628" y1="470" x2="646" y2="470" stroke="#A78BFA" stroke-width="1" marker-end="url(#arrow-z4)"/>
+
+  <text x="488" y="494" font-size="9" fill="#D912AE" font-weight="500">Critical path: Reorg &#8594; Factory Infra &#8594; Governance &#8594; Risk Mgmt</text>
+
+  <!-- Zone boundary -->
+  <line x1="466" y1="280" x2="466" y2="480" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="466" y="494" text-anchor="middle" font-size="9" fill="#9CA3AF">+ Zones 1–2 investments sustained</text>
+
+  <!-- ================================================ -->
+  <!-- COMPOUNDING PATTERN — Bottom summary -->
+  <!-- ================================================ -->
+
+  <!-- Compounding visual: stacked bars showing cumulative investment -->
+  <rect x="32" y="520" width="836" height="80" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="52" y="540" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#151D1A">Investment Compounding</text>
+
+  <!-- Zone 1 bar -->
+  <rect x="52" y="554" width="160" height="18" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="132" y="567" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Zone 1: 6 investments</text>
+
+  <!-- Zone 2 bar (longer, includes Z1) -->
+  <rect x="52" y="574" width="350" height="18" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <rect x="52" y="574" width="160" height="18" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1" fill-opacity="0.5"/>
+  <text x="300" y="587" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">+ Zone 2: 9 new investments (15 total)</text>
+
+  <!-- Zone 3 bar -->
+  <rect x="52" y="554" width="160" height="18" rx="4" fill="none"/>
+  <!-- (Redrawn inline to keep stacking clear) -->
+
+  <!-- Compounding note -->
+  <text x="440" y="547" font-size="10" fill="#D912AE" font-weight="500">Each zone transition requires all prior investments PLUS new ones.</text>
+  <text x="440" y="562" font-size="10" fill="#6B7280">Zone 3 requires 25+ simultaneous investments.</text>
+  <text x="440" y="577" font-size="10" fill="#6B7280">Zone 4 requires 29+ investments plus cultural transformation.</text>
+  <text x="440" y="592" font-size="10" fill="#6B7280" font-style="italic">The right zone is the one your investment capacity supports.</text>
+
+  <!-- ================================================ -->
+  <!-- LEGEND -->
+  <!-- ================================================ -->
+  <rect x="32" y="616" width="836" height="44" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="636" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Legend</text>
+
+  <rect x="110" y="628" width="16" height="14" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="132" y="639" font-size="10" fill="#1E40AF">Zone 1</text>
+
+  <rect x="186" y="628" width="16" height="14" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="208" y="639" font-size="10" fill="#065F46">Zone 2</text>
+
+  <rect x="262" y="628" width="16" height="14" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="284" y="639" font-size="10" fill="#92400E">Zone 3</text>
+
+  <rect x="338" y="628" width="16" height="14" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="360" y="639" font-size="10" fill="#5B21B6">Zone 4</text>
+
+  <line x1="420" y1="635" x2="450" y2="635" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="458" y="639" font-size="10" fill="#6B7280">Dependency</text>
+
+  <rect x="540" y="628" width="80" height="14" rx="4" fill="none" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="628" y="639" font-size="10" fill="#D912AE">Critical path</text>
+
+  <line x1="720" y1="625" x2="720" y2="649" stroke="#E5E7EB" stroke-width="2"/>
+  <text x="730" y="639" font-size="10" fill="#6B7280">Zone boundary (cumulative)</text>
+
+  <!-- Narrative footer -->
+  <rect x="32" y="676" width="836" height="32" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="450" y="696" text-anchor="middle" font-size="11" fill="#D912AE" font-weight="500">Investments are what the organization provides. They are the prerequisite for every team-level activity that follows.</text>
+
+  <!-- Strategic simplification note -->
+  <text x="450" y="730" text-anchor="middle" font-size="10" fill="#9CA3AF">Strategically simplified for leadership. See the full 29-investment catalog for complete dependencies.</text>
+  <text x="450" y="746" text-anchor="middle" font-size="10" fill="#9CA3AF">The pattern matters more than the details: investments compound, and each zone requires sustained commitment to all prior zones.</text>
+
+</svg>

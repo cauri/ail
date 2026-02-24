@@ -1,91 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" font-family="'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 920"
+     font-family="'Inter', sans-serif">
+  <title>Facilitation Response Guide</title>
+  <desc>A six-row quick-reference card for workshop facilitators. Each row shows a common facilitation challenge (What You See) paired with the recommended response (What to Do). Challenges covered: Defensive Team, Overconfident Team, Dominant Voice, Honest Outlier, Absent PM, and High Score Variance.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs>
+
   <!-- Background -->
-  <rect width="1000" height="780" fill="#fff" rx="8"/>
+  <rect width="880" height="920" fill="#fff" rx="8"/>
 
   <!-- Title -->
-  <text x="500" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Facilitation Response Guide</text>
-  <text x="500" y="54" text-anchor="middle" font-size="12" fill="#666">Quick Reference for Workshop Facilitation Challenges</text>
+  <text x="36" y="36" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Facilitation Response Guide</text>
+  <text x="36" y="54" font-size="12" fill="#6B7280">Quick reference for workshop facilitation challenges</text>
 
   <!-- Column Headers -->
-  <rect x="30" y="70" width="340" height="30" rx="4" fill="#1e293b"/>
-  <text x="200" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">WHAT YOU SEE</text>
-  <rect x="380" y="70" width="590" height="30" rx="4" fill="#1e293b"/>
-  <text x="675" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">WHAT TO DO</text>
+  <text x="52" y="82" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">WHAT YOU SEE</text>
+  <text x="370" y="82" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">WHAT TO DO</text>
+  <line x1="36" y1="90" x2="844" y2="90" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Row 1: Defensive Team -->
-  <rect x="30" y="108" width="940" height="95" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="30" y="108" width="6" height="95" rx="3" fill="#64748b"/>
-  <text x="50" y="128" font-size="12" font-weight="bold" fill="#334155">Defensive Team</text>
-  <text x="50" y="146" font-size="10" fill="#475569">All 5s claimed. Vague justifications.</text>
-  <text x="50" y="161" font-size="10" fill="#475569">Team deflects probing questions.</text>
-  <text x="50" y="176" font-size="10" fill="#475569">Body language suggests performance,</text>
-  <text x="50" y="191" font-size="10" fill="#475569">not reflection.</text>
-  <text x="395" y="130" font-size="11" font-weight="bold" fill="#1e40af">Switch from scores to stories.</text>
-  <text x="395" y="150" font-size="10" fill="#334155">"Walk me through yesterday — when did you use AI</text>
-  <text x="395" y="165" font-size="10" fill="#334155">tools, and what for?"</text>
-  <text x="395" y="186" font-size="10" fill="#64748b" font-style="italic">Behavioral stories are harder to inflate than numbers.</text>
+  <rect x="36" y="98" width="808" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="120" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Defensive Team</text>
+  <text x="52" y="138" font-size="11" fill="#6B7280">All 5s claimed. Vague justifications.</text>
+  <text x="52" y="153" font-size="11" fill="#6B7280">Team deflects probing questions.</text>
+  <text x="52" y="168" font-size="11" fill="#6B7280">Body language suggests performance,</text>
+  <text x="52" y="183" font-size="11" fill="#6B7280">not reflection.</text>
+  <rect x="350" y="98" width="3" height="108" rx="1.5" fill="#D912AE"/>
+  <text x="370" y="120" font-size="12" font-weight="600" fill="#151D1A">Switch from scores to stories.</text>
+  <text x="370" y="140" font-size="11" fill="#151D1A">"Walk me through yesterday — when did you</text>
+  <text x="370" y="155" font-size="11" fill="#151D1A">use AI tools, and what for?"</text>
+  <text x="370" y="178" font-size="10" fill="#6B7280" font-style="italic">Behavioral stories are harder to inflate than numbers.</text>
 
   <!-- Row 2: Overconfident Team -->
-  <rect x="30" y="211" width="940" height="95" rx="4" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="30" y="211" width="6" height="95" rx="3" fill="#64748b"/>
-  <text x="50" y="231" font-size="12" font-weight="bold" fill="#334155">Overconfident Team</text>
-  <text x="50" y="249" font-size="10" fill="#475569">High scores driven by 1-2 enthusiasts</text>
-  <text x="50" y="264" font-size="10" fill="#475569">who speak for the group. Quieter</text>
-  <text x="50" y="279" font-size="10" fill="#475569">members nod but don't contribute</text>
-  <text x="50" y="294" font-size="10" fill="#475569">examples.</text>
-  <text x="395" y="233" font-size="11" font-weight="bold" fill="#1e40af">Individualize.</text>
-  <text x="395" y="253" font-size="10" fill="#334155">"Let's go around — each person give me one specific</text>
-  <text x="395" y="268" font-size="10" fill="#334155">example from this past week."</text>
-  <text x="395" y="289" font-size="10" fill="#64748b" font-style="italic">When the enthusiast speaks first and others can't match,</text>
-  <text x="395" y="302" font-size="10" fill="#64748b" font-style="italic">the picture clarifies.</text>
+  <rect x="36" y="218" width="808" height="108" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="240" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Overconfident Team</text>
+  <text x="52" y="258" font-size="11" fill="#6B7280">High scores driven by 1-2 enthusiasts</text>
+  <text x="52" y="273" font-size="11" fill="#6B7280">who speak for the group. Quieter</text>
+  <text x="52" y="288" font-size="11" fill="#6B7280">members nod but don't contribute</text>
+  <text x="52" y="303" font-size="11" fill="#6B7280">examples.</text>
+  <rect x="350" y="218" width="3" height="108" rx="1.5" fill="#D912AE"/>
+  <text x="370" y="240" font-size="12" font-weight="600" fill="#151D1A">Individualize.</text>
+  <text x="370" y="260" font-size="11" fill="#151D1A">"Let's go around — each person give me one</text>
+  <text x="370" y="275" font-size="11" fill="#151D1A">specific example from this past week."</text>
+  <text x="370" y="298" font-size="10" fill="#6B7280" font-style="italic">When the enthusiast speaks first and others can't</text>
+  <text x="370" y="311" font-size="10" fill="#6B7280" font-style="italic">match, the picture clarifies.</text>
 
   <!-- Row 3: Dominant Voice -->
-  <rect x="30" y="314" width="940" height="95" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="30" y="314" width="6" height="95" rx="3" fill="#64748b"/>
-  <text x="50" y="334" font-size="12" font-weight="bold" fill="#334155">Dominant Voice</text>
-  <text x="50" y="352" font-size="10" fill="#475569">One person answers every question.</text>
-  <text x="50" y="367" font-size="10" fill="#475569">Others defer or stay silent.</text>
-  <text x="395" y="336" font-size="11" font-weight="bold" fill="#1e40af">Use independent scoring (before discussion).</text>
-  <text x="395" y="356" font-size="10" fill="#334155">"[Quieter member], what score did you give, and</text>
-  <text x="395" y="371" font-size="10" fill="#334155">what were you thinking?"</text>
-  <text x="395" y="392" font-size="10" fill="#334155">If interrupted: "[Name], let's hear from [other] first."</text>
+  <rect x="36" y="338" width="808" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="360" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Dominant Voice</text>
+  <text x="52" y="378" font-size="11" fill="#6B7280">One person answers every question.</text>
+  <text x="52" y="393" font-size="11" fill="#6B7280">Others defer or stay silent.</text>
+  <rect x="350" y="338" width="3" height="108" rx="1.5" fill="#D912AE"/>
+  <text x="370" y="360" font-size="12" font-weight="600" fill="#151D1A">Use independent scoring (before discussion).</text>
+  <text x="370" y="380" font-size="11" fill="#151D1A">"[Quieter member], what score did you give,</text>
+  <text x="370" y="395" font-size="11" fill="#151D1A">and what were you thinking?"</text>
+  <text x="370" y="418" font-size="11" fill="#151D1A">If interrupted: "[Name], let's hear from [other] first."</text>
 
   <!-- Row 4: Honest Outlier (HIGHLIGHTED) -->
-  <rect x="30" y="417" width="940" height="95" rx="4" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
-  <rect x="30" y="417" width="6" height="95" rx="3" fill="#dc2626"/>
-  <text x="50" y="437" font-size="12" font-weight="bold" fill="#991b1b">Honest Outlier ★</text>
-  <text x="50" y="455" font-size="10" fill="#7f1d1d">One member scores significantly lower.</text>
-  <text x="50" y="470" font-size="10" fill="#7f1d1d">Others push back or dismiss the</text>
-  <text x="50" y="485" font-size="10" fill="#7f1d1d">low score.</text>
-  <text x="395" y="439" font-size="11" font-weight="bold" fill="#dc2626">PROTECT the outlier.</text>
-  <text x="395" y="459" font-size="10" fill="#334155">"I want to stay with [name]'s perspective — it's different</text>
-  <text x="395" y="474" font-size="10" fill="#334155">from the group and that difference is worth understanding."</text>
-  <text x="395" y="495" font-size="10" fill="#991b1b" font-weight="600">Do NOT let the group pressure them into recanting.</text>
+  <rect x="36" y="458" width="808" height="112" rx="8" fill="#FFF7ED" stroke="#D912AE" stroke-width="2"/>
+  <rect x="36" y="458" width="4" height="112" rx="2" fill="#D912AE"/>
+  <text x="52" y="480" font-family="'DM Sans', sans-serif" font-size="13" font-weight="700" fill="#151D1A">Honest Outlier</text>
+  <text x="165" y="480" font-size="10" font-weight="600" fill="#D912AE">HIGHEST-VALUE MOMENT</text>
+  <text x="52" y="498" font-size="11" fill="#6B7280">One member scores significantly lower.</text>
+  <text x="52" y="513" font-size="11" fill="#6B7280">Others push back or dismiss the</text>
+  <text x="52" y="528" font-size="11" fill="#6B7280">low score.</text>
+  <rect x="350" y="458" width="3" height="112" rx="1.5" fill="#D912AE"/>
+  <text x="370" y="480" font-size="12" font-weight="600" fill="#D912AE">PROTECT the outlier.</text>
+  <text x="370" y="500" font-size="11" fill="#151D1A">"I want to stay with [name]'s perspective — it's</text>
+  <text x="370" y="515" font-size="11" fill="#151D1A">different from the group and that difference</text>
+  <text x="370" y="530" font-size="11" fill="#151D1A">is worth understanding."</text>
+  <text x="370" y="553" font-size="11" font-weight="600" fill="#151D1A">Do NOT let the group pressure them into recanting.</text>
 
   <!-- Row 5: Absent PM -->
-  <rect x="30" y="520" width="940" height="95" rx="4" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="30" y="520" width="6" height="95" rx="3" fill="#64748b"/>
-  <text x="50" y="540" font-size="12" font-weight="bold" fill="#334155">Absent PM</text>
-  <text x="50" y="558" font-size="10" fill="#475569">PM is missing from the workshop.</text>
-  <text x="50" y="573" font-size="10" fill="#475569">Engineers attempt to answer</text>
-  <text x="50" y="588" font-size="10" fill="#475569">PM-specific Zone 2 questions.</text>
-  <text x="395" y="542" font-size="11" font-weight="bold" fill="#1e40af">Do NOT rate PM questions from secondhand reports.</text>
-  <text x="395" y="562" font-size="10" fill="#334155">Note the gap explicitly in the report. Schedule a</text>
-  <text x="395" y="577" font-size="10" fill="#334155">follow-up session or flag as a risk.</text>
+  <rect x="36" y="582" width="808" height="108" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="604" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Absent PM</text>
+  <text x="52" y="622" font-size="11" fill="#6B7280">PM is missing from the workshop.</text>
+  <text x="52" y="637" font-size="11" fill="#6B7280">Engineers attempt to answer</text>
+  <text x="52" y="652" font-size="11" fill="#6B7280">PM-specific Zone 2 questions.</text>
+  <rect x="350" y="582" width="3" height="108" rx="1.5" fill="#D912AE"/>
+  <text x="370" y="604" font-size="12" font-weight="600" fill="#151D1A">Do NOT rate PM questions from secondhand reports.</text>
+  <text x="370" y="624" font-size="11" fill="#151D1A">Note the gap explicitly in the report. Schedule a</text>
+  <text x="370" y="639" font-size="11" fill="#151D1A">follow-up session or flag as a risk.</text>
 
   <!-- Row 6: High Score Variance -->
-  <rect x="30" y="623" width="940" height="95" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <rect x="30" y="623" width="6" height="95" rx="3" fill="#64748b"/>
-  <text x="50" y="643" font-size="12" font-weight="bold" fill="#334155">High Score Variance</text>
-  <text x="50" y="661" font-size="10" fill="#475569">A 2 and a 5 on the same question.</text>
-  <text x="50" y="676" font-size="10" fill="#475569">The group is split.</text>
-  <text x="395" y="645" font-size="11" font-weight="bold" fill="#1e40af">Start with the LOW scorer.</text>
-  <text x="395" y="665" font-size="10" fill="#334155">"I see a range. Let me start with the lower end —</text>
-  <text x="395" y="680" font-size="10" fill="#334155">what are you seeing?"</text>
-  <text x="395" y="701" font-size="10" fill="#64748b" font-style="italic">Starting low prevents social pressure from silencing</text>
-  <text x="395" y="714" font-size="10" fill="#64748b" font-style="italic">honest dissent.</text>
+  <rect x="36" y="702" width="808" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="724" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">High Score Variance</text>
+  <text x="52" y="742" font-size="11" fill="#6B7280">A 2 and a 5 on the same question.</text>
+  <text x="52" y="757" font-size="11" fill="#6B7280">The group is split.</text>
+  <rect x="350" y="702" width="3" height="108" rx="1.5" fill="#D912AE"/>
+  <text x="370" y="724" font-size="12" font-weight="600" fill="#151D1A">Start with the LOW scorer.</text>
+  <text x="370" y="744" font-size="11" fill="#151D1A">"I see a range. Let me start with the lower end —</text>
+  <text x="370" y="759" font-size="11" fill="#151D1A">what are you seeing?"</text>
+  <text x="370" y="782" font-size="10" fill="#6B7280" font-style="italic">Starting low prevents social pressure from silencing</text>
+  <text x="370" y="795" font-size="10" fill="#6B7280" font-style="italic">honest dissent.</text>
 
   <!-- Footer -->
-  <rect x="30" y="730" width="940" height="36" rx="4" fill="#1e293b"/>
-  <text x="500" y="753" text-anchor="middle" font-size="11" fill="#e2e8f0">Default probe for any high score: "What does that look like on a typical Tuesday?" If they can't answer, the score is aspirational.</text>
+  <rect x="36" y="830" width="808" height="70" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="36" y="830" width="3" height="70" rx="1.5" fill="#D912AE"/>
+  <text x="52" y="852" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Default discovery probe for any high score:</text>
+  <text x="52" y="870" font-size="11" fill="#151D1A">"Help me understand what that looks like on a typical Tuesday."</text>
+  <text x="52" y="888" font-size="10" fill="#6B7280">Listen for specific, concrete examples. If the response stays abstract, explore further. The goal is to understand actual practice.</text>
 </svg>

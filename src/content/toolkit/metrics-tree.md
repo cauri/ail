@@ -301,6 +301,8 @@ When aggregating team-level metrics to organizational dashboards (as described i
 
 ---
 
+![VA-16: Metrics Tree Diagram](/images/metrics-tree-diagram.svg)
+
 ## Metrics Tree Summary
 
 ```

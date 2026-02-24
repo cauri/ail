@@ -41,6 +41,10 @@ By the end of this module, trainees will be able to:
 
 ### Session 2: The Competency Concept
 
+![VA-8: Competency Stage Quick Reference](/images/competency-stage-reference.svg)
+
+![VA-11: Competency vs Knowledge](/images/competency-vs-knowledge.svg)
+
 **What competency means.** Habitual behavior under stress. What a team does reliably when conditions are unfavorable -- tight deadlines, production incidents, unfamiliar codebases, organizational pressure.
 
 **The performance under pressure analogy.** A basketball player who drills free throws at 90% in the gym but drops to 50% in a playoff game has skill but not competency. Competency is the performance that holds up when the stakes rise and the conditions deteriorate. Knowledge is necessary but not sufficient for competency.
@@ -52,6 +56,8 @@ By the end of this module, trainees will be able to:
 **Four stages within a zone.** Emerging (practicing but inconsistent), Developing (mostly consistent but untested by sustained pressure), Established (habitual and consistent even under stress), Exemplary (can coach others and innovate within the zone). These stages apply within each zone independently.
 
 **Implications for measurement.** Assess what teams do, not what they know. Assess behavior under pressure, not under ideal conditions. Use facilitated self-assessment, not external audit.
+
+![VA-12: Zone Comparison Matrix](/images/zone-comparison-matrix.svg)
 
 ### Session 3: Zone 1 Deep Dive -- Augmenting
 
@@ -116,6 +122,8 @@ By the end of this module, trainees will be able to:
 **When Zone 4 is the right target.** Most organizations will find their optimal stopping point at Zone 2 or Zone 3. Zone 4 is appropriate for organizations where software production volume is a strategic differentiator, and the organization is prepared for a multi-year cultural transformation.
 
 ### Session 7: The Progressive Competency Model
+
+![VA-1: Zone Progression Diagram](/images/zone-progression-diagram.svg)
 
 **A single linear progression.** All four zones form a single path: Zone 1 -> Zone 2 -> Zone 3 -> Zone 4. Each zone builds on the capabilities and habits of the previous one. Organizations choose how far along this path to travel.
 

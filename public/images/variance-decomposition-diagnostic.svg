@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820"
+     font-family="'Inter', sans-serif">
+  <title>Variance Decomposition Diagnostic</title>
+  <desc>Three small-multiple heatmap panels showing 5-member by 10-question grids. Panel A shows person variance (one member behind), Panel B shows question variance (specific questions lag), Panel C shows both high (patchwork pattern). Below the panels, a decision tree shows how to navigate variance decomposition when Criterion 2 is not met. Cells use a sequential white-to-blue color scale with numeric values for accessibility.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="820" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Variance Decomposition Diagnostic</text>
+  <text x="450" y="50" text-anchor="middle" font-size="11" fill="#6B7280">When Criterion 2 is not met (SD > 0.5): identify whether variance is person-driven, question-driven, or both</text>
+
+  <!-- Color scale legend -->
+  <g transform="translate(610, 62)">
+    <text x="0" y="0" font-size="9" font-weight="500" fill="#6B7280">Score scale:</text>
+    <rect x="70" y="-10" width="18" height="14" rx="2" fill="#EFF6FF" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="79" y="1" text-anchor="middle" font-size="7" fill="#6B7280">1</text>
+    <rect x="92" y="-10" width="18" height="14" rx="2" fill="#BFDBFE" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="101" y="1" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="114" y="-10" width="18" height="14" rx="2" fill="#93C5FD" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="123" y="1" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="136" y="-10" width="18" height="14" rx="2" fill="#60A5FA" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="145" y="1" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="158" y="-10" width="18" height="14" rx="2" fill="#2563EB" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="167" y="1" text-anchor="middle" font-size="7" fill="#fff">5</text>
+  </g>
+
+  <!-- ==================== PANEL A: Person Variance ==================== -->
+  <!-- Cell grid: 10 cols x 5 rows. Cell=20x18, pitch=22px horiz, 20px vert. Start x=56, y=44 -->
+  <g transform="translate(20, 80)">
+    <text x="0" y="0" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">A. Person Variance</text>
+    <text x="0" y="16" font-size="9" fill="#6B7280">Between-person SD = 0.7 | Between-question SD = 0.2</text>
+
+    <!-- Column headers Q1-Q10 -->
+    <text x="66" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q1</text>
+    <text x="88" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q2</text>
+    <text x="110" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q3</text>
+    <text x="132" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q4</text>
+    <text x="154" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q5</text>
+    <text x="176" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q6</text>
+    <text x="198" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q7</text>
+    <text x="220" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q8</text>
+    <text x="242" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q9</text>
+    <text x="264" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q10</text>
+    <!-- Row headers -->
+    <text x="50" y="57" text-anchor="end" font-size="8" fill="#9CA3AF">M1</text>
+    <text x="50" y="77" text-anchor="end" font-size="8" fill="#9CA3AF">M2</text>
+    <text x="50" y="97" text-anchor="end" font-size="8" fill="#9CA3AF">M3</text>
+    <text x="50" y="117" text-anchor="end" font-size="8" fill="#9CA3AF">M4</text>
+    <text x="50" y="137" text-anchor="end" font-size="8" fill="#F87171" font-weight="500">M5</text>
+
+    <!-- M1: 5,5,5,4,5,5,4,5,5,5 -->
+    <rect x="56" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="44" width="20" height="18" rx="2" fill="#60A5FA"/><text x="132" y="57" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="144" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="44" width="20" height="18" rx="2" fill="#60A5FA"/><text x="198" y="57" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="210" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="242" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="254" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M2: 5,4,5,5,5,4,5,5,5,4 -->
+    <rect x="56" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="64" width="20" height="18" rx="2" fill="#60A5FA"/><text x="88" y="77" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="100" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="132" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="144" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="64" width="20" height="18" rx="2" fill="#60A5FA"/><text x="176" y="77" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="188" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="242" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="254" y="64" width="20" height="18" rx="2" fill="#60A5FA"/><text x="264" y="77" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <!-- M3: 4,5,5,5,4,5,5,5,4,5 -->
+    <rect x="56" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="66" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="78" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="132" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="144" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="154" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="166" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="242" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="254" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M4: 5,5,4,5,5,5,5,4,5,5 -->
+    <rect x="56" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="104" width="20" height="18" rx="2" fill="#60A5FA"/><text x="110" y="117" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="122" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="132" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="144" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="104" width="20" height="18" rx="2" fill="#60A5FA"/><text x="220" y="117" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="232" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="242" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="254" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M5 (outlier): 3,2,3,2,3,2,3,2,3,3 -->
+    <rect x="56" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="66" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="78" y="124" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="88" y="137" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="100" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="110" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="122" y="124" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="132" y="137" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="144" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="154" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="166" y="124" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="176" y="137" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="188" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="198" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="210" y="124" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="220" y="137" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="232" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="242" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="254" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="264" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+
+    <!-- Annotation -->
+    <rect x="0" y="150" width="280" height="30" rx="4" fill="#FFF7ED" stroke="#FB923C" stroke-width="1"/>
+    <rect x="0" y="150" width="2" height="30" rx="1" fill="#FB923C"/>
+    <text x="12" y="165" font-size="9" font-weight="500" fill="#9A3412">One member behind. Targeted support needed.</text>
+    <text x="12" y="176" font-size="8" fill="#6B7280">Pair M5 with high performers; investigate barriers.</text>
+  </g>
+
+  <!-- ==================== PANEL B: Question Variance ==================== -->
+  <g transform="translate(310, 80)">
+    <text x="0" y="0" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">B. Question Variance</text>
+    <text x="0" y="16" font-size="9" fill="#6B7280">Between-person SD = 0.2 | Between-question SD = 0.6</text>
+
+    <text x="66" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q1</text>
+    <text x="88" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q2</text>
+    <text x="110" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q3</text>
+    <text x="132" y="38" text-anchor="middle" font-size="7" fill="#F87171" font-weight="500">Q4</text>
+    <text x="154" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q5</text>
+    <text x="176" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q6</text>
+    <text x="198" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q7</text>
+    <text x="220" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q8</text>
+    <text x="242" y="38" text-anchor="middle" font-size="7" fill="#F87171" font-weight="500">Q9</text>
+    <text x="264" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q10</text>
+    <text x="50" y="57" text-anchor="end" font-size="8" fill="#9CA3AF">M1</text>
+    <text x="50" y="77" text-anchor="end" font-size="8" fill="#9CA3AF">M2</text>
+    <text x="50" y="97" text-anchor="end" font-size="8" fill="#9CA3AF">M3</text>
+    <text x="50" y="117" text-anchor="end" font-size="8" fill="#9CA3AF">M4</text>
+    <text x="50" y="137" text-anchor="end" font-size="8" fill="#9CA3AF">M5</text>
+
+    <!-- M1: 5,5,5,2,5,5,5,5,2,5 -->
+    <rect x="56" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="44" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="132" y="57" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="144" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="44" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="242" y="57" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="254" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M2: 5,4,5,3,5,4,5,5,3,5 -->
+    <rect x="56" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="64" width="20" height="18" rx="2" fill="#60A5FA"/><text x="88" y="77" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="100" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="64" width="20" height="18" rx="2" fill="#93C5FD"/><text x="132" y="77" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="144" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="64" width="20" height="18" rx="2" fill="#60A5FA"/><text x="176" y="77" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="188" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="64" width="20" height="18" rx="2" fill="#93C5FD"/><text x="242" y="77" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="254" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M3: 5,5,4,2,5,5,5,4,2,5 -->
+    <rect x="56" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="110" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="122" y="84" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="132" y="97" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="144" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="220" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="232" y="84" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="242" y="97" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="254" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M4: 5,5,5,3,4,5,5,5,3,5 -->
+    <rect x="56" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="104" width="20" height="18" rx="2" fill="#93C5FD"/><text x="132" y="117" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="144" y="104" width="20" height="18" rx="2" fill="#60A5FA"/><text x="154" y="117" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="166" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="104" width="20" height="18" rx="2" fill="#93C5FD"/><text x="242" y="117" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="254" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M5: 5,5,5,2,5,5,4,5,3,4 -->
+    <rect x="56" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="124" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="132" y="137" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="144" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="124" width="20" height="18" rx="2" fill="#60A5FA"/><text x="198" y="137" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="210" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="242" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="254" y="124" width="20" height="18" rx="2" fill="#60A5FA"/><text x="264" y="137" text-anchor="middle" font-size="7" fill="#fff">4</text>
+
+    <!-- Annotation -->
+    <rect x="0" y="150" width="280" height="30" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+    <rect x="0" y="150" width="2" height="30" rx="1" fill="#FBBF24"/>
+    <text x="12" y="165" font-size="9" font-weight="500" fill="#92400E">Specific behaviors lag (Q4, Q9). Focused coaching.</text>
+    <text x="12" y="176" font-size="8" fill="#6B7280">Team is uniform, but certain practices not adopted.</text>
+  </g>
+
+  <!-- ==================== PANEL C: Both High ==================== -->
+  <g transform="translate(600, 80)">
+    <text x="0" y="0" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">C. Both High</text>
+    <text x="0" y="16" font-size="9" fill="#6B7280">Between-person SD = 0.6 | Between-question SD = 0.5</text>
+
+    <text x="66" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q1</text>
+    <text x="88" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q2</text>
+    <text x="110" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q3</text>
+    <text x="132" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q4</text>
+    <text x="154" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q5</text>
+    <text x="176" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q6</text>
+    <text x="198" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q7</text>
+    <text x="220" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q8</text>
+    <text x="242" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q9</text>
+    <text x="264" y="38" text-anchor="middle" font-size="7" fill="#9CA3AF">Q10</text>
+    <text x="50" y="57" text-anchor="end" font-size="8" fill="#9CA3AF">M1</text>
+    <text x="50" y="77" text-anchor="end" font-size="8" fill="#9CA3AF">M2</text>
+    <text x="50" y="97" text-anchor="end" font-size="8" fill="#9CA3AF">M3</text>
+    <text x="50" y="117" text-anchor="end" font-size="8" fill="#9CA3AF">M4</text>
+    <text x="50" y="137" text-anchor="end" font-size="8" fill="#9CA3AF">M5</text>
+
+    <!-- M1: 5,3,4,2,5,3,5,4,2,4 -->
+    <rect x="56" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="66" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="78" y="44" width="20" height="18" rx="2" fill="#93C5FD"/><text x="88" y="57" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="100" y="44" width="20" height="18" rx="2" fill="#60A5FA"/><text x="110" y="57" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="122" y="44" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="132" y="57" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="144" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="44" width="20" height="18" rx="2" fill="#93C5FD"/><text x="176" y="57" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="188" y="44" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="57" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="44" width="20" height="18" rx="2" fill="#60A5FA"/><text x="220" y="57" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="232" y="44" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="242" y="57" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="254" y="44" width="20" height="18" rx="2" fill="#60A5FA"/><text x="264" y="57" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <!-- M2: 3,5,2,4,3,5,2,5,4,3 -->
+    <rect x="56" y="64" width="20" height="18" rx="2" fill="#93C5FD"/><text x="66" y="77" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="78" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="88" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="100" y="64" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="110" y="77" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="122" y="64" width="20" height="18" rx="2" fill="#60A5FA"/><text x="132" y="77" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="144" y="64" width="20" height="18" rx="2" fill="#93C5FD"/><text x="154" y="77" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="166" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="176" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="188" y="64" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="198" y="77" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="210" y="64" width="20" height="18" rx="2" fill="#2563EB"/><text x="220" y="77" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="232" y="64" width="20" height="18" rx="2" fill="#60A5FA"/><text x="242" y="77" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="254" y="64" width="20" height="18" rx="2" fill="#93C5FD"/><text x="264" y="77" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <!-- M3: 4,2,5,3,4,2,4,3,5,2 -->
+    <rect x="56" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="66" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="78" y="84" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="88" y="97" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="100" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="110" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="122" y="84" width="20" height="18" rx="2" fill="#93C5FD"/><text x="132" y="97" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="144" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="154" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="166" y="84" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="176" y="97" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="188" y="84" width="20" height="18" rx="2" fill="#60A5FA"/><text x="198" y="97" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="210" y="84" width="20" height="18" rx="2" fill="#93C5FD"/><text x="220" y="97" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="232" y="84" width="20" height="18" rx="2" fill="#2563EB"/><text x="242" y="97" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="254" y="84" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="264" y="97" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <!-- M4: 2,4,3,5,2,4,3,2,3,5 -->
+    <rect x="56" y="104" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="66" y="117" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="78" y="104" width="20" height="18" rx="2" fill="#60A5FA"/><text x="88" y="117" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="100" y="104" width="20" height="18" rx="2" fill="#93C5FD"/><text x="110" y="117" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="122" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="132" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="144" y="104" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="154" y="117" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="166" y="104" width="20" height="18" rx="2" fill="#60A5FA"/><text x="176" y="117" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="188" y="104" width="20" height="18" rx="2" fill="#93C5FD"/><text x="198" y="117" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="210" y="104" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="220" y="117" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="232" y="104" width="20" height="18" rx="2" fill="#93C5FD"/><text x="242" y="117" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="254" y="104" width="20" height="18" rx="2" fill="#2563EB"/><text x="264" y="117" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <!-- M5: 4,3,4,2,5,3,5,4,2,3 -->
+    <rect x="56" y="124" width="20" height="18" rx="2" fill="#60A5FA"/><text x="66" y="137" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="78" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="88" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="100" y="124" width="20" height="18" rx="2" fill="#60A5FA"/><text x="110" y="137" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="122" y="124" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="132" y="137" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="144" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="154" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="166" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="176" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+    <rect x="188" y="124" width="20" height="18" rx="2" fill="#2563EB"/><text x="198" y="137" text-anchor="middle" font-size="7" fill="#fff">5</text>
+    <rect x="210" y="124" width="20" height="18" rx="2" fill="#60A5FA"/><text x="220" y="137" text-anchor="middle" font-size="7" fill="#fff">4</text>
+    <rect x="232" y="124" width="20" height="18" rx="2" fill="#BFDBFE"/><text x="242" y="137" text-anchor="middle" font-size="7" fill="#6B7280">2</text>
+    <rect x="254" y="124" width="20" height="18" rx="2" fill="#93C5FD"/><text x="264" y="137" text-anchor="middle" font-size="7" fill="#1E40AF">3</text>
+
+    <!-- Annotation -->
+    <rect x="0" y="150" width="280" height="30" rx="4" fill="#F9FAFB" stroke="#F87171" stroke-width="1"/>
+    <rect x="0" y="150" width="2" height="30" rx="1" fill="#F87171"/>
+    <text x="12" y="165" font-size="9" font-weight="500" fill="#151D1A">Multiple issues. Broader investment needed.</text>
+    <text x="12" y="176" font-size="8" fill="#6B7280">No single fix. Revisit organizational support.</text>
+  </g>
+
+  <!-- ==================== DECISION TREE SECTION ==================== -->
+  <line x1="20" y1="340" x2="880" y2="340" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="450" y="368" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14"
+        font-weight="500" fill="#151D1A">Variance Decomposition Decision Flow</text>
+
+  <!-- Entry -->
+  <rect x="320" y="384" width="260" height="32" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1.5"/>
+  <text x="450" y="405" text-anchor="middle" font-size="11" font-weight="500" fill="#9A3412">Criterion 2 not met: SD > 0.5</text>
+
+  <line x1="450" y1="416" x2="450" y2="440" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step -->
+  <rect x="280" y="446" width="340" height="32" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="450" y="467" text-anchor="middle" font-size="10" fill="#151D1A">Calculate between-person SD and between-question SD</text>
+
+  <line x1="450" y1="478" x2="450" y2="500" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Three branches -->
+  <line x1="150" y1="510" x2="750" y2="510" stroke="#6B7280" stroke-width="1"/>
+  <line x1="150" y1="510" x2="150" y2="526" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="450" y1="510" x2="450" y2="526" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="750" y1="510" x2="750" y2="526" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Branch A: Person variance -->
+  <rect x="50" y="532" width="200" height="56" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1"/>
+  <text x="150" y="550" text-anchor="middle" font-size="10" font-weight="500" fill="#9A3412">Person SD > 0.5</text>
+  <text x="150" y="563" text-anchor="middle" font-size="10" font-weight="500" fill="#9A3412">Question SD &lt; 0.3</text>
+  <text x="150" y="580" text-anchor="middle" font-size="9" fill="#6B7280">Person Variance</text>
+
+  <line x1="150" y1="588" x2="150" y2="604" stroke="#6B7280" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <rect x="40" y="610" width="220" height="42" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="150" y="627" text-anchor="middle" font-size="9" fill="#151D1A">Targeted support for specific</text>
+  <text x="150" y="641" text-anchor="middle" font-size="9" fill="#151D1A">individuals. Pair with high performers.</text>
+
+  <!-- Branch B: Question variance -->
+  <rect x="350" y="532" width="200" height="56" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="450" y="550" text-anchor="middle" font-size="10" font-weight="500" fill="#92400E">Person SD &lt; 0.3</text>
+  <text x="450" y="563" text-anchor="middle" font-size="10" font-weight="500" fill="#92400E">Question SD > 0.5</text>
+  <text x="450" y="580" text-anchor="middle" font-size="9" fill="#6B7280">Question Variance</text>
+
+  <line x1="450" y1="588" x2="450" y2="604" stroke="#6B7280" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <rect x="340" y="610" width="220" height="42" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="450" y="627" text-anchor="middle" font-size="9" fill="#151D1A">Focused coaching on specific</text>
+  <text x="450" y="641" text-anchor="middle" font-size="9" fill="#151D1A">questions/behaviors that lag.</text>
+
+  <!-- Branch C: Both high -->
+  <rect x="650" y="532" width="200" height="56" rx="8" fill="#F9FAFB" stroke="#F87171" stroke-width="1"/>
+  <text x="750" y="550" text-anchor="middle" font-size="10" font-weight="500" fill="#151D1A">Person SD > 0.5</text>
+  <text x="750" y="563" text-anchor="middle" font-size="10" font-weight="500" fill="#151D1A">Question SD > 0.5</text>
+  <text x="750" y="580" text-anchor="middle" font-size="9" fill="#6B7280">Both High</text>
+
+  <line x1="750" y1="588" x2="750" y2="604" stroke="#6B7280" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <rect x="640" y="610" width="220" height="42" rx="6" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="750" y="627" text-anchor="middle" font-size="9" fill="#151D1A">Broader investment needed. Revisit</text>
+  <text x="750" y="641" text-anchor="middle" font-size="9" fill="#151D1A">organizational support for this zone.</text>
+
+  <!-- Bottom annotation -->
+  <line x1="20" y1="676" x2="880" y2="676" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="50" y="690" width="800" height="46" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="50" y="690" width="3" height="46" rx="1" fill="#D912AE"/>
+  <text x="72" y="710" font-size="10" font-weight="500" fill="#151D1A">The thresholds (0.5 and 0.3) are interpretive guidelines, not validated cutoffs.</text>
+  <text x="72" y="726" font-size="10" fill="#6B7280">Use them as anchors for judgment. The heatmap pattern matters more than the exact SD values.</text>
+
+  <text x="450" y="760" text-anchor="middle" font-size="9" fill="#9CA3AF">See Scoring Thresholds: "When Criterion 2 Is Not Met" for the full decomposition procedure.</text>
+</svg>

@@ -16,6 +16,8 @@ This framework does not replace facilitated discussion. It structures that discu
 
 ---
 
+![VA-9: Zone Selection Decision Framework](/images/zone-selection-decision-framework.svg)
+
 ## Decision Factors
 
 Five factors determine which target zone is appropriate for an organization. Each factor should be evaluated explicitly during the goal-setting session. No single factor is decisive; the target zone emerges from the interaction of all five.

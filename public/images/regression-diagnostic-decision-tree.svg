@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 920"
+     font-family="'Inter', sans-serif">
+  <title>VA-15: Regression Diagnostic Decision Tree</title>
+  <desc>Top-down decision tree for diagnosing regression in teams. Entry point is regression identified; branches diagnose whether the cause is environmental, leadership, or competency, with distinct response paths for each. Includes a checklist for when to revisit target zone.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#60A5FA"/>
+    </marker>
+    <marker id="arrow-amber" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#FBBF24"/>
+    </marker>
+    <marker id="arrow-magenta" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="920" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Regression Diagnostic Decision Tree</text>
+  <text x="40" y="60" font-size="12" fill="#6B7280">When scores decline or practices are abandoned under pressure</text>
+
+  <!-- Entry Node -->
+  <rect x="280" y="84" width="320" height="52" rx="8" fill="#F9FAFB" stroke="#151D1A" stroke-width="2"/>
+  <text x="440" y="106" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A" text-anchor="middle">Regression Identified</text>
+  <text x="440" y="124" font-size="10" fill="#6B7280" text-anchor="middle">Scores declined or practices abandoned under pressure</text>
+
+  <!-- Connector from entry to first decision -->
+  <line x1="440" y1="136" x2="440" y2="166" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Decision 1: Organizational conditions changed? -->
+  <g transform="translate(440,200) rotate(45)">
+    <rect x="-62" y="-62" width="124" height="124" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  </g>
+  <text x="440" y="194" font-size="10" fill="#92400E" text-anchor="middle" font-weight="500">Have organizational</text>
+  <text x="440" y="206" font-size="10" fill="#92400E" text-anchor="middle" font-weight="500">conditions</text>
+  <text x="440" y="218" font-size="10" fill="#92400E" text-anchor="middle" font-weight="500">changed?</text>
+
+  <!-- YES branch from Decision 1 - goes LEFT to Environmental Issue -->
+  <line x1="352" y1="200" x2="240" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <rect x="346" y="184" width="30" height="16" rx="4" fill="#EFF6FF"/>
+  <text x="361" y="195" font-size="9" fill="#1E40AF" text-anchor="middle" font-weight="500">Yes</text>
+
+  <!-- Environmental Issue Outcome -->
+  <rect x="40" y="168" width="192" height="64" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="136" y="188" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF" text-anchor="middle">Environmental Issue</text>
+  <text x="56" y="206" font-size="10" fill="#1E40AF">Surface to leadership.</text>
+  <text x="56" y="220" font-size="10" fill="#1E40AF">Not the team's failure.</text>
+
+  <!-- NO branch from Decision 1 - goes DOWN -->
+  <line x1="440" y1="288" x2="440" y2="318" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="444" y="274" width="24" height="16" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="456" y="285" font-size="9" fill="#6B7280" text-anchor="middle">No</text>
+
+  <!-- Decision 2: Leadership signaling old behaviors? -->
+  <g transform="translate(440,352) rotate(45)">
+    <rect x="-62" y="-62" width="124" height="124" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  </g>
+  <text x="440" y="346" font-size="10" fill="#92400E" text-anchor="middle" font-weight="500">Is leadership</text>
+  <text x="440" y="358" font-size="10" fill="#92400E" text-anchor="middle" font-weight="500">signaling old</text>
+  <text x="440" y="370" font-size="10" fill="#92400E" text-anchor="middle" font-weight="500">behaviors are OK?</text>
+
+  <!-- YES branch from Decision 2 - goes RIGHT to Leadership Issue -->
+  <line x1="528" y1="352" x2="636" y2="352" stroke="#FBBF24" stroke-width="1.5" marker-end="url(#arrow-amber)"/>
+  <rect x="534" y="336" width="30" height="16" rx="4" fill="#FFFBEB"/>
+  <text x="549" y="347" font-size="9" fill="#92400E" text-anchor="middle" font-weight="500">Yes</text>
+
+  <!-- Leadership Issue Outcome -->
+  <rect x="644" y="320" width="196" height="64" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="742" y="340" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#92400E" text-anchor="middle">Leadership Issue</text>
+  <text x="656" y="358" font-size="10" fill="#92400E">Direct conversation with</text>
+  <text x="656" y="372" font-size="10" fill="#92400E">leadership + escalate.</text>
+
+  <!-- NO branch from Decision 2 - goes DOWN -->
+  <line x1="440" y1="440" x2="440" y2="470" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow-magenta)"/>
+  <rect x="444" y="426" width="24" height="16" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="456" y="437" font-size="9" fill="#6B7280" text-anchor="middle">No</text>
+
+  <!-- Competency Issue Outcome -->
+  <rect x="310" y="478" width="260" height="64" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="440" y="498" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#D912AE" text-anchor="middle">Competency Issue</text>
+  <text x="322" y="516" font-size="10" fill="#D912AE">Additional coaching and pairing</text>
+  <text x="322" y="530" font-size="10" fill="#D912AE">needed. Practices not yet habitual.</text>
+
+  <!-- Response Detail Boxes -->
+  <text x="40" y="576" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Response by Diagnosis</text>
+  <line x1="40" y1="584" x2="840" y2="584" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Environmental Response -->
+  <rect x="40" y="596" width="256" height="120" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="56" y="618" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#1E40AF">Environmental Response</text>
+  <text x="56" y="638" font-size="10" fill="#151D1A">Surface the gap to leadership.</text>
+  <text x="56" y="654" font-size="10" fill="#151D1A">Infrastructure degraded, policy</text>
+  <text x="56" y="668" font-size="10" fill="#151D1A">changed, or time allocation</text>
+  <text x="56" y="682" font-size="10" fill="#151D1A">consumed by other demands.</text>
+  <text x="56" y="702" font-size="9" fill="#6B7280" font-style="italic">This is not the team's failure to fix.</text>
+
+  <!-- Leadership Response -->
+  <rect x="312" y="596" width="256" height="120" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="328" y="618" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#92400E">Leadership Response</text>
+  <text x="328" y="638" font-size="10" fill="#151D1A">Direct conversation with</text>
+  <text x="328" y="654" font-size="10" fill="#151D1A">leadership about mixed signals.</text>
+  <text x="328" y="668" font-size="10" fill="#151D1A">"Just ship it" culture overrides</text>
+  <text x="328" y="682" font-size="10" fill="#151D1A">"practice the workflow" culture.</text>
+  <text x="328" y="702" font-size="9" fill="#6B7280" font-style="italic">Escalate if signals persist.</text>
+
+  <!-- Competency Response -->
+  <rect x="584" y="596" width="256" height="120" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="1"/>
+  <text x="600" y="618" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#D912AE">Competency Response</text>
+  <text x="600" y="638" font-size="10" fill="#151D1A">Additional coaching, pairing</text>
+  <text x="600" y="654" font-size="10" fill="#151D1A">support, or targeted training.</text>
+  <text x="600" y="668" font-size="10" fill="#151D1A">Team was at Developing, not</text>
+  <text x="600" y="682" font-size="10" fill="#151D1A">Established -- pressure exposed it.</text>
+  <text x="600" y="702" font-size="9" fill="#6B7280" font-style="italic">Update the roadmap timeline.</text>
+
+  <!-- When to Revisit Target Zone -->
+  <rect x="40" y="738" width="800" height="132" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="40" y="738" width="4" height="132" rx="2" fill="#D912AE"/>
+  <text x="60" y="762" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">When to Revisit Target Zone</text>
+
+  <!-- Checklist items -->
+  <rect x="60" y="776" width="12" height="12" rx="2" fill="none" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="80" y="787" font-size="11" fill="#151D1A">Genuine, sustained investment for 6+ months with no compounding behavioral change</text>
+
+  <rect x="60" y="800" width="12" height="12" rx="2" fill="none" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="80" y="811" font-size="11" fill="#151D1A">Organizational context has changed materially since the goal-setting session</text>
+
+  <rect x="60" y="824" width="12" height="12" rx="2" fill="none" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="80" y="835" font-size="11" fill="#151D1A">Team performs well at a lower zone -- may have reached an excellent destination</text>
+
+  <rect x="60" y="848" width="12" height="12" rx="2" fill="none" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="80" y="859" font-size="11" fill="#151D1A">Repeated regression in target-zone practices despite sustained investment</text>
+
+  <!-- Footer framing -->
+  <rect x="40" y="890" width="800" height="24" rx="4" fill="#EDE8F5"/>
+  <text x="440" y="907" font-size="11" fill="#5B21B6" text-anchor="middle" font-style="italic">"Let us understand what happened, not who failed."</text>
+</svg>

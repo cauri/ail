@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 920"
+     font-family="'Inter', sans-serif">
+  <title>VA-11: Competency vs Knowledge vs Best-Day Performance</title>
+  <desc>Three-column comparison showing the critical distinction between what teams know, what they can do on a good day, and what they do habitually under stress. Competency -- habitual behavior under pressure -- is what ACE measures.</desc>
+
+  <!-- Background -->
+  <rect width="880" height="920" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Competency vs Knowledge vs Best-Day Performance</text>
+  <text x="40" y="60" font-size="12" fill="#6B7280">What ACE measures -- and what it does not</text>
+
+  <!-- Column Headers -->
+  <!-- Knowledge Column -->
+  <rect x="40" y="84" width="250" height="44" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="165" y="111" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500"
+        fill="#151D1A" text-anchor="middle">Knowledge</text>
+
+  <!-- Best-Day Performance Column -->
+  <rect x="306" y="84" width="250" height="44" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="431" y="111" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500"
+        fill="#151D1A" text-anchor="middle">Best-Day Performance</text>
+
+  <!-- Competency Column (magenta accent) -->
+  <rect x="572" y="84" width="268" height="44" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <text x="706" y="111" font-family="'DM Sans', sans-serif" font-size="14" font-weight="700"
+        fill="#D912AE" text-anchor="middle">Competency</text>
+
+  <!-- Row 1: Definition -->
+  <text x="40" y="156" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#6B7280">DEFINITION</text>
+  <line x1="40" y1="164" x2="840" y2="164" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Knowledge definition -->
+  <rect x="40" y="176" width="250" height="72" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="196" font-size="11" fill="#151D1A">What the team
+    <tspan x="52" dy="15">KNOWS about</tspan>
+    <tspan x="52" dy="15">AI-augmented practices.</tspan>
+  </text>
+
+  <!-- Best-Day definition -->
+  <rect x="306" y="176" width="250" height="72" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="318" y="196" font-size="11" fill="#151D1A">What the team CAN DO
+    <tspan x="318" dy="15">on a good day, under</tspan>
+    <tspan x="318" dy="15">ideal conditions.</tspan>
+  </text>
+
+  <!-- Competency definition -->
+  <rect x="572" y="176" width="268" height="72" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <text x="584" y="196" font-size="11" fill="#151D1A" font-weight="500">What the team DOES
+    <tspan x="584" dy="15">HABITUALLY under stress,</tspan>
+    <tspan x="584" dy="15">when conditions are unfavorable.</tspan>
+  </text>
+
+  <!-- Row 2: How It Looks -->
+  <text x="40" y="280" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#6B7280">HOW IT LOOKS</text>
+  <line x1="40" y1="288" x2="840" y2="288" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Knowledge examples -->
+  <rect x="40" y="300" width="250" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="320" font-size="11" fill="#151D1A">Team completed AI training.</text>
+  <text x="52" y="340" font-size="11" fill="#151D1A">Developers can explain</text>
+  <text x="52" y="355" font-size="11" fill="#151D1A">prompting strategies.</text>
+  <text x="52" y="378" font-size="11" fill="#151D1A">Organization has documented</text>
+  <text x="52" y="393" font-size="11" fill="#151D1A">AI standards.</text>
+
+  <!-- Best-Day examples -->
+  <rect x="306" y="300" width="250" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="318" y="320" font-size="11" fill="#151D1A">Great demo at the hackathon.</text>
+  <text x="318" y="340" font-size="11" fill="#151D1A">Impressive pilot project</text>
+  <text x="318" y="355" font-size="11" fill="#151D1A">results.</text>
+  <text x="318" y="378" font-size="11" fill="#151D1A">Team excels during</text>
+  <text x="318" y="393" font-size="11" fill="#151D1A">low-pressure sprints.</text>
+
+  <!-- Competency examples -->
+  <rect x="572" y="300" width="268" height="108" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <text x="584" y="320" font-size="11" fill="#151D1A" font-weight="500">Uses AI tools during a</text>
+  <text x="584" y="335" font-size="11" fill="#151D1A" font-weight="500">production incident.</text>
+  <text x="584" y="358" font-size="11" fill="#151D1A" font-weight="500">Follows Plan/Code/Verify under</text>
+  <text x="584" y="373" font-size="11" fill="#151D1A" font-weight="500">tight deadline pressure.</text>
+  <text x="584" y="393" font-size="11" fill="#151D1A" font-weight="500">Shared agentic setup survives</text>
+
+  <!-- Row 3: Assessment Trap -->
+  <text x="40" y="440" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#6B7280">ASSESSMENT TRAP</text>
+  <line x1="40" y1="448" x2="840" y2="448" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Knowledge trap -->
+  <rect x="40" y="460" width="250" height="88" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1"/>
+  <text x="52" y="482" font-size="11" fill="#9A3412">Assumes training =</text>
+  <text x="52" y="497" font-size="11" fill="#9A3412">adoption. Confuses</text>
+  <text x="52" y="512" font-size="11" fill="#9A3412">"can explain it" with</text>
+  <text x="52" y="527" font-size="11" fill="#9A3412">"actually does it."</text>
+
+  <!-- Best-Day trap -->
+  <rect x="306" y="460" width="250" height="88" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1"/>
+  <text x="318" y="482" font-size="11" fill="#9A3412">Judges capability by peak</text>
+  <text x="318" y="497" font-size="11" fill="#9A3412">moments. Overstates actual</text>
+  <text x="318" y="512" font-size="11" fill="#9A3412">capability based on demos</text>
+  <text x="318" y="527" font-size="11" fill="#9A3412">and pilots.</text>
+
+  <!-- Competency trap -->
+  <rect x="572" y="460" width="268" height="88" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <text x="584" y="482" font-size="11" fill="#065F46">Measures behavior under</text>
+  <text x="584" y="497" font-size="11" fill="#065F46">real conditions. Assesses</text>
+  <text x="584" y="512" font-size="11" fill="#065F46">what teams do consistently,</text>
+  <text x="584" y="527" font-size="11" fill="#065F46">not what they aspire to.</text>
+
+  <!-- Row 4: The Test -->
+  <text x="40" y="580" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#6B7280">THE TEST</text>
+  <line x1="40" y1="588" x2="840" y2="588" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Knowledge test -->
+  <rect x="40" y="600" width="250" height="72" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="622" font-size="11" fill="#151D1A" font-style="italic">"Can they explain it?"</text>
+  <text x="52" y="645" font-size="10" fill="#6B7280">Necessary but not</text>
+  <text x="52" y="658" font-size="10" fill="#6B7280">sufficient.</text>
+
+  <!-- Best-Day test -->
+  <rect x="306" y="600" width="250" height="72" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="318" y="622" font-size="11" fill="#151D1A" font-style="italic">"Can they do it when</text>
+  <text x="318" y="637" font-size="11" fill="#151D1A" font-style="italic">conditions are favorable?"</text>
+  <text x="318" y="658" font-size="10" fill="#6B7280">Encouraging but not proof.</text>
+
+  <!-- Competency test -->
+  <rect x="572" y="600" width="268" height="72" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <text x="584" y="622" font-size="11" fill="#D912AE" font-weight="600" font-style="italic">"Do they do it when it is</text>
+  <text x="584" y="637" font-size="11" fill="#D912AE" font-weight="600" font-style="italic">hard, stressful, or urgent?"</text>
+  <text x="584" y="658" font-size="10" fill="#D912AE">This is what ACE measures.</text>
+
+  <!-- Arrow indicating what ACE measures -->
+  <line x1="706" y1="690" x2="706" y2="680" stroke="#D912AE" stroke-width="1.5"/>
+  <polygon points="700,690 706,700 712,690" fill="#D912AE"/>
+
+  <!-- Footer: Basketball analogy -->
+  <rect x="40" y="720" width="800" height="80" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="40" y="720" width="4" height="80" rx="2" fill="#D912AE"/>
+
+  <text x="60" y="747" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">The Basketball Analogy</text>
+  <text x="60" y="770" font-size="12" fill="#151D1A">90% free throws in the gym, 50% in the playoffs = skill, not competency.</text>
+  <text x="60" y="787" font-size="11" fill="#6B7280">Competency is the performance that holds up when the stakes rise and the conditions deteriorate.</text>
+
+  <!-- Bottom note -->
+  <rect x="40" y="824" width="800" height="72" rx="8" fill="#EDE8F5" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="60" y="850" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#5B21B6">Implication for Assessment</text>
+  <text x="60" y="870" font-size="11" fill="#151D1A">Assess what teams do, not what they know. Assess behavior under pressure, not under ideal conditions.</text>
+  <text x="60" y="885" font-size="11" fill="#151D1A">Use facilitated self-assessment, not external audit.</text>
+</svg>

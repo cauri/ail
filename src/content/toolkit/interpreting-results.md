@@ -96,6 +96,8 @@ Not Emerging (average is above 2.9). Not Developing (average is above 3.9). Not 
 
 ---
 
+![VA-10: Score Distribution Archetypes](/images/score-distribution-archetypes.svg)
+
 ## Step 4: Look for Patterns
 
 A stage label tells you where the team is. Patterns tell you why and what to do about it. This is where interpretation shifts from calculation to judgment.

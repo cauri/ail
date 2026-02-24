@@ -33,6 +33,10 @@ By the end of this module, trainees will be able to:
 
 ### Session 1: The Collaborative Delivery Model
 
+![VA-6: Collaborative Delivery Cadence](/images/collaborative-delivery-cadence.svg)
+
+![VA-13: Engagement Lifecycle](/images/engagement-lifecycle.svg)
+
 **Why Collaborative Delivery exists.** Plans that sit in drawers are the norm, not the exception, in organizational change. The goal-setting session produces a zone commitment. The roadmap design session produces a plan. Neither output produces behavioral change on its own. Without structured follow-through, the roadmap becomes a document that leadership approved and then did not act on. Collaborative Delivery exists to close the gap between plan and practice — not through advisory follow-through alone, but through embedded Artisans who deliver real software alongside the client team while the Facilitator maintains the assessment and coaching layer.
 
 **The two roles within Collaborative Delivery.** Phase 4 is no longer just advisory follow-through. It now includes embedded Artisans who deliver alongside the client team, mentoring through shared work on the actual backlog. The Facilitator's role within Phase 4 is the assessment and coaching layer — check-ins, retrospectives, re-diagnostics, and roadmap refreshes. The Artisans handle delivery and mentoring. These roles are complementary but distinct, and the Facilitator must understand both to perform their own role effectively.
@@ -53,6 +57,8 @@ The Artisan team's day-to-day observations about client team competency developm
 **When to escalate versus when to coach through.** Most implementation obstacles can be navigated through facilitated conversation with the team and their immediate leadership. Some obstacles require escalation to senior leadership: when investment commitments made at the goal-setting session have not been honored and the team has no authority to change that; when organizational decisions made after the roadmap was designed have materially changed what is achievable; when the engagement is at risk of producing results that would mislead leadership about actual progress. Facilitators should develop clear escalation criteria before they need them.
 
 ### Session 2: Effective Check-Ins
+
+![VA-20: Check-In Conversation Structure](/images/check-in-conversation-structure.svg)
 
 **The check-in agenda.** Each monthly check-in covers four items in order: progress against the current roadmap phase (which milestones are complete, which are in progress, which are behind), leading indicator review (what do the dashboard numbers show, and what trends are visible), blockers (what is preventing progress that was not anticipated in the roadmap), and cross-team learnings (what has the team learned that should be shared with other teams in a multi-team engagement). The agenda is short. The check-in is not a status meeting; it is a coaching conversation with a structured spine.
 
@@ -89,6 +95,12 @@ The Artisan team's day-to-day observations about client team competency developm
 **Adjusting the roadmap based on re-diagnostic findings.** When re-diagnostic results diverge from roadmap expectations -- whether ahead, behind, or sideways -- the roadmap must be updated before the next Collaborative Delivery phase begins. The Module 5 skill is facilitating the conversation with leadership that produces a shared understanding of what the re-diagnostic found and what the updated roadmap requires, including delivering findings that conflict with what leadership hoped to hear.
 
 ### Session 5: Handling Regression
+
+![VA-5: Non-Linear Progress Patterns](/images/non-linear-progress-patterns.svg)
+
+![VA-15: Regression Diagnostic Decision Tree](/images/regression-diagnostic-decision-tree.svg)
+
+![VA-19: Role Transition Map](/images/role-transition-map.svg)
 
 **What regression is.** Regression is when a team reverts to pre-zone behaviors under pressure. A Zone 2 team under a major delivery crunch stops using externalized plans, skips the Plan/Code/Verify workflow, and each developer falls back on individual AI usage without reference to the shared configuration. Regression is not a failure of the engagement; it is a diagnostic signal about which practices are deeply habitual (they survive pressure) and which are still fragile (they do not).
 

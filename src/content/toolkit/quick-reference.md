@@ -8,6 +8,10 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 
 ---
 
+![VA-1: Zone Progression Diagram](/images/zone-progression-diagram.svg)
+
+![VA-2: Scoring Threshold Decision Tree](/images/scoring-threshold-decision-tree.svg)
+
 ## The Four Zones
 
 | Zone | Name | Shift Type | One-Line Definition |

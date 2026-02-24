@@ -20,6 +20,8 @@ Most organizations pursuing AI adoption face three interrelated problems:
 
 ACE addresses all three problems through a facilitated diagnostic, contextual goal-setting, and investment-based roadmapping.
 
+![VA-21: Content Architecture Map](/images/content-architecture-map.svg)
+
 ## The Four Zones
 
 ACE defines four zones of AI-augmented software development, plus a pre-AI baseline:

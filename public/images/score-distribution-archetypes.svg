@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 780"
+     font-family="'Inter', sans-serif">
+  <title>Score Distribution Archetype Gallery</title>
+  <desc>Six small-multiple panels showing archetypal score distributions for a 5-person team on a 1-5 scale. Each panel shows a dot-plot with composite mean line, standard deviation annotation, diagnostic interpretation, and facilitation response. Archetypes: Uniform High, Uniform Low, High Average High Variance, Bimodal Split, Single Outlier, and Gradually Decreasing.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="780" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="450" y="34" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Score Distribution Archetype Gallery</text>
+  <text x="450" y="52" text-anchor="middle" font-size="11" fill="#6B7280">Six archetypal patterns in team diagnostic scores (5 members, 1-5 scale). Identical axes for comparison.</text>
+
+  <!-- ==================== ROW 1 ==================== -->
+
+  <!-- Panel 1: Uniform High -->
+  <g transform="translate(30, 72)">
+    <rect width="270" height="220" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="22" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Uniform High</text>
+    <text x="16" y="36" font-size="9" fill="#6B7280">Mean ~4.7  |  SD ~0.3</text>
+
+    <!-- Axis: score 1-5 -->
+    <line x1="40" y1="54" x2="40" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="154" x2="250" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <!-- Y-axis labels -->
+    <text x="34" y="158" text-anchor="end" font-size="8" fill="#9CA3AF">1</text>
+    <text x="34" y="133" text-anchor="end" font-size="8" fill="#9CA3AF">2</text>
+    <text x="34" y="108" text-anchor="end" font-size="8" fill="#9CA3AF">3</text>
+    <text x="34" y="83" text-anchor="end" font-size="8" fill="#9CA3AF">4</text>
+    <text x="34" y="58" text-anchor="end" font-size="8" fill="#9CA3AF">5</text>
+    <!-- X-axis labels (team members) -->
+    <text x="70" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">A</text>
+    <text x="110" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">B</text>
+    <text x="150" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">C</text>
+    <text x="190" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">D</text>
+    <text x="230" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">E</text>
+    <!-- Subtle gridlines -->
+    <line x1="40" y1="129" x2="250" y2="129" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="104" x2="250" y2="104" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="79" x2="250" y2="79" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="54" x2="250" y2="54" stroke="#F3F4F6" stroke-width="0.5"/>
+
+    <!-- Dots: A=5, B=5, C=4, D=5, E=5 -->
+    <circle cx="70" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="110" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="150" cy="79" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="190" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="230" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+
+    <!-- Mean line at ~4.7 -->
+    <line x1="52" y1="61" x2="248" y2="61" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="64" font-size="8" fill="#D912AE">x&#772;=4.7</text>
+
+    <!-- Interpretation -->
+    <text x="16" y="185" font-size="9" font-weight="500" fill="#151D1A">Likely near Exemplary. Verify with probing.</text>
+    <text x="16" y="198" font-size="9" fill="#6B7280">Caution: uniform 5s may signal social desirability.</text>
+    <text x="16" y="211" font-size="9" fill="#D912AE">Probe: "Describe a time you didn't do this."</text>
+  </g>
+
+  <!-- Panel 2: Uniform Low -->
+  <g transform="translate(315, 72)">
+    <rect width="270" height="220" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="22" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Uniform Low</text>
+    <text x="16" y="36" font-size="9" fill="#6B7280">Mean ~2.5  |  SD ~0.4</text>
+
+    <!-- Axis -->
+    <line x1="40" y1="54" x2="40" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="154" x2="250" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="34" y="158" text-anchor="end" font-size="8" fill="#9CA3AF">1</text>
+    <text x="34" y="133" text-anchor="end" font-size="8" fill="#9CA3AF">2</text>
+    <text x="34" y="108" text-anchor="end" font-size="8" fill="#9CA3AF">3</text>
+    <text x="34" y="83" text-anchor="end" font-size="8" fill="#9CA3AF">4</text>
+    <text x="34" y="58" text-anchor="end" font-size="8" fill="#9CA3AF">5</text>
+    <text x="70" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">A</text>
+    <text x="110" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">B</text>
+    <text x="150" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">C</text>
+    <text x="190" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">D</text>
+    <text x="230" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">E</text>
+    <line x1="40" y1="129" x2="250" y2="129" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="104" x2="250" y2="104" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="79" x2="250" y2="79" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="54" x2="250" y2="54" stroke="#F3F4F6" stroke-width="0.5"/>
+
+    <!-- Dots: A=3, B=2, C=3, D=2, E=2 -->
+    <circle cx="70" cy="104" r="5" fill="#FB923C" opacity="0.8"/>
+    <circle cx="110" cy="129" r="5" fill="#FB923C" opacity="0.8"/>
+    <circle cx="150" cy="104" r="5" fill="#FB923C" opacity="0.8"/>
+    <circle cx="190" cy="129" r="5" fill="#FB923C" opacity="0.8"/>
+    <circle cx="230" cy="129" r="5" fill="#FB923C" opacity="0.8"/>
+
+    <!-- Mean line at ~2.5 -->
+    <line x1="52" y1="117" x2="248" y2="117" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="120" font-size="8" fill="#D912AE">x&#772;=2.4</text>
+
+    <!-- Interpretation -->
+    <text x="16" y="185" font-size="9" font-weight="500" fill="#151D1A">Emerging stage. Honest assessment is valuable.</text>
+    <text x="16" y="198" font-size="9" fill="#6B7280">Team is consistent but early. Investment needed.</text>
+    <text x="16" y="211" font-size="9" fill="#D912AE">Praise honesty. Plan targeted zone investment.</text>
+  </g>
+
+  <!-- Panel 3: High Average, High Variance -->
+  <g transform="translate(600, 72)">
+    <rect width="270" height="220" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="22" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">High Avg, High Variance</text>
+    <text x="16" y="36" font-size="9" fill="#6B7280">Mean ~4.2  |  SD ~0.9</text>
+
+    <!-- Axis -->
+    <line x1="40" y1="54" x2="40" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="154" x2="250" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="34" y="158" text-anchor="end" font-size="8" fill="#9CA3AF">1</text>
+    <text x="34" y="133" text-anchor="end" font-size="8" fill="#9CA3AF">2</text>
+    <text x="34" y="108" text-anchor="end" font-size="8" fill="#9CA3AF">3</text>
+    <text x="34" y="83" text-anchor="end" font-size="8" fill="#9CA3AF">4</text>
+    <text x="34" y="58" text-anchor="end" font-size="8" fill="#9CA3AF">5</text>
+    <text x="70" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">A</text>
+    <text x="110" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">B</text>
+    <text x="150" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">C</text>
+    <text x="190" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">D</text>
+    <text x="230" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">E</text>
+    <line x1="40" y1="129" x2="250" y2="129" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="104" x2="250" y2="104" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="79" x2="250" y2="79" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="54" x2="250" y2="54" stroke="#F3F4F6" stroke-width="0.5"/>
+
+    <!-- Dots: A=5, B=5, C=5, D=3, E=2 -->
+    <circle cx="70" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="110" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="150" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="190" cy="104" r="5" fill="#FB923C" opacity="0.8"/>
+    <circle cx="230" cy="129" r="5" fill="#FB923C" opacity="0.8"/>
+
+    <!-- Mean line at ~4.0 -->
+    <line x1="52" y1="79" x2="248" y2="79" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="82" font-size="8" fill="#D912AE">x&#772;=4.0</text>
+
+    <!-- Interpretation -->
+    <text x="16" y="185" font-size="9" font-weight="500" fill="#151D1A">Established. Fails Criterion 2 (SD > 0.5).</text>
+    <text x="16" y="198" font-size="9" fill="#6B7280">Some members/areas lag. Investigate the spread.</text>
+    <text x="16" y="211" font-size="9" fill="#D912AE">Decompose variance: person vs. question.</text>
+  </g>
+
+  <!-- ==================== ROW 2 ==================== -->
+
+  <!-- Panel 4: Bimodal Split -->
+  <g transform="translate(30, 310)">
+    <rect width="270" height="220" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="22" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Bimodal Split</text>
+    <text x="16" y="36" font-size="9" fill="#6B7280">Mean ~3.5  |  Two clusters visible</text>
+
+    <!-- Axis -->
+    <line x1="40" y1="54" x2="40" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="154" x2="250" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="34" y="158" text-anchor="end" font-size="8" fill="#9CA3AF">1</text>
+    <text x="34" y="133" text-anchor="end" font-size="8" fill="#9CA3AF">2</text>
+    <text x="34" y="108" text-anchor="end" font-size="8" fill="#9CA3AF">3</text>
+    <text x="34" y="83" text-anchor="end" font-size="8" fill="#9CA3AF">4</text>
+    <text x="34" y="58" text-anchor="end" font-size="8" fill="#9CA3AF">5</text>
+    <text x="70" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">A</text>
+    <text x="110" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">B</text>
+    <text x="150" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">C</text>
+    <text x="190" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">D</text>
+    <text x="230" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">E</text>
+    <line x1="40" y1="129" x2="250" y2="129" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="104" x2="250" y2="104" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="79" x2="250" y2="79" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="54" x2="250" y2="54" stroke="#F3F4F6" stroke-width="0.5"/>
+
+    <!-- Dots: A=5, B=5, C=5, D=2, E=1 — two clusters -->
+    <circle cx="70" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="110" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="150" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="190" cy="129" r="5" fill="#FB923C" opacity="0.8"/>
+    <circle cx="230" cy="154" r="5" fill="#FB923C" opacity="0.8"/>
+
+    <!-- Bracket annotations for clusters -->
+    <line x1="58" y1="46" x2="162" y2="46" stroke="#60A5FA" stroke-width="1"/>
+    <text x="110" y="42" text-anchor="middle" font-size="7" fill="#1E40AF">cluster: 5</text>
+    <line x1="178" y1="162" x2="242" y2="162" stroke="#FB923C" stroke-width="1"/>
+    <text x="210" y="175" text-anchor="middle" font-size="7" fill="#9A3412">cluster: 1-2</text>
+
+    <!-- Mean line at ~3.6 -->
+    <line x1="52" y1="89" x2="248" y2="89" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="92" font-size="8" fill="#D912AE">x&#772;=3.6</text>
+
+    <!-- Interpretation -->
+    <text x="16" y="190" font-size="9" font-weight="500" fill="#151D1A">Average is misleading. Team is split.</text>
+    <text x="16" y="203" font-size="9" fill="#6B7280">Check: role-based, tenure-based, or adoption split?</text>
+    <text x="16" y="216" font-size="9" fill="#D912AE">Do NOT declare competency. Address the split.</text>
+  </g>
+
+  <!-- Panel 5: Single Outlier -->
+  <g transform="translate(315, 310)">
+    <rect width="270" height="220" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="22" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Single Outlier</text>
+    <text x="16" y="36" font-size="9" fill="#6B7280">Mean ~4.2  |  One member separated</text>
+
+    <!-- Axis -->
+    <line x1="40" y1="54" x2="40" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="154" x2="250" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="34" y="158" text-anchor="end" font-size="8" fill="#9CA3AF">1</text>
+    <text x="34" y="133" text-anchor="end" font-size="8" fill="#9CA3AF">2</text>
+    <text x="34" y="108" text-anchor="end" font-size="8" fill="#9CA3AF">3</text>
+    <text x="34" y="83" text-anchor="end" font-size="8" fill="#9CA3AF">4</text>
+    <text x="34" y="58" text-anchor="end" font-size="8" fill="#9CA3AF">5</text>
+    <text x="70" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">A</text>
+    <text x="110" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">B</text>
+    <text x="150" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">C</text>
+    <text x="190" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">D</text>
+    <text x="230" y="167" text-anchor="middle" font-size="8" fill="#9CA3AF">E</text>
+    <line x1="40" y1="129" x2="250" y2="129" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="104" x2="250" y2="104" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="79" x2="250" y2="79" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="54" x2="250" y2="54" stroke="#F3F4F6" stroke-width="0.5"/>
+
+    <!-- Dots: A=5, B=5, C=5, D=5, E=2 — one outlier -->
+    <circle cx="70" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="110" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="150" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="190" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="230" cy="129" r="5" fill="#F87171" opacity="0.8"/>
+
+    <!-- Arrow pointing to outlier -->
+    <line x1="230" y1="115" x2="230" y2="122" stroke="#F87171" stroke-width="1"/>
+    <text x="243" y="116" font-size="7" fill="#9A3412">outlier</text>
+
+    <!-- Mean line at ~4.2 -->
+    <line x1="52" y1="74" x2="248" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="77" font-size="8" fill="#D912AE">x&#772;=4.2</text>
+
+    <!-- Interpretation -->
+    <text x="16" y="190" font-size="9" font-weight="500" fill="#151D1A">High-performing team + one gap. Targeted fix.</text>
+    <text x="16" y="203" font-size="9" fill="#6B7280">Likely onboarding or access barrier, not resistance.</text>
+    <text x="16" y="216" font-size="9" fill="#D912AE">Protect the outlier. Pair with high performers.</text>
+  </g>
+
+  <!-- Panel 6: Gradually Decreasing -->
+  <g transform="translate(600, 310)">
+    <rect width="270" height="220" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="16" y="22" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Gradually Decreasing</text>
+    <text x="16" y="36" font-size="9" fill="#6B7280">Q1-Q3 high, Q7-Q10 lower</text>
+
+    <!-- Axis: now X = questions, not members -->
+    <line x1="40" y1="54" x2="40" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="40" y1="154" x2="250" y2="154" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="34" y="158" text-anchor="end" font-size="8" fill="#9CA3AF">1</text>
+    <text x="34" y="133" text-anchor="end" font-size="8" fill="#9CA3AF">2</text>
+    <text x="34" y="108" text-anchor="end" font-size="8" fill="#9CA3AF">3</text>
+    <text x="34" y="83" text-anchor="end" font-size="8" fill="#9CA3AF">4</text>
+    <text x="34" y="58" text-anchor="end" font-size="8" fill="#9CA3AF">5</text>
+    <!-- X-axis: question composites Q1-Q10 -->
+    <text x="61" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q1</text>
+    <text x="82" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q2</text>
+    <text x="103" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q3</text>
+    <text x="124" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q4</text>
+    <text x="145" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q5</text>
+    <text x="166" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q6</text>
+    <text x="187" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q7</text>
+    <text x="208" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q8</text>
+    <text x="229" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q9</text>
+    <text x="250" y="167" text-anchor="middle" font-size="7" fill="#9CA3AF">Q10</text>
+    <line x1="40" y1="129" x2="250" y2="129" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="104" x2="250" y2="104" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="79" x2="250" y2="79" stroke="#F3F4F6" stroke-width="0.5"/>
+    <line x1="40" y1="54" x2="250" y2="54" stroke="#F3F4F6" stroke-width="0.5"/>
+
+    <!-- Question composites declining: Q1=4.8, Q2=4.6, Q3=4.6, Q4=4.2, Q5=4.0, Q6=3.8, Q7=3.4, Q8=3.2, Q9=3.0, Q10=2.8 -->
+    <!-- Y mapping: score 1=154, 2=129, 3=104, 4=79, 5=54. Per unit=25px. -->
+    <circle cx="61" cy="59" r="4" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="82" cy="64" r="4" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="103" cy="64" r="4" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="124" cy="74" r="4" fill="#60A5FA" opacity="0.8"/>
+    <circle cx="145" cy="79" r="4" fill="#FBBF24" opacity="0.8"/>
+    <circle cx="166" cy="84" r="4" fill="#FBBF24" opacity="0.8"/>
+    <circle cx="187" cy="94" r="4" fill="#FB923C" opacity="0.8"/>
+    <circle cx="208" cy="99" r="4" fill="#FB923C" opacity="0.8"/>
+    <circle cx="229" cy="104" r="4" fill="#FB923C" opacity="0.8"/>
+    <circle cx="250" cy="109" r="4" fill="#FB923C" opacity="0.8"/>
+
+    <!-- Trend line connecting dots -->
+    <polyline points="61,59 82,64 103,64 124,74 145,79 166,84 187,94 208,99 229,104 250,109"
+              fill="none" stroke="#6B7280" stroke-width="1" opacity="0.4"/>
+
+    <!-- Bracket for high / low regions -->
+    <text x="82" y="48" text-anchor="middle" font-size="7" fill="#1E40AF">fundamental</text>
+    <text x="222" y="122" text-anchor="middle" font-size="7" fill="#9A3412">advanced</text>
+
+    <!-- Interpretation -->
+    <text x="16" y="190" font-size="9" font-weight="500" fill="#151D1A">Natural progression: basic skills first.</text>
+    <text x="16" y="203" font-size="9" fill="#6B7280">Foundational behaviors strong, advanced lag.</text>
+    <text x="16" y="216" font-size="9" fill="#D912AE">Focus coaching on later-numbered questions.</text>
+  </g>
+
+  <!-- ==================== Bottom legend / key ==================== -->
+  <line x1="30" y1="550" x2="870" y2="550" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="450" y="574" text-anchor="middle" font-size="10" fill="#6B7280">All panels: 1-5 frequency scale. Dashed line = composite mean. Dot color encodes score range.</text>
+  <!-- Color key -->
+  <circle cx="200" cy="594" r="5" fill="#60A5FA" opacity="0.8"/>
+  <text x="210" y="598" font-size="9" fill="#6B7280">Score 4-5</text>
+  <circle cx="310" cy="594" r="5" fill="#FBBF24" opacity="0.8"/>
+  <text x="320" y="598" font-size="9" fill="#6B7280">Score 3-4</text>
+  <circle cx="420" cy="594" r="5" fill="#FB923C" opacity="0.8"/>
+  <text x="430" y="598" font-size="9" fill="#6B7280">Score 2-3</text>
+  <circle cx="530" cy="594" r="5" fill="#F87171" opacity="0.8"/>
+  <text x="540" y="598" font-size="9" fill="#6B7280">Score 1-2</text>
+
+  <!-- Decision guidance -->
+  <rect x="50" y="620" width="800" height="60" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="50" y="620" width="3" height="60" rx="1" fill="#D912AE"/>
+  <text x="72" y="640" font-size="11" font-weight="600" fill="#151D1A">Key principle: distributions, not averages</text>
+  <text x="72" y="655" font-size="10" fill="#6B7280">A composite average of 3.5 that is actually 5+5+5+2+1 tells a different story from 4+4+3+3+4.</text>
+  <text x="72" y="670" font-size="10" fill="#6B7280">Always examine the distribution shape before interpreting the stage.</text>
+
+  <!-- Source -->
+  <text x="450" y="710" text-anchor="middle" font-size="9" fill="#9CA3AF">See Scoring Thresholds and Interpreting Results for full guidance on each pattern.</text>
+</svg>

@@ -62,6 +62,8 @@ Not every organization benefits from AI-native development capabilities. Ask:
 
 **Low strategic need** suggests that investment in Zone 3 or 4 carries opportunity cost -- those resources might deliver more value applied elsewhere.
 
+![VA-9: Zone Selection Decision Framework](/images/zone-selection-decision-framework.svg)
+
 ## Step 3: Apply the Decision Framework
 
 Use the following framework to guide your zone selection:

@@ -8,6 +8,8 @@ This document defines the four-phase consulting engagement structure for ACE —
 
 ---
 
+![VA-13: Engagement Lifecycle](/images/engagement-lifecycle.svg)
+
 ## Engagement Overview
 
 An ACE engagement guides an organization from "we don't know where we are" to "we have a roadmap and experienced practitioners working alongside our teams to build real capability." The engagement follows four phases:

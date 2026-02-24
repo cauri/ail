@@ -1,192 +1,220 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" font-family="'Helvetica Neue', Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720"
+     font-family="'Inter', sans-serif">
+  <title>Roadmap Anatomy Template</title>
+  <desc>A content-agnostic template showing the four-lane structure of a zone transition roadmap: Organizational Investments, Team Activities, Milestones, and Leading Indicators across three phases, with phase gates and a re-diagnostic loop.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#60A5FA"/>
+    </marker>
+  </defs>
+
   <!-- Background -->
-  <rect width="1100" height="700" fill="#fff" rx="8"/>
+  <rect width="900" height="720" fill="#fff" rx="8"/>
 
   <!-- Title -->
-  <text x="550" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Roadmap Anatomy Template</text>
-  <text x="550" y="50" text-anchor="middle" font-size="12" fill="#666">Structure of a zone transition roadmap (content-agnostic)</text>
+  <text x="32" y="36" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Roadmap Anatomy Template</text>
+  <text x="32" y="54" font-size="12" fill="#6B7280">Structure of a zone transition roadmap — content-agnostic</text>
 
-  <!-- Timeline Header: x=160 to x=880 (720px wide, 240px per phase) -->
-  <rect x="160" y="68" width="720" height="38" rx="4" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-  <text x="280" y="86" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Phase 1</text>
-  <text x="280" y="100" text-anchor="middle" font-size="9" fill="#64748b">Months 1-2</text>
-  <text x="520" y="86" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Phase 2</text>
-  <text x="520" y="100" text-anchor="middle" font-size="9" fill="#64748b">Months 3-4</text>
-  <text x="760" y="86" text-anchor="middle" font-size="12" font-weight="bold" fill="#334155">Phase 3</text>
-  <text x="760" y="100" text-anchor="middle" font-size="9" fill="#64748b">Months 5-6</text>
+  <!-- ================================================ -->
+  <!-- TIMELINE HEADER (y=72..108) -->
+  <!-- ================================================ -->
+  <!-- Timeline bar: x=150..860 = 710px, 3 phases ~237px each -->
+  <rect x="150" y="72" width="710" height="36" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Phase labels -->
+  <text x="269" y="89" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Phase 1</text>
+  <text x="269" y="103" text-anchor="middle" font-size="10" fill="#6B7280">Months 1–2</text>
+
+  <text x="505" y="89" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Phase 2</text>
+  <text x="505" y="103" text-anchor="middle" font-size="10" fill="#6B7280">Months 3–4</text>
+
+  <text x="741" y="89" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Phase 3</text>
+  <text x="741" y="103" text-anchor="middle" font-size="10" fill="#6B7280">Months 5–6</text>
 
   <!-- Phase divider lines -->
-  <line x1="400" y1="68" x2="400" y2="555" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <line x1="640" y1="68" x2="640" y2="555" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="387" y1="72" x2="387" y2="560" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="623" y1="72" x2="623" y2="560" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4,3"/>
 
-  <!-- Phase Gate labels (above timeline) -->
-  <text x="400" y="62" text-anchor="middle" font-size="7" fill="#92400e" font-weight="bold">PHASE GATE</text>
-  <text x="640" y="62" text-anchor="middle" font-size="7" fill="#92400e" font-weight="bold">PHASE GATE</text>
+  <!-- Phase gate diamonds -->
+  <rect x="381" y="61" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 387 67)"/>
+  <rect x="617" y="61" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 623 67)"/>
+  <text x="387" y="55" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Phase Gate</text>
+  <text x="623" y="55" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Phase Gate</text>
 
-  <!-- ============================================ -->
-  <!-- LANE 1: Organizational Investments (y=115-235) -->
-  <!-- ============================================ -->
-  <rect x="15" y="115" width="135" height="120" rx="6" fill="#1e40af"/>
-  <text x="82" y="160" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Organizational</text>
-  <text x="82" y="176" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Investments</text>
-  <text x="82" y="200" text-anchor="middle" font-size="8" fill="#93c5fd">MOST IMPORTANT</text>
+  <!-- ================================================ -->
+  <!-- LANE 1: Organizational Investments (y=118..258) -->
+  <!-- Most prominent lane — tallest -->
+  <!-- ================================================ -->
 
-  <rect x="160" y="115" width="720" height="120" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+  <!-- Lane label -->
+  <rect x="16" y="118" width="124" height="140" rx="8" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="78" y="172" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF">Organizational</text>
+  <text x="78" y="188" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF">Investments</text>
+  <text x="78" y="210" text-anchor="middle" font-size="9" fill="#D912AE" font-weight="500">MOST IMPORTANT</text>
+
+  <!-- Lane background -->
+  <rect x="150" y="118" width="710" height="140" rx="0" fill="#EFF6FF" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Investment A: Phase 1 only -->
-  <rect x="180" y="130" width="200" height="26" rx="4" fill="#3b82f6"/>
-  <text x="280" y="148" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">Investment A (prereq for Phase 2)</text>
+  <rect x="168" y="134" width="200" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="268" y="153" text-anchor="middle" font-size="11" font-weight="500" fill="#1E40AF">Investment A (prereq for Phase 2)</text>
 
-  <!-- Dependency arrow A -> Phase 2: line + triangle -->
-  <line x1="380" y1="143" x2="408" y2="143" stroke="#1e40af" stroke-width="1.5" stroke-dasharray="3,2"/>
-  <polygon points="415,143 407,138 407,148" fill="#1e40af"/>
+  <!-- Dependency arrow: A must complete before Phase 2 -->
+  <line x1="368" y1="148" x2="400" y2="148" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arrow)"/>
 
   <!-- Investment C: Phase 2 only -->
-  <rect x="420" y="130" width="200" height="26" rx="4" fill="#93c5fd"/>
-  <text x="520" y="148" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e3a5f">Investment C (Phase 2 only)</text>
+  <rect x="410" y="134" width="195" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="507" y="153" text-anchor="middle" font-size="11" font-weight="500" fill="#1E40AF">Investment C (Phase 2 only)</text>
 
-  <!-- Investment B: spans all three phases -->
-  <rect x="180" y="165" width="690" height="26" rx="4" fill="#60a5fa" opacity="0.8"/>
-  <text x="525" y="183" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">Investment B (spans Phases 1-3)</text>
+  <!-- Investment B: spans all 3 phases -->
+  <rect x="168" y="172" width="674" height="28" rx="4" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
+  <text x="505" y="191" text-anchor="middle" font-size="11" font-weight="500" fill="#1E40AF">Investment B (spans Phases 1–3)</text>
 
-  <!-- Annotation -->
-  <text x="175" y="222" font-size="8" fill="#1e40af" font-style="italic">Investments are what the ORGANIZATION provides. Without them, activities below cannot succeed.</text>
+  <!-- Lane annotation -->
+  <text x="162" y="240" font-size="10" fill="#6B7280" font-style="italic">Investments are what the ORGANIZATION provides. Without them, activities below cannot succeed.</text>
 
-  <!-- ============================================ -->
-  <!-- LANE 2: Team Activities (y=245-350) -->
-  <!-- ============================================ -->
-  <rect x="15" y="245" width="135" height="105" rx="6" fill="#059669"/>
-  <text x="82" y="292" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Team</text>
-  <text x="82" y="308" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Activities</text>
+  <!-- ================================================ -->
+  <!-- LANE 2: Team Activities (y=268..380) -->
+  <!-- ================================================ -->
 
-  <rect x="160" y="245" width="720" height="105" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="16" y="268" width="124" height="112" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="78" y="318" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#065F46">Team</text>
+  <text x="78" y="334" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#065F46">Activities</text>
+
+  <rect x="150" y="268" width="710" height="112" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1" fill-opacity="0.4"/>
 
   <!-- Activity X -->
-  <rect x="195" y="262" width="140" height="24" rx="4" fill="#10b981"/>
-  <text x="265" y="278" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">Activity X</text>
+  <rect x="180" y="286" width="140" height="26" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="250" y="303" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">Activity X</text>
+
   <!-- Activity Y -->
-  <rect x="440" y="262" width="140" height="24" rx="4" fill="#34d399"/>
-  <text x="510" y="278" text-anchor="middle" font-size="9" font-weight="bold" fill="#064e3b">Activity Y</text>
+  <rect x="430" y="286" width="140" height="26" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="500" y="303" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">Activity Y</text>
+
   <!-- Activity Z -->
-  <rect x="680" y="262" width="140" height="24" rx="4" fill="#6ee7b7"/>
-  <text x="750" y="278" text-anchor="middle" font-size="9" font-weight="bold" fill="#064e3b">Activity Z</text>
+  <rect x="670" y="286" width="140" height="26" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="740" y="303" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">Activity Z</text>
 
-  <!-- Dependency arrows: activities up to investments (line + triangle pointing up) -->
-  <line x1="265" y1="262" x2="265" y2="200" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
-  <polygon points="265,195 260,203 270,203" fill="#94a3b8"/>
-  <line x1="510" y1="262" x2="510" y2="200" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
-  <polygon points="510,195 505,203 515,203" fill="#94a3b8"/>
-  <line x1="750" y1="262" x2="750" y2="200" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
-  <polygon points="750,195 745,203 755,203" fill="#94a3b8"/>
+  <!-- Dependency arrows: activities up to investments (dotted) -->
+  <line x1="250" y1="286" x2="250" y2="210" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="286" x2="500" y2="210" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+  <line x1="740" y1="286" x2="740" y2="210" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
 
-  <!-- Annotation -->
-  <text x="175" y="338" font-size="8" fill="#059669" font-style="italic">Activities are what the TEAM does. Each activity requires a supporting investment above.</text>
+  <!-- Lane annotation -->
+  <text x="162" y="366" font-size="10" fill="#6B7280" font-style="italic">Activities are what the TEAM does. Each requires a supporting investment above.</text>
 
-  <!-- ============================================ -->
-  <!-- LANE 3: Milestones (y=360-450) -->
-  <!-- ============================================ -->
-  <rect x="15" y="360" width="135" height="90" rx="6" fill="#d97706"/>
-  <text x="82" y="410" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Milestones</text>
+  <!-- ================================================ -->
+  <!-- LANE 3: Milestones (y=390..475) -->
+  <!-- ================================================ -->
 
-  <rect x="160" y="360" width="720" height="90" fill="#fffbeb" stroke="#fde68a" stroke-width="1"/>
+  <rect x="16" y="390" width="124" height="85" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="78" y="438" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#92400E">Milestones</text>
+
+  <rect x="150" y="390" width="710" height="85" fill="#FFFBEB" stroke="#E5E7EB" stroke-width="1" fill-opacity="0.4"/>
 
   <!-- Milestone diamonds + labels -->
-  <rect x="272" y="384" width="14" height="14" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1.5" transform="rotate(45 279 391)"/>
-  <text x="298" y="395" font-size="8" font-weight="600" fill="#92400e">Milestone: [observable outcome]</text>
+  <rect x="258" y="410" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 264 416)"/>
+  <text x="280" y="420" font-size="10" font-weight="500" fill="#92400E">Milestone: [observable outcome]</text>
 
-  <rect x="512" y="384" width="14" height="14" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1.5" transform="rotate(45 519 391)"/>
-  <text x="538" y="395" font-size="8" font-weight="600" fill="#92400e">Milestone: [observable outcome]</text>
+  <rect x="498" y="410" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 504 416)"/>
+  <text x="516" y="420" font-size="10" font-weight="500" fill="#92400E">Milestone: [observable outcome]</text>
 
-  <rect x="722" y="384" width="14" height="14" rx="2" fill="#f59e0b" stroke="#d97706" stroke-width="1.5" transform="rotate(45 729 391)"/>
-  <text x="748" y="395" font-size="8" font-weight="600" fill="#92400e">Milestone: [observable outcome]</text>
+  <rect x="728" y="410" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 734 416)"/>
+  <text x="746" y="420" font-size="10" font-weight="500" fill="#92400E">Milestone: [observable outcome]</text>
 
-  <!-- Annotation -->
-  <text x="175" y="438" font-size="8" fill="#d97706" font-style="italic">Milestones are observable checkpoints confirming that investments + activities produced behavioral change.</text>
+  <!-- Lane annotation -->
+  <text x="162" y="462" font-size="10" fill="#6B7280" font-style="italic">Observable checkpoints confirming investments + activities produced behavioral change.</text>
 
-  <!-- ============================================ -->
-  <!-- LANE 4: Leading Indicators (y=460-555) -->
-  <!-- ============================================ -->
-  <rect x="15" y="460" width="135" height="95" rx="6" fill="#7c3aed"/>
-  <text x="82" y="500" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Leading</text>
-  <text x="82" y="516" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">Indicators</text>
+  <!-- ================================================ -->
+  <!-- LANE 4: Leading Indicators (y=485..560) -->
+  <!-- ================================================ -->
 
-  <rect x="160" y="460" width="720" height="95" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1"/>
+  <rect x="16" y="485" width="124" height="75" rx="8" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="78" y="518" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#5B21B6">Leading</text>
+  <text x="78" y="534" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#5B21B6">Indicators</text>
+
+  <rect x="150" y="485" width="710" height="75" fill="#F5F3FF" stroke="#E5E7EB" stroke-width="1" fill-opacity="0.4"/>
 
   <!-- Indicator markers with trend arrows -->
-  <circle cx="220" cy="492" r="8" fill="#8b5cf6" opacity="0.7"/>
-  <text x="220" y="496" text-anchor="middle" font-size="10" fill="#fff">&#8593;</text>
-  <text x="238" y="496" font-size="8" fill="#5b21b6">[metric] target: [range]</text>
+  <circle cx="210" cy="516" r="10" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="210" y="520" text-anchor="middle" font-size="12" fill="#5B21B6">&#8593;</text>
+  <text x="228" y="520" font-size="10" fill="#5B21B6">[metric] target: [range]</text>
 
-  <circle cx="380" cy="492" r="8" fill="#8b5cf6" opacity="0.7"/>
-  <text x="380" y="496" text-anchor="middle" font-size="10" fill="#fff">&#8594;</text>
-  <text x="398" y="496" font-size="8" fill="#5b21b6">[metric] target: [range]</text>
+  <circle cx="420" cy="516" r="10" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="420" y="520" text-anchor="middle" font-size="12" fill="#5B21B6">&#8594;</text>
+  <text x="438" y="520" font-size="10" fill="#5B21B6">[metric] target: [range]</text>
 
-  <circle cx="540" cy="492" r="8" fill="#8b5cf6" opacity="0.7"/>
-  <text x="540" y="496" text-anchor="middle" font-size="10" fill="#fff">&#8593;</text>
-  <text x="558" y="496" font-size="8" fill="#5b21b6">[metric] target: [range]</text>
+  <circle cx="630" cy="516" r="10" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="630" y="520" text-anchor="middle" font-size="12" fill="#5B21B6">&#8593;</text>
+  <text x="648" y="520" font-size="10" fill="#5B21B6">[metric] target: [range]</text>
 
-  <circle cx="700" cy="492" r="8" fill="#8b5cf6" opacity="0.7"/>
-  <text x="700" y="496" text-anchor="middle" font-size="10" fill="#fff">&#8595;</text>
-  <text x="718" y="496" font-size="8" fill="#5b21b6">[metric] target: [range]</text>
+  <circle cx="810" cy="516" r="10" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="810" y="520" text-anchor="middle" font-size="12" fill="#5B21B6">&#8595;</text>
 
-  <!-- Annotation -->
-  <text x="175" y="542" font-size="8" fill="#7c3aed" font-style="italic">Leading indicators give early signal between milestones. If trending down, investigate before next milestone.</text>
+  <!-- Lane annotation -->
+  <text x="162" y="550" font-size="10" fill="#6B7280" font-style="italic">Early signal between milestones. If trending down, investigate before the next milestone.</text>
 
-  <!-- ============================================ -->
-  <!-- Re-Diagnostic loop (right side panel) -->
-  <!-- ============================================ -->
-  <rect x="900" y="115" width="180" height="440" rx="6" fill="#faf5ff" stroke="#c4b5fd" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- ================================================ -->
+  <!-- RE-DIAGNOSTIC LOOP (right side callout) -->
+  <!-- ================================================ -->
+  <!-- Small right-side panel anchored at x=862 -->
 
-  <text x="990" y="145" text-anchor="middle" font-size="11" font-weight="bold" fill="#7c3aed">After Phase 3</text>
+  <!-- Arrow from end of timeline to re-diagnostic callout -->
+  <line x1="860" y1="320" x2="875" y2="320" stroke="#D912AE" stroke-width="1.5"/>
 
-  <line x1="990" y1="155" x2="990" y2="175" stroke="#7c3aed" stroke-width="1.5"/>
-  <polygon points="990,180 985,172 995,172" fill="#7c3aed"/>
+  <!-- Re-diagnostic callout box -->
+  <rect x="862" y="118" width="28" height="442" rx="0" fill="none" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="876" y="290" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#D912AE" transform="rotate(-90, 876, 290)">After Phase 3: Re-Diagnostic &#8594; Roadmap Refresh &#8594; Next Cycle</text>
 
-  <rect x="930" y="185" width="120" height="30" rx="6" fill="#8b5cf6"/>
-  <text x="990" y="205" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Re-Diagnostic</text>
-
-  <line x1="990" y1="215" x2="990" y2="235" stroke="#7c3aed" stroke-width="1.5"/>
-  <polygon points="990,240 985,232 995,232" fill="#7c3aed"/>
-
-  <rect x="920" y="245" width="140" height="30" rx="6" fill="#a78bfa"/>
-  <text x="990" y="265" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">Roadmap Refresh</text>
-
-  <line x1="990" y1="275" x2="990" y2="295" stroke="#7c3aed" stroke-width="1.5"/>
-  <polygon points="990,300 985,292 995,292" fill="#7c3aed"/>
-
-  <text x="990" y="320" text-anchor="middle" font-size="9" fill="#6d28d9" font-style="italic">Re-diagnostic</text>
-  <text x="990" y="335" text-anchor="middle" font-size="9" fill="#6d28d9" font-style="italic">calibrates the</text>
-  <text x="990" y="350" text-anchor="middle" font-size="9" fill="#6d28d9" font-style="italic">next roadmap cycle</text>
-
-  <!-- Curved arrow back to Phase 1 -->
-  <text x="990" y="385" text-anchor="middle" font-size="9" font-weight="bold" fill="#5b21b6">&#8634; Next Cycle</text>
-
-  <!-- ============================================ -->
-  <!-- Legend -->
-  <!-- ============================================ -->
-  <rect x="30" y="575" width="1050" height="45" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
-  <text x="50" y="601" font-size="9" font-weight="bold" fill="#334155">Legend:</text>
+  <!-- ================================================ -->
+  <!-- LEGEND -->
+  <!-- ================================================ -->
+  <rect x="16" y="580" width="868" height="52" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="36" y="602" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Legend</text>
 
   <!-- Investment block -->
-  <rect x="110" y="592" width="30" height="14" rx="3" fill="#3b82f6"/>
-  <text x="148" y="603" font-size="8" fill="#475569">Investment block</text>
-  <!-- Activity block -->
-  <rect x="260" y="592" width="30" height="14" rx="3" fill="#10b981"/>
-  <text x="298" y="603" font-size="8" fill="#475569">Activity block</text>
-  <!-- Milestone diamond -->
-  <rect x="400" y="592" width="10" height="10" rx="1" fill="#f59e0b" stroke="#d97706" stroke-width="1" transform="rotate(45 405 597)"/>
-  <text x="420" y="603" font-size="8" fill="#475569">Milestone</text>
-  <!-- Dependency -->
-  <line x1="500" y1="599" x2="530" y2="599" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,2"/>
-  <polygon points="535,599 529,595 529,603" fill="#94a3b8"/>
-  <text x="542" y="603" font-size="8" fill="#475569">Dependency</text>
-  <!-- Phase gate -->
-  <line x1="640" y1="587" x2="640" y2="612" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="650" y="603" font-size="8" fill="#475569">Phase divider</text>
-  <!-- Trend indicators -->
-  <text x="754" y="603" font-size="10" fill="#8b5cf6">&#8593;&#8594;&#8595;</text>
-  <text x="784" y="603" font-size="8" fill="#475569">Indicator trends</text>
+  <rect x="96" y="594" width="24" height="14" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="126" y="605" font-size="10" fill="#6B7280">Investment</text>
 
-  <!-- Phase gate annotation -->
-  <text x="550" y="640" text-anchor="middle" font-size="9" fill="#92400e" font-style="italic">Phase gates: Verify prerequisites before advancing. These are real decision points, not just calendar boundaries.</text>
+  <!-- Activity block -->
+  <rect x="206" y="594" width="24" height="14" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="236" y="605" font-size="10" fill="#6B7280">Activity</text>
+
+  <!-- Milestone diamond -->
+  <rect x="310" y="594" width="10" height="10" rx="1" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 315 599)"/>
+  <text x="328" y="605" font-size="10" fill="#6B7280">Milestone</text>
+
+  <!-- Dependency arrow -->
+  <line x1="412" y1="601" x2="440" y2="601" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+  <text x="450" y="605" font-size="10" fill="#6B7280">Dependency</text>
+
+  <!-- Phase gate -->
+  <rect x="540" y="594" width="10" height="10" rx="1" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 545 599)"/>
+  <line x1="558" y1="588" x2="558" y2="614" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="568" y="605" font-size="10" fill="#6B7280">Phase Gate</text>
+
+  <!-- Trend indicators -->
+  <text x="660" y="605" font-size="12" fill="#A78BFA">&#8593; &#8594; &#8595;</text>
+  <text x="700" y="605" font-size="10" fill="#6B7280">Indicator Trends</text>
+
+  <!-- Accent loop -->
+  <line x1="794" y1="601" x2="820" y2="601" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="828" y="605" font-size="10" fill="#6B7280">Loop</text>
+
+  <!-- Bottom annotation -->
+  <text x="450" y="656" text-anchor="middle" font-size="11" fill="#6B7280" font-style="italic">Phase gates: Verify prerequisites before advancing. These are real decision points, not calendar boundaries.</text>
+
+  <!-- Duarte principle annotation -->
+  <rect x="16" y="672" width="868" height="36" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="0"/>
+  <text x="450" y="690" text-anchor="middle" font-size="10" fill="#D912AE" font-weight="500">Re-diagnostic calibrates the next roadmap cycle. Each cycle moves from "what is" (current state) to "what could be" (target zone).</text>
+  <text x="450" y="702" text-anchor="middle" font-size="10" fill="#6B7280">The Investments lane drives everything below it. If investments stall, activities, milestones, and indicators will follow.</text>
+
 </svg>

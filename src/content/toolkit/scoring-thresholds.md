@@ -44,6 +44,8 @@ A score of 5 ("Always") is the target for competency. It does not mean literally
 
 ---
 
+![VA-10: Score Distribution Archetypes](/images/score-distribution-archetypes.svg)
+
 ## Competency Stages
 
 Each zone has four competency stages. These stages describe the team's progression toward competency within that zone, based on the composite scores across all diagnostic questions.
@@ -98,6 +100,10 @@ The team exhibits the zone's behaviors habitually, even under stress. The team c
 **Recommended action:** Maintain current practices. Consider investing in the next zone. Share learnings with other teams. Periodically re-assess (every 6-12 months) to verify competency is maintained.
 
 ---
+
+![VA-14: Threshold Sensitivity](/images/threshold-sensitivity.svg)
+
+![VA-17: Variance Decomposition Diagnostic](/images/variance-decomposition-diagnostic.svg)
 
 ## Competency Threshold
 

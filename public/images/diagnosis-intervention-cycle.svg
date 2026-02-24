@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 680"
+     font-family="'Inter', sans-serif">
+  <title>Diagnosis-Intervention Cycle</title>
+  <desc>A circular four-step facilitation cycle showing Observe, Diagnose, Intervene, and Reflect as a continuous loop. Each step includes a behavioral prompt that facilitators use during live workshops. The center annotation reads: When in doubt, return to Diagnose. Designed for use as a 5x7 inch laminated card or projected slide.</desc>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="680" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="440" y="36" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Diagnosis-Intervention Cycle</text>
+  <text x="440" y="54" font-size="12" fill="#6B7280">The core facilitation methodology — every facilitation move follows this cycle</text>
+
+  <!-- Center circle area — the cycle lives here -->
+  <!-- Center point: 440, 310 -->
+
+  <!-- Circular arrows (simplified as curved paths between the four steps) -->
+  <!-- Top to Right arc -->
+  <path d="M 530,195 C 620,210 660,270 660,310" fill="none" stroke="#E5E7EB" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Right to Bottom arc -->
+  <path d="M 660,330 C 655,390 610,430 530,440" fill="none" stroke="#E5E7EB" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Bottom to Left arc -->
+  <path d="M 350,440 C 270,425 225,380 222,320" fill="none" stroke="#E5E7EB" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- Left to Top arc -->
+  <path d="M 225,290 C 230,230 280,195 350,185" fill="none" stroke="#E5E7EB" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Center annotation -->
+  <rect x="360" y="280" width="162" height="60" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="441" y="305" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#D912AE">When in doubt,</text>
+  <text x="441" y="322" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="13" font-weight="700" fill="#D912AE">return to Diagnose</text>
+
+  <!-- Step 1: OBSERVE (top) -->
+  <rect x="360" y="120" width="162" height="64" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="441" y="144" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">1. Observe</text>
+  <text x="441" y="162" text-anchor="middle" font-size="10" fill="#1E40AF">What pattern do you see</text>
+  <text x="441" y="174" text-anchor="middle" font-size="10" fill="#1E40AF">in the room right now?</text>
+
+  <!-- Step 2: DIAGNOSE (right) -->
+  <rect x="600" y="280" width="162" height="64" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="681" y="304" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#065F46">2. Diagnose</text>
+  <text x="681" y="322" text-anchor="middle" font-size="10" fill="#065F46">What is causing this</text>
+  <text x="681" y="334" text-anchor="middle" font-size="10" fill="#065F46">and why?</text>
+
+  <!-- Step 3: INTERVENE (bottom) -->
+  <rect x="360" y="440" width="162" height="64" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="441" y="464" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E">3. Intervene</text>
+  <text x="441" y="482" text-anchor="middle" font-size="10" fill="#92400E">What facilitation move</text>
+  <text x="441" y="494" text-anchor="middle" font-size="10" fill="#92400E">will test this hypothesis?</text>
+
+  <!-- Step 4: REFLECT (left) -->
+  <rect x="120" y="280" width="162" height="64" rx="8" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="201" y="304" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">4. Reflect</text>
+  <text x="201" y="322" text-anchor="middle" font-size="10" fill="#5B21B6">Did the intervention shift</text>
+  <text x="201" y="334" text-anchor="middle" font-size="10" fill="#5B21B6">the dynamic? Update hypothesis.</text>
+
+  <!-- Behavioral prompts in side panels -->
+
+  <!-- Left panel: Observe + Reflect prompts -->
+  <rect x="36" y="120" width="140" height="130" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="140" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#1E40AF">Observe for:</text>
+  <text x="52" y="156" font-size="9" fill="#6B7280">Uniform high scores</text>
+  <text x="52" y="170" font-size="9" fill="#6B7280">One voice dominating</text>
+  <text x="52" y="184" font-size="9" fill="#6B7280">Glances at manager</text>
+  <text x="52" y="198" font-size="9" fill="#6B7280">Abstract language</text>
+  <text x="52" y="212" font-size="9" fill="#6B7280">Quick consensus</text>
+  <text x="52" y="226" font-size="9" fill="#6B7280">Deflected questions</text>
+
+  <rect x="36" y="400" width="140" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="420" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#5B21B6">Reflect on:</text>
+  <text x="52" y="436" font-size="9" fill="#6B7280">Did the dynamic shift?</text>
+  <text x="52" y="450" font-size="9" fill="#6B7280">New evidence emerge?</text>
+  <text x="52" y="464" font-size="9" fill="#6B7280">Was my diagnosis right?</text>
+  <text x="52" y="478" font-size="9" fill="#6B7280">Do I need a different</text>
+  <text x="52" y="492" font-size="9" fill="#6B7280">approach?</text>
+
+  <!-- Right panel: Diagnose + Intervene prompts -->
+  <rect x="706" y="120" width="140" height="130" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="722" y="140" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#065F46">Diagnose as:</text>
+  <text x="722" y="156" font-size="9" fill="#6B7280">Social desirability bias</text>
+  <text x="722" y="170" font-size="9" fill="#6B7280">Dominant voice</text>
+  <text x="722" y="184" font-size="9" fill="#6B7280">Manager distortion</text>
+  <text x="722" y="198" font-size="9" fill="#6B7280">Anchoring effect</text>
+  <text x="722" y="212" font-size="9" fill="#6B7280">Knowledge vs. practice</text>
+  <text x="722" y="226" font-size="9" fill="#6B7280">Role-based variance</text>
+
+  <rect x="706" y="400" width="140" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="722" y="420" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#92400E">Intervene with:</text>
+  <text x="722" y="436" font-size="9" fill="#6B7280">Probe for evidence</text>
+  <text x="722" y="450" font-size="9" fill="#6B7280">Redirect to quieter voices</text>
+  <text x="722" y="464" font-size="9" fill="#6B7280">Name the dynamic</text>
+  <text x="722" y="478" font-size="9" fill="#6B7280">Individualize responses</text>
+  <text x="722" y="492" font-size="9" fill="#6B7280">Switch to stories</text>
+
+  <!-- Footer -->
+  <rect x="36" y="540" width="808" height="56" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="36" y="540" width="3" height="56" rx="1.5" fill="#D912AE"/>
+  <text x="52" y="562" font-size="11" font-weight="500" fill="#151D1A">This cycle applies to every facilitation decision, not just challenges.</text>
+  <text x="52" y="580" font-size="10" fill="#6B7280">Trainees who learn techniques without the cycle apply them mechanically. Trainees who internalize the cycle adapt in real time.</text>
+
+  <!-- Bottom note -->
+  <rect x="36" y="610" width="808" height="46" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="632" font-size="10" fill="#6B7280">If the first intervention fails, do not repeat it louder. Return to Diagnose. Update your hypothesis about what is driving the pattern.</text>
+  <text x="52" y="646" font-size="10" fill="#6B7280">Then choose a substantively different intervention. The cycle is iterative by design.</text>
+</svg>

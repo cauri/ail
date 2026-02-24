@@ -1,0 +1,306 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200"
+     font-family="'Inter', sans-serif">
+  <title>VA-12: Zone Comparison Matrix</title>
+  <desc>Four-column matrix comparing Zones 1 through 4 across identity shift, core metric, unit of change, key investments, risk type, and cross-role progression for Engineering, PM, Design, and QA. All zones shown with equal visual weight as legitimate destinations in a single progression.</desc>
+
+  <!-- Background -->
+  <rect width="900" height="1200" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-family="'DM Sans', sans-serif" font-size="20"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Zone Comparison Matrix</text>
+  <text x="40" y="60" font-size="12" fill="#6B7280">Four zones, one progression -- each a legitimate destination chosen through strategic analysis</text>
+
+  <!-- Column positions: labels=40, z1=140, z2=330, z3=520, z4=710 each width=180 -->
+
+  <!-- Zone Headers -->
+  <!-- Zone 1 -->
+  <rect x="140" y="80" width="180" height="52" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="230" y="100" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#1E40AF" text-anchor="middle">Zone 1</text>
+  <text x="230" y="118" font-size="10" fill="#1E40AF" text-anchor="middle">Augmenting</text>
+
+  <!-- Zone 2 -->
+  <rect x="330" y="80" width="180" height="52" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="420" y="100" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#065F46" text-anchor="middle">Zone 2</text>
+  <text x="420" y="118" font-size="10" fill="#065F46" text-anchor="middle">Integrating</text>
+
+  <!-- Zone 3 -->
+  <rect x="520" y="80" width="180" height="52" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="610" y="100" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#92400E" text-anchor="middle">Zone 3</text>
+  <text x="610" y="118" font-size="10" fill="#92400E" text-anchor="middle">Accelerating</text>
+
+  <!-- Zone 4 -->
+  <rect x="710" y="80" width="180" height="52" rx="8" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1.5"/>
+  <text x="800" y="100" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#5B21B6" text-anchor="middle">Zone 4</text>
+  <text x="800" y="118" font-size="10" fill="#5B21B6" text-anchor="middle">Industrializing</text>
+
+  <!-- Row 1: Identity Shift -->
+  <text x="40" y="164" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">IDENTITY</text>
+  <text x="40" y="177" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">SHIFT</text>
+  <line x1="40" y1="184" x2="890" y2="184" stroke="#E5E7EB" stroke-width="1"/>
+
+  <rect x="140" y="150" width="180" height="46" rx="4" fill="#EFF6FF"/>
+  <text x="152" y="170" font-size="10" fill="#1E40AF">"AI is unfamiliar" to</text>
+  <text x="152" y="183" font-size="10" fill="#1E40AF">"AI is how I work"</text>
+
+  <rect x="330" y="150" width="180" height="46" rx="4" fill="#ECFDF5"/>
+  <text x="342" y="170" font-size="10" fill="#065F46">"I use AI my way" to</text>
+  <text x="342" y="183" font-size="10" fill="#065F46">"We use AI our way"</text>
+
+  <rect x="520" y="150" width="180" height="46" rx="4" fill="#FFFBEB"/>
+  <text x="532" y="170" font-size="10" fill="#92400E">"I write code" to</text>
+  <text x="532" y="183" font-size="10" fill="#92400E">"I design the process"</text>
+
+  <rect x="710" y="150" width="180" height="46" rx="4" fill="#F5F3FF"/>
+  <text x="722" y="170" font-size="10" fill="#5B21B6">"We build software" to</text>
+  <text x="722" y="183" font-size="10" fill="#5B21B6">"We run the factory"</text>
+
+  <!-- Row 2: Core Metric -->
+  <text x="40" y="222" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">CORE</text>
+  <text x="40" y="235" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">METRIC</text>
+  <line x1="140" y1="242" x2="890" y2="242" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <text x="152" y="220" font-size="10" fill="#151D1A">Habitual individual AI</text>
+  <text x="152" y="233" font-size="10" fill="#151D1A">tool use, even under</text>
+  <text x="152" y="246" font-size="10" fill="#151D1A">deadline pressure</text>
+
+  <text x="342" y="220" font-size="10" fill="#151D1A">Team ships AI-verified</text>
+  <text x="342" y="233" font-size="10" fill="#151D1A">code via shared</text>
+  <text x="342" y="246" font-size="10" fill="#151D1A">agentic workflow</text>
+
+  <text x="532" y="220" font-size="10" fill="#151D1A">All roles operate as</text>
+  <text x="532" y="233" font-size="10" fill="#151D1A">process designers for</text>
+  <text x="532" y="246" font-size="10" fill="#151D1A">AI production pipeline</text>
+
+  <text x="722" y="220" font-size="10" fill="#151D1A">Organization reliably</text>
+  <text x="722" y="233" font-size="10" fill="#151D1A">specifies, produces,</text>
+  <text x="722" y="246" font-size="10" fill="#151D1A">evaluates at factory scale</text>
+
+  <!-- Row 3: Unit of Change -->
+  <text x="40" y="284" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">UNIT OF</text>
+  <text x="40" y="297" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">CHANGE</text>
+  <line x1="140" y1="304" x2="890" y2="304" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <text x="152" y="288" font-size="10" fill="#151D1A" font-weight="500">Individual</text>
+
+  <text x="342" y="288" font-size="10" fill="#151D1A" font-weight="500">Team</text>
+
+  <text x="532" y="288" font-size="10" fill="#151D1A" font-weight="500">Role / Function</text>
+
+  <text x="722" y="288" font-size="10" fill="#151D1A" font-weight="500">Organization</text>
+
+  <!-- Row 4: Key Investments -->
+  <text x="40" y="336" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">KEY</text>
+  <text x="40" y="349" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">INVESTMENTS</text>
+  <line x1="140" y1="356" x2="890" y2="356" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <text x="152" y="330" font-size="9.5" fill="#151D1A">Tool licenses</text>
+  <text x="152" y="342" font-size="9.5" fill="#151D1A">Clear policies</text>
+  <text x="152" y="354" font-size="9.5" fill="#151D1A">Structured training</text>
+  <text x="152" y="366" font-size="9.5" fill="#151D1A">Removing fear/stigma</text>
+
+  <text x="342" y="330" font-size="9.5" fill="#151D1A">One Team One Setup</text>
+  <text x="342" y="342" font-size="9.5" fill="#151D1A">Infrastructure time</text>
+  <text x="342" y="354" font-size="9.5" fill="#151D1A">Quality gate policy</text>
+  <text x="342" y="366" font-size="9.5" fill="#151D1A">Retrospective culture</text>
+
+  <text x="532" y="330" font-size="9.5" fill="#151D1A">AI Engineer role</text>
+  <text x="532" y="342" font-size="9.5" fill="#151D1A">Experimentation budget</text>
+  <text x="532" y="354" font-size="9.5" fill="#151D1A">CAT in definition of done</text>
+  <text x="532" y="366" font-size="9.5" fill="#151D1A">Tolerance for non-determ.</text>
+
+  <text x="722" y="330" font-size="9.5" fill="#151D1A">Fundamental reorg</text>
+  <text x="722" y="342" font-size="9.5" fill="#151D1A">Factory infrastructure</text>
+  <text x="722" y="354" font-size="9.5" fill="#151D1A">Governance frameworks</text>
+  <text x="722" y="366" font-size="9.5" fill="#151D1A">Executive commitment</text>
+
+  <!-- Row 5: Risk Type -->
+  <text x="40" y="400" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">RISK</text>
+  <text x="40" y="413" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">TYPE</text>
+  <line x1="140" y1="420" x2="890" y2="420" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <text x="152" y="400" font-size="10" fill="#151D1A">Unresolved security,</text>
+  <text x="152" y="413" font-size="10" fill="#151D1A">legal, procurement</text>
+  <text x="152" y="426" font-size="10" fill="#151D1A">questions block adoption</text>
+
+  <text x="342" y="400" font-size="10" fill="#151D1A">Teams know about AI</text>
+  <text x="342" y="413" font-size="10" fill="#151D1A">integration but don't</text>
+  <text x="342" y="426" font-size="10" fill="#151D1A">practice it habitually</text>
+
+  <text x="532" y="400" font-size="10" fill="#151D1A">Expensive, hard to</text>
+  <text x="532" y="413" font-size="10" fill="#151D1A">reverse restructuring</text>
+  <text x="532" y="426" font-size="10" fill="#151D1A">without clear ROI</text>
+
+  <text x="722" y="400" font-size="10" fill="#151D1A">Multi-year cultural</text>
+  <text x="722" y="413" font-size="10" fill="#151D1A">transformation in</text>
+  <text x="722" y="426" font-size="10" fill="#151D1A">uncharted territory</text>
+
+  <!-- Transition annotations between zones -->
+  <!-- Zone 1 -> 2 -->
+  <line x1="325" y1="440" x2="325" y2="468" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="270" y="444" width="110" height="20" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="325" y="458" font-size="9" fill="#6B7280" text-anchor="middle">Workflow shift</text>
+
+  <!-- Zone 2 -> 3 -->
+  <line x1="515" y1="440" x2="515" y2="468" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="460" y="444" width="110" height="20" rx="4" fill="#F9FAFB" stroke="#D912AE" stroke-width="1"/>
+  <text x="515" y="458" font-size="9" fill="#D912AE" text-anchor="middle" font-weight="500">Identity shift</text>
+
+  <!-- Zone 3 -> 4 -->
+  <line x1="705" y1="440" x2="705" y2="468" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
+  <rect x="650" y="444" width="110" height="20" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="705" y="458" font-size="9" fill="#6B7280" text-anchor="middle">Cultural shift</text>
+
+  <!-- Cross-Role Progression Section -->
+  <rect x="40" y="484" width="850" height="28" rx="4" fill="#F9FAFB"/>
+  <text x="50" y="503" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Cross-Role Progression</text>
+
+  <!-- Engineering Row -->
+  <text x="40" y="540" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">ENGINEERING</text>
+  <line x1="140" y1="548" x2="890" y2="548" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <rect x="140" y="520" width="180" height="60" rx="4" fill="#EFF6FF"/>
+  <text x="152" y="538" font-size="10" fill="#1E40AF">Uses AI assistants for</text>
+  <text x="152" y="551" font-size="10" fill="#1E40AF">code completion, debug,</text>
+  <text x="152" y="564" font-size="10" fill="#1E40AF">tests daily</text>
+
+  <rect x="330" y="520" width="180" height="60" rx="4" fill="#ECFDF5"/>
+  <text x="342" y="538" font-size="10" fill="#065F46">Plan/Code/Verify as</text>
+  <text x="342" y="551" font-size="10" fill="#065F46">default. Shared agentic</text>
+  <text x="342" y="564" font-size="10" fill="#065F46">setup in source control</text>
+
+  <rect x="520" y="520" width="180" height="60" rx="4" fill="#FFFBEB"/>
+  <text x="532" y="538" font-size="10" fill="#92400E">AI Engineer: designs</text>
+  <text x="532" y="551" font-size="10" fill="#92400E">the process, doesn't</text>
+  <text x="532" y="564" font-size="10" fill="#92400E">write the code</text>
+
+  <rect x="710" y="520" width="180" height="60" rx="4" fill="#F5F3FF"/>
+  <text x="722" y="538" font-size="10" fill="#5B21B6">Designs and maintains</text>
+  <text x="722" y="551" font-size="10" fill="#5B21B6">the AI production</text>
+  <text x="722" y="564" font-size="10" fill="#5B21B6">pipeline (factory)</text>
+
+  <!-- PM Row -->
+  <text x="40" y="608" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">PRODUCT</text>
+  <text x="40" y="621" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">MGMT</text>
+  <line x1="140" y1="628" x2="890" y2="628" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <rect x="140" y="596" width="180" height="60" rx="4" fill="#EFF6FF"/>
+  <text x="152" y="614" font-size="10" fill="#1E40AF">AI for story writing,</text>
+  <text x="152" y="627" font-size="10" fill="#1E40AF">research synthesis,</text>
+  <text x="152" y="640" font-size="10" fill="#1E40AF">effective prompting</text>
+
+  <rect x="330" y="596" width="180" height="60" rx="4" fill="#ECFDF5"/>
+  <text x="342" y="614" font-size="10" fill="#065F46">AI behavioral criteria</text>
+  <text x="342" y="627" font-size="10" fill="#065F46">in stories, definition</text>
+  <text x="342" y="640" font-size="10" fill="#065F46">of done with AI gates</text>
+
+  <rect x="520" y="596" width="180" height="60" rx="4" fill="#FFFBEB"/>
+  <text x="532" y="614" font-size="10" fill="#92400E">Behavioral specifier:</text>
+  <text x="532" y="627" font-size="10" fill="#92400E">defines thresholds of</text>
+  <text x="532" y="640" font-size="10" fill="#92400E">efficacy, ROI trade-offs</text>
+
+  <rect x="710" y="596" width="180" height="60" rx="4" fill="#F5F3FF"/>
+  <text x="722" y="614" font-size="10" fill="#5B21B6">Portfolio-level factory</text>
+  <text x="722" y="627" font-size="10" fill="#5B21B6">production targets and</text>
+  <text x="722" y="640" font-size="10" fill="#5B21B6">quality governance</text>
+
+  <!-- Design Row -->
+  <text x="40" y="684" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">DESIGN</text>
+  <line x1="140" y1="700" x2="890" y2="700" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <rect x="140" y="672" width="180" height="60" rx="4" fill="#EFF6FF"/>
+  <text x="152" y="690" font-size="10" fill="#1E40AF">AI for ideation,</text>
+  <text x="152" y="703" font-size="10" fill="#1E40AF">exploration, user</text>
+  <text x="152" y="716" font-size="10" fill="#1E40AF">research synthesis</text>
+
+  <rect x="330" y="672" width="180" height="60" rx="4" fill="#ECFDF5"/>
+  <text x="342" y="690" font-size="10" fill="#065F46">Contributes design</text>
+  <text x="342" y="703" font-size="10" fill="#065F46">context to shared AI</text>
+  <text x="342" y="716" font-size="10" fill="#065F46">config, system consistency</text>
+
+  <rect x="520" y="672" width="180" height="60" rx="4" fill="#FFFBEB"/>
+  <text x="532" y="690" font-size="10" fill="#92400E">Specification author:</text>
+  <text x="532" y="703" font-size="10" fill="#92400E">encodes standards as</text>
+  <text x="532" y="716" font-size="10" fill="#92400E">machine-verifiable inputs</text>
+
+  <rect x="710" y="672" width="180" height="60" rx="4" fill="#F5F3FF"/>
+  <text x="722" y="690" font-size="10" fill="#5B21B6">Owns factory design</text>
+  <text x="722" y="703" font-size="10" fill="#5B21B6">specification layer,</text>
+  <text x="722" y="716" font-size="10" fill="#5B21B6">portfolio-scale compliance</text>
+
+  <!-- QA Row -->
+  <text x="40" y="760" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6B7280">QA</text>
+  <line x1="140" y1="772" x2="890" y2="772" stroke="#E5E7EB" stroke-width="0.5"/>
+
+  <rect x="140" y="748" width="180" height="60" rx="4" fill="#EFF6FF"/>
+  <text x="152" y="766" font-size="10" fill="#1E40AF">AI for test generation,</text>
+  <text x="152" y="779" font-size="10" fill="#1E40AF">bug triage, test data</text>
+  <text x="152" y="792" font-size="10" fill="#1E40AF">creation</text>
+
+  <rect x="330" y="748" width="180" height="60" rx="4" fill="#ECFDF5"/>
+  <text x="342" y="766" font-size="10" fill="#065F46">Adapts strategies for</text>
+  <text x="342" y="779" font-size="10" fill="#065F46">AI code patterns, joins</text>
+  <text x="342" y="792" font-size="10" fill="#065F46">shared agentic workflow</text>
+
+  <rect x="520" y="748" width="180" height="60" rx="4" fill="#FFFBEB"/>
+  <text x="532" y="766" font-size="10" fill="#92400E">Eval pipeline specialist:</text>
+  <text x="532" y="779" font-size="10" fill="#92400E">designs eval harnesses,</text>
+  <text x="532" y="792" font-size="10" fill="#92400E">owns CAT pipeline health</text>
+
+  <rect x="710" y="748" width="180" height="60" rx="4" fill="#F5F3FF"/>
+  <text x="722" y="766" font-size="10" fill="#5B21B6">Factory evaluation</text>
+  <text x="722" y="779" font-size="10" fill="#5B21B6">infrastructure operator,</text>
+  <text x="722" y="792" font-size="10" fill="#5B21B6">drift detection, SLAs</text>
+
+  <!-- Zone 3 Prime Directive callout -->
+  <rect x="40" y="830" width="850" height="56" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <rect x="40" y="830" width="4" height="56" rx="2" fill="#D912AE"/>
+  <text x="60" y="852" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#92400E">The Prime Directive (Zone 3):</text>
+  <text x="60" y="872" font-size="11" fill="#151D1A">All roles shift from producing artifacts to designing the process by which artifacts are produced.</text>
+
+  <!-- Timeline: Emotional / Investment Escalation -->
+  <rect x="40" y="906" width="850" height="28" rx="4" fill="#F9FAFB"/>
+  <text x="50" y="925" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Investment Escalation</text>
+
+  <!-- Investment scale visualization -->
+  <!-- Zone 1 bar -->
+  <rect x="140" y="946" width="180" height="24" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="230" y="962" font-size="9" fill="#1E40AF" text-anchor="middle">Policy + licenses + training</text>
+
+  <!-- Zone 2 bar -->
+  <rect x="330" y="946" width="180" height="24" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <text x="420" y="962" font-size="9" fill="#065F46" text-anchor="middle">Infrastructure + process</text>
+
+  <!-- Zone 3 bar -->
+  <rect x="520" y="946" width="180" height="24" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="610" y="962" font-size="9" fill="#92400E" text-anchor="middle">Restructuring + roles</text>
+
+  <!-- Zone 4 bar -->
+  <rect x="710" y="946" width="180" height="24" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
+  <text x="800" y="962" font-size="9" fill="#5B21B6" text-anchor="middle">Cultural transformation</text>
+
+  <!-- Escalation arrow -->
+  <line x1="140" y1="982" x2="890" y2="982" stroke="#6B7280" stroke-width="1"/>
+  <polygon points="886,978 890,982 886,986" fill="#6B7280"/>
+  <text x="515" y="998" font-size="9" fill="#6B7280" text-anchor="middle">Investments compound at each step -- the analysis should grow with them</text>
+
+  <!-- Strategic Analysis section -->
+  <rect x="40" y="1016" width="850" height="28" rx="4" fill="#F9FAFB"/>
+  <text x="50" y="1035" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Typical Stopping Points</text>
+
+  <!-- Zone 2 callout -->
+  <rect x="140" y="1054" width="370" height="52" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <text x="152" y="1074" font-size="11" fill="#065F46" font-weight="500">Zone 2: The competitive baseline.</text>
+  <text x="152" y="1092" font-size="10" fill="#065F46">The typical near-term target for most organizations.</text>
+
+  <!-- Zone 3 callout -->
+  <rect x="520" y="1054" width="370" height="52" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="532" y="1074" font-size="11" fill="#92400E" font-weight="500">Zone 3: When leverage is strategic.</text>
+  <text x="532" y="1092" font-size="10" fill="#92400E">Justified when velocity is a competitive differentiator.</text>
+
+  <!-- Footer -->
+  <rect x="40" y="1126" width="850" height="44" rx="8" fill="#EDE8F5"/>
+  <text x="60" y="1148" font-size="11" fill="#5B21B6" font-weight="500">A deeply competent Zone 2 organization that chose its destination through careful analysis is in a</text>
+  <text x="60" y="1163" font-size="11" fill="#5B21B6" font-weight="500">stronger position than a Zone 4 organization that overextended.</text>
+
+</svg>
