@@ -37,7 +37,7 @@ Conduct structured interviews with three stakeholder tiers:
 |---|---|---|---|
 | Business Leadership | CEO, COO, Product VP, Business Unit Leads | 45-60 minutes each | Strategic goals, competitive pressure, investment appetite, risk tolerance |
 | Engineering Leadership | CTO, VP Engineering, Engineering Directors, Engineering Managers | 60-90 minutes each | Technical infrastructure, team structure, development practices, AI tool status |
-| Individual Contributors | Senior developers, tech leads, PMs, designers | 45-60 minutes each (sample of 3-5 per team) | Daily workflow, AI tool usage, pain points, team dynamics |
+| Individual Contributors | Senior developers, tech leads, PMs, designers, QA engineers | 45-60 minutes each (sample of 3-5 per team) | Daily workflow, AI tool usage (including discovery and strategic work for PMs, design analysis for designers, test strategy for QA), pain points, team dynamics |
 
 See [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide) for question sets.
 

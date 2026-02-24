@@ -72,7 +72,7 @@ Proficiencies are observable team behaviors, exhibited habitually even under pre
 
 ### Product Management
 
-- **PMs can write user stories that include AI behavioral criteria.** Beyond traditional functional acceptance criteria, PMs specify how AI-augmented workflows should behave --- for example, what verification steps are required, what documentation should be generated, or what quality gates apply.
+- **PMs define product requirements that include AI behavioral criteria and verification expectations.** Beyond traditional functional acceptance criteria, PMs specify how AI-augmented workflows should behave --- for example, what verification steps are required, what documentation should be generated, or what quality gates apply.
 
 - **PMs participate in retrospectives about agentic workflow improvements.** Product managers are active participants in discussions about how the team's AI practices are working, not passive observers.
 

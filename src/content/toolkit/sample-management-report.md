@@ -41,7 +41,7 @@ The organization initiated this ACE diagnostic as part of a broader AI-augmented
 
 ## Assessment Overview
 
-Five teams participated in facilitated ACE diagnostic workshops between January 12 and January 30, 2026. All workshops were conducted with intact delivery teams; no team was split for the assessment. Total participants: 28 across the five teams, representing software engineers, tech leads, product managers, and in one case a data scientist and a QA engineer.
+Five teams participated in facilitated ACE diagnostic workshops between January 12 and January 30, 2026. All workshops were conducted with intact delivery teams; no team was split for the assessment. Total participants: 32 across the five teams, representing software engineers, tech leads, product managers, designers, QA engineers, and in one case a data scientist.
 
 ### Zone Distribution
 
@@ -154,7 +154,7 @@ Develop a library of shared AI configuration templates that teams can use as Zon
 **Priority:** Medium
 **Estimated effort:** Low-Medium — training development and delivery; can leverage existing examples from PM participants who are already using AI tools effectively
 
-Zone 2 requires that product managers write acceptance criteria in AI-verifiable form and participate in the team's agentic workflow. Most PMs assessed have begun using AI tools but are not yet writing criteria in a form that AI agents can consume directly. Training that is specific to the PM role — not generic AI training — is required. Training content should cover: writing structured acceptance criteria, using AI for user research synthesis and synthesis-to-spec conversion, and what Zone 2 agentic workflows need from PM-authored artifacts. Delivery format should be hands-on, not lecture: PMs learn AI practices best by doing them with real examples from their own work.
+Zone 2 requires that product managers write acceptance criteria in AI-verifiable form and participate in the team's agentic workflow. Most PMs assessed have begun using AI tools but are not yet writing criteria in a form that AI agents can consume directly. Designers need to integrate their design context and standards into the team's shared AI configuration. QA engineers need to adapt testing strategies for AI-generated code patterns. Training that is specific to each non-engineering role — not generic AI training — is required. For PMs: writing structured acceptance criteria, using AI for user research synthesis and synthesis-to-spec conversion, and what Zone 2 agentic workflows need from PM-authored artifacts. For designers: contributing design context to the shared AI configuration, using AI to maintain design system documentation, and integrating design review into the agentic workflow. For QA: adapting test strategies for AI-generated code, using AI for test case generation and coverage analysis, and designing quality gates for AI output. Delivery format should be hands-on, not lecture: non-engineering roles learn AI practices best by doing them with real examples from their own work.
 
 ---
 

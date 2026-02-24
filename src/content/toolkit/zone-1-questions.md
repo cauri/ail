@@ -48,7 +48,7 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 ### What to Watch For
 
-- **Pressure resilience is the key signal.** Many teams use AI tools when things are calm and abandon them when deadlines hit. Probe specifically: "When you had that production incident last month, did you use AI tools to help diagnose it? When the deadline was tight on the last release, did your AI tool usage increase, decrease, or stay the same?"
+- **Pressure resilience is the key signal.** Many teams use AI tools when things are calm and abandon them when deadlines hit. Probe specifically for each role: For engineers: "When you had that production incident last month, did you use AI tools to help diagnose it? When the deadline was tight on the last release, did your AI tool usage increase, decrease, or stay the same?" For PMs: "When you were preparing for that last product decision under time pressure, did you use AI to help synthesize the customer data?" For designers: "When you were exploring design options for the last feature, did AI play a role in your analysis?" For QA: "When you were planning test coverage for the last release, did you use AI to help identify edge cases?"
 
 - **Role coverage matters.** If only developers score high but PMs and designers score low, the team has partial adoption. Zone 1 requires broad adoption across roles, not deep adoption in one role.
 
