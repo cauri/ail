@@ -24,7 +24,7 @@ All four zones form a single progression. The question is not "which branch?" bu
 
 Zone 1 builds foundations. Individual developers adopt AI tools as part of their daily work, supported by clear policies, available licenses, and management endorsement. This establishes the baseline capability that everything else depends on.
 
-Zone 2 builds on Zone 1. Teams move from individual tool use to systematic integration: shared conventions, automated pipelines, collective standards. This is the competitive baseline for modern software teams.
+Zone 2 builds on Zone 1. Teams move from individual tool use to systematic integration: shared conventions, automated pipelines, collective standards. This is the typical near-term target for most organizations -- the point at which AI adoption becomes a durable team-level capability.
 
 Zone 3 builds on Zone 2. Engineers shift into an AI Engineer role, designing solutions around AI capabilities rather than implementing them manually. Teams restructure around AI-native development patterns. This requires the systematic practices established in Zone 2 as a foundation.
 
@@ -32,11 +32,13 @@ Zone 4 builds on Zone 3. The organization operates an AI-first software factory 
 
 Each transition deserves strategic analysis. The path is sequential, but the distance you travel along it is a choice.
 
+**A note on the emotional dimension of transitions.** Zone transitions are not purely structural or behavioral events. Each transition involves letting go of familiar work patterns and, in higher zones, aspects of professional identity. Teams moving from Zone 0 to Zone 1 must overcome the discomfort of adopting unfamiliar tools. Teams moving from Zone 1 to Zone 2 must give up individual autonomy in favor of shared practices. Teams moving from Zone 2 to Zone 3 must let go of the hands-on coding that may define their professional identity. Facilitators and leaders who acknowledge this emotional dimension -- rather than treating transitions as purely operational -- will encounter less resistance and more genuine engagement. See also the identity transition guidance in the [Zone 2 to 3 Roadmap](/toolkit/zone-2-to-3).
+
 ## Choosing Your Stopping Point
 
 The right zone is the one that matches your strategic context.
 
-**Zone 2 is the typical near-term target for most organizations.** It represents the competitive baseline for modern software teams. An organization that has not reached Zone 2 competency is operating at a structural disadvantage relative to competitors who have. The investment required -- infrastructure changes, process updates, team time for practice establishment -- is substantial but broadly justified across the software industry.
+**Zone 2 is the typical near-term target for most organizations.** It represents the point at which AI adoption becomes a durable team-level capability rather than a collection of individual practices. Organizations that choose Zone 2 as their destination through informed strategic analysis have achieved a significant and valuable outcome. The investment required -- infrastructure changes, process updates, team time for practice establishment -- is substantial but broadly justified across the software industry.
 
 **Zone 3 involves significant structural change.** Role restructuring, compensation changes, hiring profile updates, and team reorganization are expensive, difficult to reverse, and disruptive. This investment is justified when engineering leverage is a strategic differentiator -- when the ability to produce software faster and more reliably than competitors directly drives business outcomes. Organizations whose competitive advantage comes from domain expertise, regulatory knowledge, or customer relationships may derive more value from deep Zone 2 competency than from Zone 3 transformation.
 

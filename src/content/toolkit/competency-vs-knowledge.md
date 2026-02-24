@@ -61,7 +61,7 @@ Within each zone, teams progress through four stages of competency:
 
 **Developing.** The team performs the zone's behaviors mostly consistently. They need occasional reminders but rarely require intervention. The practices are becoming habitual but have not yet been tested by sustained pressure.
 
-**Established.** The zone's behaviors are habitual and consistent even under deadline pressure, during production incidents, and in unfamiliar domains. The team does not revert to pre-zone behaviors when conditions deteriorate. This is the target state for each zone.
+**Established.** The zone's behaviors are habitual and consistent even under deadline pressure, during production incidents, and in unfamiliar domains. The team does not revert to pre-zone behaviors when conditions deteriorate. This is the practical sustainability threshold for each zone -- the point at which the team can reliably maintain its practices without external support. Established teams may choose to invest in reaching Exemplary, or may direct that investment toward the next zone transition.
 
 **Exemplary.** The team not only practices the zone's behaviors at an established level but can coach other teams, adapt practices to novel contexts, and innovate within the zone's framework. Teams at Exemplary are a resource for organizational learning, not just practitioners of established practices.
 

@@ -230,7 +230,7 @@ The zones are cumulative. Each zone assumes and builds upon the proficiencies of
 - **Zone 3 assumes Zone 2 competency.** The team-level practices, quality gates, and collaborative AI habits built in Zone 2 become the foundation on which Zone 3's pipeline-driven approach is constructed.
 - **Zone 4 assumes Zone 3 competency.** The AI-native development capability established at the team level in Zone 3 is the raw material from which Zone 4's factory is built.
 
-All zones form a single progression, with each building on the previous. Zone 2 is the typical near-term target -- the competitive baseline for modern software teams. Zones 3 and 4 require progressively larger investments that are justified when the scale, velocity, or nature of the work demands them. Organizations choose their stopping point based on strategic context.
+All zones form a single progression, with each building on the previous. Zone 2 is the typical near-term target for most organizations -- the point at which AI adoption becomes a durable team-level capability. Zones 3 and 4 require progressively larger investments that are justified when the scale, velocity, or nature of the work demands them. Organizations choose their stopping point based on strategic context and investment capacity; every zone is a legitimate destination when chosen through informed analysis.
 
 ---
 
