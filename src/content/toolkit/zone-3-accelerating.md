@@ -249,5 +249,5 @@ Zone 4 extends Zone 3's AI-driven development into organization-wide strategic c
 - [Technique Catalog: Zone 3](/toolkit/technique-catalog) -- Detailed descriptions of Zone 3 tools and methods (CAT, eval harnesses, observability, prompt versioning, etc.)
 - [Proficiency Catalog](/toolkit/proficiency-catalog) -- Complete listing of Zone 3 proficiencies across all roles
 - [Zone-Specific Metrics](/toolkit/zone-specific-metrics) -- Leading indicators for measuring Zone 3 competency progression
-- [How to Choose a Target Zone](/toolkit/choose-target-zone) -- Decision framework for whether Zone 3 is the right target for your organization
+- [How to Choose a Target Zone](/toolkit/choose-target-zone) -- Decision framework for whether Zone 3 is the right target for a client organization
 - [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap) -- How to build a roadmap for the Zone 2-to-3 transition
