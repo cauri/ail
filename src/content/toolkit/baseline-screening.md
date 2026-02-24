@@ -37,6 +37,7 @@ This screening should be completed before administering any zone-specific diagno
 - These questions are intentionally broad. The goal is to quickly distinguish "no AI usage at all" from "some AI usage worth measuring." Do not over-analyze the answers.
 - If a team has one enthusiast using AI tools while everyone else does not, that still counts as a "Yes" for question 1 --- the organization is not at Zone 0. However, it likely means Zone 1 scores will be low.
 - Organizations at Zone 0 should not feel rushed. The diagnostic is designed to meet teams where they are. Zone 0 is a valid starting point, and the recommended action is to invest in enabling adoption before measuring it.
+- These screening questions focus on engineering AI adoption as the most common entry point. Organizations where non-engineering crafts (PM, design, QA) have adopted AI tools ahead of engineering should proceed directly to the Zone 1 diagnostic.
 
 ---
 

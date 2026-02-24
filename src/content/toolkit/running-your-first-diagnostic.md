@@ -28,7 +28,7 @@ Review the [scoring thresholds](/toolkit/scoring-thresholds) so you can quickly 
 
 ### Prepare Materials
 
-You need: scoring forms (one per participant per zone), a score tally sheet, a timer, your facilitation notes, and the [discussion prompts](/toolkit/pre-workshop-checklist). The [pre-workshop checklist](/toolkit/pre-workshop-checklist) covers the full list.
+You need: scoring forms (one per participant per zone), a score tally sheet, a timer, your facilitation notes, and the [discussion prompts](/toolkit/discussion-prompts). The [pre-workshop checklist](/toolkit/pre-workshop-checklist) covers the full list.
 
 ### Common First-Time Mistakes to Avoid
 

@@ -162,7 +162,7 @@ Notice what this narrative does not do. It does not say "Dana is behind." It say
 
 **Assuming high scores mean competency.** Self-reported scores can reflect aspiration as much as behavior. A team that enthusiastically believes they should be using AI tools may rate themselves higher than their actual behavior warrants. When scores seem surprisingly high, probe in discussion: "Can you describe what happened when you had that deployment incident last month -- did you reach for AI tools during that?" Behavioral specificity reveals whether scores reflect habit or intention.
 
-**Treating stage boundaries as precise.** The difference between an average of 3.9 (Developing) and 4.0 (Established) is not meaningful. These are bands, not bright lines. A team at 3.95 average is not categorically different from one at 4.05. Report the stage, but do not suggest that one decimal point of progress is a transformation. Focus on the patterns and the narrative, not the boundary.
+**Treating stage boundaries as precise.** The difference between an average of 3.9 (Developing) and 4.0 (Established) is not meaningful. These are bands, not bright lines. A team at 3.95 average is not categorically different from one at 4.05. Report the stage, but do not suggest that one decimal point of progress is a transformation. Focus on the patterns and the narrative, not the boundary. For near-boundary cases, see the sensitivity guidance in the [Scoring Thresholds](/toolkit/scoring-thresholds#evidence-basis) document, which recommends treating scores within +/-0.2 of any threshold as ambiguous and relying more heavily on behavioral evidence from the workshop discussion.
 
 ---
 

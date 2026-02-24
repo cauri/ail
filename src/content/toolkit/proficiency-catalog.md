@@ -197,7 +197,7 @@ The following tables show how proficiencies evolve across zones for each role. E
 
 | Capability Area | Zone 1: Augmenting | Zone 2: Integrating | Zone 3: Accelerating | Zone 4: Industrializing |
 |---|---|---|---|---|
-| **Story writing** | Uses AI for user story writing, research synthesis, and stakeholder communications | Writes user stories that include AI behavioral criteria | Writes user stories with AI behavioral criteria and measurable, quantifiable acceptance criteria | Operates at the portfolio level, defining factory production targets |
+| **Product specification** | Uses AI for user story writing, research synthesis, and stakeholder communications | Writes user stories that include AI behavioral criteria | Writes user stories with AI behavioral criteria and measurable, quantifiable acceptance criteria | Operates at the portfolio level, defining factory production targets |
 | **AI understanding** | Prompts effectively for PM-relevant tasks | Can specify "definition of done" that includes AI verification criteria | Understands and can explain model limitations and non-determinism to stakeholders | Manages the tension between production volume and quality governance |
 | **Tool usage** | Uses AI tools for meeting notes and summaries | Uses AI for discovery, synthesis, and stakeholder communication systematically | Can iterate on prompt-level and workflow-level improvements, not just feature-level | Specifies system-level acceptance criteria for entire AI pipelines |
 | **Business value** | -- | Participates in retrospectives about agentic workflow improvements | Articulates and quantifies AI use case ROI and trade-offs; defines "thresholds of efficacy" | Defines factory production targets at the portfolio level |

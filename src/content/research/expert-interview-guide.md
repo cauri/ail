@@ -148,6 +148,13 @@ Probes:
 - Are the thresholds too low -- could a team that hasn't really achieved competency game its way above threshold?
 - Would you suggest different thresholds for any zone in particular?
 
+**D2. We use three criteria together: composite average, standard deviation, and a minimum score on every question. Is that the right structure for determining competency, or would a different approach be more appropriate for what you've observed?**
+
+Probes:
+- Would a weighted approach -- where some questions count more than others -- better capture competency as you've seen it?
+- Are there situations where a team should be considered competent even if one question falls below the minimum, or is the "no weak links" principle correct?
+- Have you seen other threshold structures in assessment tools that worked well or poorly? What made the difference?
+
 ### Theme E: Missing Elements
 
 **E1. What is the most important thing missing from this framework? If you could add one element -- a zone, a proficiency, an investment, a metric -- what would it be?**

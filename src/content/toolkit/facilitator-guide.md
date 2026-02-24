@@ -73,7 +73,7 @@ A full ACE engagement has four phases. Understanding all four gives you context 
 
 **4. Collaborative Delivery (3-18 months).** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work. As the Facilitator, your role during this phase is the assessment layer: conducting monthly check-ins, facilitating quarterly retrospectives, administering re-diagnostics, and refreshing the roadmap. You coordinate with the Artisan team lead but maintain diagnostic independence. See the [engagement model](/toolkit/engagement-model) for full details on how the Facilitator and Artisan roles interact.
 
-As a new facilitator, you will focus primarily on Phases 1 and 2. Goal setting and implementation support come with experience and deeper client relationships.
+As a new facilitator, you will focus primarily on Phases 1 and 2. Goal setting and Collaborative Delivery come with experience and deeper client relationships.
 
 ## The Diagnostic Workshop
 

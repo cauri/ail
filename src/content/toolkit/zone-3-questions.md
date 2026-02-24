@@ -6,7 +6,7 @@ order: 3
 ---
 ## Purpose
 
-These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements. Zone 3 competency means the entire production pipeline has transformed: engineers operate as process designers, PMs as behavioral specifiers, designers as specification encoders, and QA engineers as evaluation pipeline specialists. The questions measure organizational-level behaviors: Continuous Alignment Testing (CAT), observability of AI-driven processes, eval harnesses, prompt versioning, cross-functional role transformation, and the emergence of the AI Engineer role.
+These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements. Zone 3 competency means the entire production pipeline has transformed: engineers operate as process designers, PMs as behavioral specifiers, designers as specification authors, and QA engineers as evaluation pipeline specialists. The questions measure organizational-level behaviors: Continuous Alignment Testing (CAT), observability of AI-driven processes, eval harnesses, prompt versioning, cross-functional role transformation, and the emergence of the AI Engineer role.
 
 ## Questions
 

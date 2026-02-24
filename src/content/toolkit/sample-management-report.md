@@ -10,7 +10,7 @@ order: 4
 **Date:** February 6, 2026
 **Prepared by:** Maya Okafor
 **Assessment Period:** January 12 – January 30, 2026
-**Teams Assessed:** 5 teams (28 total participants)
+**Teams Assessed:** 5 teams (32 total participants)
 **Zones Assessed:** Zone 1 (Augmenting), Zone 2 (Integrating)
 
 ---
@@ -112,6 +112,16 @@ No organizational templates exist for team-level AI configuration (AGENTS.md or 
 
 ---
 
+### Finding 6: Adoption Anxiety and Role Identity Concerns Are Present but Unaddressed
+
+Across multiple teams, workshop discussions surfaced emotional and identity-level concerns about AI adoption that go beyond tooling and process. Team members expressed uncertainty about how their roles will change as AI-assisted workflows become standard — particularly in non-engineering roles where the shift from manual to AI-augmented work feels like a redefinition of professional identity rather than just a tool upgrade.
+
+**Evidence:** Observed in workshop discussions with 4 of 5 assessed teams. Non-engineering participants (PMs, designers, QA engineers) were more likely to express these concerns explicitly, but engineers also described discomfort with the pace of change and uncertainty about what "senior" means when AI handles tasks that previously required years of experience.
+
+**Implication:** Adoption anxiety that is not acknowledged tends to manifest as passive resistance — delayed adoption, skepticism framed as quality concerns, or quiet reversion to manual practices when not observed. Organizations that treat AI adoption as a purely technical initiative and ignore the emotional dimension tend to see slower and more uneven adoption. Acknowledging these concerns explicitly — in team retrospectives, in leadership communication, and in training design — does not slow adoption; it removes a hidden drag on it.
+
+---
+
 ## Investment Themes
 
 ### Theme 1: AI Tooling Standardization and Access
@@ -197,6 +207,8 @@ The ACE (AI Competency Evaluation) framework diagnostic is a facilitated self-as
 Each team workshop ran 90-120 minutes. Team members individually scored 9-12 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always) and then participated in facilitated discussion about scores, variance, and blockers. Zone competency requires a composite average of 4.7 or higher, a standard deviation across all individual responses of 0.5 or lower, and no single question composite below 4.0.
 
 Results are reported through a dual-report model. Each team received a confidential team report with their specific scores, discussion themes, and investment recommendations. This management report aggregates systemic patterns across all five teams without disclosing team-specific data. The separation is non-negotiable: the validity of the self-assessment depends on teams being confident that their candid responses will not be reported upward in identifiable form.
+
+The scoring thresholds are expert-judgment-based starting points informed by the Agile Fluency Model and DORA measurement principles. They have not yet been validated against empirical data. Zone classifications should be interpreted in conjunction with the behavioral evidence from workshop discussions, not as standalone numeric determinations.
 
 ---
 

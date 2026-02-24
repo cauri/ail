@@ -68,7 +68,7 @@ Proficiencies are specific, observable behaviors that are practiced habitually -
 
 - **Uses AI to assist with test case generation and test strategy design.** AI tools help generate test cases from requirements, suggest edge cases, and assist with structuring test plans. The QA engineer refines and validates AI-generated test artifacts against their domain knowledge.
 - **Uses AI for bug triage, reproduction, and root cause analysis.** When investigating defects, the QA engineer queries AI to help analyze logs, suggest reproduction steps, identify likely root causes, and cross-reference similar issues -- as a standard diagnostic step alongside traditional investigation techniques.
-- **Uses AI to create and manage test data.** AI assists with generating realistic test data sets, creating test fixtures, and producing data that covers boundary conditions and edge cases, reducing the manual effort that often makes thorough test data preparation impractical.
+- **Uses AI to create and manage test data.** AI assists with generating realistic test data sets, creating test fixtures, and producing data that covers boundary conditions and edge cases, reducing the manual effort that often makes thorough test data preparation impractical. This includes awareness that AI-generated test data may reflect demographic patterns in training data -- for example, overrepresenting certain user demographics or defaulting to culturally specific data patterns that do not reflect the application's actual user base.
 
 ### A Note on Data Science and ML Practitioners
 
@@ -113,6 +113,8 @@ Vibe-coding is exploratory, low-stakes AI-assisted coding used for prototypes, p
 - **Visible productivity improvements:** Within 2-4 weeks of adoption, individual developers report faster task completion and reduced friction on routine work.
 - **Organization-wide adoption:** 2-6 months depending on organizational culture, the strength of the investment in removing barriers, and whether leadership actively champions adoption. Organizations with strong learning cultures and low bureaucratic friction reach broad adoption faster.
 - **Competency (habitual under pressure):** True competency -- where AI tool usage persists under deadline pressure and in unfamiliar contexts -- typically lags initial adoption by 1-2 months. Early adoption is often enthusiastic but fragile; competency is demonstrated when the behavior is durable.
+
+Timeline estimates above are based primarily on developer adoption data. PM, designer, and QA adoption timelines may differ depending on AI tool maturity and workflow integration for each role. Facilitators should set role-appropriate expectations rather than applying developer timelines universally.
 
 ## Recognizing and Addressing Regression
 

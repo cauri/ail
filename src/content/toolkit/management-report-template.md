@@ -85,6 +85,8 @@ Total                |          |            |        |             |  [N]
 
 *Facilitator guidance: Identify 5-7 patterns observed across multiple teams. These should be organizational or structural factors — tooling, policy, culture, process — not team-specific behaviors. Each finding should have clear evidence expressed as a pattern ("multiple teams reported..." or "N of N teams...") without identifying which teams. Prioritize findings that leadership can actually act on.*
 
+*In addition to operational and structural findings, consider whether emotional and cultural patterns emerged across teams. Adoption anxiety, role identity concerns, excitement-frustration dynamics, and fear about how AI changes performance evaluation are systemic conditions when they appear across multiple teams. These patterns are often invisible to leadership but are strong predictors of adoption pace and durability. If observed, include them as a finding — they warrant organizational attention alongside tooling and policy investments.*
+
 ### Finding 1: [FINDING TITLE]
 
 *Facilitator guidance: Name the finding as a short noun phrase that describes the structural condition, not a symptom.*

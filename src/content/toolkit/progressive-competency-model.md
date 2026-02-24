@@ -28,7 +28,7 @@ Zone 2 builds on Zone 1. Teams move from individual tool use to systematic integ
 
 Zone 3 builds on Zone 2. Engineers shift into an AI Engineer role, designing solutions around AI capabilities rather than implementing them manually. Teams restructure around AI-native development patterns. This requires the systematic practices established in Zone 2 as a foundation.
 
-Zone 4 builds on Zone 3. The organization operates an AI-first software factory where engineers maintain the production system and AI produces the software. This requires the role transformation and structural changes established in Zone 3.
+Zone 4 builds on Zone 3. The organization operates an AI-first software factory where engineers maintain the production system and AI produces the software. This requires the role transformation and structural changes established in Zone 3. *Note: Zone 4 is largely theoretical at the time of writing. No organization has demonstrably achieved this level of AI-driven development. The zone description is based on trajectory analysis and expert judgment, not documented organizational practice. See the [Zone 4 reference](/toolkit/zone-4-industrializing) for details.*
 
 Each transition deserves strategic analysis. The path is sequential, but the distance you travel along it is a choice.
 
@@ -44,7 +44,7 @@ The right zone is the one that matches your strategic context.
 
 **Zone 4 involves cultural transformation.** The shift from software development as craft production to industrial production requires sustained executive commitment, dedicated capital investment, and specialized talent acquisition. This investment is justified when software production at industrial scale is a strategic necessity -- when the organization competes on its ability to produce and iterate software at a pace that traditional development cannot match.
 
-Organizations that stop at Zone 2 with deep competency are making a sound strategic decision, not failing to progress. The same applies to organizations that reach Zone 3 and determine that Zone 4 does not serve their strategic position.
+Every zone is a legitimate destination when chosen through informed strategic analysis. An organization that achieves deep Zone 1 competency because its strategic context does not require team-level process integration has succeeded. An organization at Zone 2 with deep competency is making a sound strategic decision, not failing to progress. The same applies to organizations that reach Zone 3 and determine that Zone 4 does not serve their strategic position. The framework describes a path; the organization chooses the destination.
 
 ## It Is a Progression, Not a Mandate
 

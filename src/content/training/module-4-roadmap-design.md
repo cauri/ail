@@ -189,7 +189,7 @@ After completing Module 4, trainees should:
 - Reflect on the non-linear progress patterns discussed in Session 5. Have they observed plateaus, jumps, or regression in their own experience with organizational change? What made those patterns easier or harder to navigate?
 - Review the team report and management report formats from Module 2, noting how an initial diagnostic report differs from a re-diagnostic report. What does "progress" look like in a re-diagnostic, and how might a facilitator communicate mixed results (some areas improved, others regressed)?
 
-Module 5 addresses the ongoing facilitator-client relationship across the full implementation support phase: check-ins, retrospectives, re-diagnostics, regression response, and the ethics of long-term engagement.
+Module 5 addresses the ongoing facilitator-client relationship across the full Collaborative Delivery phase: check-ins, retrospectives, re-diagnostics, regression response, and the ethics of long-term engagement.
 
 ---
 

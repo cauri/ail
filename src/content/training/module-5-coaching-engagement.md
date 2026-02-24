@@ -157,6 +157,8 @@ The facilitating trainee must conduct the check-in agenda without turning it int
 
 After 20 minutes, pairs switch roles with a new persona card. The full group debriefs: what techniques maintained accountability without triggering defensiveness? What questions opened up honest conversation? Where did facilitators slip into accusation mode or, conversely, let the manager avoid accountability entirely? How did facilitators handle the Artisan team's observations — did they over-rely on the Artisan report, or did they appropriately triangulate it against other evidence?
 
+**Variant: Manager's external attributions are largely accurate.** In at least one round, the persona card should describe a situation where the manager's external explanations for missed milestones are substantially correct — the major incident response genuinely consumed the team's bandwidth, and the Artisan team's observations about reduced pairing are consistent with the manager's account rather than contradicting it. This variant teaches trainees to genuinely hold multiple accounts as valid rather than defaulting to the assumption that external attributions are rationalizations. The facilitator must practice the mutual learning stance: acknowledging that the leading indicators confirm the manager's explanation, exploring what this means for the roadmap timeline, and collaboratively determining whether the plan needs adjustment rather than treating the conversation as an accountability exercise where the "right" answer is that the manager should have done more.
+
 ### Activity 2: Investment Retrospective Practice
 
 **Format:** Small group exercise, 30 minutes

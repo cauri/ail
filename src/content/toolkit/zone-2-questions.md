@@ -60,6 +60,8 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **Excluding PMs from the assessment.** Zone 2 includes product management integration. If PMs are not present or their questions are treated as optional, the assessment is incomplete. PM participation in the agentic workflow is a Zone 2 requirement, not a nice-to-have.
 
+- **Superficial designer integration.** Design integration can be superficial. A designer who has reviewed the AGENTS.md but not contributed design-specific constraints is not yet integrated at Zone 2. Probe whether designers are co-owners of the shared configuration or downstream consumers. Look for design system rules, accessibility requirements, and component specifications encoded in the team's AI configuration as evidence of genuine integration.
+
 - **Overweighting tooling, underweighting practice.** Having sophisticated CI/CD pipelines and automated review tools does not mean the team follows Plan/Code/Verify or reviews AI output rigorously. Tools enable practices; they do not replace them.
 
 - **Confusing context engineering with prompt engineering.** Question 4 asks about externalized plans and context management at the project level. If the team equates "good prompting" with "good context engineering," probe deeper. Context engineering involves managing project-level configuration, session-level context, and repository-level documentation --- not just writing better prompts.

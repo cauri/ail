@@ -120,12 +120,16 @@ The investment case should include:
 - The organization has a history of launching ambitious initiatives that lose support after 6 months
 - No one has articulated what specific business outcomes the higher zone will produce
 
-### Targeting Too Low
+### Risk Factors for Under-Investment
+
+The following signals do not mean your target is wrong -- they are factors to weigh during strategic analysis. A lower zone chosen through genuine analysis is always preferable to a higher zone chosen reactively.
 
 - Competitors are visibly outpacing you in AI-augmented development and it is affecting your market position
 - Your engineering talent is leaving for organizations with more advanced AI practices
 - Your product roadmap requires capabilities that your current zone cannot deliver
 - Leadership's risk aversion is based on unfamiliarity with AI rather than genuine strategic analysis
+
+If any of these apply, revisit the strategic need assessment in Step 2 to confirm that your target zone accounts for them. The presence of these factors is a prompt for deeper analysis, not an automatic reason to target a higher zone.
 
 ## Next Steps
 

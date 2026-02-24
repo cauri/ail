@@ -35,7 +35,7 @@ By the end of this module, trainees will be able to:
 
 **The three problems ACE solves.** Organizations do not know where they are (confusion between individual enthusiasm and organizational capability), where to go (pressure to pursue the highest level rather than the right destination), or how to get there (lack of structured investment planning).
 
-**The engagement model.** Facilitated diagnostic, goal setting, roadmap creation, implementation support, and reassessment. The system is designed to be repeatable -- a continuous improvement cycle grounded in observable behavior.
+**The engagement model.** Facilitated diagnostic, goal setting, roadmap creation, Collaborative Delivery, and reassessment. The system is designed to be repeatable -- a continuous improvement cycle grounded in observable behavior.
 
 **What ACE is not.** Not a mandate -- it is a progression where organizations choose their stopping point based on strategic need. Not an audit (it is a facilitated self-assessment). Not a certification or compliance framework. Not a tool recommendation engine.
 
@@ -59,7 +59,7 @@ By the end of this module, trainees will be able to:
 
 **Core metric.** Developers habitually use AI coding tools in their daily work, even under deadline pressure or in unfamiliar codebases.
 
-**Proficiencies.** Walk through engineering proficiencies (inline completion, AI for debugging, mode selection between vibe-coding/CHOP/AI-assisted coding, code review of AI output, test and documentation generation), product management proficiencies (story writing, meeting notes, effective prompting), design proficiencies (ideation, AI-powered design tools), and QA proficiencies (test case generation, bug triage and root cause analysis, test data creation). Note that data science/ML practitioners should participate in Zone 1 adoption alongside other roles -- their existing practices naturally overlap with AI tool usage.
+**Proficiencies.** Walk through engineering proficiencies (inline completion, AI for debugging, mode selection between vibe-coding/CHOP/AI-assisted coding, code review of AI output, test and documentation generation), product management proficiencies (story writing, meeting notes, effective prompting, product discovery acceleration, quantitative data analysis), design proficiencies (ideation, AI-powered design tools, user research synthesis, IA and interaction design analysis), and QA proficiencies (test case generation, bug triage and root cause analysis, test data creation). Note that data science/ML practitioners should participate in Zone 1 adoption alongside other roles -- their existing practices naturally overlap with AI tool usage.
 
 **Organizational investments.** Tool licenses for all roles, clear policies on approved tools and data handling, structured training, removing fear and stigma, practical access (API keys, accounts), guidelines for when AI-generated code needs extra review.
 
@@ -93,7 +93,7 @@ By the end of this module, trainees will be able to:
 
 **The AI Engineer identity.** This is not a senior developer who uses AI tools. It is a distinct role focused on designing and operating the systems that produce software rather than producing the software directly.
 
-**Core metric.** Engineers operate as process designers, PMs as behavioral specifiers, designers as specification encoders, and QA engineers as evaluation pipeline specialists -- each role defines its respective inputs to the AI production pipeline.
+**Core metric.** Engineers operate as process designers, PMs as behavioral specifiers, designers as specification authors, and QA engineers as evaluation pipeline specialists -- each role defines its respective inputs to the AI production pipeline.
 
 **Key proficiencies.** Continuous Alignment Testing (CAT) pipelines, eval harness design, context engineering at the system level, observability instrumentation, pipeline-level failure diagnosis, prompt versioning, "separate generation from decisioning" patterns (four levels: Conditioning, Authority, Workflows, Evals). QA proficiencies: eval harness design, CAT pipeline ownership, failure mode taxonomy, acceptance thresholds. Design proficiency: encoding design standards as machine-verifiable pipeline inputs.
 
@@ -177,6 +177,7 @@ The facilitator presents 8-10 short vignettes (2-3 sentences each) describing te
 - "A developer uses Copilot daily and finds it faster for most tasks. When the internet goes down, she works without it but noticeably slows down." (Competency -- the habitual use is clear; inability to use tools when unavailable is not a competency issue.)
 - "The team completed an AI workshop last month and all members can demonstrate effective prompting techniques. Usage in daily work is sporadic." (Not competency -- knowledge without habitual practice.)
 - "The team has AGENTS.md committed to the repo, but it was written by one senior engineer six months ago and has not been updated since." (Not competency at Zone 2 -- not a shared, evolving practice.)
+- "A product manager uses AI to draft user stories and meeting summaries regularly, but when preparing for a critical product strategy review, she manually synthesizes customer research data because 'the AI might miss important nuances.'" (Zone 1 Developing -- habitual for routine delivery tasks but abandons AI for discovery work under pressure, revealing that the practice has not yet generalized beyond low-stakes contexts.)
 
 ### Activity 3: Investment Analysis Exercise
 
@@ -225,14 +226,15 @@ Describe a real or hypothetical organization at each of the four zones. For each
 
 Trainees may use a single organization progressing through zones, or four different organizations each at a different zone.
 
-**Assessment criteria.** The written reflection is evaluated across four dimensions, each rated as Satisfactory or Not Yet Satisfactory:
+**Assessment criteria.** The written reflection is evaluated across five dimensions, each rated as Satisfactory or Not Yet Satisfactory:
 
 1. **Zone identification accuracy.** The observable behaviors described are consistent with the claimed zone and stage. The trainee distinguishes between knowledge, best-day performance, and habitual behavior in their examples.
 2. **Investment reasoning.** The trainee identifies specific investment categories (structural, policy, resource, management behavior) rather than generic descriptions. Missing investments are connected to observable behavioral gaps.
 3. **Progression judgment.** The trainee demonstrates understanding of the progressive competency model: advancing is not always the right choice, each transition deserves strategic analysis, and the reasoning addresses the organization's context rather than defaulting to "higher is better."
 4. **Concreteness.** Examples describe specific, plausible organizational situations rather than abstract descriptions that could apply to any organization. Behaviors are described in terms of what people do, not what they know or intend.
+5. **Cross-functional treatment.** The observable behaviors described include contributions from non-engineering roles (PM, design, QA) where these roles are relevant to the claimed zone. Zone descriptions that address only engineering practices without acknowledging the parallel role proficiencies are incomplete.
 
-A satisfactory written reflection meets all four criteria. Trainees who receive "Not Yet Satisfactory" on any dimension receive specific written feedback identifying the gap and may revise and resubmit once before Module 2.
+A satisfactory written reflection meets all five criteria. Trainees who receive "Not Yet Satisfactory" on any dimension receive specific written feedback identifying the gap and may revise and resubmit once before Module 2.
 
 ### Case Study Quiz
 

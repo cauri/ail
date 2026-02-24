@@ -30,7 +30,7 @@ Every facilitation decision in this workshop -- how to introduce the zone, how t
 
 Let me start by telling you what this is and what this is not.
 
-**This is a facilitated self-assessment.** You are going to assess your own team's practices around AI-augmented software development. I am here to facilitate the conversation, not to evaluate you. There are no right or wrong answers. The only wrong answer is an answer that does not reflect what you actually do.
+**This is a facilitated self-assessment.** You are going to assess your own team's practices around AI-augmented software development. I am here to facilitate the conversation, not to evaluate you. Later in the engagement, when I shift to an interpretive or advisory role, I will name that transition explicitly so you always know what role I am in. There are no right or wrong answers. The only wrong answer is an answer that does not reflect what you actually do.
 
 **This is not an audit.** I am not here to grade you or report back to management on how well you are doing. The results of today's session will produce two reports: a team report that goes to you -- this team -- and a management report that describes organizational patterns across multiple teams without identifying any specific team's scores. Your honest answers stay in this room.
 
@@ -111,7 +111,7 @@ Read each screening question from the baseline screening document. Tally respons
 
 **For Zone 3 (Accelerating):**
 
-"Zone 3 is about a fundamental shift across all roles in the production pipeline. Engineers operate as process designers, PMs become behavioral specifiers who define what accuracy and reliability the business can tolerate, designers become specification encoders whose standards are machine-verifiable factory inputs, and QA engineers become evaluation pipeline specialists who design the infrastructure that validates AI output at scale. AI drives the core implementation work, and all roles define their respective inputs to the production pipeline."
+"Zone 3 is about a fundamental shift across all roles in the production pipeline. Engineers operate as process designers, PMs become behavioral specifiers who define what accuracy and reliability the business can tolerate, designers become specification authors whose standards are machine-verifiable factory inputs, and QA engineers become evaluation pipeline specialists who design the infrastructure that validates AI output at scale. AI drives the core implementation work, and all roles define their respective inputs to the production pipeline."
 
 **For Zone 4 (Industrializing):**
 

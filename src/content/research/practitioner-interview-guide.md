@@ -183,6 +183,14 @@ Probes:
 
 **Flag unexpected descriptions.** If the practitioner describes practices that don't fit any zone -- things that seem more or less advanced than the zones they recognized themselves in -- note these carefully. They may represent gaps in the framework or evidence that the zone boundaries need adjustment.
 
+**Record recognition quality.** When the practitioner responds to a zone description, record the quality of their recognition using this scale:
+- **Strong recognition:** The practitioner immediately identifies the description as matching their experience and provides specific examples unprompted.
+- **Moderate recognition:** The practitioner agrees with qualifications, identifies partial matches, or says "that's mostly right but..."
+- **Weak recognition:** The practitioner is polite but does not connect the description to specific experience ("I suppose that could be us").
+- **Non-recognition:** The practitioner describes a reality that does not match the zone description, or says the description does not apply to their situation.
+
+This scale standardizes how recognition data is recorded across interviews and supports quantitative comparison during analysis.
+
 ---
 
 ## Related Documentation

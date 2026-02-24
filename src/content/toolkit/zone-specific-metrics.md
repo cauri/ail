@@ -112,13 +112,14 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 
 ## Zone 3: Accelerating
 
-**Zone summary:** AI fundamentally changes all roles in the production pipeline. Engineers become process designers, PMs become behavioral specifiers, designers become specification encoders, and QA engineers become evaluation pipeline specialists.
+**Zone summary:** AI fundamentally changes all roles in the production pipeline. Engineers become process designers, PMs become behavioral specifiers, designers become specification authors, and QA engineers become evaluation pipeline specialists.
 
 ### Primary Metric
 
 **Ratio of specification and verification time to implementation time.**
 
 - **How to measure:** Task time-tracking categorized into specification (defining what to build), implementation (building it), and verification (confirming it works). This can be done through developer self-classification of time blocks or through task type categorization in sprint planning. Note: this metric is conceptually important but practically challenging to measure with precision. The boundaries between specification, implementation, and verification are blurry in AI-augmented workflows (e.g., reviewing AI-generated code is simultaneously verification and implementation). Treat the target as a directional indicator -- specification and verification should become the majority of work -- not a precise measurement. Consider supplementing with proxy measures: ratio of planning artifacts to code artifacts per PR, or ratio of review comments to code changes. The validation study should assess whether practitioners can reliably self-classify time into these categories.
+  *Validation note:* The "time to self-classification" aspect of this metric --- whether practitioners can reliably categorize their time into specification, implementation, and verification --- has not yet been included in the [Validation Study Plan](/research/validation-study-plan). This self-classification reliability question should be considered for inclusion in future validation phases, as the metric's practical utility depends on practitioners being able to make these categorizations consistently.
 - **Target:** [Expert judgment] Specification + verification time represents 50-70% of total development time (indicating the role has shifted from "writing code" to "specifying and verifying solutions").
 
 ### Secondary Metrics
@@ -225,7 +226,7 @@ These metrics track the overall journey across zones, independent of any single 
 | Metric | What It Measures | How to Measure |
 |--------|-----------------|----------------|
 | Zone progression rate | Speed at which teams advance through zones | Time between zone competency assessments showing progression |
-| Zone regression frequency | How often teams slip back to previous zone behaviors under pressure | Diagnostic reassessment results |
+| Zone regression frequency | How often teams slip back to previous zone behaviors under pressure | Diagnostic reassessment results. Operationally, zone regression is identified by: (a) declining composite scores on re-diagnostic assessment (e.g., a team previously at Established dropping to Developing), or (b) loss of previously habitual behaviors under pressure as surfaced during facilitated discussion (e.g., a team that previously maintained AI-assisted code review under deadline pressure now abandons it). Both indicators should be assessed during reassessment; score decline alone may reflect honest recalibration rather than true regression, so facilitator judgment about behavioral evidence is essential. |
 | Investment follow-through rate | Whether the organization makes the investments it commits to | Quarterly audit of roadmap commitments vs. actual investments |
 | Cross-zone consistency | Whether the organization progresses evenly or has wide zone variance between teams | Standard deviation of zone scores across teams |
 | Competency durability | Whether achieved competency persists over time | Repeated diagnostic assessments at 6-month intervals |

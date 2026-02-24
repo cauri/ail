@@ -117,6 +117,8 @@ This criterion measures consistency --- both across team members and across ques
 
 *Example: A team of 5 members answering 10 questions produces 50 individual responses. Calculate the standard deviation of all 50 scores. If the SD is ≤ 0.5, the team demonstrates the consistency required for Exemplary status.*
 
+*Methodological note:* The 0.5 SD threshold is an expert-judgment-based starting point, not an empirically derived cutoff. It was selected as a reasonable boundary for distinguishing "consistently high-performing" teams from those with meaningful internal variance, but it has not been tested against independently observed competency. The [Validation Study Plan](/research/validation-study-plan) includes ROC analysis (Phase 3) that will empirically calibrate this threshold by identifying the SD value that best discriminates between teams independently assessed as competent versus not-yet-competent. Facilitators should expect this threshold to be revised as validation data becomes available.
+
 #### When Criterion 2 Is Not Met: Diagnosing the Source of Variance
 
 A global SD above 0.5 indicates inconsistency, but it does not reveal the source. Two distinct variance patterns produce different diagnostic signals and require different interventions. When Criterion 2 is not met, facilitators should decompose the variance using the following procedure:
@@ -261,6 +263,13 @@ If early questions (which tend to be more fundamental) score higher than later q
 ### Scores That Decline Under Probing
 
 If initial scores are high but decrease when the facilitator asks for specific examples, the original scores may reflect aspiration rather than behavior. This is common and is not cause for concern --- it is cause for honest recalibration. Guide the team to re-rate based on actual behavior, not intended behavior.
+
+**Facilitation guidance:** Score decline under probing is diagnostically valuable information, not a facilitation failure. When initial self-assessment scores drop during facilitated discussion, this typically indicates that the initial scores were inflated by social desirability bias --- team members reported what they aspire to rather than what they actually do. Facilitators should:
+
+- **Normalize the decline.** Explain to the team that score adjustment during discussion is expected and healthy. It means the team is moving from aspiration to honest self-assessment.
+- **Record both scores.** Note the pre-discussion and post-discussion scores. The magnitude of the decline is itself a useful data point --- large declines may indicate that the team's self-perception is significantly out of alignment with actual behavior, which is worth surfacing in the team report.
+- **Do not attempt to "recover" the higher scores.** The post-probing scores are more diagnostically accurate than the initial scores. Facilitators who try to preserve higher scores are undermining the assessment's value.
+- **Use the decline as a coaching moment.** The gap between initial and probed scores reveals exactly where the team's aspirational self-image diverges from habitual behavior. This gap is a productive starting point for identifying investment priorities.
 
 ---
 

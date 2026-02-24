@@ -26,12 +26,18 @@ The most rigorous of the three Zone 1 engagement modes. Structured, human-review
 
 ## B
 
+**Baseline screening**
+The quick pre-assessment (3 yes/no questions) used to determine whether a team has sufficient AI tool adoption to warrant a full Zone 1 diagnostic. If all three answers are "no," the organization is at Zone 0 and should begin with foundational investments before proceeding. The screening takes less than 5 minutes and can be answered by an engineering manager or team lead with broad visibility into team practices. See [Baseline Screening](/toolkit/baseline-screening).
+
 **Bimodal distribution**
 A score pattern where responses cluster at two distinct levels (e.g., half the team scores 4-5, half scores 1-2) rather than forming a single cluster. Indicates a split in adoption — by role, tenure, or context — that the average score obscures. A bimodal team is not competent regardless of the average. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 ---
 
 ## C
+
+**Collaborative Delivery**
+Phase 4 of the ACE engagement model. Experienced Artisans embed with the client team as full members — not as advisors sitting in on meetings — to deliver real software together while mentoring through the shared work. Learning happens through the work itself: pair programming on real stories, collaborative design sessions, shared PR reviews, and real-time coaching on practices as they arise naturally in delivery. Distinct from advisory-only or staff-augmentation models: the work is shared, and both delivery and capability transfer are explicit objectives. See [Engagement Model](/toolkit/engagement-model).
 
 **CAT (Continuous Alignment Testing)**
 The AI analog of test-driven development. Automated pipelines that verify AI outputs remain consistent, accurate, and aligned with behavioral expectations. No AI-produced feature ships without passing its eval criteria. A Zone 3 core practice. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).
@@ -115,6 +121,13 @@ Pre-commit hooks or equivalent CI/CD gates that require AI-generated code to pas
 
 ---
 
+## N
+
+**North Star Metric**
+The single metric that best captures the core capability being measured across the ACE framework: AI-Augmented Development Throughput — the rate at which teams deliver validated, production-ready software per unit of human effort, enabled by AI augmentation. "Validated" is critical: raw output volume without quality is not throughput. The metrics tree decomposes this North Star Metric into zone-level leading indicators, lagging indicators, and counter-metrics. See [Metrics Tree](/toolkit/metrics-tree).
+
+---
+
 ## O
 
 **Observability**
@@ -124,7 +137,7 @@ Instrumentation of AI interactions to capture traces of tool calls, inputs, retr
 The Zone 2 organizational principle that all team members use a shared AI configuration rather than individual personal setups. Personal configurations may be more effective individually, but a shared setup enables team-level quality, consistency, and evolution. See [Zone 2: Integrating](/toolkit/zone-2-integrating).
 
 **Organizational investment**
-Structural changes, policy changes, resource allocation, and management behavior changes required for a zone transition to succeed. Contrasts with individual training, which is necessary but insufficient. Each zone transition requires specific organizational investments, not just team-level skills development. See [Organizational Investments](/toolkit/organizational-investments).
+The structural changes, policy changes, resource allocation, and management behavior changes that are prerequisites for a zone transition to succeed — not optional additions but necessary conditions that the organization must put in place to enable and sustain practice change at each zone. Individual training creates the capability; organizational investment creates the environment where that capability can be practiced and maintained. The most common failure mode in AI adoption is investing in individuals while leaving the organizational system unchanged: restrictive policies, unsupportive processes, and management indifference cause new practices to wither regardless of how well individuals are trained. Each zone transition requires specific, identified organizational investments. See [Organizational Investments](/toolkit/organizational-investments).
 
 ---
 
@@ -157,6 +170,9 @@ A Zone 3 framework for structuring AI involvement in decisions at four levels: C
 
 **Shadow IT**
 AI tools used by team members that are not officially sanctioned by the organization. A key gap to identify during discovery — the difference between official policy and actual usage patterns. See [Context Analysis Template](/toolkit/context-analysis-template).
+
+**Stopping point (choose your stopping point)**
+The zone an organization deliberately selects as its destination based on strategic analysis, investment capacity, and organizational context. Not every organization should target the highest zone — higher zones represent deeper organizational commitment justified only in certain contexts. A deeply competent Zone 2 organization that chose its destination through careful analysis is in a stronger position than a Zone 4 organization that overextended. Zone 2 is the typical near-term target for most organizations; Zones 3 and 4 require progressively larger investments justified by strategic context. See [Progressive Competency Model](/toolkit/progressive-competency-model) and [How to Choose a Target Zone](/toolkit/choose-target-zone).
 
 **Skills / commands / subagents**
 Reusable AI tools built by the team for repetitive workflows. For example: a `/commit` command that follows team conventions, a `/review` skill that applies team review criteria. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).

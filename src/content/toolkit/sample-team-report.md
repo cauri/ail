@@ -51,7 +51,11 @@ The table below shows each Zone 1 proficiency item, the team's composite score, 
 
 **Zone 1 competency threshold met: No. Stage: Established.**
 
-Core metric: 8/8 members at 5. Zone composite average: 4.3. Standard deviation across all individual responses: approximately 0.6. All question composites at 4.0 or above: yes. The competency threshold (composite average ≥ 4.7, SD ≤ 0.5, no question composite below 4.0) is not fully met — the composite average of 4.3 falls below 4.7, and the SD of 0.6 exceeds 0.5. The team is Established. The 4s on Q4-Q12 are real growth areas and will matter in Zone 2, but they do not change the zone or stage designation.
+Core metric: 8/8 members at 5. Zone composite average: 4.3. Standard deviation across all individual responses: approximately 0.6. All question composites at 4.0 or above: yes. The competency threshold (composite average ≥ 4.7, SD ≤ 0.5, no question composite below 4.0) is not fully met — the composite average of 4.3 falls below 4.7, and the SD of 0.6 exceeds 0.5. The team is Established.
+
+Decomposing the SD of 0.6: between-person SD is approximately 0.3 (team members are relatively consistent with each other), while between-question SD is approximately 0.4 (performance varies more across behavioral areas than across individuals). This is the "low between-person, high between-question" pattern: the team is uniform overall but specific areas lag. The intervention focus should be on those lagging behavioral areas (Q4-Q12) rather than on bringing individual outliers up to the team norm.
+
+The 4s on Q4-Q12 are real growth areas and will matter in Zone 2, but they do not change the zone or stage designation.
 
 ---
 
@@ -98,6 +102,12 @@ The designer and QA engineer are not trailing the engineers — they have adopte
 **5. Team is culturally ready for Zone 2**
 
 The workshop itself was evidence of this. The team engaged seriously with the scoring, challenged each other on variance (notably on Q4 and Q5), and spent substantive time discussing what a shared AGENTS.md would actually say. Teams that treat AI tooling as individual preference tend to stall at Zone 1. This team is already thinking in team-level terms. That orientation is the most important predictor of Zone 2 progress.
+
+---
+
+## Discussion Highlights: Emotional and Cultural Themes
+
+During the workshop, team members expressed genuine excitement about AI capabilities — particularly the speed of prototyping and the ability to explore unfamiliar code quickly. Alongside this excitement, several members voiced anxiety about how AI-assisted workflows will change daily work practices. The QA engineer noted uncertainty about "what my role looks like when AI is writing most of the test scaffolding," and one engineer described feeling pressure to adopt agentic workflows before fully understanding them. The PM observed that shifting to AI-verifiable acceptance criteria felt like "learning a new language for the same job." These identity-level concerns are normal at the Zone 1-to-Zone 2 transition and should be taken seriously: teams that acknowledge adoption anxiety openly tend to navigate the transition more effectively than teams that treat it as a purely technical challenge. The team's willingness to surface these concerns in the workshop is itself a strength.
 
 ---
 

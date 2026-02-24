@@ -72,6 +72,8 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 
 #### Discussion Highlights
 
+*Facilitator guidance: Capture both technical/behavioral themes and emotional/cultural themes from the discussion. Emotional themes -- adoption anxiety, excitement, frustration, identity concerns, fear about performance evaluation changes -- are diagnostically important and should inform the Investment Recommendations section. Teams that surface emotional themes openly tend to navigate zone transitions more effectively; recording these themes validates that openness and creates a reference point for future re-assessments.*
+
 {{ZONE_1_DISCUSSION_THEMES}}
 
 #### High-Variance Items

@@ -30,7 +30,7 @@ ACE defines four zones of AI-augmented software development, plus a pre-AI basel
 
 - **Zone 2 (Integrating):** AI is embedded in team-level delivery workflows. The shift is from individual tool use to systematic team practices: shared AI conventions, automated pipelines, and collective standards for working with AI.
 
-- **Zone 3 (Accelerating):** AI drives core development work. Humans specify, review, and orchestrate; AI implements. Engineers shift into an "AI Engineer" identity defined by The Prime Directive: *"You are no longer writing the code. You are designing the process by which code is produced."* This identity shift extends across the production pipeline: PMs become behavioral specifiers, designers become specification encoders, and QA engineers become evaluation pipeline specialists. Not every organization will progress this far, but for those that do, the investment builds directly on Zone 2 foundations.
+- **Zone 3 (Accelerating):** AI drives core development work. Humans specify, review, and orchestrate; AI implements. Engineers shift into an "AI Engineer" identity defined by The Prime Directive: *"You are no longer writing the code. You are designing the process by which code is produced."* This identity shift extends across the production pipeline: PMs become behavioral specifiers, designers become specification authors, and QA engineers become evaluation pipeline specialists. Not every organization will progress this far, but for those that do, the investment builds directly on Zone 2 foundations.
 
 - **Zone 4 (Industrializing):** The organization operates an AI-first software factory. Engineers maintain the factory, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA engineers operate the evaluation infrastructure; AI produces the software. This is a fundamental cultural transformation — from software development as craft production to industrial production. This zone represents the deepest level of organizational commitment to AI-driven development and requires sustained investment at the executive level. *Note: Zone 4 is largely theoretical. No organization has demonstrably achieved this level of AI-driven development at the time of writing. The zone description is based on trajectory analysis from current trends and expert judgment about where AI-augmented development is heading, not on documented organizational practice.*
 
@@ -38,7 +38,7 @@ Each zone represents a distinct set of proficiencies, organizational investments
 
 ## A Progressive Path, Not a Mandate
 
-ACE defines a single linear progression: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Zone 2 is the typical near-term target for most organizations -- it represents the competitive baseline. Zones 3 and 4 require progressively larger investments that are justified only in certain strategic contexts. A deeply competent Zone 2 organization that has chosen its stopping point through careful analysis is in a stronger position than a Zone 4 organization that overextended its investment capacity. See [Progressive Competency Model](/toolkit/progressive-competency-model) for a deeper explanation.
+ACE defines a single linear progression: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Zone 2 is the typical near-term target for most organizations -- it represents the point at which AI adoption becomes a durable team-level capability. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Zones 3 and 4 require progressively larger investments that are justified only in certain strategic contexts. A deeply competent Zone 2 organization that has chosen its stopping point through careful analysis is in a stronger position than a Zone 4 organization that overextended its investment capacity. See [Progressive Competency Model](/toolkit/progressive-competency-model) for a deeper explanation.
 
 ## Competency, Not Knowledge
 
@@ -56,7 +56,7 @@ A typical ACE engagement follows this sequence:
 
 3. **Roadmap creation.** The facilitator works with the team and leadership to map the specific organizational investments required to reach the target zone, with timelines, leading indicators, and reassessment cadences. See [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
 
-4. **Implementation support.** Ongoing consulting support helps the organization execute the roadmap, track progress through leading indicators, and adjust course as conditions change.
+4. **Collaborative Delivery.** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work. The Facilitator conducts ongoing check-ins, re-diagnostics, and roadmap refreshes to track progress and adjust course as conditions change.
 
 5. **Reassessment.** Periodic re-administration of the diagnostic measures actual competency progression and informs roadmap adjustments.
 

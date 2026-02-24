@@ -185,7 +185,7 @@ This checklist tracks visual aids needed for the facilitator training program. E
 
 ### VA-5: Non-Linear Progress Patterns
 
-**Purpose:** Graph that shows clients and trainees what non-linear competency development actually looks like over time. Replaces the expectation of a smooth upward curve with a realistic picture. Use during Session 5, during Activity 4 (Explaining Non-Linear Progress), and give to clients during implementation support check-ins when they express frustration about flat scores.
+**Purpose:** Graph that shows clients and trainees what non-linear competency development actually looks like over time. Replaces the expectation of a smooth upward curve with a realistic picture. Use during Session 5, during Activity 4 (Explaining Non-Linear Progress), and give to clients during Collaborative Delivery check-ins when they express frustration about flat scores.
 
 **Layout:** A single chart with time on the X-axis (labeled "Months" with marks at 0, 3, 6, 9, 12) and "Competency Score / Leading Indicator Signal" on the Y-axis.
 

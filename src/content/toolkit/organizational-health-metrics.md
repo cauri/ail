@@ -70,9 +70,9 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 - **What it measures:** How consistently core AI practices (shared configuration, feedback loops, Plan/Code/Verify) are implemented across teams that are at the same zone.
 - **Why it matters:** Two teams both classified as "Zone 2" should exhibit similar practices. If practices vary widely within the same zone classification, the diagnostic or the training may need refinement.
-- **How to measure:** Audit a sample of teams at each zone for adherence to zone-defining practices.
+- **How to measure:** Audit a sample of teams at each zone for adherence to zone-defining practices. For each zone, define a checklist of observable zone-defining practices (e.g., for Zone 2: shared AI configuration file exists and was updated within the past 2 weeks; mandatory CI feedback loops are enforced on all repositories; Plan/Code/Verify workflow is evident in 80%+ of PRs; AI practices are discussed in retrospectives). Audit a representative sample of teams at each zone (minimum 3 teams per zone, or all teams if fewer than 3 exist at a zone level). For each team, score the percentage of checklist items that are present. The Practice Consistency Score is the average of these percentages across all audited teams at the same zone level. A score of 80% means that, on average, teams at the same zone exhibit 80% of the expected zone-defining practices.
 - **Reporting frequency:** Semi-annually.
-- **What "good" looks like:** [Expert judgment] 80%+ practice consistency among teams at the same zone level.
+- **What "good" looks like:** [Expert judgment] 80%+ practice consistency among teams at the same zone level. Scores below 60% indicate that the zone classification may not be reliably predicting actual practice, and the diagnostic instrument or training materials may need refinement.
 
 ---
 

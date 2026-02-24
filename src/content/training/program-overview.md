@@ -16,6 +16,8 @@ Training matters for three reasons:
 
 **Framework fidelity.** ACE is built on specific concepts -- competency as habitual behavior under stress, the progressive competency model, organizational investments over individual training -- that are easy to dilute or misrepresent. Facilitators who understand the model superficially may revert to maturity-model framing, treat the diagnostic as an audit rather than a self-assessment, or recommend zone targets based on aspiration rather than strategic analysis. Training ensures facilitators internalize the framework's distinctions well enough to maintain them under the pressure of client engagement.
 
+**Building client capability, not dependency.** The ultimate measure of a successful ACE engagement is the client organization's ability to self-assess, self-improve, and sustain its practices without ongoing facilitator involvement. Facilitators should approach every engagement with the goal of coaching themselves out of a job -- building the client's internal capacity to use the diagnostic instruments, interpret leading indicators, and facilitate their own investment retrospectives. An engagement that produces lasting facilitator dependency has failed on one of its core objectives, regardless of what the diagnostic scores show.
+
 ---
 
 ## Program Structure
@@ -181,7 +183,7 @@ The six training modules build on each other sequentially. Each module has detai
 
 5. **Module 5: [Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/)** -- How to support organizations through zone transitions as the ACE Facilitator: structured check-ins, investment retrospectives, re-diagnostics, regression handling, and managing the ongoing facilitator-client relationship within engagements that include embedded Artisan teams.
 
-6. **Module 6: [Embedded Delivery and Mentoring](/training/module-6-embedded-delivery/)** -- How to deliver software alongside client teams as an embedded Artisan: mentoring through collaborative work, maintaining the capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management as an embedded team member. (For all Artisans participating in embedded delivery; not limited to trained facilitators.)
+6. **Module 6: [Embedded Delivery and Mentoring](/training/module-6-embedded-delivery/)** -- How to deliver software alongside client teams as an embedded Artisan: mentoring through collaborative work, maintaining the capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management as an embedded team member. Module 6 serves a broader audience than Modules 1-5: it is required for all Artisans participating in embedded delivery, not only those pursuing facilitator certification. Artisans who complete only Module 6 are prepared for the embedded delivery role but are not certified to conduct independent ACE diagnostics or facilitate goal-setting sessions, which require completion of the full six-module program.
 
 ---
 

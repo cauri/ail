@@ -217,7 +217,7 @@ Teams will practice Zone 2 proficiencies alongside ongoing Zone 1 proficiencies.
 
 ### Zone 1: Augmenting (Prerequisite)
 
-Zone 1 competency is a prerequisite for Zone 2. Individual engineers must already be competent with AI tools --- able to use the Plan/Code/Verify workflow individually, comfortable with agentic coding interfaces, and capable of evaluating AI-generated output --- before the team can standardize its approach.
+Zone 1 competency is a prerequisite for Zone 2. Individual engineers must already be competent with AI tools --- habitually using AI in their daily work, selecting the appropriate mode of AI engagement for each task, and capable of reviewing and evaluating AI-generated output --- before the team can standardize its approach.
 
 If team members lack Zone 1 competency, attempting Zone 2 will fail: you cannot build a shared agentic setup when individuals cannot yet use the tools effectively on their own. The [Zone 1 reference](/toolkit/zone-1-augmenting) and [Baseline-to-Zone-1 Roadmap](/toolkit/baseline-to-zone-1) address the individual skills that are prerequisite to Zone 2.
 
