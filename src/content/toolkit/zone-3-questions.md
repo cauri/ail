@@ -54,6 +54,19 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **Eval harnesses should be run regularly.** Question 4 asks about eval suites. These should be run before and after changes to the AI pipeline, not just created once. Ask: "When was the last time you ran your eval suite? What prompted it? What did you learn?"
 
+### Cross-Functional Probe Questions (Pilot)
+
+The following questions are not yet scored items. They are facilitator probes to assess whether the Zone 3 transformation extends beyond engineering. Use them during the discussion phase to gather data for future diagnostic refinement.
+
+- **PM as behavioral specifier:** "Can the PM describe the behavioral envelope for the last AI-driven feature — what accuracy, latency, and failure modes were acceptable? Were these criteria defined before engineering began pipeline work?"
+- **Designer as specification author:** "Can the designer show examples of design standards encoded as machine-verifiable inputs to the AI pipeline? Are design compliance checks automated, or does design review remain manual?"
+- **QA as evaluation pipeline specialist:** "What percentage of the QA team's time is spent operating evaluation infrastructure versus manually testing individual outputs? Is the eval infrastructure the primary quality mechanism?"
+- **Cross-functional accountability:** "When AI-generated output causes a problem, is accountability assignable? Can the team trace a failure to specification, verification, authority, or pipeline design?"
+- **Accountability chain:** "Does the organization have a defined chain of responsibility for AI-generated output — specification accountability, verification accountability, authority accountability, and pipeline accountability? Has this chain been exercised in a real incident?"
+- **Audit trail:** "Is AI-generated output traceable to the specification, context, model version, and eval results that governed its production? Could the team answer 'why did the system produce this output?' if asked by a regulator or customer?"
+
+These probes address the concern that Zone 3's 10 scored questions are ~70% engineering-weighted and do not directly assess accountability structures. Data from these probes will inform whether future versions of the diagnostic should include scored cross-functional and accountability questions.
+
 ### Common Traps
 
 - **Confusing sophisticated Zone 2 practices with Zone 3.** A team that has excellent AGENTS.md, thorough Plan/Code/Verify, and strong feedback loops is a mature Zone 2 team. Zone 3 requires the additional infrastructure of CAT, eval harnesses, observability, and prompt versioning. The shift is from "we use AI well in our workflow" to "we engineer the AI systems that do the work."
