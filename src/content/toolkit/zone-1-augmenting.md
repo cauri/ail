@@ -150,7 +150,7 @@ Subsequent zones address deeper organizational transformation, including AI-driv
 ## Related Documentation
 
 - [What Is ACE?](/toolkit/what-is-ace) -- Framework overview and the four zones in context
-- [Zone 2: Integrating](/toolkit/zone-2-integrating) -- The next progressive zone; all Zone 1 organizations should target Zone 2
+- [Zone 2: Integrating](/toolkit/zone-2-integrating) -- The next zone in the progression; the typical near-term target for organizations whose strategic analysis supports team-level AI integration
 - [Zone 1 Diagnostic Questions](/toolkit/zone-1-questions) -- The assessment instrument for this zone
 - [Baseline-to-Zone-1 Roadmap](/toolkit/baseline-to-zone-1) -- Progression plan for organizations starting from Zone 0
 - [Zone-1-to-Zone-2 Roadmap](/toolkit/zone-1-to-2) -- Progression plan for the transition out of Zone 1

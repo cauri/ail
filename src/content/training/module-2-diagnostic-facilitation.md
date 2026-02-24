@@ -187,7 +187,7 @@ The group then compares their assessments. The facilitator leads discussion arou
 
 **Format:** Full cohort, 90 minutes
 
-One trainee facilitates a 30-minute mock Zone 1 assessment. Other trainees play team members using persona cards that include: role (engineer, PM, designer), AI usage level, one or two "hidden truths" that will only emerge with skillful probing, and a behavioral tendency (dominant voice, honest outlier, quiet deflector, over-enthusiastic self-reporter).
+One trainee facilitates a 30-minute mock Zone 1 assessment. Other trainees play team members using persona cards that include: role (engineer, PM, designer), AI usage level, one or two "hidden truths" that will only emerge with skillful probing, and a behavioral tendency (dominant voice, honest outlier, quiet deflector, over-enthusiastic self-reporter). At least one persona card should include an instruction to resist the facilitator's first intervention attempt -- for example, "If the facilitator tries to redirect you, maintain your behavior for at least one additional round. Only respond to a substantively different intervention approach." This ensures trainees practice the full diagnosis-intervention cycle, including intervention failure and hypothesis update, in the realistic context of a full mock workshop.
 
 The mock workshop follows full structure: framing, independent scoring, facilitated discussion, brief retrospective. Trainees rotate the facilitator role so each person facilitates at least one 10-minute segment. After the mock workshop, the full group debriefs using specific examples from the session.
 

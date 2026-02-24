@@ -245,5 +245,5 @@ The [Zone-2-to-Zone-3 Roadmap](/toolkit/zone-2-to-3) covers the transition pract
 - [Technique Catalog: Zone 2](/toolkit/technique-catalog) -- Detailed descriptions of Zone 2 tools and methods (Plan/Code/Verify, VTDD, mandatory feedback loops, etc.)
 - [Proficiency Catalog](/toolkit/proficiency-catalog) -- Complete listing of Zone 2 proficiencies across all roles
 - [Zone-Specific Metrics](/toolkit/zone-specific-metrics) -- Leading indicators for measuring Zone 2 competency progression
-- [Progressive Competency Model](/toolkit/progressive-competency-model) -- Why Zone 2 is the competitive baseline for all software organizations
+- [Progressive Competency Model](/toolkit/progressive-competency-model) -- How zone progression works and why organizations choose their stopping point
 - [How to Choose a Target Zone](/toolkit/choose-target-zone) -- Decision framework for whether to pursue Zone 3 after achieving Zone 2

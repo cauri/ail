@@ -222,6 +222,8 @@ Trainees produce a re-engagement memo addressed to the client's engineering lead
 
 A passing capstone requires Competent or Exemplary on all six dimensions. Trainees who receive Not Yet Competent on one or two dimensions may revise and resubmit with specific feedback. Trainees who receive Not Yet Competent on three or more dimensions should complete additional practice activities before resubmission.
 
+**Capstone variant (disengagement recommendation).** Cohort facilitators may substitute an alternate scenario where the re-diagnostic shows Established-stage scores across all Zone 2 proficiencies, the leading indicators confirm sustained competency over several months, and the Artisan team has begun ramp-down. In this variant, the honest recommendation is that the Facilitator's engagement should conclude within 1-2 months. The trainee must write a disengagement recommendation that is honest about what has been achieved, clear about residual risks the team will manage independently, and does not extend the engagement beyond what the evidence supports. This variant directly tests Dimension 5 (Relationship Management) at its most consequential point: recommending less of yourself when the evidence warrants it.
+
 ---
 
 ## Preparation for Supervised Facilitations

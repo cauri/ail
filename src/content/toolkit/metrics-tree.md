@@ -176,7 +176,7 @@ These metrics predict whether teams are achieving the role transformation and ar
 - **What it measures:** Time spent defining what to build (specifications, acceptance criteria, architectural decisions) versus time spent building it.
 - **Why it matters:** In Zone 3, the developer role shifts from "writing code" to "specifying and verifying solutions." This ratio tracks that shift.
 - **How to measure:** Developer time-tracking or task categorization in sprint planning.
-- **What "good" looks like:** [Expert judgment] Specification time represents 40-60% of total development time (up from a typical 10-20% in traditional workflows).
+- **What "good" looks like:** [Expert judgment] Specification time alone represents 40-60% of total development time (up from a typical 10-20% in traditional workflows). When verification time is included, the combined specification + verification target is 50-70% (see [Zone-Specific Metrics](/toolkit/zone-specific-metrics) for the combined formulation).
 
 ### 3.3 Cross-Functional Task Completion
 

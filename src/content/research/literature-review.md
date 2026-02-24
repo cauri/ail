@@ -312,4 +312,4 @@ See the [Validation Study Plan](/research/validation-study-plan) for a structure
 
 - [Validation Study Plan](/research/validation-study-plan) -- Design for validating the ACE framework
 - [What Is ACE](/toolkit/what-is-ace) -- Framework overview
-- [Metrics Tree](/toolkit/metrics/metrics-tree) -- Measurement framework for AI adoption progress
+- [Metrics Tree](/toolkit/metrics-tree) -- Measurement framework for AI adoption progress

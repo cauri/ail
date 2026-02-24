@@ -45,7 +45,7 @@ Zone 1 represents individual AI tool adoption. The shift is from "AI is new, unf
 
 - **Uses AI to assist with test case generation and test strategy design.** AI tools help generate test cases from requirements, suggest edge cases, and assist with structuring test plans. The QA engineer refines and validates AI-generated test artifacts against their domain knowledge.
 - **Uses AI for bug triage, reproduction, and root cause analysis.** When investigating defects, the QA engineer queries AI to help analyze logs, suggest reproduction steps, identify likely root causes, and cross-reference similar issues -- as a standard diagnostic step alongside traditional investigation techniques.
-- **Uses AI to create and manage test data.** AI assists with generating realistic test data sets, creating test fixtures, and producing data that covers boundary conditions and edge cases, reducing the manual effort that often makes thorough test data preparation impractical.
+- **Uses AI to create and manage test data.** AI assists with generating realistic test data sets, creating test fixtures, and producing data that covers boundary conditions and edge cases, reducing the manual effort that often makes thorough test data preparation impractical. This includes awareness that AI-generated test data may reflect demographic patterns in training data -- for example, overrepresenting certain user demographics or defaulting to culturally specific data patterns that do not reflect the application's actual user base.
 
 ### A Note on Data Science and ML Practitioners
 
@@ -61,7 +61,8 @@ Zone 2 shifts from individual tool use to team-level integration. AI is embedded
 
 - **The team executes Plan/Code/Verify as the default workflow for all changes.** The three-phase agentic coding workflow -- Plan (context gathering, plan construction, plan externalization), Code (plan-guided iteration with agent, incremental progress, maintaining coherence), Verify (correctness, quality, safety) -- is the habitual approach for every change, not just when it is convenient or when the change is complex.
 - **Engineers maintain and evolve a shared AGENTS.md/CLAUDE.md with project context.** The team's AI configuration is committed to source control as the team's "AI constitution." It contains project-specific context, coding standards, architectural constraints, workflow instructions, and ethical constraints (e.g., data handling rules, prohibited patterns, domain-specific compliance requirements). All members contribute to its evolution.
-- **The team has mandatory feedback loops: agents must pass compiler, linter, and tests before committing.** Pre-commit hooks or equivalent gates ensure that AI-generated code meets baseline quality standards automatically. This is not optional or aspirational -- it is enforced infrastructure.
+- **The team enforces automated quality checks on all AI-generated code.** Pre-commit hooks or equivalent gates ensure that AI-generated code passes compiler checks, linter rules, and formatting standards automatically. These are surface-level quality gates -- necessary but not sufficient.
+- **The team maintains automated test coverage sufficient to catch behavioral regressions in AI-generated code.** Beyond formatting and compilation gates, the team has behavioral tests that verify AI-generated code actually does what it is supposed to do. This is the deeper quality gate: a passing compiler check does not mean the code is correct.
 - **Engineers can guide agents through multi-step implementations using externalized plans.** Plans, architecture decision records (ADRs), task breakdowns, and design documents are written to markdown files checked into the repository. These serve as both human documentation and agent context.
 - **The team practices context engineering.** Engineers deliberately curate what goes into the agent's context window. This is distinct from prompt engineering: it involves managing project-level configuration, session-level context, and strategic use of techniques like `/compact`, summarization, and fresh sessions.
 - **Code review includes reviewing agent-produced code at PR level or better.** The team does not treat AI-generated code as inherently trustworthy or inherently suspect. It is reviewed with the same rigor as human-written code, with attention to the kinds of errors agents characteristically make.
@@ -70,7 +71,7 @@ Zone 2 shifts from individual tool use to team-level integration. AI is embedded
 
 ### Product Management
 
-- **PMs can write user stories that include AI behavioral criteria.** Beyond traditional functional acceptance criteria, PMs specify how AI-augmented workflows should behave -- for example, what verification steps are required, what documentation should be generated, or what quality gates apply.
+- **PMs define product requirements that include AI behavioral criteria and verification expectations.** Beyond traditional functional acceptance criteria, PMs specify how AI-augmented workflows should behave -- for example, what verification steps are required, what documentation should be generated, or what quality gates apply.
 - **PMs participate in retrospectives about agentic workflow improvements.** Product managers are active participants in discussions about how the team's AI practices are working, not passive observers.
 - **PMs use AI for discovery, synthesis, and stakeholder communication systematically.** AI is part of the PM toolkit for research synthesis, competitive analysis, writing, and communication -- used consistently, not sporadically.
 - **PMs can specify "definition of done" that includes AI verification criteria.** The team's definition of done explicitly includes AI-related quality gates, and PMs understand and can articulate these requirements.
@@ -92,7 +93,7 @@ Zone 2 shifts from individual tool use to team-level integration. AI is embedded
 
 ## Zone 3: Accelerating Proficiencies
 
-Zone 3 represents an engineering identity shift. AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Not every organization will progress this far. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating) for full context.
+Zone 3 represents a role identity shift. AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Not every organization will progress this far. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating) for full context.
 
 ### AI Engineering
 
@@ -197,7 +198,7 @@ The following tables show how proficiencies evolve across zones for each role. E
 
 | Capability Area | Zone 1: Augmenting | Zone 2: Integrating | Zone 3: Accelerating | Zone 4: Industrializing |
 |---|---|---|---|---|
-| **Product specification** | Uses AI for user story writing, research synthesis, and stakeholder communications | Writes user stories that include AI behavioral criteria | Writes user stories with AI behavioral criteria and measurable, quantifiable acceptance criteria | Operates at the portfolio level, defining factory production targets |
+| **Product specification** | Uses AI for user story writing, research synthesis, and stakeholder communications | Defines product requirements that include AI behavioral criteria and verification expectations | Writes user stories with AI behavioral criteria and measurable, quantifiable acceptance criteria | Operates at the portfolio level, defining factory production targets |
 | **AI understanding** | Prompts effectively for PM-relevant tasks | Can specify "definition of done" that includes AI verification criteria | Understands and can explain model limitations and non-determinism to stakeholders | Manages the tension between production volume and quality governance |
 | **Tool usage** | Uses AI tools for meeting notes and summaries | Uses AI for discovery, synthesis, and stakeholder communication systematically | Can iterate on prompt-level and workflow-level improvements, not just feature-level | Specifies system-level acceptance criteria for entire AI pipelines |
 | **Business value** | -- | Participates in retrospectives about agentic workflow improvements | Articulates and quantifies AI use case ROI and trade-offs; defines "thresholds of efficacy" | Defines factory production targets at the portfolio level |

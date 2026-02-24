@@ -1,7 +1,7 @@
 ---
 title: "Training Visual Aids -- Production Checklist"
 description: "Checklist tracking the visual aids needed for the facilitator training program, including full production specifications for each SVG visual."
-order: 6
+order: 7
 duration: ""
 prerequisites: ""
 ---

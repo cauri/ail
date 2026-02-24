@@ -90,7 +90,7 @@ With an overall average of 4.16, the team is in the Established band. Now check 
 
 The team is **Zone 1, Established**.
 
-*Note: These threshold values are expert-judgment starting points, not empirically validated cutoffs. See the [Evidence Basis](/toolkit/scoring-thresholds#evidence-basis) section of the scoring thresholds document. When results fall near a threshold boundary, your facilitated judgment about the team's actual behavior should take precedence over the numeric classification.*
+*Note: These threshold values are expert-judgment starting points, not empirically validated cutoffs. See the [Evidence Basis](/toolkit/scoring-thresholds#evidence-basis) section of the scoring thresholds document. For scores within +/-0.2 of any threshold boundary, rely more heavily on behavioral evidence from the workshop discussion than on the numeric classification (see the [sensitivity guidance](/toolkit/scoring-thresholds#evidence-basis) in the scoring thresholds document). Your facilitated judgment about the team's actual behavior should take precedence over the numeric classification.*
 
 Not Emerging (average is above 2.9). Not Developing (average is above 3.9). Not Exemplary (criteria not met). Established is the correct call.
 

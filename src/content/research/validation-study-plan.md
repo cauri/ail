@@ -349,7 +349,7 @@ This study uses a sequential explanatory mixed-methods design (Creswell & Plano 
 
 | Phase | Months | Key Activities | Key Deliverables |
 |-------|--------|----------------|-----------------|
-| Phase 1 | 1-6 | Expert recruitment, material preparation, independent review, interviews, synthesis | Revised zone definitions, revised diagnostic questionnaire, expert validation report |
+| Phase 1 | 1-6 | Expert recruitment, material preparation, independent review, interviews, synthesis, behavioral observation protocol development and observer calibration | Revised zone definitions, revised diagnostic questionnaire, expert validation report, behavioral observation protocol with observer calibration (target kappa >= 0.7) |
 | Phase 2 | 6-12 | Pilot organization recruitment, diagnostic facilitations, inter-rater study, post-diagnostic interviews, 6-month follow-up | Pilot results, reliability analysis, revised instrument, pilot study report |
 | Phase 3 | 12-24 | Longitudinal metric tracking, 6-month re-diagnostics, threshold refinement, case study development | Longitudinal analysis report, refined scoring thresholds, validated timelines, case studies, final validation report |
 
