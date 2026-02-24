@@ -137,6 +137,7 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 | Q7: PM includes AI-specific criteria | {{Z3_Q7_1}} | {{Z3_Q7_2}} | {{Z3_Q7_3}} | {{Z3_Q7_4}} | {{Z3_Q7_5}} | {{Z3_Q7_COMPOSITE}} |
 | Q8: Design specifications in AI pipeline | {{Z3_Q8_1}} | {{Z3_Q8_2}} | {{Z3_Q8_3}} | {{Z3_Q8_4}} | {{Z3_Q8_5}} | {{Z3_Q8_COMPOSITE}} |
 | Q9: QA as evaluation pipeline specialists | {{Z3_Q9_1}} | {{Z3_Q9_2}} | {{Z3_Q9_3}} | {{Z3_Q9_4}} | {{Z3_Q9_5}} | {{Z3_Q9_COMPOSITE}} |
+| Q10: Specification approach over direct coding | {{Z3_Q10_1}} | {{Z3_Q10_2}} | {{Z3_Q10_3}} | {{Z3_Q10_4}} | {{Z3_Q10_5}} | {{Z3_Q10_COMPOSITE}} |
 
 **Competency threshold met:** {{ZONE_3_THRESHOLD_MET}} (Yes / No)
 
@@ -170,6 +171,7 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 | Q7: Cross-functional rotation | {{Z4_Q7_1}} | {{Z4_Q7_2}} | {{Z4_Q7_3}} | {{Z4_Q7_4}} | {{Z4_Q7_5}} | {{Z4_Q7_COMPOSITE}} |
 | Q8: Design standards in factory system | {{Z4_Q8_1}} | {{Z4_Q8_2}} | {{Z4_Q8_3}} | {{Z4_Q8_4}} | {{Z4_Q8_5}} | {{Z4_Q8_COMPOSITE}} |
 | Q9: Factory-level quality governance | {{Z4_Q9_1}} | {{Z4_Q9_2}} | {{Z4_Q9_3}} | {{Z4_Q9_4}} | {{Z4_Q9_5}} | {{Z4_Q9_COMPOSITE}} |
+| Q10: Ethical governance of AI pipelines | {{Z4_Q10_1}} | {{Z4_Q10_2}} | {{Z4_Q10_3}} | {{Z4_Q10_4}} | {{Z4_Q10_5}} | {{Z4_Q10_COMPOSITE}} |
 
 **Competency threshold met:** {{ZONE_4_THRESHOLD_MET}} (Yes / No)
 

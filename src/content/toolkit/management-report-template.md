@@ -279,7 +279,7 @@ Within each zone, teams progress through four stages: Emerging (practicing but i
 
 ### How the Diagnostic Works
 
-The diagnostic is a facilitated self-assessment, not an external audit. A trained facilitator guides each intact delivery team through a 90-120 minute workshop. Team members individually score 9-12 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always), then discuss their scores, variance, and blockers. Results are aggregated at the team level and reported in two separate documents: a confidential team report shared only with the team, and this management report, which aggregates organizational patterns without disclosing team-specific data.
+The diagnostic is a facilitated self-assessment, not an external audit. A trained facilitator guides each intact delivery team through a 90-120 minute workshop. Team members individually score 10-12 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always), then discuss their scores, variance, and blockers. Results are aggregated at the team level and reported in two separate documents: a confidential team report shared only with the team, and this management report, which aggregates organizational patterns without disclosing team-specific data.
 
 ---
 

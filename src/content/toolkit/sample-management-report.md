@@ -204,7 +204,7 @@ The following actions are recommended for CTO, VP Engineering, and organizationa
 
 The ACE (AI Competency Evaluation) framework diagnostic is a facilitated self-assessment for measuring how deeply AI-assisted practices have become habitual within software delivery teams. The diagnostic does not measure knowledge, intent, or best-day performance. It measures observable behavior — specifically, what teams actually do under normal conditions and under pressure.
 
-Each team workshop ran 90-120 minutes. Team members individually scored 9-12 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always) and then participated in facilitated discussion about scores, variance, and blockers. Zone competency requires a composite average of 4.7 or higher, a standard deviation across all individual responses of 0.5 or lower, and no single question composite below 4.0.
+Each team workshop ran 90-120 minutes. Team members individually scored 10-12 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always) and then participated in facilitated discussion about scores, variance, and blockers. Zone competency requires a composite average of 4.7 or higher, a standard deviation across all individual responses of 0.5 or lower, and no single question composite below 4.0.
 
 Results are reported through a dual-report model. Each team received a confidential team report with their specific scores, discussion themes, and investment recommendations. This management report aggregates systemic patterns across all five teams without disclosing team-specific data. The separation is non-negotiable: the validity of the self-assessment depends on teams being confident that their candid responses will not be reported upward in identifiable form.
 
