@@ -131,7 +131,7 @@ The term "AI Engineer" describes the evolved role identity for software engineer
 ### Design
 
 - **Designers participate in defining AI behavioral expectations and evaluation criteria from the user experience perspective.** UX and product designers collaborate on defining what "good" AI behavior looks like from the user's perspective. These behavioral expectations feed directly into eval harnesses and CAT pipelines, ensuring that quality is measured against user-relevant criteria.
-- **Designers encode design standards, component specifications, and interaction patterns as machine-verifiable inputs to AI pipelines.** This is the Zone 3 design identity: designers become specification authors whose standards are consumed by the factory, not artifact producers who hand off mockups. Design compliance is verified automatically through the production pipeline, not through manual review.
+- **Designers encode design standards, component specifications, and interaction patterns as machine-verifiable inputs to AI pipelines.** This is the Zone 3 design identity: designers become design systems architects whose standards govern factory output, not artifact producers who hand off mockups. Design compliance is verified automatically through the production pipeline, not through manual review.
 - **Designers own the design evaluation criteria within the CAT pipeline.** Design compliance checks -- visual consistency, component usage, interaction pattern adherence, accessibility standards -- are defined and maintained by designers, not delegated to engineering. Designers operate as evaluation specialists for the design dimension of AI-produced output.
 
 ### Quality Assurance (Evaluation Pipeline Specialists)
