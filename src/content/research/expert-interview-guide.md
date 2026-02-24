@@ -223,6 +223,8 @@ When synthesizing expert feedback, look for the following:
 
 **Absence of critique as a concern:** If an expert reviews all the materials and finds nothing significant to criticize, probe harder. Either the framework is remarkably accurate, or the expert is being polite. Ask directly: "If you had to pick something that felt slightly off, what would it be?"
 
+**Disagreement intensity:** When recording expert critique, note the intensity of the disagreement as well as its content. Use a simple three-point scale: mild (the expert qualifies or hedges), moderate (the expert states a clear concern with specific evidence), strong (the expert expresses fundamental disagreement with the construct or its operationalization). Intensity ratings help prioritize revisions when multiple concerns compete for attention.
+
 ---
 
 ## Related Documentation

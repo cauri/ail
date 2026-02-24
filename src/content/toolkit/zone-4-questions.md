@@ -46,6 +46,8 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 ## Notes for Facilitator
 
+**Important: Zone 4 assessment requires cross-team validation.** A single team may not have visibility into portfolio-scale behaviors. See the final Common Trap below for details on supplementing team workshops with cross-team validation.
+
 ### What to Watch For
 
 - **Factory orientation is the defining identity.** The core metric tests whether engineers see themselves as factory designers and operators. This is a profound identity shift from Zone 3's "process designer." Probe: "How do you describe your role to someone outside the organization? What does a typical week look like for you? How much of your time is spent on pipeline infrastructure versus direct development work?"
