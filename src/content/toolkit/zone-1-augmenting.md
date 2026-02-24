@@ -116,6 +116,8 @@ Vibe-coding is exploratory, low-stakes AI-assisted coding used for prototypes, p
 
 Timeline estimates above are based primarily on developer adoption data. PM, designer, and QA adoption timelines may differ depending on AI tool maturity and workflow integration for each role. Facilitators should set role-appropriate expectations rather than applying developer timelines universally.
 
+In practice, habitual usage of exploratory modes (vibe-coding, CHOP) typically develops before habitual rigorous review practices (AI-assisted coding with systematic verification). Teams that plateau at exploratory modes without developing review discipline may need targeted training investment to progress.
+
 ## Recognizing and Addressing Regression
 
 Zone 1 competency can regress. Common triggers include: team member turnover (new members who have not built AI habits), tool migrations (switching AI providers disrupts established workflows), organizational stress (extended crunch periods where teams revert to pre-AI practices), and policy changes (new security or compliance requirements that create friction around AI tool usage).

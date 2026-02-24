@@ -50,6 +50,7 @@ Individual-level AI tool adoption. These are the foundational practices every te
 **Zone(s):** 1, 2
 **Summary:** Using AI to generate test stubs, test cases, and test code from requirements or existing implementation. At Zone 1, used to reduce the friction of test writing; at Zone 2, evolved into Vibe TDD.
 **Purpose:** Increases test coverage by making it faster to produce tests, and surfaces cases the developer might not have considered. The developer reviews generated tests for correctness and completeness.
+**Note:** At Zone 2, AI-generated tests evolve into VTDD (Vibe Test-Driven Development), which adds a structured stub-review step that catches specification errors before implementation begins. See the [VTDD entry](#vibe-tdd-vtdd) for the Zone 2 practice.
 **See Also:** [Vibe TDD (VTDD)](#vibe-tdd-vtdd), [AI-Assisted Coding](#ai-assisted-coding), [Zone 2: Integrating](/toolkit/zone-2-integrating)
 
 ---

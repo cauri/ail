@@ -30,7 +30,7 @@ Approximately 3 months from cohort start to completion, depending on scheduling 
 
 ### Components
 
-The program consists of six sequential training modules, two supervised diagnostic facilitations, and a written assessment:
+The program consists of six sequential training modules, two supervised engagements (each including a diagnostic facilitation through at least one re-diagnostic cycle), and a written assessment:
 
 | Component | Format | Duration |
 |-----------|--------|----------|
@@ -41,8 +41,8 @@ The program consists of six sequential training modules, two supervised diagnost
 | Module 5: Facilitator-Led Assessment and Coaching | Intensive or async | 1 day / 5 hours |
 | Module 6: Embedded Delivery and Mentoring | Intensive or async | 1 day / 5 hours |
 | Written Assessment | Take-home | 4-6 hours |
-| Supervised Facilitation 1 | Live diagnostic | Half-day + debrief |
-| Supervised Facilitation 2 | Live diagnostic | Half-day + debrief |
+| Supervised Engagement 1 | Live engagement through re-diagnostic | Variable (months) + debrief |
+| Supervised Engagement 2 | Live engagement through re-diagnostic | Variable (months) + debrief |
 
 Total instructional time: approximately 39 hours across modules, plus assessment and supervised practice.
 
@@ -78,13 +78,13 @@ The program deliberately structures retrieval practice and spaced repetition acr
 
 ### Supervised Facilitations
 
-After completing all six modules, each trainee must conduct two complete diagnostic facilitations under the supervision of a master facilitator. These are real diagnostics with real teams, not simulations.
+After completing all six modules, each trainee must conduct two supervised engagements under the observation of a master facilitator. Each supervised engagement covers a complete diagnostic facilitation -- pre-workshop preparation, the workshop itself, and report writing -- with real teams, not simulations. Each supervised engagement must extend through at least one re-diagnostic cycle so that the trainee demonstrates the full arc of facilitation skills covered in Modules 1-5: initial diagnostic, goal setting, check-ins, and re-assessment.
 
-**First supervised facilitation:** The master facilitator observes the entire diagnostic -- pre-workshop preparation, the workshop itself, and report writing. The master facilitator provides detailed feedback on facilitation technique, scoring accuracy, and report quality. If significant issues are identified, the trainee receives targeted coaching before the second facilitation.
+**First supervised engagement:** The master facilitator observes the entire engagement arc -- pre-workshop preparation, the diagnostic workshop, report writing, and subsequent check-ins through re-diagnostic. The master facilitator provides detailed feedback on facilitation technique, scoring accuracy, report quality, and ongoing engagement management. If significant issues are identified, the trainee receives targeted coaching before the second engagement.
 
-**Second supervised facilitation:** The master facilitator observes again, with the expectation that feedback from the first facilitation has been incorporated. The second facilitation serves as the primary practical assessment for training completion.
+**Second supervised engagement:** The master facilitator observes again, with the expectation that feedback from the first engagement has been incorporated. The second engagement serves as the primary practical assessment for training completion.
 
-Supervised facilitations are conducted through Artium's client engagements. The program coordinates with engagement leads to identify appropriate opportunities for supervised practice.
+Supervised engagements are conducted through Artium's client engagements. The program coordinates with engagement leads to identify appropriate opportunities for supervised practice.
 
 ### Written Assessment
 
@@ -128,11 +128,11 @@ To complete the training program, a participant must fulfill all of the followin
 
 2. **Pass the written assessment** with a minimum score of 80%. The assessment tests application of knowledge to realistic scenarios, not recall of facts.
 
-Note: The written assessment and the supervised facilitations measure different things. The written assessment measures knowledge application in low-pressure conditions (conceptual understanding, analytical reasoning, ethical judgment). The supervised facilitations measure performance under real-world conditions (facilitation skill, adaptive judgment, interpersonal dynamics). A trainee who scores below the written threshold but demonstrates strong facilitation should receive targeted knowledge coaching rather than program removal. A trainee who passes the written assessment but struggles in supervised facilitation has a more significant competency gap that requires additional practice.
+Note: The written assessment and the supervised engagements measure different things. The written assessment measures knowledge application in low-pressure conditions (conceptual understanding, analytical reasoning, ethical judgment). The supervised engagements measure performance under real-world conditions (facilitation skill, adaptive judgment, interpersonal dynamics, ongoing engagement management). A trainee who scores below the written threshold but demonstrates strong facilitation should receive targeted knowledge coaching rather than program removal. A trainee who passes the written assessment but struggles in supervised engagements has a more significant competency gap that requires additional practice.
 
-3. **Successfully complete two supervised diagnostic facilitations.** Both facilitations must be observed by a master facilitator. The second facilitation serves as the primary practical assessment. "Successfully complete" means the master facilitator confirms that the trainee demonstrated competent facilitation, accurate scoring, appropriate confidentiality management, and acceptable report quality.
+3. **Successfully complete two supervised engagements.** Each supervised engagement must include a complete diagnostic facilitation and extend through at least one re-diagnostic cycle. Both engagements must be observed by a master facilitator. The second engagement serves as the primary practical assessment. "Successfully complete" means the master facilitator confirms that the trainee demonstrated competent facilitation across the full engagement arc -- accurate scoring, appropriate confidentiality management, acceptable report quality, and effective ongoing engagement management through re-diagnostic.
 
-4. **Receive sign-off from a master facilitator.** The master facilitator who supervised the facilitations provides a holistic assessment of the participant's readiness to facilitate independently. This sign-off considers the full arc of the participant's performance across modules, the written assessment, and both supervised facilitations.
+4. **Receive sign-off from a master facilitator.** The master facilitator who supervised the engagements provides a holistic assessment of the participant's readiness to facilitate independently. This sign-off considers the full arc of the participant's performance across modules, the written assessment, and both supervised engagements.
 
 ---
 

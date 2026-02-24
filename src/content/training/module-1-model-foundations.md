@@ -249,6 +249,13 @@ Given 4-6 organizational descriptions (longer and more detailed than the gallery
 
 Scoring emphasizes reasoning quality over specific answers. Multiple reasonable zone assessments may be acceptable if well-supported.
 
+**Assessment criteria.** The case study quiz is evaluated on four dimensions, each designed to distinguish surface-level recall from the deep understanding required for competent facilitation:
+
+1. **Evidence-based zone identification.** A surface-level answer names a zone based on keyword matching (e.g., "they use AI tools, so Zone 1"). A strong answer identifies the zone based on behavioral evidence, distinguishes between what the organization knows and what it does habitually, and addresses whether the described behaviors hold under pressure -- the "habitual under pressure" standard that defines competency in the ACE framework.
+2. **Target zone reasoning.** A surface-level answer recommends the next zone up as the target. A strong answer considers the organization's strategic context, risk appetite, investment capacity, and change readiness to justify why a particular target zone is appropriate -- including cases where staying at the current zone or choosing a lower target is the right recommendation.
+3. **Investment specificity.** A surface-level answer lists generic investment categories ("training," "tooling," "leadership support"). A strong answer identifies investments specific to the described organization's gaps, classifies them by type (structural, policy, resource, management behavior), and explains why each investment addresses an observable behavioral gap rather than a theoretical need.
+4. **Pitfall identification.** A surface-level answer names a generic risk ("teams might resist change"). A strong answer identifies a pitfall specific to the scenario -- one that arises from the particular combination of organizational dynamics, current competency level, and target zone described -- and explains why that pitfall is likely given the evidence presented.
+
 ---
 
 ## Preparation for Module 2

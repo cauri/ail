@@ -290,6 +290,8 @@ Based on IC interviews: will teams be honest in the group diagnostic sessions?
 
 **FACILITATOR NOTE: Do not share this section with the client before or during the diagnostic. Sharing pre-diagnostic zone estimates anchors team self-assessment and degrades result quality.**
 
+**Post-diagnostic transparency.** After the diagnostic is complete and results have been delivered, the facilitator may share their initial zone hypothesis with the client as a transparency practice. This serves two purposes: it demonstrates that the facilitator entered the diagnostic with a genuine hypothesis (not a predetermined conclusion), and it creates a productive conversation about where the hypothesis diverged from the diagnostic findings. Significant divergences are often the most interesting analytical territory -- they reveal dynamics that neither the facilitator's interviews nor the team's self-assessment fully captured. Share the hypothesis only after results are final; sharing it during the diagnostic or goal-setting process would re-introduce the anchoring risk.
+
 *Sources: All interviews, development maturity assessment.*
 
 **Purpose of this section:** Record your pre-diagnostic estimate of where each team likely falls. After the diagnostic, compare against actual findings. Persistent gaps between hypothesis and findings are often the most important analytical signal — they reveal either organizational dynamics you missed or areas where self-assessment is systematically distorted.

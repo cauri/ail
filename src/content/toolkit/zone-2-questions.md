@@ -68,6 +68,8 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **Context engineering is not directly probed by a standalone question.** Context engineering (Zone 2 proficiency) is assessed indirectly through Questions 2 (shared configuration), 4 (externalized plans), and 6 (retrospective iteration on the setup). If the facilitator suspects the team has strong prompting skills but weak context engineering practices, probe explicitly: "How do you decide what goes into the agent's context window for a given task? Do you manage session length, use summarization, or start fresh sessions deliberately? Is this a team practice or individual habit?"
 
+- **VTDD / test-first discipline is not directly probed by a standalone question.** VTDD (Vibe Test-Driven Development) is a key Zone 2 technique, but the diagnostic questions assess it indirectly through Question 3 (mandatory feedback loops including automated tests) and Question 9 (QA practices addressing AI-generated code patterns). If the facilitator suspects the team enforces tests but lacks test-first discipline, probe explicitly: "Does the team write or stub tests before implementation when working with agents? Do you use VTDD or a similar pattern to catch specification errors before code is generated?" Evidence of test-first practice is a strong signal of Zone 2 maturity; its absence may indicate the team's verification practices are reactive rather than proactive.
+
 ---
 
 ## Related Documentation

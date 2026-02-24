@@ -8,6 +8,8 @@ The organization operates an AI-first software factory. Engineers maintain the f
 
 **Shift type:** Production model shift
 
+> **A note on the "Industrializing" metaphor.** The term "industrializing" carries cultural weight. For some practitioners, it may evoke assembly-line connotations that feel at odds with the creative, craft-oriented identity of software development. The term is used deliberately here to signal the scale of operational change required at Zone 4 -- not to reduce creative work to factory production. The engineers, designers, PMs, and QA engineers operating at Zone 4 are doing intellectually demanding, design-intensive work; they are designing and governing the production system, not performing rote assembly. The metaphor is intended to communicate the magnitude of the organizational shift, not to prescribe a dehumanized production model.
+
 ### Evidence Status
 
 **Confidence level: Low (speculative, based on trajectory analysis).** Zone 4 practices are described based on extrapolation from Zone 3 patterns, analogy to industrial manufacturing, and early reports from organizations pursuing elements of this level. No organization has demonstrably achieved the fully industrialized AI development capability described here. The specific proficiencies, timelines, and techniques should be treated as directional hypotheses, not validated practices. As the literature review notes: "Zone 4 remains aspirational."

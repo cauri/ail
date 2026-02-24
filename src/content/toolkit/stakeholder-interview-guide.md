@@ -236,6 +236,8 @@ Use these questions across multiple tiers to triangulate findings and identify c
 
 When answers to the same question diverge significantly across tiers — especially between leadership and ICs — note the divergence explicitly in your Context Analysis. Divergences are often where the most important findings live.
 
+**Documenting conflicting narratives without privileging any tier.** When stakeholder tiers give contradictory accounts of the same situation — for example, leadership describes AI adoption as "well-supported" while ICs describe it as "tolerated but not resourced" — document both narratives with equal weight rather than treating any single tier's account as the authoritative version. Each tier has a legitimate but partial perspective shaped by its position in the organization. Leadership may not see daily friction that ICs experience; ICs may not see strategic constraints that shape leadership decisions. The facilitator's job is to surface the gap between narratives as a finding, not to adjudicate which tier is "right." Present conflicting accounts in the Context Analysis as "Leadership reports X; ICs report Y; the divergence suggests Z" rather than defaulting to one tier's version. This practice is especially important when power dynamics could lead the facilitator to unconsciously privilege the sponsor's or leadership's narrative because they are the engagement's paying client.
+
 ---
 
 ## 7. Red Flags to Watch For
