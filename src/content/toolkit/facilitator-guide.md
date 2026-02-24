@@ -151,7 +151,7 @@ Facilitating your first diagnostic can feel daunting. Here is how to prepare:
 
 **Accept imperfection.** Your first diagnostic will not be your best. That is fine. The training program includes two supervised facilitations with feedback precisely because the skill develops through practice. Focus on creating safety and asking good questions. The rest improves with repetition.
 
-**Understand the Facilitator-Artisan distinction.** If you will be facilitating engagements that include embedded Artisan teams, review [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/) to understand what the Artisans do. Your training covers the Facilitator role — diagnostics, assessment, and coaching. The Artisan role requires deep craft expertise and is a separate competency. Understanding both roles helps you facilitate more effectively during Collaborative Delivery, even though you are responsible only for the Facilitator side.
+**Understand both of your roles.** In most ACE engagements, you will wear two hats: Facilitator and Artisan. As Facilitator, you run diagnostics, interpret results, and coach organizations through goal setting. As Artisan, you embed with client teams to deliver software and build capability through collaborative practice. These are different modes of working — one is assessment and coaching, the other is hands-on craft. Review [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/) to understand how the Artisan role works alongside the Facilitator role during Collaborative Delivery.
 
 ## Next Steps
 
