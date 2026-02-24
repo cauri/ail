@@ -142,6 +142,7 @@ Role changes, performance criteria, behaviors, and organizational identity.
 | Investment | Zone |
 |---|---|
 | Actively remove fear and stigma about AI usage | 1 |
+| Manager enablement: equip engineering managers to support AI adoption, model AI-positive behaviors, and coach teams through zone transitions | 1-2 |
 | Retrospective Culture | 2 |
 | Create the AI Engineer role or retrain existing engineers | 3 |
 | Create organizational tolerance for AI non-determinism | 3 |

@@ -132,6 +132,7 @@ Each reassessment should produce:
 Zone transitions are not linear. Expect setbacks and plan for them:
 
 - **Regression under pressure.** Teams may revert to pre-zone behaviors during crises. This is normal during the Emerging and Developing stages. Note it, address it, but do not treat it as failure.
+- **Identity and emotional resistance.** For Zone 2→3 and higher transitions, team members may experience grief, anxiety, or resistance as their professional identity shifts. These are not irrational obstacles — they are predictable human responses to real change. Facilitators should acknowledge these responses, create space for processing them, and adjust transition pacing when emotional load is high. See the identity transition guidance in the [Zone 2 to 3 Roadmap](/toolkit/zone-2-to-3).
 - **Organizational priority shifts.** If leadership attention moves elsewhere, investment may slow. Build in checkpoints where you explicitly re-confirm organizational commitment.
 - **Team turnover.** New team members may not share the practices of the existing team. Build onboarding practices that bring new members up to the team's current practice level.
 - **Tool or vendor changes.** AI tools evolve rapidly. Practices built around specific tools may need adaptation. Build practices around capabilities, not products.

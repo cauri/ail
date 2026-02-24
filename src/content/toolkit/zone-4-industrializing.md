@@ -173,6 +173,9 @@ Zone 3 is the direct prerequisite for Zone 4, and the relationship is critical t
 ### Choosing your stopping point
 Zone 3 represents a level of AI-augmented software development capability that exceeds what most organizations will need. Zone 4 is documented because the model should be complete and because some organizations will benefit from this level of capability. But pursuing Zone 4 without a clear strategic rationale is a misallocation of organizational energy. The right zone is the one that matches your organization's actual needs.
 
+### Environmental and resource cost
+Zone 4's industrialized AI usage at organizational scale carries material environmental cost: large-scale AI inference requires significant compute resources with associated energy consumption and carbon footprint. Organizations pursuing Zone 4 should factor environmental cost into their strategic analysis alongside financial and human costs. Monitoring compute resource consumption, evaluating model efficiency, and selecting infrastructure with lower environmental impact are not ethical luxuries — they are operational sustainability considerations for any organization running AI at industrial scale.
+
 ---
 
 ## Related Documentation

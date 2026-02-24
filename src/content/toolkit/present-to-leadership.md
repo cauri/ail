@@ -65,7 +65,8 @@ Key presentation elements:
 
 - **Phases with clear decision points.** Each phase should end with a reassessment that informs whether to continue, adjust, or pause.
 - **Leading indicators.** Show leadership how they will know the investment is working before the final assessment.
-- **Explicit off-ramps.** Make clear that the roadmap includes checkpoints where the organization can decide to consolidate at the current zone rather than continue advancing. This reduces the perceived risk of commitment.
+- **Explicit off-ramps.** Make clear that the roadmap includes checkpoints where the organization evaluates progress and decides on next steps -- which may include continuing to the next phase, consolidating at the current zone, adjusting the timeline, or redirecting investment. The decision is genuinely open; the facilitator presents data and options. This reduces the perceived risk of commitment.
+- **Human cost transparency.** For Zone 3 and Zone 4 transitions, be direct about the human dimension: role identity changes, potential workforce displacement concerns, and the emotional cost of letting go of craft identity. Leadership that understands the human cost makes better investment decisions than leadership that sees only the financial and operational dimensions.
 - **Resource requirements by phase.** Avoid asking for 12 months of commitment upfront. Ask for Phase 1 commitment with a decision point before Phase 2.
 
 ## Common Leadership Objections and Responses

@@ -18,10 +18,17 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 - **Why it matters:** Gives leadership a snapshot of where the organization stands overall. A healthy organization should see teams progressing toward their chosen target zones over time — not necessarily toward higher zones. An organization that has deliberately chosen Zone 2 as its target should see consolidation at Zone 2, not pressure to reach Zone 3.
 - **How to measure:** Aggregate results from facilitated diagnostic assessments. Each team receives a zone classification; report the distribution.
 - **Reporting frequency:** Quarterly or after each round of diagnostic assessments.
-- **What "good" looks like:** [Expert judgment] The following benchmarks assume the organization has chosen to progress toward Zone 3. Organizations that have chosen a different stopping point should adjust targets accordingly -- a Zone 2 stopping point, for example, would show a healthy distribution concentrated at Zone 2 with no expectation of Zone 3 progression. See [How to Choose a Target Zone](/toolkit/choose-target-zone) for guidance on stopping-point decisions.
-  - Within 6 months of AI adoption initiative: 0% Zone 0, 60%+ Zone 1, 20%+ Zone 2
+- **What "good" looks like:** [Expert judgment] Targets depend on the organization's chosen stopping point. The examples below illustrate two common scenarios. See [How to Choose a Target Zone](/toolkit/choose-target-zone) for guidance on stopping-point decisions.
+
+  **Example A: Organization targeting Zone 3**
+  - Within 6 months: 0% Zone 0, 60%+ Zone 1, 20%+ Zone 2
   - Within 12 months: 0% Zone 0, 30% Zone 1, 50%+ Zone 2, 10%+ Zone 3
   - Within 24 months: 0% Zone 0, 10% Zone 1, 50%+ Zone 2, 25%+ Zone 3
+
+  **Example B: Organization targeting Zone 2 (chosen stopping point)**
+  - Within 6 months: 0% Zone 0, 60%+ Zone 1, 20%+ Zone 2
+  - Within 12 months: 0% Zone 0, 20% Zone 1, 70%+ Zone 2
+  - Within 24 months: 0% Zone 0, 10% Zone 1, 80%+ Zone 2 (consolidating at Established or Exemplary)
 
 ### 1.2 Individual AI Tool Adoption Rate
 

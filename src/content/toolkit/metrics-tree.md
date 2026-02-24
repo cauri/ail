@@ -199,7 +199,7 @@ These metrics predict whether teams are achieving the role transformation and ar
 - **What it measures:** Number of production-shipped features per team per sprint, normalized for feature complexity.
 - **Why it matters:** Zone 3 is expected to be associated with measurable acceleration in delivery throughput as role transformation and AI-native practices take effect. However, this is a correlation claim, not a causal one — many organizational factors affect velocity simultaneously, and isolating the contribution of Zone 3 practices requires controlled comparison that does not yet exist in the literature.
 - **How to measure:** Sprint delivery metrics from issue tracker. "Normalized for feature complexity" means the organization should use a consistent sizing method (e.g., T-shirt sizing by the same estimation group, or counting only features that pass a defined minimum scope threshold) to reduce noise from feature-size variation across sprints. Avoid using story points for this purpose — they are team-specific, non-comparable, and subject to inflation (Forsgren, Humble, & Kim, 2018). The normalization method should be documented and held constant across measurement periods.
-- **What "good" looks like:** [Expert judgment] 2-3x throughput improvement from Zone 2 baseline. No empirical basis exists for this specific range; it is an aspirational target based on trajectory analysis.
+- **What "good" looks like:** [Expert judgment] 2-3x throughput improvement from Zone 2 baseline. No empirical basis exists for this specific range; it is a planning heuristic extrapolated from the productivity gains reported in individual AI-assisted development studies (e.g., Peng et al., 2023) combined with the assumption that organizational-level gains compound individual-level effects. Treat as directional, not predictive.
 
 ### 3.6 Team Size to Output Ratio
 
@@ -255,43 +255,43 @@ These metrics predict whether the organization is successfully industrializing A
 
 ## Counter-Metrics (Gaming Prevention)
 
-Counter-metrics ensure that improvements in the North Star metric and zone indicators are genuine, not artifacts of gaming or perverse incentives.
+Counter-metrics ensure that improvements in the North Star metric and zone indicators are genuine, not artifacts of gaming or perverse incentives. All counter-metric thresholds below are tagged [Expert judgment] unless otherwise noted — these are monitoring heuristics based on practitioner experience, not empirically validated thresholds.
 
 ### C1. Defect Escape Rate
 
 - **What it measures:** Number of defects found in production per unit of software shipped.
 - **Why it matters:** If throughput increases but quality decreases, the North Star metric is being gamed. More output with more bugs is not improvement.
-- **Threshold:** Should remain stable or decrease as throughput increases.
+- **Threshold:** [Emerging evidence] Should remain stable or decrease as throughput increases. The relationship between AI-generated code volume and defect rates has preliminary support from Peng et al. (2023) and Perry et al. (2022), though neither study measured this at the organizational level over multi-month timeframes.
 
 ### C2. Developer Burnout Indicators
 
 - **What it measures:** Self-reported stress, work-life satisfaction, and sustainable pace indicators.
 - **Why it matters:** Productivity gains driven by longer hours or increased pressure are not sustainable. AI augmentation should reduce toil, not increase it.
-- **Threshold:** Burnout indicators should remain stable or improve. Any increase warrants immediate investigation.
+- **Threshold:** [Expert judgment] Burnout indicators should remain stable or improve. Any increase warrants immediate investigation.
 
 ### C3. Code Maintainability
 
 - **What it measures:** Codebase complexity metrics (cyclomatic complexity, coupling, cognitive complexity) and time required for subsequent modifications.
 - **Why it matters:** AI can generate code quickly that is difficult to maintain. If the codebase becomes harder to work with over time, short-term throughput gains will reverse.
-- **Threshold:** Complexity metrics should remain stable or improve. Time to modify existing code should not increase.
+- **Threshold:** [Expert judgment] Complexity metrics should remain stable or improve. Time to modify existing code should not increase.
 
 ### C4. AI Tool Over-Reliance
 
 - **What it measures:** Whether developers can still complete work effectively when AI tools are unavailable (outages, policy changes, tool transitions).
 - **Why it matters:** Healthy AI adoption augments human capability; unhealthy adoption replaces it. Teams should remain capable without AI, even if slower.
-- **Threshold:** Teams can deliver at 60-70% of AI-augmented velocity when AI tools are unavailable.
+- **Threshold:** [Expert judgment] Teams can deliver at 60-70% of AI-augmented velocity when AI tools are unavailable.
 
 ### C5. Security Vulnerability Introduction Rate
 
 - **What it measures:** Number of security vulnerabilities introduced per unit of code shipped, particularly in AI-generated code.
-- **Why it matters:** AI-generated code can introduce subtle security issues that pass functional tests. Increased throughput must not come at the expense of security.
-- **Threshold:** Vulnerability introduction rate should remain stable or decrease. Any increase requires immediate remediation.
+- **Why it matters:** AI-generated code can introduce subtle security issues that pass functional tests. Increased throughput must not come at the expense of security. See Perry et al. (2022) for evidence that AI-assisted code can be associated with increased security vulnerability rates.
+- **Threshold:** [Emerging evidence] Vulnerability introduction rate should remain stable or decrease. Any increase requires immediate remediation.
 
 ### C6. Documentation Currency
 
 - **What it measures:** Whether documentation (architecture docs, API docs, onboarding guides) keeps pace with code changes.
 - **Why it matters:** Faster code delivery can outpace documentation, creating a growing knowledge gap. AI should help documentation keep pace, not widen the gap.
-- **Threshold:** Documentation update frequency should scale proportionally with code change frequency.
+- **Threshold:** [Expert judgment] Documentation update frequency should scale proportionally with code change frequency.
 
 ---
 
