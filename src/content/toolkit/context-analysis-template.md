@@ -395,7 +395,7 @@ List any conditions that must be met before the diagnostic phase begins:
 ## Related Documentation
 
 - [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide) -- Interview questions for the three stakeholder tiers used to populate this template
-- [Engagement Model](/toolkit/engagement-model) -- How Discovery fits into the four-phase engagement structure
+- [Engagement Model](/toolkit/engagement-model) -- How Discovery fits into the two-track engagement structure
 - [Goal-Setting Framework](/toolkit/goal-setting-framework) -- How context analysis informs target zone selection
 - [Zone 1 Reference](/toolkit/zone-1-augmenting) -- Zone definition; informs Initial Zone Hypothesis for Zone 1 teams
 - [Zone 2 Reference](/toolkit/zone-2-integrating) -- Zone definition; informs Initial Zone Hypothesis for Zone 2 teams

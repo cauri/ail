@@ -293,6 +293,6 @@ The diagnostic is a facilitated self-assessment, not an external audit. A traine
 - [Sample Management Report](/toolkit/sample-management-report) -- A completed example showing how this template is filled in for a real engagement
 - [Workshop Script](/toolkit/workshop-script) -- The facilitation script used to conduct the assessments this report synthesizes
 - [Scoring Thresholds](/toolkit/scoring-thresholds) -- Reference for interpreting zone and competency stage distributions
-- [Engagement Model](/toolkit/engagement-model) -- How this report fits into the four-phase engagement structure (Phase 2 output)
+- [Engagement Model](/toolkit/engagement-model) -- How this report fits into the assessment track (Diagnostic output)
 - [Goal-Setting Framework](/toolkit/goal-setting-framework) -- Used by leadership to interpret this report's findings and select target zones
 - [Interpreting Results](/toolkit/interpreting-results) -- Guidance on reading and communicating diagnostic findings to leadership audiences

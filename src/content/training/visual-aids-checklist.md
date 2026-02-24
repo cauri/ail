@@ -211,8 +211,8 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 
 **Lane 1 -- "Organizational Investments" (top lane, visually prominent):**
 - Colored blocks spanning the phases when each investment is active
-- Example labels: "Investment A (prerequisite for Phase 2)", "Investment B (spans Phases 1-3)", "Investment C (Phase 2 only)"
-- Dependency arrows showing that Investment A must complete before Phase 2 begins
+- Example labels: "Investment A (prerequisite for Diagnostic)", "Investment B (spans assessment track)", "Investment C (Diagnostic only)"
+- Dependency arrows showing that Investment A must complete before the Diagnostic begins
 - Annotation: "Investments are what the ORGANIZATION provides. Without them, activities below cannot succeed."
 
 **Lane 2 -- "Team Activities":**
@@ -465,19 +465,21 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 **Layout:** Horizontal swim-lane process flow.
 
 **Lanes:**
-- **Facilitator Lane**: Active during all four phases
-- **Artisan Lane**: Active primarily during Phase 4 (Collaborative Delivery)
+- **Facilitator Lane**: Active during both tracks
+- **Artisan Lane**: Active during Collaborative Delivery (runs concurrently from the start)
 
-**Phases:**
+**Assessment track (sequential):**
 1. Discovery -> Decision Gate: "Proceed to Diagnostic?"
 2. Diagnostic -> Decision Gate: "Proceed to Goal Setting?"
-3. Goal Setting -> Decision Gate: "Proceed to Collaborative Delivery?"
-4. Collaborative Delivery (cyclical sub-process with check-ins, retrospectives, re-diagnostics)
+3. Goal Setting & Roadmap -> Decision Gate: "Confirm scope and direction of Collaborative Delivery?"
+
+**Delivery track (concurrent):**
+- Collaborative Delivery (cyclical sub-process with check-ins, retrospectives, re-diagnostics)
 
 **Key annotations:**
-- "Stopping after any phase is legitimate"
+- "Stopping after any assessment phase is legitimate"
 - Decision gates show what must be true to proceed
-- Phase 4 shows the cyclical cadence (links to VA-6)
+- Collaborative Delivery shows the cyclical cadence (links to VA-6)
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: "ACE Consulting Engagement Model"
-description: "This document defines the four-phase consulting engagement structure for ACE — from diagnostic through embedded delivery, where Artisans work alongside client teams to build real capability."
+description: "This document defines the ACE consulting engagement structure — two concurrent tracks (assessment and delivery) where facilitators build the diagnostic picture while Artisans work alongside client teams to build real capability."
 section: "consulting"
 order: 1
 ---
-This document defines the four-phase consulting engagement structure for ACE — from diagnostic through embedded delivery, where Artisans work alongside client teams to build real capability. It is designed to be specific enough to quote in a proposal and flexible enough to adapt to organizations of different sizes, industries, and AI adoption stages.
+This document defines the ACE consulting engagement structure — two concurrent tracks (assessment and delivery) where facilitators build the diagnostic picture while Artisans work alongside client teams to build real capability. It is designed to be specific enough to quote in a proposal and flexible enough to adapt to organizations of different sizes, industries, and AI adoption stages.
 
 ---
 
@@ -24,11 +24,13 @@ An ACE engagement guides an organization from "we don't know where we are" to "w
 
 4. **Collaborative Delivery** -- Experienced Artisans embed with client teams to deliver real software together while assessing and strengthening the team's foundational capabilities through the shared work.
 
-Collaborative Delivery does not wait for the assessment track to complete. Most client teams start at Zone 0 or Zone 1, which means their foundational engineering disciplines — TDD, pair programming, continuous integration, small iterations — often need strengthening before AI-augmented workflows can take hold. Artisans embed from the start of the engagement to assess the team's actual discipline through the shared work (providing ground-truth signal that complements the Facilitator's diagnostic) and immediately begin getting the team "AI-ready" by establishing the engineering habits that Zone 2 requires. The team is building foundational capability from day one — not waiting idle during the assessment phases.
+Collaborative Delivery does not wait for the assessment track to complete. Most client teams start at Zone 0 or Zone 1, which means their foundational engineering disciplines — TDD, pair programming, continuous integration, small iterations — often need strengthening before AI-augmented workflows can take hold. Artisans embed from the start of the engagement to assess the team's actual discipline through the shared work (providing first-hand observational signal that complements the Facilitator's diagnostic) and immediately begin getting the team "AI-ready" by establishing the engineering habits that Zone 2 requires. The team is building foundational capability from day one — not waiting idle during the assessment phases.
 
 As assessment outputs arrive, they refine the Artisan team's focus. The roadmap does not initiate the delivery work — it formalizes what is already underway and sets the direction forward.
 
-**Phase boundaries are decision points.** At the end of Discovery, the client reviews the Context Analysis Summary and decides whether the diagnostic scope is right. At the end of the Diagnostic, the client reviews the reports and decides whether to proceed to Goal Setting. At the end of Goal Setting, the client reviews the roadmap and confirms the scope and direction of Collaborative Delivery going forward. These are genuine decision points, not formalities. A client who decides that the diagnostic findings are sufficient and does not want to proceed to Goal Setting has received legitimate value. The facilitator should make these decision points visible and protect the client's freedom to choose at each one.
+**Assessment track boundaries are decision points.** At the end of Discovery, the client reviews the Context Analysis Summary and decides whether the diagnostic scope is right. At the end of the Diagnostic, the client reviews the reports and decides whether to proceed to Goal Setting. At the end of Goal Setting, the client reviews the roadmap and confirms the scope and direction of Collaborative Delivery going forward. These are genuine decision points, not formalities. A client who decides that the diagnostic findings are sufficient and does not want to proceed to Goal Setting has received legitimate value. The facilitator should make these decision points visible and protect the client's freedom to choose at each one.
+
+**Commitment momentum.** Because Artisans embed from the start, the social and relational cost of exercising a decision point increases over time. By the time the Diagnostic concludes, Artisans have been pair-programming with the team for weeks — the team has formed working relationships, and stopping feels like disrupting something that is already working. Facilitators must be aware of this dynamic and actively surface it at each decision point: "The Artisan team has been embedded for [N weeks]. We want to make sure that your decision to continue is based on the value you see in the assessment findings and roadmap, not on the momentum of having people already in place." The engagement should also define an early-termination Artisan ramp-down protocol, shared with the client at engagement start, so that stopping is a planned option rather than an awkward disruption.
 
 ---
 
@@ -228,15 +230,17 @@ See the roadmap templates for zone-specific progression plans:
 
 ---
 
-## Phase 4: Collaborative Delivery
+## Collaborative Delivery
 
 **Duration:** Variable, typically 3-18 months depending on engagement scope
 
 **Purpose:** Deploy a balanced cross-craft team of Artisans who embed with the client's delivery teams to build real software together while mentoring through the shared work. This phase is where the roadmap becomes reality — not through advisory check-ins, but through Artisans and client team members working the same backlog, writing production code, designing features, and managing product work side by side.
 
-**Early start.** Collaborative Delivery does not have to wait for Phases 1-3 to complete. In many engagements, Artisans begin embedding during Discovery. This early start serves two purposes: first, working alongside the team gives the Artisans direct observation of the team's actual engineering discipline — their testing habits, pairing comfort, integration practices, iteration cadence — which provides ground-truth signal that complements the Facilitator's diagnostic. Second, and more importantly, the Artisans can immediately begin getting the team "AI-ready" by introducing and reinforcing the XP fundamentals that Zone 2 requires. A team that has been practicing TDD and pair programming for weeks by the time the roadmap is finalized is in a far stronger position than a team that only begins those habits after the plan is written. The Facilitator's assessment phases and the Artisan's capability-building work proceed in parallel, each informing the other.
+**Early start.** Collaborative Delivery does not wait for the assessment track to complete. In many engagements, Artisans begin embedding during Discovery. This early start serves two purposes: first, working alongside the team gives the Artisans first-hand observational signal about the team's actual engineering discipline — their testing habits, pairing comfort, integration practices, iteration cadence — which complements the Facilitator's diagnostic. (Note: Artisan observations and diagnostic self-assessments are complementary information sources with different bias profiles. Artisan observations provide behavioral data from daily collaboration but are subject to observer effects and selection bias. Diagnostic self-reports capture team self-perception but are subject to social desirability bias. Neither source alone constitutes "ground truth" — the value is in triangulating between them.) Second, and more importantly, the Artisans can immediately begin getting the team "AI-ready" by introducing and reinforcing the foundational practices — TDD, pair programming, continuous integration, small iterations — that Zone 2 requires. A team that has been practicing TDD and pair programming for weeks by the time the roadmap is finalized is in a far stronger position than a team that only begins those habits after the plan is written. The Facilitator's assessment track and the Artisan's capability-building work proceed in parallel, each informing the other.
 
-**A note on dual purpose.** Phase 4 serves two objectives simultaneously: delivering working software and building client capability. These objectives are usually complementary — the best way to build capability is through shared delivery. But they can create tension when delivery pressure conflicts with mentoring pace. When a deadline demands maximum throughput, the natural response is for Artisans to "just do the work" rather than slow down to mentor through it. The engagement lead must actively manage this tension: if Artisans consistently optimize for delivery speed over capability transfer, the engagement devolves into staff augmentation regardless of its stated purpose. Periodic check-ins should explicitly ask whether the mentoring purpose is being served, not just whether stories are shipping.
+**Measurement implication of concurrent start.** Because Artisans embed before the Diagnostic is administered, the diagnostic measures a team that has already begun receiving intervention — not a pure pre-intervention baseline. Facilitators should be aware of this and, when interpreting results, ask teams to distinguish practices they had before the Artisans joined from practices they have adopted since. For engagements where a true pre-intervention baseline is required (e.g., for research or validation purposes), consider administering a lightweight baseline screening before Artisans begin embedding.
+
+**A note on dual purpose.** Collaborative Delivery serves two objectives simultaneously: delivering working software and building client capability. These objectives are usually complementary — the best way to build capability is through shared delivery. But they can create tension when delivery pressure conflicts with mentoring pace. When a deadline demands maximum throughput, the natural response is for Artisans to "just do the work" rather than slow down to mentor through it. The engagement lead must actively manage this tension: if Artisans consistently optimize for delivery speed over capability transfer, the engagement devolves into staff augmentation regardless of its stated purpose. Periodic check-ins should explicitly ask whether the mentoring purpose is being served, not just whether stories are shipping.
 
 ### Activities
 
@@ -286,6 +290,8 @@ These assessment activities are conducted by the ACE Facilitator, not the embedd
 
 **Artisans as change observers.** While the Facilitator owns the diagnostic assessment, embedded Artisans have a unique vantage point on how the team is experiencing the transition day-to-day. Artisans should surface observations about team morale, adoption anxiety, identity transition stress, and emerging resistance patterns to the Facilitator during periodic coordination. This is not a formal assessment role — it is the natural consequence of being embedded in the team's daily work. The Facilitator can use these observations to inform facilitation approach, check-in priorities, and roadmap adjustments.
 
+**Transparency about the observation channel.** The information flow from Artisans to Facilitator should be disclosed to the team during the pre-diagnostic brief. Teams should understand that Artisans will share general observations about team dynamics with the Facilitator — not as a surveillance mechanism, but as a natural consequence of the two tracks running concurrently. This disclosure allows team members to give fully informed consent to the embedded model and prevents the observation channel from feeling covert if it is discovered later.
+
 **Resistance Engagement**
 
 Resistance to AI adoption practices is not inherently a problem to solve -- it is data about how the change is being experienced. The engagement team should distinguish between:
@@ -326,7 +332,7 @@ As client team members build competency in the practices the Artisans have intro
 
 ## Typical Engagement Timeline
 
-| Phase | Duration | Teams = 3 | Teams = 8 | Teams = 15+ |
+| Track / Component | Duration | Teams = 3 | Teams = 8 | Teams = 15+ |
 |---|---|---|---|---|
 | Discovery | 2-4 weeks | 2 weeks | 3 weeks | 4 weeks |
 | Diagnostic | 1-2 weeks | 1 week | 1.5 weeks | 2-3 weeks (or multiple facilitators) |
@@ -334,7 +340,7 @@ As client team members build competency in the practices the Artisans have intro
 | Collaborative Delivery | 3-18 months (can start during Discovery) | 3-18 months | 3-18 months | 3-18 months |
 | **Total initial engagement** | **4-8 weeks + ongoing** | **4-5 weeks + ongoing** | **6-7 weeks + ongoing** | **8-9 weeks + ongoing** |
 
-Collaborative Delivery can begin in parallel with Discovery — Artisans embed early to assess the team's engineering discipline and start building the foundational XP practices the team needs before AI-augmented workflows can take hold. The initial assessment engagement (Phases 1-3) is typically scoped as a fixed-price engagement. Collaborative Delivery (Phase 4) is priced based on Artisan team composition and engagement duration.
+Collaborative Delivery can begin in parallel with Discovery — Artisans embed early to assess the team's engineering discipline and start building the foundational XP practices the team needs before AI-augmented workflows can take hold. The assessment track (Discovery, Diagnostic, Goal Setting & Roadmap) is typically scoped as a fixed-price engagement. Collaborative Delivery is priced separately based on Artisan team composition and engagement duration.
 
 ---
 
@@ -342,9 +348,9 @@ Collaborative Delivery can begin in parallel with Discovery — Artisans embed e
 
 The following pricing structures are appropriate for ACE engagements. Actual rates depend on market, facilitator experience, and organizational complexity.
 
-### Option A: Phased Fixed-Price
+### Option A: Per-Track Fixed-Price
 
-| Phase | Scope | Suggested Structure |
+| Track / Component | Scope | Suggested Structure |
 |---|---|---|
 | Discovery | Fixed scope, fixed deliverables | Fixed price per engagement |
 | Diagnostic | Per-team pricing | Base price + per-team increment |
@@ -355,7 +361,7 @@ This model provides cost predictability for the client and clear scope boundarie
 
 ### Option B: Full Initial Engagement Package
 
-Bundle Phases 1-3 into a single fixed-price engagement, priced by organization size:
+Bundle the assessment track (Discovery, Diagnostic, Goal Setting & Roadmap) into a single fixed-price engagement, priced by organization size:
 
 | Organization Size | Teams Assessed | Typical Range |
 |---|---|---|
@@ -363,14 +369,14 @@ Bundle Phases 1-3 into a single fixed-price engagement, priced by organization s
 | Medium (4-8 teams) | 4-8 | Mid tier |
 | Large (9-15+ teams) | 9-15+ | Upper tier (may require multiple facilitators) |
 
-Collaborative Delivery (Phase 4) is always priced separately based on Artisan team size and engagement duration.
+Collaborative Delivery is always priced separately based on Artisan team size and engagement duration.
 
 ### Option C: Embedded Delivery Partnership
 
 For organizations that want the full engagement arc from diagnostic through delivery:
 
-- Phases 1-3 (Discovery, Diagnostic, Goal Setting & Roadmap) included in initial period
-- Artisan team embedded for delivery and mentoring during Phase 4
+- Assessment track (Discovery, Diagnostic, Goal Setting & Roadmap) included in initial period
+- Artisan team embedded for Collaborative Delivery concurrently and continuing beyond
 - Periodic re-diagnostics included throughout the engagement
 - Ramp-down based on competency evidence from re-diagnostics
 
@@ -379,7 +385,7 @@ This model works well for organizations that want to build lasting capability th
 ### Pricing Principles
 
 - **Never price by zone.** Pricing should reflect facilitator effort, not the client's current or target zone. A Zone 0-to-1 engagement requires the same diagnostic rigor as a Zone 2-to-3 engagement.
-- **Price Phase 4 by team composition.** The Artisan team is sized to the engagement — the cost reflects the number and craft mix of Artisans embedded, multiplied by engagement duration.
+- **Price Collaborative Delivery by team composition.** The Artisan team is sized to the engagement — the cost reflects the number and craft mix of Artisans embedded, multiplied by engagement duration.
 - **Re-diagnostics are separate deliverables.** Each re-diagnostic requires workshop facilitation and report generation. Price accordingly.
 - **Travel and expenses are additional.** For on-site engagements, travel costs are passed through at cost.
 - **Multi-facilitator engagements carry coordination overhead.** When multiple facilitators are needed, add coordination time to the scope.
@@ -451,3 +457,4 @@ The following patterns reduce the effectiveness of an ACE engagement:
 - [Metrics Tree](/toolkit/metrics-tree)
 - [Zone-Specific Metrics](/toolkit/zone-specific-metrics)
 - [Organizational Health Metrics](/toolkit/organizational-health-metrics)
+- [What Is ACE?](/toolkit/what-is-ace) -- Framework overview including the two-track engagement summary

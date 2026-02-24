@@ -37,7 +37,7 @@ A score pattern where responses cluster at two distinct levels (e.g., half the t
 ## C
 
 **Collaborative Delivery**
-Phase 4 of the ACE engagement model. Experienced Artisans embed with the client team as full members — not as advisors sitting in on meetings — to deliver real software together while mentoring through the shared work. Learning happens through the work itself: pair programming on real stories, collaborative design sessions, shared PR reviews, and real-time coaching on practices as they arise naturally in delivery. Distinct from advisory-only or staff-augmentation models: the work is shared, and both delivery and capability transfer are explicit objectives. See [Engagement Model](/toolkit/engagement-model).
+The delivery track of the ACE engagement model, running concurrently with the assessment track from the start. Experienced Artisans embed with the client team as full members — not as advisors sitting in on meetings — to deliver real software together while mentoring through the shared work. Learning happens through the work itself: pair programming on real stories, collaborative design sessions, shared PR reviews, and real-time coaching on practices as they arise naturally in delivery. Distinct from advisory-only or staff-augmentation models: the work is shared, and both delivery and capability transfer are explicit objectives. See [Engagement Model](/toolkit/engagement-model).
 
 **CAT (Continuous Alignment Testing)**
 The AI analog of test-driven development. Automated pipelines that verify AI outputs remain consistent, accurate, and aligned with behavioral expectations. No AI-produced feature ships without passing its eval criteria. A Zone 3 core practice. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).

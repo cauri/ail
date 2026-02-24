@@ -40,7 +40,7 @@ Your job is to create the conditions in which a team can honestly assess its own
 
 If you have a consulting background, you may feel a pull to diagnose problems and prescribe solutions. Resist that pull during the diagnostic workshop. Your facilitation creates the space for the team to discover their own situation. The consulting happens later, during goal setting and roadmap development.
 
-**A note on the Facilitator role during Collaborative Delivery.** The principle "resist the pull to prescribe" applies during the diagnostic phases (Discovery, Diagnostic, Goal Setting). During Phase 4 — Collaborative Delivery — hands-on work IS the model. But the hands-on work is done by the embedded Artisan team, not the Facilitator. The Facilitator's role during Collaborative Delivery is the assessment and coaching layer: conducting check-ins, facilitating retrospectives, administering re-diagnostics, and refreshing the roadmap. The Facilitator maintains diagnostic objectivity by remaining separate from the delivery work itself. If you serve as both Facilitator and embedded Artisan (common in smaller engagements), be explicit about which hat you are wearing in each interaction.
+**A note on the Facilitator role during Collaborative Delivery.** The principle "resist the pull to prescribe" applies during the assessment track (Discovery, Diagnostic, Goal Setting). During Collaborative Delivery — the delivery track — hands-on work IS the model. But the hands-on work is done by the embedded Artisan team, not the Facilitator. The Facilitator's role during Collaborative Delivery is the assessment and coaching layer: conducting check-ins, facilitating retrospectives, administering re-diagnostics, and refreshing the roadmap. The Facilitator maintains diagnostic objectivity by remaining separate from the delivery work itself. If you serve as both Facilitator and embedded Artisan (common in smaller engagements), be explicit about which hat you are wearing in each interaction.
 
 ### Role Transitions Throughout the Engagement
 
@@ -65,7 +65,9 @@ The principle: every role the facilitator occupies should be named and transpare
 
 ## The Engagement Lifecycle
 
-A full ACE engagement has four phases. Understanding all four gives you context for where the diagnostic fits in the bigger picture.
+A full ACE engagement runs two concurrent tracks. Understanding both gives you context for where the diagnostic fits in the bigger picture.
+
+**Assessment track (facilitator-led, sequential):**
 
 **1. Discovery (2-4 weeks).** Before you ever run a diagnostic, you learn about the organization. You interview stakeholders across business leadership, engineering leadership, and individual contributors. You build a context analysis that captures team composition, current AI tool usage, development maturity, and organizational constraints. This preparation is what lets you facilitate with depth rather than going through the motions. See the [engagement model](/toolkit/engagement-model) for the full Discovery process.
 
@@ -73,9 +75,11 @@ A full ACE engagement has four phases. Understanding all four gives you context 
 
 **3. Goal Setting and Roadmap (1-2 weeks).** You work with leadership to choose target zones based on diagnostic results, and with teams to build progression roadmaps. This is where the diagnostic results become actionable. See [How to Choose a Target Zone](/toolkit/choose-target-zone) and [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
 
-**4. Collaborative Delivery (3-18 months).** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work. As the Facilitator, your role during this phase is the assessment layer: conducting monthly check-ins, facilitating quarterly retrospectives, administering re-diagnostics, and refreshing the roadmap. You coordinate with the Artisan team lead but maintain diagnostic independence. See the [engagement model](/toolkit/engagement-model) for full details on how the Facilitator and Artisan roles interact.
+**Delivery track (runs concurrently from the start):**
 
-As a new facilitator, you will focus primarily on Phases 1 and 2. Goal setting and Collaborative Delivery come with experience and deeper client relationships.
+**Collaborative Delivery (3-18 months).** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work — this starts at the beginning of the engagement, not after the assessment track completes. As the Facilitator, your role during this track is the assessment layer: conducting monthly check-ins, facilitating quarterly retrospectives, administering re-diagnostics, and refreshing the roadmap. You coordinate with the Artisan team lead but maintain diagnostic independence. See the [engagement model](/toolkit/engagement-model) for full details on how the Facilitator and Artisan roles interact.
+
+As a new facilitator, you will focus primarily on Discovery and the Diagnostic. Goal setting and Collaborative Delivery come with experience and deeper client relationships.
 
 ![VA-7: Diagnosis-Intervention Cycle](/images/diagnosis-intervention-cycle.svg)
 

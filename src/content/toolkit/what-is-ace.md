@@ -56,15 +56,15 @@ A typical ACE engagement runs two tracks concurrently:
 
 1. **Discovery.** A trained facilitator builds a thorough understanding of the organization's context before administering any diagnostic.
 
-2. **Facilitated diagnostic.** The facilitator guides teams through structured self-assessments to establish their current zone and competency stage. This is not an external audit; it is a collaborative process that builds shared understanding.
+2. **Diagnostic.** The facilitator guides teams through structured self-assessments to establish their current zone and competency stage. This is not an external audit; it is a collaborative process that builds shared understanding.
 
-3. **Goal setting and roadmap.** The team and organizational leadership review the diagnostic results, choose a target zone based on strategic context, and map the specific investments required to get there. See [How to Choose a Target Zone](/toolkit/choose-target-zone) and [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
+3. **Goal Setting & Roadmap.** The team and organizational leadership review the diagnostic results, choose a target zone based on strategic context, and map the specific investments required to get there. See [How to Choose a Target Zone](/toolkit/choose-target-zone) and [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
 
 **Delivery track (runs concurrently from the start):**
 
-4. **Collaborative Delivery.** Embedded Artisans join the client team to deliver real software together from the beginning of the engagement -- they do not wait for the assessment to complete. While facilitators build the diagnostic picture and progression plan, Artisans are already assessing the team's engineering discipline firsthand and strengthening the foundational practices (TDD, pair programming, continuous integration, small iterations) that teams need before AI-augmented workflows can take hold. As assessment outputs arrive, they refine the delivery team's focus. The roadmap formalizes what is already underway and sets the direction forward.
+- **Collaborative Delivery.** Embedded Artisans -- engineers, product managers, and designers -- join the client team to deliver real software together from the beginning of the engagement. They do not wait for the assessment to complete. While facilitators build the diagnostic picture and progression plan, Artisans are already assessing the team's discipline firsthand and strengthening the foundational practices that teams need before AI-augmented workflows can take hold. As assessment outputs arrive, they refine the delivery team's focus. The roadmap formalizes what is already underway and sets the direction forward.
 
-5. **Reassessment.** Periodic re-administration of the diagnostic measures actual competency progression and informs roadmap adjustments.
+- **Reassessment.** Periodic re-administration of the diagnostic measures actual competency progression and informs roadmap adjustments.
 
 The system is designed to be repeatable. Organizations run the diagnostic, invest in progression, reassess, and adjust -- creating a continuous improvement cycle for AI adoption that is grounded in observable behavior rather than aspirational planning.
 
@@ -78,3 +78,4 @@ The system is designed to be repeatable. Organizations run the diagnostic, inves
 - [Zone 3 Reference](/toolkit/zone-3-accelerating) -- Detailed description of Zone 3 proficiencies and investments
 - [Zone 4 Reference](/toolkit/zone-4-industrializing) -- Detailed description of Zone 4 proficiencies and investments
 - [Quick Reference](/toolkit/quick-reference) -- One-page summary for use during workshops
+- [Engagement Model](/toolkit/engagement-model) -- Detailed two-track engagement structure with pricing, timeline, and facilitator requirements
