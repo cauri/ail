@@ -8,6 +8,10 @@ order: 4
 
 These questions assess whether an organization operates as an AI-first software factory where a multi-role team -- engineers, PMs, designers, and QA engineers -- designs, governs, and maintains the factory itself rather than performing development work directly. Zone 4 competency means the organization has industrialized AI-driven development: multiple AI pipelines operate at portfolio scale with formal governance, drift management, production SLAs, and systematic evaluation. Engineers are factory designers and operators, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA engineers operate the evaluation infrastructure; AI systems are the production workforce.
 
+### Evidence Status
+
+**These questions are theoretical and have not been validated against real organizational practice.** No organization has demonstrably achieved the fully industrialized AI development capability that Zone 4 describes. The questions are designed based on trajectory analysis from Zone 3 patterns, analogy to industrial manufacturing, and early reports from organizations pursuing elements of this level. Facilitators should treat Zone 4 assessment results as directional indicators, not validated competency measurements. The [Validation Study Plan](/research/validation-study-plan) includes Zone 4 question validation as a future phase, contingent on organizations reaching sufficient Zone 4 maturity to provide empirical data.
+
 ## Questions
 
 All questions are answered on a 1-5 frequency scale (see Scale below). Each team member answers individually. Questions measure observable organizational behavior --- what the engineering organization actually does at scale, not what it is piloting or planning.

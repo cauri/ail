@@ -139,6 +139,17 @@ When AI-generated code produces harm, accountability must be assignable. Zone 3 
 
 AI-generated output must be traceable to the specification, context, model version, and eval results that governed its production. This is not optional at Zone 3 -- it is the mechanism by which the organization can answer the question "why did the system produce this output?" when that question is asked by regulators, customers, or legal counsel.
 
+### Regulatory Landscape Awareness
+
+The regulatory environment for AI-generated software is evolving rapidly. Organizations operating at Zone 3 should establish a regulatory monitoring function that tracks developments relevant to AI-produced code, including:
+
+- **The EU AI Act** and its risk classification framework, which may classify certain AI-assisted development pipelines as high-risk AI systems depending on the application domain
+- **US state-level AI regulations** (e.g., Colorado's AI Act, proposed legislation in other states) that impose transparency and accountability requirements on AI-driven decision systems
+- **Domain-specific regulations** in healthcare (FDA software guidelines), finance (SEC/OCC guidance on AI in financial services), and critical infrastructure that may require human authorship attestation or additional disclosure for AI-generated components
+- **Emerging standards** from NIST AI RMF, ISO/IEC 42001, and similar frameworks that will increasingly define audit expectations for AI-produced software
+
+This is not a legal compliance checklist -- it is a strategic awareness requirement. The regulatory landscape will shape which AI-driven development patterns are permissible in which domains, and organizations that track these developments proactively will adapt more smoothly than those that discover requirements reactively.
+
 ### When AI-Driven Development Is Inappropriate
 
 Not all software should be produced through AI pipelines regardless of organizational capability. Organizations should establish explicit boundaries for software categories where human authorship or additional human review is required:
