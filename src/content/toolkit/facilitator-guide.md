@@ -128,9 +128,9 @@ Team members have a right to understand how their assessment data will be handle
 
 Facilitating your first diagnostic can feel daunting. Here is how to prepare:
 
-**Study the model deeply.** Read the [zone reference documents](/toolkit/), the [competency concept](/toolkit/competency-vs-knowledge), and the [progressive competency model](/toolkit/progressive-competency-model) until you can explain them conversationally without referring to notes. You do not need to memorize every proficiency, but you need to understand the core ideas well enough to answer questions naturally.
+**Study the model deeply.** Read the zone reference documents ([Zone 1](/toolkit/zone-1-augmenting), [Zone 2](/toolkit/zone-2-integrating), [Zone 3](/toolkit/zone-3-accelerating), [Zone 4](/toolkit/zone-4-industrializing)), the [competency concept](/toolkit/competency-vs-knowledge), and the [progressive competency model](/toolkit/progressive-competency-model) until you can explain them conversationally without referring to notes. You do not need to memorize every proficiency, but you need to understand the core ideas well enough to answer questions naturally.
 
-**Practice with the questions.** Read through the [diagnostic questionnaires](/toolkit/) and imagine how you would introduce each zone and each question. Practice saying the opening framing aloud. It will feel awkward the first few times. That is normal.
+**Practice with the questions.** Read through the diagnostic questionnaires ([Zone 1](/toolkit/zone-1-questions), [Zone 2](/toolkit/zone-2-questions), [Zone 3](/toolkit/zone-3-questions), [Zone 4](/toolkit/zone-4-questions)) and imagine how you would introduce each zone and each question. Practice saying the opening framing aloud. It will feel awkward the first few times. That is normal.
 
 **Run a mock workshop.** Ask colleagues or fellow facilitators-in-training to play the role of a team. Practice the full workshop flow: opening, individual scoring, score reveal, facilitated discussion, closing. The mock will feel artificial, but it builds muscle memory for the transitions between phases.
 

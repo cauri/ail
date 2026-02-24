@@ -14,7 +14,7 @@ If you have not yet read the [Facilitator Guide](/toolkit/facilitator-guide), st
 
 Your most important preparation is not logistical -- it is mental. You need to walk into the room (or video call) as someone who deeply understands the ACE model and can explain it conversationally.
 
-Review the [zone reference documents](/toolkit/) for whichever zones you will be assessing. Most workshops assess Zone 1 and Zone 2. For each zone, know the core metric, the key proficiencies, and the organizational investments. You do not need to memorize every detail, but you should be able to explain what each zone represents in plain language, without jargon.
+Review the zone reference documents ([Zone 1](/toolkit/zone-1-augmenting), [Zone 2](/toolkit/zone-2-integrating), [Zone 3](/toolkit/zone-3-accelerating), [Zone 4](/toolkit/zone-4-industrializing)) for whichever zones you will be assessing. Most workshops assess Zone 1 and Zone 2. For each zone, know the core metric, the key proficiencies, and the organizational investments. You do not need to memorize every detail, but you should be able to explain what each zone represents in plain language, without jargon.
 
 Review the context you gathered during the Discovery phase. What did you learn about this team in stakeholder interviews? What AI tools are they using? What is their delivery culture like? What sensitivities did you pick up? This context lets you ask informed follow-up questions rather than generic ones. A facilitator who says "tell me more about that" is adequate. A facilitator who says "you mentioned your team switched to Cursor last quarter -- has that changed how you approach code review?" is excellent.
 

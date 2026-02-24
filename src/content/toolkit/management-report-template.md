@@ -269,7 +269,7 @@ ACE defines five zones of AI competency, each representing a qualitatively diffe
 | 3 | Accelerating | Engineers shift from writing code to designing the process that produces code |
 | 4 | Industrializing | AI-first development at organizational scale |
 
-The four zones form a single progression. Zone 2 is the typical near-term target -- the competitive baseline. Zones 3 and 4 require progressively larger investments justified by strategic context.
+The four zones form a single progression. Zone 2 is the typical near-term target for most organizations -- the point at which AI adoption becomes a durable team-level capability. Organizations choose their stopping point based on strategic context and investment capacity; every zone is a legitimate destination when chosen through informed analysis. Zones 3 and 4 require progressively larger investments justified by strategic context.
 
 ### Competency Stages
 

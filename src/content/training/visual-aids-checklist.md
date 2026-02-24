@@ -126,7 +126,7 @@ This checklist tracks visual aids needed for the facilitator training program. E
 - What You See: "A 2 and a 5 on the same question. The group is split."
 - What to Do: "Start with the LOW scorer. 'I see a range. Let me start with the lower end -- what are you seeing?' Starting low prevents social pressure from silencing honest dissent."
 
-**Footer:** "Default probe for any high score: 'What does that look like on a typical Tuesday?' If they can't answer, the score is aspirational."
+**Footer:** "Default discovery probe for any high score: 'Help me understand what that looks like on a typical Tuesday.' Listen for specific, concrete examples. If the response stays abstract, explore further: 'Can you walk me through a recent instance?' The goal is to understand the team's actual practice, not to catch them."
 
 **Key visual cues:**
 - Use icons or small illustrations for each challenge pattern for instant visual recognition
