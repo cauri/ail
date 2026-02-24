@@ -169,7 +169,15 @@ Trainees produce:
 
 2. **Draft Target Zone Declaration** (1 page): the target zone they would recommend, the strategic rationale, the specific investments they would require leadership to name and own, and the timeline framing.
 
-Assessment evaluates whether the trainee's zone recommendation is appropriate to the organizational context, whether the declaration passes the investment commitment test, and whether the session plan reflects a realistic facilitation approach for this specific leadership dynamic.
+**Scoring rubric:**
+
+| Dimension | Satisfactory | Not Yet Satisfactory |
+|-----------|-------------|---------------------|
+| **Zone recommendation appropriateness** | The recommendation is supported by the organizational context evidence and addresses the specific decision factors in the scenario | The recommendation is generic or disconnected from the scenario details |
+| **Investment commitment test** | The declaration includes named owners, specific investments, and timelines | The declaration reads as aspirational without accountability |
+| **Session plan realism** | The plan reflects the specific leadership dynamics described in the scenario (e.g., managing the CTO-CFO tension) | The plan is generic and would apply to any organization |
+
+Trainees who receive "Not Yet Satisfactory" on any dimension revise and resubmit with targeted feedback.
 
 ---
 

@@ -232,7 +232,18 @@ Trainees produce a memo that:
 3. Recommends a ramp-down plan for the next 6 months, specifying which practices are ready for hand-off and which need continued Artisan support.
 4. Addresses how the Artisan team should coordinate with the ACE Facilitator on the findings.
 
-Assessment evaluates the trainee's integration of all six learning objectives: embedded team effectiveness, mentoring through delivery, maintaining capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management.
+**Scoring rubric:**
+
+| Dimension | Competent | Not Yet Competent |
+|-----------|-----------|-------------------|
+| **Embedded team effectiveness** | The memo identifies specific evidence of capability transfer (or its absence) and cites scenario data | The memo asserts effectiveness without citing specific evidence |
+| **Mentoring through delivery** | The memo distinguishes between delivery output and competency development, noting where they diverge | The memo treats delivery metrics as proxies for learning without distinction |
+| **Maintaining capability-building purpose** | The memo identifies staff-aug drift signals with specific evidence and proposes corrective actions | The memo focuses on delivery metrics without addressing whether the client team is building competency |
+| **Cross-craft collaboration** | The memo addresses how Artisan engineers, PMs, and other roles contribute to client capability building | The memo treats capability transfer as an engineering-only concern |
+| **Ramp-down planning** | The ramp-down recommendation specifies which practices are ready for hand-off with evidence, and which need continued support | The ramp-down recommendation is a generic timeline without practice-level specificity |
+| **Relationship management** | The memo addresses Facilitator coordination with specific communication recommendations | The memo omits or generalizes the Facilitator relationship |
+
+The trainee must achieve "Competent" on all six dimensions. Trainees who receive "Not Yet Competent" on any dimension revise and resubmit with targeted feedback.
 
 ---
 

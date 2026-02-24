@@ -168,6 +168,16 @@ Trainees receive a sample roadmap for a Zone 1-to-2 transition that contains del
 
 Assessment evaluates the trainee's ability to apply roadmap design principles to a concrete artifact, not just describe them abstractly. Scoring gives equal weight to identification, consequence explanation, and correction quality.
 
+**Pass/fail criteria:**
+
+| Dimension | Pass | Fail |
+|-----------|------|------|
+| **Identification** | Correctly identifies at least 4 of the 5 deliberate problems with accurate categorization | Identifies fewer than 4 problems or miscategorizes the majority |
+| **Consequence explanation** | Each identified problem includes a specific practical consequence (e.g., "Phase 2 activities begin without the infrastructure they require, producing early failure") | Consequences are vague ("this would cause problems") or absent |
+| **Correction quality** | Each correction preserves mandatory investments and sequencing rules while addressing the identified problem | Corrections introduce new problems, violate mandatory investment requirements, or are too vague to implement |
+
+Trainees who fail any dimension revise and resubmit with targeted feedback.
+
 ---
 
 ## Preparation for Module 5
