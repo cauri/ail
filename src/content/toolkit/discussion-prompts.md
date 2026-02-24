@@ -16,7 +16,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 1. "Some of you scored a 5 on daily AI tool usage and some scored a 1 or 2. For those who scored high: describe a specific moment last week where AI helped you get something done faster. For those who scored low: what would need to change for you to use these tools regularly?"
 
-2. "Question 4 asks about selecting the right mode of AI engagement -- vibe-coding vs. CHOP vs. rigorous AI-assisted coding. Where do we see the biggest spread? Is this a difference in knowledge (people do not know the modes exist), tooling (people do not have access), or habit (people have not built the muscle memory)?"
+2. "Question 4 asks about selecting the right mode of AI engagement -- vibe-coding vs. CHOP vs. rigorous AI-assisted coding. Where do we see the biggest spread? What do you think explains the difference?" *(Follow-up if needed: "Is it about awareness of the modes, access to tools, or something else?")*
 
 3. "Question 6 asks about PM and non-engineering usage. Product managers and designers -- what has your experience been with AI tools for your role-specific work? What is working? What is frustrating? Engineers -- were you surprised by the PM/designer scores?"
 
@@ -26,7 +26,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 5. "Question 5 asks about reviewing AI-generated code before accepting it. If that scored low, what is happening instead? Are people accepting output without review? Rejecting it without examination? Or not using AI code generation at all?"
 
-6. "Several of you scored low on using AI for tests and documentation (Question 7). Is that because AI tools are not helpful for these tasks, because there is not time, or because it has not occurred to you to use AI for this?"
+6. "Several of you scored low on using AI for tests and documentation (Question 7). What is getting in the way?" *(Follow-up if needed: "Is it about the tools not being helpful for these tasks, time, or something else?")*
 
 ### Identifying Blockers
 
@@ -40,7 +40,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 1. "Question 2 asks about a shared AI configuration committed to source control. Some of you scored high and some low. Do we actually have an AGENTS.md or CLAUDE.md in our repo? If yes, does everyone know about it? If no, what would it take to create one?"
 
-2. "Question 3 asks about mandatory feedback loops -- AI-generated code must pass compiler, linter, and tests before committing. Some of you scored 5, some lower. Is this about infrastructure (we do not have pre-commit hooks), about compliance (the hooks exist but people bypass them), or about awareness (people do not know the expectation)?"
+2. "Question 3 asks about mandatory feedback loops -- AI-generated code must pass compiler, linter, and tests before committing. Some of you scored 5, some lower. What is happening when these checks are not enforced?" *(Follow-up if needed: "Is it the infrastructure, compliance, awareness, or something else?")*
 
 3. "I see a split on Question 4 about externalized plans. Some engineers guide agents with markdown plans checked into the repo; others work entirely through interactive chat. For those using externalized plans: what difference does it make? For those not using them: what would make you start?"
 
@@ -66,7 +66,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 2. "I see variance on the CAT pipeline question (Question 2). Does the team have any form of automated alignment testing for AI outputs today? If yes, how extensive is it? If no, what would be the first thing you would want to evaluate?"
 
-3. "Question 5 asks about observability -- instrumenting AI interactions with traces, timing, and costs. Some scored high, some low. Is this a tooling gap (we do not have the infrastructure), a practice gap (we have tools but do not use them), or a knowledge gap (we are not sure what to instrument)?"
+3. "Question 5 asks about observability -- instrumenting AI interactions with traces, timing, and costs. Some scored high, some low. What is behind the difference?" *(Follow-up if needed: "Is it about tooling, practice, knowledge, or something else?")*
 
 ### Surfacing Role Transformation Issues
 

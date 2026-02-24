@@ -82,7 +82,7 @@ All three must be met **simultaneously**:
 | The Prime Directive | 3 | "You are no longer writing the code. You are designing the process by which code is produced." |
 | CAT | 3 | Continuous Alignment Testing: automated eval pipeline for AI outputs |
 | Eval harness | 3 | Test suite for an AI pipeline; defines what "correct" looks like |
-| Context engineering | 3 | Designing what goes into AI context windows at system level |
+| Context engineering | 2, 3 | Designing what goes into AI context windows; starts with shared configuration (Zone 2), extends to system-level pipeline design (Zone 3) |
 | Observability | 3 | Tracing AI interactions for diagnostics and drift monitoring |
 
 ---
