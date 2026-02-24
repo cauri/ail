@@ -44,7 +44,7 @@ The table below shows each Zone 1 proficiency item, the team's composite score, 
 | Q6: Non-engineering roles using AI | 4 | The PM uses AI for research synthesis, drafting acceptance criteria, and preparing for stakeholder conversations regularly. This is meaningfully above average. Scored 4 rather than 5 because usage is habitual for some tasks but still ad hoc for others — it has not fully become the default mode for all PM work. |
 | Q7: AI for tests, documentation, and peripheral artifacts | 4 | All engineers use AI for test scaffolding and inline code comments consistently. Commit messages and higher-level documentation (ADRs, runbooks, incident postmortems) remain primarily manual. |
 
-**Zone 1 competency threshold met: Yes**
+**Zone 1 competency threshold met: No. Stage: Established.**
 
 Core metric: 6/6 members at 5. Zone composite average: 4.4. Standard deviation across all individual responses: approximately 0.6. All question composites at 4.0 or above: yes. The competency threshold (composite average ≥ 4.7, SD ≤ 0.5, no question composite below 4.0) is not fully met — the composite average of 4.4 falls below 4.7, and the SD of 0.6 exceeds 0.5. The team is Established. The 4s on Q4-Q7 are real growth areas and will matter in Zone 2, but they do not change the zone or stage designation.
 
