@@ -1,0 +1,106 @@
+---
+
+---
+
+<nav
+  id="section-nav"
+  class="sticky top-[57px] z-40 hidden border-b border-gray-200 bg-white/95 backdrop-blur-sm"
+  aria-label="Page sections"
+>
+  <div class="mx-auto flex max-w-5xl items-center gap-6 overflow-x-auto px-6 py-3 text-sm">
+    <a href="#what-ace-measures" class="section-link shrink-0 font-medium text-gray-400 transition-colors hover:text-primary" data-section="what-ace-measures">
+      What is ACE
+    </a>
+    <a href="#zones" class="section-link shrink-0 font-medium text-gray-400 transition-colors hover:text-primary" data-section="zones">
+      Zones
+    </a>
+    <a href="#how-it-works" class="section-link shrink-0 font-medium text-gray-400 transition-colors hover:text-primary" data-section="how-it-works">
+      How It Works
+    </a>
+    <a href="#what-to-expect" class="section-link shrink-0 font-medium text-gray-400 transition-colors hover:text-primary" data-section="what-to-expect">
+      What to Expect
+    </a>
+  </div>
+</nav>
+
+<script>
+  const nav = document.getElementById("section-nav");
+  const links = nav?.querySelectorAll(".section-link") as NodeListOf<HTMLAnchorElement>;
+
+  // Show/hide section nav based on hero visibility
+  const hero = document.querySelector("section:first-of-type");
+  if (hero && nav) {
+    const heroObserver = new IntersectionObserver(
+      ([entry]) => {
+        nav.classList.toggle("hidden", entry.isIntersecting);
+      },
+      { threshold: 0 }
+    );
+    heroObserver.observe(hero);
+  }
+
+  // Scroll-spy: highlight active section
+  const sections = [
+    "the-problem",
+    "what-ace-measures",
+    "zones",
+    "zone-1",
+    "zone-2",
+    "zone-3",
+    "zone-4",
+    "choose-your-depth",
+    "how-it-works",
+    "what-to-expect",
+    "contact",
+  ];
+
+  const sectionMap: Record<string, string> = {
+    "the-problem": "what-ace-measures",
+    "what-ace-measures": "what-ace-measures",
+    "zones": "zones",
+    "zone-1": "zones",
+    "zone-2": "zones",
+    "zone-3": "zones",
+    "zone-4": "zones",
+    "choose-your-depth": "zones",
+    "how-it-works": "how-it-works",
+    "what-to-expect": "what-to-expect",
+    "contact": "what-to-expect",
+  };
+
+  function setActiveLink(sectionId: string) {
+    const navTarget = sectionMap[sectionId];
+    if (!navTarget) return;
+    links?.forEach((link) => {
+      const isActive = link.dataset.section === navTarget;
+      link.classList.toggle("text-pink", isActive);
+      link.classList.toggle("text-gray-400", !isActive);
+    });
+  }
+
+  const sectionObserver = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          setActiveLink(entry.target.id);
+          history.replaceState(null, "", `#${entry.target.id}`);
+        }
+      }
+    },
+    { rootMargin: "-20% 0px -70% 0px" }
+  );
+
+  sections.forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) sectionObserver.observe(el);
+  });
+
+  // Smooth scroll for anchor links
+  links?.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const target = document.querySelector(link.getAttribute("href")!);
+      target?.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+</script>

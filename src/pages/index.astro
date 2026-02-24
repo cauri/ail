@@ -1,59 +1,89 @@
 ---
 import MarketingLayout from '../layouts/MarketingLayout.astro';
 import Hero from '../components/Hero.astro';
-import ZoneCard from '../components/ZoneCard.astro';
 import ZoneProgressionDiagram from '../components/ZoneProgressionDiagram.astro';
-import EngagementSteps from '../components/EngagementSteps.astro';
+import SectionNav from '../components/SectionNav.astro';
 import { baseUrl } from '../utils/base-url';
 
 const zones = [
   {
+    id: "zone-1",
     zone: 1,
     title: "Augmenting",
-    description: "Individual developers use AI coding assistants to enhance personal productivity within existing workflows and processes.",
+    shift: "Tool adoption shift",
+    metric: "Developers habitually use AI coding tools in their daily work, even under deadline pressure or in unfamiliar codebases.",
+    description: "Individual developers use AI coding assistants — copilot, autocomplete, chat — habitually as part of their daily work. AI usage is personal, optional, and ad-hoc.",
+    color: "border-l-blue-400",
+    bgColor: "bg-blue-50",
+    toolkitHref: "/toolkit/zone-1-augmenting",
+    roadmapHref: "/toolkit/baseline-to-zone-1",
   },
   {
+    id: "zone-2",
     zone: 2,
     title: "Integrating",
-    description: "Teams incorporate AI tools into shared development practices, adapting workflows and collaboration patterns around AI capabilities.",
+    shift: "Workflow integration shift",
+    metric: "The team ships AI-verified, production-ready code using a shared agentic workflow that all members contribute to and evolve.",
+    description: "AI is embedded in team-level workflows: code review, testing, documentation, and CI/CD. Usage is systematic, not ad-hoc. The team has a shared, evolving agentic setup.",
+    color: "border-l-emerald-400",
+    bgColor: "bg-emerald-50",
+    toolkitHref: "/toolkit/zone-2-integrating",
+    roadmapHref: "/toolkit/zone-1-to-2",
   },
   {
+    id: "zone-3",
     zone: 3,
     title: "Accelerating",
-    description: "Organizations redesign development processes and architecture around AI capabilities, achieving step-change improvements in delivery.",
+    shift: "Role identity shift",
+    metric: "Engineers operate as process designers — they define specifications, constraints, and verification criteria, and the AI pipeline produces working software.",
+    description: "AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced.",
+    color: "border-l-amber-400",
+    bgColor: "bg-amber-50",
+    toolkitHref: "/toolkit/zone-3-accelerating",
+    roadmapHref: "/toolkit/zone-2-to-3",
   },
   {
+    id: "zone-4",
     zone: 4,
     title: "Industrializing",
-    description: "AI becomes a core organizational competency with systematic governance, custom tooling, and strategic advantage through AI-native development.",
+    shift: "Production model shift",
+    metric: "The organization can reliably specify, produce, evaluate, and deploy AI-generated software at scale, with engineers operating as factory designers.",
+    description: "The organization operates an AI-first software factory. Engineers maintain the factory; AI produces the software. Software delivery is treated as an industrial operation.",
+    color: "border-l-purple-400",
+    bgColor: "bg-purple-50",
+    toolkitHref: "/toolkit/zone-4-industrializing",
+    roadmapHref: "/toolkit/zone-3-to-4",
   },
 ];
 
-const steps = [
+const phases = [
   {
     number: "01",
-    title: "Diagnose",
-    description: "Assess your teams' current AI competency zone through facilitated diagnostic workshops with calibrated questions.",
+    title: "Discovery",
+    description: "We build a thorough understanding of your organization's context — size, development maturity, current AI usage, competitive position, and stakeholder perspectives — before administering any diagnostic.",
+    decision: "You now have a complete context analysis.",
   },
   {
     number: "02",
-    title: "Set Goals",
-    description: "Collaboratively choose target zones aligned with your strategic objectives and organizational competency.",
+    title: "Diagnostic",
+    description: "A trained Artium facilitator guides your teams through structured self-assessments to establish their current zone and competency stage. This is collaborative, not an external audit.",
+    decision: "You have a full diagnostic picture. You can proceed independently or continue to goal setting.",
   },
   {
     number: "03",
-    title: "Plan",
-    description: "Build a customized progression roadmap with specific investments, milestones, and measurable outcomes.",
+    title: "Goal Setting & Roadmap",
+    description: "Leadership reviews results and chooses target zones based on strategic context. We build progression plans with specific investments, timelines, and leading indicators.",
+    decision: "You have a detailed progression plan. You decide whether to engage Artisans for collaborative delivery.",
   },
   {
     number: "04",
-    title: "Progress",
-    description: "Experienced Artisans embed with your teams — often starting during diagnosis — to deliver real software together, building competency through pair programming, TDD, and collaborative delivery.",
+    title: "Collaborative Delivery",
+    description: "Experienced Artisans — engineers, product managers, and designers — embed with your teams to deliver real software together. Artisans complete intensive internal training through Artium Academy before joining your team, ensuring they bring tested practices to the engagement. Your team builds competency through the shared work, not through workshops or training sessions.",
   },
 ];
 ---
 
-<MarketingLayout title="AI Competency Evaluation">
+<MarketingLayout title="AI Competency Evaluation" description="ACE helps organizations understand their AI competency, set meaningful goals, and build real capability through embedded delivery.">
   <Hero
     subtitle="ACE is a framework that helps organizations understand their current AI competency, set meaningful goals, and work alongside experienced practitioners to build real capability."
     ctaText="Explore the Framework"
@@ -62,68 +92,227 @@ const steps = [
     <Fragment slot="title">Know Where You Are.<br />Choose Where You're Going.</Fragment>
   </Hero>
 
-  <ZoneProgressionDiagram />
+  <SectionNav />
 
-  <!-- Value proposition -->
-  <section class="bg-white px-6 py-20">
-    <div class="mx-auto max-w-5xl">
-      <h2 class="text-center font-heading text-3xl text-primary">A Framework for AI Adoption</h2>
-      <p class="mx-auto mt-4 max-w-2xl text-center text-gray-500">
-        ACE provides a structured approach to organizational AI adoption that goes beyond tool selection.
+  <!-- Section 2: The Problem -->
+  <section id="the-problem" class="bg-lavender px-6 py-20">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="font-heading text-3xl text-primary">The Problem ACE Solves</h2>
+      <p class="mt-4 text-gray-500">
+        Your teams are using AI tools. But are they competent? ACE helps you move beyond anecdotes and impressions to understand where your teams actually are, and what investments will move them forward.
       </p>
-      <div class="mt-14 grid gap-8 md:grid-cols-3">
-        <div class="rounded-xl bg-gray-50 p-8 text-center">
-          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-lavender">
-            <svg class="h-6 w-6 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-          <h3 class="mt-4 font-heading text-lg text-primary">Diagnose</h3>
-          <p class="mt-2 text-sm text-gray-500">
-            Calibrated diagnostic questions reveal where your teams actually are — not where you hope they are.
+      <div class="mt-8 space-y-6">
+        <div class="rounded-xl bg-white p-6">
+          <h3 class="font-heading text-lg text-primary">Organizations don't know where they are</h3>
+          <p class="mt-2 text-gray-500">
+            Leadership hears "we're using AI" but has no way to assess whether that usage is habitual, effective, or integrated into delivery workflows. Individual enthusiasm is confused with organizational capability.
           </p>
         </div>
-        <div class="rounded-xl bg-gray-50 p-8 text-center">
-          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-lavender">
-            <svg class="h-6 w-6 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-            </svg>
-          </div>
-          <h3 class="mt-4 font-heading text-lg text-primary">Plan</h3>
-          <p class="mt-2 text-sm text-gray-500">
-            Roadmaps with specific investments, metrics, and milestones tailored to your organization's context and goals.
+        <div class="rounded-xl bg-white p-6">
+          <h3 class="font-heading text-lg text-primary">Organizations don't know where to go</h3>
+          <p class="mt-2 text-gray-500">
+            AI maturity models suggest that more is always better, pushing organizations toward ambitious transformation goals that may not match their strategic needs, risk tolerance, or investment capacity.
           </p>
         </div>
-        <div class="rounded-xl bg-gray-50 p-8 text-center">
-          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-lavender">
-            <svg class="h-6 w-6 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-            </svg>
-          </div>
-          <h3 class="mt-4 font-heading text-lg text-primary">Progress</h3>
-          <p class="mt-2 text-sm text-gray-500">
-            Experienced Artisans embed with your teams to deliver software together — building lasting competency through shared work, not just training.
+        <div class="rounded-xl bg-white p-6">
+          <h3 class="font-heading text-lg text-primary">Organizations don't know how to get there</h3>
+          <p class="mt-2 text-gray-500">
+            Even organizations with clear goals lack a structured approach to identifying and making the specific investments — organizational, not just individual — required to reach the next level of AI integration. Artium doesn't just identify what needs to change — Artisans embed with your teams to help make it happen through collaborative delivery.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Zone cards -->
-  <section class="bg-light-blue px-6 py-20">
-    <div class="mx-auto max-w-5xl">
-      <h2 class="text-center font-heading text-3xl text-primary">Four Zones of AI Competency</h2>
-      <p class="mx-auto mt-4 max-w-2xl text-center text-gray-500">
-        Each zone represents a qualitatively different way that teams relate to AI in their software development practice.
+  <!-- Section 3: What ACE Measures -->
+  <section id="what-ace-measures" class="bg-white px-6 py-20">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="font-heading text-3xl text-primary">Competency, Not Knowledge</h2>
+      <p class="mt-6 text-lg leading-relaxed text-gray-500">
+        The word "competency" in ACE is intentional. Competency means habitual behavior under stress — not knowledge about best practices, and not performance on a team's best day.
       </p>
-      <div class="mt-14 grid gap-6 md:grid-cols-2">
-        {zones.map((z) => (
-          <ZoneCard zone={z.zone} title={z.title} description={z.description} />
+      <p class="mt-4 text-gray-500">
+        A team that knows how to integrate AI into their CI/CD pipeline but abandons that practice when a deadline tightens is not competent. A developer who uses AI tools impressively during a demo but reverts to manual coding under pressure is not competent. Competency is what you do reliably, even when conditions are unfavorable.
+      </p>
+
+      <h3 class="mt-12 font-heading text-2xl text-primary">How ACE Differs from Maturity Models</h3>
+      <div class="mt-8 overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b-2 border-gray-200">
+              <th class="py-3 pr-6 text-left font-medium text-primary">Maturity Models</th>
+              <th class="py-3 text-left font-medium text-primary">ACE</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-500">
+            <tr class="border-b border-gray-200">
+              <td class="py-3 pr-6">Higher is always better</td>
+              <td class="py-3">Higher requires more investment; choose what fits</td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-3 pr-6">Measures knowledge and processes</td>
+              <td class="py-3">Measures habitual behavior under pressure</td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-3 pr-6">External audit / checklist</td>
+              <td class="py-3">Facilitated team self-assessment</td>
+            </tr>
+            <tr class="border-b border-gray-200">
+              <td class="py-3 pr-6">Point-in-time snapshot</td>
+              <td class="py-3">Continuous improvement cycle</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-6">Technology-focused</td>
+              <td class="py-3">Organizational investment-focused</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="mt-6 text-sm text-gray-500">
+        <a href={baseUrl("/research")} class="text-magenta hover:text-pink underline">See the research basis</a> for ACE's measurement philosophy.
+      </p>
+    </div>
+  </section>
+
+  <!-- Section 4: Zone Progression Diagram -->
+  <section id="zones" class="scroll-mt-20">
+    <ZoneProgressionDiagram />
+  </section>
+
+  <!-- Section 5: Zone Details -->
+  {zones.map((z) => (
+    <section id={z.id} class:list={[z.zone % 2 === 0 ? "bg-gray-50" : "bg-white", "scroll-mt-20 px-6 py-20"]}>
+      <div class="mx-auto max-w-4xl">
+        <div class:list={["rounded-xl border-l-4 bg-white p-8 shadow-sm", z.color]}>
+          <p class="text-xs font-medium uppercase tracking-wider text-gray-500">
+            Zone {z.zone} &middot; {z.shift}
+          </p>
+          <h2 class="mt-2 font-heading text-3xl text-primary">{z.title}</h2>
+          <p class="mt-4 text-gray-500">{z.description}</p>
+
+          <div class="mt-8 rounded-lg bg-gray-50 p-5">
+            <p class="text-xs font-medium uppercase tracking-wider text-gray-500">Core Metric</p>
+            <p class="mt-2 text-sm font-medium text-primary">{z.metric}</p>
+          </div>
+
+          <div class="mt-6 flex flex-wrap gap-4 text-sm">
+            <a href={baseUrl(z.toolkitHref)} class="text-magenta hover:text-pink underline">
+              See Zone {z.zone} proficiencies in the Toolkit
+            </a>
+            <a href={baseUrl(z.roadmapHref)} class="text-magenta hover:text-pink underline">
+              Zone {z.zone > 1 ? `${z.zone - 1} to ${z.zone}` : "Baseline to 1"} progression roadmap
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Section 6: Strategic Choice -->
+  <section id="choose-your-depth" class="bg-white px-6 py-20">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="font-heading text-3xl text-primary">A Progressive Path, Not a Mandate</h2>
+      <p class="mt-6 text-gray-500">
+        ACE defines a single linear progression through four zones, each building on the previous. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite.
+      </p>
+      <p class="mt-4 text-gray-500">
+        Zone 2 is the typical near-term target for most organizations — it represents the competitive baseline. Zones 3 and 4 require progressively larger investments justified only in certain strategic contexts.
+      </p>
+
+      <div class="mt-10 rounded-xl border border-gray-200 bg-gray-50 p-6 text-center shadow-sm">
+        <p class="text-sm font-medium text-primary">
+          Higher isn't always better.
+        </p>
+        <p class="mt-2 text-sm text-gray-500">
+          A deeply competent Zone 2 organization that chose its destination through careful analysis
+          is in a stronger position than a Zone 4 organization that overextended.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: How It Works -->
+  <section id="how-it-works" class="bg-lavender px-6 py-20">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="font-heading text-3xl text-primary">How It Works</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-gray-500">
+        A structured engagement with clear decision points at every stage. You choose your depth.
+      </p>
+      <div class="mt-10 space-y-6">
+        {phases.map((phase, i) => (
+          <div>
+            <div class="rounded-xl bg-white p-6 shadow-sm">
+              <div class="flex items-start gap-4">
+                <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-lavender font-heading text-sm font-medium text-magenta">
+                  {phase.number}
+                </span>
+                <div>
+                  <h3 class="font-heading text-lg text-primary">{phase.title}</h3>
+                  <p class="mt-2 text-sm text-gray-500">{phase.description}</p>
+                </div>
+              </div>
+            </div>
+            {phase.decision && (
+              <div class="ml-5 mt-2 flex items-center gap-2 border-l-2 border-magenta/30 py-2 pl-4">
+                <svg class="h-4 w-4 shrink-0 text-magenta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+                <p class="text-xs font-medium text-gray-500">{phase.decision}</p>
+              </div>
+            )}
+          </div>
         ))}
       </div>
+      <p class="mt-8 text-sm text-gray-500">
+        <a href={baseUrl("/training")} class="text-magenta hover:text-pink underline">Learn about facilitator certification</a> for the assessment and coaching methodology.
+      </p>
     </div>
   </section>
 
-  <EngagementSteps steps={steps} />
+  <!-- Section 8: What to Expect -->
+  <section id="what-to-expect" class="bg-white px-6 py-20">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="font-heading text-3xl text-primary">What to Expect</h2>
+      <div class="mt-8 space-y-6">
+        <div class="rounded-xl bg-gray-50 p-6">
+          <h3 class="font-heading text-lg text-primary">Duration</h3>
+          <p class="mt-2 text-gray-500">
+            Discovery and Diagnostic phases typically span 4-6 weeks. Roadmap development adds 2-3 weeks. Collaborative Delivery typically runs 3-18 months, with Artisans ramping down as your team demonstrates competency through periodic re-assessment.
+          </p>
+        </div>
+        <div class="rounded-xl bg-gray-50 p-6">
+          <h3 class="font-heading text-lg text-primary">Who Participates</h3>
+          <p class="mt-2 text-gray-500">
+            Business leadership, engineering leadership, and individual contributors all play roles. The diagnostic itself involves development teams directly — typically 3-5 members per team in facilitated sessions. During Collaborative Delivery, Artisans join your team as full members — working the same backlog, attending the same standups, and collaborating daily.
+          </p>
+        </div>
+        <div class="rounded-xl bg-gray-50 p-6">
+          <h3 class="font-heading text-lg text-primary">Deliverables</h3>
+          <p class="mt-2 text-gray-500">
+            You receive a context analysis, team-level diagnostic reports, management summary, target zone recommendations, and a detailed progression roadmap. During Collaborative Delivery, you get working software delivered shoulder-to-shoulder with experienced Artisans, plus a team that has built real competency through the shared work.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Section 9: Call to Action -->
+  <section id="contact" class="bg-lavender px-6 py-24">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="font-heading text-3xl text-primary">Ready to Understand Where You Are?</h2>
+      <p class="mt-4 text-gray-500">
+        Start with a conversation about your organization's AI adoption goals. No commitment required — Discovery begins with understanding your context.
+      </p>
+      <div class="mt-8">
+        <a
+          href="https://artium.ai"
+          target="_blank"
+          rel="noopener"
+          class="inline-block rounded-full bg-magenta px-8 py-3.5 text-base font-medium text-white transition-colors hover:bg-pink"
+        >
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
 </MarketingLayout>

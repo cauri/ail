@@ -16,82 +16,82 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 
 ## Completed Visual Aids
 
-- [x] **VA-1: Zone Progression Diagram** -- `zone-progression-diagram.svg`
+- [x] **VA-1: Zone Progression Diagram** -- [`zone-progression-diagram.svg`](/images/zone-progression-diagram.svg)
   - Shows single linear progression: Zone 1 -> Zone 2 -> Zone 3 -> Zone 4 with strategic evaluation gates between each zone
   - Placement: [Module 1](/training/module-1-model-foundations/), Session 7 (primary); [Module 3](/training/module-3-goal-setting/), Session 2 (reference); Quick Reference (reference)
 
-- [x] **VA-2: Scoring Threshold Decision Tree** -- `scoring-threshold-decision-tree.svg`
+- [x] **VA-2: Scoring Threshold Decision Tree** -- [`scoring-threshold-decision-tree.svg`](/images/scoring-threshold-decision-tree.svg)
   - Placement: [Module 2](/training/module-2-diagnostic-facilitation/), Session 6 (primary); Quick Reference (reference)
 
-- [x] **VA-3: Facilitation Response Guide** -- `facilitation-response-guide.svg`
+- [x] **VA-3: Facilitation Response Guide** -- [`facilitation-response-guide.svg`](/images/facilitation-response-guide.svg)
   - Placement: [Module 2](/training/module-2-diagnostic-facilitation/), Session 7 (primary)
 
-- [x] **VA-4: Roadmap Anatomy Template** -- `roadmap-anatomy-template.svg`
+- [x] **VA-4: Roadmap Anatomy Template** -- [`roadmap-anatomy-template.svg`](/images/roadmap-anatomy-template.svg)
   - Placement: [Module 4](/training/module-4-roadmap-design/), Session 2 (primary)
 
-- [x] **VA-5: Non-Linear Progress Patterns** -- `non-linear-progress-patterns.svg`
+- [x] **VA-5: Non-Linear Progress Patterns** -- [`non-linear-progress-patterns.svg`](/images/non-linear-progress-patterns.svg)
   - Placement: [Module 4](/training/module-4-roadmap-design/), Session 5 (primary); [Module 5](/training/module-5-coaching-engagement/), Session 5 (reference)
 
-- [x] **VA-6: Collaborative Delivery Cadence** -- `collaborative-delivery-cadence.svg`
+- [x] **VA-6: Collaborative Delivery Cadence** -- [`collaborative-delivery-cadence.svg`](/images/collaborative-delivery-cadence.svg)
   - Placement: [Module 5](/training/module-5-coaching-engagement/), Session 1 (primary)
 
-- [x] **VA-7: Diagnosis-Intervention Cycle** -- `diagnosis-intervention-cycle.svg`
+- [x] **VA-7: Diagnosis-Intervention Cycle** -- [`diagnosis-intervention-cycle.svg`](/images/diagnosis-intervention-cycle.svg)
   - Circular four-step cycle (Observe -> Diagnose -> Intervene -> Reflect) with behavioral examples at each step
   - Placement: [Module 2](/training/module-2-diagnostic-facilitation/), Session 4 (primary); Workshop Script (reference); Facilitator Guide (reference)
 
-- [x] **VA-8: Competency Stage Quick Reference** -- `competency-stage-reference.svg`
+- [x] **VA-8: Competency Stage Quick Reference** -- [`competency-stage-reference.svg`](/images/competency-stage-reference.svg)
   - Four-stage horizontal progression (Emerging/Developing/Established/Exemplary) with behavioral anchors and "sounds like" indicators
   - Placement: [Module 1](/training/module-1-model-foundations/), Session 2 (primary); Facilitator Guide (reference); [Module 2](/training/module-2-diagnostic-facilitation/), Session 6 (reference)
 
-- [x] **VA-9: Zone Selection Decision Framework** -- `zone-selection-decision-framework.svg`
+- [x] **VA-9: Zone Selection Decision Framework** -- [`zone-selection-decision-framework.svg`](/images/zone-selection-decision-framework.svg)
   - Four decision factors (risk appetite, investment capacity, strategic need, competitive position) with facilitation questions and Investment Commitment Test
   - Placement: [Module 3](/training/module-3-goal-setting/), Session 3 (primary); Choose Target Zone (reference); Goal-Setting Framework (reference)
 
-- [x] **VA-10: Score Distribution Archetypes** -- `score-distribution-archetypes.svg`
+- [x] **VA-10: Score Distribution Archetypes** -- [`score-distribution-archetypes.svg`](/images/score-distribution-archetypes.svg)
   - Six small panels showing archetypal score distributions with diagnostic interpretation and facilitation response
   - Placement: Scoring Thresholds (primary); Interpreting Results (reference); Workshop Script (reference)
 
-- [x] **VA-11: Competency vs Knowledge vs Best-Day Performance** -- `competency-vs-knowledge.svg`
+- [x] **VA-11: Competency vs Knowledge vs Best-Day Performance** -- [`competency-vs-knowledge.svg`](/images/competency-vs-knowledge.svg)
   - Three-column comparison distinguishing Knowledge, Best-Day Performance, and Competency with examples and assessment traps
   - Placement: [Module 1](/training/module-1-model-foundations/), Session 2 (primary); Facilitator Guide (reference); diagnostic workshops (client-facing)
 
-- [x] **VA-12: Zone Comparison Matrix** -- `zone-comparison-matrix.svg`
+- [x] **VA-12: Zone Comparison Matrix** -- [`zone-comparison-matrix.svg`](/images/zone-comparison-matrix.svg)
   - Four-column matrix (Zones 1-4) with rows for identity shift, core metric, unit of change, key investments, risk type, and cross-role progression
   - Placement: [Module 1](/training/module-1-model-foundations/), Sessions 3-7 (primary); Progressive Competency Model (reference)
 
-- [x] **VA-13: Engagement Lifecycle** -- `engagement-lifecycle.svg`
+- [x] **VA-13: Engagement Lifecycle** -- [`engagement-lifecycle.svg`](/images/engagement-lifecycle.svg)
   - Horizontal swim-lane process flow showing four engagement phases with Facilitator and Artisan role lanes, decision gates, and deliverables
   - Placement: Engagement Model (primary); [Module 5](/training/module-5-coaching-engagement/) (reference); [Module 6](/training/module-6-embedded-delivery/) (reference)
 
-- [x] **VA-14: Threshold Sensitivity** -- `threshold-sensitivity.svg`
+- [x] **VA-14: Threshold Sensitivity** -- [`threshold-sensitivity.svg`](/images/threshold-sensitivity.svg)
   - Two-panel chart showing how Exemplary classification changes as composite and SD thresholds shift, with ambiguity zones
   - Placement: Scoring Thresholds (primary); [Module 2](/training/module-2-diagnostic-facilitation/) (reference)
 
-- [x] **VA-15: Regression Diagnostic Decision Tree** -- `regression-diagnostic-decision-tree.svg`
+- [x] **VA-15: Regression Diagnostic Decision Tree** -- [`regression-diagnostic-decision-tree.svg`](/images/regression-diagnostic-decision-tree.svg)
   - Top-down decision tree diagnosing regression as competency, environmental, or leadership issue with distinct response paths
   - Placement: [Module 5](/training/module-5-coaching-engagement/), Session 5 (primary)
 
-- [x] **VA-16: Metrics Tree Diagram** -- `metrics-tree-diagram.svg`
+- [x] **VA-16: Metrics Tree Diagram** -- [`metrics-tree-diagram.svg`](/images/metrics-tree-diagram.svg)
   - Hierarchical tree from North Star Metric through zone-level branches to leading/lagging indicators with evidence-level badges
   - Placement: Metrics Tree (primary); Zone-Specific Metrics (reference); Organizational Health Metrics (reference)
 
-- [x] **VA-17: Variance Decomposition Diagnostic** -- `variance-decomposition-diagnostic.svg`
+- [x] **VA-17: Variance Decomposition Diagnostic** -- [`variance-decomposition-diagnostic.svg`](/images/variance-decomposition-diagnostic.svg)
   - Three heatmap panels showing person-variance, question-variance, and both-high patterns with decision tree for intervention path
   - Placement: Scoring Thresholds (primary)
 
-- [x] **VA-18: Investment Dependency Chain** -- `investment-dependency-chain.svg`
+- [x] **VA-18: Investment Dependency Chain** -- [`investment-dependency-chain.svg`](/images/investment-dependency-chain.svg)
   - Four per-transition panels showing investment sequencing with dependency arrows, zone boundaries, and critical-path highlighting
   - Placement: [Module 4](/training/module-4-roadmap-design/), Session 2 (primary); Investment Catalog (reference); Create Progression Roadmap (reference)
 
-- [x] **VA-19: Role Transition Map** -- `role-transition-map.svg`
+- [x] **VA-19: Role Transition Map** -- [`role-transition-map.svg`](/images/role-transition-map.svg)
   - Three-column card (Facilitator/Evaluator/Consultant) with role definitions, transition language, and timeline strip
   - Placement: Facilitator Guide (primary); Workshop Script (reference); [Module 5](/training/module-5-coaching-engagement/) (reference)
 
-- [x] **VA-20: Check-In Conversation Structure** -- `check-in-conversation-structure.svg`
+- [x] **VA-20: Check-In Conversation Structure** -- [`check-in-conversation-structure.svg`](/images/check-in-conversation-structure.svg)
   - Single-page card with four-item agenda, Skill/Will/Environment diagnostic, and escalation triggers
   - Placement: [Module 5](/training/module-5-coaching-engagement/), Session 2 (primary)
 
-- [x] **VA-21: Content Architecture Map** -- `content-architecture-map.svg`
+- [x] **VA-21: Content Architecture Map** -- [`content-architecture-map.svg`](/images/content-architecture-map.svg)
   - Single-page map showing all files organized by collection with navigation pathways for each audience
   - Placement: What is ACE (primary); [Module 1](/training/module-1-model-foundations/), Session 1 (reference)
 
