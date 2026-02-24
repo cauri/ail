@@ -11,8 +11,8 @@ const zones = [
     zone: 1,
     title: "Augmenting",
     shift: "Tool adoption shift",
-    metric: "Developers habitually use AI coding tools in their daily work, even under deadline pressure or in unfamiliar codebases.",
-    description: "Individual developers use AI coding assistants — copilot, autocomplete, chat — habitually as part of their daily work. AI usage is personal, optional, and ad-hoc.",
+    metric: "Team members across all roles habitually use AI tools in their daily work, even under deadline pressure or in unfamiliar territory.",
+    description: "Individuals across engineering, product, design, and QA use AI assistants habitually as part of their daily work. AI usage is personal, optional, and ad-hoc.",
     color: "border-l-blue-400",
     bgColor: "bg-blue-50",
     toolkitHref: "/toolkit/zone-1-augmenting",
@@ -23,8 +23,8 @@ const zones = [
     zone: 2,
     title: "Integrating",
     shift: "Workflow integration shift",
-    metric: "The team ships AI-verified, production-ready code using a shared agentic workflow that all members contribute to and evolve.",
-    description: "AI is embedded in team-level workflows: code review, testing, documentation, and CI/CD. Usage is systematic, not ad-hoc. The team has a shared, evolving agentic setup.",
+    metric: "The team ships AI-verified, production-ready work using a shared agentic workflow that all members — engineering, product, design, QA — contribute to and evolve.",
+    description: "AI is embedded in team-level workflows across all roles: code review, testing, documentation, design systems, and CI/CD. Usage is systematic, not ad-hoc. The team has a shared, evolving agentic setup.",
     color: "border-l-emerald-400",
     bgColor: "bg-emerald-50",
     toolkitHref: "/toolkit/zone-2-integrating",
@@ -35,8 +35,8 @@ const zones = [
     zone: 3,
     title: "Accelerating",
     shift: "Role identity shift",
-    metric: "Engineers operate as process designers — they define specifications, constraints, and verification criteria, and the AI pipeline produces working software.",
-    description: "AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced.",
+    metric: "Engineers operate as process designers, PMs as behavioral specifiers, designers as specification authors, and QA as evaluation pipeline specialists — each role defines inputs to the AI pipeline, which produces working software.",
+    description: "AI drives core development work. All roles shift: engineers specify and verify, PMs define behavioral envelopes, designers encode standards as machine-verifiable inputs, QA designs evaluation infrastructure. Humans orchestrate; AI implements.",
     color: "border-l-amber-400",
     bgColor: "bg-amber-50",
     toolkitHref: "/toolkit/zone-3-accelerating",
@@ -47,8 +47,8 @@ const zones = [
     zone: 4,
     title: "Industrializing",
     shift: "Production model shift",
-    metric: "The organization can reliably specify, produce, evaluate, and deploy AI-generated software at scale, with engineers operating as factory designers.",
-    description: "The organization operates an AI-first software factory. Engineers maintain the factory; AI produces the software. Software delivery is treated as an industrial operation.",
+    metric: "The organization can reliably specify, produce, evaluate, and deploy AI-generated software at scale, with all production roles operating in factory mode — engineers as factory designers, PMs as portfolio specifiers, designers as specification layer owners, QA as evaluation operators.",
+    description: "The organization operates an AI-first software factory. Engineers maintain the factory, PMs define production targets, designers own the specification layer, QA operates evaluation infrastructure. AI produces the software.",
     color: "border-l-purple-400",
     bgColor: "bg-purple-50",
     toolkitHref: "/toolkit/zone-4-industrializing",
@@ -60,32 +60,32 @@ const phases = [
   {
     number: "01",
     title: "Discovery",
-    description: "We build a thorough understanding of your organization's context — size, development maturity, current AI usage, competitive position, and stakeholder perspectives — before administering any diagnostic.",
-    decision: "You now have a complete context analysis.",
+    description: "Build a thorough understanding of the client organization's context — size, development maturity, current AI usage, competitive position, and stakeholder perspectives — before administering any diagnostic.",
+    decision: "At this point, the client has a complete context analysis.",
   },
   {
     number: "02",
     title: "Diagnostic",
-    description: "A trained Artium facilitator guides your teams through structured self-assessments to establish their current zone and competency stage. This is collaborative, not an external audit.",
-    decision: "You have a full diagnostic picture. You can proceed independently or continue to goal setting.",
+    description: "A trained Artium facilitator guides client teams through structured self-assessments to establish their current zone and competency stage. This is collaborative, not an external audit.",
+    decision: "At this point, the client has a full diagnostic picture. They can proceed independently or continue to goal setting.",
   },
   {
     number: "03",
     title: "Goal Setting & Roadmap",
-    description: "Leadership reviews results and chooses target zones based on strategic context. We build progression plans with specific investments, timelines, and leading indicators.",
-    decision: "You have a detailed progression plan. You decide whether to engage Artisans for collaborative delivery.",
+    description: "Client leadership reviews results and chooses target zones based on strategic context. Artisans help build progression plans with specific investments, timelines, and leading indicators.",
+    decision: "At this point, the client has a detailed progression plan. They decide whether to engage Artisans for collaborative delivery.",
   },
   {
     number: "04",
     title: "Collaborative Delivery",
-    description: "Experienced Artisans — engineers, product managers, and designers — embed with your teams to deliver real software together. Artisans complete intensive internal training through Artium Academy before joining your team, ensuring they bring tested practices to the engagement. Your team builds competency through the shared work, not through workshops or training sessions.",
+    description: "Experienced Artisans — engineers, product managers, and designers — embed with client teams to deliver real software together. Artisans complete intensive internal training through Artium Academy before joining the team, ensuring they bring tested practices to the engagement. The client team builds competency through the shared work, not through workshops or training sessions.",
   },
 ];
 ---
 
-<MarketingLayout title="AI Competency Evaluation" description="ACE helps organizations understand their AI competency, set meaningful goals, and build real capability through embedded delivery.">
+<MarketingLayout title="AI Competency Evaluation" description="Internal reference for Artium's AI Competency Evaluation framework — zones, diagnostics, facilitation tools, and delivery methodology.">
   <Hero
-    subtitle="ACE is a framework that helps organizations understand their current AI competency, set meaningful goals, and work alongside experienced practitioners to build real capability."
+    subtitle="ACE is Artium's framework for assessing AI competency in client organizations, setting meaningful progression goals, and building real capability through embedded delivery."
     ctaText="Explore the Framework"
     ctaHref={baseUrl("/toolkit")}
   >
@@ -99,7 +99,7 @@ const phases = [
     <div class="mx-auto max-w-3xl">
       <h2 class="font-heading text-3xl text-primary">The Problem ACE Solves</h2>
       <p class="mt-4 text-gray-500">
-        Your teams are using AI tools. But are they competent? ACE helps you move beyond anecdotes and impressions to understand where your teams actually are, and what investments will move them forward.
+        Client organizations are using AI tools. But are they competent? ACE helps move beyond anecdotes and impressions to understand where teams actually are, and what investments will move them forward.
       </p>
       <div class="mt-8 space-y-6">
         <div class="rounded-xl bg-white p-6">
@@ -117,7 +117,7 @@ const phases = [
         <div class="rounded-xl bg-white p-6">
           <h3 class="font-heading text-lg text-primary">Organizations don't know how to get there</h3>
           <p class="mt-2 text-gray-500">
-            Even organizations with clear goals lack a structured approach to identifying and making the specific investments — organizational, not just individual — required to reach the next level of AI integration. Artium doesn't just identify what needs to change — Artisans embed with your teams to help make it happen through collaborative delivery.
+            Even organizations with clear goals lack a structured approach to identifying and making the specific investments — organizational, not just individual — required to reach the next level of AI integration. ACE addresses this gap: Artisans embed with client teams to help make it happen through collaborative delivery.
           </p>
         </div>
       </div>
@@ -236,7 +236,7 @@ const phases = [
     <div class="mx-auto max-w-3xl">
       <h2 class="font-heading text-3xl text-primary">How It Works</h2>
       <p class="mx-auto mt-4 max-w-2xl text-gray-500">
-        A structured engagement with clear decision points at every stage. You choose your depth.
+        A structured engagement with clear decision points at every stage. The client chooses their depth of engagement.
       </p>
       <div class="mt-10 space-y-6">
         {phases.map((phase, i) => (
@@ -277,42 +277,23 @@ const phases = [
         <div class="rounded-xl bg-gray-50 p-6">
           <h3 class="font-heading text-lg text-primary">Duration</h3>
           <p class="mt-2 text-gray-500">
-            Discovery and Diagnostic phases typically span 4-6 weeks. Roadmap development adds 2-3 weeks. Collaborative Delivery typically runs 3-18 months, with Artisans ramping down as your team demonstrates competency through periodic re-assessment.
+            Discovery and Diagnostic phases typically span 4-6 weeks. Roadmap development adds 2-3 weeks. Collaborative Delivery typically runs 3-18 months, with Artisans ramping down as the client team demonstrates competency through periodic re-assessment.
           </p>
         </div>
         <div class="rounded-xl bg-gray-50 p-6">
           <h3 class="font-heading text-lg text-primary">Who Participates</h3>
           <p class="mt-2 text-gray-500">
-            Business leadership, engineering leadership, and individual contributors all play roles. The diagnostic itself involves development teams directly — typically 3-5 members per team in facilitated sessions. During Collaborative Delivery, Artisans join your team as full members — working the same backlog, attending the same standups, and collaborating daily.
+            Business leadership, engineering leadership, and individual contributors on the client side all play roles. The diagnostic involves development teams directly — typically 3-5 members per team in facilitated sessions. During Collaborative Delivery, Artisans join the client team as full members — working the same backlog, attending the same standups, and collaborating daily.
           </p>
         </div>
         <div class="rounded-xl bg-gray-50 p-6">
           <h3 class="font-heading text-lg text-primary">Deliverables</h3>
           <p class="mt-2 text-gray-500">
-            You receive a context analysis, team-level diagnostic reports, management summary, target zone recommendations, and a detailed progression roadmap. During Collaborative Delivery, you get working software delivered shoulder-to-shoulder with experienced Artisans, plus a team that has built real competency through the shared work.
+            The engagement produces a context analysis, team-level diagnostic reports, management summary, target zone recommendations, and a detailed progression roadmap. During Collaborative Delivery, the output is working software delivered shoulder-to-shoulder with experienced Artisans, plus a client team that has built real competency through the shared work.
           </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 9: Call to Action -->
-  <section id="contact" class="bg-lavender px-6 py-24">
-    <div class="mx-auto max-w-2xl text-center">
-      <h2 class="font-heading text-3xl text-primary">Ready to Understand Where You Are?</h2>
-      <p class="mt-4 text-gray-500">
-        Start with a conversation about your organization's AI adoption goals. No commitment required — Discovery begins with understanding your context.
-      </p>
-      <div class="mt-8">
-        <a
-          href="https://artium.ai"
-          target="_blank"
-          rel="noopener"
-          class="inline-block rounded-full bg-magenta px-8 py-3.5 text-base font-medium text-white transition-colors hover:bg-pink"
-        >
-          Get in Touch
-        </a>
-      </div>
-    </div>
-  </section>
 </MarketingLayout>
