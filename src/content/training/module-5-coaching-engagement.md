@@ -213,6 +213,7 @@ Assessment evaluates the trainee's integration of all six module learning object
 
 After completing Modules 5 and 6, trainees move into the supervised practice phase of the training program. Before beginning a supervised engagement, trainees should:
 
+- **Retrieval exercise (do this first, from memory):** Without consulting any notes, write down: (a) the four-item check-in agenda in order, (b) the three categories for diagnosing why a team is behind on its roadmap and the appropriate response for each, (c) two signals that score inflation may be occurring in a re-diagnostic, and (d) the observable criteria for when an engagement has reached a natural conclusion. After writing, check against Module 5 materials.
 - Review the complete facilitator training requirements in the [Program Overview](/training/program-overview/) to understand what the supervising facilitator will observe and evaluate during live engagements.
 - Complete a personal self-assessment against all six modules: which learning objectives feel secure, and which feel fragile under real conditions when the client pushes back, the evidence is ambiguous, or the relationship is under stress?
 - Identify a supervising facilitator through the training program and schedule an orientation conversation before the first supervised engagement begins. Use the orientation to surface any open questions from the six modules that remain unresolved.

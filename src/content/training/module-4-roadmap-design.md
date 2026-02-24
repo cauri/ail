@@ -166,6 +166,7 @@ Assessment evaluates the trainee's ability to apply roadmap design principles to
 
 After completing Module 4, trainees should:
 
+- **Retrieval exercise (do this first, from memory):** Without consulting any notes, write down: (a) the difference between a milestone and an investment, (b) three leading indicators for Zone 2 and why they qualify as "leading" rather than "lagging," (c) the three types of non-linear progress patterns and what each signals, and (d) one example of a roadmap adaptation that preserves mandatory investments while accommodating an organizational constraint. After writing, check against Module 4 materials.
 - Consider: once a roadmap is designed and approved, what does the facilitator's role become? The roadmap is a plan. Plans require monitoring, coaching, and adjustment over months. How does a facilitator maintain accountability without becoming a project manager?
 - Reflect on the non-linear progress patterns discussed in Session 5. Have they observed plateaus, jumps, or regression in their own experience with organizational change? What made those patterns easier or harder to navigate?
 - Review the team report and management report formats from Module 2, noting how an initial diagnostic report differs from a re-diagnostic report. What does "progress" look like in a re-diagnostic, and how might a facilitator communicate mixed results (some areas improved, others regressed)?

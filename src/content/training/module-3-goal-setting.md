@@ -177,6 +177,7 @@ Assessment evaluates whether the trainee's zone recommendation is appropriate to
 
 After completing Module 3, trainees should:
 
+- **Retrieval exercise (do this first, from memory):** Without consulting any notes, write down: (a) the four decision factors for zone selection, (b) the investment commitment test -- what makes a target zone declaration a commitment rather than a wish, (c) two facilitation moves for when leadership selects the highest zone because it sounds impressive, and (d) the difference between an aspiration and a declaration. After writing, check against Module 3 materials.
 - Review the zone reference documents for the specific organizational investments required at each zone transition, with attention to sequencing and dependencies.
 - Review the roadmap templates and consider: given a target zone declaration with named investments, what does a realistic phased progression plan look like?
 - Reflect on the case study assessment: where did the zone recommendation feel uncertain, and which additional organizational information would have resolved that uncertainty?

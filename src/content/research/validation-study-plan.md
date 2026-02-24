@@ -51,6 +51,8 @@ This validation study uses a mixed-methods design combining:
 
 The three phases are sequential and iterative. Each phase may produce revisions to the framework that inform the next phase. Phase 1 expert feedback will be incorporated before Phase 2 pilot facilitations begin. Phase 2 pilot learnings will be incorporated before Phase 3 longitudinal tracking is locked in.
 
+**Pre-registration.** Before Phase 2 data collection begins, the study hypotheses, primary analyses, and decision criteria should be pre-registered in a public or semi-public repository (e.g., OSF or an internal research registry). Pre-registration commits the research team to its analytical plan before seeing the data, reducing the risk of post-hoc rationalization. This does not preclude exploratory analyses -- it distinguishes confirmatory from exploratory findings in reporting.
+
 ---
 
 ## 4. Phase 1: Expert Validation (Months 1-6)
@@ -125,9 +127,10 @@ Establish construct validity and practical utility: does the diagnostic instrume
 
 1. **Pre-diagnostic baseline (Week 1).** Collect baseline metrics per team: AI tool usage rates, delivery metrics (cycle time, defect escape rate), team satisfaction.
 2. **Diagnostic administration (Weeks 2-3).** Trained facilitators administer the diagnostic to each team. Record the session with participant consent.
-3. **Post-diagnostic debrief (Week 3-4).** Interview team members and leadership about the diagnostic experience. See [Practitioner Interview Guide](/research/practitioner-interview-guide) and [Leadership Interview Guide](/research/leadership-interview-guide).
-4. **Roadmap creation (Weeks 4-6).** Develop progression roadmaps based on diagnostic results. Track whether recommendations are perceived as actionable.
-5. **6-month follow-up (Month 12).** Re-administer the diagnostic and collect follow-up metrics to assess change.
+3. **Behavioral observation session (Week 3).** For a subset of pilot teams (at least 2 per organization), conduct a structured behavioral observation: observe the team working under real conditions for a half-day, using a standardized observation protocol that maps observable behaviors to zone proficiencies. This provides convergent validity evidence -- a check on whether the self-reported diagnostic scores align with independently observed behavior. The observation protocol should specify: which behaviors to observe (mapped to each zone's core proficiencies), a time-sampling method (e.g., 5-minute observation intervals), and behavioral anchors corresponding to each scoring level. Observations should be conducted by a researcher who did not facilitate the team's diagnostic to reduce confirmation bias.
+4. **Post-diagnostic debrief (Week 3-4).** Interview team members and leadership about the diagnostic experience. See [Practitioner Interview Guide](/research/practitioner-interview-guide) and [Leadership Interview Guide](/research/leadership-interview-guide).
+5. **Roadmap creation (Weeks 4-6).** Develop progression roadmaps based on diagnostic results. Track whether recommendations are perceived as actionable.
+6. **6-month follow-up (Month 12).** Re-administer the diagnostic and collect follow-up metrics to assess change.
 
 ### Inter-Rater Reliability Study
 

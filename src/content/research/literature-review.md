@@ -189,7 +189,9 @@ The ACE framework operates in a broader context of responsible AI research that 
 
 ### AI Bias in Code Generation
 
-AI code generation models are trained on large corpora of existing code, which may contain biases -- stereotyped variable names, culturally specific assumptions, security anti-patterns that disproportionately affect certain populations, and design patterns that embed accessibility barriers. Buolamwini & Gebru (2018) demonstrated that commercial AI systems exhibit significant accuracy disparities across demographic groups; analogous disparities in code generation tools have not been systematically studied but are a reasonable prediction given the training data composition.
+AI code generation models are trained on large corpora of existing code, which may contain biases -- stereotyped variable names, culturally specific assumptions, security anti-patterns that disproportionately affect certain populations, and design patterns that embed accessibility barriers. Buolamwini & Gebru (2018) demonstrated that commercial AI systems exhibit significant accuracy disparities across demographic groups. In code generation specifically, early research has begun to document related concerns: Chen et al. (2021) noted that Codex reproduces biases present in its training data, including stereotyped variable naming and culturally narrow assumptions in generated code. Bender et al. (2021) argued that large language models trained on internet-scale text corpora systematically encode the perspectives of overrepresented populations while marginalizing others -- a concern that extends directly to code generation models trained on public repositories. Systematic study of demographic bias in AI-generated code remains limited, but the training data composition (predominantly English-language, open-source code from a non-representative subset of global developers) makes bias a reasonable expectation that practitioners should actively monitor.
+
+The implications for ACE are concrete: teams using AI code generation should review AI output not only for correctness and security but also for embedded assumptions that may not serve all users. This concern is reflected in the bias awareness additions to Zone 1 proficiency descriptions for PM, Design, and Engineering roles.
 
 ### Accountability and Governance Frameworks
 
@@ -214,6 +216,7 @@ Floridi et al. (2018) synthesize five ethical principles for AI: beneficence, no
 - Jobin, A., Ienca, M., & Vayena, E. (2019). The Global Landscape of AI Ethics Guidelines. Nature Machine Intelligence, 1(9), 389-399.
 - NIST. (2023). AI Risk Management Framework (AI RMF 1.0).
 - Raji, I. D., et al. (2020). Closing the AI Accountability Gap. FAT* 2020.
+- Chen, M., et al. (2021). Evaluating Large Language Models Trained on Code. arXiv preprint arXiv:2107.03374.
 - World Economic Forum. (2023). The Future of Jobs Report 2023.
 
 ---
