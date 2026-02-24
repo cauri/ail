@@ -399,4 +399,5 @@ Before running this script, complete all items on the [Pre-Workshop Checklist](/
 - [Zone 4 Questions](/toolkit/zone-4-questions) -- The Zone 4 diagnostic questions
 - [Team Report Template](/toolkit/team-report-template) -- The template used to write the team report after this workshop
 - [Management Report Template](/toolkit/management-report-template) -- The template used to write the management report
+- [Baseline Screening](/toolkit/baseline-screening) -- The baseline screening questions referenced in Session 2
 - [Engagement Model](/toolkit/engagement-model) -- How this workshop fits into the four-phase engagement structure

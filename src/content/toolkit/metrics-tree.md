@@ -344,3 +344,5 @@ North Star: AI-Augmented Development Throughput
 - [Organizational Health Metrics](/toolkit/organizational-health-metrics) -- Management-level metrics for systemic organizational health
 - [Zone 1 Reference](/toolkit/zone-1-augmenting) -- Zone 1 proficiencies and investments
 - [Zone 2 Reference](/toolkit/zone-2-integrating) -- Zone 2 proficiencies and investments
+- [Zone 3 Reference](/toolkit/zone-3-accelerating) -- Zone 3 proficiencies and investments
+- [Zone 4 Reference](/toolkit/zone-4-industrializing) -- Zone 4 proficiencies and investments
