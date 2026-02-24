@@ -59,6 +59,7 @@ Before beginning this roadmap, confirm:
 ### Common Obstacles
 
 - **"My personal setup works better."** Some developers will resist shared configuration because their individual setup is effective. Acknowledge this -- their practices may indeed be better. The goal is to incorporate the best individual practices into the shared setup, not to impose mediocrity. Frame it as "contributing your expertise to the team" rather than "giving up your tools."
+- **Autonomy loss in the "One Team, One Setup" transition.** Moving from personal AI configurations to a shared team configuration involves a real loss of individual autonomy. Developers who have invested time in optimizing their personal setup are being asked to give up something that works for them. Acknowledge this loss explicitly rather than dismissing it as resistance. The transition is more likely to succeed when it is framed as "the team benefits from everyone's best practices" rather than "standardize because we said so." Give individuals the opportunity to contribute their most effective practices to the shared configuration -- this converts the loss into a contribution.
 - **Plan/Code/Verify feels slow at first.** The structured workflow adds overhead compared to ad-hoc AI usage. This overhead decreases as the workflow becomes habitual. Remind the team that the goal is consistent quality, not maximum speed -- and that consistency ultimately produces faster delivery because there are fewer rework cycles.
 - **Feedback loops catch too much / too little.** Initial feedback loop configuration needs tuning. If hooks are too strict, developers disable them. If too lenient, they provide no value. Plan for 2-3 iterations of feedback loop configuration in the first month.
 
@@ -148,7 +149,9 @@ The team has achieved Zone 2 competency when:
 - [ ] The team can articulate what their AI setup does well and what needs improvement
 - [ ] Delivery metrics show measurable improvement compared to pre-Zone 2 baseline
 
-If all criteria are met and the organization has chosen Zone 3 as a target, proceed to the [Zone 2 to Zone 3 roadmap](/toolkit/zone-2-to-3).
+**Zone 2 as a destination.** For many organizations, Zone 2 with deep competency is the right stopping point -- not a waypoint to Zone 3. If the organization's strategic analysis supports Zone 2 as the target, the work after achieving these criteria is deepening and sustaining Zone 2 practices rather than immediately pursuing the next zone. A highly competent Zone 2 organization has achieved something genuinely valuable: durable, team-level AI integration that holds under pressure. See [How to Choose a Target Zone](/toolkit/choose-target-zone) for the strategic analysis framework.
+
+If the organization has chosen Zone 3 as a target and all criteria are met, proceed to the [Zone 2 to Zone 3 roadmap](/toolkit/zone-2-to-3).
 
 ---
 

@@ -127,6 +127,7 @@ The following matrix maps organizational profiles to likely appropriate target z
 | **Government / defense contractor** | Zone 0-1 | Zone 2 | Security and compliance constraints favor systematic, auditable practices (Zone 2 strengths) over structural transformation |
 | **Developer tools / platform company** | Zone 1-2 | Zone 3 | Engineering excellence is the product's brand promise; customers expect AI-native practices |
 | **Non-tech company with internal software team** | Zone 0 | Zone 1-2 | Software supports the business; AI adoption should improve efficiency without organizational disruption |
+| **Organization with limited change capacity** | Zone 0 | Zone 1 | If the organization cannot commit to team-level process change (protected time, shared configuration, retrospective culture), deep Zone 1 competency is a legitimate and valuable destination. Habitual individual AI tool use across all roles delivers meaningful productivity gains without requiring structural change. |
 
 ---
 
@@ -168,11 +169,17 @@ Use these questions during the leadership goal-setting session to help decision-
 
 13. **Are we willing to invest in infrastructure (CI/CD changes, observability tooling, eval frameworks) to support AI integration?** Zone 2 requires feedback loop infrastructure; Zone 3 requires eval and observability infrastructure. Both cost money and engineering time.
 
+### Change Readiness
+
+14. **How much organizational change has this team absorbed in the past 12 months?** Teams experiencing change fatigue -- from recent reorganizations, methodology shifts, leadership transitions, or other structural changes -- have reduced capacity for additional transformation. If the team is already processing significant change, a lower target zone with deeper competency may produce better outcomes than an ambitious target that exhausts the team's adaptive capacity. See Bridges (2009) on how cumulative transitions reduce the organization's capacity to process new change effectively.
+
 ### Destination Clarity
 
 14. **If we achieve our target zone, what will be different about how we deliver software in 12 months?** The answer should be concrete and specific. Vague answers ("we'll be more productive") suggest the organization has not yet thought clearly about what it wants.
 
 15. **What is the minimum zone that addresses our strategic needs?** This question deliberately pushes against the "higher is better" bias. The right zone is the lowest zone that serves the organization's actual strategic requirements.
+
+16. **Would Zone 1 with deep competency meet our needs?** This question explicitly opens the door to Zone 1 as a legitimate destination. For organizations where individual AI tool fluency across all roles would address the primary strategic need -- without requiring team-level process integration -- deep Zone 1 competency is a sound choice, not a failure to be ambitious.
 
 ---
 

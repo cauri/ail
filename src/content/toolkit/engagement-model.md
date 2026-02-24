@@ -223,6 +223,8 @@ See the roadmap templates for zone-specific progression plans:
 
 **Purpose:** Deploy a balanced cross-craft team of Artisans who embed with the client's delivery teams to build real software together while mentoring through the shared work. This phase is where the roadmap becomes reality — not through advisory check-ins, but through Artisans and client team members working the same backlog, writing production code, designing features, and managing product work side by side.
 
+**A note on dual purpose.** Phase 4 serves two objectives simultaneously: delivering working software and building client capability. These objectives are usually complementary — the best way to build capability is through shared delivery. But they can create tension when delivery pressure conflicts with mentoring pace. When a deadline demands maximum throughput, the natural response is for Artisans to "just do the work" rather than slow down to mentor through it. The engagement lead must actively manage this tension: if Artisans consistently optimize for delivery speed over capability transfer, the engagement devolves into staff augmentation regardless of its stated purpose. Periodic check-ins should explicitly ask whether the mentoring purpose is being served, not just whether stories are shipping.
+
 ### Activities
 
 **Artisan Team Composition**
@@ -268,6 +270,8 @@ Within the broader embedded engagement, the ACE Facilitator conducts periodic ch
 - Roadmap refreshes following each re-diagnostic
 
 These assessment activities are conducted by the ACE Facilitator, not the embedded Artisans. The Facilitator maintains the diagnostic objectivity the framework requires while the Artisans focus on delivery and mentoring.
+
+**Artisans as change observers.** While the Facilitator owns the diagnostic assessment, embedded Artisans have a unique vantage point on how the team is experiencing the transition day-to-day. Artisans should surface observations about team morale, adoption anxiety, identity transition stress, and emerging resistance patterns to the Facilitator during periodic coordination. This is not a formal assessment role — it is the natural consequence of being embedded in the team's daily work. The Facilitator can use these observations to inform facilitation approach, check-in priorities, and roadmap adjustments.
 
 **Resistance Engagement**
 

@@ -171,6 +171,21 @@ Skills development, structured learning, and knowledge sharing.
 | Cross-Team Knowledge Sharing | 2 |
 | Cross-functional training: PMs and designers learn AI behavioral expectations | 3 |
 
+### Ethical Infrastructure
+Investments that ensure AI adoption addresses bias, accountability, and responsible use.
+
+| Investment | Zone |
+|---|---|
+| Establish basic guidelines on when AI-generated code needs extra review | 1 |
+| Address workforce concerns about AI adoption honestly | 1 |
+| Quality Gate Policy (includes bias awareness in review) | 2 |
+| Draft organizational non-determinism policy (includes accountability structures) | 3 |
+| Invest in workforce transition planning | 3 |
+| Governance and compliance frameworks for AI production | 4 |
+| External audit and governance mechanisms | 4 |
+
+Ethical infrastructure is not a separate workstream -- it is woven into investments across all categories. This classification highlights the investments that specifically address ethical considerations: who is accountable for AI-generated output, how bias in AI-generated code is detected and mitigated, how workforce impacts are managed honestly, and how governance scales with AI production volume. Organizations should verify that their investment plans include adequate coverage across this category at every zone.
+
 ---
 
 ## Investment Prioritization Table
