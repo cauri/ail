@@ -64,6 +64,8 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **Confusing context engineering with prompt engineering.** Question 4 asks about externalized plans and context management at the project level. If the team equates "good prompting" with "good context engineering," probe deeper. Context engineering involves managing project-level configuration, session-level context, and repository-level documentation --- not just writing better prompts.
 
+- **Context engineering is not directly probed by a standalone question.** Context engineering (Zone 2 proficiency) is assessed indirectly through Questions 2 (shared configuration), 4 (externalized plans), and 6 (retrospective iteration on the setup). If the facilitator suspects the team has strong prompting skills but weak context engineering practices, probe explicitly: "How do you decide what goes into the agent's context window for a given task? Do you manage session length, use summarization, or start fresh sessions deliberately? Is this a team practice or individual habit?"
+
 ---
 
 ## Related Documentation

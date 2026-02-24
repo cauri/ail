@@ -36,6 +36,8 @@ Zone 3 is appropriate for organizations where the volume, velocity, or complexit
 
 Zone 3 is not appropriate for every team. Small teams with low delivery volume, organizations in highly regulated domains where human authorship of every line is legally required, and teams that have not yet achieved durable Zone 2 competency should not pursue Zone 3. Attempting this zone prematurely -- before teams have strong AI collaboration habits, robust review practices, and effective prompt engineering skills -- produces fragile systems and frustrated engineers.
 
+**Zone 3 as a destination.** Organizations that achieve deep Zone 3 competency may determine through strategic analysis that Zone 4 does not serve their context. This is a sound decision, not a failure to progress. A highly competent Zone 3 organization -- with mature eval infrastructure, established AI Engineer roles, and reliable AI-driven delivery -- has achieved a significant and valuable capability. The decision to pursue Zone 4 involves cultural transformation at organizational scale and should be justified by strategic necessity, not by the existence of a higher number on the framework.
+
 The decision to pursue Zone 3 should be made deliberately, with full awareness that it requires changing not just tools and processes but the organizational structure itself, including how engineering roles are defined, how teams are staffed, and how quality is measured.
 
 ## Core Metric
@@ -97,7 +99,7 @@ The term "AI Engineer" describes the evolved role identity for software engineer
 The term "Specification Author" describes the evolved role identity for designers operating at Zone 3. This is not a designer who occasionally uses AI tools -- it is a distinct role focused on encoding design standards and evaluation criteria as machine-verifiable inputs to the AI production pipeline.
 
 - **Designers participate in defining AI behavioral expectations and evaluation criteria.** UX and product designers collaborate on defining what "good" AI behavior looks like from the user's perspective. These behavioral expectations feed directly into eval harnesses and CAT pipelines, ensuring that quality is measured against user-relevant criteria.
-- **Designers encode design standards, component specifications, and interaction patterns as machine-verifiable inputs to AI pipelines.** This is the Zone 3 design identity: designers become specification authors whose standards are consumed by the factory, not artifact producers who hand off mockups. Design compliance is verified automatically through the production pipeline, not through manual review.
+- **Designers encode design standards, component specifications, and interaction patterns as machine-verifiable inputs to AI pipelines.** This is the Zone 3 design identity: designers become specification authors whose standards are consumed by the factory, not artifact producers who hand off mockups. Design compliance is verified automatically through the production pipeline, not through manual review. In practice, this means: design tokens (colors, spacing, typography) are defined as structured data that AI pipelines reference; component specifications include machine-readable constraints (minimum touch targets, contrast ratios, required ARIA attributes); and interaction patterns are expressed as testable behavioral rules ("dropdown menus must close on outside click") rather than only as visual mockups. The team starts with its most-used components and extends encoding incrementally.
 - **Designers own the design evaluation criteria within the CAT pipeline.** Design compliance checks -- visual consistency, component usage, interaction pattern adherence, accessibility standards -- are defined and maintained by designers, not delegated to engineering. Designers operate as evaluation specialists for the design dimension of AI-produced output.
 
 ### Quality Assurance (Evaluation Pipeline Specialists)
@@ -159,6 +161,8 @@ Not all software should be produced through AI pipelines regardless of organizat
 - Software operating in regulatory environments that require human authorship attestation
 - Systems processing highly sensitive data where AI tool data-handling policies create unacceptable risk
 
+Organizations should evaluate each software category against these criteria systematically rather than applying blanket rules. The evaluation should consider: (a) what specific harms could result from AI-generated errors in this category, (b) whether existing eval harnesses and CAT pipelines provide sufficient coverage for this category's risk profile, (c) what regulatory or contractual requirements apply, and (d) whether the organization's current accountability structures adequately cover AI-generated output in this category. Categories that are borderline should default to requiring additional human review until the organization's evaluation infrastructure matures enough to provide equivalent assurance.
+
 These boundaries should be documented as part of the organization's non-determinism policy and reviewed at each zone transition.
 
 ## Techniques
@@ -191,7 +195,9 @@ AI pipeline development is inherently experimental. Experiment tracking follows 
 
 ### Separate Generation from Decisioning
 
-This four-level framework structures how AI capabilities are designed and governed. Level 1 (Conditioning) addresses how to steer generation through intent specification and constraint design. Level 2 (Authority) addresses how to maintain human ownership without full authorship. Level 3 (Workflows) addresses how to decompose AI capabilities into reliable, observable pipeline steps. Level 4 (Evals) addresses how to build self-correcting systems through eval harnesses and feedback loops. Teams apply this framework when designing any AI-driven feature or pipeline.
+This four-level framework structures how AI capabilities are designed and governed. The framework synthesizes patterns observed in early AI-native engineering organizations and draws on principles from industrial process control, where the separation of production from quality governance is well established. The specific four-level structure (Conditioning, Authority, Workflows, Evals) is an ACE contribution that organizes these emerging patterns into a teachable progression. [Expert judgment — this framework codifies observed practice rather than validated theory. As organizations gain Zone 3 experience, the framework should be refined against empirical evidence of what governance structures actually prevent AI pipeline failures.]
+
+Level 1 (Conditioning) addresses how to steer generation through intent specification and constraint design. Level 2 (Authority) addresses how to maintain human ownership without full authorship. Level 3 (Workflows) addresses how to decompose AI capabilities into reliable, observable pipeline steps. Level 4 (Evals) addresses how to build self-correcting systems through eval harnesses and feedback loops. Teams apply this framework when designing any AI-driven feature or pipeline.
 
 ### Multi-Agent Orchestration
 

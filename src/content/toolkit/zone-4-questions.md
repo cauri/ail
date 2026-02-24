@@ -38,6 +38,8 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 9. Quality governance operates at the factory level: standardized quality criteria, acceptance thresholds, and risk assessment frameworks are applied uniformly across all products in the portfolio, with systematic escalation paths when any product falls below quality thresholds.
 
+10. The organization maintains ethical governance of its AI production pipelines --- including systematic monitoring for bias in AI-generated outputs, accountability structures for AI-caused harm, workforce transition support for affected roles, and regular review of which software categories are appropriate for AI-driven production versus those requiring human authorship.
+
 ## Scale
 
 1 = Never | 2 = Rarely | 3 = Sometimes | 4 = Often | 5 = Always

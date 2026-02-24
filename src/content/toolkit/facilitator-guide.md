@@ -55,6 +55,9 @@ These transitions should be made transparent to participants. Suggested language
 - Before the workshop: 'My role today is to facilitate your self-assessment. I am not evaluating you.'
 - After the workshop, when sharing the team report: 'I have now shifted into an interpretive role. The report contains my characterization of what I heard and observed. I want to share it with you and check whether it accurately reflects your experience. If I have gotten something wrong, I want to know.'
 - At the goal-setting session: 'I am now acting in an advisory role, making recommendations based on the diagnostic findings. These are recommendations for your consideration, not directives.'
+- When returning to the facilitator role for re-diagnostics: 'I am returning to my facilitator role for this re-diagnostic. The recommendations I made during goal setting are now part of the organizational context, but today my role is to facilitate your honest self-assessment of where you are now -- not to evaluate whether you followed my earlier recommendations.'
+
+**Role transitions are not one-directional.** In longer engagements, the facilitator cycles between these roles multiple times: facilitating a diagnostic, evaluating results, consulting on the roadmap, then returning to facilitation for a re-diagnostic. Each return to the facilitator role requires explicitly re-establishing the facilitation stance. Teams that experienced the facilitator in a consulting role may expect continued advice during the next diagnostic session. Name the transition clearly each time.
 
 The principle: every role the facilitator occupies should be named and transparent to the people affected by it.
 

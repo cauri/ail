@@ -66,6 +66,12 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **PM and design underrepresentation.** If non-engineering roles are not present in the diagnostic session, their perspectives will be missing. Ensure these roles participate or are explicitly represented.
 
+- **Question 4 combines multiple concepts.** Question 4 (selecting appropriate AI engagement modes) references three distinct modes: vibe-coding, CHOP, and AI-assisted coding with review. Some teams may use AI effectively without using this specific taxonomy. Focus on whether the team demonstrates intentional mode selection -- choosing different approaches for exploration vs. production work -- rather than requiring familiarity with these specific terms.
+
+### Role Applicability
+
+Not all questions apply equally to all roles. Questions 2, 3, 4, 5, and 7 are primarily engineering-focused. Questions 6 and 10 are PM-focused. Questions 8 and 11 are design-focused. Question 9 is QA-focused. Questions 1 and 12 apply to all roles. When a question is not relevant to a team member's role, the facilitator should instruct them to skip it rather than score it artificially. Composite scores should be calculated using only the questions each team member answered. This prevents role-irrelevant questions from diluting the assessment -- a PM who scores low on engineering-specific questions is providing noise, not signal.
+
 ---
 
 ## Related Documentation
