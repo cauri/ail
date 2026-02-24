@@ -34,7 +34,7 @@ ACE defines four zones of AI-augmented software development, plus a pre-AI basel
 
 - **Zone 4 (Industrializing):** The organization operates an AI-first software factory. Engineers maintain the factory, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA engineers operate the evaluation infrastructure; AI produces the software. This is a fundamental cultural transformation — from software development as craft production to industrial production. This zone represents the deepest level of organizational commitment to AI-driven development and requires sustained investment at the executive level. *Note: Zone 4 is largely theoretical. No organization has demonstrably achieved this level of AI-driven development at the time of writing. The zone description is based on trajectory analysis from current trends and expert judgment about where AI-augmented development is heading, not on documented organizational practice.*
 
-Each zone represents a distinct set of proficiencies, organizational investments, and expected benefits. See the [zone reference documents](../reference/) for detailed descriptions.
+Each zone represents a distinct set of proficiencies, organizational investments, and expected benefits. See the zone reference documents ([Zone 1](/toolkit/zone-1-augmenting), [Zone 2](/toolkit/zone-2-integrating), [Zone 3](/toolkit/zone-3-accelerating), [Zone 4](/toolkit/zone-4-industrializing)) for detailed descriptions.
 
 ## A Progressive Path, Not a Mandate
 

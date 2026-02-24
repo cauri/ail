@@ -62,7 +62,7 @@ The single most important behavioral question for a zone, marked with a star in 
 The second of the four competency stages within each zone. The team performs the zone's behaviors mostly consistently. Lapses are recognized and self-corrected. Practices are becoming habitual but have not yet been tested by sustained pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Discovery**
-The process of identifying an organization's current AI adoption state, strategic goals, team readiness, and potential blockers before designing an ACE engagement. Discovery typically includes stakeholder interviews, team surveys, and context analysis. See [Context Analysis Template](/toolkit/context-analysis-template) and [Interview Guides](/research/interview-guides).
+The process of identifying an organization's current AI adoption state, strategic goals, team readiness, and potential blockers before designing an ACE engagement. Discovery typically includes stakeholder interviews, team surveys, and context analysis. See [Context Analysis Template](/toolkit/context-analysis-template) and [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide).
 
 **Dual reporting structure**
 The design feature that separates diagnostic results into two reports with different audiences: the team report (shared with the team, contains specific scores and improvement recommendations) and the management report (shared with organizational leadership, contains systemic patterns and investment themes — never individual team scores or attribution). This separation is what makes honest participation possible. See [Workshop Script](/toolkit/workshop-script).
@@ -75,7 +75,7 @@ The design feature that separates diagnostic results into two reports with diffe
 The first of the four competency stages within each zone. The team is actively practicing the zone's behaviors but practice is inconsistent and fragile -- behaviors tend to appear when conditions are favorable and disappear under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Established**
-The third of the four competency stages within each zone. The zone's behaviors are habitual and consistent even under deadline pressure, production incidents, and unfamiliar domains. The team does not revert to pre-zone behaviors when conditions deteriorate. This is the practical target state for each zone -- the point at which competency is reliable and the team can begin investing in the next zone. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+The third of the four competency stages within each zone. The zone's behaviors are habitual for most team members in most situations, including under moderate pressure. Some inconsistency may remain across the team or under sustained stress. This is the practical sustainability threshold for each zone -- the point at which the team can reliably maintain its practices and begin investing in the next zone. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Eval harness**
 A test suite for AI outputs. Defines what "correct" looks like for a given AI pipeline — the test cases, the scoring rubrics, the acceptable thresholds. Engineers treat eval harness design as a core Zone 3 engineering competency. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).

@@ -175,11 +175,11 @@ Use these questions during the leadership goal-setting session to help decision-
 
 ### Destination Clarity
 
-14. **If we achieve our target zone, what will be different about how we deliver software in 12 months?** The answer should be concrete and specific. Vague answers ("we'll be more productive") suggest the organization has not yet thought clearly about what it wants.
+15. **If we achieve our target zone, what will be different about how we deliver software in 12 months?** The answer should be concrete and specific. Vague answers ("we'll be more productive") suggest the organization has not yet thought clearly about what it wants.
 
-15. **What is the minimum zone that addresses our strategic needs?** This question deliberately pushes against the "higher is better" bias. The right zone is the lowest zone that serves the organization's actual strategic requirements.
+16. **What is the minimum zone that addresses our strategic needs?** This question deliberately pushes against the "higher is better" bias. The right zone is the lowest zone that serves the organization's actual strategic requirements.
 
-16. **Would Zone 1 with deep competency meet our needs?** This question explicitly opens the door to Zone 1 as a legitimate destination. For organizations where individual AI tool fluency across all roles would address the primary strategic need -- without requiring team-level process integration -- deep Zone 1 competency is a sound choice, not a failure to be ambitious.
+17. **Would Zone 1 with deep competency meet our needs?** This question explicitly opens the door to Zone 1 as a legitimate destination. For organizations where individual AI tool fluency across all roles would address the primary strategic need -- without requiring team-level process integration -- deep Zone 1 competency is a sound choice, not a failure to be ambitious.
 
 ---
 

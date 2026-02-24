@@ -74,7 +74,7 @@ The team is mostly consistent in exhibiting the zone's behaviors. Occasional lap
 
 ### Established (Average Score 4.0 - 4.9, Not Meeting Full Threshold)
 
-The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. The team is approaching full competency but does not yet meet all three threshold criteria for Exemplary.
+The team consistently exhibits the zone's behaviors. The practices are well-established and largely habitual. Behaviors are habitual for most team members in most situations, though some individual variation remains. The team demonstrates reliable competency but does not yet meet all three threshold criteria for Exemplary.
 
 **Characteristics:**
 - Behaviors are habitual for most team members in most situations.

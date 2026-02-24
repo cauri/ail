@@ -4,7 +4,7 @@ description: "AI drives core development work."
 section: "reference"
 order: 3
 ---
-AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Zone 3 represents a deep engineering identity shift in the AI Competency Evaluation (ACE) model. Not every organization will progress this far, and not every organization will benefit from the structural and role changes it demands. The decision to pursue Zone 3 should be grounded in strategic analysis of whether the investment is justified by the organization's context. Organizations that do pursue Zone 3 unlock dramatic throughput gains by treating AI as the primary implementation engine and redefining engineering as pipeline design, specification, and verification.
+AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Zone 3 represents a deep role identity shift in the AI Competency Evaluation (ACE) model. Not every organization will progress this far, and not every organization will benefit from the structural and role changes it demands. The decision to pursue Zone 3 should be grounded in strategic analysis of whether the investment is justified by the organization's context. Organizations that do pursue Zone 3 unlock dramatic throughput gains by treating AI as the primary implementation engine and redefining engineering as pipeline design, specification, and verification.
 
 **Shift type:** Role identity shift
 

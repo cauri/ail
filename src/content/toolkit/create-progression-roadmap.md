@@ -57,7 +57,7 @@ Introduce the new zone's core practices in a structured way:
 - Shared standards and conventions are drafted
 - Feedback loops are established
 
-This phase is where the "learning" competency stage begins. Expect inconsistency. The goal is exposure and practice, not competency.
+This phase is where the Emerging competency stage begins. Expect inconsistency. The goal is exposure and practice, not competency.
 
 ### Phase 3: Broaden and Deepen (Months 4-8)
 

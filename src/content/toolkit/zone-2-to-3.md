@@ -1,14 +1,14 @@
 ---
 title: "Roadmap: Zone 2 (Integrating) to Zone 3 (Accelerating)"
-description: "Roadmap template for progressing from Zone 2 (Integrating) to Zone 3 (Accelerating) with an engineering identity shift."
+description: "Roadmap template for progressing from Zone 2 (Integrating) to Zone 3 (Accelerating) with a role identity shift."
 section: "roadmaps"
 order: 3
 ---
-**Transition type:** Engineering identity shift
+**Transition type:** Role identity shift
 **Typical duration:** 12-24 months
 **Investment level:** Significant -- requires sustained executive commitment and dedicated engineering capacity
 
-This roadmap guides organizations from systematic team-level AI integration (Zone 2) to an AI-driven development model (Zone 3). The transition from Zone 2 to Zone 3 involves a significantly larger investment than earlier zone transitions. Zone 1→2 was a workflow integration shift. Zone 2→3 is an engineering identity shift. New roles must be created, new infrastructure must be built, and leadership must commit to operating in conditions of irreducible non-determinism.
+This roadmap guides organizations from systematic team-level AI integration (Zone 2) to an AI-driven development model (Zone 3). The transition from Zone 2 to Zone 3 involves a significantly larger investment than earlier zone transitions. Zone 1→2 was a workflow integration shift. Zone 2→3 is a role identity shift. New roles must be created, new infrastructure must be built, and leadership must commit to operating in conditions of irreducible non-determinism.
 
 **This transition requires an explicit organizational decision.** Zone 3 is not the default next step for every organization that achieves Zone 2 competency. It is appropriate only where the strategic context justifies the investment: organizations where AI-driven development velocity is a competitive necessity, where engineering capacity is a meaningful constraint on growth, or where the nature of the product makes AI-generated software economically advantageous at scale. If the organization's strategic context does not clearly justify Zone 3 investment, pursuing deep Zone 2 competency is the right choice. A highly competent Zone 2 organization outperforms a fragile Zone 3 organization in every dimension.
 
