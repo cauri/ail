@@ -20,7 +20,7 @@ This report is the product of a facilitated self-assessment workshop in which yo
 
 The report is structured in four parts. The **Executive Summary** gives the overall zone and competency stage assessment with key strengths and opportunities. **Zone-by-Zone Results** presents composite scores for each diagnostic question along with discussion highlights and high-variance items -- areas where team members' experiences diverged significantly. The **Proficiency Analysis** maps scores to specific observable behaviors, distinguishing between strong, developing, and gap proficiencies. Finally, **Recommended Investments** translates the findings into sequenced, actionable next steps with expected effort, timeline, and benefit.
 
-Scores use a 1-5 frequency scale (1 = Never, 5 = Always). A composite score is the most frequent response across all team members for a given question; ties resolve to the lower value. Competency stages (Emerging, Developing, Established, Exemplary) describe how habitual the zone's behaviors are under real working conditions, including pressure. For full scoring methodology, see the Appendix at the end of this report or the [Scoring Thresholds](/toolkit/scoring-thresholds) reference.
+Scores use a 1-5 frequency scale (1 = Never, 5 = Always). A composite score is the most frequent response across all team members for a given question; ties resolve to the lower value. Competency stages (Emerging, Developing, Established, Consistent, Exemplary) describe how habitual the zone's behaviors are under real working conditions, including pressure. For full scoring methodology, see the Appendix at the end of this report or the [Scoring Thresholds](/toolkit/scoring-thresholds) reference.
 
 This report is confidential to your team. A separate management report with aggregated, anonymized patterns has been provided to organizational leadership. That report does not contain your scores, discussion content, or identified blockers.
 
@@ -38,7 +38,7 @@ This report is confidential to your team. A separate management report with aggr
 
 ### Current Competency Stage
 
-Based on the diagnostic results and facilitated discussion, the team is currently operating at **{{CURRENT_ZONE}}** with a competency stage of **{{COMPETENCY_STAGE}}** (Emerging / Developing / Established / Exemplary).
+Based on the diagnostic results and facilitated discussion, the team is currently operating at **{{CURRENT_ZONE}}** with a competency stage of **{{COMPETENCY_STAGE}}** (Emerging / Developing / Established / Consistent / Exemplary).
 
 {{COMPETENCY_STAGE_EXPLANATION}}
 

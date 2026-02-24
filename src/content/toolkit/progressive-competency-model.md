@@ -40,6 +40,8 @@ Each transition deserves strategic analysis. The path is sequential, but the dis
 
 ## Choosing Your Stopping Point
 
+![VA-22: Choose Your Stopping Point](/images/choose-your-stopping-point.svg)
+
 The right zone is the one that matches your strategic context.
 
 **Zone 2 is the typical near-term target for most organizations.** It represents the point at which AI adoption becomes a durable team-level capability rather than a collection of individual practices. Organizations that choose Zone 2 as their destination through informed strategic analysis have achieved a significant and valuable outcome. The investment required -- infrastructure changes, process updates, team time for practice establishment -- is substantial but broadly justified across the software industry.

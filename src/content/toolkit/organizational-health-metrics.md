@@ -180,6 +180,8 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 ## 6. Leading Indicators for Zone 2 Progression at Organizational Level
 
+![VA-24: Leading Indicators Dashboard](/images/leading-indicators-dashboard.svg)
+
 These metrics specifically predict whether the organization is on track to achieve widespread Zone 2 competency -- the typical near-term target for most organizations adopting AI-augmented development. Organizations that have chosen Zone 1 as their stopping point (see [How to Choose a Target Zone](/toolkit/choose-target-zone)) may still find these indicators useful for monitoring readiness, but should not treat Zone 2 progression as an obligation.
 
 ### 6.1 Shared Configuration Adoption Rate

@@ -23,7 +23,7 @@ Before starting this process, the facilitator needs:
 Run the ACE diagnostic to determine where the organization is today. The diagnostic produces two key outputs:
 
 - **Current zone:** Which zone's proficiencies does the organization practice habitually?
-- **Competency stage within that zone:** Emerging, Developing, Established, or Exemplary?
+- **Competency stage within that zone:** Emerging, Developing, Established, Consistent, or Exemplary?
 
 If the current zone is 0 or 1, Zone 2 is the typical near-term target for most organizations -- but this should be confirmed through strategic analysis, not assumed as a default. Some organizations may find that deep Zone 1 competency across all roles meets their strategic needs without requiring team-level process integration. The question of whether to continue to Zone 3 or Zone 4 becomes relevant after the organization has achieved at least Zone 2 proficiency. Each transition along the progression deserves its own strategic analysis.
 

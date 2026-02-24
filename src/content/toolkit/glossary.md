@@ -50,6 +50,9 @@ The finite pool of human adaptability available for organizational change at any
 **CHOP (Chat-Oriented Programming)**
 Interactive, chat-based AI collaboration for coding tasks. One of three Zone 1 engagement modes. More structured than vibe-coding but less formal than AI-assisted coding. See [Technique Catalog](/toolkit/technique-catalog).
 
+**Consistent**
+The fourth of the five competency stages within each zone. A team classified as Consistent meets all three quantitative threshold criteria simultaneously: zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0. Consistent is a positive, legitimate classification -- not "almost Exemplary." It represents the quantitative top of the scale. Exemplary adds qualitative depth (coaching capability, contextual adaptation, practice innovation) beyond the quantitative bar. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+
 **Conditioning (Level 1)**
 The first level of the "separate generation from decisioning" framework. Defines what agents work within: the constraints, boundaries, and context that define the agent's operating environment. See [Technique Catalog](/toolkit/technique-catalog).
 
@@ -60,7 +63,7 @@ The discipline of deliberately deciding what information goes into AI context wi
 Habitual behavior under stress. What a team does reliably when conditions are unfavorable -- tight deadlines, production incidents, unfamiliar codebases, organizational pressure. Not knowledge about best practices. Not peak performance on a team's best day. See [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Competency stages**
-The four stages within each zone: Emerging, Developing, Established, Exemplary. These stages describe progression toward full competency within a given zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+The five stages within each zone: Emerging, Developing, Established, Consistent, Exemplary. These stages describe progression toward full competency within a given zone. Consistent is the quantitative top stage (all three threshold criteria met); Exemplary adds qualitative depth (coaching capability, contextual adaptation, practice innovation). See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 **Core metric**
 The single most important behavioral question for a zone, marked with a star in the diagnostic questionnaire. The core metric captures the defining behavior of the zone -- the single question that, if answered negatively, means the team has not achieved competency regardless of other scores. See [Scoring Thresholds](/toolkit/scoring-thresholds).
@@ -70,7 +73,7 @@ The single most important behavioral question for a zone, marked with a star in 
 ## D
 
 **Developing**
-The second of the four competency stages within each zone. The team performs the zone's behaviors mostly consistently. Lapses are recognized and self-corrected. Practices are becoming habitual but have not yet been tested by sustained pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+The second of the five competency stages within each zone. The team performs the zone's behaviors mostly consistently. Lapses are recognized and self-corrected. Practices are becoming habitual but have not yet been tested by sustained pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Discovery**
 The process of identifying an organization's current AI adoption state, strategic goals, team readiness, and potential blockers before designing an ACE engagement. Discovery typically includes stakeholder interviews, team surveys, and context analysis. See [Context Analysis Template](/toolkit/context-analysis-template) and [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide).
@@ -86,16 +89,16 @@ The practice in which the facilitator completes an independent evidence-based ra
 ## E
 
 **Emerging**
-The first of the four competency stages within each zone. The team is actively practicing the zone's behaviors but practice is inconsistent and fragile -- behaviors tend to appear when conditions are favorable and disappear under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+The first of the five competency stages within each zone. The team is actively practicing the zone's behaviors but practice is inconsistent and fragile -- behaviors tend to appear when conditions are favorable and disappear under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Established**
-The third of the four competency stages within each zone. The zone's behaviors are habitual for most team members in most situations, including under moderate pressure. Some inconsistency may remain across the team or under sustained stress. This is the practical sustainability threshold for each zone -- the point at which the team can reliably maintain its practices and begin investing in the next zone. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+The third of the five competency stages within each zone. The zone's behaviors are habitual for most team members in most situations, including under moderate pressure. Some inconsistency may remain across the team or under sustained stress. This is the practical sustainability threshold for each zone -- the point at which the team can reliably maintain its practices and begin investing in the next zone. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Eval harness**
 A test suite for AI outputs. Defines what "correct" looks like for a given AI pipeline — the test cases, the scoring rubrics, the acceptable thresholds. Engineers treat eval harness design as a core Zone 3 engineering competency. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).
 
 **Exemplary**
-The highest of the four competency stages within a zone. A team has achieved Exemplary when all three threshold criteria are met simultaneously: zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0. Teams at Exemplary can coach others, innovate within the zone, and sustain practices under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+The fifth and highest of the five competency stages within a zone. A team classified as Exemplary meets the Consistent quantitative criteria (zone composite average ≥ 4.7, standard deviation ≤ 0.5, no question composite below 4.0) and additionally demonstrates qualitative depth: coaching capability, contextual adaptation, and practice innovation within the zone. Exemplary status requires facilitator judgment beyond the quantitative thresholds. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Evidence verification probe**
 A facilitation technique used to test whether a high self-reported score (4 or 5) is supported by specific, recent behavioral evidence. Distinct from discussion prompts, which explore score patterns: evidence verification probes directly ask the team to produce a concrete example. If the team cannot recall a specific instance, the inability itself is evidence that the score may reflect aspiration rather than habitual behavior. The facilitator records the discrepancy and includes both the team's score and the evidence-based assessment in the team report. Each zone has role-specific verification probes. See [Facilitator Guide](/toolkit/facilitator-guide).

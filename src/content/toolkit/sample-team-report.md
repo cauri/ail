@@ -26,7 +26,7 @@ This report is the product of a facilitated self-assessment workshop in which yo
 
 The report is structured in four parts. The **Assessment Summary** gives the overall zone and competency stage assessment with key context. **Zone Assessment Breakdowns** present composite scores for each diagnostic question along with observations from the workshop discussion. **Strengths** and **Growth Areas** translate scores into narrative findings. Finally, **Investment Recommendations** provides sequenced, actionable next steps with expected effort, timeline, and benefit.
 
-Scores use a 1-5 frequency scale (1 = Never, 5 = Always). A composite score is the most frequent response across all team members for a given question; ties resolve to the lower value. Competency stages (Emerging, Developing, Established, Exemplary) describe how habitual the zone's behaviors are under real working conditions, including pressure. For full scoring methodology, see [Scoring Thresholds](/toolkit/scoring-thresholds).
+Scores use a 1-5 frequency scale (1 = Never, 5 = Always). A composite score is the most frequent response across all team members for a given question; ties resolve to the lower value. Competency stages (Emerging, Developing, Established, Consistent, Exemplary) describe how habitual the zone's behaviors are under real working conditions, including pressure. For full scoring methodology, see [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 This report is confidential to your team. A separate management report with aggregated, anonymized patterns has been provided to organizational leadership. That report does not contain your scores, discussion content, or identified blockers.
 

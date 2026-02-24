@@ -40,7 +40,7 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
   - Placement: [Module 2](/training/module-2-diagnostic-facilitation/), Session 4 (primary); Workshop Script (reference); Facilitator Guide (reference)
 
 - [x] **VA-8: Competency Stage Quick Reference** -- [`competency-stage-reference.svg`](/images/competency-stage-reference.svg)
-  - Four-stage horizontal progression (Emerging/Developing/Established/Exemplary) with behavioral anchors and "sounds like" indicators
+  - Five-stage horizontal progression (Emerging/Developing/Established/Consistent/Exemplary) with behavioral anchors and "sounds like" indicators
   - Placement: [Module 1](/training/module-1-model-foundations/), Session 2 (primary); Facilitator Guide (reference); [Module 2](/training/module-2-diagnostic-facilitation/), Session 6 (reference)
 
 - [x] **VA-9: Zone Selection Decision Framework** -- [`zone-selection-decision-framework.svg`](/images/zone-selection-decision-framework.svg)
@@ -95,6 +95,22 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
   - Single-page map showing all files organized by collection with navigation pathways for each audience
   - Placement: What is ACE (primary); [Module 1](/training/module-1-model-foundations/), Session 1 (reference)
 
+- [x] **VA-22: Choose Your Stopping Point** -- [`choose-your-stopping-point.svg`](/images/choose-your-stopping-point.svg)
+  - Decision-support visual showing zones as legitimate stopping points with strategic factors at each transition gate
+  - Placement: [Progressive Competency Model](/toolkit/progressive-competency-model) (primary)
+
+- [x] **VA-23: Zone Distribution Report** -- [`zone-distribution-report.svg`](/images/zone-distribution-report.svg)
+  - Sample zone distribution chart showing teams distributed across zones and competency stages
+  - Placement: [Sample Management Report](/toolkit/sample-management-report) (primary)
+
+- [x] **VA-24: Leading Indicators Dashboard** -- [`leading-indicators-dashboard.svg`](/images/leading-indicators-dashboard.svg)
+  - Five-gauge dashboard showing Zone 2 progression leading indicators with current values and targets
+  - Placement: [Organizational Health Metrics](/toolkit/organizational-health-metrics) (primary)
+
+- [x] **VA-25: Validation Study Flow** -- [`validation-study-flow.svg`](/images/validation-study-flow.svg)
+  - Three-phase validation study design showing Phase 1 (Expert Validation), Phase 2 (Pilot Facilitations), Phase 3 (Longitudinal Tracking) with research questions mapped to each phase
+  - Placement: [Validation Study Plan](/research/validation-study-plan) (primary)
+
 ---
 
 ## Production Specifications
@@ -137,10 +153,14 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 - Criterion 3: "Are ALL question composites ≥ 4.0 (no weak links)?"
 
 **Decision branch:**
-- If ALL THREE criteria met -> **"Exemplary"** (green box, bold)
+- If ALL THREE criteria met -> **"Consistent"** (teal box, bold) -- then assess qualitatively for Exemplary
 - If fewer than three criteria met -> proceed to Step 2
 
-**Step 2 -- Determine stage from composite score range:**
+**Step 1b -- Qualitative assessment for Exemplary (only if all three criteria met):**
+- Does the team demonstrate coaching capability, contextual adaptation, and practice innovation? -> YES -> **"Exemplary"** (green box, bold)
+- If qualitative criteria not demonstrated -> remains **"Consistent"** (teal box)
+
+**Step 2 -- Determine stage from composite score range (if fewer than three criteria met):**
 - Composite average 4.0 - 4.9 -> **"Established"** (blue box) -- "Habitual and consistent, approaching full threshold"
 - Composite average 3.0 - 3.9 -> **"Developing"** (yellow box) -- "Mostly consistent but untested by sustained pressure"
 - Composite average 2.0 - 2.9 -> **"Emerging"** (orange box) -- "Practicing but inconsistent"
@@ -153,8 +173,8 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 **Key visual cues:**
 - The three criteria should be visually parallel and equally weighted -- no one criterion is "more important"
 - The "all three met" path should be visually distinct from the "score range" path
-- Color-code the four stages consistently (these colors should match across all framework materials)
-- Include a small example: "Example: Team scores 4.8 composite. SD = 0.6 (one member consistently lower). Criterion 2 fails. Stage = Established (not Exemplary)."
+- Color-code the five stages consistently (these colors should match across all framework materials)
+- Include a small example: "Example: Team scores 4.8 composite. SD = 0.6 (one member consistently lower). Criterion 2 fails. Stage = Established (not Consistent or Exemplary)."
 
 ---
 
@@ -354,12 +374,13 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 
 ### VA-8: Competency Stage Quick Reference
 
-**Purpose:** Quick-reference card for the four competency stages with behavioral anchors that complement VA-2's quantitative thresholds. Used during facilitated discussions when teams need qualitative descriptions of what each stage looks and sounds like.
+**Purpose:** Quick-reference card for the five competency stages with behavioral anchors that complement VA-2's quantitative thresholds. Used during facilitated discussions when teams need qualitative descriptions of what each stage looks and sounds like.
 
-**Layout:** Four horizontal bands, one per stage, with behavioral definitions.
+**Layout:** Five horizontal bands, one per stage, with behavioral definitions.
 
 **Stages (top to bottom):**
-- **Exemplary** (emerald): Behavioral definition, "sounds like" example quotes, key distinction from Established
+- **Exemplary** (emerald): Behavioral definition, "sounds like" example quotes, key distinction from Consistent
+- **Consistent** (teal): Behavioral definition, "sounds like" example quotes, key distinction from Established
 - **Established** (blue): Behavioral definition, "sounds like" example quotes, key distinction from Developing
 - **Developing** (amber): Behavioral definition, "sounds like" example quotes, key distinction from Emerging
 - **Emerging** (orange): Behavioral definition, "sounds like" example quotes
@@ -634,6 +655,83 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 - Each collection should be visually distinct
 - Audience entry points should be clearly labeled
 - Cross-references between collections should be shown as connecting lines
+
+---
+
+### VA-22: Choose Your Stopping Point
+
+**Purpose:** Strategic visual for leadership audiences showing the four ACE zones as a single path with escalating investment and legitimate stopping points. Reinforces the message that higher zones are not universally better -- they represent deeper organizational commitment justified only in certain contexts.
+
+**Layout:** Horizontal path with ascending terrain metaphor. Four zone stations along the path.
+
+**Per zone station:**
+- Zone name and value proposition
+- Investment required summary
+- Strategic context where this zone is the right destination
+
+**Key visual cues:**
+- All zones feel like a single path (consistent styling, solid arrows)
+- Each zone has a "stop here" affordance -- visually communicating that stopping is legitimate
+- Investment escalation should be visually proportional
+- Do NOT use visual treatment suggesting higher zones are "better"
+
+---
+
+### VA-23: Zone Distribution Report
+
+**Purpose:** Management report visualization template showing how to present team zone and competency stage distribution data for leadership. Uses the FinServ Corp sample engagement data as a worked example.
+
+**Layout:** Distribution chart with zone/stage matrix and investment themes summary panel.
+
+**Content:**
+- Sample distribution showing 5 teams across Zone 1 Developing, Zone 1 Established, and Zone 2 Emerging
+- Investment themes summary panel
+- Zone-specific colors from the style guide
+
+**Key visual cues:**
+- Data presentation suitable for leadership audiences
+- Clear labeling of both zone and stage for each team
+- Investment themes visually linked to distribution findings
+
+---
+
+### VA-24: Leading Indicators Dashboard
+
+**Purpose:** Small-multiples dashboard showing five organizational leading indicators for Zone 2 progression. Each panel shows the metric, measurement method, target threshold, and current-state gauge. Used in management reporting contexts.
+
+**Layout:** 3-over-2 grid of gauge panels with a sixth reporting cadence summary panel.
+
+**Per panel:**
+- Metric name and measurement method
+- Target threshold with gauge-style bar encoding
+- Evidence level badge
+- Current-state indicator
+
+**Key visual cues:**
+- All panels should be uniform in size and layout for small-multiples comparison
+- Threshold markers should be clearly distinguished from current values
+- Evidence-level badges consistent with metrics tree badge styling
+
+---
+
+### VA-25: Validation Study Flow
+
+**Purpose:** Three-phase sequential diagram showing the validation study design. Maps research questions to study phases and shows how each phase feeds into the next. Used as a navigational aid for the validation study plan document.
+
+**Layout:** Three horizontal phase panels arranged vertically with connecting arrows.
+
+**Per phase:**
+- Phase name, timeline, and research questions addressed
+- Methods and key analyses
+- Deliverables and sample sizes
+- Revision triggers
+
+**Bottom panel:** Feasibility assessment summarizing power limitations.
+
+**Key visual cues:**
+- Phase sequencing should be clearly directional (top to bottom)
+- Research question mappings should be traceable from each RQ to its study phase
+- Revision triggers should be visually distinct from deliverables
 
 ---
 

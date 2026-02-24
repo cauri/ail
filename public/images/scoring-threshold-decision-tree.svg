@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 880"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 960"
      font-family="'Inter', sans-serif">
   <title>Scoring Threshold Decision Tree</title>
-  <desc>A flowchart for determining a team's competency stage within an ACE zone. Step 1 checks three criteria (composite average, response consistency, no weak links). If all three are met, the team is Exemplary. If not, Step 2 determines the stage from the composite score range: Established, Developing, Emerging, or Not Yet.</desc>
+  <desc>A flowchart for determining a team's competency stage within an ACE zone. Step 1 checks three quantitative criteria (composite average, response consistency, no weak links). If all three are met, the team is Consistent. Step 1b assesses qualitative capabilities to determine if Consistent teams qualify as Exemplary. If fewer than three criteria are met in Step 1, Step 2 determines the stage from the composite score range: Established, Developing, Emerging, or Not Yet.</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
@@ -9,13 +9,16 @@
     <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#34D399"/>
     </marker>
+    <marker id="arrow-teal" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#2DD4BF"/>
+    </marker>
     <marker id="arrow-red" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#F87171"/>
     </marker>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="880" fill="#fff" rx="8"/>
+  <rect width="900" height="960" fill="#fff" rx="8"/>
 
   <!-- Title -->
   <text x="450" y="36" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="20"
@@ -58,77 +61,104 @@
     <text x="0" y="12" text-anchor="middle" font-size="12" font-weight="600" fill="#92400E">criteria met?</text>
   </g>
 
-  <!-- YES path: right from diamond to Exemplary -->
-  <line x1="520" y1="248" x2="608" y2="248" stroke="#34D399" stroke-width="2" marker-end="url(#arrow-green)"/>
-  <text x="560" y="240" text-anchor="middle" font-size="11" font-weight="600" fill="#065F46">YES</text>
+  <!-- YES path: right from diamond to Consistent -->
+  <line x1="520" y1="248" x2="608" y2="248" stroke="#2DD4BF" stroke-width="2" marker-end="url(#arrow-teal)"/>
+  <text x="560" y="240" text-anchor="middle" font-size="11" font-weight="600" fill="#115E59">YES</text>
+
+  <!-- Consistent box -->
+  <rect x="618" y="222" width="240" height="52" rx="8" fill="#F0FDFA" stroke="#2DD4BF" stroke-width="2"/>
+  <text x="738" y="244" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="16"
+        font-weight="500" fill="#115E59">Consistent</text>
+  <text x="738" y="262" text-anchor="middle" font-size="9" fill="#115E59">Habitual under stress. Automatic behaviors.</text>
+
+  <!-- Step 1b: Qualitative assessment path from Consistent -->
+  <line x1="738" y1="274" x2="738" y2="300" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Qualitative diamond -->
+  <g transform="translate(738, 332)">
+    <rect x="-90" y="-30" width="180" height="60" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+    <text x="0" y="-6" text-anchor="middle" font-size="11" font-weight="600" fill="#92400E">Step 1b: Qualitative</text>
+    <text x="0" y="10" text-anchor="middle" font-size="11" font-weight="600" fill="#92400E">assessment?</text>
+  </g>
+
+  <!-- YES path from qualitative diamond: right to Exemplary -->
+  <line x1="828" y1="332" x2="860" y2="332" stroke="#34D399" stroke-width="1.5"/>
+  <line x1="860" y1="332" x2="860" y2="404" stroke="#34D399" stroke-width="1.5"/>
+  <line x1="860" y1="404" x2="848" y2="404" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <text x="868" y="368" font-size="10" font-weight="600" fill="#065F46">YES</text>
 
   <!-- Exemplary box -->
-  <rect x="618" y="222" width="240" height="52" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
-  <text x="738" y="244" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="16"
+  <rect x="648" y="384" width="190" height="42" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="743" y="402" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14"
         font-weight="500" fill="#065F46">Exemplary</text>
-  <text x="738" y="262" text-anchor="middle" font-size="9" fill="#065F46">Habitual under stress. Can coach others.</text>
+  <text x="743" y="418" text-anchor="middle" font-size="9" fill="#065F46">Consistent + coaching + innovation</text>
 
-  <!-- NO path: down from diamond -->
-  <line x1="450" y1="281" x2="450" y2="333" stroke="#F87171" stroke-width="2" marker-end="url(#arrow-red)"/>
-  <text x="464" y="312" font-size="11" font-weight="600" fill="#9A3412">NO</text>
+  <!-- NO path from qualitative diamond: down, stays Consistent -->
+  <text x="700" y="375" font-size="10" font-weight="600" fill="#115E59">NO</text>
+  <rect x="660" y="378" width="156" height="0" rx="0" fill="none"/>
+  <!-- Small annotation for NO path -->
+  <text x="648" y="390" font-size="9" fill="#6B7280">Remains Consistent</text>
+
+  <!-- NO path from main diamond: down -->
+  <line x1="450" y1="281" x2="450" y2="433" stroke="#F87171" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="464" y="360" font-size="11" font-weight="600" fill="#9A3412">NO</text>
 
   <!-- Step 2 label -->
-  <text x="450" y="356" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14"
+  <text x="450" y="456" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="14"
         font-weight="500" fill="#151D1A">Step 2: Determine Stage from Composite Score</text>
 
   <!-- Connector arrow down to stages -->
-  <line x1="450" y1="366" x2="450" y2="388" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="450" y1="466" x2="450" y2="488" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
 
   <!-- Established (4.0 - 4.9) -->
-  <rect x="100" y="396" width="700" height="58" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="128" y="418" font-size="12" font-weight="600" fill="#1E40AF">Composite 4.0 - 4.9</text>
-  <rect x="570" y="404" width="120" height="28" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="630" y="423" text-anchor="middle" font-size="13" font-weight="600" fill="#1E40AF">Established</text>
-  <text x="128" y="440" font-size="10" fill="#6B7280">Habitual and consistent, approaching full threshold</text>
+  <rect x="100" y="496" width="700" height="58" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="128" y="518" font-size="12" font-weight="600" fill="#1E40AF">Composite 4.0 - 4.9</text>
+  <rect x="570" y="504" width="120" height="28" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="630" y="523" text-anchor="middle" font-size="13" font-weight="600" fill="#1E40AF">Established</text>
+  <text x="128" y="540" font-size="10" fill="#6B7280">Habitual and consistent, approaching full threshold</text>
 
   <!-- Arrow -->
-  <line x1="450" y1="454" x2="450" y2="472" stroke="#6B7280" stroke-width="1"/>
+  <line x1="450" y1="554" x2="450" y2="572" stroke="#6B7280" stroke-width="1"/>
 
   <!-- Developing (3.0 - 3.9) -->
-  <rect x="100" y="478" width="700" height="58" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
-  <text x="128" y="500" font-size="12" font-weight="600" fill="#92400E">Composite 3.0 - 3.9</text>
-  <rect x="570" y="486" width="120" height="28" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
-  <text x="630" y="505" text-anchor="middle" font-size="13" font-weight="600" fill="#92400E">Developing</text>
-  <text x="128" y="522" font-size="10" fill="#6B7280">Mostly consistent but untested by sustained pressure</text>
+  <rect x="100" y="578" width="700" height="58" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="128" y="600" font-size="12" font-weight="600" fill="#92400E">Composite 3.0 - 3.9</text>
+  <rect x="570" y="586" width="120" height="28" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="630" y="605" text-anchor="middle" font-size="13" font-weight="600" fill="#92400E">Developing</text>
+  <text x="128" y="622" font-size="10" fill="#6B7280">Mostly consistent but untested by sustained pressure</text>
 
   <!-- Arrow -->
-  <line x1="450" y1="536" x2="450" y2="554" stroke="#6B7280" stroke-width="1"/>
+  <line x1="450" y1="636" x2="450" y2="654" stroke="#6B7280" stroke-width="1"/>
 
   <!-- Emerging (2.0 - 2.9) -->
-  <rect x="100" y="560" width="700" height="58" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1.5"/>
-  <text x="128" y="582" font-size="12" font-weight="600" fill="#9A3412">Composite 2.0 - 2.9</text>
-  <rect x="570" y="568" width="120" height="28" rx="4" fill="#FFF7ED" stroke="#FB923C" stroke-width="1.5"/>
-  <text x="630" y="587" text-anchor="middle" font-size="13" font-weight="600" fill="#9A3412">Emerging</text>
-  <text x="128" y="604" font-size="10" fill="#6B7280">Practicing but inconsistent</text>
+  <rect x="100" y="660" width="700" height="58" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1.5"/>
+  <text x="128" y="682" font-size="12" font-weight="600" fill="#9A3412">Composite 2.0 - 2.9</text>
+  <rect x="570" y="668" width="120" height="28" rx="4" fill="#FFF7ED" stroke="#FB923C" stroke-width="1.5"/>
+  <text x="630" y="687" text-anchor="middle" font-size="13" font-weight="600" fill="#9A3412">Emerging</text>
+  <text x="128" y="704" font-size="10" fill="#6B7280">Practicing but inconsistent</text>
 
   <!-- Arrow -->
-  <line x1="450" y1="618" x2="450" y2="636" stroke="#6B7280" stroke-width="1"/>
+  <line x1="450" y1="718" x2="450" y2="736" stroke="#6B7280" stroke-width="1"/>
 
   <!-- Not Yet (<2.0) -->
-  <rect x="100" y="642" width="700" height="58" rx="8" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1.5"/>
-  <text x="128" y="664" font-size="12" font-weight="600" fill="#6B7280">Composite below 2.0</text>
-  <rect x="540" y="650" width="155" height="28" rx="4" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1.5"/>
-  <text x="617" y="669" text-anchor="middle" font-size="13" font-weight="600" fill="#6B7280">Not Yet at Zone</text>
-  <text x="128" y="686" font-size="10" fill="#6B7280">Assess the previous zone instead</text>
+  <rect x="100" y="742" width="700" height="58" rx="8" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1.5"/>
+  <text x="128" y="764" font-size="12" font-weight="600" fill="#6B7280">Composite below 2.0</text>
+  <rect x="540" y="750" width="155" height="28" rx="4" fill="#F9FAFB" stroke="#9CA3AF" stroke-width="1.5"/>
+  <text x="617" y="769" text-anchor="middle" font-size="13" font-weight="600" fill="#6B7280">Not Yet at Zone</text>
+  <text x="128" y="786" font-size="10" fill="#6B7280">Assess the previous zone instead</text>
 
   <!-- Divider -->
-  <line x1="50" y1="720" x2="850" y2="720" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="50" y1="818" x2="850" y2="818" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Side annotation box -->
-  <rect x="50" y="734" width="800" height="54" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="50" y="734" width="3" height="54" rx="1" fill="#D912AE"/>
-  <text x="72" y="755" font-size="11" font-weight="600" fill="#151D1A">Thresholds measure both high performance AND consistency.</text>
-  <text x="72" y="772" font-size="10" fill="#6B7280">Check each criterion independently. A team at 4.8 composite with high variance (SD > 0.5) is Established, not Exemplary.</text>
+  <rect x="50" y="832" width="800" height="54" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="50" y="832" width="3" height="54" rx="1" fill="#D912AE"/>
+  <text x="72" y="853" font-size="11" font-weight="600" fill="#151D1A">Thresholds measure both high performance AND consistency.</text>
+  <text x="72" y="870" font-size="10" fill="#6B7280">Check each criterion independently. A team at 4.8 composite with high variance (SD > 0.5) is Established, not Consistent.</text>
 
   <!-- Example box -->
-  <rect x="50" y="802" width="800" height="62" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="50" y="802" width="3" height="62" rx="1" fill="#D912AE"/>
-  <text x="72" y="822" font-size="11" font-weight="600" fill="#151D1A">Example</text>
-  <text x="72" y="838" font-size="10" fill="#6B7280">Team scores 4.8 composite. SD = 0.6 (one member consistently lower). Criterion 2 fails.</text>
-  <text x="72" y="854" font-size="10" font-weight="500" fill="#151D1A">Stage = Established (not Exemplary).</text>
+  <rect x="50" y="900" width="800" height="48" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="50" y="900" width="3" height="48" rx="1" fill="#D912AE"/>
+  <text x="72" y="920" font-size="11" font-weight="600" fill="#151D1A">Example</text>
+  <text x="72" y="936" font-size="10" fill="#6B7280">Team scores 4.8 composite. SD = 0.6 (one member consistently lower). Criterion 2 fails. Stage = Established (not Consistent).</text>
 </svg>

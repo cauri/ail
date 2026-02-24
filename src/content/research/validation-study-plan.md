@@ -61,6 +61,8 @@ Not all research questions can be answered definitively at planned sample sizes.
 
 ## 3. Study Design
 
+![VA-25: Validation Study Flow](/images/validation-study-flow.svg)
+
 This validation study uses a mixed-methods design combining:
 
 - **Qualitative expert interviews** to assess content validity: do the zone descriptions, proficiency lists, and investment recommendations match the reality that experienced practitioners observe?

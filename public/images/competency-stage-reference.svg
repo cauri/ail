@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 680"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 810"
      font-family="'Inter', sans-serif">
   <title>Competency Stage Quick Reference</title>
-  <desc>A four-row horizontal progression showing the four competency stages within any zone: Emerging, Developing, Established, and Exemplary. Each row includes the stage name, behavioral definition, a sounds-like indicator quote, and the key distinction from the adjacent stage. Uses stage-specific colors from the ACE design system. Footer emphasizes that competency equals habitual behavior under stress.</desc>
+  <desc>A five-row horizontal progression showing the five competency stages within any zone: Emerging, Developing, Established, Consistent, and Exemplary. Each row includes the stage name, behavioral definition, a sounds-like indicator quote, and the key distinction from the adjacent stage. Uses stage-specific colors from the ACE design system. Footer emphasizes that competency equals habitual behavior under stress.</desc>
 
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
@@ -10,12 +10,12 @@
   </defs>
 
   <!-- Background -->
-  <rect width="880" height="680" fill="#fff" rx="8"/>
+  <rect width="880" height="810" fill="#fff" rx="8"/>
 
   <!-- Title -->
   <text x="36" y="36" font-family="'DM Sans', sans-serif" font-size="20"
         font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Competency Stage Quick Reference</text>
-  <text x="36" y="54" font-size="12" fill="#6B7280">Four stages within each zone — progression toward habitual behavior under stress</text>
+  <text x="36" y="54" font-size="12" fill="#6B7280">Five stages within each zone — progression toward habitual behavior under stress</text>
 
   <!-- Horizontal progression arrow at top -->
   <line x1="36" y1="76" x2="830" y2="76" stroke="#E5E7EB" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -30,17 +30,16 @@
   <line x1="36" y1="110" x2="844" y2="110" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Row 1: Emerging (orange) -->
-  <rect x="36" y="118" width="808" height="110" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1"/>
-  <rect x="36" y="118" width="4" height="110" rx="2" fill="#FB923C"/>
+  <rect x="36" y="118" width="808" height="104" rx="8" fill="#FFF7ED" stroke="#FB923C" stroke-width="1"/>
+  <rect x="36" y="118" width="4" height="104" rx="2" fill="#FB923C"/>
 
   <text x="50" y="143" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#9A3412">Emerging</text>
   <text x="50" y="162" font-size="10" fill="#9A3412">Score 2.0 - 2.9</text>
 
   <text x="170" y="143" font-size="11" fill="#151D1A">Practicing but inconsistent. Behaviors appear</text>
   <text x="170" y="159" font-size="11" fill="#151D1A">when conditions are favorable and disappear</text>
-  <text x="170" y="175" font-size="11" fill="#151D1A">when conditions deteriorate — deadlines,</text>
-  <text x="170" y="191" font-size="11" fill="#151D1A">incidents, unfamiliar territory.</text>
-  <text x="170" y="213" font-size="10" fill="#6B7280">Some members exhibit behaviors; others do not.</text>
+  <text x="170" y="175" font-size="11" fill="#151D1A">when conditions deteriorate.</text>
+  <text x="170" y="197" font-size="10" fill="#6B7280">Some members exhibit behaviors; others do not.</text>
 
   <text x="500" y="143" font-size="11" fill="#151D1A" font-style="italic">"We're working on it."</text>
   <text x="500" y="163" font-size="11" fill="#151D1A" font-style="italic">"Some of us do this, but</text>
@@ -52,73 +51,98 @@
   <text x="720" y="189" font-size="10" fill="#6B7280">pressure at all.</text>
 
   <!-- Row 2: Developing (amber) -->
-  <rect x="36" y="240" width="808" height="110" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
-  <rect x="36" y="240" width="4" height="110" rx="2" fill="#FBBF24"/>
+  <rect x="36" y="232" width="808" height="104" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <rect x="36" y="232" width="4" height="104" rx="2" fill="#FBBF24"/>
 
-  <text x="50" y="265" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E">Developing</text>
-  <text x="50" y="284" font-size="10" fill="#92400E">Score 3.0 - 3.9</text>
+  <text x="50" y="257" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E">Developing</text>
+  <text x="50" y="276" font-size="10" fill="#92400E">Score 3.0 - 3.9</text>
 
-  <text x="170" y="265" font-size="11" fill="#151D1A">Mostly consistent. Occasional lapses occur</text>
-  <text x="170" y="281" font-size="11" fill="#151D1A">but the team self-corrects. Practices require</text>
-  <text x="170" y="297" font-size="11" fill="#151D1A">deliberate effort rather than being fully automatic.</text>
-  <text x="170" y="335" font-size="10" fill="#6B7280">Untested by sustained pressure.</text>
+  <text x="170" y="257" font-size="11" fill="#151D1A">Mostly consistent. Occasional lapses occur</text>
+  <text x="170" y="273" font-size="11" fill="#151D1A">but the team self-corrects. Practices require</text>
+  <text x="170" y="289" font-size="11" fill="#151D1A">deliberate effort rather than being automatic.</text>
+  <text x="170" y="319" font-size="10" fill="#6B7280">Untested by sustained pressure.</text>
 
-  <text x="500" y="265" font-size="11" fill="#151D1A" font-style="italic">"We usually do this."</text>
-  <text x="500" y="285" font-size="11" fill="#151D1A" font-style="italic">"When we slip, we catch</text>
-  <text x="500" y="301" font-size="11" fill="#151D1A" font-style="italic">it and correct."</text>
+  <text x="500" y="257" font-size="11" fill="#151D1A" font-style="italic">"We usually do this."</text>
+  <text x="500" y="277" font-size="11" fill="#151D1A" font-style="italic">"When we slip, we catch</text>
+  <text x="500" y="293" font-size="11" fill="#151D1A" font-style="italic">it and correct."</text>
 
-  <text x="720" y="265" font-size="10" font-weight="500" fill="#92400E">vs. Established:</text>
-  <text x="720" y="283" font-size="10" fill="#6B7280">Not yet proven</text>
-  <text x="720" y="297" font-size="10" fill="#6B7280">under sustained</text>
-  <text x="720" y="311" font-size="10" fill="#6B7280">stress or deadline.</text>
+  <text x="720" y="257" font-size="10" font-weight="500" fill="#92400E">vs. Established:</text>
+  <text x="720" y="275" font-size="10" fill="#6B7280">Not yet proven</text>
+  <text x="720" y="289" font-size="10" fill="#6B7280">under sustained</text>
+  <text x="720" y="303" font-size="10" fill="#6B7280">stress or deadline.</text>
 
   <!-- Row 3: Established (blue) -->
-  <rect x="36" y="362" width="808" height="110" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
-  <rect x="36" y="362" width="4" height="110" rx="2" fill="#60A5FA"/>
+  <rect x="36" y="346" width="808" height="104" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <rect x="36" y="346" width="4" height="104" rx="2" fill="#60A5FA"/>
 
-  <text x="50" y="387" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Established</text>
-  <text x="50" y="406" font-size="10" fill="#1E40AF">Score 4.0 - 4.9</text>
+  <text x="50" y="371" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Established</text>
+  <text x="50" y="390" font-size="10" fill="#1E40AF">Score 4.0 - 4.9</text>
 
-  <text x="170" y="387" font-size="11" fill="#151D1A">Habitual and consistent. Behaviors persist</text>
-  <text x="170" y="403" font-size="11" fill="#151D1A">under moderate pressure. Infrastructure is</text>
-  <text x="170" y="419" font-size="11" fill="#151D1A">mature. Some individual variation remains.</text>
-  <text x="170" y="457" font-size="10" fill="#6B7280">Does not yet meet all three Exemplary criteria.</text>
+  <text x="170" y="371" font-size="11" fill="#151D1A">Habitual and consistent. Behaviors persist</text>
+  <text x="170" y="387" font-size="11" fill="#151D1A">under moderate pressure. Infrastructure is</text>
+  <text x="170" y="403" font-size="11" fill="#151D1A">mature. Some individual variation remains.</text>
+  <text x="170" y="433" font-size="10" fill="#6B7280">Does not yet meet all three quantitative criteria.</text>
 
-  <text x="500" y="387" font-size="11" fill="#151D1A" font-style="italic">"This is how we work."</text>
-  <text x="500" y="407" font-size="11" fill="#151D1A" font-style="italic">"Even when things get</text>
-  <text x="500" y="423" font-size="11" fill="#151D1A" font-style="italic">busy, we hold the line."</text>
+  <text x="500" y="371" font-size="11" fill="#151D1A" font-style="italic">"This is how we work."</text>
+  <text x="500" y="391" font-size="11" fill="#151D1A" font-style="italic">"Even when things get</text>
+  <text x="500" y="407" font-size="11" fill="#151D1A" font-style="italic">busy, we hold the line."</text>
 
-  <text x="720" y="387" font-size="10" font-weight="500" fill="#1E40AF">vs. Exemplary:</text>
-  <text x="720" y="405" font-size="10" fill="#6B7280">Not yet universal</text>
-  <text x="720" y="419" font-size="10" fill="#6B7280">across all members</text>
-  <text x="720" y="433" font-size="10" fill="#6B7280">and all conditions.</text>
+  <text x="720" y="371" font-size="10" font-weight="500" fill="#1E40AF">vs. Consistent:</text>
+  <text x="720" y="389" font-size="10" fill="#6B7280">Not yet universal</text>
+  <text x="720" y="403" font-size="10" fill="#6B7280">across all members</text>
+  <text x="720" y="417" font-size="10" fill="#6B7280">and all conditions.</text>
 
-  <!-- Row 4: Exemplary (emerald) -->
-  <rect x="36" y="484" width="808" height="110" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
-  <rect x="36" y="484" width="4" height="110" rx="2" fill="#34D399"/>
+  <!-- Row 4: Consistent (teal) -->
+  <rect x="36" y="460" width="808" height="104" rx="8" fill="#F0FDFA" stroke="#2DD4BF" stroke-width="1.5"/>
+  <rect x="36" y="460" width="4" height="104" rx="2" fill="#2DD4BF"/>
 
-  <text x="50" y="509" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#065F46">Exemplary</text>
-  <text x="50" y="528" font-size="10" fill="#065F46">Meets all 3 criteria</text>
+  <text x="50" y="485" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#115E59">Consistent</text>
+  <text x="50" y="504" font-size="10" fill="#115E59">Meets all 3 criteria</text>
 
-  <text x="170" y="509" font-size="11" fill="#151D1A">Habitual even under stress. Behaviors are</text>
-  <text x="170" y="525" font-size="11" fill="#151D1A">automatic — persist through personnel changes,</text>
-  <text x="170" y="541" font-size="11" fill="#151D1A">deadline pressure, production incidents. Team</text>
-  <text x="170" y="557" font-size="11" fill="#151D1A">can coach others in these practices.</text>
-  <text x="170" y="579" font-size="10" fill="#6B7280">Composite >= 4.7, SD <= 0.5, no question below 4.0.</text>
+  <text x="170" y="485" font-size="11" fill="#151D1A">Habitual even under stress. Behaviors are</text>
+  <text x="170" y="501" font-size="11" fill="#151D1A">automatic — persist through personnel changes,</text>
+  <text x="170" y="517" font-size="11" fill="#151D1A">deadline pressure, production incidents.</text>
+  <text x="170" y="547" font-size="10" fill="#6B7280">Composite >= 4.7, SD <= 0.5, no question below 4.0.</text>
 
-  <text x="500" y="509" font-size="11" fill="#151D1A" font-style="italic">"We don't think about it</text>
-  <text x="500" y="525" font-size="11" fill="#151D1A" font-style="italic">anymore — it's just how</text>
-  <text x="500" y="541" font-size="11" fill="#151D1A" font-style="italic">we work. New people pick</text>
-  <text x="500" y="557" font-size="11" fill="#151D1A" font-style="italic">it up within a week."</text>
+  <text x="500" y="485" font-size="11" fill="#151D1A" font-style="italic">"We don't think about it</text>
+  <text x="500" y="501" font-size="11" fill="#151D1A" font-style="italic">anymore — it's just how</text>
+  <text x="500" y="517" font-size="11" fill="#151D1A" font-style="italic">we work."</text>
 
-  <text x="720" y="509" font-size="10" font-weight="500" fill="#065F46">What sets it apart:</text>
-  <text x="720" y="527" font-size="10" fill="#6B7280">Universal, automatic,</text>
-  <text x="720" y="541" font-size="10" fill="#6B7280">stress-tested, and the</text>
-  <text x="720" y="555" font-size="10" fill="#6B7280">team can teach it.</text>
+  <text x="720" y="485" font-size="10" font-weight="500" fill="#115E59">vs. Exemplary:</text>
+  <text x="720" y="503" font-size="10" fill="#6B7280">Quantitatively at</text>
+  <text x="720" y="517" font-size="10" fill="#6B7280">threshold but not yet</text>
+  <text x="720" y="531" font-size="10" fill="#6B7280">coaching others.</text>
+
+  <!-- Row 5: Exemplary (emerald) -->
+  <rect x="36" y="574" width="808" height="104" rx="8" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <rect x="36" y="574" width="4" height="104" rx="2" fill="#34D399"/>
+
+  <text x="50" y="599" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#065F46">Exemplary</text>
+  <text x="50" y="618" font-size="10" fill="#065F46">Consistent + qualitative</text>
+
+  <text x="170" y="599" font-size="11" fill="#151D1A">Meets all quantitative criteria AND</text>
+  <text x="170" y="615" font-size="11" fill="#151D1A">demonstrates qualitative capabilities: coaching</text>
+  <text x="170" y="631" font-size="11" fill="#151D1A">other teams, adapting practices to novel contexts,</text>
+  <text x="170" y="647" font-size="11" fill="#151D1A">innovating within the zone's framework.</text>
+
+  <text x="500" y="599" font-size="11" fill="#151D1A" font-style="italic">"We teach this to other</text>
+  <text x="500" y="615" font-size="11" fill="#151D1A" font-style="italic">teams. New people pick</text>
+  <text x="500" y="631" font-size="11" fill="#151D1A" font-style="italic">it up within a week."</text>
+
+  <text x="720" y="599" font-size="10" font-weight="500" fill="#065F46">What sets it apart:</text>
+  <text x="720" y="617" font-size="10" fill="#6B7280">Can coach, adapt,</text>
+  <text x="720" y="631" font-size="10" fill="#6B7280">and innovate beyond</text>
+  <text x="720" y="645" font-size="10" fill="#6B7280">standard practice.</text>
 
   <!-- Footer -->
-  <rect x="36" y="616" width="808" height="44" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
-  <rect x="36" y="616" width="4" height="44" rx="2" fill="#D912AE"/>
-  <text x="56" y="637" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#151D1A">Competency = habitual behavior under stress, not knowledge, not best-day performance.</text>
-  <text x="56" y="653" font-size="10" fill="#6B7280">A team that knows the practice but drops it under pressure is not yet competent. Assess what teams do, not what they know.</text>
+  <rect x="36" y="700" width="808" height="44" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
+  <rect x="36" y="700" width="4" height="44" rx="2" fill="#D912AE"/>
+  <text x="56" y="721" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#151D1A">Competency = habitual behavior under stress, not knowledge, not best-day performance.</text>
+  <text x="56" y="737" font-size="10" fill="#6B7280">A team that knows the practice but drops it under pressure is not yet competent. Assess what teams do, not what they know.</text>
+
+  <!-- Consistent/Exemplary distinction note -->
+  <rect x="36" y="756" width="808" height="36" rx="8" fill="#F0FDFA" stroke="#2DD4BF" stroke-width="1"/>
+  <rect x="36" y="756" width="4" height="36" rx="2" fill="#2DD4BF"/>
+  <text x="56" y="774" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#115E59">Consistent is a legitimate, positive classification.</text>
+  <text x="345" y="774" font-size="10" fill="#6B7280">Most teams that reach Consistent will remain there — that represents genuine organizational capability.</text>
 </svg>

@@ -116,7 +116,7 @@ Other evidence-probing techniques: "Can you walk me through the last time your t
 
 **How to score from workshop observations and team responses.** Scoring in ACE uses the Composite + Consistency competency threshold. The three criteria are: (1) the zone composite average (mean of all question composites) is 4.7 or higher; (2) the standard deviation across all individual responses is 0.5 or lower; (3) no single question composite falls below 4.0.
 
-A team meets all three criteria only when competency is genuinely universal and consistent. Missing any criterion determines the stage: scores in the 2.0-2.9 range is Emerging; scores in the 3.0-3.9 range is Developing; scores in the 4.0-4.9 range without meeting all three threshold criteria is Established; all three criteria met is Exemplary.
+A team meets all three criteria only when competency is genuinely universal and consistent. Missing any criterion determines the stage: scores in the 2.0-2.9 range is Emerging; scores in the 3.0-3.9 range is Developing; scores in the 4.0-4.9 range without meeting all three threshold criteria is Established; all three criteria met is Consistent; Consistent plus facilitator-assessed qualitative depth (coaching capability, contextual adaptation, practice innovation) is Exemplary.
 
 **The difference between self-report scores and facilitated scores.** Self-report scores are what team members put on the form before discussion. Facilitated scores are the scores that emerge after evidence-probing discussion, when the team has had the opportunity to reconsider their initial responses in light of behavioral evidence. These are often different, and the difference should be made transparent rather than resolved privately by the facilitator.
 

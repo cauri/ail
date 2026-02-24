@@ -331,8 +331,8 @@ Based on IC interviews: will teams be honest in the group diagnostic sessions?
 
 | Team Name | Estimated Zone | Estimated Competency Stage | Confidence | Key Evidence | Key Uncertainties |
 |---|---|---|---|---|---|
-| | Zone 0 / 1 / 2 / 3 | Emerging / Developing / Established / Exemplary | High / Medium / Low | | |
-| | Zone 0 / 1 / 2 / 3 | Emerging / Developing / Established / Exemplary | High / Medium / Low | | |
+| | Zone 0 / 1 / 2 / 3 | Emerging / Developing / Established / Consistent / Exemplary | High / Medium / Low | | |
+| | Zone 0 / 1 / 2 / 3 | Emerging / Developing / Established / Consistent / Exemplary | High / Medium / Low | | |
 
 *Add rows for each team in scope.*
 

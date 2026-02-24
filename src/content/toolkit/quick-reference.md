@@ -45,17 +45,20 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 | **Emerging** | Inconsistent; behaviors drop under pressure | 2.0–2.9 |
 | **Developing** | Mostly consistent; occasional lapses; self-corrects | 3.0–3.9 |
 | **Established** | Largely habitual; reliable competency; some individual variation remains | 4.0–4.9 (threshold not met) |
-| **Exemplary** | Habitual under stress; can coach others | Meets all 3 threshold criteria |
+| **Consistent** | Meets all 3 quantitative threshold criteria uniformly | Meets all 3 threshold criteria |
+| **Exemplary** | Consistent + coaching capability, contextual adaptation, practice innovation | Consistent + facilitator qualitative assessment |
 
 ---
 
-## Exemplary: Three-Criterion Threshold
+## Consistent and Exemplary: Three-Criterion Threshold
 
-All three must be met **simultaneously**:
+All three must be met **simultaneously** for Consistent:
 
 1. **High composite average:** Zone composite average ≥ **4.7**
 2. **Response consistency:** Standard deviation across all individual responses ≤ **0.5**
 3. **No weak links:** Every question composite ≥ **4.0**
+
+**Exemplary** requires meeting all three Consistent criteria **plus** facilitator-assessed qualitative depth: coaching capability, contextual adaptation, and practice innovation within the zone. Consistent is a positive, legitimate classification -- not "almost Exemplary."
 
 ---
 

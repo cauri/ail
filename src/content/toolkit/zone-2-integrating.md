@@ -78,23 +78,23 @@ Proficiencies are observable team behaviors, exhibited habitually even under pre
 
 ### Product Management
 
-- **PMs define product requirements that include AI behavioral criteria and verification expectations.** Beyond traditional functional acceptance criteria, PMs specify how AI-augmented workflows should behave --- for example, what verification steps are required, what documentation should be generated, or what quality gates apply.
+#### Delivery
 
-- **PMs participate in retrospectives about agentic workflow improvements.** Product managers are active participants in discussions about how the team's AI practices are working, not passive observers.
+- **PMs define product requirements that include AI behavioral criteria and verification expectations.** Beyond traditional functional acceptance criteria, PMs specify how AI-augmented workflows should behave -- what verification steps are required, what documentation should be generated, what quality gates apply, and what AI-specific acceptance criteria must be met. PMs own these specifications as part of their standard requirements work, not as an afterthought added by engineering.
+- **PMs own the team's definition of done for AI-augmented delivery.** The team's definition of done explicitly includes AI-related quality gates -- automated feedback loops, behavioral test coverage, code review standards for AI-generated output -- and PMs define and maintain these requirements as part of product specification.
+- **PMs contribute to retrospectives about agentic workflow improvements.** Product managers actively participate in discussions about how the team's AI practices affect product quality, delivery predictability, and specification clarity -- bringing the product perspective to workflow improvement rather than observing from the sidelines.
 
-- **PMs use AI for discovery, synthesis, and stakeholder communication systematically.** AI is part of the PM toolkit for research synthesis, competitive analysis, writing, and communication --- used consistently, not sporadically.
+#### Discovery
 
-- **PMs can specify "definition of done" that includes AI verification criteria.** The team's definition of done explicitly includes AI-related quality gates, and PMs understand and can articulate these requirements.
+- **PMs use AI-augmented discovery as a shared team practice, not just a personal productivity tool.** The PM leads structured discovery activities -- customer interview synthesis, competitive signal detection, opportunity sizing, assumption testing -- using AI as a team-visible analytical partner. Discovery insights are externalized (documented in the repository alongside engineering plans), not held in the PM's head. The team can see what the PM is learning and how it informs product decisions.
+- **PMs use AI to maintain a continuously updated understanding of customer needs, competitive dynamics, and market context that informs the team's prioritization decisions.** Rather than conducting periodic research sprints, the PM uses AI to maintain living analyses -- competitive landscape summaries, customer feedback pattern maps, market signal dashboards -- that are current enough to inform real-time prioritization.
 
 ### Design and Architecture
 
-- **Designers use AI for systematic design exploration and documentation.** AI tools are part of the design workflow for generating alternatives, documenting decisions, and exploring trade-offs --- used as a regular practice, not an occasional experiment.
-
-- **Designers contribute design context, constraints, and standards to the team's shared AI configuration.** Design system rules, component specifications, accessibility requirements, and interaction patterns are encoded in the team's AGENTS.md/CLAUDE.md so that AI-generated code respects design standards by default. Designers are co-owners of the shared configuration, not downstream consumers.
-
+- **Designers lead AI-augmented design exploration as a systematic practice.** AI tools are part of the design workflow for generating alternatives, documenting design decisions, exploring trade-offs, and evaluating design options against usability criteria -- used as a regular practice, not an occasional experiment. Designers own the design exploration process and use AI to deepen it, not just to accelerate artifact production.
+- **Designers own the design standards within the team's shared AI configuration.** Design system rules, component specifications, accessibility requirements, and interaction patterns are encoded in the team's AGENTS.md/CLAUDE.md so that AI-generated code respects design standards by default. Designers define and maintain these standards as the authoritative source for design decisions within the shared configuration -- not as suggestions subject to engineering override.
 - **Designers use AI to maintain and evolve design system documentation and consistency.** AI assists with auditing design system usage across the codebase, identifying inconsistencies, generating component documentation, and flagging deviations from established patterns. Design system health is a team responsibility that designers lead.
-
-- **Designers engage with the team's shared agentic workflow for design-adjacent implementation work.** When design work intersects with implementation (component libraries, design tokens, CSS architecture, prototyping), designers can work within the team's Plan/Code/Verify workflow. This is collaborative engagement, not subordinate participation.
+- **Designers lead their own AI-augmented design practice and integrate design outputs into the team's shared workflow as a co-equal contributor.** When design work intersects with implementation (component libraries, design tokens, CSS architecture, prototyping), designers work within the team's Plan/Code/Verify workflow with the same ownership that engineers exercise over code. Designers bring design judgment to the shared workflow; they are co-owners of the process, not participants in an engineering-owned process.
 
 ### Quality Assurance
 

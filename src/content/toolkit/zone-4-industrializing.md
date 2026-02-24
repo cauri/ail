@@ -72,14 +72,26 @@ Proficiencies at Zone 4 represent the current understanding of what competency a
 
 ### Product Management (Portfolio-Level Specifiers)
 
-- **Product managers operate at the portfolio level, defining factory production targets.** Rather than specifying individual features for individual teams, product managers define what the factory should produce at a strategic level. This requires a different set of skills: thinking in terms of production capacity, factory specifications, and portfolio-level prioritization rather than sprint-level user stories.
-- **Product managers can specify system-level acceptance criteria for entire AI pipelines.** Acceptance criteria are defined for the factory's behavior, not just for individual features. "The factory should produce API endpoints that meet these performance, security, and documentation standards" is a different kind of specification than "as a user, I want to be able to reset my password."
+#### Delivery
+
+- **Product managers operate at the portfolio level, defining factory production targets.** Rather than specifying individual features for individual teams, product managers define what the factory should produce at a strategic level. This requires thinking in terms of production capacity, factory specifications, and portfolio-level prioritization rather than sprint-level user stories.
+- **Product managers define system-level acceptance criteria for entire AI pipelines.** Acceptance criteria are defined for the factory's behavior, not just for individual features. "The factory should produce API endpoints that meet these performance, security, and documentation standards" is a different kind of specification than a single user story.
 - **Product managers manage the tension between production volume and quality governance.** The factory can produce faster than the organization can govern. Product managers understand this tension and make informed trade-offs about where to prioritize speed versus where to prioritize additional governance and evaluation.
+
+#### Discovery
+
+- **Product managers own portfolio-level product strategy informed by AI-enhanced market intelligence.** PMs use AI to maintain continuously updated models of market dynamics, competitive positioning, and customer needs across the portfolio -- identifying cross-product opportunities, detecting emerging market signals, and evolving the factory's production priorities based on evidence rather than convention. The PM ensures the factory produces what the market demands, not just what the factory is capable of producing.
 
 ### Design (Factory Specification Layer Owners)
 
-- **Owns the factory's design specification layer.** Designers own and maintain the factory's design inputs -- component libraries, interaction patterns, accessibility requirements, and visual standards -- encoded as machine-verifiable specifications that AI pipelines consume and validate against. This is the Zone 4 design role: not producing design artifacts, but governing the specification layer that ensures factory output meets design standards at portfolio scale.
+#### Delivery
+
+- **Owns the factory's design specification layer.** Designers own and maintain the factory's design inputs -- component libraries, interaction patterns, accessibility requirements, and visual standards -- encoded as machine-verifiable specifications that AI pipelines consume and validate against. This is the delivery dimension of the Zone 4 design role: governing the specification layer that ensures factory output meets design standards at portfolio scale.
 - **Operates design compliance verification at portfolio scale.** Design compliance is verified automatically across all factory output, not through manual review of individual artifacts. Designers maintain the design evaluation criteria, monitor compliance rates across the portfolio, and evolve specifications as design standards change.
+
+#### Discovery
+
+- **Leads design strategy across the portfolio using AI-enhanced research at organizational scale.** Designers use AI to identify cross-product experience patterns, detect emerging user needs across the portfolio, and evolve the organization's design language based on evidence rather than convention. Factory design specifications are informed by continuous portfolio-level user intelligence, not just per-product design decisions. The designer ensures the factory's definition of "good" evolves with user needs, not just with engineering capability.
 
 ### Quality Assurance (Factory Evaluation Operations)
 

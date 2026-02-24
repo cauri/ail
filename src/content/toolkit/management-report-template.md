@@ -74,15 +74,15 @@ audience: "leadership"
 ### Current State: Teams by Zone and Stage
 
 ```
-Zone / Stage         | Emerging | Developing | Established | Exemplary | Total
----------------------|----------|------------|--------|-------------|------
-Zone 0 (Baseline)    |          |            |        |             |
-Zone 1 (Augmenting)  |    [N]   |    [N]     |  [N]   |    [N]      |  [N]
-Zone 2 (Integrating) |    [N]   |    [N]     |  [N]   |    [N]      |  [N]
-Zone 3 (Accelerating)|    [N]   |    [N]     |  [N]   |    [N]      |  [N]
-Zone 4 (Industrializing)|  [N]  |    [N]     |  [N]   |    [N]      |  [N]
----------------------|----------|------------|--------|-------------|------
-Total                |          |            |        |             |  [N]
+Zone / Stage         | Emerging | Developing | Established | Consistent | Exemplary | Total
+---------------------|----------|------------|-------------|------------|-----------|------
+Zone 0 (Baseline)    |          |            |             |            |           |
+Zone 1 (Augmenting)  |    [N]   |    [N]     |     [N]     |    [N]     |    [N]    |  [N]
+Zone 2 (Integrating) |    [N]   |    [N]     |     [N]     |    [N]     |    [N]    |  [N]
+Zone 3 (Accelerating)|    [N]   |    [N]     |     [N]     |    [N]     |    [N]    |  [N]
+Zone 4 (Industrializing)|  [N]  |    [N]     |     [N]     |    [N]     |    [N]    |  [N]
+---------------------|----------|------------|-------------|------------|-----------|------
+Total                |          |            |             |            |           |  [N]
 ```
 
 *Facilitator guidance: Add a one-sentence interpretive note below the table — for example, whether the distribution is narrow (most teams at one stage) or spread across multiple zones, and what that implies about organizational investment priorities.*
@@ -285,7 +285,7 @@ The four zones form a single progression. Zone 2 is the typical near-term target
 
 ### Competency Stages
 
-Within each zone, teams progress through four stages: Emerging (practicing but inconsistent), Developing (mostly consistent but fragile under pressure), Established (habitual even under stress), and Exemplary (can coach others and innovate within the zone). Competency is reached when the zone composite average is 4.7 or higher, the standard deviation across all individual responses is 0.5 or lower, and no single question composite falls below 4.0.
+Within each zone, teams progress through five stages: Emerging (practicing but inconsistent), Developing (mostly consistent but fragile under pressure), Established (habitual even under stress), Consistent (meets all three quantitative threshold criteria uniformly), and Exemplary (Consistent plus coaching capability, contextual adaptation, and practice innovation -- assessed qualitatively by the facilitator). Consistent status is reached when the zone composite average is 4.7 or higher, the standard deviation across all individual responses is 0.5 or lower, and no single question composite falls below 4.0.
 
 ### How the Diagnostic Works
 

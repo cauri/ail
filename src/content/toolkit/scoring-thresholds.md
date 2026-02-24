@@ -50,7 +50,7 @@ A score of 5 ("Always") is the target for competency. It does not mean literally
 
 ## Competency Stages
 
-Each zone has four competency stages. These stages describe the team's progression toward competency within that zone, based on the composite scores across all diagnostic questions.
+Each zone has five competency stages. These stages describe the team's progression toward competency within that zone, based on the composite scores across all diagnostic questions.
 
 ### Emerging (Average Score 2.0 - 2.9)
 
@@ -364,6 +364,8 @@ If initial scores are high but decrease when the facilitator asks for specific e
 The scoring methodology rests on several assumptions that are disclosed here for transparency. These assumptions are testable and will be evaluated through the [Validation Study Plan](/research/validation-study-plan).
 
 - **Aggregation assumption:** Aggregating individual responses to team composites assumes sufficient within-team agreement. If team members answer the same question very differently, the composite average may not represent a meaningful team-level construct. This assumption is tested in the validation study using r_wg (within-team agreement) analysis but has not yet been empirically confirmed. Facilitators should note when within-team agreement is low on specific questions (individual responses spanning a range of 3 or more points), as the composite for that question obscures a split that should be reported as a finding in its own right.
+
+- **Engineering-weighted composite assumption:** The composite scores primarily reflect engineering competency. Across all four zones, approximately 70% of scored questions assess engineering behaviors, with one scored question per zone for each non-engineering role (PM, design, QA). This means a team's composite score and competency stage classification are driven predominantly by engineering adoption. A team classified as Consistent or Exemplary may have strong engineering practices but uneven adoption across PM, design, and QA roles. Facilitators should interpret composite scores alongside their cross-functional probe findings (see the [Facilitator Guide](/toolkit/facilitator-guide) section on Assessing Non-Engineering Roles) and note cross-functional adoption patterns in the narrative sections of team and management reports. The cross-functional probes included in each zone's question document are designated as pilot items; data from these probes will inform whether future instrument versions should include additional scored cross-functional questions.
 
 - **Self-report validity assumption:** The scoring thresholds assume that self-reported behavioral frequency is a valid proxy for actual habitual behavior. Self-report data is subject to social desirability bias, aspiration bias, and conformity effects. The facilitation methodology (behavioral probing, discussion-based recalibration) partially mitigates these biases, but residual bias likely inflates scores modestly even under ideal conditions. This assumption will be tested in Phase 2 through behavioral observation comparing self-reported scores to independently observed behavior.
 

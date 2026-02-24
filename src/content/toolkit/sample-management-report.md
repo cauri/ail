@@ -47,15 +47,17 @@ Five teams participated in facilitated ACE diagnostic workshops between January 
 
 ### Zone Distribution
 
+![VA-23: Zone Distribution Report](/images/zone-distribution-report.svg)
+
 ```
-Zone / Stage         | Emerging | Developing | Established | Exemplary | Total
----------------------|----------|------------|--------|-------------|------
-Zone 0 (Baseline)    |    0     |     0      |   0    |      0      |   0
-Zone 1 (Augmenting)  |    0     |     2      |   2    |      0      |   4
-Zone 2 (Integrating) |    1     |     0      |   0    |      0      |   1
-Zone 3 (Accelerating)|    0     |     0      |   0    |      0      |   0
----------------------|----------|------------|--------|-------------|------
-Total                |    1     |     2      |   2    |      0      |   5
+Zone / Stage         | Emerging | Developing | Established | Consistent | Exemplary | Total
+---------------------|----------|------------|-------------|------------|-----------|------
+Zone 0 (Baseline)    |    0     |     0      |      0      |     0      |     0     |   0
+Zone 1 (Augmenting)  |    0     |     2      |      2      |     0      |     0     |   4
+Zone 2 (Integrating) |    1     |     0      |      0      |     0      |     0     |   1
+Zone 3 (Accelerating)|    0     |     0      |      0      |     0      |     0     |   0
+---------------------|----------|------------|-------------|------------|-----------|------
+Total                |    1     |     2      |      2      |     0      |     0     |   5
 ```
 
 All five teams have meaningful AI adoption underway. The distribution clusters at Zone 1 Developing and Established, with one team beginning the Zone 2 transition. No teams are at Zone 0, and no teams are at Zone 3 or beyond. The Zone 2 Emerging team is the most advanced and represents the current ceiling for the organization.

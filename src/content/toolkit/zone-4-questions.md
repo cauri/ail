@@ -81,6 +81,21 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **Assessing portfolio-scale behaviors in a single-team workshop.** Zone 4 questions ask about organizational-level behaviors that span multiple teams and products. A single team may not have visibility into whether portfolio-scale evaluation, drift management, or cross-functional rotation is actually happening organization-wide. Consider supplementing team workshops with cross-team validation of Zone 4 claims.
 
+### Cross-Functional Probe Questions (Pilot)
+
+The following questions are not yet scored items. They are facilitator probes to assess whether the Zone 4 transformation extends beyond engineering into portfolio-level product management, factory-integrated design, and factory-level quality governance. Use them during the discussion phase to gather data for future diagnostic refinement.
+
+**These probes are required for valid cross-functional assessment**, not optional enrichment. Zone 4 scored questions address PM (Question 6), design (Question 8), and QA (Question 9) at the factory level, but each allocates only a single scored item. Without these probes, the facilitator's assessment of Zone 4 may overstate organizational maturity by reflecting primarily engineering and governance adoption.
+
+- **PM as portfolio production manager:** "Beyond defining portfolio-level production targets (Question 6), how does the PM function navigate the tension between production volume and quality governance in practice? Can a PM describe a specific decision where they chose to constrain production output based on quality governance data? What organizational mechanisms exist for PMs to influence pipeline configuration based on product-level feedback?"
+- **PM and quality governance integration:** "When quality governance data (Question 9) indicates a product is falling below thresholds, what role does the PM play in the escalation and remediation process? Is PM involvement systematic or ad-hoc?"
+- **Designer as factory specification architect:** "Beyond encoding design standards as factory inputs (Question 8), how do designers validate that the factory's specification layer accurately reflects design intent at portfolio scale? Can a designer describe a case where automated design compliance verification caught a systematic design deviation across multiple products? What happens when the factory's design specification layer conflicts with a product-specific design need?"
+- **Designer feedback into factory configuration:** "When AI pipelines produce output that passes automated design compliance but does not meet design quality standards, how does the design function feed that signal back into factory configuration? Is this feedback loop systematic or ad-hoc?"
+- **QA as factory-level evaluation architect:** "Beyond operating standardized quality criteria across the portfolio (Question 9), how does QA influence which quality thresholds are set and how they evolve? Can QA describe a specific case where evaluation data led to a change in quality governance policy — not just an escalation of an individual product, but a systematic change to how the factory assesses quality?"
+- **Cross-functional governance participation:** "When the organization reviews ethical governance of AI production (Question 10), are PM, design, and QA functions represented in those reviews with defined roles, or is ethical governance primarily an engineering and leadership function?"
+
+These probes address the concern that Zone 4's 10 scored questions, while explicitly multi-role in scope, allocate only a single scored item per non-engineering role. Data from these probes will inform whether future versions of the diagnostic should include additional scored cross-functional questions at the factory level.
+
 ---
 
 ## Related Documentation

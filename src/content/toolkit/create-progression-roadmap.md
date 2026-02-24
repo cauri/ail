@@ -154,7 +154,7 @@ ACE Progression Roadmap
 ============================
 
 Current State
-- Zone: [X], Stage: [Emerging/Developing/Established/Exemplary]
+- Zone: [X], Stage: [Emerging/Developing/Established/Consistent/Exemplary]
 - Key proficiency gaps: [list]
 - Known blockers: [list]
 

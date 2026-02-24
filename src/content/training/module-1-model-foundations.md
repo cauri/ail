@@ -55,7 +55,7 @@ By the end of this module, trainees will be able to:
 
 **Why best-day performance is insufficient.** Assessment based on demos, hackathons, or pilot projects overstates actual capability. ACE assesses what teams do consistently, especially when conditions are least conducive to new practices.
 
-**Four stages within a zone.** Emerging (practicing but inconsistent), Developing (mostly consistent but untested by sustained pressure), Established (habitual and consistent even under stress), Exemplary (can coach others and innovate within the zone). These stages apply within each zone independently.
+**Five stages within a zone.** Emerging (practicing but inconsistent), Developing (mostly consistent but untested by sustained pressure), Established (habitual and consistent even under stress), Consistent (meets all three quantitative threshold criteria uniformly), Exemplary (Consistent plus coaching capability, contextual adaptation, and practice innovation -- assessed qualitatively by the facilitator). These stages apply within each zone independently.
 
 **Implications for measurement.** Assess what teams do, not what they know. Assess behavior under pressure, not under ideal conditions. Use facilitated self-assessment, not external audit.
 
@@ -272,7 +272,7 @@ Scoring emphasizes reasoning quality over specific answers. Multiple reasonable 
 
 After completing Module 1, trainees should:
 
-- **Retrieval exercise (do this first, from memory, before looking at any materials):** Without consulting any notes or documents, write down: (a) the definition of competency as used in the ACE framework, (b) the four zones in order with a one-sentence description of each, (c) the four competency stages within a zone, and (d) three differences between ACE and a traditional maturity model. After writing your answers from memory, check them against the Module 1 materials and note what you got wrong or incomplete.
+- **Retrieval exercise (do this first, from memory, before looking at any materials):** Without consulting any notes or documents, write down: (a) the definition of competency as used in the ACE framework, (b) the four zones in order with a one-sentence description of each, (c) the five competency stages within a zone, and (d) three differences between ACE and a traditional maturity model. After writing your answers from memory, check them against the Module 1 materials and note what you got wrong or incomplete.
 - Review the diagnostic questionnaire instruments for all zones.
 - Read the facilitation notes included with each questionnaire.
 - Reflect on their own experience being assessed or assessed by others -- what made assessments feel safe and productive vs. threatening and performative?

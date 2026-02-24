@@ -79,6 +79,20 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 - **VTDD / test-first discipline is not directly probed by a standalone question but is a critical Zone 2 practice.** VTDD (Vibe Test-Driven Development) is a key Zone 2 technique, but the diagnostic questions assess it indirectly through Question 3 (mandatory feedback loops including automated tests) and Question 9 (QA practices addressing AI-generated code patterns). **Facilitators should always probe test-first discipline explicitly** during the discussion phase: "Does the team write or stub tests before implementation when working with agents? Do you use VTDD or a similar pattern to catch specification errors before code is generated? When was the last time a test-first approach caught a specification error that would have been missed otherwise?" Evidence of test-first practice is a strong signal of Zone 2 maturity; its absence may indicate the team's verification practices are reactive rather than proactive. Teams that pass mandatory feedback loops (Question 3) but lack test-first discipline have a verification gap that should be noted in the team report and addressed in the progression roadmap.
 
+### Cross-Functional Probe Questions (Pilot)
+
+The scored instrument allocates one question per non-engineering role at Zone 2. This reflects the engineering-weighted evidence base at the framework's current validation stage. Facilitators should supplement scored questions with these probes during the discussion phase and record the quality of evidence produced. Data from these probes will inform whether additional scored questions should be added in future instrument versions.
+
+**These probes are required for valid cross-functional assessment**, not optional enrichment. Without them, the facilitator's assessment of Zone 2 competency reflects primarily engineering adoption and may overstate the team's overall integration maturity.
+
+- **PM as workflow co-owner:** "Beyond writing AI-relevant acceptance criteria (Question 7), how does the PM participate in shaping the team's agentic workflow? Can the PM describe a specific instance where they contributed to or changed the team's AI configuration or workflow practice? If the PM's participation is limited to story writing, what would need to change for them to be a co-owner of the agentic setup?"
+- **PM retrospective engagement:** "When the team discusses its agentic setup in retrospectives, does the PM contribute observations from a product perspective — e.g., how AI-generated output quality affects user-facing outcomes, or where specification gaps led to rework? Can you give a recent example?"
+- **Designer as configuration co-owner:** "Beyond using the shared AI configuration (Question 8), has the designer contributed design-specific constraints, component specifications, or accessibility requirements to the team's AI configuration? Can you show me where design standards are encoded in the shared setup? If they are not, what prevents it?"
+- **Designer integration depth:** "When AI-generated code fails to meet design standards, how does the team find out? Is this discovered during design review, during automated checking, or after deployment? What would a more integrated approach look like?"
+- **QA as AI-error specialist:** "Beyond identifying AI error patterns (Question 9), how does QA influence the team's feedback loops? Has QA contributed specific test strategies or regression coverage based on observed AI failure modes? Can you describe a case where QA insight about AI-generated code changed how the team configures or reviews AI output?"
+
+These probes address the concern that Zone 2's 10 scored questions are ~60% engineering-weighted. Questions 7, 8, and 9 assess PM, designer, and QA participation respectively, but each allocates only a single scored item to roles that may require deeper assessment. Data from these probes will inform whether future versions of the diagnostic should include additional scored cross-functional questions.
+
 ---
 
 ## Related Documentation

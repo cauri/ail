@@ -25,8 +25,9 @@ feedback should use these terms consistently.
 |------|-----------|
 | Emerging | Initial exposure; behavior is inconsistent and requires prompting |
 | Developing | Behavior is practiced but not yet habitual; reverts under stress |
-| Practicing | Behavior is habitual and persists under normal pressure |
-| Mastery | Behavior is deeply internalized and the practitioner can coach others |
+| Established | Behavior is habitual under moderate pressure; practical sustainability threshold |
+| Consistent | Meets all three quantitative threshold criteria (composite >= 4.7, SD <= 0.5, no question below 4.0); a positive, legitimate classification |
+| Exemplary | Consistent plus coaching capability, contextual adaptation, and practice innovation; requires facilitator qualitative assessment |
 
 ## Engagement Phases
 
