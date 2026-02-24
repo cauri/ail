@@ -28,6 +28,8 @@ Present the diagnostic findings as an organizational portrait:
 
 Avoid naming specific teams or individuals in the report. The goal is to identify patterns that require organizational action, not to create a leaderboard.
 
+**Small organization caution.** In organizations with fewer than 5 teams, the 'distribution of teams across zones' may effectively identify specific teams. Consider whether organizational-level aggregation (without team-level distribution) is more appropriate. The principle: anonymization must be real, not nominal. If any reader of the report could reasonably identify a specific team from the reported data, the reporting structure should be adjusted. Options include: reporting only the organizational zone range (e.g., 'teams range from Zone 1 Developing to Zone 2 Emerging') without a team count at each level, or presenting the management report in a joint meeting where teams are present.
+
 ### The Investment Framing
 
 Frame every recommendation as a business investment with identifiable costs and returns. Leadership evaluates investments, not aspirations.

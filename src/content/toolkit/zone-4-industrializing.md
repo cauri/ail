@@ -8,6 +8,12 @@ The organization operates an AI-first software factory. Engineers maintain the f
 
 **Shift type:** Production model shift
 
+### Evidence Status
+
+**Confidence level: Low (speculative, based on trajectory analysis).** Zone 4 practices are described based on extrapolation from Zone 3 patterns, analogy to industrial manufacturing, and early reports from organizations pursuing elements of this level. No organization has demonstrably achieved the fully industrialized AI development capability described here. The specific proficiencies, timelines, and techniques should be treated as directional hypotheses, not validated practices. As the literature review notes: "Zone 4 remains aspirational."
+
+For comparison: Zone 1 evidence is strong (well-validated by extensive practitioner data), Zone 2 evidence is strong with some emerging practices, and Zone 3 evidence is moderate (early evidence with some extrapolation).
+
 ---
 
 ## Who Is This For?
@@ -36,9 +42,9 @@ This metric will continue to evolve as more organizations approach Zone 4 in pra
 
 ## Benefits
 
-Organizations that achieve Zone 4 competency can expect the following observable improvements:
+Organizations that achieve Zone 4 competency could potentially realize the following improvements. These are projected benefits based on trajectory analysis, not observed outcomes from validated practice:
 
-- **Extreme production throughput.** Software production becomes orders of magnitude faster than traditional development. The bottleneck shifts from "how fast can engineers write code" to "how fast can the factory be specified, evaluated, and governed." Organizations operating at this level could potentially respond to market changes with new software capabilities in hours or days rather than weeks or months.
+- **Extreme production throughput.** Software production becomes substantially faster than traditional development -- potentially by an order of magnitude or more, though no organization has yet demonstrated this at the scale described here. The bottleneck shifts from "how fast can engineers write code" to "how fast can the factory be specified, evaluated, and governed." Organizations operating at this level could potentially respond to market changes with new software capabilities in hours or days rather than weeks or months.
 - **Highly consistent quality through systematic governance.** When production is governed by factory-level quality systems rather than individual code review, consistency improves. Every artifact passes through the same evaluation pipeline. Quality does not vary with individual skill, fatigue, or attention. This is analogous to the quality consistency that manufacturing achieved through statistical process control -- something that craft production inherently could not guarantee.
 - **Rapid adaptation to changing requirements.** Changing the factory specification changes all subsequent output. This is fundamentally different from changing requirements in traditional development, where each change must be understood, implemented, and verified by individuals across the codebase. At factory scale, a specification change propagates through the production system.
 - **Organizational capability as competitive moat.** The quality of the AI production system -- its specifications, its evaluation pipelines, its governance processes, its operational reliability -- becomes a durable competitive advantage. This is difficult for competitors to replicate quickly because it is an organizational capability, not a tool purchase.
@@ -94,6 +100,14 @@ Zone 4 requires organizational investments that go far beyond tooling, training,
 - **Cross-functional rotation between factory design and production oversight.** To prevent knowledge silos -- where factory designers do not understand production realities and production operators do not understand factory design -- the organization invests in rotation programs that give engineers experience across both domains. This is expensive and disruptive in the short term but essential for long-term factory health.
 - **External audit and governance mechanisms for AI production quality.** Internal governance alone is insufficient at factory scale. The organization invests in external audits, third-party evaluations, and independent governance mechanisms that provide an outside perspective on factory quality. This is analogous to the role of external auditors in financial reporting -- a check on the system that the system cannot provide for itself.
 
+## Accountability at Factory Scale
+
+Zone 4's factory model amplifies the accountability requirements established in Zone 3. When a production system generates software at scale, a single specification error or eval gap can propagate through hundreds of artifacts before detection. Factory-scale accountability requires:
+
+- **Incident response protocols for AI production failures** that are distinct from traditional software incident response. Factory failures have different blast radii, different root cause categories, and different remediation patterns. The organization must have defined playbooks, escalation paths, and post-incident review processes specific to AI production.
+- **Regulatory and legal preparedness.** Factory governance structures must produce audit trails sufficient to answer questions from regulators, legal counsel, and customers about how specific AI-generated artifacts were produced, verified, and approved. Organizations in regulated industries (healthcare, finance, critical infrastructure) should conduct a regulatory impact assessment before pursuing Zone 4, specifically evaluating how the EU AI Act, NIST AI RMF, and domain-specific regulations apply to AI-produced software at factory scale.
+- **External audit as a structural requirement, not an optional enhancement.** Internal governance alone is insufficient at factory scale. The organization's investment in external audits (already listed in Organizational Investments) is not a quality improvement measure -- it is an accountability mechanism. External auditors provide the independent verification that the factory's own governance structures cannot provide for themselves.
+
 ## Techniques
 
 The following techniques characterize Zone 4 work. Some are extensions of Zone 3 practices scaled to factory level. Others represent capabilities specific to industrial-scale AI production.
@@ -112,7 +126,7 @@ The factory has defined service-level agreements for its production capabilities
 
 ### Factory Specification Languages and Frameworks
 
-As the factory model matures, organizations develop higher-level languages and frameworks for specifying what the factory should produce. These are more abstract than user stories or technical specifications -- they describe desired outcomes, quality constraints, and acceptance criteria at a level that the factory's AI systems can interpret and act on. This is an emerging area with no established standards, but it is a natural evolution of the CAT (Context, Action, Test) practices from Zone 3, scaled to factory level.
+As the factory model matures, organizations develop higher-level languages and frameworks for specifying what the factory should produce. These are more abstract than user stories or technical specifications -- they describe desired outcomes, quality constraints, and acceptance criteria at a level that the factory's AI systems can interpret and act on. This is an emerging area with no established standards, but it is a natural evolution of the CAT (Continuous Alignment Testing) practices from Zone 3, scaled to factory level.
 
 ### Cross-Team AI Pipeline Governance
 
@@ -120,7 +134,7 @@ In a factory model, changes to the AI production pipeline affect all teams that 
 
 ### Portfolio-Level CAT
 
-Zone 3's CAT methodology -- Context, Action, Test -- is applied at the portfolio level rather than the individual feature level. Product managers and architects define CAT specifications for entire product areas or capability domains, and the factory produces and evaluates against these specifications. This requires CAT specifications that are more abstract and more composable than feature-level specifications.
+Zone 3's CAT methodology -- Continuous Alignment Testing -- is applied at the portfolio level rather than the individual feature level. Product managers and architects define CAT specifications for entire product areas or capability domains, and the factory produces and evaluates against these specifications. This requires CAT specifications that are more abstract and more composable than feature-level specifications.
 
 ### AI Production Incident Response Playbooks
 
@@ -165,10 +179,10 @@ Zone 3 represents a level of AI-augmented software development capability that e
 - [What Is ACE?](/toolkit/what-is-ace) -- Framework overview and the four zones in context
 - [Zone 3: Accelerating](/toolkit/zone-3-accelerating) -- The prerequisite zone; genuine Zone 3 competency is required before Zone 4 investment
 - [Zone 4 Diagnostic Questions](/toolkit/zone-4-questions) -- The assessment instrument for this zone (9 questions)
-- [Zone-3-to-Zone-4 Roadmap](/toolkit/roadmap-templates/zone-3-to-4) -- Progression plan for organizations pursuing Zone 4
+- [Zone-3-to-Zone-4 Roadmap](/toolkit/zone-3-to-4) -- Progression plan for organizations pursuing Zone 4
 - [Technique Catalog: Zone 4](/toolkit/technique-catalog) -- Detailed descriptions of Zone 4 tools and methods
 - [Proficiency Catalog](/toolkit/proficiency-catalog) -- Complete listing of Zone 4 proficiencies
 - [Zone-Specific Metrics](/toolkit/zone-specific-metrics) -- Leading indicators for measuring Zone 4 competency progression
 - [Progressive Competency Model](/toolkit/progressive-competency-model) -- How zone progression works and why organizations choose their stopping point
 - [How to Choose a Target Zone](/toolkit/choose-target-zone) -- The strategic decision framework for Zone 4 selection
-- [Validation Study Plan](/toolkit/validation-study-plan) -- The research program developing more rigorous Zone 4 definitions as industry practice matures
+- [Validation Study Plan](/research/validation-study-plan) -- The research program developing more rigorous Zone 4 definitions as industry practice matures

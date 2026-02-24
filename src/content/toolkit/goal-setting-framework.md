@@ -253,7 +253,10 @@ This decision point ensures that zone targeting remains a living strategic decis
 
 - [Engagement Model](/toolkit/engagement-model) -- How this framework fits into the overall consulting engagement
 - [Progressive Competency Model](/toolkit/progressive-competency-model) -- How zone progression works and why organizations choose their stopping point
-- [Roadmap Templates](roadmap-templates/) -- Phased progression plans for each zone transition
+- [Baseline to Zone 1 Roadmap](/toolkit/baseline-to-zone-1) -- Phased progression plan for Zone 0 to Zone 1
+- [Zone 1 to Zone 2 Roadmap](/toolkit/zone-1-to-2) -- Phased progression plan for Zone 1 to Zone 2
+- [Zone 2 to Zone 3 Roadmap](/toolkit/zone-2-to-3) -- Phased progression plan for Zone 2 to Zone 3
+- [Zone 3 to Zone 4 Roadmap](/toolkit/zone-3-to-4) -- Phased progression plan for Zone 3 to Zone 4
 - [Investment Catalog](/toolkit/investment-catalog) -- Full catalog of investments by zone; use alongside this framework when building the investment commitment list
 - [How to Choose a Target Zone](/toolkit/choose-target-zone) -- Step-by-step guide for the zone selection decision
 - [Metrics Tree](/toolkit/metrics-tree) -- The North Star metric and leading indicators that help evaluate whether a chosen target zone is being pursued effectively

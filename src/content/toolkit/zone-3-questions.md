@@ -34,6 +34,8 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 9. QA engineers operate as evaluation pipeline specialists: they design, maintain, and improve the automated evaluation infrastructure that validates AI-generated output at scale, rather than primarily performing manual testing of individual outputs.
 
+10. When a task arises that could be completed faster by writing the code directly than by specifying it for an AI pipeline, engineers choose the specification approach because they are investing in pipeline capability rather than optimizing for immediate task completion. This choice is habitual, not exceptional.
+
 ## Scale
 
 1 = Never | 2 = Rarely | 3 = Sometimes | 4 = Often | 5 = Always
@@ -55,6 +57,8 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 ### Common Traps
 
 - **Confusing sophisticated Zone 2 practices with Zone 3.** A team that has excellent AGENTS.md, thorough Plan/Code/Verify, and strong feedback loops is a mature Zone 2 team. Zone 3 requires the additional infrastructure of CAT, eval harnesses, observability, and prompt versioning. The shift is from "we use AI well in our workflow" to "we engineer the AI systems that do the work."
+
+- **Infrastructure without identity shift.** A team may have CAT pipelines, eval harnesses, and observability dashboards but still routinely choose to write code directly rather than invest in pipeline specification. The infrastructure is a necessary but insufficient condition. Question 10 specifically tests the identity shift: do engineers choose the specification approach as a habitual default, even when writing code directly would be faster? Probe: "Tell me about the last time a team member chose to write code directly rather than specifying it for the pipeline. What was the reasoning? Was that a deliberate exception or a default behavior?"
 
 - **Treating prompt engineering as prompt versioning.** Writing good prompts (Zone 1-2 skill) is different from versioning, reviewing, testing, and deploying prompt configurations as production artifacts (Zone 3 practice). Look for version control, review processes, and rollback capability.
 

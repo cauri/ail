@@ -3,11 +3,11 @@ title: "Module 1: The ACE Model"
 description: "Deep understanding of the ACE framework including zones, competency concepts, progressive competency, and organizational investments -- the knowledge foundation for all facilitation skills."
 order: 1
 duration: "2-day intensive or 8 hours async"
-prerequisites: "Module 1 of 5 (prerequisite for all subsequent modules)"
+prerequisites: "Module 1 of 6 (prerequisite for all subsequent modules)"
 ---
 
 **Duration:** 2-day intensive or 8 hours async
-**Position in program:** Module 1 of 5 (prerequisite for all subsequent modules)
+**Position in program:** Module 1 of 6 (prerequisite for all subsequent modules)
 
 ---
 
@@ -244,8 +244,9 @@ Scoring emphasizes reasoning quality over specific answers. Multiple reasonable 
 
 After completing Module 1, trainees should:
 
-- Review the diagnostic questionnaire instruments for all zones
-- Read the facilitation notes included with each questionnaire
+- **Retrieval exercise (do this first, from memory, before looking at any materials):** Without consulting any notes or documents, write down: (a) the definition of competency as used in the ACE framework, (b) the four zones in order with a one-sentence description of each, (c) the four competency stages within a zone, and (d) three differences between ACE and a traditional maturity model. After writing your answers from memory, check them against the Module 1 materials and note what you got wrong or incomplete.
+- Review the diagnostic questionnaire instruments for all zones.
+- Read the facilitation notes included with each questionnaire.
 - Reflect on their own experience being assessed or assessed by others -- what made assessments feel safe and productive vs. threatening and performative?
 
 Module 2 builds directly on Module 1's knowledge foundation by applying it to the specific skills of diagnostic facilitation.

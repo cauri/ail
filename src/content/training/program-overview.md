@@ -62,6 +62,18 @@ Each module can be delivered in two formats:
 
 Both formats include the same learning objectives, activities, and assessments. The async format requires additional self-directed study time to compensate for reduced live interaction.
 
+### Learning Retention Architecture
+
+The program deliberately structures retrieval practice and spaced repetition across the 3-month training period to maximize long-term retention and skill development.
+
+**Module spacing.** Modules should be spaced 2-3 weeks apart to allow for between-session application, retrieval practice, and reflection. This spacing leverages the spacing effect (Cepeda et al., 2006) -- distributing practice across time intervals produces more durable learning than concentrated delivery. If scheduling constraints require shorter intervals, the between-module retrieval activities become even more important.
+
+**Retrieval warm-ups.** Each module session begins with a 10-15 minute retrieval warm-up where trainees answer questions about prior module content without access to notes. After writing their responses, trainees check against source materials. The act of attempting recall -- even when imperfect -- strengthens memory far more than re-reading (Roediger & Karpicke, 2006).
+
+**Between-module retrieval prompts.** Between each module, trainees receive 3-5 brief prompts via the cohort communication channel. These are not graded -- they are practice. Prompts mix three types: knowledge recall ('From memory: what are the three criteria of the competency threshold?'), scenario judgment ('A team scores uniformly high but cannot produce specific examples during discussion. What are two possible diagnoses, and what would you do for each?'), and ethical reasoning ('A sponsor asks to see which team scored lowest so they can direct more support. How do you respond, and why?').
+
+**Facilitation practice across modules.** Modules 3-6 each include at least one activity that requires trainees to practice facilitation skills from Module 2 in the new context. This provides distributed practice of the core facilitation skill across the full program.
+
 ### Supervised Facilitations
 
 After completing all six modules, each trainee must conduct two complete diagnostic facilitations under the supervision of a master facilitator. These are real diagnostics with real teams, not simulations.
@@ -82,7 +94,7 @@ The written assessment is a take-home exam that tests the trainee's ability to a
 - Goal-setting analysis (given organizational context, recommend target zone with rationale)
 - Ethical reasoning (given challenging scenarios, articulate appropriate facilitator behavior)
 
-The minimum passing score is 80%. Trainees who do not pass may retake the assessment once after additional study time.
+The written assessment uses a provisional passing threshold of 80%, established by expert judgment as a starting point. This threshold has not been empirically validated against post-certification facilitation quality. Trainees who do not pass may retake the assessment once after additional study time. The written assessment serves as a knowledge screening tool; it identifies gaps in conceptual understanding that should be addressed before supervised facilitation. It is not a substitute for the supervised facilitation assessment, which is the primary measure of facilitation competency. After the first 3-5 cohorts, the training program will analyze the relationship between written assessment scores and supervised facilitation ratings to determine whether the 80% threshold discriminates meaningfully between facilitators who demonstrate competency and those who do not.
 
 ---
 
@@ -113,6 +125,8 @@ To complete the training program, a participant must fulfill all of the followin
 1. **Complete all six training modules** with satisfactory attendance and participation. Each module includes learning activities that require active engagement. Passive attendance is not sufficient.
 
 2. **Pass the written assessment** with a minimum score of 80%. The assessment tests application of knowledge to realistic scenarios, not recall of facts.
+
+Note: The written assessment and the supervised facilitations measure different things. The written assessment measures knowledge application in low-pressure conditions (conceptual understanding, analytical reasoning, ethical judgment). The supervised facilitations measure performance under real-world conditions (facilitation skill, adaptive judgment, interpersonal dynamics). A trainee who scores below the written threshold but demonstrates strong facilitation should receive targeted knowledge coaching rather than program removal. A trainee who passes the written assessment but struggles in supervised facilitation has a more significant competency gap that requires additional practice.
 
 3. **Successfully complete two supervised diagnostic facilitations.** Both facilitations must be observed by a master facilitator. The second facilitation serves as the primary practical assessment. "Successfully complete" means the master facilitator confirms that the trainee demonstrated competent facilitation, accurate scoring, appropriate confidentiality management, and acceptable report quality.
 

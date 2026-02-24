@@ -42,6 +42,12 @@ The first level of the "separate generation from decisioning" framework. Defines
 **Context engineering**
 The discipline of deliberately deciding what information goes into AI context windows, how it is structured, and when it is refreshed. Distinct from prompt engineering: context engineering operates at the project or system level, not at the individual-prompt level. Practiced at Zone 2 (session/project level) and Zone 3 (system level). See [Proficiency Catalog](/toolkit/proficiency-catalog).
 
+**Competency**
+Habitual behavior under stress. What a team does reliably when conditions are unfavorable -- tight deadlines, production incidents, unfamiliar codebases, organizational pressure. Not knowledge about best practices. Not peak performance on a team's best day. See [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+
+**Competency stages**
+The four stages within each zone: Emerging, Developing, Established, Exemplary. These stages describe progression toward full competency within a given zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+
 **Core metric**
 The single most important behavioral question for a zone, marked with a star in the diagnostic questionnaire. All team members must individually rate the core metric 5/Always for the team to achieve Exemplary status in that zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
@@ -59,6 +65,9 @@ The design feature that separates diagnostic results into two reports with diffe
 **Eval harness**
 A test suite for AI outputs. Defines what "correct" looks like for a given AI pipeline — the test cases, the scoring rubrics, the acceptable thresholds. Engineers treat eval harness design as a core Zone 3 engineering competency. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).
 
+**Exemplary**
+The highest of the four competency stages within a zone. A team has achieved Exemplary when all three threshold criteria are met simultaneously: zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0. Teams at Exemplary can coach others, innovate within the zone, and sustain practices under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+
 **Externalized plan**
 A feature plan or implementation design written to a markdown file in the repository rather than held in the AI's context window. Serves as both human documentation and agent context for multi-step implementations. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).
 
@@ -66,21 +75,8 @@ A feature plan or implementation design written to a markdown file in the reposi
 
 ## F
 
-**Competency**
-Habitual behavior under stress. What a team does reliably when conditions are unfavorable — tight deadlines, production incidents, unfamiliar codebases, organizational pressure. Not knowledge about best practices. Not peak performance on a team's best day. See [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
-
-**Competency stages**
-The four stages within each zone: Emerging, Developing, Established, Exemplary. These stages describe progression toward full competency within a given zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
-
 **Fresh session**
 Starting a new agent session with no prior context about an implementation before performing code review. Ensures the review is independent of the implementation decisions rather than anchored to them. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).
-
----
-
-## M
-
-**Exemplary**
-The highest of the four competency stages within a zone. A team has achieved Exemplary when all three threshold criteria are met simultaneously: zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0. Teams at Exemplary can coach others, innovate within the zone, and sustain practices under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 ---
 
@@ -132,7 +128,7 @@ Treating prompts that drive production-relevant AI behavior with the same discip
 A Zone 3 framework for structuring AI involvement in decisions at four levels: Conditioning (define what agents work within), Authority (define who or what can approve AI-generated actions), Workflows (orchestrated multi-agent pipelines), and Evals (systematic quality evaluation at scale). See [Technique Catalog](/toolkit/technique-catalog).
 
 **Shadow IT**
-AI tools used by team members that are not officially sanctioned by the organization. A key gap to identify during discovery — the difference between official policy and actual usage patterns. See [Context Analysis Template](/toolkit/discovery/context-analysis-template).
+AI tools used by team members that are not officially sanctioned by the organization. A key gap to identify during discovery — the difference between official policy and actual usage patterns. See [Context Analysis Template](/toolkit/context-analysis-template).
 
 **Skills / commands / subagents**
 Reusable AI tools built by the team for repetitive workflows. For example: a `/commit` command that follows team conventions, a `/review` skill that applies team review criteria. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).

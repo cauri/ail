@@ -126,6 +126,45 @@ This guide supports the facilitated interviews conducted during Phase 1 (Discove
 
 *Listen for:* Fears about how findings will be used, concerns about disrupting team morale, or skepticism that the diagnostic will produce actionable outputs rather than just observations. These surface constraints you need to address before the diagnostic begins.
 
+**11. Has the organization thought about who is accountable when AI-generated code causes a problem -- a security vulnerability, a bug that affects customers, a compliance issue?**
+
+*Listen for:* Whether accountability for AI-generated output has been considered at all. Most organizations have not thought about this, and surfacing it early establishes the facilitator's credibility and prepares leadership for the accountability discussions that Zone 3+ transitions require.
+
+**12. Have any team members expressed concerns about AI affecting their roles or job security? How has leadership responded to those concerns?**
+
+*Listen for:* Whether leadership is aware of workforce anxiety and how they have handled it. Leadership that is unaware is less concerning than leadership that is aware and has responded with dismissive reassurance ("nobody is losing their job") -- the latter creates trust debt that will surface during the diagnostic.
+
+---
+
+## 4b. Engineering Manager Interview Guide
+
+**Duration:** 45-60 minutes
+**Typical interviewees:** Engineering managers, team leads, senior tech leads who manage people -- anyone who is responsible for a team's day-to-day delivery and development, as distinct from directors/VPs who set organizational strategy.
+
+**Opening framing:** "I want to understand what managing a team looks like for you right now, and how you think AI adoption might affect that. You are the person who will be supporting your team through whatever changes come out of this engagement, so your perspective on what that requires is essential."
+
+### Questions
+
+**1. How do you think your role changes if your team adopts more advanced AI development practices -- not just individual tool use, but team-level workflow changes?**
+
+*Listen for:* Whether the manager has thought about how AI adoption affects their management role, not just their team's technical work. Managers who have not considered this are likely to be surprised and potentially resistant when the roadmap affects their responsibilities.
+
+**2. What concerns do you have about managing your team through an AI adoption transition?**
+
+*Listen for:* Concerns about team morale, performance measurement, skill gaps, and their own competence in the new model. These are the concerns that, if unaddressed, will cause managers to unconsciously slow or sabotage the transition.
+
+**3. How does your team respond to significant changes in how they work -- have they been through a major process or tool change recently? What happened?**
+
+*Listen for:* The team's change absorption history from the manager's perspective. Compare this to IC responses and engineering leadership responses for triangulation.
+
+**4. What support would help you succeed in guiding your team through this kind of transition?**
+
+*Listen for:* Concrete needs -- training on the new practices, coaching on having difficult conversations, time allocated for transition support, clarity on how performance will be measured during the transition. These feed directly into the Manager Enablement investment.
+
+**5. How do you currently handle situations where a team member is struggling with a significant change in their role or work expectations?**
+
+*Listen for:* Whether the manager has experience with identity-level change, not just process change. The answer reveals whether this manager will be able to support their team through Zone 2+ transitions or will need significant support themselves.
+
 ---
 
 ## 5. Individual Contributor Interview Guide
@@ -168,6 +207,18 @@ This guide supports the facilitated interviews conducted during Phase 1 (Discove
 **8. What is the team's general attitude toward AI tools — enthusiastic, skeptical, divided?**
 
 *Listen for:* Team-level climate. A team divided between AI enthusiasts and skeptics will self-assess differently depending on who speaks up. Probe: "Has that caused any friction? Are there specific people who feel strongly one way or the other?"
+
+**9. How do you feel about the direction AI is taking your profession -- not what you think about it strategically, but how you feel about it personally?**
+
+*Listen for:* Emotional data that attitudinal questions miss. Fear, grief, excitement, and anxiety drive behavior more than strategic assessments. A developer who says "I think AI is great for productivity" but whose voice tightens is telling you something different from their words. This question surfaces the emotional climate that will shape how honestly the team self-assesses.
+
+**10. Is there anything about the shift toward AI-augmented development that feels like a loss to you -- something you value about your current work that might change?**
+
+*Listen for:* Loss signals. Engineers who have spent years building mastery in writing excellent code may experience the shift to "designing the process by which code is produced" as a loss of something that gave their work meaning. This data is critical for understanding resistance patterns and for designing transition support. If multiple ICs describe similar losses, that is diagnostic data for the goal-setting phase.
+
+**11. Does this organization have any policies or guidelines specifically about responsible use of AI -- not just data handling, but things like bias, fairness, or who is accountable for AI-generated output?**
+
+*Listen for:* Whether the organization has thought about responsible AI at all. Absence of policies is a data point for the context analysis. Presence of policies that ICs are unaware of is also a data point (policy-reality gap). If no policies exist, note this for the context analysis as a gap that should be addressed as part of organizational investments.
 
 ---
 

@@ -8,7 +8,7 @@ This document reviews the current state of research and evidence on AI-augmented
 
 ACE addresses AI adoption across all crafts involved in software production -- engineering, product management, design, quality assurance, DevOps, documentation, and other disciplines. However, the published research to date is heavily skewed toward coding and developer-focused use cases. This literature review reflects that skew: most cited studies examine AI coding tools and developer productivity. Where evidence exists for broader software production roles, it is included. The gaps in research on non-coding AI adoption are themselves a significant finding.
 
-This is a framework document, not a peer-reviewed paper. Where research exists, it is cited. Where evidence is emerging or speculative, that is stated explicitly. The goal is intellectual honesty about what we know, what we suspect, and what remains to be validated.
+This is a narrative literature review, not a systematic review or peer-reviewed paper. Studies were identified through the authors' professional knowledge, targeted searches, and relevant citation chains rather than through a systematic search protocol with predefined inclusion/exclusion criteria. Where research exists, it is cited. Where evidence is emerging or speculative, that is stated explicitly. The goal is intellectual honesty about what we know, what we suspect, and what remains to be validated. A systematic review of AI adoption measurement would strengthen the evidence base and is recommended as future work.
 
 ### Framework Lineage
 
@@ -108,6 +108,8 @@ Research on team-level AI integration is significantly less developed than resea
 
 The closest analog in existing literature comes from DevOps research. The DORA (DevOps Research and Assessment) program has demonstrated over multiple years that team-level practices (CI/CD, automated testing, trunk-based development) produce measurable improvements in delivery performance (Forsgren et al., 2018; DORA, 2024). By analogy, the ACE prediction is that team-level AI practices (shared configuration, mandatory feedback loops, Plan/Code/Verify workflow) will produce similarly measurable improvements over ad-hoc individual use.
 
+**Important limitation of this analogy:** DORA's key metrics (deployment frequency, lead time for changes, change failure rate, time to restore service) are verifiable against objective data sources -- deployment logs, incident records, commit timestamps. ACE's diagnostic primarily measures self-reported behavior, which has a different validity profile. The strength of self-report is that it captures behavioral nuance (especially under-pressure behavior) that objective metrics miss. The limitation is that self-report is subject to reporting biases (social desirability, conformity pressure) that objective metrics are not. ACE's [Validation Study Plan](/research/validation-study-plan) should include convergent validation comparing self-reported scores against objective behavioral measures where available (e.g., comparing self-reported daily AI usage against tool telemetry data).
+
 Preliminary evidence supports this prediction. Organizations that have adopted team-level AI conventions -- such as shared prompt libraries, standardized code review processes for AI-generated code, and CI-integrated quality checks -- report more consistent and measurable productivity gains than organizations where AI use is purely individual (McKinsey, 2024; Thoughtworks Technology Radar, 2024).
 
 ### Team-Level AI Workflow Practices
@@ -129,6 +131,8 @@ The ACE framework's emphasis on shared AI configuration as a Zone 2 requirement 
 ---
 
 ## Section 4: Evidence for Zone 3 -- Role Transformation
+
+*Note on evidence level: Zone 3 represents a prediction of the ACE framework with limited formal research validation. The shift from "practitioner who uses AI" to "AI-augmented practitioner who specifies and verifies" is supported by emerging practitioner reports but not by formal empirical studies. The following evidence is early-stage; it does not yet constitute validation of Zone 3 practices or outcomes.*
 
 ### The "AI Engineer" Role Emergence
 
@@ -176,6 +180,41 @@ The trajectory from current evidence suggests:
 - **Zone 1 and Zone 2 practices are grounded in present reality.** The tools, practices, and organizational challenges described in these zones are observable in many organizations today.
 - **Zone 3 is on the near horizon.** Early adopters of agentic tools are beginning to experience the role transformation described in Zone 3, but it is not yet widespread or well-documented.
 - **Zone 4 remains aspirational.** While early signals exist, no organization has demonstrably achieved the fully industrialized AI development capability described in Zone 4. The timeline for Zone 4 becoming realistic depends on the pace of advancement in AI agent capabilities.
+
+---
+
+## Section 5b: Responsible AI and Ethical Considerations
+
+The ACE framework operates in a broader context of responsible AI research that is essential for understanding the risks and obligations associated with AI-augmented software production.
+
+### AI Bias in Code Generation
+
+AI code generation models are trained on large corpora of existing code, which may contain biases -- stereotyped variable names, culturally specific assumptions, security anti-patterns that disproportionately affect certain populations, and design patterns that embed accessibility barriers. Buolamwini & Gebru (2018) demonstrated that commercial AI systems exhibit significant accuracy disparities across demographic groups; analogous disparities in code generation tools have not been systematically studied but are a reasonable prediction given the training data composition.
+
+### Accountability and Governance Frameworks
+
+The NIST AI Risk Management Framework (NIST, 2023) and the EU AI Act (2024) establish governance expectations for organizations deploying AI systems. Organizations operating at Zone 3-4 -- where AI is a primary production mechanism -- should evaluate their obligations under these frameworks. Raji et al. (2020) provide a practical internal auditing framework that maps well to ACE's eval harness and CAT pipeline architecture.
+
+### Workforce Transition
+
+Acemoglu & Restrepo (2020) demonstrate that automation simultaneously displaces workers in automated tasks and creates demand for workers in new tasks. Autor (2024) argues that whether AI concentrates or democratizes expertise depends on organizational design choices. These findings are directly relevant to ACE zone transitions, particularly Zone 3-4 where the role of software engineers changes fundamentally.
+
+### Ethical Principles for AI Deployment
+
+Floridi et al. (2018) synthesize five ethical principles for AI: beneficence, non-maleficence, autonomy, justice, and explicability. Jobin et al. (2019) confirm these principles across 84 international AI ethics guidelines. ACE's observability and eval infrastructure addresses explicability; the accountability additions in Zone 3-4 address responsibility; the gaps in justice/fairness are addressed through targeted additions to proficiency definitions and organizational investments.
+
+### Additional References
+
+- Acemoglu, D., & Restrepo, P. (2020). Robots and Jobs: Evidence from US Labor Markets. Journal of Political Economy, 128(6), 2188-2244.
+- Autor, D. (2024). Applying AI to Rebuild Middle Class Jobs. NBER Working Paper 32140.
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the Dangers of Stochastic Parrots. FAccT '21.
+- Buolamwini, J., & Gebru, T. (2018). Gender Shades. Proceedings of Machine Learning Research, 81, 1-15.
+- EU AI Act. (2024). Regulation (EU) 2024/1689.
+- Floridi, L., et al. (2018). AI4People -- An Ethical Framework for a Good AI Society. Minds and Machines, 28(4).
+- Jobin, A., Ienca, M., & Vayena, E. (2019). The Global Landscape of AI Ethics Guidelines. Nature Machine Intelligence, 1(9), 389-399.
+- NIST. (2023). AI Risk Management Framework (AI RMF 1.0).
+- Raji, I. D., et al. (2020). Closing the AI Accountability Gap. FAT* 2020.
+- World Economic Forum. (2023). The Future of Jobs Report 2023.
 
 ---
 

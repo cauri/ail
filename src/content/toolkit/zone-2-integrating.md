@@ -16,10 +16,11 @@ Zone 2 is for teams that have established individual competence with AI tools (Z
 - **Organizations** that want consistent, measurable returns from AI investment rather than pockets of individual productivity.
 - **Teams** that have experienced the "AI skill variance" problem: some members get great results, others struggle, and there is no shared understanding of how to use these tools well.
 - **Engineering leaders** who need to ensure AI-generated code meets the team's quality standards reliably, not just when the most skilled AI user happens to write it.
-- **Product managers** whose specifications feed into the team's shared AI workflow and who need to understand how AI behavioral criteria shape the team's delivery process.
-- **Designers and QA engineers** whose work intersects with and validates the team's AI-augmented delivery -- designers integrating with shared AI configuration, QA adapting test strategies to account for AI-generated code patterns.
+- **Product managers** who shape what the team's AI-augmented delivery produces -- defining product direction, acceptance criteria, and quality expectations that the team's shared AI workflow serves.
+- **Designers** who define the experience standards the team's AI-augmented delivery must meet and use AI to accelerate their own discovery and production work.
+- **QA engineers** who ensure the team's AI-augmented delivery meets quality standards -- adapting test strategies for AI-generated code patterns and contributing quality perspective to the team's shared workflow evolution.
 
-Zone 2 is the **minimum viable competency** for any team that wants AI to be a durable competitive advantage rather than an individual convenience. All organizations adopting AI-augmented development should target at least Zone 2 competency.
+Zone 2 is the **typical near-term target** for organizations that want AI to be a durable competitive advantage rather than an individual convenience. For most software organizations, Zone 2 represents the competitive baseline. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Organizations whose strategic analysis supports a different conclusion should make that choice with confidence.
 
 ## Core Metric
 
@@ -55,7 +56,9 @@ Proficiencies are observable team behaviors, exhibited habitually even under pre
 
 - **Engineers maintain and evolve a shared AGENTS.md/CLAUDE.md with project context.** The team's AI configuration is committed to source control as the team's "AI constitution." It contains project-specific context, coding standards, architectural constraints, and workflow instructions. All members contribute to its evolution.
 
-- **The team has mandatory feedback loops: agents must pass compiler, linter, and tests before committing.** Pre-commit hooks or equivalent gates ensure that AI-generated code meets baseline quality standards automatically. This is not optional or aspirational --- it is enforced infrastructure.
+- **The team enforces automated quality checks on all AI-generated code.** Pre-commit hooks or CI pipeline gates require that AI-generated code passes compiler checks and linter rules before it can be committed. These surface-level quality gates catch the most common categories of AI-generated code errors: syntax violations, style inconsistencies, and convention mismatches.
+
+- **The team maintains sufficient automated test coverage to make behavioral verification meaningful, and all AI-generated code must pass these tests before committing.** Tests that verify behavioral correctness -- not just syntax and style -- are the quality gate that makes AI-generated code trustworthy. The team invests in test coverage specifically because AI-generated code's most common failure mode is subtle behavioral incorrectness that compilers and linters cannot detect. A feedback loop that checks only syntax and formatting is a formatting gate, not a quality gate.
 
 - **Engineers can guide agents through multi-step implementations using externalized plans.** Plans, architecture decision records (ADRs), task breakdowns, and design documents are written to markdown files checked into the repository. These serve as both human documentation and agent context.
 
@@ -81,7 +84,11 @@ Proficiencies are observable team behaviors, exhibited habitually even under pre
 
 - **Designers use AI for systematic design exploration and documentation.** AI tools are part of the design workflow for generating alternatives, documenting decisions, and exploring trade-offs --- used as a regular practice, not an occasional experiment.
 
-- **Designers can participate in the Plan/Code/Verify workflow for design-adjacent work.** When design work intersects with implementation (component libraries, design tokens, CSS architecture), designers can engage with the team's shared agentic workflow.
+- **Designers contribute design context, constraints, and standards to the team's shared AI configuration.** Design system rules, component specifications, accessibility requirements, and interaction patterns are encoded in the team's AGENTS.md/CLAUDE.md so that AI-generated code respects design standards by default. Designers are co-owners of the shared configuration, not downstream consumers.
+
+- **Designers use AI to maintain and evolve design system documentation and consistency.** AI assists with auditing design system usage across the codebase, identifying inconsistencies, generating component documentation, and flagging deviations from established patterns. Design system health is a team responsibility that designers lead.
+
+- **Designers engage with the team's shared agentic workflow for design-adjacent implementation work.** When design work intersects with implementation (component libraries, design tokens, CSS architecture, prototyping), designers can work within the team's Plan/Code/Verify workflow. This is collaborative engagement, not subordinate participation.
 
 ### Quality Assurance
 
@@ -149,6 +156,8 @@ Pre-commit hooks or CI pipeline gates that require agents to pass compiler check
 
 A testing pattern adapted for agentic workflows: the agent stubs tests first based on requirements, the human reviews the stubs to identify misunderstandings about intent or behavior, and then real tests are generated collaboratively. This catches specification errors early and produces better test coverage than either pure human TDD or pure agent-generated tests.
 
+VTDD is the practice that makes the Verify phase of Plan/Code/Verify meaningful. Without a test-first discipline -- whether VTDD, traditional TDD, or an equivalent -- the Verify phase reduces to manual review, which does not scale. Teams establishing Zone 2 practices should adopt VTDD or an equivalent test-first pattern alongside the establishment of mandatory feedback loops, not as a later addition.
+
 ### Context Management
 
 Deliberate practices for managing the agent's context window:
@@ -210,7 +219,7 @@ Teams will practice Zone 2 proficiencies alongside ongoing Zone 1 proficiencies.
 
 Zone 1 competency is a prerequisite for Zone 2. Individual engineers must already be competent with AI tools --- able to use the Plan/Code/Verify workflow individually, comfortable with agentic coding interfaces, and capable of evaluating AI-generated output --- before the team can standardize its approach.
 
-If team members lack Zone 1 competency, attempting Zone 2 will fail: you cannot build a shared agentic setup when individuals cannot yet use the tools effectively on their own. The Agentic Coding Onboarding Guide's Level 1 content addresses the individual skills that are prerequisite to Zone 2.
+If team members lack Zone 1 competency, attempting Zone 2 will fail: you cannot build a shared agentic setup when individuals cannot yet use the tools effectively on their own. The [Zone 1 reference](/toolkit/zone-1-augmenting) and [Baseline-to-Zone-1 Roadmap](/toolkit/baseline-to-zone-1) address the individual skills that are prerequisite to Zone 2.
 
 ### Zone 3: Accelerating (Next Option)
 
@@ -218,7 +227,7 @@ Zone 3 extends the team's competency from workflow integration to role transform
 
 Teams that have achieved Zone 2 competency and want to pursue further capability should consider Zone 3, but this is a choice --- not all organizations need or benefit from Zone 3. The decision to pursue Zone 3 should be based on organizational context, strategic goals, and willingness to invest in the deeper structural changes it requires.
 
-The Agentic Coding Onboarding Guide's Level 2 content bridges Zone 2 and Zone 3, covering the advanced individual practices that enable the team-level transformations of Zone 3.
+The [Zone-2-to-Zone-3 Roadmap](/toolkit/zone-2-to-3) covers the transition practices, and the [Zone 3 reference](/toolkit/zone-3-accelerating) describes the advanced team-level transformations that characterize Zone 3.
 
 ---
 
@@ -228,8 +237,8 @@ The Agentic Coding Onboarding Guide's Level 2 content bridges Zone 2 and Zone 3,
 - [Zone 1: Augmenting](/toolkit/zone-1-augmenting) -- The prerequisite zone; Zone 2 requires Zone 1 competency as a foundation
 - [Zone 3: Accelerating](/toolkit/zone-3-accelerating) -- The next zone in the progression; appropriate for organizations whose strategic analysis supports the investment
 - [Zone 2 Diagnostic Questions](/toolkit/zone-2-questions) -- The assessment instrument for this zone
-- [Zone-1-to-Zone-2 Roadmap](/toolkit/roadmap-templates/zone-1-to-2) -- Progression plan for organizations transitioning into Zone 2
-- [Zone-2-to-Zone-3 Roadmap](/toolkit/roadmap-templates/zone-2-to-3) -- Progression plan for the transition out of Zone 2
+- [Zone-1-to-Zone-2 Roadmap](/toolkit/zone-1-to-2) -- Progression plan for organizations transitioning into Zone 2
+- [Zone-2-to-Zone-3 Roadmap](/toolkit/zone-2-to-3) -- Progression plan for the transition out of Zone 2
 - [Technique Catalog: Zone 2](/toolkit/technique-catalog) -- Detailed descriptions of Zone 2 tools and methods (Plan/Code/Verify, VTDD, mandatory feedback loops, etc.)
 - [Proficiency Catalog](/toolkit/proficiency-catalog) -- Complete listing of Zone 2 proficiencies across all roles
 - [Zone-Specific Metrics](/toolkit/zone-specific-metrics) -- Leading indicators for measuring Zone 2 competency progression

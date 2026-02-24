@@ -186,6 +186,6 @@ Probes:
 
 ## Related Documentation
 
-- [Validation Study Plan](/research/validation-study-plan) -- The complete study protocol; leadership interviews are Phase 3 of this plan
+- [Validation Study Plan](/research/validation-study-plan) -- The complete study protocol; leadership interviews are part of Phase 1 (expert validation) and Phase 2 (post-diagnostic debrief) of this plan
 - [Expert Interview Guide](/research/expert-interview-guide) -- The companion guide for expert researcher interviews
 - [Practitioner Interview Guide](/research/practitioner-interview-guide) -- The companion guide for development practitioner interviews

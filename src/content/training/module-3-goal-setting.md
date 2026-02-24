@@ -3,11 +3,11 @@ title: "Module 3: Goal Setting & Zone Selection"
 description: "How to facilitate zone-selection sessions with organizational leadership, translating diagnostic findings into strategic investment decisions with committed target zone declarations."
 order: 3
 duration: "1-day intensive or 6 hours async"
-prerequisites: "Module 3 of 5 (requires Modules 1-2)"
+prerequisites: "Module 3 of 6 (requires Modules 1-2)"
 ---
 
 **Duration:** 1-day intensive or 6 hours async
-**Position in program:** Module 3 of 5 (requires Modules 1-2)
+**Position in program:** Module 3 of 6 (requires Modules 1-2)
 
 ---
 

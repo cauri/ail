@@ -99,6 +99,37 @@ Individual-level AI tool adoption. These are the foundational practices every te
 
 ---
 
+## Cross-Craft Techniques
+
+Non-engineering techniques that support product management, design, and QA practitioners in integrating AI into their core professional work -- not just artifact production, but the strategic and analytical dimensions of each discipline.
+
+### AI-Assisted Product Discovery
+
+**Zone(s):** 1, 2
+**Summary:** Using AI to synthesize customer interview transcripts, analyze survey data, generate product hypotheses, model competitive positioning, and structure prioritization frameworks as a regular part of product discovery work.
+**Purpose:** Accelerates the discovery cycle by reducing the manual synthesis burden that often causes discovery work to be skipped under delivery pressure. The PM uses AI output as a starting point for product judgment, not as a replacement for it.
+**See Also:** [Prompt Engineering Basics](#prompt-engineering-basics), [Zone 1: Augmenting](/toolkit/zone-1-augmenting)
+
+---
+
+### AI-Assisted Design Research Synthesis
+
+**Zone(s):** 1, 2
+**Summary:** Using AI to analyze user research transcripts, identify patterns in usability testing data, flag accessibility issues, and generate insights from qualitative design research as a regular part of design analysis work.
+**Purpose:** Reduces the time between collecting user research data and extracting actionable design insights. Enables designers to synthesize larger volumes of qualitative data than would be practical manually, while the designer applies domain expertise to validate and interpret AI-generated patterns.
+**See Also:** [Prompt Engineering Basics](#prompt-engineering-basics), [Zone 1: Augmenting](/toolkit/zone-1-augmenting)
+
+---
+
+### AI-Assisted Test Strategy Design
+
+**Zone(s):** 1, 2
+**Summary:** Using AI to analyze requirements for test coverage gaps, generate risk-based test strategies, identify boundary conditions and edge cases from specifications, and evaluate test effectiveness across the test suite.
+**Purpose:** Elevates QA from test execution to test strategy by using AI to handle the analytical work of identifying what to test and why, freeing QA engineers to focus on the judgment-intensive work of designing effective test approaches for complex scenarios.
+**See Also:** [AI-Generated Tests](#ai-generated-tests), [Zone 1: Augmenting](/toolkit/zone-1-augmenting)
+
+---
+
 ## Zone 2 Techniques
 
 Team-level AI integration. These practices systematize AI usage from individual initiative into shared team infrastructure: committed configuration, enforced quality gates, and deliberate collaboration patterns.

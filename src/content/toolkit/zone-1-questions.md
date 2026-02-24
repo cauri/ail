@@ -34,7 +34,11 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 9. QA team members use AI to assist with test case generation, exploratory testing strategies, bug triage, or test data creation as a habitual part of their quality assurance work.
 
-10. When onboarding to a new project, codebase, or domain, team members across all roles use AI tools to accelerate their ramp-up --- querying AI about architecture decisions, generating summaries of unfamiliar code, or using AI to understand domain-specific terminology.
+10. Product managers use AI to support product discovery activities -- synthesizing customer research, analyzing market data, generating product hypotheses, or evaluating strategic options -- as a regular part of their product thinking work, not just for producing delivery artifacts like stories and updates.
+
+11. Designers use AI to support design analysis and evaluation -- synthesizing user research findings, identifying accessibility issues, analyzing information architecture alternatives, or evaluating design patterns -- as a regular part of their design thinking work, not just for generating visual artifacts.
+
+12. When onboarding to a new project, codebase, or domain, team members across all roles use AI tools to accelerate their ramp-up --- querying AI about architecture decisions, generating summaries of unfamiliar code, or using AI to understand domain-specific terminology.
 
 ## Scale
 

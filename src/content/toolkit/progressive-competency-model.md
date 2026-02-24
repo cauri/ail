@@ -6,6 +6,18 @@ order: 12
 ---
 ACE uses a progressive competency model with a single linear path: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the capabilities and habits of the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Higher zones are not universally better -- they represent deeper organizational commitment that is justified only in certain strategic contexts.
 
+## What Kind of Model Is This?
+
+ACE is a staged progression model. It shares structural properties with maturity models: zones are numbered, sequential, and cumulative -- each builds on the previous one. Organizations cannot skip zones, and each zone assumes the competencies of all preceding zones.
+
+ACE differs from traditional maturity models in two deliberate design choices:
+
+1. **Every zone is a legitimate destination.** Traditional maturity models treat lower levels as deficiencies. ACE treats each zone as a distinct organizational capability with its own value proposition. An organization that achieves deep Zone 2 competency through informed strategic analysis has succeeded -- it has not "stalled" at level 2.
+
+2. **Competency is measured by habitual behavior under stress, not by process compliance or capability checklists.** Traditional maturity models measure whether an organization has implemented prescribed practices. ACE measures whether practices are habitual enough to persist when conditions are least favorable.
+
+These are meaningful innovations, but they do not change the underlying structure: ACE defines a single linear path with mandatory sequential ordering. Calling this a "capability model" would be inaccurate -- capability models allow organizations to develop capabilities in different orders based on context. ACE does not. The most honest description is: ACE is a staged progression model designed to be used as a strategic planning tool, not a scorecard.
+
 ## A Single Path, Multiple Destinations
 
 All four zones form a single progression. The question is not "which branch?" but "how far?"
@@ -44,9 +56,9 @@ The zone numbers describe a path, not a ranking.
 
 ## The Climbing Metaphor
 
-Think of the zones like camps on a mountain. Base camp (Zone 1) and Camp 1 (Zone 2) are destinations every expedition reaches. Camp 2 (Zone 3) and the summit (Zone 4) require progressively more resources, preparation, and risk tolerance.
+Think of the zones like camps on a mountain, each serving a different purpose. Base camp (Zone 1) is where expeditions establish their foundation -- and for geological surveys that require baseline samples, base camp is the destination. Camp 1 (Zone 2) is where most expeditions establish their primary operating capability. Camp 2 (Zone 3) and the summit (Zone 4) require progressively more resources, preparation, and risk tolerance.
 
-Not every expedition needs to summit -- the right altitude depends on your objective. A geological survey that requires samples from Camp 1 has no reason to push higher. An expedition attempting the summit without proper preparation at the lower camps is reckless, not ambitious. And an expedition that reaches Camp 1 in peak condition and makes a deliberate decision to stop there has succeeded on its own terms.
+Not every expedition needs to summit -- the right altitude depends on your objective. A geological survey that requires samples from base camp has no reason to push higher. An atmospheric research team that needs Camp 1 data has succeeded when it reaches Camp 1 in good condition. An expedition attempting the summit without proper preparation at the lower camps is reckless, not ambitious. The destination is defined by your mission, not by the mountain's height.
 
 The metaphor extends to preparation. You cannot skip camps. An organization that attempts Zone 3 restructuring without established Zone 2 practices is attempting a high camp without acclimatization. The structural changes will not hold because the foundational habits are not in place. Each camp prepares you for the next one, and each one is a legitimate destination.
 

@@ -1,12 +1,28 @@
 ---
 title: "Scoring and Threshold Definitions"
-description: "This document defines how to score diagnostic responses, interpret results, and determine a team's maturity stage within each zone."
+description: "This document defines how to score diagnostic responses, interpret results, and determine a team's competency stage within each zone."
 section: "diagnostic"
 order: 6
 ---
 ## Purpose
 
-This document defines how to score diagnostic responses, interpret results, and determine a team's maturity stage within each zone. It provides the quantitative framework that facilitators use to translate individual survey responses into actionable maturity assessments.
+This document defines how to score diagnostic responses, interpret results, and determine a team's competency stage within each zone. It provides the quantitative framework that facilitators use to translate individual survey responses into actionable competency assessments.
+
+---
+
+## Evidence Basis
+
+The scoring methodology in this document --- including the frequency scale, competency stage boundaries, and the three Exemplary threshold criteria --- was designed through expert judgment informed by:
+
+- The Agile Fluency Model's approach to facilitated competency assessment (Larsen & Shore, 2012), which demonstrated that habitual behavior under stress is the appropriate competency construct for team capability
+- The DORA research program's measurement principles (Forsgren, Humble, & Kim, 2018), which established that organizational capability classification should be grounded in observable behavior and that classification criteria should disclose their evidence basis
+- Practitioner experience from Artium engagements with software teams adopting AI-augmented practices
+
+**These thresholds have not yet been validated against empirical data.** The specific numeric values (composite >= 4.7, SD <= 0.5, no question composite below 4.0) are expert-judgment starting points, not empirically derived cutoffs. The [Validation Study Plan](/research/validation-study-plan) includes ROC analysis (Phase 3) to empirically calibrate these thresholds against independently observed competent behavior.
+
+**What this means for facilitators:** The thresholds are well-considered starting points designed to identify genuinely high-performing, consistent teams. Use them as a structured framework for your assessment. However, when results fall near a threshold boundary (e.g., composite of 4.5-4.8, or SD of 0.4-0.6), rely on your facilitated judgment about the team's actual behavior rather than treating the threshold as a bright line. The behavioral evidence from the workshop discussion is the authoritative basis for your assessment; the thresholds are a consistency check, not an override.
+
+**These thresholds may be revised** as validation data accumulates. Facilitators should expect periodic updates to threshold values as the framework moves through its validation phases.
 
 ---
 
@@ -26,9 +42,9 @@ A score of 5 ("Always") is the target for competency. It does not mean literally
 
 ---
 
-## Maturity Stages
+## Competency Stages
 
-Each zone has four maturity stages. These stages describe the team's progression toward competency within that zone, based on the composite scores across all diagnostic questions.
+Each zone has four competency stages. These stages describe the team's progression toward competency within that zone, based on the composite scores across all diagnostic questions.
 
 ### Emerging (Average Score 2.0 - 2.9)
 
@@ -99,6 +115,26 @@ This criterion measures consistency --- both across team members and across ques
 
 *Example: A team of 5 members answering 10 questions produces 50 individual responses. Calculate the standard deviation of all 50 scores. If the SD is ≤ 0.5, the team demonstrates the consistency required for Exemplary status.*
 
+#### When Criterion 2 Is Not Met: Diagnosing the Source of Variance
+
+A global SD above 0.5 indicates inconsistency, but it does not reveal the source. Two distinct variance patterns produce different diagnostic signals and require different interventions. When Criterion 2 is not met, facilitators should decompose the variance using the following procedure:
+
+**Step 1: Calculate between-person consistency.** For each team member, calculate their mean score across all questions. Then calculate the standard deviation of these person means. This measures how much team members differ from each other overall.
+
+**Step 2: Calculate between-question consistency.** The question composites (averages) are already calculated in Step 2 of the scoring procedure. Calculate the standard deviation of these question composites. This measures how much the team's performance varies across different behavioral areas.
+
+**Interpreting the results:**
+
+| Between-Person SD | Between-Question SD | Pattern | Likely Cause | Intervention |
+|--------------------|---------------------|---------|--------------|--------------|
+| High (> 0.5) | Low (< 0.3) | One or more team members are significantly behind the rest | Onboarding gap, access barrier, individual resistance, or role-based adoption difference | Targeted support for specific individuals; pairing with high performers; investigate barriers |
+| Low (< 0.3) | High (> 0.5) | The team is uniform but specific behavioral areas lag | Practice gap in specific proficiencies; the team has not yet adopted certain behaviors | Focused coaching on the specific questions/behaviors that lag |
+| High (> 0.5) | High (> 0.5) | Both team members and behavioral areas vary widely | Multiple issues: uneven adoption across both people and practices | Broader investment needed; revisit whether the team has the organizational support for this zone |
+
+*Note: The thresholds in this table (0.5 and 0.3) are interpretive guidelines, not validated cutoffs. Use them as anchors for your judgment, not as decision rules.*
+
+This decomposition is methodologically standard in psychometric assessment of multi-facet instruments (Crocker & Algina, 1986; Nunnally & Bernstein, 1994). The [interpreting-results tutorial](/toolkit/interpreting-results) demonstrates this analysis informally with worked examples.
+
 ### Criterion 3: No Weak Links
 
 **No single question composite falls below 4.0.**
@@ -145,11 +181,11 @@ For each question, calculate the average (mean) score across all team members. R
 
 *Contrast: If Q6 composite were 3.8, the team would fail Criterion 3 (No Weak Links) despite strong overall performance. They would be **Established** --- focus coaching on the behavior Q6 represents.*
 
-### Step 4: Determine Maturity Stage
+### Step 4: Determine Competency Stage
 
 Calculate the overall average score (mean of all individual responses) and use it alongside the threshold criteria:
 
-| Overall Average | Threshold Criteria Met? | Maturity Stage |
+| Overall Average | Threshold Criteria Met? | Competency Stage |
 |-----------------|------------------------|----------------|
 | 2.0 - 2.9      | N/A                    | Emerging |
 | 3.0 - 3.9      | N/A                    | Developing |
@@ -172,6 +208,10 @@ Instead of most scores clustering around 3-4, some team members score 4-5 while 
 - **Tenure-based splits:** Experienced team members who helped establish the practices score high; newer members who joined after the practices were established score low. This suggests onboarding gaps.
 - **Adoption-based splits:** Early adopters score high; skeptics or late adopters score low. This suggests unresolved resistance or insufficient organizational investment.
 - **Context-based splits:** Scores are high for routine work but low for production incidents, unfamiliar codebases, or deadline pressure. This suggests the practices are not yet pressure-resilient.
+
+### Confidentiality Note
+
+Bimodal distributions can effectively identify specific individuals, especially on small teams. When discussing bimodal patterns with the team, focus on the pattern (e.g., "there is a gap between two groups") rather than naming individuals. In reports to leadership, present aggregate patterns without individual-level data. See the [Facilitator Guide](/toolkit/facilitator-guide) for detailed data handling guidance.
 
 ### What to Do
 

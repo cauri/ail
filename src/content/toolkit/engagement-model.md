@@ -269,6 +269,15 @@ Within the broader embedded engagement, the ACE Facilitator conducts periodic ch
 
 These assessment activities are conducted by the ACE Facilitator, not the embedded Artisans. The Facilitator maintains the diagnostic objectivity the framework requires while the Artisans focus on delivery and mentoring.
 
+**Resistance Engagement**
+
+Resistance to AI adoption practices is not inherently a problem to solve -- it is data about how the change is being experienced. The engagement team should distinguish between:
+
+- **Productive resistance** -- concerns that surface genuine problems with the transition design: the pace is unsustainable, the identity shift is not supported, the "dual path" for traditional engineers is not credible, or the organizational investments are insufficient. This resistance is valuable and should feed back into roadmap design.
+- **Defensive resistance** -- discomfort with change that is rooted in preference for the familiar rather than in substantive concerns about the transition. This resistance is natural and should be met with patience and continued demonstration of the value of new practices.
+
+Facilitators should create structured mechanisms for people to voice concerns without those concerns being interpreted as "not being on board." If a significant proportion of practitioners are resisting the transition, the appropriate response is to examine the transition design, not to increase the pressure to adopt. See Ford, Ford, & D'Amelio (2008) on why treating resistance as an obstacle rather than as data is the most common change management error.
+
 **Ramp-Down Planning**
 
 As client team members build competency in the practices the Artisans have introduced, the Artisan team gradually reduces involvement:
@@ -418,7 +427,10 @@ The following patterns reduce the effectiveness of an ACE engagement:
 - [Goal-Setting Framework](/toolkit/goal-setting-framework)
 - [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide)
 - [Context Analysis Template](/toolkit/context-analysis-template)
-- [Roadmap Templates](roadmap-templates/)
+- [Baseline to Zone 1 Roadmap](/toolkit/baseline-to-zone-1)
+- [Zone 1 to Zone 2 Roadmap](/toolkit/zone-1-to-2)
+- [Zone 2 to Zone 3 Roadmap](/toolkit/zone-2-to-3)
+- [Zone 3 to Zone 4 Roadmap](/toolkit/zone-3-to-4)
 - [Metrics Tree](/toolkit/metrics-tree)
 - [Zone-Specific Metrics](/toolkit/zone-specific-metrics)
 - [Organizational Health Metrics](/toolkit/organizational-health-metrics)

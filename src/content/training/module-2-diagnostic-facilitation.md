@@ -3,11 +3,11 @@ title: "Module 2: Diagnostic Facilitation Skills"
 description: "How to prepare for, facilitate, score, and report on a complete ACE diagnostic workshop, including handling common facilitation challenges like defensive teams and dominant voices."
 order: 2
 duration: "2-day intensive or 10 hours async"
-prerequisites: "Module 2 of 5 (requires Module 1)"
+prerequisites: "Module 2 of 6 (requires Module 1)"
 ---
 
 **Duration:** 2-day intensive or 10 hours async
-**Position in program:** Module 2 of 5 (requires Module 1)
+**Position in program:** Module 2 of 6 (requires Module 1)
 
 ---
 
@@ -104,7 +104,13 @@ Other evidence-probing techniques: "Can you walk me through the last time your t
 
 A team meets all three criteria only when competency is genuinely universal and consistent. Missing any criterion determines the stage: scores in the 2.0-2.9 range is Emerging; scores in the 3.0-3.9 range is Developing; scores in the 4.0-4.9 range without meeting all three threshold criteria is Established; all three criteria met is Exemplary.
 
-**The difference between self-report scores and facilitated scores.** Self-report scores are what team members put on the form before discussion. Facilitated scores are the defensible scores that emerge after evidence-probing discussion. These are often different. A team member who scores a question 5 before discussion but cannot produce a single specific example during discussion has given an aspirational self-report score. The facilitated score is lower. The facilitator notes this discrepancy in the workshop notes and uses the facilitated score as the basis for the report.
+**The difference between self-report scores and facilitated scores.** Self-report scores are what team members put on the form before discussion. Facilitated scores are the scores that emerge after evidence-probing discussion, when the team has had the opportunity to reconsider their initial responses in light of behavioral evidence. These are often different, and the difference should be made transparent rather than resolved privately by the facilitator.
+
+When the facilitator observes a pattern where scores are high but behavioral evidence is sparse, the facilitator names this pattern to the group -- directed at the pattern, not at individuals: 'I notice several people scored 4 or 5 on this question, but when I asked for specific recent examples, it was hard for anyone to produce one. That gap between the score and the evidence is worth exploring together. What do you think is happening here?' This gives the team the opportunity to recalibrate their own scores based on reflection, rather than the facilitator substituting private judgment for the team's self-assessment.
+
+If, after this transparent exploration, the team maintains their original scores, the facilitator has two options: (1) accept the team's scores and note in the report that the facilitation discussion produced limited behavioral evidence to support the scores, letting the reader draw their own conclusion; or (2) report both the team's self-report scores and the facilitator's assessment based on discussion evidence, with transparent reasoning for the discrepancy. Option 2 is preferred because it preserves the integrity of the self-assessment while giving the report reader the information they need to form their own judgment.
+
+What the facilitator should not do is privately replace the team's scores with their own assessment without sharing the reasoning. This violates the self-assessment principle the framework is built on.
 
 **When to challenge a score vs. accept it.** Challenge a score when: the discussion reveals no concrete behavioral evidence for a high score; the team's description of their practice matches a lower-frequency behavior than the score suggests; or there is a clear discrepancy between what one or two vocal members claim and what quieter members acknowledge. Accept a score when: the team produces specific, recent, concrete behavioral examples; multiple team members independently describe consistent behavior; and the facilitator's own observations during the session are consistent with the score.
 
@@ -179,13 +185,59 @@ One trainee facilitates a 30-minute mock Zone 1 assessment. Other trainees play 
 
 The mock workshop follows full structure: framing, independent scoring, facilitated discussion, brief retrospective. Trainees rotate the facilitator role so each person facilitates at least one 10-minute segment. After the mock workshop, the full group debriefs using specific examples from the session.
 
+**Formal Scoring.** The mock workshop is a scored developmental assessment, not just a learning activity. The master facilitator scores each trainee's facilitation segment using a simplified version of the Facilitation Observation Rubric covering three dimensions: Evidence Probing, Variance Handling, and Energy/Voice Management. Scores are shared with each trainee individually after the activity, along with specific behavioral observations. Mock workshop scores are developmental -- they identify areas for focused improvement before the supervised facilitation rather than serving as a pass/fail gate. Trainees who receive 'Not Yet Competent' ratings on any dimension should work with their cohort peers on targeted practice in that area before the supervised facilitation.
+
+At least one persona card should include a power dynamic element -- for example, a team member who is less experienced and visibly defers to a more senior member, or a team member whose role (PM, QA) gives them less organizational status than the engineers in the room. This gives trainees practice navigating the equity and inclusion dynamics they will encounter in real workshops.
+
 ---
 
 ## Assessment
 
 ### Facilitation Observation Rubric
 
-The rubric is used during the supervised facilitation component of the practicum (Module 5). Trainees are rated on: opening effectiveness (framing, safety establishment, dual reporting explanation); evidence probing (question quality, non-leading approach, specificity of follow-up); variance handling (surfacing, exploring, and using disagreement productively); energy and voice management (dominant voice, honest outlier, quiet contributors); and role inclusion (active solicitation of PM and non-engineering perspectives).
+The Facilitation Observation Rubric is used during the supervised facilitation component of the practicum. The rubric uses a Behaviorally Anchored Rating Scale (BARS) across six dimensions. For each dimension, three performance levels are defined with specific observable behaviors. The minimum standard for certification is 'Competent' on all six dimensions.
+
+**Dimension 1: Opening Effectiveness** (framing, safety establishment, dual reporting explanation)
+- *Not Yet Competent:* Reads the opening script without adapting to the room's energy. Does not check for understanding of the dual reporting structure. Fails to establish self-assessment framing before scoring begins. Team members begin scoring uncertain about what the process is or who will see results.
+- *Competent:* Communicates the self-assessment framing clearly and checks for understanding. Explains the dual reporting structure and invites questions. Establishes ground rules and adapts tone to the room's energy. Team members begin scoring with a shared understanding of the purpose and confidentiality protections.
+- *Exemplary:* Adapts the opening to specific organizational context from discovery findings. Names potential concerns proactively ('I know this was initiated by leadership, and I want to address what that means for you directly'). Creates conditions where team members visibly relax and engage before scoring begins.
+
+**Dimension 2: Evidence Probing** (question quality, non-leading approach, specificity of follow-up)
+- *Not Yet Competent:* Accepts high self-report scores without follow-up. Asks leading questions that suggest the expected answer ('So your team does use Plan/Code/Verify consistently, right?'). Does not probe for specific behavioral examples. Treats scores as data rather than conversation starters.
+- *Competent:* Follows up scores with behavior-anchored probes ('What does that look like on a typical Tuesday?'). Asks non-leading questions. Notes when a participant cannot produce a specific example. Probes symmetrically -- challenges both high scores lacking evidence and low scores that may reflect underestimation.
+- *Exemplary:* Adapts probing strategy based on team dynamics and discovery findings. Uses the five-whys technique effectively to test the boundary of habitual behavior. Surfaces discrepancies between self-report and discussion evidence without confrontation. Follows threads that were not anticipated in the preparation.
+
+**Dimension 3: Variance Handling** (surfacing, exploring, and using disagreement productively)
+- *Not Yet Competent:* Ignores variance in scores or resolves it by averaging. Allows high scorers to dominate the explanation of variance. Does not invite low scorers to share their perspective first. Treats disagreement as a problem to resolve rather than diagnostic data to explore.
+- *Competent:* Identifies high-variance items and draws explicit attention to them. Invites low scorers to speak first. Protects outlier perspectives from group pressure. Uses variance to generate insight about different experiences within the team. Does not prematurely resolve disagreements.
+- *Exemplary:* Identifies role-based, tenure-based, and context-based patterns in variance. Names the pattern explicitly ('I notice the engineering scores cluster around 4-5 but PM and QA cluster around 2-3'). Uses variance to surface structural issues that individual scores would not reveal.
+
+**Dimension 4: Energy and Voice Management** (dominant voice, honest outlier, quiet contributors)
+- *Not Yet Competent:* Allows one or two voices to dominate the discussion without redirecting. Does not actively solicit quieter team members. Fails to protect the honest outlier when the group pushes back. Loses control of the conversational flow during heated moments.
+- *Competent:* Manages dominant voices through direct but respectful redirection. Actively solicits input from quiet team members by name. Protects outlier perspectives from group pressure ('I want to stay with this perspective for a moment'). Maintains conversational flow while allowing productive tension.
+- *Exemplary:* Reads non-verbal cues (body language, hesitation, eye contact toward manager) and responds appropriately. Creates multiple participation channels (verbal, written, pair discussion) to accommodate different communication preferences. Recognizes when silence is productive (thinking) versus suppressive (withholding).
+
+**Dimension 5: Role Inclusion and Equity Awareness** (active solicitation of cross-role perspectives; awareness of power dynamics)
+- *Not Yet Competent:* Facilitates the diagnostic as an engineering exercise. Does not actively solicit PM, design, or QA perspectives. Does not notice or address power dynamics that may suppress honest participation (e.g., junior members deferring to seniors, members looking to manager before answering).
+- *Competent:* Actively solicits perspectives from all roles represented in the room. Names role-based score variance when it appears. Notices observable power dynamics (deference patterns, eye contact toward authority figures) and addresses them directly or through facilitation technique (e.g., individual written responses before group discussion).
+- *Exemplary:* Adapts facilitation approach based on the specific power dynamics of this team, informed by discovery findings. Creates conditions where team members with less organizational power contribute as fully as those with more. Surfaces the equity implications of AI adoption when relevant to the assessment (e.g., 'Who on this team has had the most access to AI tools and training time? Who has had the least?').
+
+**Dimension 6: Diagnostic Reasoning** (hypothesis formation, inference testing, adaptive intervention)
+- *Not Yet Competent:* Follows the workshop script as a sequence without adapting to what is happening in the room. Cannot articulate why they chose a particular probe or intervention when asked during debrief. Treats all facilitation challenges with the same generic response.
+- *Competent:* Forms hypotheses about group dynamics during the workshop (e.g., 'I think this team is anchoring to the dominant voice'). Tests hypotheses through specific interventions. Can articulate their diagnostic reasoning during the debrief: 'At this moment, I noticed X, I hypothesized Y, and I chose to do Z because...' Differentiates between at least two possible diagnoses for a given behavioral pattern.
+- *Exemplary:* Demonstrates fluid diagnostic reasoning in real time -- adapts approach mid-discussion based on emerging evidence. Recognizes organizational defensive routines (Argyris) and responds appropriately. Shares diagnostic reasoning transparently with the group when appropriate ('I notice that when I ask about pressure resilience, the energy in the room shifts. I want to name that and check: is this question touching something that feels risky to discuss?').
+
+**Structured Debrief Protocol for Supervised Facilitations**
+
+After each supervised facilitation, the master facilitator conducts a structured debrief following this sequence:
+
+1. **Trainee self-assessment (5 minutes):** 'Before I share my observations, tell me how you think it went. What worked? What would you do differently? Walk me through your reasoning at one or two key moments.'
+2. **Diagnostic reasoning review (10 minutes):** The master facilitator asks the trainee to articulate their diagnostic reasoning at 2-3 specific moments identified during observation: 'At the point when [specific moment], what were you thinking? What did you notice? What hypotheses did you form? Why did you choose to do what you did?'
+3. **Rubric-anchored feedback (15-20 minutes):** The master facilitator shares specific observations organized by the six rubric dimensions, using the behavioral anchors to locate the trainee's performance. Feedback uses the format: 'I observed [specific behavior]. On the rubric, that maps to [level] because [explanation]. Here is what [Competent/Exemplary] would look like in that moment: [specific alternative].'
+4. **Improvement targets (5 minutes):** The trainee and master facilitator collaboratively identify 2-3 specific improvement targets for the second facilitation.
+5. **Written summary:** The master facilitator provides a written summary of the debrief within 48 hours, organized by rubric dimension with specific behavioral observations and improvement targets.
+
+This protocol ensures consistent debrief quality across master facilitators and creates a documented learning trajectory for each trainee.
 
 ### Scoring Accuracy Assessment
 
@@ -214,9 +266,10 @@ Describe one facilitation challenge from the mock workshop (or from a prior faci
 
 After completing Module 2, trainees should:
 
+- **Retrieval exercise (do this first, from memory):** Without consulting any notes, write down: (a) the three criteria of the competency threshold, (b) two probing techniques for when a team scores uniformly high, (c) the difference between facilitating and leading as described in Module 2, and (d) one technique for handling a dominant voice in the workshop. After writing, check against Module 2 materials.
+- **Scenario judgment exercise (timed, 5 minutes):** A team of 6 scores Zone 2 with the following pattern: 4 engineers score 4-5 across all questions, 1 PM scores 2-3, and 1 designer scores 1-2. The team lead describes their AGENTS.md as 'comprehensive.' Write your diagnosis and your first two facilitation moves. Do not consult materials.
 - Reflect on the mock workshop experience: which facilitation challenge was hardest to handle in real time, and what does that reveal about where additional practice is needed?
 - Review the management report template and consider: how would you translate a Zone 2 Developing assessment into investment language for an engineering director?
-- Revisit the progressive competency model from Module 1, specifically the factors that inform strategic analysis at each zone transition.
 
 Module 3 builds on Module 2 by extending from assessment facilitation to strategic goal-setting with organizational leadership -- a different audience with different competency needs.
 

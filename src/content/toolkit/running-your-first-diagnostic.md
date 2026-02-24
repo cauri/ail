@@ -86,7 +86,7 @@ Once everyone has scored, display the results. If you are using paper, tally sco
 
 Read the distribution aloud. Do not just state averages. Describe the shape: "On question 3, we have a pretty tight cluster around 4, with one person at 2. That variance is interesting -- let's come back to that in discussion." Or: "Question 6 shows a clear split -- three people scored 4 or 5, and two people scored 1 or 2. That's a bimodal pattern, and it usually tells us something important about role differences or adoption gaps."
 
-Averages are useful for determining [maturity stages](/toolkit/scoring-thresholds), but distributions tell the story. A 3.5 average that comes from everyone scoring 3 or 4 is very different from a 3.5 average that comes from half the team scoring 5 and the other half scoring 2.
+Averages are useful for determining [competency stages](/toolkit/scoring-thresholds), but distributions tell the story. A 3.5 average that comes from everyone scoring 3 or 4 is very different from a 3.5 average that comes from half the team scoring 5 and the other half scoring 2.
 
 ### What to Do with High-Variance Items
 

@@ -14,9 +14,9 @@ Most organizations pursuing AI adoption face three interrelated problems:
 
 1. **They don't know where they are.** Leadership hears that "we're using AI" but has no way to assess whether that usage is habitual, effective, or integrated into delivery workflows. Individual enthusiasm is confused with organizational capability.
 
-2. **They don't know where to go.** AI maturity models suggest that more is always better, pushing organizations toward ambitious transformation goals that may not match their strategic needs, risk tolerance, or investment capacity.
+2. **They don't know where to go.** Traditional maturity models suggest that more is always better, pushing organizations toward the highest level regardless of strategic fit. ACE takes a different approach: it defines a staged progression where each stage builds on the previous one, but treats the choice of stopping point as a strategic decision, not a failure to progress. ACE is a staged progression model with a deliberate innovation -- every zone, including Zone 1, is a legitimate destination when chosen through informed strategic analysis.
 
-3. **They don't know how to get there.** Even organizations with clear goals lack a structured approach to identifying the specific investments -- organizational, not just individual -- required to reach the next level of AI integration.
+3. **They don't know how to get there.** Even organizations with clear goals lack a structured approach to identifying the specific investments -- organizational, not just individual -- required to reach their target zone of AI integration.
 
 ACE addresses all three problems through a facilitated diagnostic, contextual goal-setting, and investment-based roadmapping.
 

@@ -40,7 +40,9 @@ Let me start by telling you what this is and what this is not.
 
 4. **Speak from your own experience.** When we discuss, use 'I' statements. 'I find that I drop AI tools when...' is more useful than 'the team does not...'
 
-5. **Confidentiality.** Individual scores are not shared outside this room. The team report shows aggregated results. If you have concerns about confidentiality, please raise them now."
+5. **Confidentiality.** Individual scores are not shared outside this room. The team report shows aggregated results. If you have concerns about confidentiality, please raise them now.
+
+Let me be specific about confidentiality. I collect your individual scores before we discuss. Those individual scores are used to calculate the composite scores you will see in the team report. Individual scores are not shared with management -- not in the management report, not in any conversation, not if they ask. The management report describes patterns across the organization without identifying any specific team's results. If you want to see exactly what will be in the management report before it is delivered, I am happy to share a draft. Are there any questions about how your data is handled?"
 
 *Pause. Look around the room. If anyone looks uncomfortable, address it: "Does anyone have questions or concerns before we begin?"*
 
@@ -299,6 +301,8 @@ After you receive the team report, I recommend scheduling a goal-setting session
 **Try:** "I notice the scores are quite high across the board. Let me push on this a little. Think about a specific day last week -- maybe a day when you were under pressure or working on something unfamiliar. On that specific day, did you use AI tools for [specific behavior from the question]? If not, what did you do instead?"
 
 **Try:** "A score of 5 means 'Always -- even under deadline pressure, even in unfamiliar code, even when things are going wrong.' Is that really true for everyone here? It is completely fine if it is not."
+
+**Transparency principle:** When you observe a pattern of high scores without corresponding behavioral evidence, name the pattern openly to the group rather than privately noting it for later score adjustment. 'I want to share an observation and check it with you. Several scores on this section are 4 or 5, which would mean this practice happens consistently even under pressure. But when I asked for specific examples, the examples were harder to produce than I would expect for scores at that level. I am not saying the scores are wrong -- I am noticing a gap between the scores and the evidence, and I want to understand it together.' This transparent approach produces better data than private adjustment because the team may offer information that resolves the discrepancy in either direction.
 
 ### The team is giving uniformly low scores
 

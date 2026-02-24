@@ -17,17 +17,17 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 **Percentage of team members (across all software production roles) who use AI tools daily as part of their standard workflow.**
 
 - **How to measure:** Weekly self-report survey or tool telemetry (active sessions per day per team member). A team member counts as "daily user" if they interact with AI tools on 4+ of 5 workdays. Track across engineering, PM, design, and QA roles separately to identify role-specific adoption gaps.
-- **Target:** 85%+ of team members are daily AI users within 3 months of tool provisioning.
+- **Target:** [Expert judgment] 85%+ of team members are daily AI users within 3 months of tool provisioning.
 
 ### Secondary Metrics
 
 | Metric | What It Measures | How to Measure | Target |
 |--------|-----------------|----------------|--------|
-| AI suggestion acceptance rate | Selective, thoughtful engagement with AI suggestions | IDE telemetry | 25-40% |
-| Modes of AI engagement used per developer | Breadth of AI interaction (inline, chat, CHOP, vibe-coding) | Quarterly self-assessment | 3+ modes used weekly |
-| Time from tool provisioning to first habitual use | Speed of adoption | Telemetry: days until 4+/5 daily usage pattern | < 4 weeks |
-| AI usage in non-code tasks | Adoption beyond pure coding (docs, research, communication) | Self-report survey | 60%+ of team uses AI for non-code tasks |
-| Developer satisfaction with AI tools | Whether tools are perceived as helpful vs. burdensome | Quarterly satisfaction survey (1-5 scale) | Average 3.8+ |
+| AI suggestion acceptance rate | Selective, thoughtful engagement with AI suggestions | IDE telemetry | [Emerging evidence] 25-40% |
+| Modes of AI engagement used per developer | Breadth of AI interaction (inline, chat, CHOP, vibe-coding) | Quarterly self-assessment | [Expert judgment] 3+ modes used weekly |
+| Time from tool provisioning to first habitual use | Speed of adoption | Telemetry: days until 4+/5 daily usage pattern | [Expert judgment] < 4 weeks |
+| AI usage in non-code tasks | Adoption beyond pure coding (docs, research, communication) | Self-report survey | [Expert judgment] 60%+ of team uses AI for non-code tasks |
+| Developer satisfaction with AI tools | Whether tools are perceived as helpful vs. burdensome | Quarterly satisfaction survey (1-5 scale) | [Expert judgment] Average 3.8+ |
 
 ### Anti-Metrics (Warning Signs)
 
@@ -66,18 +66,18 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 **Percentage of PRs where the team's shared AI workflow (Plan/Code/Verify with shared configuration) was used.**
 
 - **How to measure:** PR audit: check for linked plan artifacts, evidence of shared AI configuration usage, and verification step documentation. Sample 20% of PRs monthly.
-- **Target:** 80%+ of PRs follow the shared workflow within 6 months.
+- **Target:** [Expert judgment] 80%+ of PRs follow the shared workflow within 6 months.
 
 ### Secondary Metrics
 
 | Metric | What It Measures | How to Measure | Target |
 |--------|-----------------|----------------|--------|
-| Shared AI config commit frequency | Active maintenance of AGENTS.md/CLAUDE.md | Git log analysis | Updated at least biweekly |
-| Number of distinct config contributors | Collective ownership of AI setup | Git blame analysis | 50%+ of team has contributed |
-| Mandatory feedback loop enforcement rate | Reliability of quality gates | CI/CD audit: % of repos with enforced gates | 100% |
-| Agentic setup retrospective coverage | Team reflects on and improves AI practices | Retrospective notes audit | Discussed in 75%+ of retros |
-| Cross-member code quality variance | Whether shared workflow levels up the whole team | Per-developer defect rate standard deviation | 30-50% reduction from Zone 1 |
-| Externalized plan artifact creation rate | Whether teams are planning before coding | PR audit for linked plan documents | 70%+ of non-trivial PRs have plan artifacts |
+| Shared AI config commit frequency | Active maintenance of AGENTS.md/CLAUDE.md | Git log analysis | [Expert judgment] Updated at least biweekly |
+| Number of distinct config contributors | Collective ownership of AI setup | Git blame analysis | [Expert judgment] 50%+ of team has contributed |
+| Mandatory feedback loop enforcement rate | Reliability of quality gates | CI/CD audit: % of repos with enforced gates | [Expert judgment] 100% |
+| Agentic setup retrospective coverage | Team reflects on and improves AI practices | Retrospective notes audit | [Expert judgment] Discussed in 75%+ of retros |
+| Cross-member code quality variance | Whether shared workflow levels up the whole team | Per-developer defect rate standard deviation | [Expert judgment] 30-50% reduction from Zone 1 |
+| Externalized plan artifact creation rate | Whether teams are planning before coding | PR audit for linked plan documents | [Expert judgment] 70%+ of non-trivial PRs have plan artifacts |
 
 ### Anti-Metrics (Warning Signs)
 
@@ -119,18 +119,18 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 **Ratio of specification and verification time to implementation time.**
 
 - **How to measure:** Task time-tracking categorized into specification (defining what to build), implementation (building it), and verification (confirming it works). This can be done through developer self-classification of time blocks or through task type categorization in sprint planning.
-- **Target:** Specification + verification time represents 50-70% of total development time (indicating the role has shifted from "writing code" to "specifying and verifying solutions").
+- **Target:** [Expert judgment] Specification + verification time represents 50-70% of total development time (indicating the role has shifted from "writing code" to "specifying and verifying solutions").
 
 ### Secondary Metrics
 
 | Metric | What It Measures | How to Measure | Target |
 |--------|-----------------|----------------|--------|
-| CAT suite first-pass rate | AI workflow produces production-quality output reliably | CI/CD analytics: % of submissions passing all automated checks on first try | 85%+ |
-| Cross-functional task completion rate | Individuals work outside traditional specialization | Task data correlated with role profiles | 20-30% of tasks |
-| Eval pipeline coverage | Systematic quality assessment of AI output | Repository audit for eval configurations | 60%+ of AI workflows |
-| AI-to-human code ratio | How much code is AI-generated vs. hand-written | Code attribution analysis (where tooling supports it) | 70-85% AI-generated |
-| Time from requirement to production deployment | End-to-end delivery speed | Issue tracker timestamps | 50-70% reduction from Zone 2 |
-| Developer time on architecture and design | Shift toward higher-value cognitive work | Time-tracking or self-report | 40%+ of developer time |
+| CAT suite first-pass rate | AI workflow produces production-quality output reliably | CI/CD analytics: % of submissions passing all automated checks on first try | [Expert judgment] 85%+ |
+| Cross-functional task completion rate | Individuals work outside traditional specialization | Task data correlated with role profiles | [Expert judgment] 20-30% of tasks |
+| Eval pipeline coverage | Systematic quality assessment of AI output | Repository audit for eval configurations | [Expert judgment] 60%+ of AI workflows |
+| AI-to-human code ratio | How much code is AI-generated vs. hand-written | Code attribution analysis (where tooling supports it) | [Expert judgment] 70-85% AI-generated |
+| Time from requirement to production deployment | End-to-end delivery speed | Issue tracker timestamps | [Expert judgment] 50-70% reduction from Zone 2 |
+| Developer time on architecture and design | Shift toward higher-value cognitive work | Time-tracking or self-report | [Expert judgment] 40%+ of developer time |
 
 ### Anti-Metrics (Warning Signs)
 
@@ -179,11 +179,11 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 
 | Metric | What It Measures | How to Measure | Target |
 |--------|-----------------|----------------|--------|
-| Custom AI infrastructure investment | Organization treats AI as strategic infrastructure | Budget analysis: % of engineering spend on AI tooling/infrastructure | 10-20% |
-| Cross-team AI workflow reuse rate | Organizational standardization beyond individual teams | Configuration audit across repositories | 70%+ teams use org-wide components |
-| Agentic system autonomy level | AI agents complete tasks with minimal human intervention | Task classification and human-touchpoint analysis | 30-50% of routine tasks |
-| Time-to-market for new capabilities | End-to-end organizational delivery speed | Portfolio tracking: requirement to production | 3-5x improvement from baseline |
-| AI platform team effectiveness | Internal AI tooling team delivers value to product teams | Internal customer satisfaction survey | 80%+ satisfaction |
+| Custom AI infrastructure investment | Organization treats AI as strategic infrastructure | Budget analysis: % of engineering spend on AI tooling/infrastructure | [Expert judgment — speculative] 10-20% |
+| Cross-team AI workflow reuse rate | Organizational standardization beyond individual teams | Configuration audit across repositories | [Expert judgment — speculative] 70%+ teams use org-wide components |
+| Agentic system autonomy level | AI agents complete tasks with minimal human intervention | Task classification and human-touchpoint analysis | [Expert judgment — speculative] 30-50% of routine tasks |
+| Time-to-market for new capabilities | End-to-end organizational delivery speed | Portfolio tracking: requirement to production | [Expert judgment — speculative] 3-5x improvement from baseline |
+| AI platform team effectiveness | Internal AI tooling team delivers value to product teams | Internal customer satisfaction survey | [Expert judgment — speculative] 80%+ satisfaction |
 | Proprietary AI model/tool count | Organization builds rather than just consumes AI capability | Inventory of custom AI assets | Growth trajectory quarter-over-quarter |
 
 ### Anti-Metrics (Warning Signs)

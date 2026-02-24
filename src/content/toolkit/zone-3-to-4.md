@@ -22,6 +22,8 @@ Zone 3 means AI drives core development. Engineers design the process that produ
 
 This is a cultural transformation, not just a process change. The identity of "engineer" must shift from "person who creates software" to "person who governs the system that creates software." That shift requires confronting deep professional identities that were formed over careers. It takes years, not months, and it does not happen uniformly across an organization.
 
+Zone 4 should also be evaluated for its workforce implications. When the pipeline produces the software, the organization may need fewer human practitioners per unit of output -- or it may need the same number operating at a higher abstraction level. The answer depends on production volume, product complexity, and organizational context. Goal-setting for Zone 4 must include an honest workforce impact analysis: what is the expected staffing model at Zone 4 maturity, how does it differ from the current model, and what is the transition plan for affected practitioners?
+
 ---
 
 ## Prerequisites

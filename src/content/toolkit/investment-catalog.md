@@ -24,7 +24,7 @@ Zone 1 competency requires organizational investment beyond individual motivatio
 
 3. **Provide structured training on AI tool usage.** Basic training covers tool installation, configuration, effective prompting, and workflow integration. This is not a one-time workshop; it includes ongoing support, office hours, and shared learning channels where team members exchange tips and techniques.
 
-4. **Actively remove fear and stigma about AI usage.** Many developers carry anxiety that AI tools will replace them or that using AI is "cheating." Leadership must explicitly address these concerns. Using AI to be more productive is professional competence, not a shortcut. Frame AI adoption as skill development, not job threat.
+4. **Address workforce concerns about AI adoption honestly.** Many practitioners carry anxiety that AI tools will change or eliminate their roles. This anxiety is not irrational -- the role of software engineering and other software production disciplines is genuinely changing, and the ACE framework's own zone progression describes that change. Leadership must address these concerns honestly rather than with reassurance that may later feel dishonest. Effective approaches include: acknowledge the concern as legitimate; make concrete, time-bounded commitments about what AI adoption will and will not mean for employment decisions during the current zone transition; connect current adoption to the organization's chosen stopping point and its workforce implications; and do not promise that no roles will change -- promise instead that the organization will invest in helping people navigate the change.
 
 5. **Ensure developers have appropriate API keys and accounts.** Practical blockers kill adoption. If developers cannot sign up for tools without procurement approval, if API keys require weeks of security review, or if corporate firewalls block AI services, adoption stalls regardless of interest. Remove these friction points proactively.
 
@@ -52,6 +52,8 @@ Zone 2 competency requires organizational support beyond team-level effort. Thes
 
 8. **Retrospective Culture.** The organization supports a retrospective culture around continuous improvement of the agentic setup. This means allocating time for retrospectives, valuing process improvement alongside feature delivery, and treating the team's AI workflow as a first-class subject of continuous improvement.
 
+9. **Manager enablement for AI-integrated workflows.** Engineering managers need training and support to manage teams that are integrating AI into their workflows. This includes: understanding the practices well enough to evaluate whether they are working, knowing how to coach team members who are struggling with adoption, having language for conversations about how performance is measured during the transition, and knowing when to escalate concerns about the transition's impact on team health. Managers who are not enabled become unintentional bottlenecks or, worse, quietly undermine the transition because they do not understand it.
+
 ---
 
 ## Zone 3: Accelerating Investments
@@ -73,6 +75,10 @@ Zone 3 competency requires significant structural changes. These are not increme
 7. **Cross-functional training: PMs and designers learn to specify AI behavioral expectations.** Product managers and designers need to understand enough about AI pipeline behavior to write meaningful specifications, define realistic acceptance criteria, and participate in eval design. This requires structured training, not just exposure.
 
 8. **Create organizational tolerance for AI non-determinism.** Management must understand that AI systems produce variable outputs by nature. Leadership training on AI system characteristics is essential to avoid creating a culture of blame that discourages AI pipeline adoption.
+
+9. **Invest in workforce transition planning.** Zone 3's role transformations -- from code writer to AI Engineer, from artifact producer to specification author, from tester to evaluation pipeline specialist -- will not suit every current practitioner equally. The organization must plan for workforce implications: retraining programs for practitioners transitioning into new roles, honest career path analysis for practitioners who prefer traditional roles, and support structures for people navigating the identity transition. This investment should be scoped during goal-setting, not discovered mid-transition. See Zone 3 reference: Accountability for AI-Generated Output for the ethical obligations involved.
+
+10. **Manager enablement for identity-level role transitions.** Zone 3 transitions are fundamentally different from Zone 1-2 transitions because they involve changes to professional identity, not just workflow. Engineering managers need specific preparation: how to have individual conversations about role transitions that are supportive rather than directive, how to recognize and respond to identity-based resistance (which presents differently from skill-based resistance), how to manage team performance during a transition period when productivity will temporarily decline, and when to involve the ACE Facilitator or external support. See Heifetz et al. (2009) on the distinction between technical problems and adaptive challenges -- Zone 3 transition management is an adaptive challenge for managers as well as for their teams.
 
 ---
 

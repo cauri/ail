@@ -200,8 +200,8 @@ Risks and Mitigations
 - [How to Present to Leadership](/toolkit/present-to-leadership) -- Securing organizational commitment
 - [Organizational Investments](/toolkit/organizational-investments) -- What each zone requires
 - [Competency vs. Knowledge](/toolkit/competency-vs-knowledge) -- Why habitual behavior is the measure of progress
-- [Baseline to Zone 1 Roadmap](/toolkit/roadmap-templates/baseline-to-zone-1) -- Zone-specific template with monthly activities and milestones
-- [Zone 1 to Zone 2 Roadmap](/toolkit/roadmap-templates/zone-1-to-2) -- Zone-specific template
-- [Zone 2 to Zone 3 Roadmap](/toolkit/roadmap-templates/zone-2-to-3) -- Zone-specific template including mid-roadmap review guidance for 12-24 month transitions
-- [Zone 3 to Zone 4 Roadmap](/toolkit/roadmap-templates/zone-3-to-4) -- Zone-specific template
+- [Baseline to Zone 1 Roadmap](/toolkit/baseline-to-zone-1) -- Zone-specific template with monthly activities and milestones
+- [Zone 1 to Zone 2 Roadmap](/toolkit/zone-1-to-2) -- Zone-specific template
+- [Zone 2 to Zone 3 Roadmap](/toolkit/zone-2-to-3) -- Zone-specific template including mid-roadmap review guidance for 12-24 month transitions
+- [Zone 3 to Zone 4 Roadmap](/toolkit/zone-3-to-4) -- Zone-specific template
 - [Metrics Tree](/toolkit/metrics-tree) -- The leading indicator framework used to populate roadmap success metrics

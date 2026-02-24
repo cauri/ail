@@ -72,4 +72,4 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 - [Technique Catalog](/toolkit/technique-catalog) -- Zone 4 techniques including portfolio-scale evals and factory governance
 - [Workshop Script](/toolkit/workshop-script) -- The facilitation script that administers these questions in the workshop context
 - [Discussion Prompts](/toolkit/discussion-prompts) -- Zone 4-specific facilitation prompts for the discussion phase
-- [Validation Study Plan](/toolkit/validation-study-plan) -- The research plan for validating Zone 4 questions; facilitators with Zone 4 findings should contribute observations
+- [Validation Study Plan](/research/validation-study-plan) -- The research plan for validating Zone 4 questions; facilitators with Zone 4 findings should contribute observations

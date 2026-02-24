@@ -131,7 +131,7 @@ Establish construct validity and practical utility: does the diagnostic instrume
 
 ### Inter-Rater Reliability Study
 
-For at least 4 teams across pilot organizations: two trained facilitators independently administer the diagnostic to the same team within two weeks of each other. Compare zone classifications, proficiency ratings, and investment recommendations. Calculate Cohen's kappa for zone classification and intraclass correlation coefficient (ICC) for proficiency ratings.
+For at least 4 teams across pilot organizations (expanding to 15-20 teams in Phase 3): two trained facilitators independently administer the diagnostic to the same team within two weeks of each other. Counterbalance the administration order: for half the teams, Facilitator A goes first; for the other half, Facilitator B goes first. This allows the analysis to separate facilitator effects from order effects (carryover/practice effects). Report order effects in the reliability analysis. Compare zone classifications, proficiency ratings, and investment recommendations. Calculate Cohen's kappa for zone classification and intraclass correlation coefficient (ICC) for proficiency ratings.
 
 **Reliability targets:**
 
@@ -172,6 +172,8 @@ For each team at 6-month intervals:
 - **Metric change analysis:** Paired Wilcoxon signed-rank tests comparing baseline to follow-up metrics for each team.
 - **Competency prediction accuracy:** Percentage of teams classified as "competent" that demonstrate competent behaviors in direct observation (observing the team work under real deadline pressure).
 - **Threshold refinement via ROC analysis:** Identify empirical diagnostic score cutoffs that best predict competent behavior as observed independently. Compare against current thresholds and adjust where they diverge.
+- **Variance decomposition analysis:** Evaluate whether the single global SD criterion (Criterion 2) should be replaced with separate between-person and between-question consistency thresholds. Analyze pilot data to determine whether decomposed thresholds provide better diagnostic accuracy than the global SD, using facilitator behavioral observations as the criterion variable.
+- **Cluster analysis for zone validation:** Apply clustering methods (k-means, hierarchical, or latent profile analysis) to diagnostic score data to test whether natural groupings correspond to the four-zone model. If the data suggests three or five clusters rather than four, or if cluster boundaries differ from current zone definitions, this informs zone structure revision. This analysis directly addresses RQ1 ("Do the four zones represent meaningfully distinct organizational states?") and follows the approach used by DORA to validate that software delivery performance naturally clusters into distinct groups (Forsgren, Humble, & Kim, 2018).
 
 ---
 
@@ -200,6 +202,25 @@ Within each organization: 2-4 teams for diagnostic assessment. Phase 3 expands t
 **Inclusion criteria:** Active software production teams (cross-functional preferred); at least some exposure to AI tools across one or more crafts; organizational leadership willing to participate and share outcome data.
 
 **Exclusion criteria:** Organizations under active acquisition or major reorganization; organizations where AI adoption decisions are frozen due to litigation or regulatory review.
+
+### 7.1 Statistical Power Considerations
+
+The following power considerations inform the sampling targets for each phase. These calculations use conventional parameters: alpha = 0.05, power = 0.80, and the effect sizes specified below.
+
+**Phase 2 Inter-Rater Reliability (Cohen's Kappa):**
+To estimate kappa with a usefully narrow 95% confidence interval for a 4-category classification scheme (four zones), standard guidance (Sim & Wright, 2005; Gwet, 2014) recommends a minimum of 30-50 classification units. The planned sample of 4 teams is substantially below this threshold. With 4 teams, the confidence interval around kappa will be very wide (approximately +/- 0.3-0.4), making it impossible to distinguish moderate from excellent agreement.
+
+*Implication:* The Phase 2 inter-rater study with 4 teams should be treated as a preliminary feasibility assessment, not a definitive reliability estimate. Report the point estimate with its confidence interval and interpret cautiously. Phase 3 should expand the inter-rater sample to at least 15-20 teams for a meaningful reliability estimate.
+
+**Phase 3 Longitudinal Correlations (Spearman's rho):**
+To detect a moderate correlation (rho = 0.3) between investment completion and zone progression at alpha = 0.05 with 0.80 power, a minimum sample of approximately 85 teams is required (calculated using standard power formulas for correlation tests; see Cohen, 1988, Chapter 3). The planned Phase 3 sample of 20-40 teams is underpowered for detecting moderate correlations.
+
+*Implication:* With 20-40 teams, Phase 3 can detect large correlations (rho >= 0.5) but not moderate ones. This limitation should be stated explicitly in reporting. Organizations should not conclude that investment-outcome relationships are absent if the study fails to find significance; the study may lack the power to detect real but moderate effects.
+
+**Phase 2-3 Internal Consistency (Cronbach's Alpha):**
+Alpha estimates are generally stable with samples of 30+ respondents per zone assessment (Ponterotto & Ruckdeschel, 2007). With 2-4 teams of 4-8 members each in Phase 2 (8-32 respondents per zone), alpha estimates will have moderate precision. Phase 3 with 20-40 teams should provide adequate samples for stable alpha estimates.
+
+These power limitations do not invalidate the study design. They constrain what the study can conclude. An underpowered study with honestly reported limitations is far more credible than an underpowered study that does not acknowledge the problem.
 
 ---
 
@@ -244,9 +265,24 @@ For expert interviews specifically: map themes to validity dimensions (accuracy,
 - Cohen's kappa for zone classification inter-rater agreement (Phase 2)
 - Intraclass correlation coefficient (two-way mixed, absolute agreement) for proficiency ratings (Phase 2-3)
 - Cronbach's alpha for internal consistency within each zone's diagnostic items (Phase 2-3)
+- Exploratory factor analysis (EFA) to test whether diagnostic items within each zone load on a single factor and whether items across zones load on distinct factors (Phase 2-3). Administer all zone questions to all pilot teams (not just the zone-appropriate subset) where feasible. Key questions: (a) How many factors emerge? (b) Do items cluster by zone as expected? (c) Are there cross-loading items suggesting zone boundary problems? Note: Phase 2 sample sizes (8-32 respondents) are marginal for stable factor solutions; treat Phase 2 EFA as exploratory and plan for confirmatory factor analysis (CFA) in Phase 3 when the sample is larger.
 - Spearman's rho for investment-outcome correlation (Phase 3)
 - Wilcoxon signed-rank test for pre-post metric changes (Phase 3)
 - ROC analysis for threshold refinement (Phase 3)
+
+### Mixed-Methods Integration
+
+This study uses a sequential explanatory mixed-methods design (Creswell & Plano Clark, 2018): quantitative results identify patterns and outliers; qualitative data explains them.
+
+**Integration points:**
+
+1. **Phase 1 -> Phase 2 (qualitative informs quantitative):** Expert interview themes (Phase 1) drive instrument revisions before Phase 2 pilot administration. Specific integration: expert feedback on question clarity and zone boundary definitions produces revised diagnostic items.
+
+2. **Phase 2 quantitative -> Phase 2 qualitative:** Quantitative outliers in Phase 2 pilot data (e.g., teams with unexpected zone classifications, questions with low inter-rater agreement) trigger targeted qualitative investigation in post-diagnostic interviews. Specific integration: when a team's facilitator-assigned zone differs from the diagnostic-score-predicted zone, the post-diagnostic interview explores why.
+
+3. **Phase 2 qualitative -> Phase 3 design:** Qualitative themes from practitioner and leadership interviews inform Phase 3 metric selection and longitudinal tracking priorities. Specific integration: if practitioners report that certain investments are more consequential than the framework predicts, Phase 3 tracking is adjusted.
+
+4. **Conflicting findings protocol:** When quantitative and qualitative findings conflict (e.g., a team scores high on the diagnostic but qualitative observation suggests lower capability), both findings are reported with the discrepancy noted. Resolution is sought through additional data collection (follow-up observation or interview) rather than privileging one data type over the other.
 
 ### Decision Criteria for Revising the Instrument
 
@@ -286,6 +322,18 @@ The 24-month timeline assumes that expert recruitment (Phase 1) and pilot organi
 - **Zone 4 validity.** Zone 4 (Industrializing) practices are less mature than those in earlier zones. This validation study will not attempt to validate Zone 4 zone descriptions, proficiencies, or investments. A separate validation effort would be required once Zone 4 practices become more widespread.
 
 - **Long-term stability beyond 24 months.** This study tracks outcomes to 24 months. Whether ACE zone classifications remain predictive over longer timeframes, and whether the zone definitions remain relevant as AI tools continue to evolve, is beyond the scope of this study.
+
+### 11.1 Framework Disconfirmation Criteria (Recommended for Phase 3)
+
+A validation plan that can produce revisions but never rejection is not a genuine test of the framework. Before Phase 3 data collection begins, the research team should specify what evidence would indicate fundamental problems with the framework's structure:
+
+- **What would indicate the wrong number of zones?** If cluster analysis consistently produces 3 or 5 natural groupings rather than 4, or if factor analysis shows that items do not load on 4 distinct factors, the four-zone structure should be questioned.
+
+- **What would indicate the sequential ordering is incorrect?** If longitudinal data shows organizations successfully developing Zone 3 capabilities without first establishing Zone 2, the mandatory sequential progression claim should be revised.
+
+- **What would indicate the competency construct is not predictive?** If teams classified as "Exemplary" on the diagnostic do not demonstrate competent behavior under direct observation, the diagnostic instrument's validity is in question.
+
+- **What would the researchers do with disconfirming evidence?** Disconfirming evidence should be published alongside confirming evidence. Framework revision or restructuring based on disconfirming evidence strengthens rather than weakens the framework's credibility.
 
 ---
 

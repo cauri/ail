@@ -25,10 +25,10 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 
 | Zone | Core Metric |
 |---|---|
-| Zone 1 ★ | Developers habitually use AI coding tools in daily work, including under deadline pressure and in unfamiliar codebases |
+| Zone 1 ★ | All team members (developers, PMs, designers, QA) habitually use AI tools in their daily work, including under deadline pressure |
 | Zone 2 ★ | The team ships AI-verified, production-ready code using a shared agentic workflow that all members contribute to and evolve |
-| Zone 3 ★ | Engineers operate as process designers who define specifications, constraints, and verification criteria, and the AI pipeline produces working software that meets those criteria habitually |
-| Zone 4 ★ | The organization can reliably specify, produce, evaluate, and deploy AI-generated software at scale, with engineers operating as factory designers |
+| Zone 3 ★ | Engineers operate as process designers, PMs as behavioral specifiers, designers as specification encoders, and QA as evaluation pipeline specialists; the AI pipeline produces software that meets all role-defined criteria habitually |
+| Zone 4 ★ | The organization reliably specifies, produces, evaluates, and deploys AI-generated software at scale, with all production roles operating in factory functions |
 
 ---
 
@@ -105,6 +105,9 @@ All three must be met **simultaneously**:
 - **Role check (Zone 1):** "Let me check in with each of you individually. [Name], what does your AI usage look like when you're in a complex debugging session?"
 - **Zone 2 shared vs. individual:** "Does your whole team use the same AGENTS.md, or does each person have their own setup?"
 - **Zone 2 mandatory vs. aspirational:** "What happens if someone commits code that fails the linter?"
+- **PM discovery probe (Zone 1):** "When you were preparing for that last product decision, did you use AI to help synthesize the customer data? What did that look like?"
+- **Design analysis probe (Zone 1):** "When you were exploring design options for the last feature, did you use AI to help evaluate alternatives or analyze user research? Walk me through it."
+- **QA strategy probe (Zone 1):** "When you were planning test coverage for the last release, did you use AI to help identify edge cases or design your test strategy?"
 
 ---
 

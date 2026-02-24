@@ -180,6 +180,52 @@ Based on business leadership interviews and competitive landscape: how urgent is
 
 ---
 
+## 5b. Organizational Change Readiness
+
+*Sources: All three interview tiers, supplemented by desk research on the organization's change history.*
+
+**Purpose of this section:** Assess whether the organization has the cultural, structural, and leadership preconditions for the type of change each zone transition demands. An organization with high investment capacity but low change readiness will spend money without producing durable behavioral change.
+
+### 5b-1. Change History
+
+| Question | Assessment | Evidence |
+|---|---|---|
+| Has the organization successfully managed a comparable change in the past 3 years? (process overhaul, tool migration, methodology shift) | Yes / Partial / No | |
+| If yes, how did the organization experience that change -- was it sustained, or did people revert? | Sustained / Partially reverted / Fully reverted | |
+| If a previous change initiative failed or was abandoned, has the organization recovered trust? | Yes / Partially / No / Not applicable | |
+
+### 5b-2. Change Saturation
+
+How many other significant change initiatives is the organization currently absorbing? (Reorg, new leadership, methodology change, major product pivot, etc.)
+
+> _[Facilitator: organizations absorbing multiple concurrent changes have limited remaining capacity for additional change, regardless of investment budget. If change saturation is high, recommend a smaller scope or a delayed start.]_
+
+### 5b-3. Failure Tolerance
+
+Does the culture treat failed experiments as learning or as punishable mistakes? This matters for Zone 2+ where experimentation is central.
+
+> _[Facilitator: assess from IC interviews. Leaders often overestimate their organization's failure tolerance. If ICs describe a blame culture, that is a more accurate signal than leadership's claim of psychological safety.]_
+
+### 5b-4. Leadership Attention Span
+
+Does leadership sustain attention through 12+ month initiatives, or does organizational priority shift with the quarterly cycle?
+
+> _[Facilitator: Zone 2 transitions take 3-6 months; Zone 3 takes 12-24 months; Zone 4 takes 3-5 years. If leadership attention historically dissipates after 6 months, Zone 3+ transitions carry a significant risk of abandonment mid-stream.]_
+
+### 5b-5. Change Readiness Summary
+
+**Overall change readiness assessment:** High / Moderate / Low
+
+**Key factors affecting readiness:**
+
+> _[Facilitator: brief summary of the organization's change readiness and how it should inform target zone recommendations and roadmap design.]_
+
+**Impact on engagement design:**
+
+> _[Facilitator: if change readiness is low, consider recommending a smaller initial scope, longer timelines, or explicit change readiness investments before pursuing zone transitions.]_
+
+---
+
 ## 6. Stakeholder Landscape
 
 *Sources: All interviews.*
@@ -193,6 +239,7 @@ Based on business leadership interviews and competitive landscape: how urgent is
 | | Business Leadership | Enthusiastic / Neutral / Skeptical / Unknown | | High / Medium / Low |
 | | Engineering Leadership | Enthusiastic / Neutral / Skeptical / Unknown | | High / Medium / Low |
 | | IC / Tech Lead | Enthusiastic / Neutral / Skeptical / Unknown | | High / Medium / Low |
+| | Engineering Manager | Enthusiastic / Neutral / Skeptical / Unknown | | High / Medium / Low |
 
 *Add rows as needed. Do not include more names than necessary — focus on people whose perspectives will materially affect the diagnostic or whose buy-in is required for the roadmap.*
 
@@ -205,6 +252,10 @@ Based on business leadership interviews and competitive landscape: how urgent is
 **Where are there significant tensions or contradictions?**
 
 > _[Facilitator: gaps between what leaders say and what ICs experience; disagreements between engineering and business leadership about pace or priorities; specific teams or individuals likely to resist. These require active facilitation strategy.]_
+
+**How aligned are engineering managers with the transition plan, and do they feel equipped to support it?**
+
+> _[Facilitator: Engineering managers who are not aligned or not equipped are the single most common point of failure in sustained change. If managers express concern about their ability to support the transition, this must be addressed in the roadmap through Manager Enablement investment -- not left to resolve itself.]_
 
 ### 6c. Psychological Safety Assessment
 

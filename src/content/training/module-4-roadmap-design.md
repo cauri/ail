@@ -3,11 +3,11 @@ title: "Module 4: Progression Roadmap Design"
 description: "How to design realistic, zone-specific progression roadmaps with phased investments, leading indicators, and reassessment cadences that account for non-linear competency development."
 order: 4
 duration: "1-day intensive or 5 hours async"
-prerequisites: "Module 4 of 5 (requires Modules 1-3)"
+prerequisites: "Module 4 of 6 (requires Modules 1-3)"
 ---
 
 **Duration:** 1-day intensive or 5 hours async
-**Position in program:** Module 4 of 5 (requires Modules 1-3)
+**Position in program:** Module 4 of 6 (requires Modules 1-3)
 
 ---
 
