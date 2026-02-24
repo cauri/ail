@@ -10,6 +10,9 @@ Key terms used throughout the ACE framework, in alphabetical order. For full con
 
 ## A
 
+**Artisan**
+A practitioner -- typically an engineer, but may also be a PM, designer, or QA specialist -- who operates at a higher zone than the client team and is embedded with the team to model target-zone behaviors through daily work. The artisan demonstrates practices through pair programming and collaborative work rather than through instruction. See [Training Program Overview](/training/program-overview).
+
 **AGENTS.md / CLAUDE.md**
 A shared AI configuration file committed to source control. Contains project context, coding standards, architectural constraints, workflow instructions, and team conventions. The primary Zone 2 infrastructure artifact — the team's "AI constitution." See [Zone 2: Integrating](/toolkit/zone-2-integrating).
 
@@ -49,11 +52,17 @@ Habitual behavior under stress. What a team does reliably when conditions are un
 The four stages within each zone: Emerging, Developing, Established, Exemplary. These stages describe progression toward full competency within a given zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 **Core metric**
-The single most important behavioral question for a zone, marked with a star in the diagnostic questionnaire. All team members must individually rate the core metric 5/Always for the team to achieve Exemplary status in that zone. See [Scoring Thresholds](/toolkit/scoring-thresholds).
+The single most important behavioral question for a zone, marked with a star in the diagnostic questionnaire. The core metric captures the defining behavior of the zone -- the single question that, if answered negatively, means the team has not achieved competency regardless of other scores. See [Scoring Thresholds](/toolkit/scoring-thresholds).
 
 ---
 
 ## D
+
+**Developing**
+The second of the four competency stages within each zone. The team performs the zone's behaviors mostly consistently. Lapses are recognized and self-corrected. Practices are becoming habitual but have not yet been tested by sustained pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+
+**Discovery**
+The process of identifying an organization's current AI adoption state, strategic goals, team readiness, and potential blockers before designing an ACE engagement. Discovery typically includes stakeholder interviews, team surveys, and context analysis. See [Context Analysis Template](/toolkit/context-analysis-template) and [Interview Guides](/research/interview-guides).
 
 **Dual reporting structure**
 The design feature that separates diagnostic results into two reports with different audiences: the team report (shared with the team, contains specific scores and improvement recommendations) and the management report (shared with organizational leadership, contains systemic patterns and investment themes — never individual team scores or attribution). This separation is what makes honest participation possible. See [Workshop Script](/toolkit/workshop-script).
@@ -61,6 +70,12 @@ The design feature that separates diagnostic results into two reports with diffe
 ---
 
 ## E
+
+**Emerging**
+The first of the four competency stages within each zone. The team is actively practicing the zone's behaviors but practice is inconsistent and fragile -- behaviors tend to appear when conditions are favorable and disappear under pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
+
+**Established**
+The third of the four competency stages within each zone. The zone's behaviors are habitual and consistent even under deadline pressure, production incidents, and unfamiliar domains. The team does not revert to pre-zone behaviors when conditions deteriorate. This is the practical target state for each zone -- the point at which competency is reliable and the team can begin investing in the next zone. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Eval harness**
 A test suite for AI outputs. Defines what "correct" looks like for a given AI pipeline — the test cases, the scoring rubrics, the acceptable thresholds. Engineers treat eval harness design as a core Zone 3 engineering competency. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).
@@ -75,8 +90,18 @@ A feature plan or implementation design written to a markdown file in the reposi
 
 ## F
 
+**Facilitator**
+The person who conducts an ACE diagnostic workshop with a team. The facilitator guides the team through the self-assessment process, probes for behavioral evidence, manages group dynamics, ensures honest reflection, and produces the team report. Facilitators must be trained in the ACE diagnostic methodology and the mutual learning facilitation approach. See [Workshop Script](/toolkit/workshop-script) and [Training Program Overview](/training/program-overview).
+
 **Fresh session**
 Starting a new agent session with no prior context about an implementation before performing code review. Ensures the review is independent of the implementation decisions rather than anchored to them. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).
+
+---
+
+## L
+
+**Leading indicator**
+A metric that predicts future competency outcomes rather than measuring current competency directly. Leading indicators change before the competency state changes, making them useful for early detection of progress or regression. Examples include shared configuration adoption rate (predicts Zone 2 competency) and mandatory feedback loop coverage (predicts code quality outcomes). Contrast with lagging indicators, which confirm outcomes after they occur. See [Zone-Specific Metrics](/toolkit/zone-specific-metrics) and [Metrics Tree](/toolkit/metrics-tree).
 
 ---
 
@@ -120,6 +145,9 @@ The design principle that all four zones form a single linear progression (Zone 
 **Prompt versioning**
 Treating prompts that drive production-relevant AI behavior with the same discipline as application code: versioned, reviewed, and deployed through a formal change process. A Zone 3 practice. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).
 
+**Re-diagnostic**
+A follow-up diagnostic assessment conducted after an initial diagnostic and a period of investment and practice. Re-diagnostics measure whether the team has progressed, regressed, or maintained its competency stage. The recommended interval between diagnostics is 90 days for teams actively investing in zone transition, or 6-12 months for maintenance assessments. See [Sample Team Report](/toolkit/sample-team-report).
+
 ---
 
 ## S
@@ -156,6 +184,9 @@ A Zone 2 testing practice in which the agent stubs tests based on requirements, 
 
 **Zone**
 A defined stage of AI-augmented software development capability, characterized by a specific set of proficiencies (observable behaviors), organizational investments (what the organization must provide), and benefits (what the organization receives). Zones are destinations, not levels — higher is not universally better. See [What Is ACE?](/toolkit/what-is-ace).
+
+**Zone 0 (Baseline)**
+The starting state before any AI tool adoption. Teams in Zone 0 rely entirely on traditional development workflows. Some individuals may have experimented with AI tools, but usage is sporadic, unsupported by the organization, and not integrated into daily work. Zone 0 is the starting point for all ACE assessments. See [Zone 1: Augmenting](/toolkit/zone-1-augmenting) for the transition out of Zone 0 and [Baseline-to-Zone-1 Roadmap](/toolkit/baseline-to-zone-1) for the progression plan.
 
 ---
 

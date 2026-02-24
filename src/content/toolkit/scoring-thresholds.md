@@ -84,7 +84,7 @@ The team consistently exhibits the zone's behaviors. The practices are well-esta
 
 ### Exemplary (Meets All Threshold Criteria)
 
-The team exhibits the zone's behaviors habitually, even under stress. The team can coach others in these practices. Behaviors persist through personnel changes, deadline pressure, production incidents, and other disruptions. This is the target state.
+The team exhibits the zone's behaviors habitually, even under stress. The team can coach others in these practices. Behaviors persist through personnel changes, deadline pressure, production incidents, and other disruptions. This is the highest stage within each zone.
 
 **Characteristics:**
 - All threshold criteria are met (see Competency Threshold below).
