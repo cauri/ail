@@ -64,7 +64,9 @@ Based on the diagnostic results and facilitated discussion, the team is currentl
 | Q7: AI for tests/docs/artifacts | {{Z1_Q7_1}} | {{Z1_Q7_2}} | {{Z1_Q7_3}} | {{Z1_Q7_4}} | {{Z1_Q7_5}} | {{Z1_Q7_COMPOSITE}} |
 | Q8: Design/UX AI tool usage | {{Z1_Q8_1}} | {{Z1_Q8_2}} | {{Z1_Q8_3}} | {{Z1_Q8_4}} | {{Z1_Q8_5}} | {{Z1_Q8_COMPOSITE}} |
 | Q9: QA AI tool usage | {{Z1_Q9_1}} | {{Z1_Q9_2}} | {{Z1_Q9_3}} | {{Z1_Q9_4}} | {{Z1_Q9_5}} | {{Z1_Q9_COMPOSITE}} |
-| Q10: AI-assisted onboarding | {{Z1_Q10_1}} | {{Z1_Q10_2}} | {{Z1_Q10_3}} | {{Z1_Q10_4}} | {{Z1_Q10_5}} | {{Z1_Q10_COMPOSITE}} |
+| Q10: PM discovery activities | {{Z1_Q10_1}} | {{Z1_Q10_2}} | {{Z1_Q10_3}} | {{Z1_Q10_4}} | {{Z1_Q10_5}} | {{Z1_Q10_COMPOSITE}} |
+| Q11: Design analysis and evaluation | {{Z1_Q11_1}} | {{Z1_Q11_2}} | {{Z1_Q11_3}} | {{Z1_Q11_4}} | {{Z1_Q11_5}} | {{Z1_Q11_COMPOSITE}} |
+| Q12: AI-assisted onboarding | {{Z1_Q12_1}} | {{Z1_Q12_2}} | {{Z1_Q12_3}} | {{Z1_Q12_4}} | {{Z1_Q12_5}} | {{Z1_Q12_COMPOSITE}} |
 
 **Competency threshold met:** {{ZONE_1_THRESHOLD_MET}} (Yes / No)
 

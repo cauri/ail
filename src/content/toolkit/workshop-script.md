@@ -12,6 +12,14 @@ This is a detailed, ready-to-use script for running an ACE diagnostic workshop. 
 
 ---
 
+## The Facilitator's Core Reasoning Model
+
+Throughout this script, you will see specific facilitation moves for specific situations. These are not a checklist to follow mechanically. They are examples of the **diagnosis-intervention cycle** in action: you observe what is happening, form a hypothesis about what is driving it, choose an intervention, deliver it, and assess whether it shifted the dynamic. When a situation arises that the script does not cover, apply the same cycle. The script teaches you specific moves; the diagnosis-intervention cycle teaches you how to generate new moves when you need them.
+
+Every facilitation decision in this workshop -- how to introduce the zone, how to probe a high-variance item, how to respond to defensiveness, how to frame findings for the team -- is a product of diagnostic reasoning. The troubleshooting section at the end makes this cycle explicit for common problems, but the cycle is operating in every section of the script. As you gain experience, you will spend less time following the script and more time reasoning through the cycle in real time.
+
+---
+
 ## Opening (10 minutes)
 
 ### Welcome and Framing (5 minutes)

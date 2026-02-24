@@ -9,7 +9,7 @@ order: 2
 **Team:** Payments Platform
 **Date:** January 28, 2026
 **Facilitator:** Maya Okafor
-**Participants:** 6 team members (4 engineers, 1 tech lead, 1 PM)
+**Participants:** 8 team members (3 engineers, 1 tech lead, 1 PM, 1 designer, 1 QA engineer, 1 data engineer)
 **Zones Assessed:** Zone 1 (Augmenting), Zone 2 (Integrating) screening
 
 ---
@@ -20,11 +20,11 @@ order: 2
 
 ## Assessment Summary
 
-The Payments Platform team completed a facilitated ACE diagnostic workshop on January 28, 2026. All six team members participated for the full 110-minute session. The team assessed Zone 1 in full and completed a screening pass through Zone 2 to establish competency.
+The Payments Platform team completed a facilitated ACE diagnostic workshop on January 28, 2026. All eight team members participated for the full 110-minute session. The team assessed Zone 1 in full and completed a screening pass through Zone 2 to establish competency.
 
 **Current zone and stage: Zone 1 — Established**
 
-The team demonstrates strong Zone 1 practice. All six members rated the Zone 1 core metric at 5/Always, overall Zone 1 scores average 4.4, and three of seven items scored at composite 5 with all remaining items at composite 4. This places the team solidly in the Established stage — AI tool usage is habitual across roles and holds under pressure. Zone 1 Exemplary would require meeting all three threshold criteria (composite ≥ 4.7, SD ≤ 0.5, no question below 4.0); for now, the right focus is Zone 2 transition, not chasing the last increment of Zone 1 refinement.
+The team demonstrates strong Zone 1 practice. All eight members rated the Zone 1 core metric at 5/Always, overall Zone 1 scores average 4.3, and three of twelve items scored at composite 5 with all remaining items at composite 4 or above. This places the team solidly in the Established stage — AI tool usage is habitual across roles and holds under pressure. Zone 1 Exemplary would require meeting all three threshold criteria (composite ≥ 4.7, SD ≤ 0.5, no question below 4.0); for now, the right focus is Zone 2 transition, not chasing the last increment of Zone 1 refinement.
 
 Zone 2 screening revealed emerging but inconsistent Zone 2 practices. The team does not yet have the shared configuration, mandatory feedback loops, or Plan/Code/Verify discipline that Zone 2 requires. The recommended next focus for this team is the Zone 2 transition.
 
@@ -36,17 +36,22 @@ The table below shows each Zone 1 proficiency item, the team's composite score, 
 
 | Proficiency | Composite | Observation |
 |---|---|---|
-| Q1 (Core): AI usage under deadline pressure | 5 | All 6 members rated 5. Confirmed in discussion: the team described maintaining AI-assisted workflows during a production incident last quarter and a compliance crunch in Q3. AI tools are genuinely a first instinct under pressure, not a fair-weather habit. |
+| Q1 (Core): AI usage under deadline pressure | 5 | All 8 members rated 5. Confirmed in discussion: the team described maintaining AI-assisted workflows during a production incident last quarter and a compliance crunch in Q3. AI tools are genuinely a first instinct under pressure, not a fair-weather habit. |
 | Q2: Daily AI code completion and generation | 5 | All engineers and the tech lead report daily use of AI coding tools as a matter of course. Engineers described reaching for AI before reaching for documentation when exploring an unfamiliar part of the codebase. |
 | Q3: AI for diagnostics and debugging | 5 | Strong consensus. Engineers routinely paste stack traces and error context into AI tools, iterate on hypotheses, and use AI to navigate unfamiliar code. One engineer described AI as "my first rubber duck." |
 | Q4: Mode selection — choosing the right AI engagement mode for the task | 4 | Emerging but implicit. Engineers distinguish in practice between quick autocomplete, conversational debugging, and longer agentic runs, but this is individual and intuitive rather than a shared vocabulary the team reasons about together. |
 | Q5: Reviewing AI output before accepting | 4 | Good awareness, occasional pressure-related lapses. Discussion revealed that review discipline sometimes compresses during sprint crunch. The team acknowledged this is an area they want to tighten as they move into Zone 2, where AI output volume increases. |
 | Q6: Non-engineering roles using AI | 4 | The PM uses AI for research synthesis, drafting acceptance criteria, and preparing for stakeholder conversations regularly. This is meaningfully above average. Scored 4 rather than 5 because usage is habitual for some tasks but still ad hoc for others — it has not fully become the default mode for all PM work. |
 | Q7: AI for tests, documentation, and peripheral artifacts | 4 | All engineers use AI for test scaffolding and inline code comments consistently. Commit messages and higher-level documentation (ADRs, runbooks, incident postmortems) remain primarily manual. |
+| Q8: Design/UX AI tool usage | 4 | The designer uses AI regularly for generating design alternatives and creating prototypes, and has started using AI to synthesize user research from interview transcripts. Usage is habitual for generative tasks but less consistent for analytical work like accessibility audits or IA evaluation. The team noted that the designer was an early AI adopter and helped normalize AI usage across the team. |
+| Q9: QA AI tool usage | 4 | The QA engineer uses AI for test case generation and exploratory testing strategies as a regular part of their workflow. Bug triage with AI assistance is still emerging — the QA engineer described it as "helpful but I don't trust it for priority assessment yet." Test data creation with AI is routine. |
+| Q10: PM discovery activities | 4 | The PM uses AI to synthesize customer research and generate product hypotheses. Market data analysis with AI is less consistent — the PM described using AI "when I remember to" rather than as a default. The discovery dimension of AI usage is present but not yet as habitual as the delivery dimension (story drafting, stakeholder prep). |
+| Q11: Design analysis and evaluation | 4 | The designer uses AI to identify accessibility issues and evaluate design patterns, but this is more experimental than habitual. User research synthesis is stronger — the designer described using AI to process interview transcripts as "the thing that changed my workflow." IA analysis with AI is nascent. |
+| Q12: AI-assisted onboarding | 4 | Recent team additions (the data engineer joined two months ago) described using AI extensively during onboarding — querying AI about architecture, generating codebase summaries, using AI to understand the payments domain. Longer-tenured members acknowledged they did not have this option when they joined. |
 
 **Zone 1 competency threshold met: No. Stage: Established.**
 
-Core metric: 6/6 members at 5. Zone composite average: 4.4. Standard deviation across all individual responses: approximately 0.6. All question composites at 4.0 or above: yes. The competency threshold (composite average ≥ 4.7, SD ≤ 0.5, no question composite below 4.0) is not fully met — the composite average of 4.4 falls below 4.7, and the SD of 0.6 exceeds 0.5. The team is Established. The 4s on Q4-Q7 are real growth areas and will matter in Zone 2, but they do not change the zone or stage designation.
+Core metric: 8/8 members at 5. Zone composite average: 4.3. Standard deviation across all individual responses: approximately 0.6. All question composites at 4.0 or above: yes. The competency threshold (composite average ≥ 4.7, SD ≤ 0.5, no question composite below 4.0) is not fully met — the composite average of 4.3 falls below 4.7, and the SD of 0.6 exceeds 0.5. The team is Established. The 4s on Q4-Q12 are real growth areas and will matter in Zone 2, but they do not change the zone or stage designation.
 
 ---
 
@@ -76,7 +81,7 @@ Zone 2 (Integrating) requires the team to operate as a unit around a shared AI-a
 
 **1. Genuine Zone 1 competency — this is not a paper achievement**
 
-All six team members, across four engineers, one PM, and a tech lead, use AI tools daily as a matter of habit. The workshop confirmed this is durable: team members described maintaining AI-assisted workflows through a production incident and a compliance crunch. Zone 1 competency that holds under pressure is the prerequisite for Zone 2, and this team has it. Many teams at Zone 1 have individual AI enthusiasts alongside non-adopters; this team does not have that problem.
+All eight team members — engineers, PM, designer, QA engineer, and tech lead — use AI tools daily as a matter of habit. The workshop confirmed this is durable: team members described maintaining AI-assisted workflows through a production incident and a compliance crunch. Zone 1 competency that holds under pressure is the prerequisite for Zone 2, and this team has it. Many teams at Zone 1 have individual AI enthusiasts alongside non-adopters; this team does not have that problem.
 
 **2. PM AI adoption is ahead of the curve**
 
@@ -84,9 +89,13 @@ The PM's habitual use of AI for research synthesis and criteria drafting is unco
 
 **3. Strong AI debugging practice across the engineering team**
 
-All four engineers and the tech lead described mature AI debugging habits: pasting error context, iterating on hypotheses, using AI to navigate unfamiliar code paths. This is directly relevant to Zone 2, where AI agents are expected to reason through the codebase with limited hand-holding. A team that uses AI competently for debugging has already internalized the feedback-loop mindset that Zone 2 formalizes as Plan/Code/Verify.
+All three engineers and the tech lead described mature AI debugging habits: pasting error context, iterating on hypotheses, using AI to navigate unfamiliar code paths. This is directly relevant to Zone 2, where AI agents are expected to reason through the codebase with limited hand-holding. A team that uses AI competently for debugging has already internalized the feedback-loop mindset that Zone 2 formalizes as Plan/Code/Verify.
 
-**4. Team is culturally ready for Zone 2**
+**4. Cross-role AI adoption is genuine**
+
+The designer and QA engineer are not trailing the engineers — they have adopted AI tools for their role-specific work and use them habitually. The designer's early AI adoption helped normalize AI usage across the team, and the QA engineer's AI-assisted test generation is already a regular part of their workflow. This cross-role adoption means the team will not face the common Zone 2 challenge of engineers outpacing non-engineering roles.
+
+**5. Team is culturally ready for Zone 2**
 
 The workshop itself was evidence of this. The team engaged seriously with the scoring, challenged each other on variance (notably on Q4 and Q5), and spent substantive time discussing what a shared AGENTS.md would actually say. Teams that treat AI tooling as individual preference tend to stall at Zone 1. This team is already thinking in team-level terms. That orientation is the most important predictor of Zone 2 progress.
 
