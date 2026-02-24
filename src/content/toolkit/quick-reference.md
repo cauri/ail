@@ -31,7 +31,7 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 |---|---|
 | Zone 1 ★ | All team members (developers, PMs, designers, QA) habitually use AI tools in their daily work, including under deadline pressure |
 | Zone 2 ★ | The team ships AI-verified, production-ready code using a shared agentic workflow that all members contribute to and evolve |
-| Zone 3 ★ | Engineers operate as process designers, PMs as behavioral specifiers, designers as specification authors, and QA as evaluation pipeline specialists; the AI pipeline produces software that meets all role-defined criteria habitually |
+| Zone 3 ★ | Engineers operate as process designers, PMs as behavioral specifiers, designers as design systems architects, and QA as evaluation pipeline specialists; the AI pipeline produces software that meets all role-defined criteria habitually |
 | Zone 4 ★ | The organization reliably specifies, produces, evaluates, and deploys AI-generated software at scale, with all production roles operating in factory functions |
 
 ---

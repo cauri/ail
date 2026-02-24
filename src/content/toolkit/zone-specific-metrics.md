@@ -114,7 +114,7 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 
 ## Zone 3: Accelerating
 
-**Zone summary:** AI fundamentally changes all roles in the production pipeline. Engineers become process designers, PMs become behavioral specifiers, designers become specification authors, and QA engineers become evaluation pipeline specialists.
+**Zone summary:** AI fundamentally changes all roles in the production pipeline. Engineers become process designers, PMs become behavioral specifiers, designers become design systems architects, and QA engineers become evaluation pipeline specialists.
 
 ### Primary Metric
 

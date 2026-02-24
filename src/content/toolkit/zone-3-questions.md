@@ -6,7 +6,7 @@ order: 3
 ---
 ## Purpose
 
-These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements. Zone 3 competency means the entire production pipeline has transformed: engineers operate as process designers, PMs as behavioral specifiers, designers as specification authors, and QA engineers as evaluation pipeline specialists. The questions measure organizational-level behaviors: Continuous Alignment Testing (CAT), observability of AI-driven processes, eval harnesses, prompt versioning, cross-functional role transformation, and the emergence of the AI Engineer role.
+These questions assess whether an organization has shifted from AI-integrated team workflows to AI-driven core development where humans specify, review, and orchestrate while AI implements. Zone 3 competency means the entire production pipeline has transformed: engineers operate as process designers, PMs as behavioral specifiers, designers as design systems architects, and QA engineers as evaluation pipeline specialists. The questions measure organizational-level behaviors: Continuous Alignment Testing (CAT), observability of AI-driven processes, eval harnesses, prompt versioning, cross-functional role transformation, and the emergence of the AI Engineer role.
 
 ## Questions
 
@@ -59,7 +59,7 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 The following questions are not yet scored items. They are facilitator probes to assess whether the Zone 3 transformation extends beyond engineering. Use them during the discussion phase to gather data for future diagnostic refinement.
 
 - **PM as behavioral specifier:** "Can the PM describe the behavioral envelope for the last AI-driven feature — what accuracy, latency, and failure modes were acceptable? Were these criteria defined before engineering began pipeline work?"
-- **Designer as specification author:** "Can the designer show examples of design standards encoded as machine-verifiable inputs to the AI pipeline? Are design compliance checks automated, or does design review remain manual?"
+- **Designer as design systems architect:** "Can the designer show examples of design standards encoded as machine-verifiable inputs to the AI pipeline? Are design compliance checks automated, or does design review remain manual?"
 - **QA as evaluation pipeline specialist:** "What percentage of the QA team's time is spent operating evaluation infrastructure versus manually testing individual outputs? Is the eval infrastructure the primary quality mechanism?"
 - **Cross-functional accountability:** "When AI-generated output causes a problem, is accountability assignable? Can the team trace a failure to specification, verification, authority, or pipeline design?"
 - **Accountability chain:** "Does the organization have a defined chain of responsibility for AI-generated output — specification accountability, verification accountability, authority accountability, and pipeline accountability? Has this chain been exercised in a real incident?"

@@ -117,7 +117,7 @@ Read each screening question from the baseline screening document. Tally respons
 
 **For Zone 3 (Accelerating):**
 
-"Zone 3 is about a fundamental shift across all roles in the production pipeline. Engineers operate as process designers, PMs become behavioral specifiers who define what accuracy and reliability the business can tolerate, designers become specification authors whose standards are machine-verifiable factory inputs, and QA engineers become evaluation pipeline specialists who design the infrastructure that validates AI output at scale. AI drives the core implementation work, and all roles define their respective inputs to the production pipeline."
+"Zone 3 is about a fundamental shift across all roles in the production pipeline. Engineers operate as process designers, PMs become behavioral specifiers who define what accuracy and reliability the business can tolerate, designers become design systems architects whose standards are machine-verifiable factory inputs, and QA engineers become evaluation pipeline specialists who design the infrastructure that validates AI output at scale. AI drives the core implementation work, and all roles define their respective inputs to the production pipeline."
 
 **For Zone 4 (Industrializing):**
 

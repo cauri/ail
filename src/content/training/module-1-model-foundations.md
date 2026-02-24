@@ -101,7 +101,7 @@ By the end of this module, trainees will be able to:
 
 **The AI Engineer identity.** This is not a senior developer who uses AI tools. It is a distinct role focused on designing and operating the systems that produce software rather than producing the software directly.
 
-**Core metric.** Engineers operate as process designers, PMs as behavioral specifiers, designers as specification authors, and QA engineers as evaluation pipeline specialists -- each role defines its respective inputs to the AI production pipeline.
+**Core metric.** Engineers operate as process designers, PMs as behavioral specifiers, designers as design systems architects, and QA engineers as evaluation pipeline specialists -- each role defines its respective inputs to the AI production pipeline.
 
 **Key proficiencies.** Continuous Alignment Testing (CAT) pipelines, eval harness design, context engineering at the system level, observability instrumentation, pipeline-level failure diagnosis, prompt versioning, "separate generation from decisioning" patterns (four levels: Conditioning, Authority, Workflows, Evals). QA proficiencies: eval harness design, CAT pipeline ownership, failure mode taxonomy, acceptance thresholds. Design proficiency: encoding design standards as machine-verifiable pipeline inputs.
 
