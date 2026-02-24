@@ -222,6 +222,31 @@ Alpha estimates are generally stable with samples of 30+ respondents per zone as
 
 These power limitations do not invalidate the study design. They constrain what the study can conclude. An underpowered study with honestly reported limitations is far more credible than an underpowered study that does not acknowledge the problem.
 
+### 7.2 Feasibility Assessment
+
+The following feasibility matrix evaluates each planned analysis against the realistic constraints of a consulting-practice validation effort. Analyses that are infeasible at planned sample sizes are flagged with recommended alternatives.
+
+| Analysis | Minimum Sample | Planned Sample | Feasible? | If Not: Alternative |
+|----------|---------------|---------------|-----------|---------------------|
+| Cohen's kappa (4-zone) | 30-50 teams | Phase 2: 4 teams | No | Treat as preliminary; expand in Phase 3 to 15-20 teams |
+| ICC for proficiency ratings | 30+ respondents/zone | Phase 2: 8-32 | Marginal | Combine with Phase 3 for stable estimates |
+| Cronbach's alpha per zone | 30+ respondents | Phase 2: 8-32 | Marginal | Report with confidence intervals; stabilize in Phase 3 |
+| EFA (4-factor structure) | 5-10 per item (60-150) | Phase 2: 8-32 | No | Defer to Phase 3; use item-total correlations in Phase 2 |
+| CFA (confirmatory) | 200+ respondents | Phase 3: 80-320 | Marginal | May require pooling across multiple Phase 3 waves |
+| Spearman's rho (moderate r=0.3) | 85 teams | Phase 3: 20-40 | No | Can detect large effects (r>=0.5); report power limitation |
+| ROC analysis (threshold) | 50+ classified teams | Phase 3: 20-40 | Marginal | Report preliminary thresholds with wide confidence intervals |
+| Cluster analysis (zone validation) | 50-100 cases | Phase 3: 20-40 | Marginal | Use as exploratory; validate with larger sample in follow-up |
+
+**Key feasibility risks and mitigations:**
+
+1. **Organization recruitment is the primary bottleneck.** Consulting-practice validation depends on client willingness to participate. Mitigation: build validation into standard engagement contracts as an opt-in component; offer organizations a validation report as an incentive.
+
+2. **Facilitator availability for inter-rater study.** The inter-rater protocol requires two facilitators per team, doubling facilitation labor. Mitigation: schedule inter-rater pairs strategically during periods of high engagement volume; consider video-based reliability coding as a supplement (where a second rater scores from recorded sessions rather than conducting a separate live session).
+
+3. **Longitudinal attrition.** Organizations that participate in Phase 2 may not be available for Phase 3 follow-up due to leadership changes, budget shifts, or engagement completion. Mitigation: over-recruit by 30% for Phase 2; establish data-sharing agreements early; maintain relationship with organizational sponsors through quarterly check-ins.
+
+4. **Phase 3 sample accumulation timeline.** Reaching 20-40 teams requires sustained engagement volume over 12+ months. If Artium's ACE engagement pipeline produces fewer than 3-4 engagements per quarter, Phase 3 may need to extend beyond 24 months. This should be treated as a realistic possibility, not a failure of the research design.
+
 ---
 
 ## 8. Data Collection
