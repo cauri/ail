@@ -165,6 +165,8 @@ Occasionally a team member may leave a question blank or mark it "not applicable
 
 Do not impute missing values (e.g., by substituting the team average). Missing data should reduce the denominator, not be replaced by an estimate.
 
+**Proactive role-composition review:** Before scoring, review the team's role composition against the zone questions. Questions that address behaviors specific to roles not represented on the team (e.g., PM questions when the team has no PM) should be flagged proactively. Ensure that low scores on these questions are interpreted as role composition effects rather than competency gaps. If team members rated role-irrelevant questions numerically rather than marking N/A, the facilitator may exclude them from the composite with a note in the report. If a question consistently triggers the reduced-reliability flag across multiple teams (e.g., because the question addresses a role not present on many teams), this pattern should be reported in the validation study as it may indicate that the question should be administered conditionally or excluded from composites for teams where the role is absent.
+
 ### Step 1: Collect Individual Responses
 
 Each team member completes the zone's questions independently, rating each question on the 1-5 scale. Responses should be collected before any group discussion to avoid anchoring effects.
