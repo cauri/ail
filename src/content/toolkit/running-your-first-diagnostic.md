@@ -114,7 +114,7 @@ As the team discusses their scores, listen for themes that point to organization
 
 **Individual behavior:** "I keep meaning to try AI for testing, but I just haven't gotten around to it." This is an adoption issue that the team can address.
 
-**Organizational blocker:** "We wanted to integrate AI into our CI pipeline, but IT won't approve the tool." This is a structural barrier that requires organizational investment. Note it carefully -- it will appear in the management report as a systemic finding.
+**Organizational blocker:** "We wanted to integrate AI into our CI pipeline, but IT won't approve the tool." This is a structural barrier that requires organizational investment. Before recording a theme as a finding, share your interpretation with the team: "I am hearing that the IT approval process is a significant barrier to your AI tooling integration. Is that an accurate summary, or is there more to it?" This testing step validates your interpretation and often surfaces additional information that refines the finding. Note it carefully -- it will appear in the management report as a systemic finding.
 
 Other organizational blockers to listen for: unclear policies on AI tool usage, procurement delays for licenses, security restrictions that have not been revisited, management that has not signaled support for AI adoption, and missing training or onboarding for AI tools.
 

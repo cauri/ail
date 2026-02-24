@@ -21,7 +21,7 @@ Run the ACE diagnostic to determine where your organization is today. The diagno
 - **Current zone:** Which zone's proficiencies does the organization practice habitually?
 - **Competency stage within that zone:** Emerging, Developing, Established, or Exemplary?
 
-If your current zone is 0 or 1, your typical near-term target is Zone 2 -- the competitive baseline for modern software teams. The question of whether to continue to Zone 3 or Zone 4 becomes relevant after you have achieved at least Zone 2 proficiency. Each transition along the progression deserves its own strategic analysis.
+If your current zone is 0 or 1, Zone 2 is the typical near-term target for most organizations -- but this should be confirmed through strategic analysis, not assumed as a default. Some organizations may find that deep Zone 1 competency across all roles meets their strategic needs without requiring team-level process integration. The question of whether to continue to Zone 3 or Zone 4 becomes relevant after you have achieved at least Zone 2 proficiency. Each transition along the progression deserves its own strategic analysis.
 
 If you are already at Zone 2, proceed to Step 2 to determine whether Zones 3 or 4 are appropriate targets.
 
@@ -68,7 +68,7 @@ Use the following framework to guide your zone selection:
 
 ### Target Zone 2 (from Zone 0 or 1)
 
-Zone 2 is the typical near-term target for most organizations -- the competitive baseline. While the investment is modest relative to later transitions, organizations should assess competency and plan specific investments. If you are not yet at Zone 2, this is the natural next step.
+Zone 2 is the typical near-term target for most organizations. While the investment is modest relative to later transitions, organizations should assess competency and plan specific investments. If strategic analysis confirms Zone 2 alignment with organizational goals, this is the recommended next step.
 
 ### Target deep Zone 2 competency (already at Zone 2)
 

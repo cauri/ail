@@ -22,7 +22,7 @@ These are meaningful innovations, but they do not change the underlying structur
 
 All four zones form a single progression. The question is not "which branch?" but "how far?"
 
-Zone 1 builds foundations. Individual developers adopt AI tools as part of their daily work, supported by clear policies, available licenses, and management endorsement. This establishes the baseline capability that everything else depends on.
+Zone 1 builds foundations. Individuals across all roles — developers, PMs, designers, QA engineers — adopt AI tools as part of their daily work, supported by clear policies, available licenses, and management endorsement. This establishes the baseline capability that everything else depends on. For organizations where individual AI tool fluency across all roles addresses the primary strategic need without requiring team-level process integration, deep Zone 1 competency is a legitimate strategic destination.
 
 Zone 2 builds on Zone 1. Teams move from individual tool use to systematic integration: shared conventions, automated pipelines, collective standards. This is the typical near-term target for most organizations -- the point at which AI adoption becomes a durable team-level capability.
 

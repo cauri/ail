@@ -34,12 +34,12 @@ A one-page reference for use during workshops. Print or keep open alongside the 
 
 ## Competency Stages
 
-| Stage | Average Score | What It Means |
+| Stage | What It Means | Average Score |
 |---|---|---|
-| **Emerging** | 2.0–2.9 | Inconsistent; behaviors drop under pressure |
-| **Developing** | 3.0–3.9 | Mostly consistent; occasional lapses; self-corrects |
-| **Established** | 4.0–4.9 (threshold not met) | Largely habitual; approaching full competency |
-| **Exemplary** | Meets all 3 threshold criteria | Habitual under stress; can coach others |
+| **Emerging** | Inconsistent; behaviors drop under pressure | 2.0–2.9 |
+| **Developing** | Mostly consistent; occasional lapses; self-corrects | 3.0–3.9 |
+| **Established** | Largely habitual; reliable competency; some individual variation remains | 4.0–4.9 (threshold not met) |
+| **Exemplary** | Habitual under stress; can coach others | Meets all 3 threshold criteria |
 
 ---
 

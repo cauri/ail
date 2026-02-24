@@ -132,7 +132,7 @@ Whenever one member is significantly below the rest, check whether the distribut
 
 ## Step 5: Formulate the Narrative
 
-The numbers tell you where. The narrative tells you why and what to do next. A good facilitator narrative does three things: states the finding accurately, explains the pattern in human terms, and points toward a specific next action.
+The numbers tell you where. The narrative tells you why and what to do next. A good facilitator narrative does four things: states the finding accurately, explains the pattern in human terms, points toward a specific next action, and has been tested with the team before being finalized. Before the narrative enters the final report, share it with the team during the report review session. Ask: "Does this accurately describe your situation? Is there anything I have gotten wrong or missed?" A narrative that the team recognizes as accurate is a stronger foundation for action than one the facilitator is confident about but the team has not validated.
 
 Here is a draft narrative for this team:
 

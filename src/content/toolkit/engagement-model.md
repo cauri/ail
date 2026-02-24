@@ -19,6 +19,8 @@ An ACE engagement guides an organization from "we don't know where we are" to "w
 
 Each phase produces specific deliverables. Phases are sequential: Discovery informs the Diagnostic, the Diagnostic informs Goal Setting, and the Roadmap guides Collaborative Delivery — where Artisans embed with the client team to execute the roadmap through shared work.
 
+**Phase boundaries are decision points.** At the end of Discovery, the client reviews the Context Analysis Summary and decides whether the diagnostic scope is right. At the end of the Diagnostic, the client reviews the reports and decides whether to proceed to Goal Setting. At the end of Goal Setting, the client reviews the roadmap and makes a commitment decision about Collaborative Delivery. These are genuine decision points, not formalities. A client who decides that the diagnostic findings are sufficient and does not want to proceed to Goal Setting has received legitimate value. The facilitator should make these decision points visible and protect the client's freedom to choose at each one.
+
 ---
 
 ## Phase 1: Discovery
@@ -96,7 +98,7 @@ This session is essential for preventing defensive reactions during the diagnost
 
 **Team Diagnostic Workshops (half-day per team)**
 
-Each team participates in a facilitated self-assessment workshop. The facilitator guides the team through the zone-specific diagnostic questions, facilitates discussion about evidence and examples, and helps the team reach honest self-assessment of their current zone and competency stage.
+Each team participates in a facilitated self-assessment workshop. Before beginning, the facilitator obtains informed consent from all participants: explain how individual scores will be used, confirm the dual reporting structure (team report vs. management report), clarify what data will be aggregated and what will remain confidential, and confirm that participation is voluntary. The facilitator guides the team through the zone-specific diagnostic questions, facilitates discussion about evidence and examples, and helps the team reach honest self-assessment of their current zone and competency stage.
 
 Workshop structure:
 - **Opening (15 min):** Review the ACE model, explain the workshop process, emphasize that this is self-assessment not evaluation

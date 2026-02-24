@@ -146,7 +146,7 @@ Before beginning this roadmap, confirm:
 
 ## Mid-Roadmap Planning Review (Month 6-9)
 
-This transition spans 12-24 months. A roadmap built at the start of that journey will be wrong by Month 6. Plan a formal mid-roadmap review at the 6-9 month mark to assess whether the plan still reflects reality.
+This transition spans 12-24 months. A roadmap built at the start of that journey will be wrong by Month 6. Plan a formal mid-roadmap review at the 6-9 month mark to assess whether the plan still reflects reality. Every mid-roadmap review should include an explicit destination validation: is Zone 3 still the right target given what the organization has learned in the first 6 months? This is not a question reserved for troubled transitions -- it is a standard part of the review, because the original target zone decision was made with less information than the organization now has.
 
 ### What to Review
 

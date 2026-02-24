@@ -40,7 +40,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 1. "Question 2 asks about a shared AI configuration committed to source control. Some of you scored high and some low. Do we actually have an AGENTS.md or CLAUDE.md in our repo? If yes, does everyone know about it? If no, what would it take to create one?"
 
-2. "Question 3 asks about mandatory feedback loops -- AI-generated code must pass compiler, linter, and tests before committing. Some of you scored 5, some lower. What is happening when these checks are not enforced?" *(Follow-up if needed: "Is it the infrastructure, compliance, awareness, or something else?")*
+2. "Question 3 asks about mandatory feedback loops -- AI-generated code must pass compiler, linter, and tests before committing. Some of you scored 5, some lower. What is happening when these checks are not enforced?" *(Follow-up if needed: "What do you think is behind the difference?")*
 
 3. "I see a split on Question 4 about externalized plans. Some engineers guide agents with markdown plans checked into the repo; others work entirely through interactive chat. For those using externalized plans: what difference does it make? For those not using them: what would make you start?"
 
@@ -50,7 +50,7 @@ Each prompt is designed to generate a specific type of insight: understanding va
 
 5. "Question 6 asks whether the team discusses its agentic setup in retrospectives. When was the last time you talked about your AI workflow in a retro? What came out of that conversation? If you have not done this, what has the retro been focused on instead?"
 
-6. "Question 7 asks about PM participation -- user stories with AI-relevant criteria, PMs in agentic workflow retros. Product managers, do you feel included in the team's AI practices? Engineers, do you see PM participation as important for this, or does it feel like a stretch?"
+6. "Question 7 asks about PM participation -- product requirements with AI-relevant criteria, PMs in agentic workflow retros. Product managers, do you feel included in the team's AI practices? Engineers, what has your experience been with PM involvement in the team's AI practices?"
 
 ### Identifying Organizational vs. Team Blockers
 

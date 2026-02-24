@@ -26,7 +26,7 @@ This screening should be completed before administering any zone-specific diagno
 
 ## Interpreting Results
 
-- **All three answers are "No":** The organization is at **Zone 0 (Pre-AI Baseline)**. Skip the zone diagnostic questions. Begin with Zone 1 organizational investments: provide tool licenses, establish usage policies, deliver introductory training, and address concerns about AI adoption. Return to the diagnostic after 2-3 months of investment.
+- **All three answers are "No":** The organization is at **Zone 0 (Pre-AI Baseline)**. Skip the zone diagnostic questions. Begin with foundational organizational investments: provide tool licenses, establish usage policies, deliver introductory training, and address concerns about AI adoption. Use the strategic analysis in [Choose Target Zone](/toolkit/choose-target-zone) to determine whether Zone 1 competency or a higher zone is the appropriate target. Return to the diagnostic after 2-3 months of investment.
 
 - **One or two answers are "Yes":** The organization has emerging AI usage but it is not yet widespread. Proceed with the **Zone 1 diagnostic** to assess the depth and consistency of individual adoption. Expect scores in the Emerging or early Developing range.
 
