@@ -43,11 +43,9 @@
   <line x1="387" y1="72" x2="387" y2="560" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4,3"/>
   <line x1="623" y1="72" x2="623" y2="560" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4,3"/>
 
-  <!-- Phase gate diamonds -->
-  <rect x="381" y="61" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 387 67)"/>
-  <rect x="617" y="61" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 623 67)"/>
-  <text x="387" y="55" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Phase Gate</text>
-  <text x="623" y="55" text-anchor="middle" font-size="9" font-weight="500" fill="#92400E">Phase Gate</text>
+  <!-- Phase gate diamonds (positioned at top of divider lines) -->
+  <rect x="381" y="65" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 387 71)"/>
+  <rect x="617" y="65" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 623 71)"/>
 
   <!-- ================================================ -->
   <!-- LANE 1: Organizational Investments (y=118..258) -->
@@ -163,16 +161,12 @@
   <text x="162" y="550" font-size="10" fill="#6B7280" font-style="italic">Early signal between milestones. If trending down, investigate before the next milestone.</text>
 
   <!-- ================================================ -->
-  <!-- RE-DIAGNOSTIC LOOP (right side callout) -->
+  <!-- RE-DIAGNOSTIC LOOP (horizontal annotation below lanes) -->
   <!-- ================================================ -->
-  <!-- Small right-side panel anchored at x=862 -->
-
-  <!-- Arrow from end of timeline to re-diagnostic callout -->
-  <line x1="860" y1="320" x2="875" y2="320" stroke="#D912AE" stroke-width="1.5"/>
-
-  <!-- Re-diagnostic callout box -->
-  <rect x="862" y="118" width="28" height="442" rx="0" fill="none" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="876" y="290" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#D912AE" transform="rotate(-90, 876, 290)">After Phase 3: Re-Diagnostic &#8594; Roadmap Refresh &#8594; Next Cycle</text>
+  <rect x="150" y="568" width="710" height="28" rx="6" fill="#fff" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="505" y="586" text-anchor="middle" font-size="10" font-weight="500" fill="#D912AE">After Phase 3: Re-Diagnostic &#8594; Roadmap Refresh &#8594; Next Cycle (loop back to Phase 1)</text>
+  <!-- Loop arrow -->
+  <path d="M 860 582 C 878 582, 878 90, 860 90 L 150 90" fill="none" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-accent)"/>
 
   <!-- ================================================ -->
   <!-- LEGEND -->
