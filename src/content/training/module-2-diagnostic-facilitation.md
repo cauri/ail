@@ -128,7 +128,7 @@ What the facilitator should not do is privately replace the team's scores with t
 
 **When to challenge a score vs. accept it.** Challenge a score when: the discussion reveals no concrete behavioral evidence for a high score; the team's description of their practice matches a lower-frequency behavior than the score suggests; or there is a clear discrepancy between what one or two vocal members claim and what quieter members acknowledge. Accept a score when: the team produces specific, recent, concrete behavioral examples; multiple team members independently describe consistent behavior; and the facilitator's own observations during the session are consistent with the score.
 
-**Applying competency thresholds.** The thresholds are criteria, not a formula. A team with a composite average of 4.8 but a standard deviation of 0.7 is Established, not Exemplary. The facilitator must check all three criteria independently — high composite average, low variance, and no weak-link questions.
+**Applying competency thresholds.** The thresholds are criteria, not a formula. A team with a composite average of 4.8 but a standard deviation of 0.7 is Established, not Consistent. The facilitator must check all three criteria independently — high composite average, low variance, and no weak-link questions.
 
 ### Session 7: Common Facilitation Challenges
 

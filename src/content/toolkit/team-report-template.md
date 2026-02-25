@@ -341,7 +341,7 @@ These observable behaviors will indicate progress before the next formal diagnos
 
 - **Scale:** 1 = Never, 2 = Rarely, 3 = Sometimes, 4 = Often, 5 = Always
 - **Composite score:** The most frequent response across all team members for a given question. Ties are resolved by taking the lower value.
-- **Competency threshold (Exemplary):** Zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0.
+- **Competency threshold (Consistent):** Zone composite average ≥ 4.7, standard deviation across all individual responses ≤ 0.5, and no single question composite below 4.0. Exemplary requires meeting these criteria plus a qualitative assessment of coaching capability, contextual adaptation, and practice innovation.
 - **High-variance item:** Any question where the range between the lowest and highest individual score is 3 or more points.
 
 ---

@@ -168,7 +168,7 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 
 **Side annotation (outside the tree):**
 - "The thresholds measure both high performance AND consistency. Check each criterion independently."
-- "A team at 4.8 composite with high variance (SD > 0.5) is ESTABLISHED, not Exemplary."
+- "A team at 4.8 composite with high variance (SD > 0.5) is ESTABLISHED, not Consistent."
 
 **Key visual cues:**
 - The three criteria should be visually parallel and equally weighted -- no one criterion is "more important"
