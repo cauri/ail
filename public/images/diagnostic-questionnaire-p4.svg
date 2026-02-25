@@ -276,7 +276,7 @@
     <text x="48" y="22" class="section-label">Section E</text>
     <rect x="48" y="26" width="40" height="1.5" fill="#9CA3AF"/>
     <text x="48" y="42" class="section-desc">These questions describe more advanced practices. Score honestly based on what you actually do --</text>
-    <text x="48" y="53" class="section-desc">low scores are expected and are valuable data.</text>
+    <text x="48" y="53" class="section-desc">low scores are expected and are valuable data. (See facilitator guide for question text.)</text>
 
     <!-- Column headers for sentinel -->
     <g transform="translate(0, 58)">
@@ -305,6 +305,7 @@
 
     <!-- Sentinel Q S2 -->
     <g transform="translate(48, 118)">
+      <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
       <text x="0" y="11" class="sentinel-num">S2.</text>
       <line x1="20" y1="3" x2="560" y2="3" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
       <line x1="20" y1="15" x2="560" y2="15" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
@@ -318,6 +319,7 @@
 
     <!-- Sentinel Q S3 -->
     <g transform="translate(48, 150)">
+      <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
       <text x="0" y="11" class="sentinel-num">S3.</text>
       <line x1="20" y1="3" x2="560" y2="3" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
       <line x1="20" y1="15" x2="560" y2="15" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
@@ -331,6 +333,7 @@
 
     <!-- Sentinel Q S4 -->
     <g transform="translate(48, 182)">
+      <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
       <text x="0" y="11" class="sentinel-num">S4.</text>
       <line x1="20" y1="3" x2="560" y2="3" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
       <line x1="20" y1="15" x2="560" y2="15" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
