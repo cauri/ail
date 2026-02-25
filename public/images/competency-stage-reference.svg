@@ -102,7 +102,7 @@
   <text x="170" y="485" font-size="11" fill="#151D1A">Habitual even under stress. Behaviors are</text>
   <text x="170" y="501" font-size="11" fill="#151D1A">automatic — persist through personnel changes,</text>
   <text x="170" y="517" font-size="11" fill="#151D1A">deadline pressure, production incidents.</text>
-  <text x="170" y="547" font-size="10" fill="#6B7280">Composite >= 4.7, SD <= 0.5, no question below 4.0.</text>
+  <text x="170" y="547" font-size="10" fill="#6B7280">Composite &#8805; 4.7, SD &#8804; 0.5, no question below 4.0.</text>
 
   <text x="500" y="485" font-size="11" fill="#151D1A" font-style="italic">"We don't think about it</text>
   <text x="500" y="501" font-size="11" fill="#151D1A" font-style="italic">anymore — it's just how</text>

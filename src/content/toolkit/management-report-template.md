@@ -1,5 +1,5 @@
 ---
-title: "ACE Diagnostic: Management Report"
+title: "Management Report Template"
 description: "Template for producing a management-level report summarizing diagnostic results across multiple teams."
 section: "reports"
 order: 3

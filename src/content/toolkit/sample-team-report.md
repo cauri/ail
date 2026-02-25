@@ -1,5 +1,5 @@
 ---
-title: "ACE Diagnostic: Team Report"
+title: "Sample Team Report (FinServ Corp)"
 description: "A sample completed team diagnostic report for the Payments Platform team at FinServ Corp."
 section: "reports"
 type: "report"

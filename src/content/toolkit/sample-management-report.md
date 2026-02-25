@@ -1,5 +1,5 @@
 ---
-title: "ACE Diagnostic: Management Report"
+title: "Sample Management Report (FinServ Corp)"
 description: "A sample completed management report summarizing diagnostic results across multiple teams at FinServ Corp."
 section: "reports"
 type: "report"

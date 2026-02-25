@@ -64,7 +64,7 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
   - Placement: Engagement Model (primary); [Module 5](/training/module-5-coaching-engagement/) (reference); [Module 6](/training/module-6-embedded-delivery/) (reference)
 
 - [x] **VA-14: Threshold Sensitivity** -- [`threshold-sensitivity.svg`](/images/threshold-sensitivity.svg)
-  - Two-panel chart showing how Exemplary classification changes as composite and SD thresholds shift, with ambiguity zones
+  - Two-panel chart showing how Consistent classification changes as composite and SD thresholds shift, with ambiguity zones
   - Placement: Scoring Thresholds (primary); [Module 2](/training/module-2-diagnostic-facilitation/) (reference)
 
 - [x] **VA-15: Regression Diagnostic Decision Tree** -- [`regression-diagnostic-decision-tree.svg`](/images/regression-diagnostic-decision-tree.svg)
@@ -100,7 +100,7 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
   - Placement: [Progressive Competency Model](/toolkit/progressive-competency-model) (primary)
 
 - [x] **VA-23: Zone Distribution Report** -- [`zone-distribution-report.svg`](/images/zone-distribution-report.svg)
-  - Sample zone distribution chart showing teams distributed across zones and competency stages
+  - Sample zone distribution chart showing teams distributed across zones and five competency stages (Emerging, Developing, Established, Consistent, Exemplary)
   - Placement: [Sample Management Report](/toolkit/sample-management-report) (primary)
 
 - [x] **VA-24: Leading Indicators Dashboard** -- [`leading-indicators-dashboard.svg`](/images/leading-indicators-dashboard.svg)
@@ -506,19 +506,19 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 
 ### VA-14: Threshold Sensitivity
 
-**Purpose:** Makes concrete the claim that diagnostic thresholds "are not bright lines." Shows how the proportion of teams classified as Exemplary changes as composite and SD thresholds shift by small amounts.
+**Purpose:** Makes concrete the claim that diagnostic thresholds "are not bright lines." Shows how the proportion of teams classified as Consistent changes as composite and SD thresholds shift by small amounts.
 
 **Layout:** Two-panel chart.
 
 **Panel 1 -- Composite Threshold Sensitivity:**
 - X-axis: Composite threshold (4.3 to 5.0)
-- Y-axis: % of teams qualifying as Exemplary
+- Y-axis: % of teams qualifying as Consistent
 - Shows the steep part of the curve around 4.7 where small movements produce large reclassification effects
 - Ambiguity zone (+-0.2) highlighted
 
 **Panel 2 -- SD Threshold Sensitivity:**
 - X-axis: SD threshold (0.3 to 0.8)
-- Y-axis: % of teams qualifying as Exemplary
+- Y-axis: % of teams qualifying as Consistent
 - Shows similar sensitivity around 0.5
 
 **Key visual cues:**
@@ -681,9 +681,10 @@ This checklist tracks all visual aids in the ACE framework. Each visual aid incl
 
 **Purpose:** Management report visualization template showing how to present team zone and competency stage distribution data for leadership. Uses the FinServ Corp sample engagement data as a worked example.
 
-**Layout:** Distribution chart with zone/stage matrix and investment themes summary panel.
+**Layout:** Distribution chart with zone/stage matrix (five columns: Emerging, Developing, Established, Consistent, Exemplary) and investment themes summary panel.
 
 **Content:**
+- Five competency stage columns matching the five-stage model (Emerging, Developing, Established, Consistent, Exemplary)
 - Sample distribution showing 5 teams across Zone 1 Developing, Zone 1 Established, and Zone 2 Emerging
 - Investment themes summary panel
 - Zone-specific colors from the style guide

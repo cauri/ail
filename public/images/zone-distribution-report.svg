@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520"
      font-family="'Inter', sans-serif">
   <title>Zone Distribution Report — Management Report Visualization Template</title>
-  <desc>A management report visualization showing how to present team zone and competency stage distribution data for leadership. Shows a sample distribution from the FinServ Corp example engagement: 5 teams distributed across Zone 1 Developing, Zone 1 Established, and Zone 2 Emerging, with an investment themes summary panel. Designed for inclusion in management reports and leadership presentations.</desc>
+  <desc>A management report visualization showing how to present team zone and competency stage distribution data for leadership. Shows a sample distribution from the FinServ Corp example engagement: 5 teams distributed across Zone 1 Developing, Zone 1 Established, and Zone 2 Emerging, with columns for all five competency stages (Emerging, Developing, Established, Consistent, Exemplary) and an investment themes summary panel. Designed for inclusion in management reports and leadership presentations.</desc>
 
   <!-- Background -->
   <rect width="900" height="520" fill="#fff" rx="8"/>
@@ -12,17 +12,17 @@
   <text x="32" y="54" font-size="12" fill="#6B7280">FinServ Corp Engineering — 5 teams assessed, January 2026</text>
 
   <!-- ================================================ -->
-  <!-- DISTRIBUTION MATRIX — horizontal bar representation -->
-  <!-- Shows zones on Y axis, competency stages as horizontal segments -->
+  <!-- DISTRIBUTION MATRIX — 5 competency stage columns -->
   <!-- ================================================ -->
 
-  <!-- Column headers: stages -->
-  <text x="220" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">EMERGING</text>
-  <text x="350" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">DEVELOPING</text>
-  <text x="490" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">ESTABLISHED</text>
-  <text x="636" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">EXEMPLARY</text>
+  <!-- Column headers: five stages -->
+  <text x="208" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">EMERGING</text>
+  <text x="312" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">DEVELOPING</text>
+  <text x="420" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">ESTABLISHED</text>
+  <text x="534" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#115E59" letter-spacing="0.06em">CONSISTENT</text>
+  <text x="644" y="88" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#9CA3AF" letter-spacing="0.06em">EXEMPLARY</text>
 
-  <line x1="200" y1="94" x2="740" y2="94" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="200" y1="94" x2="748" y2="94" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- ================================================ -->
   <!-- ROW: Zone 0 — empty -->
@@ -31,14 +31,16 @@
   <text x="130" y="120" font-size="10" fill="#9CA3AF">Baseline</text>
 
   <!-- Empty cells -->
-  <rect x="220" y="106" width="120" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="280" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
-  <rect x="350" y="106" width="130" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="415" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
-  <rect x="490" y="106" width="136" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="558" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
-  <rect x="636" y="106" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="688" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="200" y="106" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="252" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="308" y="106" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="360" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="416" y="106" width="110" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="471" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="530" y="106" width="106" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="583" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="640" y="106" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="692" y="121" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
 
   <!-- ================================================ -->
   <!-- ROW: Zone 1 — 4 teams (2 Developing, 2 Established) -->
@@ -47,23 +49,27 @@
   <text x="130" y="156" font-size="10" fill="#1E40AF">Augmenting</text>
 
   <!-- Emerging: 0 -->
-  <rect x="220" y="142" width="120" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="280" y="157" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
+  <rect x="200" y="142" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="252" y="157" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
 
   <!-- Developing: 2 teams -->
-  <rect x="350" y="142" width="130" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="415" y="157" text-anchor="middle" font-size="11" font-weight="500" fill="#1E40AF">2 teams</text>
+  <rect x="308" y="142" width="104" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="360" y="157" text-anchor="middle" font-size="11" font-weight="500" fill="#1E40AF">2 teams</text>
 
   <!-- Established: 2 teams -->
-  <rect x="490" y="142" width="136" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="558" y="157" text-anchor="middle" font-size="11" font-weight="500" fill="#1E40AF">2 teams</text>
+  <rect x="416" y="142" width="110" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="471" y="157" text-anchor="middle" font-size="11" font-weight="500" fill="#1E40AF">2 teams</text>
+
+  <!-- Consistent: 0 -->
+  <rect x="530" y="142" width="106" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="583" y="157" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
 
   <!-- Exemplary: 0 -->
-  <rect x="636" y="142" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="688" y="157" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
+  <rect x="640" y="142" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="692" y="157" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
 
   <!-- Row total -->
-  <text x="754" y="156" font-size="11" font-weight="500" fill="#1E40AF">4</text>
+  <text x="758" y="156" font-size="11" font-weight="500" fill="#1E40AF">4</text>
 
   <!-- ================================================ -->
   <!-- ROW: Zone 2 — 1 team (Emerging) -->
@@ -72,23 +78,27 @@
   <text x="130" y="192" font-size="10" fill="#065F46">Integrating</text>
 
   <!-- Emerging: 1 team -->
-  <rect x="220" y="178" width="120" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
-  <text x="280" y="193" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">1 team</text>
+  <rect x="200" y="178" width="104" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="252" y="193" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">1 team</text>
 
   <!-- Developing: 0 -->
-  <rect x="350" y="178" width="130" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="415" y="193" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
+  <rect x="308" y="178" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="360" y="193" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
 
   <!-- Established: 0 -->
-  <rect x="490" y="178" width="136" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="558" y="193" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
+  <rect x="416" y="178" width="110" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="471" y="193" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
+
+  <!-- Consistent: 0 -->
+  <rect x="530" y="178" width="106" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="583" y="193" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
 
   <!-- Exemplary: 0 -->
-  <rect x="636" y="178" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="688" y="193" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
+  <rect x="640" y="178" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="692" y="193" text-anchor="middle" font-size="10" fill="#9CA3AF">0</text>
 
   <!-- Row total -->
-  <text x="754" y="192" font-size="11" font-weight="500" fill="#065F46">1</text>
+  <text x="758" y="192" font-size="11" font-weight="500" fill="#065F46">1</text>
 
   <!-- ================================================ -->
   <!-- ROW: Zone 3 — empty -->
@@ -96,14 +106,16 @@
   <text x="32" y="228" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#9CA3AF">Zone 3</text>
   <text x="130" y="228" font-size="10" fill="#9CA3AF">Accelerating</text>
 
-  <rect x="220" y="214" width="120" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="280" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
-  <rect x="350" y="214" width="130" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="415" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
-  <rect x="490" y="214" width="136" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="558" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
-  <rect x="636" y="214" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="688" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="200" y="214" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="252" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="308" y="214" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="360" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="416" y="214" width="110" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="471" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="530" y="214" width="106" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="583" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
+  <rect x="640" y="214" width="104" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="692" y="229" text-anchor="middle" font-size="10" fill="#9CA3AF">--</text>
 
   <!-- ================================================ -->
   <!-- INTERPRETATION PANEL -->

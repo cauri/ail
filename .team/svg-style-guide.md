@@ -40,6 +40,7 @@ This guide ensures all visual aids match the ACE site's design system. Every SVG
 | Stage | Border/accent | Light fill | Text |
 |-------|--------------|------------|------|
 | Exemplary | `#34D399` (emerald) | `#ECFDF5` | `#065F46` |
+| Consistent | `#2DD4BF` (teal) | `#F0FDFA` | `#115E59` |
 | Established | `#60A5FA` (blue) | `#EFF6FF` | `#1E40AF` |
 | Developing | `#FBBF24` (amber) | `#FFFBEB` | `#92400E` |
 | Emerging | `#FB923C` (orange-400) | `#FFF7ED` (orange-50) | `#9A3412` (orange-800) |

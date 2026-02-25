@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580"
      font-family="'Inter', sans-serif">
   <title>Threshold Sensitivity Visualization</title>
-  <desc>Two-panel visualization showing how the proportion of teams qualifying as Exemplary changes as threshold values shift. Panel A shows composite threshold sensitivity (4.0-5.0 range) with an S-curve and ambiguity zone. Panel B shows SD threshold sensitivity (0.2-0.8 range). Current thresholds and ambiguity zones are marked.</desc>
+  <desc>Two-panel visualization showing how the proportion of teams qualifying as Consistent changes as threshold values shift. Panel A shows composite threshold sensitivity (4.0-5.0 range) with an S-curve and ambiguity zone. Panel B shows SD threshold sensitivity (0.2-0.8 range). Current thresholds and ambiguity zones are marked.</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>

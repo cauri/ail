@@ -1,5 +1,5 @@
 ---
-title: "ACE Diagnostic: Team Report"
+title: "Team Report Template"
 description: "Template for producing a team-level diagnostic report after an ACE workshop."
 section: "reports"
 type: "report"
