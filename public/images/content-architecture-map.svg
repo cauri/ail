@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 920"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 920"
      font-family="'Inter', sans-serif">
   <title>Content Architecture Map</title>
   <desc>A navigational map of all ACE framework content organized by collection (Training, Toolkit, Research) with audience entry points and primary navigation pathways. Training contains 8 sequential modules. Toolkit contains approximately 44 files grouped by section type. Research contains 5 files. Pathways show the engagement lifecycle and facilitator learning paths.</desc>
@@ -16,359 +16,359 @@
   </defs>
 
   <!-- Background -->
-  <rect width="960" height="920" fill="#fff" rx="8"/>
+  <rect width="900" height="920" fill="#fff" rx="8"/>
 
   <!-- Title -->
-  <text x="32" y="32" font-family="'DM Sans', sans-serif" font-size="20"
+  <text x="30" y="32" font-family="'DM Sans', sans-serif" font-size="20"
         font-weight="400" fill="#151D1A" letter-spacing="-0.03em">ACE Content Architecture</text>
-  <text x="32" y="50" font-size="12" fill="#6B7280">57 documents across 3 collections — find where you start and where to go next</text>
+  <text x="30" y="50" font-size="12" fill="#6B7280">57 documents across 3 collections — find where you start and where to go next</text>
 
   <!-- ================================================ -->
   <!-- AUDIENCE ENTRY POINTS (y=66..90) -->
   <!-- ================================================ -->
-  <rect x="32" y="66" width="896" height="32" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
+  <rect x="30" y="66" width="840" height="32" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
 
-  <circle cx="52" cy="82" r="6" fill="#D912AE"/>
-  <text x="64" y="86" font-size="10" font-weight="500" fill="#D912AE">Entry Points:</text>
+  <circle cx="49" cy="82" r="6" fill="#D912AE"/>
+  <text x="60" y="86" font-size="10" font-weight="500" fill="#D912AE">Entry Points:</text>
 
-  <text x="152" y="86" font-size="10" fill="#151D1A" font-weight="500">Facilitators</text>
-  <text x="152" y="78" font-size="8" fill="#6B7280">&#8595; Training</text>
+  <text x="142" y="86" font-size="10" fill="#151D1A" font-weight="500">Facilitators</text>
+  <text x="142" y="78" font-size="8" fill="#6B7280">&#8595; Training</text>
 
-  <text x="310" y="86" font-size="10" fill="#151D1A" font-weight="500">Leadership</text>
-  <text x="310" y="78" font-size="8" fill="#6B7280">&#8595; What Is ACE</text>
+  <text x="290" y="86" font-size="10" fill="#151D1A" font-weight="500">Leadership</text>
+  <text x="290" y="78" font-size="8" fill="#6B7280">&#8595; What Is ACE</text>
 
-  <text x="468" y="86" font-size="10" fill="#151D1A" font-weight="500">Team Members</text>
-  <text x="468" y="78" font-size="8" fill="#6B7280">&#8595; Zone References</text>
+  <text x="438" y="86" font-size="10" fill="#151D1A" font-weight="500">Team Members</text>
+  <text x="438" y="78" font-size="8" fill="#6B7280">&#8595; Zone References</text>
 
-  <text x="640" y="86" font-size="10" fill="#151D1A" font-weight="500">Researchers</text>
-  <text x="640" y="78" font-size="8" fill="#6B7280">&#8595; Research</text>
+  <text x="600" y="86" font-size="10" fill="#151D1A" font-weight="500">Researchers</text>
+  <text x="600" y="78" font-size="8" fill="#6B7280">&#8595; Research</text>
 
-  <text x="810" y="86" font-size="10" fill="#151D1A" font-weight="500">Consultants</text>
-  <text x="810" y="78" font-size="8" fill="#6B7280">&#8595; Engagement Model</text>
+  <text x="759" y="86" font-size="10" fill="#151D1A" font-weight="500">Consultants</text>
+  <text x="759" y="78" font-size="8" fill="#6B7280">&#8595; Engagement Model</text>
 
   <!-- ================================================ -->
   <!-- COLLECTION 1: TRAINING (y=108..260) -->
   <!-- 8 files, sequential modules -->
   <!-- ================================================ -->
-  <rect x="32" y="108" width="896" height="152" rx="8" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1.5"/>
+  <rect x="30" y="108" width="840" height="152" rx="8" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1.5"/>
 
-  <text x="52" y="130" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Training</text>
-  <text x="150" y="130" font-size="11" fill="#6B7280">8 files — Facilitator certification program (sequential)</text>
+  <text x="49" y="130" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Training</text>
+  <text x="140" y="130" font-size="11" fill="#6B7280">8 files — Facilitator certification program (sequential)</text>
 
   <!-- Program Overview -->
-  <rect x="52" y="142" width="100" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="102" y="160" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Program</text>
-  <text x="102" y="168" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Overview</text>
+  <rect x="49" y="142" width="90" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="94" y="160" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Program</text>
+  <text x="94" y="168" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Overview</text>
 
-  <!-- Module sequence -->
-  <line x1="152" y1="156" x2="166" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <!-- Module sequence: 90 + 22 + 74 + 22 + 74 + 22 + 74 + 22 + 74 + 22 + 74 + 22 + 74 = 666px chain, starts x=49, ends x=715 -->
+  <line x1="139" y1="156" x2="161" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
-  <rect x="174" y="142" width="82" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="215" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 1</text>
-  <text x="215" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Foundations</text>
+  <rect x="169" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="206" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 1</text>
+  <text x="206" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Foundations</text>
 
-  <line x1="256" y1="156" x2="268" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="243" y1="156" x2="265" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
-  <rect x="276" y="142" width="82" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="317" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 2</text>
-  <text x="317" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Diagnostic</text>
+  <rect x="273" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="310" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 2</text>
+  <text x="310" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Diagnostic</text>
 
-  <line x1="358" y1="156" x2="370" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="347" y1="156" x2="369" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
-  <rect x="378" y="142" width="82" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="419" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 3</text>
-  <text x="419" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Goal Setting</text>
+  <rect x="377" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="414" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 3</text>
+  <text x="414" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Goal Setting</text>
 
-  <line x1="460" y1="156" x2="472" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="451" y1="156" x2="473" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
-  <rect x="480" y="142" width="82" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="521" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 4</text>
-  <text x="521" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Roadmaps</text>
+  <rect x="481" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="518" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 4</text>
+  <text x="518" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Roadmaps</text>
 
-  <line x1="562" y1="156" x2="574" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="555" y1="156" x2="577" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
-  <rect x="582" y="142" width="82" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="623" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 5</text>
-  <text x="623" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Coaching</text>
+  <rect x="585" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="622" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 5</text>
+  <text x="622" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Coaching</text>
 
-  <line x1="664" y1="156" x2="676" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="659" y1="156" x2="681" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
-  <rect x="684" y="142" width="82" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="725" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 6</text>
-  <text x="725" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Delivery</text>
+  <rect x="689" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="726" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 6</text>
+  <text x="726" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Delivery</text>
 
   <!-- Visual aids checklist -->
-  <rect x="800" y="142" width="110" height="28" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="855" y="160" text-anchor="middle" font-size="9" fill="#6B7280">Visual Aids</text>
-  <text x="855" y="168" text-anchor="middle" font-size="9" fill="#6B7280">Checklist</text>
+  <rect x="775" y="142" width="82" height="28" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="816" y="160" text-anchor="middle" font-size="9" fill="#6B7280">Visual Aids</text>
+  <text x="816" y="168" text-anchor="middle" font-size="9" fill="#6B7280">Checklist</text>
 
   <!-- Pathway label -->
-  <rect x="52" y="180" width="154" height="18" rx="4" fill="#D912AE" fill-opacity="0.1" stroke="#D912AE" stroke-width="1"/>
-  <text x="129" y="193" text-anchor="middle" font-size="9" font-weight="500" fill="#D912AE">Facilitator Learning Path &#8594;</text>
+  <rect x="49" y="180" width="154" height="18" rx="4" fill="#D912AE" fill-opacity="0.1" stroke="#D912AE" stroke-width="1"/>
+  <text x="126" y="193" text-anchor="middle" font-size="9" font-weight="500" fill="#D912AE">Facilitator Learning Path &#8594;</text>
 
   <!-- Module-to-toolkit connections note -->
-  <text x="52" y="216" font-size="9" fill="#6B7280">Each module references Toolkit documents as supporting material. Modules build sequentially:</text>
-  <text x="52" y="230" font-size="9" fill="#6B7280">M1 introduces the model &#8594; M2 teaches diagnostics &#8594; M3 covers goal-setting &#8594; M4 builds roadmaps &#8594; M5 teaches coaching &#8594; M6 covers embedded delivery</text>
-  <text x="52" y="248" font-size="9" fill="#6B7280" font-style="italic">Start with the Program Overview. Complete all 6 modules for certification.</text>
+  <text x="49" y="216" font-size="9" fill="#6B7280">Each module references Toolkit documents as supporting material. Modules build sequentially:</text>
+  <text x="49" y="230" font-size="9" fill="#6B7280">M1 introduces the model &#8594; M2 teaches diagnostics &#8594; M3 covers goal-setting &#8594; M4 builds roadmaps &#8594; M5 teaches coaching &#8594; M6 covers embedded delivery</text>
+  <text x="49" y="248" font-size="9" fill="#6B7280" font-style="italic">Start with the Program Overview. Complete all 6 modules for certification.</text>
 
   <!-- ================================================ -->
   <!-- COLLECTION 2: TOOLKIT (y=270..770) -->
   <!-- ~44 files grouped by section type -->
   <!-- ================================================ -->
-  <rect x="32" y="270" width="896" height="510" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1.5"/>
+  <rect x="30" y="270" width="840" height="510" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1.5"/>
 
-  <text x="52" y="292" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#151D1A">Toolkit</text>
-  <text x="120" y="292" font-size="11" fill="#6B7280">44 files — Reference documents, diagnostic instruments, facilitation guides, and how-to content</text>
+  <text x="49" y="292" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#151D1A">Toolkit</text>
+  <text x="112" y="292" font-size="11" fill="#6B7280">44 files — Reference documents, diagnostic instruments, facilitation guides, and how-to content</text>
 
   <!-- ======== REFERENCE SECTION (Row 1) ======== -->
-  <rect x="52" y="306" width="430" height="110" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="68" y="322" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Reference</text>
-  <text x="160" y="322" font-size="9" fill="#9CA3AF">Core model documentation</text>
+  <rect x="49" y="306" width="400" height="110" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="64" y="322" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Reference</text>
+  <text x="150" y="322" font-size="9" fill="#9CA3AF">Core model documentation</text>
 
-  <rect x="68" y="332" width="120" height="22" rx="4" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
-  <text x="128" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#1E40AF">What Is ACE</text>
+  <rect x="64" y="332" width="112" height="22" rx="4" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
+  <text x="120" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#1E40AF">What Is ACE</text>
 
-  <rect x="196" y="332" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="256" y="347" text-anchor="middle" font-size="8" fill="#151D1A">Progressive Model</text>
+  <rect x="184" y="332" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="240" y="347" text-anchor="middle" font-size="8" fill="#151D1A">Progressive Model</text>
 
-  <rect x="324" y="332" width="148" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="398" y="347" text-anchor="middle" font-size="8" fill="#151D1A">Competency vs Knowledge</text>
+  <rect x="304" y="332" width="136" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="372" y="347" text-anchor="middle" font-size="8" fill="#151D1A">Competency vs Knowledge</text>
 
-  <rect x="68" y="360" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="128" y="375" text-anchor="middle" font-size="8" fill="#151D1A">Org. Investments</text>
+  <rect x="64" y="360" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="120" y="375" text-anchor="middle" font-size="8" fill="#151D1A">Org. Investments</text>
 
-  <rect x="196" y="360" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="256" y="375" text-anchor="middle" font-size="8" fill="#151D1A">Investment Catalog</text>
+  <rect x="184" y="360" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="240" y="375" text-anchor="middle" font-size="8" fill="#151D1A">Investment Catalog</text>
 
-  <rect x="324" y="360" width="148" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="398" y="375" text-anchor="middle" font-size="8" fill="#151D1A">Proficiency Catalog</text>
+  <rect x="304" y="360" width="136" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="372" y="375" text-anchor="middle" font-size="8" fill="#151D1A">Proficiency Catalog</text>
 
-  <rect x="68" y="388" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="128" y="403" text-anchor="middle" font-size="8" fill="#151D1A">Technique Catalog</text>
+  <rect x="64" y="388" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="120" y="403" text-anchor="middle" font-size="8" fill="#151D1A">Technique Catalog</text>
 
-  <rect x="196" y="388" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="256" y="403" text-anchor="middle" font-size="8" fill="#151D1A">Glossary</text>
+  <rect x="184" y="388" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="240" y="403" text-anchor="middle" font-size="8" fill="#151D1A">Glossary</text>
 
-  <rect x="324" y="388" width="148" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="398" y="403" text-anchor="middle" font-size="8" fill="#151D1A">Hybrid Progression</text>
+  <rect x="304" y="388" width="136" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="372" y="403" text-anchor="middle" font-size="8" fill="#151D1A">Hybrid Progression</text>
 
   <!-- ======== ZONE REFERENCES (Row 1, right) ======== -->
-  <rect x="496" y="306" width="420" height="110" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="512" y="322" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Zone References</text>
-  <text x="620" y="322" font-size="9" fill="#9CA3AF">Zone descriptions + diagnostic questions</text>
+  <rect x="463" y="306" width="394" height="110" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="478" y="322" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Zone References</text>
+  <text x="580" y="322" font-size="9" fill="#9CA3AF">Zone descriptions + diagnostic questions</text>
 
   <!-- Zone refs with zone colors -->
-  <rect x="512" y="332" width="96" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
-  <text x="560" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#1E40AF">Z1 Augmenting</text>
+  <rect x="478" y="332" width="90" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="523" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#1E40AF">Z1 Augmenting</text>
 
-  <rect x="616" y="332" width="96" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
-  <text x="664" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#065F46">Z2 Integrating</text>
+  <rect x="576" y="332" width="90" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <text x="621" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#065F46">Z2 Integrating</text>
 
-  <rect x="720" y="332" width="96" height="22" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
-  <text x="768" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#92400E">Z3 Accelerating</text>
+  <rect x="674" y="332" width="90" height="22" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="719" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#92400E">Z3 Accelerating</text>
 
-  <rect x="824" y="332" width="80" height="22" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
-  <text x="864" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#5B21B6">Z4 Industrial.</text>
+  <rect x="772" y="332" width="76" height="22" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
+  <text x="810" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#5B21B6">Z4 Industrial.</text>
 
   <!-- Diagnostic questions -->
-  <rect x="512" y="362" width="96" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1" fill-opacity="0.5"/>
-  <text x="560" y="377" text-anchor="middle" font-size="8" fill="#1E40AF">Z1 Questions</text>
+  <rect x="478" y="362" width="90" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1" fill-opacity="0.5"/>
+  <text x="523" y="377" text-anchor="middle" font-size="8" fill="#1E40AF">Z1 Questions</text>
 
-  <rect x="616" y="362" width="96" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1" fill-opacity="0.5"/>
-  <text x="664" y="377" text-anchor="middle" font-size="8" fill="#065F46">Z2 Questions</text>
+  <rect x="576" y="362" width="90" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1" fill-opacity="0.5"/>
+  <text x="621" y="377" text-anchor="middle" font-size="8" fill="#065F46">Z2 Questions</text>
 
-  <rect x="720" y="362" width="96" height="22" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1" fill-opacity="0.5"/>
-  <text x="768" y="377" text-anchor="middle" font-size="8" fill="#92400E">Z3 Questions</text>
+  <rect x="674" y="362" width="90" height="22" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1" fill-opacity="0.5"/>
+  <text x="719" y="377" text-anchor="middle" font-size="8" fill="#92400E">Z3 Questions</text>
 
-  <rect x="824" y="362" width="80" height="22" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1" fill-opacity="0.5"/>
-  <text x="864" y="377" text-anchor="middle" font-size="8" fill="#5B21B6">Z4 Questions</text>
+  <rect x="772" y="362" width="76" height="22" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1" fill-opacity="0.5"/>
+  <text x="810" y="377" text-anchor="middle" font-size="8" fill="#5B21B6">Z4 Questions</text>
 
   <!-- Baseline and scoring -->
-  <rect x="512" y="392" width="96" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="560" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Baseline Screen</text>
+  <rect x="478" y="392" width="90" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="523" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Baseline Screen</text>
 
-  <rect x="616" y="392" width="96" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="664" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Scoring Thresholds</text>
+  <rect x="576" y="392" width="90" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="621" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Scoring Thresholds</text>
 
-  <rect x="720" y="392" width="96" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="768" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Interpreting Results</text>
+  <rect x="674" y="392" width="90" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="719" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Interpreting Results</text>
 
-  <rect x="824" y="392" width="80" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="864" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Discussion</text>
+  <rect x="772" y="392" width="76" height="22" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="810" y="407" text-anchor="middle" font-size="8" fill="#151D1A">Discussion</text>
 
   <!-- ======== FACILITATION & CONSULTING (Row 2) ======== -->
-  <rect x="52" y="426" width="430" height="100" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="68" y="442" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Facilitation</text>
-  <text x="165" y="442" font-size="9" fill="#9CA3AF">Guides for running workshops</text>
+  <rect x="49" y="426" width="400" height="100" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="64" y="442" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Facilitation</text>
+  <text x="155" y="442" font-size="9" fill="#9CA3AF">Guides for running workshops</text>
 
-  <rect x="68" y="452" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="128" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Facilitator Guide</text>
+  <rect x="64" y="452" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="120" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Facilitator Guide</text>
 
-  <rect x="196" y="452" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="256" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Workshop Script</text>
+  <rect x="184" y="452" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="240" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Workshop Script</text>
 
-  <rect x="324" y="452" width="148" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="398" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Pre-Workshop Checklist</text>
+  <rect x="304" y="452" width="136" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="372" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Pre-Workshop Checklist</text>
 
-  <rect x="68" y="480" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="128" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Quick Reference</text>
+  <rect x="64" y="480" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="120" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Quick Reference</text>
 
-  <rect x="196" y="480" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="256" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Running First Dx</text>
+  <rect x="184" y="480" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="240" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Running First Dx</text>
 
-  <rect x="324" y="480" width="148" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="398" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Interview Guide</text>
+  <rect x="304" y="480" width="136" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="372" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Interview Guide</text>
 
   <!-- ======== CONSULTING (Row 2, right) ======== -->
-  <rect x="496" y="426" width="420" height="100" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="512" y="442" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Consulting</text>
-  <text x="600" y="442" font-size="9" fill="#9CA3AF">Engagement and goal-setting</text>
+  <rect x="463" y="426" width="394" height="100" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="478" y="442" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Consulting</text>
+  <text x="562" y="442" font-size="9" fill="#9CA3AF">Engagement and goal-setting</text>
 
-  <rect x="512" y="452" width="120" height="22" rx="4" fill="#EDE8F5" stroke="#D912AE" stroke-width="1"/>
-  <text x="572" y="467" text-anchor="middle" font-size="8" font-weight="500" fill="#D912AE">Engagement Model</text>
+  <rect x="478" y="452" width="112" height="22" rx="4" fill="#EDE8F5" stroke="#D912AE" stroke-width="1"/>
+  <text x="534" y="467" text-anchor="middle" font-size="8" font-weight="500" fill="#D912AE">Engagement Model</text>
 
-  <rect x="640" y="452" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="700" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Goal-Setting Framework</text>
+  <rect x="598" y="452" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="654" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Goal-Setting Framework</text>
 
-  <rect x="768" y="452" width="136" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="836" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Choose Target Zone</text>
+  <rect x="718" y="452" width="128" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="782" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Choose Target Zone</text>
 
-  <rect x="512" y="480" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="572" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Present to Leadership</text>
+  <rect x="478" y="480" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="534" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Present to Leadership</text>
 
-  <rect x="640" y="480" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="700" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Context Analysis</text>
+  <rect x="598" y="480" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="654" y="495" text-anchor="middle" font-size="8" fill="#151D1A">Context Analysis</text>
 
   <!-- ======== ROADMAPS (Row 3) ======== -->
-  <rect x="52" y="536" width="430" height="82" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="68" y="552" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Roadmaps</text>
-  <text x="155" y="552" font-size="9" fill="#9CA3AF">Zone transition plans</text>
+  <rect x="49" y="536" width="400" height="82" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="64" y="552" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Roadmaps</text>
+  <text x="145" y="552" font-size="9" fill="#9CA3AF">Zone transition plans</text>
 
-  <rect x="68" y="562" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="128" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Create Roadmap</text>
+  <rect x="64" y="562" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="120" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Create Roadmap</text>
 
-  <rect x="196" y="562" width="96" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
-  <text x="244" y="577" text-anchor="middle" font-size="8" fill="#1E40AF">Base &#8594; Z1</text>
+  <rect x="184" y="562" width="90" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <text x="229" y="577" text-anchor="middle" font-size="8" fill="#1E40AF">Base &#8594; Z1</text>
 
-  <rect x="300" y="562" width="76" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
-  <text x="338" y="577" text-anchor="middle" font-size="8" fill="#065F46">Z1 &#8594; Z2</text>
+  <rect x="282" y="562" width="72" height="22" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <text x="318" y="577" text-anchor="middle" font-size="8" fill="#065F46">Z1 &#8594; Z2</text>
 
-  <rect x="384" y="562" width="82" height="22" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
-  <text x="425" y="577" text-anchor="middle" font-size="8" fill="#92400E">Z2 &#8594; Z3</text>
+  <rect x="362" y="562" width="76" height="22" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <text x="400" y="577" text-anchor="middle" font-size="8" fill="#92400E">Z2 &#8594; Z3</text>
 
-  <rect x="68" y="590" width="82" height="22" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
-  <text x="109" y="605" text-anchor="middle" font-size="8" fill="#5B21B6">Z3 &#8594; Z4</text>
+  <rect x="64" y="590" width="76" height="22" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
+  <text x="102" y="605" text-anchor="middle" font-size="8" fill="#5B21B6">Z3 &#8594; Z4</text>
 
   <!-- ======== METRICS (Row 3, right) ======== -->
-  <rect x="496" y="536" width="420" height="82" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="512" y="552" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Metrics</text>
-  <text x="575" y="552" font-size="9" fill="#9CA3AF">Measurement framework</text>
+  <rect x="463" y="536" width="394" height="82" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="478" y="552" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Metrics</text>
+  <text x="538" y="552" font-size="9" fill="#9CA3AF">Measurement framework</text>
 
-  <rect x="512" y="562" width="96" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="560" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Metrics Tree</text>
+  <rect x="478" y="562" width="90" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="523" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Metrics Tree</text>
 
-  <rect x="616" y="562" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="676" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Zone-Specific Metrics</text>
+  <rect x="576" y="562" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="632" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Zone-Specific Metrics</text>
 
-  <rect x="744" y="562" width="120" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="804" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Org Health Metrics</text>
+  <rect x="696" y="562" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="752" y="577" text-anchor="middle" font-size="8" fill="#151D1A">Org Health Metrics</text>
 
   <!-- ======== REPORTS / TEMPLATES (Row 4) ======== -->
-  <rect x="52" y="628" width="430" height="66" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="68" y="644" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Reports and Templates</text>
-  <text x="230" y="644" font-size="9" fill="#9CA3AF">Deliverable templates</text>
+  <rect x="49" y="628" width="400" height="66" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="64" y="644" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Reports and Templates</text>
+  <text x="216" y="644" font-size="9" fill="#9CA3AF">Deliverable templates</text>
 
-  <rect x="68" y="654" width="100" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="118" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Team Report</text>
+  <rect x="64" y="654" width="94" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="111" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Team Report</text>
 
-  <rect x="176" y="654" width="110" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="231" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Management Report</text>
+  <rect x="166" y="654" width="104" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="218" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Management Report</text>
 
-  <rect x="294" y="654" width="100" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="344" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Sample Team</text>
+  <rect x="278" y="654" width="94" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="325" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Sample Team</text>
 
-  <rect x="402" y="654" width="70" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="437" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Sample Mgmt</text>
+  <rect x="380" y="654" width="62" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="411" y="669" text-anchor="middle" font-size="8" fill="#151D1A">Sample Mgmt</text>
 
   <!-- ================================================ -->
   <!-- COLLECTION 3: RESEARCH (y=790..860) -->
   <!-- 5 files -->
   <!-- ================================================ -->
-  <rect x="32" y="790" width="896" height="66" rx="8" fill="#EDE8F5" stroke="#A78BFA" stroke-width="1.5" fill-opacity="0.3"/>
+  <rect x="30" y="790" width="840" height="66" rx="8" fill="#EDE8F5" stroke="#A78BFA" stroke-width="1.5" fill-opacity="0.3"/>
 
-  <text x="52" y="812" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">Research</text>
-  <text x="130" y="812" font-size="11" fill="#6B7280">5 files — Validation study and interview instruments</text>
+  <text x="49" y="812" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">Research</text>
+  <text x="122" y="812" font-size="11" fill="#6B7280">5 files — Validation study and interview instruments</text>
 
-  <rect x="68" y="822" width="120" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
-  <text x="128" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Literature Review</text>
+  <rect x="64" y="822" width="112" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="120" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Literature Review</text>
 
-  <rect x="196" y="822" width="120" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
-  <text x="256" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Validation Plan</text>
+  <rect x="184" y="822" width="112" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="240" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Validation Plan</text>
 
-  <rect x="324" y="822" width="148" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
-  <text x="398" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Leadership Interviews</text>
+  <rect x="304" y="822" width="136" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="372" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Leadership Interviews</text>
 
-  <rect x="480" y="822" width="148" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
-  <text x="554" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Practitioner Interviews</text>
+  <rect x="448" y="822" width="140" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="518" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Practitioner Interviews</text>
 
-  <rect x="636" y="822" width="120" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
-  <text x="696" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Expert Interviews</text>
+  <rect x="596" y="822" width="112" height="22" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
+  <text x="652" y="837" text-anchor="middle" font-size="8" fill="#5B21B6">Expert Interviews</text>
 
   <!-- ================================================ -->
   <!-- NAVIGATION PATHWAYS -->
   <!-- ================================================ -->
 
   <!-- Engagement lifecycle pathway (vertical, left side) -->
-  <rect x="496" y="700" width="420" height="78" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="512" y="716" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#D912AE">Engagement Lifecycle Path</text>
-  <text x="512" y="732" font-size="9" fill="#6B7280">Follow the consulting engagement from start to finish:</text>
+  <rect x="463" y="700" width="394" height="78" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="478" y="716" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#D912AE">Engagement Lifecycle Path</text>
+  <text x="478" y="732" font-size="9" fill="#6B7280">Follow the consulting engagement from start to finish:</text>
 
-  <text x="522" y="752" font-size="9" fill="#D912AE" font-weight="500">Discovery</text>
-  <text x="570" y="752" font-size="9" fill="#6B7280">&#8594;</text>
-  <text x="586" y="752" font-size="9" fill="#D912AE" font-weight="500">Diagnostic</text>
-  <text x="642" y="752" font-size="9" fill="#6B7280">&#8594;</text>
-  <text x="658" y="752" font-size="9" fill="#D912AE" font-weight="500">Goal Setting</text>
-  <text x="730" y="752" font-size="9" fill="#6B7280">&#8594;</text>
-  <text x="746" y="752" font-size="9" fill="#D912AE" font-weight="500">Collaborative Delivery</text>
+  <text x="488" y="752" font-size="9" fill="#D912AE" font-weight="500">Discovery</text>
+  <text x="536" y="752" font-size="9" fill="#6B7280">&#8594;</text>
+  <text x="550" y="752" font-size="9" fill="#D912AE" font-weight="500">Diagnostic</text>
+  <text x="604" y="752" font-size="9" fill="#6B7280">&#8594;</text>
+  <text x="618" y="752" font-size="9" fill="#D912AE" font-weight="500">Goal Setting</text>
+  <text x="686" y="752" font-size="9" fill="#6B7280">&#8594;</text>
+  <text x="700" y="752" font-size="9" fill="#D912AE" font-weight="500">Collaborative Delivery</text>
 
-  <text x="512" y="768" font-size="9" fill="#6B7280" font-style="italic">Each phase has its own set of toolkit documents. Start with the Engagement Model.</text>
+  <text x="478" y="768" font-size="9" fill="#6B7280" font-style="italic">Each phase has its own set of toolkit documents. Start with the Engagement Model.</text>
 
   <!-- Learning pathway note (left side row 4) -->
-  <rect x="52" y="700" width="430" height="78" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="68" y="716" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#1E40AF">How Documents Connect</text>
-  <text x="68" y="732" font-size="9" fill="#6B7280">Training modules reference Toolkit documents as supporting material.</text>
-  <text x="68" y="746" font-size="9" fill="#6B7280">Toolkit documents cross-reference each other extensively.</text>
-  <text x="68" y="760" font-size="9" fill="#6B7280">Research documents provide the evidence basis for the framework.</text>
-  <text x="68" y="774" font-size="9" fill="#6B7280" font-style="italic">Each document lists Related Documentation at the bottom.</text>
+  <rect x="49" y="700" width="400" height="78" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="64" y="716" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#1E40AF">How Documents Connect</text>
+  <text x="64" y="732" font-size="9" fill="#6B7280">Training modules reference Toolkit documents as supporting material.</text>
+  <text x="64" y="746" font-size="9" fill="#6B7280">Toolkit documents cross-reference each other extensively.</text>
+  <text x="64" y="760" font-size="9" fill="#6B7280">Research documents provide the evidence basis for the framework.</text>
+  <text x="64" y="774" font-size="9" fill="#6B7280" font-style="italic">Each document lists Related Documentation at the bottom.</text>
 
   <!-- ================================================ -->
   <!-- LEGEND -->
   <!-- ================================================ -->
-  <rect x="32" y="870" width="896" height="38" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="52" y="893" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Legend</text>
+  <rect x="30" y="870" width="840" height="38" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="49" y="893" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Legend</text>
 
-  <rect x="110" y="882" width="16" height="14" rx="4" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="132" y="893" font-size="10" fill="#1E40AF">Training</text>
+  <rect x="103" y="882" width="16" height="14" rx="4" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="124" y="893" font-size="10" fill="#1E40AF">Training</text>
 
-  <rect x="192" y="882" width="16" height="14" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="214" y="893" font-size="10" fill="#151D1A">Toolkit</text>
+  <rect x="180" y="882" width="16" height="14" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="200" y="893" font-size="10" fill="#151D1A">Toolkit</text>
 
-  <rect x="274" y="882" width="16" height="14" rx="4" fill="#EDE8F5" stroke="#A78BFA" stroke-width="1"/>
-  <text x="296" y="893" font-size="10" fill="#5B21B6">Research</text>
+  <rect x="256" y="882" width="16" height="14" rx="4" fill="#EDE8F5" stroke="#A78BFA" stroke-width="1"/>
+  <text x="278" y="893" font-size="10" fill="#5B21B6">Research</text>
 
-  <line x1="364" y1="889" x2="388" y2="889" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
-  <text x="396" y="893" font-size="10" fill="#D912AE">Navigation pathway</text>
+  <line x1="340" y1="889" x2="364" y2="889" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <text x="372" y="893" font-size="10" fill="#D912AE">Navigation pathway</text>
 
-  <rect x="524" y="882" width="16" height="14" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
-  <rect x="544" y="882" width="16" height="14" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
-  <rect x="564" y="882" width="16" height="14" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
-  <rect x="584" y="882" width="16" height="14" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
-  <text x="608" y="893" font-size="10" fill="#6B7280">Zone colors (1–4)</text>
+  <rect x="492" y="882" width="16" height="14" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
+  <rect x="512" y="882" width="16" height="14" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
+  <rect x="532" y="882" width="16" height="14" rx="4" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1"/>
+  <rect x="552" y="882" width="16" height="14" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
+  <text x="574" y="893" font-size="10" fill="#6B7280">Zone colors (1–4)</text>
 
-  <circle cx="706" cy="889" r="5" fill="#D912AE"/>
-  <text x="716" y="893" font-size="10" fill="#D912AE">Audience entry point</text>
+  <circle cx="664" cy="889" r="5" fill="#D912AE"/>
+  <text x="674" y="893" font-size="10" fill="#D912AE">Audience entry point</text>
 
-  <rect x="824" y="882" width="16" height="14" rx="4" fill="#EDE8F5" stroke="#D912AE" stroke-width="1"/>
-  <text x="846" y="893" font-size="10" fill="#D912AE">Key document</text>
+  <rect x="786" y="882" width="16" height="14" rx="4" fill="#EDE8F5" stroke="#D912AE" stroke-width="1"/>
+  <text x="808" y="893" font-size="10" fill="#D912AE">Key document</text>
 
 </svg>

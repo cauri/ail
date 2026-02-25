@@ -1,67 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 256"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 256"
      font-family="'Inter', sans-serif">
   <title>Zone Progression — Four zones of AI competency</title>
   <desc>A horizontal diagram showing four zones of AI competency progression: Augmenting (individual tool adoption), Integrating (team workflow integration), Accelerating (role identity shift where humans specify and AI implements), and Industrializing (AI-first production model). Between each zone, a decision gate marks the investment required to continue: 3-6 months, 12-24 months, or 3-5+ years. Organizations choose their stopping point based on strategic context. Depth within a chosen zone is more valuable than overextension across zones.</desc>
 
   <!-- Background -->
-  <rect width="1080" height="256" fill="#fff" rx="8"/>
+  <rect width="900" height="256" fill="#fff" rx="8"/>
 
   <!-- Title -->
-  <text x="24" y="26" font-family="'DM Sans', sans-serif" font-size="18"
+  <text x="20" y="26" font-family="'DM Sans', sans-serif" font-size="18"
         font-weight="500" fill="#151D1A" letter-spacing="-0.03em">Zone Progression</text>
-  <text x="24" y="44" font-size="11" fill="#6B7280">Each zone represents a different relationship with AI. Organizations choose their depth.</text>
+  <text x="20" y="44" font-size="11" fill="#6B7280">Each zone represents a different relationship with AI. Organizations choose their depth.</text>
 
   <!-- ============ Zone 1: Augmenting ============ -->
-  <rect x="24" y="60" width="237" height="106" rx="8" fill="#EFF6FF" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="25" y="68" width="3" height="90" rx="1.5" fill="#60A5FA"/>
-  <text x="40" y="84" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#1E40AF">Augmenting</text>
-  <text x="40" y="102" font-size="11" fill="#6B7280">Tool adoption shift</text>
-  <text x="40" y="118" font-size="10" font-weight="500" fill="#6B7280">Individual</text>
-  <text x="40" y="134" font-size="10" fill="#6B7280">AI as personal assistant</text>
+  <rect x="20" y="60" width="195" height="106" rx="8" fill="#EFF6FF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="21" y="68" width="3" height="90" rx="1.5" fill="#60A5FA"/>
+  <text x="36" y="84" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#1E40AF">Augmenting</text>
+  <text x="36" y="102" font-size="11" fill="#6B7280">Tool adoption shift</text>
+  <text x="36" y="118" font-size="10" font-weight="500" fill="#6B7280">Individual</text>
+  <text x="36" y="134" font-size="10" fill="#6B7280">AI as personal assistant</text>
 
   <!-- Arrow 1 -->
-  <line x1="264" y1="113" x2="283" y2="113" stroke="#D1D5DB" stroke-width="1.5"/>
-  <polygon points="286,113 283,110.5 283,115.5" fill="#D1D5DB"/>
+  <line x1="218" y1="113" x2="237" y2="113" stroke="#D1D5DB" stroke-width="1.5"/>
+  <polygon points="240,113 237,110.5 237,115.5" fill="#D1D5DB"/>
 
   <!-- ============ Zone 2: Integrating ============ -->
-  <rect x="289" y="60" width="237" height="106" rx="8" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="290" y="68" width="3" height="90" rx="1.5" fill="#34D399"/>
-  <text x="305" y="84" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#065F46">Integrating</text>
-  <text x="305" y="102" font-size="11" fill="#6B7280">Workflow integration shift</text>
-  <text x="305" y="118" font-size="10" font-weight="500" fill="#6B7280">Team</text>
-  <text x="305" y="134" font-size="10" fill="#6B7280">Shared team practices</text>
+  <rect x="243" y="60" width="195" height="106" rx="8" fill="#ECFDF5" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="244" y="68" width="3" height="90" rx="1.5" fill="#34D399"/>
+  <text x="259" y="84" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#065F46">Integrating</text>
+  <text x="259" y="102" font-size="11" fill="#6B7280">Workflow integration shift</text>
+  <text x="259" y="118" font-size="10" font-weight="500" fill="#6B7280">Team</text>
+  <text x="259" y="134" font-size="10" fill="#6B7280">Shared team practices</text>
 
   <!-- Arrow 2 -->
-  <line x1="529" y1="113" x2="548" y2="113" stroke="#D1D5DB" stroke-width="1.5"/>
-  <polygon points="551,113 548,110.5 548,115.5" fill="#D1D5DB"/>
+  <line x1="441" y1="113" x2="460" y2="113" stroke="#D1D5DB" stroke-width="1.5"/>
+  <polygon points="463,113 460,110.5 460,115.5" fill="#D1D5DB"/>
 
   <!-- ============ Zone 3: Accelerating ============ -->
-  <rect x="554" y="60" width="237" height="106" rx="8" fill="#FFFBEB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="555" y="68" width="3" height="90" rx="1.5" fill="#FBBF24"/>
-  <text x="570" y="84" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#92400E">Accelerating</text>
-  <text x="570" y="102" font-size="11" fill="#6B7280">Role identity shift</text>
-  <text x="570" y="118" font-size="10" font-weight="500" fill="#6B7280">Role</text>
-  <text x="570" y="134" font-size="10" fill="#6B7280">Humans specify, AI implements</text>
+  <rect x="466" y="60" width="195" height="106" rx="8" fill="#FFFBEB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="467" y="68" width="3" height="90" rx="1.5" fill="#FBBF24"/>
+  <text x="482" y="84" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#92400E">Accelerating</text>
+  <text x="482" y="102" font-size="11" fill="#6B7280">Role identity shift</text>
+  <text x="482" y="118" font-size="10" font-weight="500" fill="#6B7280">Role</text>
+  <text x="482" y="134" font-size="10" fill="#6B7280">Humans specify, AI implements</text>
 
   <!-- Arrow 3 -->
-  <line x1="794" y1="113" x2="813" y2="113" stroke="#D1D5DB" stroke-width="1.5"/>
-  <polygon points="816,113 813,110.5 813,115.5" fill="#D1D5DB"/>
+  <line x1="664" y1="113" x2="683" y2="113" stroke="#D1D5DB" stroke-width="1.5"/>
+  <polygon points="686,113 683,110.5 683,115.5" fill="#D1D5DB"/>
 
   <!-- ============ Zone 4: Industrializing ============ -->
-  <rect x="819" y="60" width="237" height="106" rx="8" fill="#F5F3FF" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="820" y="68" width="3" height="90" rx="1.5" fill="#A78BFA"/>
-  <text x="835" y="84" font-family="'DM Sans', sans-serif" font-size="14" font-weight="500" fill="#5B21B6">Industrializing</text>
-  <text x="835" y="102" font-size="11" fill="#6B7280">Production model shift</text>
-  <text x="835" y="118" font-size="10" font-weight="500" fill="#6B7280">Organization</text>
-  <text x="835" y="134" font-size="10" fill="#6B7280">AI-first software factory</text>
+  <rect x="689" y="60" width="195" height="106" rx="8" fill="#F5F3FF" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="690" y="68" width="3" height="90" rx="1.5" fill="#A78BFA"/>
+  <text x="705" y="84" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#5B21B6">Industrializing</text>
+  <text x="705" y="102" font-size="11" fill="#6B7280">Production model shift</text>
+  <text x="705" y="118" font-size="10" font-weight="500" fill="#6B7280">Organization</text>
+  <text x="705" y="134" font-size="10" fill="#6B7280">AI-first software factory</text>
 
   <!-- Gate durations (below gaps between cards) -->
-  <text x="275" y="184" text-anchor="middle" font-size="9" fill="#6B7280">3&#x2013;6 months</text>
-  <text x="540" y="184" text-anchor="middle" font-size="9" fill="#6B7280">12&#x2013;24 months</text>
-  <text x="805" y="184" text-anchor="middle" font-size="9" fill="#6B7280">3&#x2013;5+ years</text>
+  <text x="230" y="184" text-anchor="middle" font-size="9" fill="#6B7280">3&#x2013;6 months</text>
+  <text x="453" y="184" text-anchor="middle" font-size="9" fill="#6B7280">12&#x2013;24 months</text>
+  <text x="676" y="184" text-anchor="middle" font-size="9" fill="#6B7280">3&#x2013;5+ years</text>
 
   <!-- Bottom annotation -->
-  <text x="540" y="222" text-anchor="middle" font-size="11" font-weight="500" fill="#151D1A">Depth within a chosen zone is more valuable than overextension across zones.</text>
-  <text x="540" y="240" text-anchor="middle" font-size="10" fill="#6B7280">The right zone is the one that matches your strategic context.</text>
+  <text x="450" y="222" text-anchor="middle" font-size="11" font-weight="500" fill="#151D1A">Depth within a chosen zone is more valuable than overextension across zones.</text>
+  <text x="450" y="240" text-anchor="middle" font-size="10" fill="#6B7280">The right zone is the one that matches your strategic context.</text>
 
 </svg>

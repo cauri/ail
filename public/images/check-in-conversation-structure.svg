@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 860"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 884"
      font-family="'Inter', sans-serif">
   <title>VA-20: Check-In Conversation Structure</title>
   <desc>Single-page reference card for monthly check-in conversations. Contains three sections: the four-item check-in agenda with time allocations, a three-column diagnostic for when a team is behind (skill deficit, will deficit, environmental barrier), and an escalation triggers checklist. Designed as a laminated pocket card.</desc>
 
   <!-- Background -->
-  <rect width="880" height="860" fill="#fff" rx="8"/>
+  <rect width="880" height="884" fill="#fff" rx="8"/>
 
   <!-- Title -->
   <text x="40" y="40" font-family="'DM Sans', sans-serif" font-size="20"
@@ -26,108 +26,108 @@
   <text x="786" y="149" font-size="10" fill="#1E40AF" text-anchor="middle">~15 min</text>
 
   <!-- Agenda Item 2 -->
-  <rect x="40" y="182" width="800" height="56" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="52" y="194" width="28" height="28" rx="14" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
-  <text x="66" y="213" font-size="12" fill="#1E40AF" font-weight="600" text-anchor="middle">2</text>
-  <text x="92" y="208" font-size="12" fill="#151D1A" font-weight="500">Leading Indicator Review</text>
-  <text x="92" y="226" font-size="10" fill="#6B7280">What do the dashboard numbers show? What trends are visible?</text>
-  <rect x="750" y="198" width="72" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="0.5"/>
-  <text x="786" y="213" font-size="10" fill="#1E40AF" text-anchor="middle">~15 min</text>
+  <rect x="40" y="190" width="800" height="56" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="52" y="202" width="28" height="28" rx="14" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
+  <text x="66" y="221" font-size="12" fill="#1E40AF" font-weight="600" text-anchor="middle">2</text>
+  <text x="92" y="216" font-size="12" fill="#151D1A" font-weight="500">Leading Indicator Review</text>
+  <text x="92" y="234" font-size="10" fill="#6B7280">What do the dashboard numbers show? What trends are visible?</text>
+  <rect x="750" y="206" width="72" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="0.5"/>
+  <text x="786" y="221" font-size="10" fill="#1E40AF" text-anchor="middle">~15 min</text>
 
   <!-- Agenda Item 3 -->
-  <rect x="40" y="246" width="800" height="56" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="52" y="258" width="28" height="28" rx="14" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
-  <text x="66" y="277" font-size="12" fill="#1E40AF" font-weight="600" text-anchor="middle">3</text>
-  <text x="92" y="272" font-size="12" fill="#151D1A" font-weight="500">Blockers</text>
-  <text x="92" y="290" font-size="10" fill="#6B7280">What is preventing progress that was not anticipated in the roadmap?</text>
-  <rect x="750" y="262" width="72" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="0.5"/>
-  <text x="786" y="277" font-size="10" fill="#1E40AF" text-anchor="middle">~10 min</text>
+  <rect x="40" y="262" width="800" height="56" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="52" y="274" width="28" height="28" rx="14" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
+  <text x="66" y="293" font-size="12" fill="#1E40AF" font-weight="600" text-anchor="middle">3</text>
+  <text x="92" y="288" font-size="12" fill="#151D1A" font-weight="500">Blockers</text>
+  <text x="92" y="306" font-size="10" fill="#6B7280">What is preventing progress that was not anticipated in the roadmap?</text>
+  <rect x="750" y="278" width="72" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="0.5"/>
+  <text x="786" y="293" font-size="10" fill="#1E40AF" text-anchor="middle">~10 min</text>
 
   <!-- Agenda Item 4 -->
-  <rect x="40" y="310" width="800" height="56" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="52" y="322" width="28" height="28" rx="14" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
-  <text x="66" y="341" font-size="12" fill="#1E40AF" font-weight="600" text-anchor="middle">4</text>
-  <text x="92" y="336" font-size="12" fill="#151D1A" font-weight="500">Cross-Team Learnings</text>
-  <text x="92" y="354" font-size="10" fill="#6B7280">What has the team learned that should be shared with other teams?</text>
-  <rect x="750" y="326" width="72" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="0.5"/>
-  <text x="786" y="341" font-size="10" fill="#1E40AF" text-anchor="middle">~5 min</text>
+  <rect x="40" y="334" width="800" height="56" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="52" y="346" width="28" height="28" rx="14" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
+  <text x="66" y="365" font-size="12" fill="#1E40AF" font-weight="600" text-anchor="middle">4</text>
+  <text x="92" y="360" font-size="12" fill="#151D1A" font-weight="500">Cross-Team Learnings</text>
+  <text x="92" y="378" font-size="10" fill="#6B7280">What has the team learned that should be shared with other teams?</text>
+  <rect x="750" y="350" width="72" height="22" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="0.5"/>
+  <text x="786" y="365" font-size="10" fill="#1E40AF" text-anchor="middle">~5 min</text>
 
   <!-- Section 2: When a Team Is Behind -->
-  <rect x="40" y="388" width="800" height="28" rx="4" fill="#FDF2FB"/>
-  <text x="52" y="407" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Section 2: When a Team Is Behind</text>
+  <rect x="40" y="412" width="800" height="28" rx="4" fill="#FDF2FB"/>
+  <text x="52" y="431" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Section 2: When a Team Is Behind</text>
 
   <!-- Three columns -->
   <!-- Skill Deficit -->
-  <rect x="40" y="424" width="254" height="210" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="167" y="448" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF" text-anchor="middle">Skill Deficit</text>
-  <line x1="56" y1="458" x2="278" y2="458" stroke="#60A5FA" stroke-width="0.5"/>
+  <rect x="40" y="448" width="254" height="210" rx="8" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="167" y="472" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF" text-anchor="middle">Skill Deficit</text>
+  <line x1="56" y1="482" x2="278" y2="482" stroke="#60A5FA" stroke-width="0.5"/>
 
-  <text x="56" y="478" font-size="10" font-weight="500" fill="#6B7280">DIAGNOSTIC SIGNAL</text>
-  <text x="56" y="496" font-size="10" fill="#151D1A">Team is willing but lacks</text>
-  <text x="56" y="510" font-size="10" fill="#151D1A">capability. Trying but failing</text>
-  <text x="56" y="524" font-size="10" fill="#151D1A">to execute consistently.</text>
+  <text x="56" y="502" font-size="10" font-weight="500" fill="#6B7280">DIAGNOSTIC SIGNAL</text>
+  <text x="56" y="520" font-size="10" fill="#151D1A">Team is willing but lacks</text>
+  <text x="56" y="534" font-size="10" fill="#151D1A">capability. Trying but failing</text>
+  <text x="56" y="548" font-size="10" fill="#151D1A">to execute consistently.</text>
 
-  <text x="56" y="548" font-size="10" font-weight="500" fill="#6B7280">APPROPRIATE RESPONSE</text>
-  <text x="56" y="566" font-size="10" fill="#1E40AF" font-weight="500">Additional coaching, pairing</text>
-  <text x="56" y="580" font-size="10" fill="#1E40AF" font-weight="500">support, or targeted training.</text>
+  <text x="56" y="572" font-size="10" font-weight="500" fill="#6B7280">APPROPRIATE RESPONSE</text>
+  <text x="56" y="590" font-size="10" fill="#1E40AF" font-weight="500">Additional coaching, pairing</text>
+  <text x="56" y="604" font-size="10" fill="#1E40AF" font-weight="500">support, or targeted training.</text>
 
-  <text x="56" y="602" font-size="10" fill="#151D1A">Work within current plan.</text>
-  <text x="56" y="616" font-size="10" fill="#151D1A">Extend timeline if needed.</text>
+  <text x="56" y="626" font-size="10" fill="#151D1A">Work within current plan.</text>
+  <text x="56" y="640" font-size="10" fill="#151D1A">Extend timeline if needed.</text>
 
   <!-- Will Deficit -->
-  <rect x="313" y="424" width="254" height="210" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
-  <text x="440" y="448" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#92400E" text-anchor="middle">Will Deficit</text>
-  <line x1="329" y1="458" x2="551" y2="458" stroke="#FBBF24" stroke-width="0.5"/>
+  <rect x="313" y="448" width="254" height="210" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
+  <text x="440" y="472" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#92400E" text-anchor="middle">Will Deficit</text>
+  <line x1="329" y1="482" x2="551" y2="482" stroke="#FBBF24" stroke-width="0.5"/>
 
-  <text x="329" y="478" font-size="10" font-weight="500" fill="#6B7280">DIAGNOSTIC SIGNAL</text>
-  <text x="329" y="496" font-size="10" fill="#151D1A">Team has capability but has</text>
-  <text x="329" y="510" font-size="10" fill="#151D1A">deprioritized practices under</text>
-  <text x="329" y="524" font-size="10" fill="#151D1A">competing pressures.</text>
+  <text x="329" y="502" font-size="10" font-weight="500" fill="#6B7280">DIAGNOSTIC SIGNAL</text>
+  <text x="329" y="520" font-size="10" fill="#151D1A">Team has capability but has</text>
+  <text x="329" y="534" font-size="10" fill="#151D1A">deprioritized practices under</text>
+  <text x="329" y="548" font-size="10" fill="#151D1A">competing pressures.</text>
 
-  <text x="329" y="548" font-size="10" font-weight="500" fill="#6B7280">APPROPRIATE RESPONSE</text>
-  <text x="329" y="566" font-size="10" fill="#92400E" font-weight="500">Direct conversation about</text>
-  <text x="329" y="580" font-size="10" fill="#92400E" font-weight="500">prioritization.</text>
+  <text x="329" y="572" font-size="10" font-weight="500" fill="#6B7280">APPROPRIATE RESPONSE</text>
+  <text x="329" y="590" font-size="10" fill="#92400E" font-weight="500">Direct conversation about</text>
+  <text x="329" y="604" font-size="10" fill="#92400E" font-weight="500">prioritization.</text>
 
-  <text x="329" y="602" font-size="10" fill="#151D1A">Escalate to leadership if</text>
-  <text x="329" y="616" font-size="10" fill="#151D1A">deprioritization is systemic.</text>
+  <text x="329" y="626" font-size="10" fill="#151D1A">Escalate to leadership if</text>
+  <text x="329" y="640" font-size="10" fill="#151D1A">deprioritization is systemic.</text>
 
   <!-- Environmental Barrier -->
-  <rect x="586" y="424" width="254" height="210" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="713" y="448" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#D912AE" text-anchor="middle">Environmental Barrier</text>
-  <line x1="602" y1="458" x2="824" y2="458" stroke="#D912AE" stroke-width="0.5"/>
+  <rect x="586" y="448" width="254" height="210" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="713" y="472" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#D912AE" text-anchor="middle">Environmental Barrier</text>
+  <line x1="602" y1="482" x2="824" y2="482" stroke="#D912AE" stroke-width="0.5"/>
 
-  <text x="602" y="478" font-size="10" font-weight="500" fill="#6B7280">DIAGNOSTIC SIGNAL</text>
-  <text x="602" y="496" font-size="10" fill="#151D1A">Organizational conditions the</text>
-  <text x="602" y="510" font-size="10" fill="#151D1A">roadmap assumed are not in</text>
-  <text x="602" y="524" font-size="10" fill="#151D1A">place. Infrastructure, policy, time.</text>
+  <text x="602" y="502" font-size="10" font-weight="500" fill="#6B7280">DIAGNOSTIC SIGNAL</text>
+  <text x="602" y="520" font-size="10" fill="#151D1A">Organizational conditions the</text>
+  <text x="602" y="534" font-size="10" fill="#151D1A">roadmap assumed are not in</text>
+  <text x="602" y="548" font-size="10" fill="#151D1A">place. Infrastructure, policy, time.</text>
 
-  <text x="602" y="548" font-size="10" font-weight="500" fill="#6B7280">APPROPRIATE RESPONSE</text>
-  <text x="602" y="566" font-size="10" fill="#D912AE" font-weight="500">Surface the gap to leadership.</text>
-  <text x="602" y="580" font-size="10" fill="#D912AE" font-weight="500">This is not the team's failure.</text>
+  <text x="602" y="572" font-size="10" font-weight="500" fill="#6B7280">APPROPRIATE RESPONSE</text>
+  <text x="602" y="590" font-size="10" fill="#D912AE" font-weight="500">Surface the gap to leadership.</text>
+  <text x="602" y="604" font-size="10" fill="#D912AE" font-weight="500">This is not the team's failure.</text>
 
-  <text x="602" y="602" font-size="10" fill="#151D1A">New organizational investments</text>
-  <text x="602" y="616" font-size="10" fill="#151D1A">needed, not in original plan.</text>
+  <text x="602" y="626" font-size="10" fill="#151D1A">New organizational investments</text>
+  <text x="602" y="640" font-size="10" fill="#151D1A">needed, not in original plan.</text>
 
   <!-- Section 3: Escalation Triggers -->
-  <rect x="40" y="656" width="800" height="28" rx="4" fill="#F9FAFB"/>
-  <text x="52" y="675" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Section 3: Escalation Triggers</text>
+  <rect x="40" y="680" width="800" height="28" rx="4" fill="#F9FAFB"/>
+  <text x="52" y="699" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Section 3: Escalation Triggers</text>
 
-  <rect x="40" y="694" width="800" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="40" y="718" width="800" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Checklist item 1 -->
-  <rect x="56" y="710" width="14" height="14" rx="2" fill="none" stroke="#F87171" stroke-width="1.5"/>
-  <text x="80" y="722" font-size="11" fill="#151D1A">Team unable to make progress for <tspan font-weight="600">two consecutive check-in periods</tspan> despite genuine effort</text>
+  <rect x="56" y="734" width="14" height="14" rx="2" fill="none" stroke="#F87171" stroke-width="1.5"/>
+  <text x="80" y="746" font-size="11" fill="#151D1A">Team unable to make progress for <tspan font-weight="600">two consecutive check-in periods</tspan> despite genuine effort</text>
 
   <!-- Checklist item 2 -->
-  <rect x="56" y="738" width="14" height="14" rx="2" fill="none" stroke="#F87171" stroke-width="1.5"/>
-  <text x="80" y="750" font-size="11" fill="#151D1A">An investment committed at goal-setting has <tspan font-weight="600">not been made</tspan> and team has no authority to change it</text>
+  <rect x="56" y="762" width="14" height="14" rx="2" fill="none" stroke="#F87171" stroke-width="1.5"/>
+  <text x="80" y="774" font-size="11" fill="#151D1A">An investment committed at goal-setting has <tspan font-weight="600">not been made</tspan> and team has no authority to change it</text>
 
   <!-- Checklist item 3 -->
-  <rect x="56" y="766" width="14" height="14" rx="2" fill="none" stroke="#F87171" stroke-width="1.5"/>
-  <text x="80" y="778" font-size="11" fill="#151D1A">Team's honest assessment: they do <tspan font-weight="600">not have leadership support</tspan> for the work the roadmap requires</text>
+  <rect x="56" y="790" width="14" height="14" rx="2" fill="none" stroke="#F87171" stroke-width="1.5"/>
+  <text x="80" y="802" font-size="11" fill="#151D1A">Team's honest assessment: they do <tspan font-weight="600">not have leadership support</tspan> for the work the roadmap requires</text>
 
   <!-- Margin reframing prompt -->
-  <rect x="40" y="822" width="800" height="28" rx="4" fill="#EDE8F5"/>
-  <text x="440" y="840" font-size="11" fill="#5B21B6" text-anchor="middle" font-style="italic">Not "Why haven't you done X?" but "What is making this harder than we expected?"</text>
+  <rect x="40" y="846" width="800" height="28" rx="4" fill="#EDE8F5"/>
+  <text x="440" y="864" font-size="11" fill="#5B21B6" text-anchor="middle" font-style="italic">Not "Why haven't you done X?" but "What is making this harder than we expected?"</text>
 
 </svg>

@@ -57,7 +57,7 @@
   <line x1="40" y1="288" x2="840" y2="288" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Knowledge examples -->
-  <rect x="40" y="300" width="250" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="40" y="300" width="250" height="114" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
   <text x="52" y="320" font-size="11" fill="#151D1A">Team completed AI training.</text>
   <text x="52" y="340" font-size="11" fill="#151D1A">Developers can explain</text>
   <text x="52" y="355" font-size="11" fill="#151D1A">prompting strategies.</text>
@@ -65,7 +65,7 @@
   <text x="52" y="393" font-size="11" fill="#151D1A">AI standards.</text>
 
   <!-- Best-Day examples -->
-  <rect x="306" y="300" width="250" height="108" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="306" y="300" width="250" height="114" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
   <text x="318" y="320" font-size="11" fill="#151D1A">Great demo at the hackathon.</text>
   <text x="318" y="340" font-size="11" fill="#151D1A">Impressive pilot project</text>
   <text x="318" y="355" font-size="11" fill="#151D1A">results.</text>
@@ -73,7 +73,7 @@
   <text x="318" y="393" font-size="11" fill="#151D1A">low-pressure sprints.</text>
 
   <!-- Competency examples -->
-  <rect x="572" y="300" width="268" height="108" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <rect x="572" y="300" width="268" height="114" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
   <text x="584" y="320" font-size="11" fill="#151D1A" font-weight="500">Uses AI tools during a</text>
   <text x="584" y="335" font-size="11" fill="#151D1A" font-weight="500">production incident.</text>
   <text x="584" y="358" font-size="11" fill="#151D1A" font-weight="500">Follows Plan/Code/Verify under</text>
@@ -129,7 +129,7 @@
   <text x="584" y="658" font-size="10" fill="#D912AE">This is what ACE measures.</text>
 
   <!-- Arrow indicating what ACE measures -->
-  <line x1="706" y1="690" x2="706" y2="680" stroke="#D912AE" stroke-width="1.5"/>
+  <line x1="706" y1="690" x2="706" y2="672" stroke="#D912AE" stroke-width="1.5"/>
   <polygon points="700,690 706,700 712,690" fill="#D912AE"/>
 
   <!-- Footer: Basketball analogy -->
