@@ -1,245 +1,196 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640"
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700"
      font-family="'Inter', sans-serif">
   <title>Engagement Lifecycle — Two Concurrent Tracks</title>
-  <desc>Horizontal swim-lane diagram showing the ACE engagement as two concurrent tracks: the Assessment Track (Discovery, Diagnostic, Goal Setting and Roadmap) run by the ACE Facilitator, and the Delivery Track (Collaborative Delivery) run by Embedded Artisans starting from the beginning of the engagement. Assessment track boundaries are decision points where stopping is legitimate. Artisan observations feed back to the Facilitator. The assessment track formalizes what the delivery track has already begun.</desc>
+  <desc>Swim-lane diagram showing the ACE engagement as two concurrent tracks: the Assessment Track (Discovery, Diagnostic, Goal Setting and Roadmap) run by the ACE Facilitator, and the Delivery Track (Collaborative Delivery) run by Embedded Artisans starting from the beginning of the engagement. Assessment track boundaries are decision points where stopping is legitimate. Artisan observations feed back to the Facilitator.</desc>
 
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6B7280"/>
     </marker>
-    <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
     </marker>
-    <marker id="arrow-exit" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#F87171"/>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34D399"/>
     </marker>
-    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#34D399"/>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D912AE"/>
     </marker>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="640" fill="#fff" rx="8"/>
+  <rect width="900" height="700" fill="#fff" rx="8"/>
 
   <!-- Title -->
-  <text x="32" y="32" font-family="'DM Sans', sans-serif" font-size="20"
+  <text x="32" y="34" font-family="'DM Sans', sans-serif" font-size="20"
         font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Engagement Lifecycle</text>
-  <text x="32" y="50" font-size="12" fill="#6B7280">Two concurrent tracks: assessment (sequential) and delivery (continuous from day one)</text>
-
-  <!-- Duration scale -->
-  <text x="32" y="68" font-size="10" fill="#9CA3AF">Assessment track: 4-8 weeks</text>
-  <text x="230" y="68" font-size="10" fill="#9CA3AF">|</text>
-  <text x="244" y="68" font-size="10" fill="#D912AE" font-weight="500">Delivery track: 3-18 months (starts concurrently)</text>
+  <text x="32" y="54" font-size="12" fill="#6B7280">Two concurrent tracks from day one: assessment informs delivery, delivery generates assessment signal</text>
 
   <!-- ================================================ -->
   <!-- TRACK LABELS -->
   <!-- ================================================ -->
 
-  <!-- Assessment track header -->
-  <rect x="32" y="82" width="430" height="24" rx="4" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
-  <text x="247" y="98" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#1E40AF">Assessment Track (Facilitator-led, sequential)</text>
+  <!-- Assessment track label -->
+  <rect x="120" y="78" width="380" height="28" rx="6" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
+  <text x="310" y="96" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#1E40AF">Assessment Track  ·  Facilitator-led  ·  4-8 weeks</text>
 
-  <!-- Delivery track header — spans full width to show concurrency -->
-  <rect x="32" y="82" width="836" height="24" rx="4" fill="none" stroke="#34D399" stroke-width="1.5" stroke-dasharray="6,3"/>
-
-  <!-- Phase column headers inside assessment track -->
-  <rect x="42" y="114" width="130" height="24" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="107" y="130" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">1. Discovery</text>
-
-  <rect x="202" y="114" width="130" height="24" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="267" y="130" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">2. Diagnostic</text>
-
-  <rect x="362" y="114" width="150" height="24" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="437" y="130" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">3. Goal Setting</text>
-
-  <!-- Collaborative Delivery header — separate, spans from start to end -->
-  <rect x="540" y="114" width="328" height="24" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
-  <text x="704" y="130" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#065F46">Collaborative Delivery (ongoing)</text>
+  <!-- Delivery track label -->
+  <rect x="520" y="78" width="348" height="28" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="694" y="96" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#065F46">Delivery Track  ·  Embedded Artisans  ·  3-18 months</text>
 
   <!-- ================================================ -->
-  <!-- SWIM LANE: ACE Facilitator (y=148..300) -->
+  <!-- SWIM LANE: ACE Facilitator -->
   <!-- ================================================ -->
 
-  <rect x="32" y="148" width="490" height="152" rx="0" fill="#EDF2FE" fill-opacity="0.3" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="32" y="124" width="836" height="220" rx="8" fill="#EDF2FE" fill-opacity="0.2" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Lane label -->
-  <text x="20" y="224" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#1E40AF" transform="rotate(-90, 20, 224)">ACE Facilitator</text>
+  <text x="48" y="142" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#1E40AF" letter-spacing="0.06em">ACE FACILITATOR</text>
 
-  <!-- Phase 1: Discovery activities -->
-  <rect x="50" y="166" width="112" height="52" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="106" y="184" text-anchor="middle" font-size="10" font-weight="500" fill="#1E40AF">Stakeholder</text>
-  <text x="106" y="196" text-anchor="middle" font-size="10" font-weight="500" fill="#1E40AF">Interviews</text>
-  <text x="106" y="209" text-anchor="middle" font-size="9" fill="#6B7280">Context Analysis</text>
+  <!-- Phase 1: Discovery -->
+  <rect x="56" y="160" width="160" height="80" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="136" y="182" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF">1. Discovery</text>
+  <text x="136" y="198" text-anchor="middle" font-size="10" fill="#6B7280">Stakeholder interviews</text>
+  <text x="136" y="212" text-anchor="middle" font-size="10" fill="#6B7280">Context analysis</text>
+  <text x="136" y="228" text-anchor="middle" font-size="9" fill="#9CA3AF">2-4 weeks</text>
 
-  <!-- Gate 1 diamond -->
-  <rect x="170" y="179" width="18" height="18" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 179 188)"/>
-  <text x="179" y="192" text-anchor="middle" font-size="7" font-weight="600" fill="#92400E">?</text>
+  <!-- Arrow 1→Gate 1 -->
+  <line x1="216" y1="200" x2="238" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
-  <!-- Phase 2: Diagnostic activities -->
-  <rect x="210" y="166" width="118" height="52" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="269" y="184" text-anchor="middle" font-size="10" font-weight="500" fill="#1E40AF">Team Workshops</text>
-  <text x="269" y="196" text-anchor="middle" font-size="10" font-weight="500" fill="#1E40AF">Score Analysis</text>
-  <text x="269" y="209" text-anchor="middle" font-size="9" fill="#6B7280">Reports</text>
+  <!-- Gate 1 -->
+  <rect x="246" y="186" width="28" height="28" rx="3" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 260 200)"/>
+  <text x="260" y="204" text-anchor="middle" font-size="9" font-weight="600" fill="#92400E">?</text>
 
-  <!-- Gate 2 diamond -->
-  <rect x="336" y="179" width="18" height="18" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 345 188)"/>
-  <text x="345" y="192" text-anchor="middle" font-size="7" font-weight="600" fill="#92400E">?</text>
+  <!-- Arrow Gate 1→Phase 2 -->
+  <line x1="274" y1="200" x2="296" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
-  <!-- Phase 3: Goal Setting activities -->
-  <rect x="370" y="166" width="140" height="52" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="440" y="184" text-anchor="middle" font-size="10" font-weight="500" fill="#1E40AF">Leadership Session</text>
-  <text x="440" y="196" text-anchor="middle" font-size="10" font-weight="500" fill="#1E40AF">Team Roadmaps</text>
-  <text x="440" y="209" text-anchor="middle" font-size="9" fill="#6B7280">Investment Plan</text>
+  <!-- Phase 2: Diagnostic -->
+  <rect x="304" y="160" width="160" height="80" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="384" y="182" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF">2. Diagnostic</text>
+  <text x="384" y="198" text-anchor="middle" font-size="10" fill="#6B7280">Team workshops</text>
+  <text x="384" y="212" text-anchor="middle" font-size="10" fill="#6B7280">Score analysis + reports</text>
+  <text x="384" y="228" text-anchor="middle" font-size="9" fill="#9CA3AF">2-3 weeks</text>
 
-  <!-- Gate 3 diamond -->
-  <rect x="518" y="179" width="18" height="18" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 527 188)"/>
-  <text x="527" y="192" text-anchor="middle" font-size="7" font-weight="600" fill="#92400E">?</text>
+  <!-- Arrow 2→Gate 2 -->
+  <line x1="464" y1="200" x2="486" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
-  <!-- Decision gate arrows -->
-  <!-- Gate 1 Yes -->
-  <line x1="162" y1="192" x2="170" y2="188" stroke="#34D399" stroke-width="1.5"/>
-  <line x1="190" y1="188" x2="210" y2="188" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
-  <text x="179" y="176" text-anchor="middle" font-size="7" fill="#34D399" font-weight="500">Yes</text>
+  <!-- Gate 2 -->
+  <rect x="494" y="186" width="28" height="28" rx="3" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 508 200)"/>
+  <text x="508" y="204" text-anchor="middle" font-size="9" font-weight="600" fill="#92400E">?</text>
 
-  <!-- Gate 1 No -->
-  <line x1="179" y1="200" x2="179" y2="276" stroke="#F87171" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow-exit)"/>
-  <text x="186" y="270" font-size="7" fill="#F87171">Exit with value</text>
+  <!-- Arrow Gate 2→Phase 3 -->
+  <line x1="522" y1="200" x2="544" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
-  <!-- Gate 2 Yes -->
-  <line x1="328" y1="192" x2="336" y2="188" stroke="#34D399" stroke-width="1.5"/>
-  <line x1="356" y1="188" x2="370" y2="188" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
-  <text x="345" y="176" text-anchor="middle" font-size="7" fill="#34D399" font-weight="500">Yes</text>
+  <!-- Phase 3: Goal Setting + Roadmap -->
+  <rect x="552" y="160" width="160" height="80" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="632" y="182" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#1E40AF">3. Goal Setting</text>
+  <text x="632" y="198" text-anchor="middle" font-size="10" fill="#6B7280">Leadership session</text>
+  <text x="632" y="212" text-anchor="middle" font-size="10" fill="#6B7280">Team roadmaps</text>
+  <text x="632" y="228" text-anchor="middle" font-size="9" fill="#9CA3AF">1-2 weeks</text>
 
-  <!-- Gate 2 No -->
-  <line x1="345" y1="200" x2="345" y2="276" stroke="#F87171" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow-exit)"/>
-  <text x="352" y="270" font-size="7" fill="#F87171">Exit with value</text>
+  <!-- Arrow Phase 3→Periodic -->
+  <line x1="712" y1="200" x2="734" y2="200" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
-  <!-- Gate 3 Yes: feeds into ongoing periodic assessment -->
-  <line x1="510" y1="192" x2="518" y2="188" stroke="#34D399" stroke-width="1.5"/>
-  <line x1="538" y1="188" x2="548" y2="188" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
-  <text x="527" y="176" text-anchor="middle" font-size="7" fill="#34D399" font-weight="500">Yes</text>
+  <!-- Periodic assessment box -->
+  <rect x="742" y="160" width="114" height="80" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="799" y="180" text-anchor="middle" font-size="10" font-weight="500" fill="#D912AE">Periodic</text>
+  <text x="799" y="194" text-anchor="middle" font-size="10" font-weight="500" fill="#D912AE">Assessment</text>
+  <text x="799" y="212" text-anchor="middle" font-size="9" fill="#6B7280">Check-ins, retros</text>
+  <text x="799" y="226" text-anchor="middle" font-size="9" fill="#6B7280">Re-diagnostic</text>
 
-  <!-- Gate 3 No -->
-  <line x1="527" y1="200" x2="527" y2="276" stroke="#F87171" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow-exit)"/>
-  <text x="534" y="270" font-size="7" fill="#F87171">Exit with value</text>
+  <!-- Loop arrow on periodic -->
+  <path d="M 820 240 C 820 258, 778 258, 778 240" fill="none" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <text x="799" y="268" text-anchor="middle" font-size="8" fill="#D912AE">Repeats until self-sufficient</text>
 
-  <!-- Facilitator periodic assessment panel (right side, during Collaborative Delivery) -->
-  <rect x="548" y="148" width="320" height="86" rx="8" fill="#EDF2FE" fill-opacity="0.3" stroke="#D912AE" stroke-width="1.5"/>
+  <!-- Gate exit annotations -->
+  <text x="260" y="248" text-anchor="middle" font-size="9" fill="#FBBF24" font-weight="500">Exit OK</text>
+  <text x="508" y="248" text-anchor="middle" font-size="9" fill="#FBBF24" font-weight="500">Exit OK</text>
 
-  <text x="560" y="166" font-size="10" font-weight="500" fill="#D912AE">Periodic Assessment (during delivery)</text>
+  <!-- Deliverables row under facilitator -->
+  <text x="136" y="302" text-anchor="middle" font-size="9" fill="#9CA3AF">Context report</text>
+  <text x="384" y="296" text-anchor="middle" font-size="9" fill="#9CA3AF">Team reports</text>
+  <text x="384" y="308" text-anchor="middle" font-size="9" fill="#9CA3AF">Management report</text>
+  <text x="632" y="296" text-anchor="middle" font-size="9" fill="#9CA3AF">Target zone declaration</text>
+  <text x="632" y="308" text-anchor="middle" font-size="9" fill="#9CA3AF">Roadmap + investment plan</text>
+  <text x="799" y="296" text-anchor="middle" font-size="9" fill="#9CA3AF">Updated roadmaps</text>
+  <text x="799" y="308" text-anchor="middle" font-size="9" fill="#9CA3AF">Progress reports</text>
 
-  <rect x="560" y="174" width="60" height="20" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="590" y="188" text-anchor="middle" font-size="8" font-weight="500" fill="#151D1A">Check-ins</text>
+  <!-- Divider -->
+  <line x1="32" y1="330" x2="868" y2="330" stroke="#E5E7EB" stroke-width="1"/>
 
-  <line x1="620" y1="184" x2="628" y2="184" stroke="#6B7280" stroke-width="1" marker-end="url(#arrow)"/>
-
-  <rect x="636" y="174" width="52" height="20" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="662" y="188" text-anchor="middle" font-size="8" font-weight="500" fill="#151D1A">Retros</text>
-
-  <line x1="688" y1="184" x2="696" y2="184" stroke="#6B7280" stroke-width="1" marker-end="url(#arrow)"/>
-
-  <rect x="704" y="174" width="48" height="20" rx="4" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="728" y="188" text-anchor="middle" font-size="8" font-weight="600" fill="#D912AE">Re-Dx</text>
-
-  <line x1="752" y1="184" x2="760" y2="184" stroke="#6B7280" stroke-width="1" marker-end="url(#arrow)"/>
-
-  <rect x="768" y="174" width="48" height="20" rx="4" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="792" y="188" text-anchor="middle" font-size="8" font-weight="500" fill="#D912AE">Refresh</text>
-
-  <!-- Loop arrow back -->
-  <path d="M792,194 L792,206 L590,206 L590,194" fill="none" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
-  <text x="692" y="220" text-anchor="middle" font-size="8" fill="#D912AE">Cycle repeats until team self-sufficient</text>
+  <!-- Observation flow arrow -->
+  <text x="450" y="348" text-anchor="middle" font-size="10" fill="#6B7280">Observations flow up (morale, adoption, resistance) · Disclosed to team</text>
+  <line x1="292" y1="356" x2="292" y2="342" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+  <line x1="450" y1="356" x2="450" y2="342" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+  <line x1="608" y1="356" x2="608" y2="342" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
 
   <!-- ================================================ -->
-  <!-- SWIM LANE: Embedded Artisans (y=308..440) -->
-  <!-- KEY CHANGE: Artisans are active from the START -->
+  <!-- SWIM LANE: Embedded Artisans -->
   <!-- ================================================ -->
 
-  <rect x="32" y="308" width="836" height="132" rx="0" fill="#ECFDF5" fill-opacity="0.2" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="32" y="366" width="836" height="186" rx="8" fill="#ECFDF5" fill-opacity="0.15" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Lane label -->
-  <text x="20" y="378" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#065F46" transform="rotate(-90, 20, 378)">Embedded Artisans</text>
+  <text x="48" y="384" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#065F46" letter-spacing="0.06em">EMBEDDED ARTISANS</text>
 
-  <!-- Artisan activity spans the FULL width — active from day one -->
-  <rect x="42" y="318" width="728" height="106" rx="8" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <!-- Full-width delivery bar -->
+  <rect x="56" y="400" width="800" height="70" rx="8" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
 
-  <!-- Early phase label (during Discovery/Diagnostic) -->
-  <rect x="54" y="328" width="232" height="42" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="170" y="346" text-anchor="middle" font-size="10" font-weight="500" fill="#065F46">Early Embedding</text>
-  <text x="170" y="360" text-anchor="middle" font-size="9" fill="#6B7280">Assess engineering discipline</text>
+  <!-- Early embedding phase -->
+  <rect x="68" y="410" width="200" height="50" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="168" y="430" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">Early Embedding</text>
+  <text x="168" y="446" text-anchor="middle" font-size="9" fill="#6B7280">Assess discipline, build AI-ready habits</text>
 
-  <!-- Arrow from early to main -->
-  <line x1="286" y1="349" x2="298" y2="349" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
+  <!-- Arrow -->
+  <line x1="268" y1="435" x2="290" y2="435" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
 
-  <!-- Main delivery phase -->
-  <rect x="304" y="328" width="362" height="42" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
-  <text x="485" y="344" text-anchor="middle" font-size="10" font-weight="500" fill="#065F46">Full Collaborative Delivery</text>
-  <text x="485" y="358" text-anchor="middle" font-size="9" fill="#6B7280">Pair programming, mentoring, TDD, CI, small iterations</text>
+  <!-- Full delivery phase -->
+  <rect x="298" y="410" width="340" height="50" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-width="1.5"/>
+  <text x="468" y="430" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">Full Collaborative Delivery</text>
+  <text x="468" y="446" text-anchor="middle" font-size="9" fill="#6B7280">Paired work, fast feedback loops, continuous validation</text>
+
+  <!-- Arrow -->
+  <line x1="638" y1="435" x2="660" y2="435" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
 
   <!-- Ramp-down -->
-  <rect x="674" y="328" width="86" height="42" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="717" y="344" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">Ramp-Down</text>
-  <text x="717" y="358" text-anchor="middle" font-size="8" fill="#6B7280">Evidence-based</text>
+  <rect x="668" y="410" width="176" height="50" rx="6" fill="#ECFDF5" stroke="#34D399" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="756" y="430" text-anchor="middle" font-size="11" font-weight="500" fill="#065F46">Evidence-Based Ramp-Down</text>
+  <text x="756" y="446" text-anchor="middle" font-size="9" fill="#6B7280">Team demonstrates self-sufficiency</text>
 
-  <!-- Cross-craft label -->
-  <text x="54" y="390" font-size="9" fill="#151D1A">Engineers + PMs + Designers working the same backlog, shoulder-to-shoulder</text>
-
-  <!-- Early purpose annotation -->
-  <text x="54" y="408" font-size="9" fill="#6B7280" font-style="italic">Early embedding: build foundational XP practices (TDD, pairing, CI) that Zone 2 requires.</text>
-  <text x="54" y="420" font-size="9" fill="#6B7280" font-style="italic">Assessment track formalizes what delivery track has already begun.</text>
-
-  <!-- Arrow from Artisans to Facilitator: Observations -->
-  <line x1="420" y1="318" x2="420" y2="244" stroke="#6B7280" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
-  <text x="426" y="264" font-size="8" fill="#6B7280">Observations: morale,</text>
-  <text x="426" y="274" font-size="8" fill="#6B7280">adoption, resistance</text>
-  <text x="426" y="286" font-size="7" fill="#9CA3AF">(Disclosed to team)</text>
-
-  <!-- ================================================ -->
-  <!-- DELIVERABLES ROW (y=448..484) -->
-  <!-- ================================================ -->
-  <rect x="32" y="454" width="836" height="36" rx="0" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-
-  <text x="107" y="476" text-anchor="middle" font-size="9" fill="#6B7280">Context Report</text>
-  <text x="267" y="470" text-anchor="middle" font-size="9" fill="#6B7280">Team Reports</text>
-  <text x="267" y="482" text-anchor="middle" font-size="9" fill="#6B7280">Management Report</text>
-  <text x="437" y="470" text-anchor="middle" font-size="9" fill="#6B7280">Target Zone Declaration</text>
-  <text x="437" y="482" text-anchor="middle" font-size="9" fill="#6B7280">Roadmap + Investment Plan</text>
-  <text x="704" y="470" text-anchor="middle" font-size="9" fill="#6B7280">Working Software + Progress Reports</text>
-  <text x="704" y="482" text-anchor="middle" font-size="9" fill="#6B7280">Updated Roadmaps + Re-Diagnostic Reports</text>
+  <!-- Cross-craft annotation -->
+  <text x="56" y="494" font-size="10" fill="#151D1A">Engineers + PMs + Designers working the same backlog, shoulder-to-shoulder</text>
+  <text x="56" y="510" font-size="10" fill="#6B7280" font-style="italic">Assessment track formalizes what the delivery track has already begun.</text>
+  <text x="56" y="526" font-size="10" fill="#6B7280" font-style="italic">Delivery track generates the observational signal that makes assessment accurate.</text>
 
   <!-- ================================================ -->
   <!-- KEY PRINCIPLE -->
   <!-- ================================================ -->
-  <rect x="32" y="502" width="836" height="40" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="450" y="518" text-anchor="middle" font-size="11" fill="#D912AE" font-weight="500">Each assessment track boundary is a genuine decision point. Stopping after any phase is legitimate.</text>
-  <text x="450" y="532" text-anchor="middle" font-size="10" fill="#6B7280">Commitment momentum from early Artisan embedding should be surfaced and discussed at each decision point.</text>
+  <rect x="32" y="550" width="836" height="44" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="450" y="568" text-anchor="middle" font-size="11" fill="#D912AE" font-weight="500">Each assessment gate is a genuine decision point. Stopping after any phase is legitimate.</text>
+  <text x="450" y="584" text-anchor="middle" font-size="10" fill="#6B7280">Commitment momentum from early Artisan embedding should be surfaced and discussed at each decision point.</text>
 
   <!-- ================================================ -->
   <!-- LEGEND -->
   <!-- ================================================ -->
-  <rect x="32" y="556" width="836" height="40" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="52" y="576" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Legend</text>
+  <rect x="32" y="610" width="836" height="44" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="632" font-family="'DM Sans', sans-serif" font-size="10" font-weight="500" fill="#151D1A">Legend</text>
 
-  <rect x="110" y="568" width="20" height="14" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
-  <text x="136" y="579" font-size="10" fill="#6B7280">Facilitator activity</text>
+  <rect x="110" y="624" width="18" height="14" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
+  <text x="134" y="635" font-size="9" fill="#6B7280">Facilitator activity</text>
 
-  <rect x="254" y="568" width="20" height="14" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
-  <text x="280" y="579" font-size="10" fill="#6B7280">Artisan activity</text>
+  <rect x="240" y="624" width="18" height="14" rx="4" fill="#fff" stroke="#34D399" stroke-width="1.5"/>
+  <text x="264" y="635" font-size="9" fill="#6B7280">Artisan activity</text>
 
-  <rect x="386" y="569" width="10" height="10" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 391 574)"/>
-  <text x="404" y="579" font-size="10" fill="#6B7280">Decision gate</text>
+  <rect x="360" y="625" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 366 631)"/>
+  <text x="380" y="635" font-size="9" fill="#6B7280">Decision gate</text>
 
-  <line x1="500" y1="576" x2="524" y2="576" stroke="#34D399" stroke-width="1.5" marker-end="url(#arrow-green)"/>
-  <text x="532" y="579" font-size="10" fill="#6B7280">Proceed</text>
+  <rect x="470" y="624" width="18" height="14" rx="4" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <text x="494" y="635" font-size="9" fill="#6B7280">Periodic assessment</text>
 
-  <line x1="586" y1="576" x2="610" y2="576" stroke="#F87171" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow-exit)"/>
-  <text x="618" y="579" font-size="10" fill="#6B7280">Exit with value</text>
+  <line x1="610" y1="631" x2="634" y2="631" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
+  <text x="642" y="635" font-size="9" fill="#6B7280">Observations flow</text>
 
-  <line x1="714" y1="576" x2="738" y2="576" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>
-  <text x="746" y="579" font-size="10" fill="#6B7280">Observations flow</text>
-
-  <!-- Narrative footer -->
-  <text x="450" y="614" text-anchor="middle" font-size="10" fill="#6B7280" font-style="italic">The engagement arc: "What is" (current state) at each phase creates tension toward "What could be" (the next phase).</text>
-  <text x="450" y="630" text-anchor="middle" font-size="10" fill="#6B7280">Delivery begins from day one. The assessment track informs and refines what is already underway.</text>
+  <!-- Footer -->
+  <text x="450" y="676" text-anchor="middle" font-size="10" fill="#6B7280" font-style="italic">Delivery begins from day one. The assessment track informs and refines what is already underway.</text>
 
 </svg>
