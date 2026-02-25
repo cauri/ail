@@ -32,6 +32,9 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 | Time from tool provisioning to first habitual use | Speed of adoption | Telemetry: days until 4+/5 daily usage pattern | [Expert judgment] < 4 weeks |
 | AI usage in non-code tasks | Adoption beyond pure coding (docs, research, communication) | Self-report survey | [Expert judgment] 60%+ of team uses AI for non-code tasks |
 | Developer satisfaction with AI tools | Whether tools are perceived as helpful vs. burdensome | Quarterly satisfaction survey (1-5 scale) | [Expert judgment] Average 3.8+ |
+| PM AI usage in discovery vs. delivery | Whether PMs use AI for strategic thinking, not just delivery artifacts | Self-report: frequency of AI use in research synthesis, hypothesis generation, market analysis | [Expert judgment] 4+/5 days weekly |
+| Designer AI usage in analysis vs. production | Whether designers use AI for evaluative work, not just artifact generation | Self-report: frequency of AI use in accessibility auditing, IA analysis, design pattern evaluation | [Expert judgment] 4+/5 days weekly |
+| QA AI-assisted test coverage expansion | Whether QA uses AI to increase test coverage breadth | Test coverage delta pre/post AI adoption; self-report on AI-assisted test strategies | [Expert judgment] Measurable coverage increase within 3 months |
 
 ### Anti-Metrics (Warning Signs)
 
@@ -82,6 +85,9 @@ This document defines primary, secondary, anti-metrics, leading indicators, and 
 | Agentic setup retrospective coverage | Team reflects on and improves AI practices | Retrospective notes audit | [Expert judgment] Discussed in 75%+ of retros |
 | Cross-member code quality variance | Whether shared workflow levels up the whole team | Per-developer defect rate standard deviation | [Expert judgment] 30-50% reduction from Zone 1 |
 | Externalized plan artifact creation rate | Whether teams are planning before coding | PR audit for linked plan documents | [Expert judgment] 70%+ of non-trivial PRs have plan artifacts |
+| PM contribution to shared AI configuration | PMs actively shape team AI practices | Config git blame: PM-authored sections for discovery/specification | [Expert judgment] PM has contributed discovery-related config |
+| Designer contribution to shared standards | Designers own design-related AI practices | Config/standards git blame: designer-authored design review criteria | [Expert judgment] Designer has contributed design standards |
+| QA test strategy documentation rate | QA adapts test strategies for AI-generated code | Audit: documented AI-specific test strategies per sprint | [Expert judgment] Updated test strategy within first month |
 
 ### Anti-Metrics (Warning Signs)
 

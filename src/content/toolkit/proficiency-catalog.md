@@ -8,6 +8,8 @@ order: 8
 ---
 A comprehensive catalog of all proficiencies across all zones of the AI Competency Evaluation (ACE) model. Proficiencies are specific, observable behaviors practiced habitually -- not occasionally or only when convenient. Competency at each zone is demonstrated when these behaviors persist under pressure.
 
+Proficiencies are organized by the role that most commonly demonstrates them (Engineering, Product Management, Design, QA), but they are not exclusive to that role. Organizations structure teams differently -- a developer who contributes to product discovery, a designer who writes test criteria, or a PM who reviews code specifications is demonstrating cross-functional capability, not stepping outside their lane. The role headings exist to ensure the diagnostic captures the full breadth of team capability, not to prescribe how work should be divided. At higher zones, role boundaries become increasingly fluid as the framework describes.
+
 This catalog synthesizes proficiencies from the individual zone reference documents. For full context on any zone, see:
 - [Zone 1: Augmenting](/toolkit/zone-1-augmenting)
 - [Zone 2: Integrating](/toolkit/zone-2-integrating)

@@ -39,7 +39,7 @@ All questions are answered on a 1-5 frequency scale (see Scale below). Each team
 
 7. Team members use AI to assist with writing and improving tests, documentation, commit messages, or other development artifacts that are frequently skipped or rushed under time pressure.
 
-8. Designers and UX practitioners use AI tools in their workflow --- generating design alternatives, synthesizing user research, creating prototypes, or analyzing usability data --- as a regular part of their practice rather than an occasional experiment.
+8. Designers and UX practitioners use AI tools in their production workflow --- generating design alternatives, creating prototypes, exploring visual variations, or producing wireframes and specifications --- as a regular part of their practice rather than an occasional experiment.
 
 9. QA team members use AI to assist with test case generation, exploratory testing strategies, bug triage, or test data creation as a habitual part of their quality assurance work.
 

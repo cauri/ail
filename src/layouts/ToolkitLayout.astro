@@ -4,7 +4,6 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import SidebarNav from '../components/SidebarNav.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import TableOfContents from '../components/TableOfContents.astro';
 import { getCollection } from 'astro:content';
 import { baseUrl } from '../utils/base-url';
 
@@ -60,7 +59,7 @@ const breadcrumbs = [
         <slot />
       </main>
     </div>
-    <TableOfContents headings={headings} />
+    <!-- Right-side ToC removed: dual navigation rails (left sidebar + right ToC) created confusing UX -->
   </div>
   <Footer />
 </BaseLayout>
