@@ -110,7 +110,17 @@ Other evidence-probing techniques: "Can you walk me through the last time your t
 
 ![VA-8: Competency Stage Quick Reference](/images/competency-stage-reference.svg)
 
-![VA-10: Score Distribution Archetypes](/images/score-distribution-archetypes.svg)
+![VA-10a: Uniform High Scores](/images/score-archetype-uniform-high.svg)
+
+![VA-10b: Uniform Low Scores](/images/score-archetype-uniform-low.svg)
+
+![VA-10c: High Average, High Variance](/images/score-archetype-high-variance.svg)
+
+![VA-10d: Bimodal Split](/images/score-archetype-bimodal.svg)
+
+![VA-10e: Single Outlier](/images/score-archetype-single-outlier.svg)
+
+![VA-10f: Gradually Decreasing](/images/score-archetype-decreasing.svg)
 
 ![VA-14: Threshold Sensitivity](/images/threshold-sensitivity.svg)
 

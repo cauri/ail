@@ -135,22 +135,6 @@
   <text x="722" y="413" font-size="10" fill="#151D1A">transformation in</text>
   <text x="722" y="426" font-size="10" fill="#151D1A">uncharted territory</text>
 
-  <!-- Transition annotations between zones -->
-  <!-- Zone 1 -> 2 -->
-  <line x1="325" y1="440" x2="325" y2="468" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
-  <rect x="270" y="444" width="110" height="20" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="325" y="458" font-size="9" fill="#6B7280" text-anchor="middle">Workflow shift</text>
-
-  <!-- Zone 2 -> 3 -->
-  <line x1="515" y1="440" x2="515" y2="468" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
-  <rect x="460" y="444" width="110" height="20" rx="4" fill="#F9FAFB" stroke="#D912AE" stroke-width="1"/>
-  <text x="515" y="458" font-size="9" fill="#D912AE" text-anchor="middle" font-weight="500">Identity shift</text>
-
-  <!-- Zone 3 -> 4 -->
-  <line x1="705" y1="440" x2="705" y2="468" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,3"/>
-  <rect x="650" y="444" width="110" height="20" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="705" y="458" font-size="9" fill="#6B7280" text-anchor="middle">Cultural shift</text>
-
   <!-- Cross-Role Progression Section -->
   <rect x="40" y="484" width="850" height="28" rx="4" fill="#F9FAFB"/>
   <text x="50" y="503" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Cross-Role Progression</text>

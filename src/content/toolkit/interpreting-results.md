@@ -100,7 +100,17 @@ Not Emerging (average is above 2.9). Not Developing (average is above 3.9). Not 
 
 ---
 
-![VA-10: Score Distribution Archetypes](/images/score-distribution-archetypes.svg)
+![VA-10a: Uniform High Scores](/images/score-archetype-uniform-high.svg)
+
+![VA-10b: Uniform Low Scores](/images/score-archetype-uniform-low.svg)
+
+![VA-10c: High Average, High Variance](/images/score-archetype-high-variance.svg)
+
+![VA-10d: Bimodal Split](/images/score-archetype-bimodal.svg)
+
+![VA-10e: Single Outlier](/images/score-archetype-single-outlier.svg)
+
+![VA-10f: Gradually Decreasing](/images/score-archetype-decreasing.svg)
 
 ## Step 4: Look for Patterns
 

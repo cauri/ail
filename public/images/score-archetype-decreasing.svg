@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300"
+     font-family="'Inter', sans-serif">
+  <title>Score Archetype: Gradually Decreasing</title>
+  <desc>Line chart showing question-level composite scores declining from Q1 (4.8) through Q10 (2.8). Early fundamental questions score high while later advanced questions score progressively lower. This natural progression pattern suggests focusing coaching on later-numbered questions.</desc>
+
+  <!-- Background -->
+  <rect width="500" height="300" fill="#fff" rx="8"/>
+
+  <!-- Title -->
+  <text x="24" y="28" font-family="'DM Sans', sans-serif" font-size="16"
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Gradually Decreasing</text>
+  <text x="24" y="44" font-size="11" fill="#6B7280">Q1-Q3 high, Q7-Q10 lower</text>
+
+  <!-- Chart area -->
+  <line x1="60" y1="62" x2="60" y2="192" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="60" y1="192" x2="460" y2="192" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Y-axis labels. Mapping: 5=68, 4=99, 3=130, 2=161, 1=192. Step=31px -->
+  <text x="52" y="72" text-anchor="end" font-size="9" fill="#9CA3AF">5</text>
+  <text x="52" y="103" text-anchor="end" font-size="9" fill="#9CA3AF">4</text>
+  <text x="52" y="134" text-anchor="end" font-size="9" fill="#9CA3AF">3</text>
+  <text x="52" y="165" text-anchor="end" font-size="9" fill="#9CA3AF">2</text>
+  <text x="52" y="196" text-anchor="end" font-size="9" fill="#9CA3AF">1</text>
+
+  <!-- Gridlines -->
+  <line x1="60" y1="68" x2="460" y2="68" stroke="#F3F4F6" stroke-width="0.5"/>
+  <line x1="60" y1="99" x2="460" y2="99" stroke="#F3F4F6" stroke-width="0.5"/>
+  <line x1="60" y1="130" x2="460" y2="130" stroke="#F3F4F6" stroke-width="0.5"/>
+  <line x1="60" y1="161" x2="460" y2="161" stroke="#F3F4F6" stroke-width="0.5"/>
+
+  <!-- X-axis labels (Q1-Q10). Spacing: 10 dots across 60..460 => step ~40px, start ~100 -->
+  <!-- Positions: Q1=100, Q2=140, Q3=180, Q4=220, Q5=260, Q6=300, Q7=340, Q8=380, Q9=420, Q10=460 -->
+  <text x="100" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q1</text>
+  <text x="140" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q2</text>
+  <text x="180" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q3</text>
+  <text x="220" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q4</text>
+  <text x="260" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q5</text>
+  <text x="300" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q6</text>
+  <text x="340" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q7</text>
+  <text x="380" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q8</text>
+  <text x="420" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q9</text>
+  <text x="460" y="208" text-anchor="middle" font-size="8" fill="#9CA3AF">Q10</text>
+
+  <!-- Score-to-Y mapping: y = 192 - (score-1)*31 -->
+  <!-- Q1=4.8 => y=74.2, Q2=4.6 => y=80.4, Q3=4.6 => y=80.4, Q4=4.2 => y=92.8 -->
+  <!-- Q5=4.0 => y=99, Q6=3.8 => y=105.2, Q7=3.4 => y=117.6, Q8=3.2 => y=123.8 -->
+  <!-- Q9=3.0 => y=130, Q10=2.8 => y=136.2 -->
+
+  <!-- Trend line connecting dots -->
+  <polyline points="100,74 140,80 180,80 220,93 260,99 300,105 340,118 380,124 420,130 460,136"
+            fill="none" stroke="#6B7280" stroke-width="1" opacity="0.4"/>
+
+  <!-- Dots with color coding -->
+  <!-- Q1-Q4: blue (score >= 4.2) -->
+  <circle cx="100" cy="74" r="5" fill="#60A5FA" opacity="0.85"/>
+  <circle cx="140" cy="80" r="5" fill="#60A5FA" opacity="0.85"/>
+  <circle cx="180" cy="80" r="5" fill="#60A5FA" opacity="0.85"/>
+  <circle cx="220" cy="93" r="5" fill="#60A5FA" opacity="0.85"/>
+  <!-- Q5-Q6: yellow (score 3.8-4.0) -->
+  <circle cx="260" cy="99" r="5" fill="#FBBF24" opacity="0.85"/>
+  <circle cx="300" cy="105" r="5" fill="#FBBF24" opacity="0.85"/>
+  <!-- Q7-Q10: orange (score < 3.5) -->
+  <circle cx="340" cy="118" r="5" fill="#FB923C" opacity="0.85"/>
+  <circle cx="380" cy="124" r="5" fill="#FB923C" opacity="0.85"/>
+  <circle cx="420" cy="130" r="5" fill="#FB923C" opacity="0.85"/>
+  <circle cx="460" cy="136" r="5" fill="#FB923C" opacity="0.85"/>
+
+  <!-- Region labels -->
+  <text x="140" y="66" text-anchor="middle" font-size="8" fill="#1E40AF">fundamental</text>
+  <text x="420" y="148" text-anchor="middle" font-size="8" fill="#9A3412">advanced</text>
+
+  <!-- Interpretation block -->
+  <text x="24" y="234" font-size="10" font-weight="600" fill="#151D1A">Natural progression: basic skills first.</text>
+  <text x="24" y="250" font-size="10" fill="#6B7280">Foundational behaviors strong, advanced lag.</text>
+  <text x="24" y="266" font-size="10" fill="#D912AE">Focus coaching on later-numbered questions.</text>
+</svg>

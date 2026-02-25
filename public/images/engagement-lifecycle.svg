@@ -4,17 +4,17 @@
   <desc>Swim-lane diagram showing the ACE engagement as two concurrent tracks: the Assessment Track (Discovery, Diagnostic, Goal Setting and Roadmap) run by the ACE Facilitator, and the Delivery Track (Collaborative Delivery) run by Embedded Artisans starting from the beginning of the engagement. Assessment track boundaries are decision points where stopping is legitimate. Artisan observations feed back to the Facilitator.</desc>
 
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#6B7280"/>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
     </marker>
-    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#60A5FA"/>
+    <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#60A5FA"/>
     </marker>
-    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#34D399"/>
+    <marker id="arrow-green" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#34D399"/>
     </marker>
-    <marker id="arrow-accent" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#D912AE"/>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
     </marker>
   </defs>
 
@@ -55,14 +55,14 @@
   <text x="136" y="228" text-anchor="middle" font-size="9" fill="#9CA3AF">2-4 weeks</text>
 
   <!-- Arrow 1→Gate 1 -->
-  <line x1="216" y1="200" x2="238" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <line x1="216" y1="200" x2="237" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
   <!-- Gate 1 -->
   <rect x="246" y="186" width="28" height="28" rx="3" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 260 200)"/>
   <text x="260" y="204" text-anchor="middle" font-size="9" font-weight="600" fill="#92400E">?</text>
 
   <!-- Arrow Gate 1→Phase 2 -->
-  <line x1="274" y1="200" x2="296" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <line x1="282" y1="200" x2="304" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
   <!-- Phase 2: Diagnostic -->
   <rect x="304" y="160" width="160" height="80" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
@@ -72,14 +72,14 @@
   <text x="384" y="228" text-anchor="middle" font-size="9" fill="#9CA3AF">2-3 weeks</text>
 
   <!-- Arrow 2→Gate 2 -->
-  <line x1="464" y1="200" x2="486" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <line x1="464" y1="200" x2="485" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
   <!-- Gate 2 -->
   <rect x="494" y="186" width="28" height="28" rx="3" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 508 200)"/>
   <text x="508" y="204" text-anchor="middle" font-size="9" font-weight="600" fill="#92400E">?</text>
 
   <!-- Arrow Gate 2→Phase 3 -->
-  <line x1="522" y1="200" x2="544" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <line x1="530" y1="200" x2="552" y2="200" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
 
   <!-- Phase 3: Goal Setting + Roadmap -->
   <rect x="552" y="160" width="160" height="80" rx="8" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
@@ -89,7 +89,7 @@
   <text x="632" y="228" text-anchor="middle" font-size="9" fill="#9CA3AF">1-2 weeks</text>
 
   <!-- Arrow Phase 3→Periodic -->
-  <line x1="712" y1="200" x2="734" y2="200" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="712" y1="200" x2="740" y2="200" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <!-- Periodic assessment box -->
   <rect x="742" y="160" width="114" height="80" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
@@ -103,8 +103,8 @@
   <text x="799" y="268" text-anchor="middle" font-size="8" fill="#D912AE">Repeats until self-sufficient</text>
 
   <!-- Gate exit annotations -->
-  <text x="260" y="248" text-anchor="middle" font-size="9" fill="#FBBF24" font-weight="500">Exit OK</text>
-  <text x="508" y="248" text-anchor="middle" font-size="9" fill="#FBBF24" font-weight="500">Exit OK</text>
+  <text x="260" y="244" text-anchor="middle" font-size="9" fill="#FBBF24" font-weight="500">Exit OK</text>
+  <text x="508" y="244" text-anchor="middle" font-size="9" fill="#FBBF24" font-weight="500">Exit OK</text>
 
   <!-- Deliverables row under facilitator -->
   <text x="136" y="302" text-anchor="middle" font-size="9" fill="#9CA3AF">Context report</text>

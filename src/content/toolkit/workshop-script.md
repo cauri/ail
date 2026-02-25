@@ -232,7 +232,17 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 
 ---
 
-![VA-10: Score Distribution Archetypes](/images/score-distribution-archetypes.svg)
+![VA-10a: Uniform High Scores](/images/score-archetype-uniform-high.svg)
+
+![VA-10b: Uniform Low Scores](/images/score-archetype-uniform-low.svg)
+
+![VA-10c: High Average, High Variance](/images/score-archetype-high-variance.svg)
+
+![VA-10d: Bimodal Split](/images/score-archetype-bimodal.svg)
+
+![VA-10e: Single Outlier](/images/score-archetype-single-outlier.svg)
+
+![VA-10f: Gradually Decreasing](/images/score-archetype-decreasing.svg)
 
 ## Score Aggregation (5 minutes)
 
