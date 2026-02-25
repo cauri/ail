@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 816 1056"
+     font-family="'Inter', sans-serif">
+  <title>ACE Diagnostic Questionnaire -- Page 3 of 4</title>
+  <desc>Printable participant response form for the ACE diagnostic assessment. Page 3 contains Section C (questions 23 through 32) covering AI-driven development practices where humans specify, review, and orchestrate.</desc>
+
+  <defs>
+    <style>
+      .title { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 400; fill: #151D1A; letter-spacing: -0.03em; }
+      .section-label { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; fill: #151D1A; }
+      .qn { font-size: 10px; font-weight: 600; fill: #374151; }
+      .qt { font-size: 9.5px; fill: #151D1A; }
+      .qsn { font-size: 9.5px; font-weight: 600; fill: #374151; }
+      .qs { font-size: 9px; fill: #374151; }
+      .qnote { font-size: 8px; fill: #9CA3AF; font-style: italic; }
+      .sn { font-size: 8.5px; font-weight: 500; fill: #6B7280; }
+      .fl { font-size: 9px; fill: #6B7280; }
+      .fline { stroke: #D1D5DB; stroke-width: 0.75; }
+      .na { font-size: 7.5px; font-weight: 500; fill: #6B7280; }
+      .ft { font-size: 8px; fill: #9CA3AF; }
+      .divider { stroke: #F3F4F6; stroke-width: 0.5; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="816" height="1056" fill="#fff"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="816" height="4" fill="#9CA3AF"/>
+
+  <!-- ============ PAGE HEADER ============ -->
+  <text x="48" y="26" class="title">ACE Diagnostic Questionnaire</text>
+  <text x="480" y="20" class="fl">Name / ID:</text>
+  <line x1="536" y1="22" x2="680" y2="22" class="fline"/>
+  <text x="694" y="20" class="fl">Team:</text>
+  <line x1="720" y1="22" x2="768" y2="22" class="fline"/>
+
+  <line x1="48" y1="34" x2="768" y2="34" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ============ COLUMN HEADERS ============ -->
+  <g transform="translate(0, 40)">
+    <rect x="630" y="3" width="28" height="14" rx="2" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="644" y="13" class="na" text-anchor="middle">N/A</text>
+    <text x="682" y="13" class="sn" text-anchor="middle">1</text>
+    <text x="700" y="13" class="sn" text-anchor="middle">2</text>
+    <text x="718" y="13" class="sn" text-anchor="middle">3</text>
+    <text x="736" y="13" class="sn" text-anchor="middle">4</text>
+    <text x="754" y="13" class="sn" text-anchor="middle">5</text>
+    <line x1="48" y1="20" x2="768" y2="20" stroke="#E5E7EB" stroke-width="0.5"/>
+  </g>
+
+  <!-- ============ SECTION C ============ -->
+  <text x="48" y="78" class="section-label">Section C</text>
+  <rect x="48" y="82" width="40" height="1.5" fill="#9CA3AF"/>
+
+  <!-- Q23 (Zone 3 Q1 -- updated universal rewrite) -->
+  <g transform="translate(48, 92)">
+    <text x="0" y="11" class="qn">23.</text>
+    <text x="20" y="11" class="qt">My primary mode of work has shifted from producing deliverables directly to specifying, validating, or</text>
+    <text x="20" y="23" class="qt">governing the AI systems that produce them -- even when it would be faster to do the work myself for a</text>
+    <text x="20" y="35" class="qt">particular task.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q24 (Zone 3 Q2) -->
+  <g transform="translate(48, 138)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">24.</text>
+    <text x="20" y="11" class="qt">The team maintains a Continuous Alignment Testing (CAT) pipeline that automatically verifies AI-generated</text>
+    <text x="20" y="23" class="qt">output against project standards, architectural constraints, and behavioral expectations on every change,</text>
+    <text x="20" y="35" class="qt">separate from traditional CI/CD tests.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q25 composite (Zone 3 Q3) -->
+  <g transform="translate(48, 184)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">25.</text>
+    <text x="20" y="11" class="qt">I maintain observability over AI-driven development processes and act on what I learn.</text>
+    <text x="20" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <line x1="13" y1="30" x2="13" y2="90" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 25a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">25a.</text>
+      <text x="26" y="11" class="qs">I instrument AI-driven development processes with observability tooling that tracks metrics such</text>
+      <text x="26" y="22" class="qs">as agent success rates, rework frequency, context window utilization, and failure mode distributions.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 25b -->
+    <g transform="translate(14, 62)">
+      <text x="0" y="11" class="qsn">25b.</text>
+      <text x="26" y="11" class="qs">I routinely use observability data about AI-driven processes to make specific improvements to the</text>
+      <text x="26" y="22" class="qs">system -- not just collect the data but act on it.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- Q26 (Zone 3 Q4) -->
+  <g transform="translate(48, 286)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">26.</text>
+    <text x="20" y="11" class="qt">The team maintains an eval harness: a suite of repeatable evaluations that measure AI agent performance</text>
+    <text x="20" y="23" class="qt">against known benchmarks, used to validate changes to prompts, model versions, context configurations, or</text>
+    <text x="20" y="35" class="qt">workflow modifications before deploying them.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q27 (Zone 3 Q5) -->
+  <g transform="translate(48, 332)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">27.</text>
+    <text x="20" y="11" class="qt">The team versions, reviews, and deploys prompt configurations, context templates, and agent workflow</text>
+    <text x="20" y="23" class="qt">definitions through the same rigor as production code -- including rollback capability when a change</text>
+    <text x="20" y="35" class="qt">degrades agent performance.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q28 (Zone 3 Q6) -->
+  <g transform="translate(48, 378)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">28.</text>
+    <text x="20" y="11" class="qt">When AI-generated output fails or produces unexpected results, I diagnose the failure systematically</text>
+    <text x="20" y="23" class="qt">(context issues, prompt drift, model limitations, specification gaps) and apply targeted fixes to the</text>
+    <text x="20" y="35" class="qt">generation pipeline rather than manually correcting individual outputs.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q29 (Zone 3 Q7) -->
+  <g transform="translate(48, 424)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">29.</text>
+    <text x="20" y="11" class="qt">I include AI-specific criteria in user stories and acceptance requirements -- specifying expected agent</text>
+    <text x="20" y="23" class="qt">behavior, acceptable output variance, required eval thresholds, or observability requirements -- as a</text>
+    <text x="20" y="35" class="qt">standard part of story writing.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q30 (Zone 3 Q8) -->
+  <g transform="translate(48, 470)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">30.</text>
+    <text x="20" y="11" class="qt">I contribute to the specification layer of the AI development pipeline -- defining UI behavioral</text>
+    <text x="20" y="23" class="qt">expectations, interaction patterns, and visual standards that AI-generated implementations must satisfy,</text>
+    <text x="20" y="35" class="qt">with automated checks that verify design compliance.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q31 (Zone 3 Q9) -->
+  <g transform="translate(48, 516)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">31.</text>
+    <text x="20" y="11" class="qt">I operate as an evaluation pipeline specialist: I design, maintain, and improve the automated evaluation</text>
+    <text x="20" y="23" class="qt">infrastructure that validates AI-generated output at scale, rather than primarily performing manual testing</text>
+    <text x="20" y="35" class="qt">of individual outputs.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q32 (Zone 3 Q10) -->
+  <g transform="translate(48, 562)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">32.</text>
+    <text x="20" y="11" class="qt">The team defaults to specification-first as its mode of working: team members habitually specify intent</text>
+    <text x="20" y="23" class="qt">for the AI pipeline rather than implementing directly. When manual coding does occur, it is a principled</text>
+    <text x="20" y="35" class="qt">exception with a clear rationale, and those exceptions feed back into pipeline improvement -- the team asks</text>
+    <text x="20" y="47" class="qt">"what would need to change so the pipeline could handle this next time?"</text>
+    <rect x="582" y="13" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="48" y1="630" x2="768" y2="630" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="48" y="646" class="ft">ACE Diagnostic Questionnaire</text>
+  <text x="768" y="646" class="ft" text-anchor="end">Page 3 of 4 -- Confidential</text>
+
+</svg>

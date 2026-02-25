@@ -1,0 +1,377 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+import { baseUrl } from '../../utils/base-url';
+import { flashcards } from '../../data/flashcards';
+
+const allModules = await getCollection('training');
+const modules = allModules
+  .filter((m) => m.data.order !== undefined)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const cardDataJson = JSON.stringify(flashcards);
+---
+
+<BaseLayout title="Flashcards" description="Study aid for ACE training — test your recall of key concepts with interactive flashcards.">
+  <Nav />
+  <main id="main-content">
+    <section class="bg-white px-6 py-16">
+      <div class="mx-auto max-w-3xl">
+        <nav class="mb-8 text-sm text-gray-400">
+          <a href={baseUrl('/')} class="hover:text-primary">Home</a>
+          <span class="mx-2">/</span>
+          <a href={baseUrl('/training')} class="hover:text-primary">Training</a>
+          <span class="mx-2">/</span>
+          <span class="text-primary">Flashcards</span>
+        </nav>
+
+        <h1 class="font-heading text-3xl leading-tight tracking-[-0.06em] text-primary md:text-4xl">
+          Training Flashcards
+        </h1>
+        <p class="mt-4 text-gray-500">
+          Test your recall of key ACE concepts. Select the modules you have completed to focus on material you have already learned.
+        </p>
+
+        <!-- Controls -->
+        <div class="mt-8 flex flex-wrap items-end gap-6">
+          <div>
+            <label for="max-module" class="block text-sm font-medium text-primary">Include modules through:</label>
+            <select
+              id="max-module"
+              class="mt-1 rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm text-primary focus:border-magenta focus:outline-none focus:ring-1 focus:ring-magenta"
+            >
+              {modules.map((mod) => (
+                <option value={mod.data.order} selected={mod.data.order === 2}>
+                  {mod.data.order === 0 ? 'Program Overview' : `Module ${mod.data.order}`}: {mod.data.title.replace(/^Module \d+:\s*/, '')}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div class="flex gap-3">
+            <button
+              id="btn-shuffle"
+              class="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-gray-50"
+            >
+              Shuffle
+            </button>
+            <button
+              id="btn-reset"
+              class="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-gray-50"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+
+        <!-- Card type filter -->
+        <div class="mt-4 flex flex-wrap gap-2">
+          <button data-type-filter="all" class="type-filter rounded-full border border-magenta bg-lavender px-3 py-1 text-xs font-medium text-magenta">All types</button>
+          <button data-type-filter="conceptual" class="type-filter rounded-full border border-gray-300 px-3 py-1 text-xs font-medium text-gray-500 hover:border-magenta hover:text-magenta">Conceptual</button>
+          <button data-type-filter="scenario" class="type-filter rounded-full border border-gray-300 px-3 py-1 text-xs font-medium text-gray-500 hover:border-magenta hover:text-magenta">Scenario</button>
+          <button data-type-filter="factual" class="type-filter rounded-full border border-gray-300 px-3 py-1 text-xs font-medium text-gray-500 hover:border-magenta hover:text-magenta">Factual</button>
+          <button data-type-filter="elaborative" class="type-filter rounded-full border border-gray-300 px-3 py-1 text-xs font-medium text-gray-500 hover:border-magenta hover:text-magenta">Elaborative</button>
+        </div>
+
+        <!-- Progress -->
+        <div class="mt-8 flex items-center gap-4">
+          <div class="h-2 flex-1 overflow-hidden rounded-full bg-gray-100">
+            <div id="progress-bar" class="h-full rounded-full bg-magenta transition-all duration-300" style="width: 0%"></div>
+          </div>
+          <span id="progress-text" class="shrink-0 text-sm font-medium text-gray-500">0 / 0</span>
+        </div>
+
+        <!-- Card area -->
+        <div id="card-container" class="mt-6">
+          <div
+            id="flashcard"
+            class="group relative min-h-[280px] cursor-pointer rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition-shadow hover:shadow-md"
+            role="button"
+            tabindex="0"
+            aria-label="Click to flip card"
+          >
+            <div class="mb-3 flex items-center gap-2">
+              <span id="card-type-badge" class="rounded-full bg-lavender px-3 py-0.5 text-xs font-medium text-magenta"></span>
+              <span id="card-module-badge" class="rounded-full bg-gray-100 px-3 py-0.5 text-xs font-medium text-gray-500"></span>
+            </div>
+            <div id="card-front" class="text-lg leading-relaxed text-primary"></div>
+            <div id="card-back" class="hidden text-base leading-relaxed text-gray-600"></div>
+            <div id="card-flip-hint" class="mt-6 text-center text-xs text-gray-400">Click or press Space to reveal answer</div>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="mt-6 flex items-center justify-between">
+          <button
+            id="btn-prev"
+            class="flex items-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            Previous
+          </button>
+
+          <div class="flex gap-2">
+            <button
+              id="btn-knew"
+              class="rounded-lg border border-emerald-300 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700 transition-colors hover:bg-emerald-100"
+            >
+              Knew it
+            </button>
+            <button
+              id="btn-didnt"
+              class="rounded-lg border border-pink-300 bg-pink-50 px-4 py-2 text-sm font-medium text-pink-700 transition-colors hover:bg-pink-100"
+            >
+              Missed it
+            </button>
+          </div>
+
+          <button
+            id="btn-next"
+            class="flex items-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-gray-50 disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            Next
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- Session summary (hidden initially) -->
+        <div id="session-summary" class="mt-8 hidden rounded-2xl border border-gray-200 bg-gray-50 p-8 text-center">
+          <h2 class="font-heading text-2xl text-primary">Session Complete</h2>
+          <div class="mt-4 flex justify-center gap-8">
+            <div>
+              <div id="summary-knew" class="text-3xl font-bold text-emerald-600">0</div>
+              <div class="text-sm text-gray-500">Knew it</div>
+            </div>
+            <div>
+              <div id="summary-missed" class="text-3xl font-bold text-pink-600">0</div>
+              <div class="text-sm text-gray-500">Missed it</div>
+            </div>
+            <div>
+              <div id="summary-skipped" class="text-3xl font-bold text-gray-400">0</div>
+              <div class="text-sm text-gray-500">Skipped</div>
+            </div>
+          </div>
+          <button
+            id="btn-review-missed"
+            class="mt-6 rounded-lg bg-magenta px-6 py-2 text-sm font-medium text-white transition-colors hover:bg-pink"
+          >
+            Review missed cards
+          </button>
+        </div>
+
+        <!-- Scope disclaimer -->
+        <p class="mt-8 text-xs text-gray-400">
+          These flashcards cover key concepts from the ACE training program. They are a study aid for recall practice, not a comprehensive review of all training material. Use them alongside the full module content.
+        </p>
+      </div>
+    </section>
+  </main>
+  <Footer />
+
+  <script define:vars={{ cardDataJson }}>
+    const allCards = JSON.parse(cardDataJson);
+
+    let filteredCards = [];
+    let currentIndex = 0;
+    let isFlipped = false;
+    let results = {}; // cardId -> 'knew' | 'missed'
+    let activeTypeFilter = 'all';
+
+    const maxModuleSelect = document.getElementById('max-module');
+    const card = document.getElementById('flashcard');
+    const cardFront = document.getElementById('card-front');
+    const cardBack = document.getElementById('card-back');
+    const cardFlipHint = document.getElementById('card-flip-hint');
+    const cardTypeBadge = document.getElementById('card-type-badge');
+    const cardModuleBadge = document.getElementById('card-module-badge');
+    const progressBar = document.getElementById('progress-bar');
+    const progressText = document.getElementById('progress-text');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    const btnShuffle = document.getElementById('btn-shuffle');
+    const btnReset = document.getElementById('btn-reset');
+    const btnKnew = document.getElementById('btn-knew');
+    const btnDidnt = document.getElementById('btn-didnt');
+    const sessionSummary = document.getElementById('session-summary');
+    const btnReviewMissed = document.getElementById('btn-review-missed');
+    const typeFilters = document.querySelectorAll('.type-filter');
+
+    function filterCards() {
+      const maxModule = parseInt(maxModuleSelect.value);
+      filteredCards = allCards.filter(
+        (c) => c.maxModule <= maxModule && (activeTypeFilter === 'all' || c.type === activeTypeFilter)
+      );
+      currentIndex = 0;
+      results = {};
+      sessionSummary.classList.add('hidden');
+      renderCard();
+    }
+
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    function renderCard() {
+      if (filteredCards.length === 0) {
+        cardFront.textContent = 'No cards match your filters. Try selecting more modules or a different card type.';
+        cardBack.classList.add('hidden');
+        cardFlipHint.classList.add('hidden');
+        cardTypeBadge.textContent = '';
+        cardModuleBadge.textContent = '';
+        btnPrev.disabled = true;
+        btnNext.disabled = true;
+        progressText.textContent = '0 / 0';
+        progressBar.style.width = '0%';
+        return;
+      }
+
+      const c = filteredCards[currentIndex];
+      isFlipped = false;
+
+      cardFront.textContent = c.front;
+      cardFront.classList.remove('hidden');
+      cardBack.textContent = c.back;
+      cardBack.classList.add('hidden');
+      cardFlipHint.textContent = 'Click or press Space to reveal answer';
+      cardFlipHint.classList.remove('hidden');
+
+      const typeLabels = { conceptual: 'Conceptual', scenario: 'Scenario', factual: 'Factual', elaborative: 'Elaborative' };
+      cardTypeBadge.textContent = typeLabels[c.type] || c.type;
+
+      const moduleLabel = c.maxModule === 0 ? 'Overview' : `Module ${c.maxModule}`;
+      cardModuleBadge.textContent = moduleLabel;
+
+      // Highlight card border based on result
+      card.classList.remove('border-emerald-300', 'border-pink-300');
+      if (results[c.id] === 'knew') card.classList.add('border-emerald-300');
+      if (results[c.id] === 'missed') card.classList.add('border-pink-300');
+
+      btnPrev.disabled = currentIndex === 0;
+      btnNext.disabled = currentIndex >= filteredCards.length - 1;
+
+      const answered = Object.keys(results).length;
+      progressText.textContent = `${currentIndex + 1} / ${filteredCards.length}`;
+      progressBar.style.width = `${((answered) / filteredCards.length) * 100}%`;
+    }
+
+    function flipCard() {
+      if (filteredCards.length === 0) return;
+      isFlipped = !isFlipped;
+      if (isFlipped) {
+        cardFront.classList.add('hidden');
+        cardBack.classList.remove('hidden');
+        cardFlipHint.textContent = 'Click or press Space to hide answer';
+      } else {
+        cardFront.classList.remove('hidden');
+        cardBack.classList.add('hidden');
+        cardFlipHint.textContent = 'Click or press Space to reveal answer';
+      }
+    }
+
+    function markResult(result) {
+      if (filteredCards.length === 0) return;
+      const c = filteredCards[currentIndex];
+      results[c.id] = result;
+
+      // Auto-advance
+      if (currentIndex < filteredCards.length - 1) {
+        currentIndex++;
+        renderCard();
+      } else {
+        renderCard();
+        showSummary();
+      }
+    }
+
+    function showSummary() {
+      const knew = Object.values(results).filter((r) => r === 'knew').length;
+      const missed = Object.values(results).filter((r) => r === 'missed').length;
+      const skipped = filteredCards.length - knew - missed;
+
+      document.getElementById('summary-knew').textContent = knew;
+      document.getElementById('summary-missed').textContent = missed;
+      document.getElementById('summary-skipped').textContent = skipped;
+
+      sessionSummary.classList.remove('hidden');
+      if (missed === 0) {
+        btnReviewMissed.classList.add('hidden');
+      } else {
+        btnReviewMissed.classList.remove('hidden');
+      }
+    }
+
+    // Event listeners
+    card.addEventListener('click', flipCard);
+    card.addEventListener('keydown', (e) => {
+      if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipCard(); }
+    });
+
+    btnPrev.addEventListener('click', () => {
+      if (currentIndex > 0) { currentIndex--; renderCard(); }
+    });
+
+    btnNext.addEventListener('click', () => {
+      if (currentIndex < filteredCards.length - 1) { currentIndex++; renderCard(); }
+    });
+
+    btnShuffle.addEventListener('click', () => {
+      shuffle(filteredCards);
+      currentIndex = 0;
+      renderCard();
+    });
+
+    btnReset.addEventListener('click', () => {
+      results = {};
+      currentIndex = 0;
+      sessionSummary.classList.add('hidden');
+      renderCard();
+    });
+
+    btnKnew.addEventListener('click', () => markResult('knew'));
+    btnDidnt.addEventListener('click', () => markResult('missed'));
+
+    btnReviewMissed.addEventListener('click', () => {
+      const missedIds = new Set(Object.entries(results).filter(([, r]) => r === 'missed').map(([id]) => parseInt(id)));
+      filteredCards = filteredCards.filter((c) => missedIds.has(c.id));
+      results = {};
+      currentIndex = 0;
+      sessionSummary.classList.add('hidden');
+      renderCard();
+    });
+
+    maxModuleSelect.addEventListener('change', filterCards);
+
+    typeFilters.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        activeTypeFilter = btn.dataset.typeFilter;
+        typeFilters.forEach((b) => {
+          if (b.dataset.typeFilter === activeTypeFilter) {
+            b.classList.add('border-magenta', 'bg-lavender', 'text-magenta');
+            b.classList.remove('border-gray-300', 'text-gray-500');
+          } else {
+            b.classList.remove('border-magenta', 'bg-lavender', 'text-magenta');
+            b.classList.add('border-gray-300', 'text-gray-500');
+          }
+        });
+        filterCards();
+      });
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+      if (e.key === 'ArrowLeft' && currentIndex > 0) { currentIndex--; renderCard(); }
+      if (e.key === 'ArrowRight' && currentIndex < filteredCards.length - 1) { currentIndex++; renderCard(); }
+      if (e.key === 'k' || e.key === 'K') markResult('knew');
+      if (e.key === 'm' || e.key === 'M') markResult('missed');
+    });
+
+    // Initialize
+    filterCards();
+  </script>
+</BaseLayout>

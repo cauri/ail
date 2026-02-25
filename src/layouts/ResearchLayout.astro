@@ -4,6 +4,7 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import SidebarNav from '../components/SidebarNav.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ContentSectionNav from '../components/ContentSectionNav.astro';
 import { getCollection } from 'astro:content';
 import { baseUrl } from '../utils/base-url';
 
@@ -38,6 +39,7 @@ const breadcrumbs = [
 
 <BaseLayout title={title} description={description}>
   <Nav />
+  <ContentSectionNav headings={headings} />
   <div class="mx-auto flex max-w-7xl gap-8 px-6 py-10">
     <SidebarNav sections={sections} currentPath={currentPath} />
     <div class="min-w-0 flex-1">
@@ -46,7 +48,6 @@ const breadcrumbs = [
         <slot />
       </main>
     </div>
-    <!-- Right-side ToC removed: dual navigation rails (left sidebar + right ToC) created confusing UX -->
   </div>
   <Footer />
 </BaseLayout>

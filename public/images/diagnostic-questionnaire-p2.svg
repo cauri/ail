@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 816 1056"
+     font-family="'Inter', sans-serif">
+  <title>ACE Diagnostic Questionnaire -- Page 2 of 4</title>
+  <desc>Printable participant response form for the ACE diagnostic assessment. Page 2 contains Section B (questions 13 through 22) covering team-level AI integration practices.</desc>
+
+  <defs>
+    <style>
+      .title { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 400; fill: #151D1A; letter-spacing: -0.03em; }
+      .section-label { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; fill: #151D1A; }
+      .qn { font-size: 10px; font-weight: 600; fill: #374151; }
+      .qt { font-size: 9.5px; fill: #151D1A; }
+      .qsn { font-size: 9.5px; font-weight: 600; fill: #374151; }
+      .qs { font-size: 9px; fill: #374151; }
+      .qnote { font-size: 8px; fill: #9CA3AF; font-style: italic; }
+      .sn { font-size: 8.5px; font-weight: 500; fill: #6B7280; }
+      .fl { font-size: 9px; fill: #6B7280; }
+      .fline { stroke: #D1D5DB; stroke-width: 0.75; }
+      .na { font-size: 7.5px; font-weight: 500; fill: #6B7280; }
+      .ft { font-size: 8px; fill: #9CA3AF; }
+      .divider { stroke: #F3F4F6; stroke-width: 0.5; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="816" height="1056" fill="#fff"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="816" height="4" fill="#9CA3AF"/>
+
+  <!-- ============ PAGE HEADER ============ -->
+  <text x="48" y="26" class="title">ACE Diagnostic Questionnaire</text>
+  <text x="480" y="20" class="fl">Name / ID:</text>
+  <line x1="536" y1="22" x2="680" y2="22" class="fline"/>
+  <text x="694" y="20" class="fl">Team:</text>
+  <line x1="720" y1="22" x2="768" y2="22" class="fline"/>
+
+  <line x1="48" y1="34" x2="768" y2="34" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ============ COLUMN HEADERS ============ -->
+  <g transform="translate(0, 40)">
+    <rect x="630" y="3" width="28" height="14" rx="2" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="644" y="13" class="na" text-anchor="middle">N/A</text>
+    <text x="682" y="13" class="sn" text-anchor="middle">1</text>
+    <text x="700" y="13" class="sn" text-anchor="middle">2</text>
+    <text x="718" y="13" class="sn" text-anchor="middle">3</text>
+    <text x="736" y="13" class="sn" text-anchor="middle">4</text>
+    <text x="754" y="13" class="sn" text-anchor="middle">5</text>
+    <line x1="48" y1="20" x2="768" y2="20" stroke="#E5E7EB" stroke-width="0.5"/>
+  </g>
+
+  <!-- ============ SECTION B ============ -->
+  <text x="48" y="78" class="section-label">Section B</text>
+  <rect x="48" y="82" width="40" height="1.5" fill="#9CA3AF"/>
+
+  <!-- Q13 (Zone 2 Q1) -->
+  <g transform="translate(48, 92)">
+    <text x="0" y="11" class="qn">13.</text>
+    <text x="20" y="11" class="qt">The team follows its shared agentic workflow (Plan/Code/Verify) for all code changes, using the team's</text>
+    <text x="20" y="23" class="qt">committed AI configuration (AGENTS.md/CLAUDE.md or equivalent), even under deadline pressure or when</text>
+    <text x="20" y="35" class="qt">working on urgent fixes.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q14 composite (Zone 2 Q2) -->
+  <g transform="translate(48, 138)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">14.</text>
+    <text x="20" y="11" class="qt">The team maintains a shared AI configuration that all members co-own.</text>
+    <text x="20" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <line x1="13" y1="30" x2="13" y2="90" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 14a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">14a.</text>
+      <text x="26" y="11" class="qs">The team maintains a shared AI configuration (AGENTS.md, CLAUDE.md, or equivalent) committed to</text>
+      <text x="26" y="22" class="qs">source control that encodes project context, coding standards, and workflow instructions.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 14b -->
+    <g transform="translate(14, 62)">
+      <text x="0" y="11" class="qsn">14b.</text>
+      <text x="26" y="11" class="qs">I contribute to the evolution of the team's shared AI configuration rather than consuming it</text>
+      <text x="26" y="22" class="qs">passively -- proposing changes, adding role-specific context, or updating instructions.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- Q15 (Zone 2 Q3) -->
+  <g transform="translate(48, 240)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">15.</text>
+    <text x="20" y="11" class="qt">The team enforces mandatory feedback loops: AI-generated code must pass compiler checks, linters, and</text>
+    <text x="20" y="23" class="qt">automated tests before being committed, with no exceptions or workarounds in regular practice.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q16 (Zone 2 Q4) -->
+  <g transform="translate(48, 274)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">16.</text>
+    <text x="20" y="11" class="qt">I guide agents through multi-step implementations using externalized plans (markdown files, ADRs, task</text>
+    <text x="20" y="23" class="qt">breakdowns) checked into the repository, rather than relying solely on interactive chat sessions.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q17 (Zone 2 Q5) -->
+  <g transform="translate(48, 308)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">17.</text>
+    <text x="20" y="11" class="qt">The team reviews AI-generated code at the pull request level with the same rigor applied to human-written</text>
+    <text x="20" y="23" class="qt">code, including attention to the characteristic errors that agents produce.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q18 (Zone 2 Q6) -->
+  <g transform="translate(48, 342)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">18.</text>
+    <text x="20" y="11" class="qt">The team discusses and iterates on its agentic setup (AI configuration, feedback loops, workflow practices)</text>
+    <text x="20" y="23" class="qt">in retrospectives, treating the setup as a living system that requires continuous improvement.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q19 (Zone 2 Q7) -->
+  <g transform="translate(48, 376)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">19.</text>
+    <text x="20" y="11" class="qt">I write user stories or product requirements that include AI-relevant behavioral criteria or verification</text>
+    <text x="20" y="23" class="qt">requirements, and I participate in retrospectives about the team's agentic workflow alongside engineers.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q20 (Zone 2 Q8) -->
+  <g transform="translate(48, 410)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">20.</text>
+    <text x="20" y="11" class="qt">I participate in the team's agentic workflow by using the shared AI configuration for design-related</text>
+    <text x="20" y="23" class="qt">tasks -- generating design system documentation, creating accessibility checks, or producing design-to-code</text>
+    <text x="20" y="35" class="qt">specifications -- rather than working with AI tools in isolation from the team's shared setup.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q21 composite (Zone 2 Q9) -->
+  <g transform="translate(48, 456)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">21.</text>
+    <text x="20" y="11" class="qt">The team's quality assurance practices explicitly address AI-generated code.</text>
+    <text x="20" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <line x1="13" y1="30" x2="13" y2="120" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 21a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">21a.</text>
+      <text x="28" y="11" class="qs">The team's test strategies explicitly account for characteristic AI error patterns -- e.g.,</text>
+      <text x="28" y="22" class="qs">plausible-looking but incorrect logic, hallucinated APIs, inconsistent error handling.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 21b -->
+    <g transform="translate(14, 62)">
+      <text x="0" y="11" class="qsn">21b.</text>
+      <text x="28" y="11" class="qs">The team's regression test suites include coverage for AI-introduced risks that traditional</text>
+      <text x="28" y="22" class="qs">testing might miss.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 21c -->
+    <g transform="translate(14, 92)">
+      <text x="0" y="11" class="qsn">21c.</text>
+      <text x="28" y="11" class="qs">I can identify and articulate the specific failure modes that AI-generated code produces,</text>
+      <text x="28" y="22" class="qs">distinct from typical human-authored bugs.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- Q22 (Zone 2 Q10) -->
+  <g transform="translate(48, 588)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">22.</text>
+    <text x="20" y="11" class="qt">The team's agentic workflow is documented well enough that when new team members join, they can become</text>
+    <text x="20" y="23" class="qt">productive within their first week by following the committed AI configuration, documented workflow</text>
+    <text x="20" y="35" class="qt">practices, and onboarding materials -- without requiring extensive oral tradition or tribal knowledge.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="48" y1="646" x2="768" y2="646" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="48" y="662" class="ft">ACE Diagnostic Questionnaire</text>
+  <text x="768" y="662" class="ft" text-anchor="end">Page 2 of 4 -- Confidential</text>
+
+</svg>

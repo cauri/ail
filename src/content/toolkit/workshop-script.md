@@ -64,13 +64,15 @@ Let me be specific about confidentiality. I collect your individual scores befor
 
 "Here is how the next 90 minutes will work:
 
-For each zone we assess, we will follow this pattern:
-- I will introduce the zone briefly -- what it is about, what it measures
+You will score yourself on several sections of behavioral statements about AI practices. The sections cover a range of practices --- from individual tool usage through team-level integration to more advanced organizational practices. Some questions will describe things you do every day. Others may describe practices you have not started yet. That is expected and perfectly normal --- low scores on some sections are valuable data, not a problem.
+
+For each section, we will follow this pattern:
+- I will introduce the section briefly --- what kind of practices it covers
 - You will score yourself individually and silently on a set of questions using a 1 to 5 scale
 - We will reveal the scores as a group so we can see the distribution
 - We will discuss the results, especially where scores vary a lot
 
-After we finish the zone assessments, we will do a retrospective discussion about what the scores tell us and what the team wants to do about it.
+After we finish all sections, we will do a retrospective discussion about what the scores tell us and what the team wants to do about it.
 
 The scale for every question is:
 - 1 = Never
@@ -78,6 +80,8 @@ The scale for every question is:
 - 3 = Sometimes
 - 4 = Often
 - 5 = Always
+
+If a question describes a behavior that is not part of your role on this team, select 'N/A --- does not apply to my role.' This is a legitimate response, not a skip.
 
 When you see the question, think: 'In the past 2-4 weeks, how often did I or my team actually do this?' Not how often should we, or how often could we. How often did we."
 
@@ -99,35 +103,57 @@ Read each screening question from the baseline screening document. Tally respons
 
 ---
 
-## Zone Assessment (20-25 minutes per zone)
+## Section Assessment (20-25 minutes per section)
 
-*Repeat this entire section for each zone being assessed. Most teams assess 2-3 zones. Budget 20-25 minutes per zone.*
+*Repeat this entire section for each zone being assessed. Most teams assess 2-3 zones plus a sentinel battery from one zone above the target. Budget 20-25 minutes per full zone section and 10 minutes for the sentinel section. Participant-facing materials use neutral section labels (Section A, Section B, etc.) --- do not use zone numbers or zone names when speaking to participants. The zone classification is your analytical framework; the section labels are what participants see and hear.*
 
-### Introduce the Zone (2 minutes)
+### Introduce the Section (2 minutes)
 
-*Read the zone introduction appropriate to the zone being assessed. Keep it brief -- the goal is to orient the team, not to teach the framework.*
+*Read the section introduction appropriate to the zone being assessed. Keep it brief --- the goal is to orient the team to the behavioral domain, not to teach the zone framework. Do not use zone numbers or zone names.*
 
-**For Zone 1 (Augmenting):**
+**For Zone 1 (Section A on participant materials):**
 
-"Zone 1 is about individual AI tool adoption across all roles involved in software production -- developers, PMs, designers, QA engineers. The question is simple: do the individuals on this team use AI tools as a habitual part of their daily work? Not occasionally, not experimentally, but habitually. The key test is whether AI tool usage persists when things get hard -- tight deadlines, production issues, unfamiliar code."
+"This first section is about individual AI tool adoption across all roles --- developers, PMs, designers, QA engineers. The questions ask whether you use AI tools as a habitual part of your daily work. Not occasionally, not experimentally, but habitually. The key test is whether your AI tool usage persists when things get hard --- tight deadlines, production issues, unfamiliar territory."
 
-**For Zone 2 (Integrating):**
+**For Zone 2 (Section B on participant materials):**
 
-"Zone 2 is about team-level integration. The question shifts from 'do individuals use AI tools' to 'does the team have a shared, systematic way of working with AI.' This means shared AI configuration committed to source control, mandatory quality gates for AI-generated code, externalized plans, and collective ownership of the team's AI workflow. It also means PMs contributing specifications to the shared workflow, designers integrating with the shared AI configuration, and QA adapting testing strategies for AI-generated code patterns. The phrase to remember is 'One Team, One Setup.'"
+"This next section shifts from individual practices to team-level integration. The questions ask whether your team has a shared, systematic way of working with AI --- shared configuration committed to source control, mandatory quality gates for AI-generated output, externalized plans, and collective ownership of the team's AI workflow. This includes PMs contributing specifications, designers integrating with shared configuration, and QA adapting strategies for AI-generated output."
 
 ![VA-19: Role Transition Map](/images/role-transition-map.svg)
 
-**For Zone 3 (Accelerating):**
+**For Zone 3 (Section C on participant materials):**
 
-"Zone 3 is about a fundamental shift across all roles in the production pipeline. Engineers operate as process designers, PMs become behavioral specifiers who define what accuracy and reliability the business can tolerate, designers become design systems architects whose standards are machine-verifiable factory inputs, and QA engineers become evaluation pipeline specialists who design the infrastructure that validates AI output at scale. AI drives the core implementation work, and all roles define their respective inputs to the production pipeline."
+"This section is about a fundamental shift in how the team works. The questions ask whether your primary mode of work has moved from producing deliverables directly to specifying, validating, or governing the AI systems that produce them. This applies across all roles --- engineers designing AI pipelines, PMs defining behavioral specifications, designers encoding standards as machine-verifiable inputs, QA building evaluation infrastructure."
 
-**For Zone 4 (Industrializing):**
+**For Zone 4 (Section D on participant materials):**
 
-"Zone 4 describes an AI-first software factory where the organization's core competency is operating the system that produces software, not producing software directly. Engineers maintain the factory, PMs define portfolio-level production targets, designers own the factory's specification layer, and QA operates the evaluation infrastructure. This zone requires sustained executive commitment and represents the deepest level of organizational transformation in the model."
+"This section describes practices at the organizational and portfolio level --- operating AI production systems at scale, with formal governance, drift management, and production SLAs. The questions ask whether this is how the organization actually operates, not how it aspires to operate."
+
+### Sentinel Battery (when administering one zone above target)
+
+*After completing the target zone assessment, administer the sentinel battery for the next zone. The sentinel battery consists of 3-4 selected questions from the next zone designed to detect emergent capability. These are scored items, not previews. Report sentinel scores separately from the target zone assessment.*
+
+*Introduce the sentinel section without zone labels:*
+
+"We have a few more questions in this section. These describe more advanced practices that your team may or may not have started. Some of you may recognize behaviors you are already doing; others may score 1 on everything. Both are useful data. Score honestly based on what you actually do."
+
+*Administer only the sentinel questions for the zone above the target (see Sentinel Sets below). Use the standard scoring, reveal, and discussion flow but compress discussion to 5 minutes --- focus on any scores above 2.*
+
+*If any sentinel scores 3 or above, consider administering the remaining questions from that zone as a follow-up, either in the current session (if time permits) or in a subsequent session. Sentinels are a diagnostic screen; if they detect signal, the facilitator has discretion to expand.*
+
+#### Sentinel Sets
+
+**Zone 1 Foundation Check** (when Zone 1 is administered as health check alongside higher zones): Q1 (core metric / pressure resilience), Q4 (mode selection), Q5 (review/assessment rigor), Q6 (role-specific work). 4 questions, 8 scoreable items including sub-items.
+
+**Zone 2 Sentinels** (for teams targeting Zone 1): Q1 (shared agentic workflow under pressure), Q2 (shared AI configuration), Q6 (retrospective iteration on agentic setup). 3 questions.
+
+**Zone 3 Sentinels** (for teams targeting Zone 2): Q1 (core metric --- shift from direct production to specifying/validating/governing), Q6 (systematic failure diagnosis), Q10 (specification-first as default mode). 3 questions.
+
+**Zone 4 Sentinels** (for teams targeting Zone 3): Q1 (core metric --- factory-level orientation), Q5 (production SLAs for AI pipelines), Q9 (factory-level quality governance). 3 questions.
 
 ### Individual Scoring (5 minutes, silent)
 
-"Please take 5-7 minutes to score yourself on each of the questions for this zone. Work silently and independently. Do not discuss your answers with your neighbors.
+"Please take 5-7 minutes to score yourself on each of the questions for this section. Work silently and independently. Do not discuss your answers with your neighbors.
 
 For each question, circle a number from 1 to 5:
 - 1 = Never -- this does not happen
@@ -160,7 +186,7 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 
 *After revealing all questions, display or describe the distribution:*
 
-"Here is what the scores look like for this zone. Let me highlight a few things I notice..."
+"Here is what the scores look like for this section. Let me highlight a few things I notice..."
 
 *Call out:*
 - *The core metric score (Question 1) -- what is the distribution?*
@@ -208,19 +234,19 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 
 *Listen for organizational blockers vs. team-level blockers. Organizational blockers go in the management report. Team-level blockers go in the team report.*
 
-**Wrap the zone discussion:**
+**Wrap the section discussion:**
 
-"Thank you. Before we move to the next zone, does anyone have a final thought about what these scores are telling us?"
+"Thank you. Before we move to the next section, does anyone have a final thought about what these scores are telling us?"
 
 *Capture key themes in your notes. You will need these for the report.*
 
-*Between-zone diagnostic check. Before introducing the next zone, take 30 seconds to update your working diagnosis. Ask yourself:*
+*Between-section diagnostic check. Before introducing the next section, take 30 seconds to update your working diagnosis. Ask yourself:*
 
 *- What did I learn about this team's dynamics during the discussion? (Who speaks freely? Who defers? Who gave evidence easily and who struggled? Did anyone's body language suggest they were withholding?)*
 
-*- How should this inform my facilitation of the next zone? (If one person dominated Zone 1 discussion, I need to actively solicit other voices in Zone 2. If the team produced rich behavioral evidence easily, I can push harder on specificity. If the team was defensive about low scores, I need to re-establish safety before Zone 2 scoring.)*
+*- How should this inform my facilitation of the next section? (If one person dominated the previous discussion, I need to actively solicit other voices. If the team produced rich behavioral evidence easily, I can push harder on specificity. If the team was defensive about low scores, I need to re-establish safety before the next scoring round.)*
 
-*- Did anything in the discussion change my hypothesis about where this team likely falls on the next zone? (Discovery suggested they might be Zone 2 Developing, but the discussion revealed they do not have shared AI configuration -- should I adjust my probing strategy?)*
+*- Did anything in the discussion change my hypothesis about where this team likely falls on the next section? (Discovery suggested they might be Developing in team integration, but the discussion revealed they do not have shared AI configuration --- should I adjust my probing strategy?)*
 
 ---
 
@@ -260,11 +286,15 @@ Remember: think about the past 2-4 weeks. What actually happened, not what you w
 - *Standard deviation across all individual responses ≤ 0.5*
 - *No single question composite below 4.0*
 
-"Here is the summary. For Zone [X], your scores cluster around [describe]. The core metric -- [read it] -- shows [describe distribution]. For Zone [Y], your scores show [describe]."
+"Here is the summary. For Section [A], your scores cluster around [describe]. The core metric --- [read it] --- shows [describe distribution]. For Section [B], your scores show [describe]."
 
-*Do not declare "you are at Zone X" in harsh terms. Frame it constructively:*
+*This is the point where you introduce the zone framework to participants. They have scored honestly without zone labels; now you contextualize what the scores mean.*
 
-"Based on these scores, your team shows strong habitual practices in [areas] and has clear opportunities to develop in [areas]. This puts you solidly in [zone] with elements of [next zone] emerging."
+"Now let me share the framework we use to interpret these scores. The sections you scored correspond to different levels of AI adoption maturity --- we call them zones. Section A measures individual AI tool adoption. Section B measures team-level integration. [Continue as appropriate for sections assessed.] Based on your scores, your team shows strong habitual practices in [areas] and has clear opportunities to develop in [areas]."
+
+*Frame constructively. Do not declare "you are at Zone X" in harsh terms:*
+
+"This puts your team solidly in [zone description] with elements of [next level] emerging."
 
 ### Sharing the Pre-Workshop Hypothesis
 
@@ -434,14 +464,16 @@ After you receive the team report, I recommend scheduling a goal-setting session
 |---|---|---|
 | Opening | 10 min | Welcome, ground rules, orientation |
 | Baseline Screening | 5 min | Only if needed |
-| Zone Assessment (per zone) | 20-25 min | Intro (2), Scoring (5), Reveal (3), Discussion (10-15) |
+| Section Assessment (per full zone) | 20-25 min | Intro (2), Scoring (5), Reveal (3), Discussion (10-15) |
+| Sentinel Battery | 10 min | Intro (1), Scoring (3), Reveal (2), Discussion (4) |
 | Break | 5 min | Optional, recommended after 60 min |
-| Score Aggregation | 5 min | Tally and display |
+| Score Aggregation | 5 min | Tally, display, introduce zone framework |
 | Retrospective Discussion | 20-30 min | Four key questions |
 | Closing | 5 min | Next steps, thanks |
 
-**2 zones assessed:** ~90 minutes total
-**3 zones assessed:** ~110-120 minutes total
+**2 zones + sentinel:** ~100 minutes total
+**3 zones + sentinel:** ~120-130 minutes total
+**Zone 1 health check (sentinel set) + target zone + sentinel above:** ~80 minutes total
 
 ---
 

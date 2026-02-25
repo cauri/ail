@@ -1,0 +1,351 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 816 1056"
+     font-family="'Inter', sans-serif">
+  <title>ACE Diagnostic Questionnaire -- Page 4 of 4</title>
+  <desc>Printable participant response form for the ACE diagnostic assessment. Page 4 contains Section D (questions 33 through 42) covering factory-level AI operations, plus Section E for sentinel questions.</desc>
+
+  <defs>
+    <style>
+      .title { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 400; fill: #151D1A; letter-spacing: -0.03em; }
+      .section-label { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; fill: #151D1A; }
+      .section-desc { font-size: 9px; fill: #6B7280; font-style: italic; }
+      .qn { font-size: 10px; font-weight: 600; fill: #374151; }
+      .qt { font-size: 9.5px; fill: #151D1A; }
+      .qsn { font-size: 9.5px; font-weight: 600; fill: #374151; }
+      .qs { font-size: 9px; fill: #374151; }
+      .qnote { font-size: 8px; fill: #9CA3AF; font-style: italic; }
+      .sn { font-size: 8.5px; font-weight: 500; fill: #6B7280; }
+      .fl { font-size: 9px; fill: #6B7280; }
+      .fline { stroke: #D1D5DB; stroke-width: 0.75; }
+      .na { font-size: 7.5px; font-weight: 500; fill: #6B7280; }
+      .ft { font-size: 8px; fill: #9CA3AF; }
+      .divider { stroke: #F3F4F6; stroke-width: 0.5; }
+      .sentinel-label { font-size: 9px; fill: #6B7280; }
+      .sentinel-num { font-size: 10px; font-weight: 500; fill: #6B7280; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="816" height="1056" fill="#fff"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="816" height="4" fill="#9CA3AF"/>
+
+  <!-- ============ PAGE HEADER ============ -->
+  <text x="48" y="26" class="title">ACE Diagnostic Questionnaire</text>
+  <text x="480" y="20" class="fl">Name / ID:</text>
+  <line x1="536" y1="22" x2="680" y2="22" class="fline"/>
+  <text x="694" y="20" class="fl">Team:</text>
+  <line x1="720" y1="22" x2="768" y2="22" class="fline"/>
+
+  <line x1="48" y1="34" x2="768" y2="34" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ============ COLUMN HEADERS ============ -->
+  <g transform="translate(0, 40)">
+    <rect x="630" y="3" width="28" height="14" rx="2" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="644" y="13" class="na" text-anchor="middle">N/A</text>
+    <text x="682" y="13" class="sn" text-anchor="middle">1</text>
+    <text x="700" y="13" class="sn" text-anchor="middle">2</text>
+    <text x="718" y="13" class="sn" text-anchor="middle">3</text>
+    <text x="736" y="13" class="sn" text-anchor="middle">4</text>
+    <text x="754" y="13" class="sn" text-anchor="middle">5</text>
+    <line x1="48" y1="20" x2="768" y2="20" stroke="#E5E7EB" stroke-width="0.5"/>
+  </g>
+
+  <!-- ============ SECTION D ============ -->
+  <text x="48" y="78" class="section-label">Section D</text>
+  <rect x="48" y="82" width="40" height="1.5" fill="#9CA3AF"/>
+
+  <!-- Q33 (Zone 4 Q1 -- updated universal rewrite) -->
+  <g transform="translate(48, 92)">
+    <text x="0" y="11" class="qn">33.</text>
+    <text x="20" y="11" class="qt">I spend the majority of my time designing, tuning, and governing AI production systems at the factory</text>
+    <text x="20" y="23" class="qt">level -- maintaining pipeline infrastructure, defining portfolio-level standards, or operating evaluation</text>
+    <text x="20" y="35" class="qt">systems -- rather than performing individual production tasks, and this is the explicit, recognized purpose</text>
+    <text x="20" y="47" class="qt">of my role in the organization.</text>
+    <rect x="582" y="13" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="20" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q34 composite (Zone 4 Q2) -->
+  <g transform="translate(48, 150)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">34.</text>
+    <text x="20" y="11" class="qt">The organization operates formal governance over its AI development pipelines.</text>
+    <text x="20" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <line x1="13" y1="30" x2="13" y2="90" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 34a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">34a.</text>
+      <text x="26" y="11" class="qs">Pipeline changes go through defined approval workflows with audit trails for AI-generated output</text>
+      <text x="26" y="22" class="qs">and compliance verification.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 34b -->
+    <g transform="translate(14, 62)">
+      <text x="0" y="11" class="qsn">34b.</text>
+      <text x="26" y="11" class="qs">Defined escalation paths exist and are followed when pipelines produce output outside</text>
+      <text x="26" y="22" class="qs">acceptable bounds.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- Q35 (Zone 4 Q3) -->
+  <g transform="translate(48, 252)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">35.</text>
+    <text x="20" y="11" class="qt">The organization operates eval suites at portfolio scale: standardized evaluations run automatically across</text>
+    <text x="20" y="23" class="qt">multiple products, teams, or codebases, with results aggregated into dashboards that inform organizational</text>
+    <text x="20" y="35" class="qt">decisions about AI pipeline investment and configuration.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q36 composite (Zone 4 Q4) -->
+  <g transform="translate(48, 298)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">36.</text>
+    <text x="20" y="11" class="qt">The organization systematically detects and remediates drift in AI pipeline performance.</text>
+    <text x="20" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <line x1="13" y1="30" x2="13" y2="102" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 36a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">36a.</text>
+      <text x="26" y="11" class="qs">The organization proactively detects drift in AI pipeline performance -- including model drift from</text>
+      <text x="26" y="22" class="qs">provider updates, prompt drift from accumulated configuration changes, and specification drift from</text>
+      <text x="26" y="33" class="qs">evolving requirements -- before degraded output reaches production.</text>
+      <rect x="568" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 36b -->
+    <g transform="translate(14, 74)">
+      <text x="0" y="11" class="qsn">36b.</text>
+      <text x="26" y="11" class="qs">When drift is detected, the organization remediates it systematically rather than through ad-hoc</text>
+      <text x="26" y="22" class="qs">fixes, and the remediation process is documented and repeatable.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- Q37 (Zone 4 Q5) -->
+  <g transform="translate(48, 408)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">37.</text>
+    <text x="20" y="11" class="qt">The organization operates AI-driven development pipelines under defined production SLAs (throughput</text>
+    <text x="20" y="23" class="qt">targets, quality thresholds, failure rate bounds) that are monitored, reported on, and enforced with the</text>
+    <text x="20" y="35" class="qt">same rigor as production system SLAs.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q38 (Zone 4 Q6) -->
+  <g transform="translate(48, 454)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">38.</text>
+    <text x="20" y="11" class="qt">I operate at the portfolio level -- defining what the AI production system should produce across multiple</text>
+    <text x="20" y="23" class="qt">products or capability domains, specifying system-level acceptance criteria, and managing the tension</text>
+    <text x="20" y="35" class="qt">between production volume and quality governance.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q39 (Zone 4 Q7) -->
+  <g transform="translate(48, 500)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">39.</text>
+    <text x="20" y="11" class="qt">I rotate between factory design, evaluation infrastructure, and production operations roles -- building</text>
+    <text x="20" y="23" class="qt">cross-functional understanding of the full AI production system rather than specializing in a single</text>
+    <text x="20" y="35" class="qt">aspect of pipeline management.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q40 (Zone 4 Q8) -->
+  <g transform="translate(48, 546)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">40.</text>
+    <text x="20" y="11" class="qt">The organization has integrated design and UX functions into the factory system: design standards,</text>
+    <text x="20" y="23" class="qt">component libraries, and interaction specifications are encoded as factory inputs that AI pipelines</text>
+    <text x="20" y="35" class="qt">consume and validate against, with automated design compliance verification at portfolio scale.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q41 (Zone 4 Q9) -->
+  <g transform="translate(48, 592)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">41.</text>
+    <text x="20" y="11" class="qt">The organization operates quality governance at the factory level: standardized quality criteria, acceptance</text>
+    <text x="20" y="23" class="qt">thresholds, and risk assessment frameworks are applied uniformly across all products in the portfolio, with</text>
+    <text x="20" y="35" class="qt">systematic escalation paths when any product falls below quality thresholds.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q42 composite (Zone 4 Q10) -->
+  <g transform="translate(48, 638)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">42.</text>
+    <text x="20" y="11" class="qt">The organization maintains ethical governance of its AI production pipelines.</text>
+    <text x="20" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <line x1="13" y1="30" x2="13" y2="90" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 42a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">42a.</text>
+      <text x="26" y="11" class="qs">The organization systematically monitors for bias in AI-generated outputs, maintains accountability</text>
+      <text x="26" y="22" class="qs">structures for AI-caused harm, and provides workforce transition support for affected roles.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 42b -->
+    <g transform="translate(14, 62)">
+      <text x="0" y="11" class="qsn">42b.</text>
+      <text x="26" y="11" class="qs">The organization regularly reviews which software categories are appropriate for AI-driven</text>
+      <text x="26" y="22" class="qs">production versus those requiring human authorship, and acts on those reviews.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- ============ SECTION E: SENTINEL ============ -->
+  <g transform="translate(0, 748)">
+    <line x1="48" y1="0" x2="768" y2="0" stroke="#E5E7EB" stroke-width="1"/>
+
+    <text x="48" y="22" class="section-label">Section E</text>
+    <rect x="48" y="26" width="40" height="1.5" fill="#9CA3AF"/>
+    <text x="48" y="42" class="section-desc">These questions describe more advanced practices. Score honestly based on what you actually do --</text>
+    <text x="48" y="53" class="section-desc">low scores are expected and are valuable data.</text>
+
+    <!-- Column headers for sentinel -->
+    <g transform="translate(0, 58)">
+      <rect x="630" y="3" width="28" height="14" rx="2" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="0.5"/>
+      <text x="644" y="13" class="na" text-anchor="middle">N/A</text>
+      <text x="682" y="13" class="sn" text-anchor="middle">1</text>
+      <text x="700" y="13" class="sn" text-anchor="middle">2</text>
+      <text x="718" y="13" class="sn" text-anchor="middle">3</text>
+      <text x="736" y="13" class="sn" text-anchor="middle">4</text>
+      <text x="754" y="13" class="sn" text-anchor="middle">5</text>
+      <line x1="48" y1="20" x2="768" y2="20" stroke="#E5E7EB" stroke-width="0.5"/>
+    </g>
+
+    <!-- Sentinel Q S1 -->
+    <g transform="translate(48, 86)">
+      <text x="0" y="11" class="sentinel-num">S1.</text>
+      <line x1="20" y1="3" x2="560" y2="3" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="20" y1="15" x2="560" y2="15" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- Sentinel Q S2 -->
+    <g transform="translate(48, 118)">
+      <text x="0" y="11" class="sentinel-num">S2.</text>
+      <line x1="20" y1="3" x2="560" y2="3" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="20" y1="15" x2="560" y2="15" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- Sentinel Q S3 -->
+    <g transform="translate(48, 150)">
+      <text x="0" y="11" class="sentinel-num">S3.</text>
+      <line x1="20" y1="3" x2="560" y2="3" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="20" y1="15" x2="560" y2="15" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- Sentinel Q S4 -->
+    <g transform="translate(48, 182)">
+      <text x="0" y="11" class="sentinel-num">S4.</text>
+      <line x1="20" y1="3" x2="560" y2="3" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="20" y1="15" x2="560" y2="15" stroke="#F3F4F6" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="48" y1="960" x2="768" y2="960" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="48" y="976" class="ft">ACE Diagnostic Questionnaire</text>
+  <text x="768" y="976" class="ft" text-anchor="end">Page 4 of 4 -- Confidential</text>
+
+</svg>

@@ -1,0 +1,88 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const h2s = headings.filter((h) => h.depth === 2);
+---
+
+{h2s.length >= 2 && (
+  <nav
+    id="content-section-nav"
+    class="sticky top-[57px] z-40 hidden border-b border-gray-200 bg-white/95 backdrop-blur-sm"
+    aria-label="Page sections"
+  >
+    <div class="mx-auto flex max-w-7xl items-center gap-6 overflow-x-auto px-6 py-3 text-sm">
+      {h2s.map((heading) => (
+        <a
+          href={`#${heading.slug}`}
+          class="content-section-link shrink-0 font-medium text-gray-400 transition-colors hover:text-primary"
+          data-section={heading.slug}
+        >
+          {heading.text}
+        </a>
+      ))}
+    </div>
+  </nav>
+)}
+
+<script>
+  const nav = document.getElementById("content-section-nav");
+  if (nav) {
+    const links = nav.querySelectorAll(".content-section-link") as NodeListOf<HTMLAnchorElement>;
+
+    // Show/hide based on whether the article h1 has scrolled out of view
+    const h1 = document.querySelector("#main-content h1");
+    if (h1) {
+      const showObserver = new IntersectionObserver(
+        ([entry]) => {
+          nav.classList.toggle("hidden", entry.isIntersecting);
+        },
+        { threshold: 0 }
+      );
+      showObserver.observe(h1);
+    }
+
+    // Scroll-spy: highlight active section
+    function setActiveLink(slug: string) {
+      links.forEach((link) => {
+        const isActive = link.dataset.section === slug;
+        link.classList.toggle("text-pink", isActive);
+        link.classList.toggle("text-gray-400", !isActive);
+      });
+    }
+
+    const sectionIds = Array.from(links).map((link) => link.dataset.section!);
+    const sectionObserver = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setActiveLink(entry.target.id);
+          }
+        }
+      },
+      { rootMargin: "-20% 0px -70% 0px" }
+    );
+
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) sectionObserver.observe(el);
+    });
+
+    // Smooth scroll for anchor links
+    links.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const target = document.querySelector(link.getAttribute("href")!);
+        target?.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  }
+</script>

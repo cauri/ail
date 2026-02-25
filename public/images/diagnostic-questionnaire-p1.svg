@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 816 1056"
+     font-family="'Inter', sans-serif">
+  <title>ACE Diagnostic Questionnaire -- Page 1 of 4</title>
+  <desc>Printable participant response form for the ACE diagnostic assessment. Page 1 contains Section A (questions 1 through 12) covering individual AI tool adoption practices.</desc>
+
+  <defs>
+    <style>
+      .title { font-family: 'DM Sans', sans-serif; font-size: 20px; font-weight: 400; fill: #151D1A; letter-spacing: -0.03em; }
+      .subtitle { font-size: 11px; fill: #6B7280; }
+      .doc-label { font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 500; fill: #374151; }
+      .section-label { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 500; fill: #151D1A; }
+      .section-desc { font-size: 9.5px; fill: #6B7280; }
+      .qn { font-size: 10px; font-weight: 600; fill: #374151; }
+      .qt { font-size: 9.5px; fill: #151D1A; }
+      .qsn { font-size: 9.5px; font-weight: 600; fill: #374151; }
+      .qs { font-size: 9px; fill: #374151; }
+      .qnote { font-size: 8px; fill: #9CA3AF; font-style: italic; }
+      .sn { font-size: 8.5px; font-weight: 500; fill: #6B7280; }
+      .fl { font-size: 9.5px; fill: #6B7280; }
+      .fline { stroke: #D1D5DB; stroke-width: 0.75; }
+      .lk { font-size: 8.5px; fill: #151D1A; font-weight: 500; }
+      .lv { font-size: 8.5px; fill: #6B7280; }
+      .na { font-size: 7.5px; font-weight: 500; fill: #6B7280; }
+      .ft { font-size: 8px; fill: #9CA3AF; }
+      .divider { stroke: #F3F4F6; stroke-width: 0.5; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="816" height="1056" fill="#fff"/>
+
+  <!-- Top accent bar (neutral) -->
+  <rect x="0" y="0" width="816" height="4" fill="#9CA3AF"/>
+
+  <!-- ============ HEADER ============ -->
+  <text x="48" y="34" class="title">ACE Diagnostic Questionnaire</text>
+  <text x="48" y="49" class="subtitle">AI Competency Evaluation -- Individual Response Form</text>
+
+  <!-- Participant info -->
+  <text x="480" y="24" class="fl">Name / ID:</text>
+  <line x1="540" y1="26" x2="768" y2="26" class="fline"/>
+  <text x="480" y="42" class="fl">Team:</text>
+  <line x1="510" y1="44" x2="640" y2="44" class="fline"/>
+  <text x="480" y="60" class="fl">Date:</text>
+  <line x1="510" y1="62" x2="640" y2="62" class="fline"/>
+  <text x="654" y="60" class="fl">Facilitator:</text>
+  <line x1="700" y1="62" x2="768" y2="62" class="fline"/>
+
+  <line x1="48" y1="74" x2="768" y2="74" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- ============ SCALE LEGEND ============ -->
+  <rect x="48" y="80" width="720" height="26" rx="4" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="0.75"/>
+  <text x="58" y="97" class="lk">Scale:</text>
+  <rect x="90" y="88" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  <text x="96" y="98" class="na">N/A</text>
+  <text x="123" y="97" class="lv">Not part of my role</text>
+  <line x1="226" y1="86" x2="226" y2="100" stroke="#D1D5DB" stroke-width="0.75"/>
+  <text x="238" y="97" class="lk">1</text><text x="247" y="97" class="lv">Never</text>
+  <text x="286" y="97" class="lk">2</text><text x="295" y="97" class="lv">Rarely</text>
+  <text x="336" y="97" class="lk">3</text><text x="345" y="97" class="lv">Sometimes</text>
+  <text x="408" y="97" class="lk">4</text><text x="417" y="97" class="lv">Often</text>
+  <text x="452" y="97" class="lk">5</text><text x="461" y="97" class="lv">Always</text>
+
+  <text x="48" y="122" font-size="8.5" fill="#6B7280" font-style="italic">Rate each behavior based on the past 2-4 weeks. Score what you actually do, not what you intend to do.</text>
+
+  <!-- ============ COLUMN HEADERS ============ -->
+  <g transform="translate(0, 132)">
+    <line x1="48" y1="0" x2="768" y2="0" stroke="#E5E7EB" stroke-width="0.5"/>
+    <rect x="630" y="3" width="28" height="14" rx="2" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="0.5"/>
+    <text x="644" y="13" class="na" text-anchor="middle">N/A</text>
+    <text x="682" y="13" class="sn" text-anchor="middle">1</text>
+    <text x="700" y="13" class="sn" text-anchor="middle">2</text>
+    <text x="718" y="13" class="sn" text-anchor="middle">3</text>
+    <text x="736" y="13" class="sn" text-anchor="middle">4</text>
+    <text x="754" y="13" class="sn" text-anchor="middle">5</text>
+    <line x1="48" y1="20" x2="768" y2="20" stroke="#E5E7EB" stroke-width="0.5"/>
+  </g>
+
+  <!-- ============ SECTION A ============ -->
+  <text x="48" y="168" class="section-label">Section A</text>
+  <rect x="48" y="172" width="40" height="1.5" fill="#9CA3AF"/>
+
+  <!-- Q1 -->
+  <g transform="translate(48, 182)">
+    <text x="0" y="11" class="qn">1.</text>
+    <text x="16" y="11" class="qt">When working under deadline pressure or in an unfamiliar domain, I use AI tools as part of my workflow</text>
+    <text x="16" y="23" class="qt">rather than reverting to fully manual approaches.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q2 -->
+  <g transform="translate(48, 214)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">2.</text>
+    <text x="16" y="11" class="qt">I use AI-assisted code completion or generation (GitHub Copilot, Cursor, Claude Code, or equivalent) as</text>
+    <text x="16" y="23" class="qt">a routine part of writing code each working day.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q3 -->
+  <g transform="translate(48, 246)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">3.</text>
+    <text x="16" y="11" class="qt">When encountering something unfamiliar or unexpected in my work -- unfamiliar code, confusing error</text>
+    <text x="16" y="23" class="qt">messages, unclear domain concepts, ambiguous data, or novel design challenges -- I query an AI assistant</text>
+    <text x="16" y="35" class="qt">as a standard diagnostic step alongside traditional approaches.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q4 composite -->
+  <g transform="translate(48, 292)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">4.</text>
+    <text x="16" y="11" class="qt">I consciously select my mode of AI engagement based on the task context.</text>
+    <text x="16" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <!-- Sub-item left accent bar (neutral) -->
+    <line x1="13" y1="30" x2="13" y2="120" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 4a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">4a.</text>
+      <text x="22" y="11" class="qs">I use different AI approaches for exploratory prototyping than for production work -- treating</text>
+      <text x="22" y="22" class="qs">early-stage exploration as an occasion for rapid iteration with AI.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 4b -->
+    <g transform="translate(14, 62)">
+      <text x="0" y="11" class="qsn">4b.</text>
+      <text x="22" y="11" class="qs">I apply rigorous review to AI-generated code destined for production, treating it as a draft</text>
+      <text x="22" y="22" class="qs">requiring verification rather than finished output.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 4c -->
+    <g transform="translate(14, 92)">
+      <text x="0" y="11" class="qsn">4c.</text>
+      <text x="22" y="11" class="qs">I consciously choose my mode of AI engagement based on the task context rather than using the</text>
+      <text x="22" y="22" class="qs">same approach for all tasks.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- Q5 composite -->
+  <g transform="translate(48, 418)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">5.</text>
+    <text x="16" y="11" class="qt">I review and assess AI-generated code before accepting it.</text>
+    <text x="16" y="22" class="qnote">(Scored as composite of sub-items below)</text>
+
+    <line x1="13" y1="30" x2="13" y2="90" stroke="#D1D5DB" stroke-width="1.5"/>
+
+    <!-- 5a -->
+    <g transform="translate(14, 32)">
+      <text x="0" y="11" class="qsn">5a.</text>
+      <text x="22" y="11" class="qs">I review AI-generated code for correctness and security before accepting it, rather than accepting</text>
+      <text x="22" y="22" class="qs">or rejecting output without examination.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+
+    <!-- 5b -->
+    <g transform="translate(14, 62)">
+      <text x="0" y="11" class="qsn">5b.</text>
+      <text x="22" y="11" class="qs">I verify that AI-generated code aligns with the project's conventions and architectural patterns</text>
+      <text x="22" y="22" class="qs">before accepting it.</text>
+      <rect x="568" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="620" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="638" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="656" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="674" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+      <circle cx="692" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    </g>
+  </g>
+
+  <!-- Q6 -->
+  <g transform="translate(48, 516)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">6.</text>
+    <text x="16" y="11" class="qt">I use AI tools for my role-specific work: drafting user stories, synthesizing research, preparing</text>
+    <text x="16" y="23" class="qt">stakeholder communications, or summarizing meetings.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q7 -->
+  <g transform="translate(48, 548)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">7.</text>
+    <text x="16" y="11" class="qt">I use AI to assist with writing and improving tests, documentation, commit messages, or other</text>
+    <text x="16" y="23" class="qt">development artifacts that are frequently skipped or rushed under time pressure.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q8 -->
+  <g transform="translate(48, 580)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">8.</text>
+    <text x="16" y="11" class="qt">I use AI tools in my production design workflow -- generating design alternatives, creating prototypes,</text>
+    <text x="16" y="23" class="qt">exploring visual variations, or producing wireframes and specifications -- as a regular part of my</text>
+    <text x="16" y="35" class="qt">practice rather than an occasional experiment.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q9 -->
+  <g transform="translate(48, 624)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">9.</text>
+    <text x="16" y="11" class="qt">I use AI to assist with test case generation, exploratory testing strategies, bug triage, or test data</text>
+    <text x="16" y="23" class="qt">creation as a habitual part of my quality assurance work.</text>
+    <rect x="582" y="1" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="8" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q10 -->
+  <g transform="translate(48, 656)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">10.</text>
+    <text x="20" y="11" class="qt">I use AI to support product discovery activities -- synthesizing customer research, analyzing market</text>
+    <text x="20" y="23" class="qt">data, generating product hypotheses, or evaluating strategic options -- as a regular part of my product</text>
+    <text x="20" y="35" class="qt">thinking work, not just for producing delivery artifacts like stories and updates.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q11 -->
+  <g transform="translate(48, 700)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">11.</text>
+    <text x="20" y="11" class="qt">I use AI to support design analysis and evaluation -- synthesizing user research findings, identifying</text>
+    <text x="20" y="23" class="qt">accessibility issues, analyzing information architecture alternatives, or evaluating design patterns -- as</text>
+    <text x="20" y="35" class="qt">a regular part of my design thinking work, not just for generating visual artifacts.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- Q12 -->
+  <g transform="translate(48, 744)">
+    <line x1="0" y1="-4" x2="720" y2="-4" class="divider"/>
+    <text x="0" y="11" class="qn">12.</text>
+    <text x="20" y="11" class="qt">When onboarding to a new project, codebase, or domain, I use AI tools to accelerate my ramp-up --</text>
+    <text x="20" y="23" class="qt">generating summaries of unfamiliar material, querying AI about architecture or domain concepts, or</text>
+    <text x="20" y="35" class="qt">using AI to understand domain-specific terminology and context.</text>
+    <rect x="582" y="7" width="28" height="14" rx="2" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="634" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="652" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="670" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="688" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+    <circle cx="706" cy="14" r="6" fill="#fff" stroke="#D1D5DB" stroke-width="0.75"/>
+  </g>
+
+  <!-- ============ FOOTER ============ -->
+  <line x1="48" y1="800" x2="768" y2="800" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="48" y="816" class="ft">ACE Diagnostic Questionnaire</text>
+  <text x="768" y="816" class="ft" text-anchor="end">Page 1 of 4 -- Confidential</text>
+
+</svg>

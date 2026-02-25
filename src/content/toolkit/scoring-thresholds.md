@@ -44,6 +44,14 @@ All diagnostic questions use a 5-point frequency scale:
 
 A score of 5 ("Always") is the target for competency. It does not mean literally 100% of the time with zero exceptions --- it means the behavior is the default, and departures from it are rare and recognized as departures.
 
+### "Not Part of My Role" Option
+
+In addition to the 1-5 frequency scale, each question includes the response option: **"This behavior is not part of my role on this team."** This option is visually separated from the frequency scale (it is not a 6th point or a zero) and is selected when the behavior described by the question does not apply to the respondent's role on their team.
+
+This option replaces the previous approach where the facilitator directed team members to skip role-inapplicable questions. Respondents determine for themselves whether each question applies to their work. This respects the fluid role boundaries common on modern software teams, where individuals often span multiple roles and are the best judges of which behaviors are part of their practice.
+
+**"Not part of my role" is a response, not missing data.** It generates useful diagnostic information: the pattern of which team members select this option on which questions reveals the team's role structure as perceived by its members. See Handling "Not Part of My Role" Responses below for scoring implications.
+
 ---
 
 ![VA-10a: Uniform High Scores](/images/score-archetype-uniform-high.svg)
@@ -144,11 +152,11 @@ This criterion ensures the team's overall performance is at a high level across 
 
 ### Criterion 2: Response Consistency
 
-**The standard deviation across ALL individual responses is ≤ 0.5.**
+**The standard deviation across ALL numeric individual responses (excluding "not part of my role" selections) is ≤ 0.5.**
 
-This criterion measures consistency --- both across team members and across questions. A low standard deviation means the team is performing uniformly, without significant gaps in any area or for any individual. Calculate the standard deviation of every individual response in the zone (team members × questions).
+This criterion measures consistency --- both across team members and across questions. A low standard deviation means the team is performing uniformly, without significant gaps in any area or for any individual. Calculate the standard deviation of every numeric (1-5) individual response in the zone, excluding any "not part of my role" responses and excluding responses from questions with n <= 1 (see minimum-n rules above).
 
-*Example: A team of 5 members answering 10 questions produces 50 individual responses. Calculate the standard deviation of all 50 scores. If the SD is ≤ 0.5, the team demonstrates the consistency required for Consistent status.*
+*Example: A team of 5 members answering 10 questions where all questions have n >= 2 and 3 responses are "not part of my role" produces 47 numeric responses. Calculate the standard deviation of those 47 scores. If the SD is ≤ 0.5, the team demonstrates the consistency required for Consistent status. Note the effective response count in your scoring worksheet.*
 
 *Methodological note:* The 0.5 SD threshold is an expert-judgment-based starting point, not an empirically derived cutoff. It was selected as a reasonable boundary for distinguishing "consistently high-performing" teams from those with meaningful internal variance, but it has not been tested against independently observed competency. The use of a single global SD rather than separate between-person and between-question thresholds is a simplicity-first design choice for the initial framework version. The [Validation Study Plan](/research/validation-study-plan) includes both ROC analysis (Phase 3) to empirically calibrate this threshold and variance decomposition analysis to evaluate whether decomposed thresholds would provide better diagnostic accuracy. Facilitators should expect this threshold to be revised as validation data becomes available.
 
@@ -194,25 +202,40 @@ A team that meets two of three criteria is Established but not Consistent. Commo
 
 ## How to Score and Aggregate Responses
 
-### Handling Missing or "Not Applicable" Responses
+### Handling "Not Part of My Role" and Missing Responses
 
-Occasionally a team member may leave a question blank or mark it "not applicable" (e.g., a QA engineer on a question about code generation practices). Handle these cases as follows:
+Each question includes a "This behavior is not part of my role on this team" option alongside the 1-5 frequency scale. This option is the primary mechanism for handling role-inapplicable questions --- respondents determine for themselves whether each question applies to their work.
 
-- **Role-based non-applicability:** If a question genuinely does not apply to a team member's role, exclude that response from the question composite calculation. Adjust the denominator accordingly. Note the exclusion in your facilitator notes.
-- **Unanswered questions (no explanation):** Treat as missing data. During the discussion phase, ask the team member why they did not answer. If the question is applicable, encourage them to provide a score. If they cannot, exclude the response and note it.
-- **Small teams (fewer than 5 members):** Missing responses have a disproportionate effect on composites. When more than 20% of responses for a single question are missing, flag the question composite as having reduced reliability in your report.
+**"Not part of my role" responses** are excluded from the question composite calculation. They reduce the effective sample size (n) for that question but are not treated as zeros, missing data, or low scores. They are legitimate exclusions that reflect the team's role composition.
 
-Do not impute missing values (e.g., by substituting the team average). Missing data should reduce the denominator, not be replaced by an estimate.
+**Unanswered questions (no explanation):** Treat as missing data, distinct from "not part of my role." During the discussion phase, ask the team member why they did not answer. If the question is applicable, encourage them to provide a score or select "not part of my role." If they cannot, exclude the response and note it.
 
-**Proactive role-composition review:** Before scoring, review the team's role composition against the zone questions. Questions that address behaviors specific to roles not represented on the team (e.g., PM questions when the team has no PM) should be flagged proactively. Ensure that low scores on these questions are interpreted as role composition effects rather than competency gaps. If team members rated role-irrelevant questions numerically rather than marking N/A, the facilitator may exclude them from the composite with a note in the report. If a question consistently triggers the reduced-reliability flag across multiple teams (e.g., because the question addresses a role not present on many teams), this pattern should be reported in the validation study as it may indicate that the question should be administered conditionally or excluded from composites for teams where the role is absent.
+Do not impute missing values (e.g., by substituting the team average). Missing data and "not part of my role" responses should reduce the denominator, not be replaced by an estimate.
+
+#### Minimum-n Rules for Question Composites
+
+"Not part of my role" responses reduce the number of numeric scores (n) available for each question composite. The reliability of a question composite depends on n. Apply the following rules:
+
+| Effective n | Reporting Rule |
+|-------------|----------------|
+| n >= 3 | Report question composite normally. The composite is based on sufficient responses to represent team-level behavior. |
+| n = 2 | Report question composite with a **reliability caveat** in the facilitator notes and team report. Two responses provide limited evidence; the composite is directional but should not be treated as definitive. Give additional weight to behavioral evidence from the discussion phase for this question. |
+| n = 1 | Report as an **individual response**, not a team composite. Flag in the report: "This question was answered by one team member; the score reflects individual rather than team behavior." Do not include this question composite in the zone composite average or global SD calculation. |
+| n = 0 | Question is **not scorable** for this team. Note in the report: "No team members indicated this behavior applies to their role." Exclude from all composite calculations. If n = 0 occurs on a question that should have broad applicability, investigate whether the question wording is unclear or whether the team genuinely lacks the relevant role. |
+
+**Zone composite adjustment for excluded questions:** When a question is excluded from the zone composite (n = 0 or n = 1), calculate the zone composite average over the remaining questions only. Note the reduced question count in the report. If more than two questions are excluded from a zone assessment, flag the entire zone assessment as having reduced coverage and rely more heavily on the discussion phase and cross-functional probes for the competency determination.
+
+**Proactive role-composition review:** Before scoring, scan the "not part of my role" response patterns across the team. Flag any patterns that appear implausible given the respondent's role --- for example, an engineer selecting "not part of my role" on a code review question. These should be probed during the discussion phase. Also flag organizational-behavior questions (phrased as "The team..." or "The organization...") where respondents selected "not part of my role" --- organizational behaviors should be observable by all team members, and this response may indicate a visibility gap rather than genuine role-inapplicability.
+
+**Validation study tracking:** Track "not part of my role" rates per question across administrations. If a question consistently generates high "not part of my role" rates beyond what role composition would predict, this is a signal that the question may be poorly worded, overly role-specific, or ambiguous in its applicability. Report these patterns in the validation study.
 
 ### Step 1: Collect Individual Responses
 
-Each team member completes the zone's questions independently, rating each question on the 1-5 scale. Responses should be collected before any group discussion to avoid anchoring effects.
+Each team member completes the zone's questions independently, rating each question on the 1-5 frequency scale or selecting "This behavior is not part of my role on this team." Responses should be collected before any group discussion to avoid anchoring effects.
 
 ### Step 2: Calculate Question-Level Composites
 
-For each question, calculate the average (mean) score across all team members. Round to one decimal place.
+For each question, calculate the average (mean) score across all team members who provided a numeric response (1-5). Exclude "not part of my role" selections from the calculation and reduce the denominator accordingly. Record the effective n for each question. Apply the minimum-n rules (see above) to determine whether the question composite is reportable. Round to one decimal place.
 
 *Example for a team of 5 on a 10-question zone assessment:*
 | Team Member | Q1 (Core) | Q2 | Q3 | Q4 | Q5 | Q6 | Q7 | Q8 | Q9 | Q10 |
@@ -227,7 +250,7 @@ For each question, calculate the average (mean) score across all team members. R
 ### Step 3: Check Threshold Criteria
 
 1. **Zone Composite Average:** Average of all question composites = (5.0 + 4.8 + 4.8 + 4.8 + 4.8 + 4.6 + 4.8 + 4.8 + 4.8 + 4.8) / 10 = 4.82. Threshold met (≥ 4.7).
-2. **Response Consistency:** Calculate the standard deviation of all 50 individual responses. In this example, most scores are 4 or 5 with SD ≈ 0.41. Threshold met (≤ 0.5).
+2. **Response Consistency:** Calculate the standard deviation of all numeric individual responses (excluding any "not part of my role" selections). In this example, all 50 responses are numeric, most scores are 4 or 5 with SD ≈ 0.41. Threshold met (≤ 0.5).
 3. **No Weak Links:** Lowest question composite is 4.6 (Q6). Threshold met (all ≥ 4.0).
 
 **Result:** This team meets all three quantitative criteria. They are **Consistent**. If the team also passes the Qualitative Exemplary Assessment (see below), they achieve **Exemplary** status.
@@ -360,6 +383,46 @@ If initial scores are high but decrease when the facilitator asks for specific e
 
 ---
 
+## Sentinel Battery Scoring
+
+### Purpose
+
+The sentinel battery is a set of 3-4 scored questions from one zone above the team's target zone, administered to detect emergent capability. Sentinel scores are reported separately from the target zone assessment and are not included in the target zone's composite calculations.
+
+### Administration
+
+Administer the sentinel battery after the target zone assessment. Use the sentinel sets defined in the [Workshop Script](/toolkit/workshop-script). The Zone 1 Foundation Check (Q1, Q4, Q5, Q6) is used when Zone 1 is administered as a health check alongside higher zones.
+
+### Scoring Sentinel Responses
+
+Score sentinel responses using the same 1-5 scale and N/A handling as target zone questions. Calculate a composite for each sentinel question using the standard procedure. However, do **not**:
+
+- Include sentinel composites in the target zone composite average
+- Include sentinel responses in the target zone's global SD calculation
+- Use sentinel scores in the target zone's threshold determination
+
+### Interpreting Sentinel Scores
+
+Sentinel scores produce a binary diagnostic signal: **is there emergent capability in the next zone?**
+
+- **All sentinel composites below 2.0:** No emergent capability detected. The team has not begun practicing the next zone's behaviors. This is the expected result for most teams and is not a gap --- it simply means the team's growth is concentrated in their current zone.
+- **Any sentinel composite at 2.0 or above:** Emergent capability detected. One or more team members are beginning to practice next-zone behaviors. Report this in the team report as an "emergent capability indicator" with the specific questions and scores. During the discussion phase, explore which individuals are exhibiting these behaviors and what is driving it.
+- **Any sentinel composite at 3.0 or above:** Strong emergent signal. The facilitator should consider administering the remaining questions from that zone, either in the current session or a follow-up, to determine the scope and depth of the emergent capability.
+
+### Reporting Sentinel Results
+
+Report sentinel scores in a separate section of the team report titled "Emergent Capability Scan." Frame the results as forward-looking diagnostic data:
+
+- "The team was assessed on [N] sentinel questions from [next zone description]. These questions detect whether the team has begun developing practices beyond their current target."
+- If no signal: "All sentinel scores were below 2.0, indicating the team's current growth is concentrated in [target zone description]. This is expected and not a concern."
+- If signal detected: "Sentinel scores above 2.0 were observed on [specific questions], suggesting emergent capability in [describe the behaviors]. The individuals exhibiting these behaviors are potential change agents for the team's future progression."
+
+### Zone-Unlabeled Instrument Design
+
+Participant-facing questionnaire materials do not include zone labels. Sections are labeled neutrally (Section A, Section B, etc.) or presented as a continuous instrument with sequential question numbering. Zone classification is a facilitator-side analytical concept introduced to participants during the Score Aggregation phase after honest scoring is complete. This design reduces anchoring bias and normalizes low scores on sentinel items.
+
+---
+
 ## Reassessment Cadence
 
 - **Teams in Emerging or Developing stages:** Reassess every 2-3 months to track progress.
@@ -373,13 +436,19 @@ If initial scores are high but decrease when the facilitator asks for specific e
 
 The scoring methodology rests on several assumptions that are disclosed here for transparency. These assumptions are testable and will be evaluated through the [Validation Study Plan](/research/validation-study-plan).
 
-- **Aggregation assumption:** Aggregating individual responses to team composites assumes sufficient within-team agreement. If team members answer the same question very differently, the composite average may not represent a meaningful team-level construct. This assumption is tested in the validation study using r_wg (within-team agreement) analysis but has not yet been empirically confirmed. Facilitators should note when within-team agreement is low on specific questions (individual responses spanning a range of 3 or more points), as the composite for that question obscures a split that should be reported as a finding in its own right.
+- **Aggregation assumption:** Aggregating individual responses to team composites assumes sufficient within-team agreement. If team members answer the same question very differently, the composite average may not represent a meaningful team-level construct. This assumption is tested in the validation study using r_wg (within-team agreement) analysis but has not yet been empirically confirmed. Facilitators should note when within-team agreement is low on specific questions (individual responses spanning a range of 3 or more points), as the composite for that question obscures a split that should be reported as a finding in its own right. Note that r_wg has different interpretive meaning depending on the question's referent type: for individual-behavior questions ("I do X"), low r_wg indicates genuine behavioral variance across team members; for team/organizational-behavior questions ("The team/organization does X"), low r_wg may indicate either genuine inconsistency in the team/organizational practice or differences in respondent visibility into the behavior being assessed. The validation study should analyze r_wg values separately for each referent type.
 
 - **Engineering-weighted composite assumption:** The composite scores primarily reflect engineering competency. Across all four zones, approximately 70% of scored questions assess engineering behaviors, with one scored question per zone for each non-engineering role (PM, design, QA). This means a team's composite score and competency stage classification are driven predominantly by engineering adoption. A team classified as Consistent or Exemplary may have strong engineering practices but uneven adoption across PM, design, and QA roles. Facilitators should interpret composite scores alongside their cross-functional probe findings (see the [Facilitator Guide](/toolkit/facilitator-guide) section on Assessing Non-Engineering Roles) and note cross-functional adoption patterns in the narrative sections of team and management reports. The cross-functional probes included in each zone's question document are designated as pilot items; data from these probes will inform whether future instrument versions should include additional scored cross-functional questions.
 
 - **Self-report validity assumption:** The scoring thresholds assume that self-reported behavioral frequency is a valid proxy for actual habitual behavior. Self-report data is subject to social desirability bias, aspiration bias, and conformity effects. The facilitation methodology (behavioral probing, discussion-based recalibration) partially mitigates these biases, but residual bias likely inflates scores modestly even under ideal conditions. This assumption will be tested in Phase 2 through behavioral observation comparing self-reported scores to independently observed behavior.
 
 - **Threshold provisionality:** These thresholds are expert-judgment starting points, subject to empirical revision based on ROC analysis in Phase 3 of the validation study. Facilitators should expect periodic updates to threshold values as the framework moves through its validation phases.
+
+- **Zone-unlabeled administration:** Participant-facing materials do not include zone labels. This design choice reduces anchoring bias (participants do not adjust self-assessment based on zone expectations) and normalizes low scores on sentinel items (participants do not know which questions are "above their level"). Zone classification is introduced by the facilitator during the Score Aggregation phase, after honest scoring is complete. The validation study should compare response distributions between early pilot administrations that used zone-labeled materials and current zone-unlabeled administrations to quantify any anchoring effect.
+
+- **Sentinel battery assumption:** The sentinel battery assumes that emergent capability in the next zone manifests first in specific leading-indicator behaviors (core metric, specification-first orientation, systematic diagnosis) before it appears in infrastructure-dependent behaviors (CAT pipelines, eval harnesses, governance structures). This assumption determines which questions are selected as sentinels. The validation study should track all next-zone questions in early administrations to empirically validate sentinel selection by analyzing which questions show variance below the target zone.
+
+- **Question phrasing change:** The diagnostic questions have been revised to use principled referent framing: first-person "I" for individual-behavior questions and "The team" or "The organization" for team/organizational-behavior questions. The previous phrasing used third-person role-specific language (e.g., "Developers use..." or "QA team members use..."). This change improves construct validity and aggregation justifiability but may affect response distributions. Any pilot data collected under the previous phrasing should not be directly compared to data collected under the current phrasing without accounting for the potential phrasing effect. Threshold calibration should be conducted on data collected under the current phrasing. Additionally, the introduction of an explicit "This behavior is not part of my role on this team" response option changes the effective sample size for role-specific questions. The minimum-n rules above address the scoring implications; the validation study should analyze whether response distributions and threshold performance differ meaningfully between the two phrasing versions if any pre-change data exists.
 
 ---
 
