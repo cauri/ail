@@ -1,12 +1,12 @@
 ---
 title: "Investment Catalog"
-description: "A comprehensive catalog of all organizational investments required across all zones of the AI Competency Evaluation (ACE) model."
+description: "A comprehensive catalog of all organizational investments required across all zones of the AI Launchpad (AIL) model."
 section: "reference"
 order: 7
 type: "catalog"
 audience: "facilitator"
 ---
-A comprehensive catalog of all organizational investments required across all zones of the AI Competency Evaluation (ACE) model. Investments are changes the organization must make -- not training individuals complete on their own. Each zone requires its own set of investments in addition to sustaining investments from prior zones.
+A comprehensive catalog of all organizational investments required across all zones of the AI Launchpad (AIL) model. Investments are changes the organization must make -- not training individuals complete on their own. Each zone requires its own set of investments in addition to sustaining investments from prior zones.
 
 This catalog synthesizes investments from the individual zone reference documents. For full context on any zone, see:
 - [Zone 1: Augmenting](/toolkit/zone-1-augmenting)
@@ -28,7 +28,7 @@ Zone 1 competency requires organizational investment beyond individual motivatio
 
 3. **Provide structured training on AI tool usage.** Basic training covers tool installation, configuration, effective prompting, and workflow integration. This is not a one-time workshop; it includes ongoing support, office hours, and shared learning channels where team members exchange tips and techniques.
 
-4. **Address workforce concerns about AI adoption honestly.** Many practitioners carry anxiety that AI tools will change or eliminate their roles. This anxiety is not irrational -- the role of software engineering and other software production disciplines is genuinely changing, and the ACE framework's own zone progression describes that change. Leadership must address these concerns honestly rather than with reassurance that may later feel dishonest. Effective approaches include: acknowledge the concern as legitimate; make concrete, time-bounded commitments about what AI adoption will and will not mean for employment decisions during the current zone transition; connect current adoption to the organization's chosen stopping point and its workforce implications; and do not promise that no roles will change -- promise instead that the organization will invest in helping people navigate the change.
+4. **Address workforce concerns about AI adoption honestly.** Many practitioners carry anxiety that AI tools will change or eliminate their roles. This anxiety is not irrational -- the role of software engineering and other software production disciplines is genuinely changing, and the AIL framework's own zone progression describes that change. Leadership must address these concerns honestly rather than with reassurance that may later feel dishonest. Effective approaches include: acknowledge the concern as legitimate; make concrete, time-bounded commitments about what AI adoption will and will not mean for employment decisions during the current zone transition; connect current adoption to the organization's chosen stopping point and its workforce implications; and do not promise that no roles will change -- promise instead that the organization will invest in helping people navigate the change.
 
 5. **Ensure developers have appropriate API keys and accounts.** Practical blockers kill adoption. If developers cannot sign up for tools without procurement approval, if API keys require weeks of security review, or if corporate firewalls block AI services, adoption stalls regardless of interest. Remove these friction points proactively.
 
@@ -130,7 +130,7 @@ Zone 3 competency requires significant structural changes. These are not increme
 
 9. **Invest in workforce transition planning.** Zone 3's role transformations -- from code writer to AI Engineer, from artifact producer to design systems architect, from tester to evaluation pipeline specialist -- will not suit every current practitioner equally. The organization must plan for workforce implications: retraining programs for practitioners transitioning into new roles, honest career path analysis for practitioners who prefer traditional roles, and support structures for people navigating the identity transition. This investment should be scoped during goal-setting, not discovered mid-transition. See Zone 3 reference: Accountability for AI-Generated Output for the ethical obligations involved.
 
-10. **Manager enablement for identity-level role transitions.** Zone 3 transitions are fundamentally different from Zone 1-2 transitions because they involve changes to professional identity, not just workflow. Engineering managers need specific preparation: how to have individual conversations about role transitions that are supportive rather than directive, how to recognize and respond to identity-based resistance (which presents differently from skill-based resistance), how to manage team performance during a transition period when productivity will temporarily decline, and when to involve the ACE Facilitator or external support. See Heifetz et al. (2009) on the distinction between technical problems and adaptive challenges -- Zone 3 transition management is an adaptive challenge for managers as well as for their teams.
+10. **Manager enablement for identity-level role transitions.** Zone 3 transitions are fundamentally different from Zone 1-2 transitions because they involve changes to professional identity, not just workflow. Engineering managers need specific preparation: how to have individual conversations about role transitions that are supportive rather than directive, how to recognize and respond to identity-based resistance (which presents differently from skill-based resistance), how to manage team performance during a transition period when productivity will temporarily decline, and when to involve the AIL Facilitator or external support. See Heifetz et al. (2009) on the distinction between technical problems and adaptive challenges -- Zone 3 transition management is an adaptive challenge for managers as well as for their teams.
 
 ---
 

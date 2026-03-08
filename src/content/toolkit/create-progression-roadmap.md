@@ -1,12 +1,12 @@
 ---
 title: "How to Create a Progression Roadmap"
-description: "This guide walks through the process of building a practical roadmap for progressing from your current ACE zone to your target zone."
+description: "This guide walks through the process of building a practical roadmap for progressing from your current AIL zone to your target zone."
 section: "guides"
 type: "planning"
 audience: "facilitator"
 order: 5
 ---
-This guide walks through the process of building a practical roadmap for progressing from your current ACE zone to your target zone. It covers ground taught in depth in [Module 4: Progression Roadmap Design](/training/module-4-roadmap-design). Use this as a preview before training or as a refresher before engagements.
+This guide walks through the process of building a practical roadmap for progressing from your current AIL zone to your target zone. It covers ground taught in depth in [Module 4: Progression Roadmap Design](/training/module-4-roadmap-design). Use this as a preview before training or as a refresher before engagements.
 
 A well-constructed roadmap maps specific organizational investments to a timeline, identifies leading indicators that signal progress, and establishes a cadence for reassessment.
 
@@ -14,7 +14,7 @@ A well-constructed roadmap maps specific organizational investments to a timelin
 
 Before creating a roadmap, you need:
 
-- Completed ACE diagnostic results (current zone and competency stage)
+- Completed AIL diagnostic results (current zone and competency stage)
 - A chosen target zone based on strategic analysis. See [How to Choose a Target Zone](/toolkit/choose-target-zone).
 - Leadership buy-in for the target zone and a willingness to invest. See [How to Present to Leadership](/toolkit/present-to-leadership).
 
@@ -35,7 +35,7 @@ Consult the zone reference documentation for the target zone to compile the full
 - **Who owns the change.** Identify the specific person or team responsible for each investment.
 - **What blocks it.** Dependencies, approvals, budget requirements, or prerequisite changes.
 - **How you will know it is done.** Observable criteria for completion, not aspirational goals.
-- **Whether the investment is Artisan-led, jointly owned, or client-owned.** In engagements with an embedded Artisan team, some investments are led by Artisans (introducing new practices through collaborative work), some are jointly owned (Artisans and client team members working together), and some are client-owned (organizational changes that only the client can make). Clarify ownership to avoid ambiguity about who drives each investment.
+- **Whether the investment is Practitioner-led, jointly owned, or client-owned.** In engagements with an embedded Practitioner team, some investments are led by Practitioners (introducing new practices through collaborative work), some are jointly owned (Practitioners and client team members working together), and some are client-owned (organizational changes that only the client can make). Clarify ownership to avoid ambiguity about who drives each investment.
 
 ![VA-18: Investment Dependency Chain](/images/investment-dependency-chain.svg)
 
@@ -58,7 +58,7 @@ Blocker removal has the highest return on investment because it unlocks capabili
 
 Introduce the new zone's core practices in a structured way:
 
-- In engagements with embedded Artisans: Artisans introduce new practices through joint work on real stories from the team's backlog -- pair programming, collaborative design, shared PR reviews -- rather than classroom training
+- In engagements with embedded Practitioners: Practitioners introduce new practices through joint work on real stories from the team's backlog -- pair programming, collaborative design, shared PR reviews -- rather than classroom training
 - In self-directed engagements: pilot teams adopt new workflows through structured practice
 - Shared standards and conventions are drafted
 - Feedback loops are established
@@ -81,7 +81,7 @@ This phase is where proficiency emerges. Practices should be mostly consistent, 
 Focus on durability and competency:
 
 - Test whether practices persist under pressure (deadlines, incidents, team changes)
-- Conduct formal reassessment using the ACE diagnostic
+- Conduct formal reassessment using the AIL diagnostic
 - Adjust the roadmap based on reassessment results
 - Document lessons learned for organizational knowledge
 
@@ -119,7 +119,7 @@ Examples of leading indicators by zone transition:
 
 ## Step 5: Establish a Reassessment Cadence
 
-Plan for periodic reassessment using the ACE diagnostic. The cadence depends on the scope of the transition:
+Plan for periodic reassessment using the AIL diagnostic. The cadence depends on the scope of the transition:
 
 - **Zone 0 to 1:** Reassess every 2-3 months. This transition is relatively fast, and early reassessment catches adoption stalls before they become entrenched.
 - **Zone 1 to 2:** Reassess every 3-4 months. Team-level practice changes take longer to stabilize than individual tool adoption.
@@ -150,7 +150,7 @@ When setbacks occur, adjust the roadmap rather than abandoning it. Move timeline
 Use this structure for a 6-12 month progression roadmap:
 
 ```
-ACE Progression Roadmap
+AIL Progression Roadmap
 ============================
 
 Current State
@@ -165,30 +165,30 @@ Target State
 Phase 1: Remove Blockers (Months 1-2)
 - Investment: [specific change]
   - Owner: [person/team]
-  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Ownership: [Practitioner-led / Joint / Client-owned]
   - Completion criteria: [observable outcome]
 - Investment: [specific change]
   - Owner: [person/team]
-  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Ownership: [Practitioner-led / Joint / Client-owned]
   - Completion criteria: [observable outcome]
 - Leading indicators: [list]
 
 Phase 2: Establish Foundation (Months 2-4)
 - Investment: [specific change]
   - Owner: [person/team]
-  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Ownership: [Practitioner-led / Joint / Client-owned]
   - Completion criteria: [observable outcome]
 
 Phase 3: Broaden and Deepen (Months 4-8)
 - Investment: [specific change]
   - Owner: [person/team]
-  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Ownership: [Practitioner-led / Joint / Client-owned]
   - Completion criteria: [observable outcome]
 
 Phase 4: Sustain and Assess (Months 8-12)
 - Investment: [specific change]
   - Owner: [person/team]
-  - Ownership: [Artisan-led / Joint / Client-owned]
+  - Ownership: [Practitioner-led / Joint / Client-owned]
   - Completion criteria: [observable outcome]
 
 Reassessment Schedule

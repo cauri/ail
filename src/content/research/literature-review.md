@@ -1,12 +1,12 @@
 ---
 title: "Literature Review: AI in Software Production"
-description: "Review of the current state of research and evidence on AI-augmented software production, grounding the ACE zone definitions in observable reality."
+description: "Review of the current state of research and evidence on AI-augmented software production, grounding the AIL zone definitions in observable reality."
 order: 1
 ---
 
-This document reviews the current state of research and evidence on AI-augmented software production, grounding the ACE zone definitions in observable reality. It covers industry adoption patterns, productivity evidence, team-level integration, role transformation, and emerging signals for AI-first ways of working.
+This document reviews the current state of research and evidence on AI-augmented software production, grounding the AIL zone definitions in observable reality. It covers industry adoption patterns, productivity evidence, team-level integration, role transformation, and emerging signals for AI-first ways of working.
 
-ACE addresses AI adoption across all crafts involved in software production -- engineering, product management, design, quality assurance, DevOps, documentation, and other disciplines. However, the published research to date is heavily skewed toward coding and developer-focused use cases. This literature review reflects that skew: most cited studies examine AI coding tools and developer productivity. Where evidence exists for broader software production roles, it is included. The gaps in research on non-coding AI adoption are themselves a significant finding.
+AIL addresses AI adoption across all crafts involved in software production -- engineering, product management, design, quality assurance, DevOps, documentation, and other disciplines. However, the published research to date is heavily skewed toward coding and developer-focused use cases. This literature review reflects that skew: most cited studies examine AI coding tools and developer productivity. Where evidence exists for broader software production roles, it is included. The gaps in research on non-coding AI adoption are themselves a significant finding.
 
 This is a narrative literature review, not a systematic review or peer-reviewed paper. Studies were identified through the authors' professional knowledge, targeted searches, and relevant citation chains rather than through a systematic search protocol with predefined inclusion/exclusion criteria. Where research exists, it is cited. Where evidence is emerging or speculative, that is stated explicitly. The goal is intellectual honesty about what we know, what we suspect, and what remains to be validated. A systematic review of AI adoption measurement would strengthen the evidence base and is recommended as future work.
 
@@ -21,7 +21,7 @@ To help readers calibrate confidence at the claim level, key findings throughout
 
 ### Framework Lineage
 
-ACE's zone-based progression model draws on a lineage of capability frameworks including CMMI (staged maturity), the DORA research program (organizational capability measurement), and the Agile Fluency Model (Larsen & Shore, 2012), which demonstrated that team capability is best understood as habitual practice under pressure rather than knowledge or best-day performance. From CMMI, ACE borrows the staged progression structure but explicitly rejects two of its assumptions: that higher stages are universally better (ACE treats Zone 2 as the appropriate target for many organizations) and that process compliance is the primary indicator of maturity (ACE measures behavioral competency rather than documented process adherence). ACE applies this insight to AI adoption specifically, with a diagnostic instrument, engagement model, and domain content designed for the distinct challenges of organizational AI integration.
+AIL's zone-based progression model draws on a lineage of capability frameworks including CMMI (staged maturity), the DORA research program (organizational capability measurement), and the Agile Fluency Model (Larsen & Shore, 2012), which demonstrated that team capability is best understood as habitual practice under pressure rather than knowledge or best-day performance. From CMMI, AIL borrows the staged progression structure but explicitly rejects two of its assumptions: that higher stages are universally better (AIL treats Zone 2 as the appropriate target for many organizations) and that process compliance is the primary indicator of maturity (AIL measures behavioral competency rather than documented process adherence). AIL applies this insight to AI adoption specifically, with a diagnostic instrument, engagement model, and domain content designed for the distinct challenges of organizational AI integration.
 
 ---
 
@@ -31,7 +31,7 @@ ACE's zone-based progression model draws on a lineage of capability frameworks i
 
 AI coding tool adoption accelerated dramatically between 2023 and 2025. GitHub reported that GitHub Copilot reached over 1.8 million paid subscribers by early 2024, with adoption growing across enterprise and individual segments **[Emerging]** (GitHub, 2024). Stack Overflow's 2024 Developer Survey found that approximately 76% of developers reported using or planning to use AI tools in their development workflow, up from 70% the previous year **[Emerging]** (Stack Overflow, 2024).
 
-However, adoption rates mask significant variation in usage depth. A 2024 study by Uplevel, analyzing engineering metrics across multiple organizations, found that while AI tool licensing was widespread, consistent daily usage was concentrated among a subset of developers **[Emerging]** (Uplevel, 2024). Many organizations reported a pattern where 20-30% of developers accounted for 60-70% of AI tool usage -- a distribution consistent with the ACE observation that individual enthusiasm is often confused with organizational capability.
+However, adoption rates mask significant variation in usage depth. A 2024 study by Uplevel, analyzing engineering metrics across multiple organizations, found that while AI tool licensing was widespread, consistent daily usage was concentrated among a subset of developers **[Emerging]** (Uplevel, 2024). Many organizations reported a pattern where 20-30% of developers accounted for 60-70% of AI tool usage -- a distribution consistent with the AIL observation that individual enthusiasm is often confused with organizational capability.
 
 JetBrains' 2024 State of Developer Ecosystem survey corroborated this pattern, finding that while most developers had tried AI coding tools, regular daily use was reported by a smaller proportion, with many developers describing their usage as "occasional" or "for specific tasks only" (JetBrains, 2024).
 
@@ -53,15 +53,15 @@ The AI tool landscape for software production by late 2025 spans multiple crafts
 - **Documentation:** AI-assisted technical writing, API documentation generation, and knowledge base management
 - **Project coordination:** AI-assisted estimation, retrospective analysis, and dependency mapping
 
-The trend from 2024 to 2025 has been a shift from passive assistance toward agentic AI tools that can execute multi-step tasks with greater autonomy. In engineering, Claude Code, Cursor's agent mode, and similar tools represent a qualitative shift from "autocomplete" to "collaborator." Parallel shifts are emerging across other crafts, though less documented. These trends correspond to the transition from Zone 1 to Zone 2 in the ACE framework.
+The trend from 2024 to 2025 has been a shift from passive assistance toward agentic AI tools that can execute multi-step tasks with greater autonomy. In engineering, Claude Code, Cursor's agent mode, and similar tools represent a qualitative shift from "autocomplete" to "collaborator." Parallel shifts are emerging across other crafts, though less documented. These trends correspond to the transition from Zone 1 to Zone 2 in the AIL framework.
 
 ### Individual vs. Team vs. Organizational Adoption Patterns
 
 Research consistently shows that AI tool adoption follows an individual-first pattern **[Validated]** (Barke et al., 2023). Practitioners across crafts adopt tools based on personal curiosity and perceived productivity benefit, often before their organization has established policies, training, or shared practices. This pattern is best documented among developers but is observable in product management, design, and QA as well.
 
-This individual-first adoption creates what the ACE framework calls the "Zone 1 ceiling" -- a state where many individuals use AI tools effectively but the team's processes, quality standards, and delivery workflows have not changed. McKinsey's 2024 technology report noted that organizations with high individual AI adoption but low process integration reported smaller productivity gains than expected, suggesting that individual tool use without workflow integration yields diminishing returns **[Emerging]** (McKinsey, 2024).
+This individual-first adoption creates what the AIL framework calls the "Zone 1 ceiling" -- a state where many individuals use AI tools effectively but the team's processes, quality standards, and delivery workflows have not changed. McKinsey's 2024 technology report noted that organizations with high individual AI adoption but low process integration reported smaller productivity gains than expected, suggesting that individual tool use without workflow integration yields diminishing returns **[Emerging]** (McKinsey, 2024).
 
-Organizational adoption -- where AI is integrated into team processes, workflows, and shared practices across crafts -- remains less common. A 2024 survey by GitLab found that only 25% of organizations reported having formal AI development policies, and fewer than 15% had integrated AI into their CI/CD or code review workflows at a team level (GitLab, 2024). The gap is likely wider for non-engineering crafts, where formal AI adoption policies are even rarer. This gap between individual adoption and organizational integration is precisely the problem ACE addresses.
+Organizational adoption -- where AI is integrated into team processes, workflows, and shared practices across crafts -- remains less common. A 2024 survey by GitLab found that only 25% of organizations reported having formal AI development policies, and fewer than 15% had integrated AI into their CI/CD or code review workflows at a team level (GitLab, 2024). The gap is likely wider for non-engineering crafts, where formal AI adoption policies are even rarer. This gap between individual adoption and organizational integration is precisely the problem AIL addresses.
 
 ### Barriers to Adoption
 
@@ -87,23 +87,23 @@ Research identifies several consistent barriers to AI adoption in software devel
 
 The most-cited study on AI coding productivity is GitHub's controlled experiment on Copilot **[Emerging]** (Peng et al., 2023; arXiv preprint, not yet peer-reviewed at time of writing), which found that developers using Copilot completed a benchmark coding task 55% faster than those without it. This study, while frequently referenced, has important limitations: it measured a specific, well-defined task (writing an HTTP server) rather than the full range of software development activities, and the participants were not using Copilot in their normal workflow but in an experimental setting.
 
-A more naturalistic study by Google **[Emerging]** (Tabachnyk & Nikolov, 2022) analyzed internal usage of an ML-based code completion tool and found that accepted code completions saved developers an estimated 6% of coding keystrokes, with the benefit concentrated in repetitive and boilerplate code patterns. This more modest finding is consistent with the ACE expectation that Zone 1 benefits are primarily in acceleration of routine tasks.
+A more naturalistic study by Google **[Emerging]** (Tabachnyk & Nikolov, 2022) analyzed internal usage of an ML-based code completion tool and found that accepted code completions saved developers an estimated 6% of coding keystrokes, with the benefit concentrated in repetitive and boilerplate code patterns. This more modest finding is consistent with the AIL expectation that Zone 1 benefits are primarily in acceleration of routine tasks.
 
-Uplevel's 2024 analysis of engineering metrics across organizations using AI tools found mixed results: some teams showed measurable velocity improvements, while others showed no statistically significant change. The key differentiator appeared to be usage consistency -- teams where AI tool usage was habitual showed benefits, while teams with sporadic usage did not (Uplevel, 2024). This finding directly supports the ACE emphasis on competency (habitual behavior) over mere knowledge or occasional use.
+Uplevel's 2024 analysis of engineering metrics across organizations using AI tools found mixed results: some teams showed measurable velocity improvements, while others showed no statistically significant change. The key differentiator appeared to be usage consistency -- teams where AI tool usage was habitual showed benefits, while teams with sporadic usage did not (Uplevel, 2024). This finding directly supports the AIL emphasis on competency (habitual behavior) over mere knowledge or occasional use.
 
-Microsoft Research **[Validated]** (Ziegler et al., 2024) published a study on developer productivity with AI assistants that found productivity gains were real but variable, depending on task type, developer experience, and the quality of the AI model. The study also noted that developers needed 2-4 weeks to develop effective usage patterns, consistent with the ACE Zone 1 timeline of 1-3 months to habitual use.
+Microsoft Research **[Validated]** (Ziegler et al., 2024) published a study on developer productivity with AI assistants that found productivity gains were real but variable, depending on task type, developer experience, and the quality of the AI model. The study also noted that developers needed 2-4 weeks to develop effective usage patterns, consistent with the AIL Zone 1 timeline of 1-3 months to habitual use.
 
 ### Code Quality With and Without AI
 
-Evidence on code quality is more mixed. A 2023 Stanford study **[Validated]** (Perry et al., 2023) found that developers using AI coding assistants produced code with more security vulnerabilities than those without, and -- concerningly -- felt more confident about their code's security despite the increased vulnerability rate. This highlights the importance of the ACE proficiency requiring developers to "review and understand AI-generated code before accepting it."
+Evidence on code quality is more mixed. A 2023 Stanford study **[Validated]** (Perry et al., 2023) found that developers using AI coding assistants produced code with more security vulnerabilities than those without, and -- concerningly -- felt more confident about their code's security despite the increased vulnerability rate. This highlights the importance of the AIL proficiency requiring developers to "review and understand AI-generated code before accepting it."
 
 Conversely, a 2024 study by Sonatype found that organizations using AI coding tools with integrated static analysis and security scanning (i.e., with feedback loops) showed comparable or improved security posture versus manual development **[Emerging]** (Sonatype, 2024). The difference appears to be whether AI-generated code is subject to systematic quality checks -- a Zone 2 practice.
 
-GitClear's 2024 analysis of code quality metrics across repositories using AI tools found an increase in "code churn" (code that is rewritten or deleted shortly after being written), suggesting that AI-generated code may require more iteration to reach production quality **[Emerging]** (GitClear, 2024). This is consistent with the ACE view that AI-generated code is a "draft from a capable but fallible collaborator" requiring review.
+GitClear's 2024 analysis of code quality metrics across repositories using AI tools found an increase in "code churn" (code that is rewritten or deleted shortly after being written), suggesting that AI-generated code may require more iteration to reach production quality **[Emerging]** (GitClear, 2024). This is consistent with the AIL view that AI-generated code is a "draft from a capable but fallible collaborator" requiring review.
 
 ### Habitual vs. Occasional Use Differences
 
-Limited formal research exists on the difference between habitual and occasional AI tool use, but several studies provide indirect evidence. Mozannar et al. (2024) studied how developers learn to use AI code assistants over time and found that experienced AI users developed more effective strategies for when to accept, reject, or modify AI suggestions **[Validated]**. This learning curve supports the ACE distinction between Zone 0 (no use), early Zone 1 (experimental use), and Zone 1 competency (habitual, effective use). While this study focused on coding, the pattern of skill development through consistent practice likely applies across crafts.
+Limited formal research exists on the difference between habitual and occasional AI tool use, but several studies provide indirect evidence. Mozannar et al. (2024) studied how developers learn to use AI code assistants over time and found that experienced AI users developed more effective strategies for when to accept, reject, or modify AI suggestions **[Validated]**. This learning curve supports the AIL distinction between Zone 0 (no use), early Zone 1 (experimental use), and Zone 1 competency (habitual, effective use). While this study focused on coding, the pattern of skill development through consistent practice likely applies across crafts.
 
 Anecdotal evidence from developer surveys and conference talks consistently reports that the productivity benefit of AI tools increases with consistent use. Practitioners who use AI tools daily report higher satisfaction and larger perceived productivity gains than those who use them sporadically (Stack Overflow, 2024; JetBrains, 2024). Informal reports from product managers and designers describe a similar pattern: AI becomes significantly more useful once practitioners develop habits around when and how to use it.
 
@@ -115,9 +115,9 @@ Anecdotal evidence from developer surveys and conference talks consistently repo
 
 Research on team-level AI integration is significantly less developed than research on individual use. Most studies focus on individual practitioner interactions with AI tools -- overwhelmingly in coding contexts -- leaving a gap in understanding how cross-functional teams systematically integrate AI into shared workflows across crafts.
 
-The closest analog in existing literature comes from DevOps research. The DORA (DevOps Research and Assessment) program has demonstrated over multiple years that team-level practices (CI/CD, automated testing, trunk-based development) produce measurable improvements in delivery performance **[Validated]** (Forsgren et al., 2018; DORA, 2024). By analogy, the ACE prediction is that team-level AI practices (shared configuration, mandatory feedback loops, Plan/Code/Verify workflow) will produce similarly measurable improvements over ad-hoc individual use **[Expert judgment]**. It is worth noting that DORA's cluster findings were based on survey data from thousands of respondents across multiple years, while ACE's planned validation will operate at substantially smaller sample sizes; any cluster evidence from ACE's initial studies should be treated as preliminary rather than definitive.
+The closest analog in existing literature comes from DevOps research. The DORA (DevOps Research and Assessment) program has demonstrated over multiple years that team-level practices (CI/CD, automated testing, trunk-based development) produce measurable improvements in delivery performance **[Validated]** (Forsgren et al., 2018; DORA, 2024). By analogy, the AIL prediction is that team-level AI practices (shared configuration, mandatory feedback loops, Plan/Code/Verify workflow) will produce similarly measurable improvements over ad-hoc individual use **[Expert judgment]**. It is worth noting that DORA's cluster findings were based on survey data from thousands of respondents across multiple years, whileAIL's planned validation will operate at substantially smaller sample sizes; any cluster evidence fromAIL's initial studies should be treated as preliminary rather than definitive.
 
-**Important limitation of this analogy:** DORA's key metrics (deployment frequency, lead time for changes, change failure rate, time to restore service) are verifiable against objective data sources -- deployment logs, incident records, commit timestamps. ACE's diagnostic primarily measures self-reported behavior, which has a different validity profile. The strength of self-report is that it captures behavioral nuance (especially under-pressure behavior) that objective metrics miss. The limitation is that self-report is subject to reporting biases (social desirability, conformity pressure) that objective metrics are not.
+**Important limitation of this analogy:** DORA's key metrics (deployment frequency, lead time for changes, change failure rate, time to restore service) are verifiable against objective data sources -- deployment logs, incident records, commit timestamps.AIL's diagnostic primarily measures self-reported behavior, which has a different validity profile. The strength of self-report is that it captures behavioral nuance (especially under-pressure behavior) that objective metrics miss. The limitation is that self-report is subject to reporting biases (social desirability, conformity pressure) that objective metrics are not.
 
 This limitation is especially relevant for Zone 2 constructs like "shared agentic workflow" and "team-level AI integration," which are harder to operationalize than DORA's deployment-oriented metrics. A team can have a shared AGENTS.md file committed to source control (objectively verifiable) while individual team members rarely consult or update it (behaviorally inoperative). Self-report that the team "follows its shared agentic workflow" may reflect aspiration or social conformity rather than observed practice. The [Validation Study Plan](/research/validation-study-plan) addresses this through convergent validation: comparing self-reported diagnostic scores against independent behavioral observation and objective artifacts. Specifically, the validation plan employs r<sub>wg</sub> analysis for within-team agreement on self-report items, behavioral observation sessions with inter-observer agreement targets to assess whether reported practices are enacted, and objective artifact review -- repository commit history for AI configuration files, CI/CD logs for feedback loop enforcement, and PR records for Plan/Code/Verify evidence. Where self-report and objective evidence diverge, the divergence itself is an important diagnostic finding.
 
@@ -131,29 +131,29 @@ The concept of shared AI configuration (AGENTS.md, CLAUDE.md) as a team-level ar
 - **Faster onboarding.** New team members benefit from the accumulated project context in the shared configuration, reducing the time to productivity.
 - **Consistent code style and conventions.** AI tools configured with project-specific standards produce more consistent output across team members.
 
-Thoughtworks included "AI-assisted software development lifecycle" and "AI team coding assistants" as notable entries in their 2024 Technology Radar, signaling that team-level AI integration is moving from early adoption to mainstream awareness (Thoughtworks, 2024). Notably, team-level integration in the ACE sense extends beyond engineering -- it includes shared AI practices for how teams handle requirements refinement, design iteration, test strategy, and documentation, not only code production.
+Thoughtworks included "AI-assisted software development lifecycle" and "AI team coding assistants" as notable entries in their 2024 Technology Radar, signaling that team-level AI integration is moving from early adoption to mainstream awareness (Thoughtworks, 2024). Notably, team-level integration in the AIL sense extends beyond engineering -- it includes shared AI practices for how teams handle requirements refinement, design iteration, test strategy, and documentation, not only code production.
 
 ### Shared AI Configuration
 
 The practice of maintaining AI configuration in version control is an emerging convention without formal research validation. However, it builds on well-established software engineering practices: configuration as code, infrastructure as code, and the general principle that team agreements should be explicit and versioned.
 
-The ACE framework's emphasis on shared AI configuration as a Zone 2 requirement reflects practitioner consensus rather than formal research. Validation of this practice's effectiveness is an area requiring further study (see [Validation Study Plan](/research/validation-study-plan)).
+The AIL framework's emphasis on shared AI configuration as a Zone 2 requirement reflects practitioner consensus rather than formal research. Validation of this practice's effectiveness is an area requiring further study (see [Validation Study Plan](/research/validation-study-plan)).
 
 ---
 
 ## Section 4: Evidence for Zone 3 -- Role Transformation
 
-*Note on evidence level: Zone 3 represents a prediction of the ACE framework with limited formal research validation. The shift from "practitioner who uses AI" to "AI-augmented practitioner who specifies and verifies" is supported by emerging practitioner reports but not by formal empirical studies. The following evidence is early-stage; it does not yet constitute validation of Zone 3 practices or outcomes.*
+*Note on evidence level: Zone 3 represents a prediction of the AIL framework with limited formal research validation. The shift from "practitioner who uses AI" to "AI-augmented practitioner who specifies and verifies" is supported by emerging practitioner reports but not by formal empirical studies. The following evidence is early-stage; it does not yet constitute validation of Zone 3 practices or outcomes.*
 
 ### The "AI Engineer" Role Emergence
 
-The concept of an "AI Engineer" -- a practitioner whose primary skill is architecting solutions around AI capabilities rather than performing traditional craft work directly -- has emerged as a practitioner-driven concept rather than a research-validated role **[Expert judgment]** (Swyx, 2023). Swyx coined the term in an engineering context and described the role shift from "writing code" to "orchestrating AI systems," a framing that aligns with the ACE Zone 3 description. Analogous shifts are beginning to appear in other crafts: product managers who use AI to rapidly generate and evaluate product strategy alternatives, designers who use AI to explore design spaces more broadly, and QA professionals who use AI to generate comprehensive test strategies.
+The concept of an "AI Engineer" -- a practitioner whose primary skill is architecting solutions around AI capabilities rather than performing traditional craft work directly -- has emerged as a practitioner-driven concept rather than a research-validated role **[Expert judgment]** (Swyx, 2023). Swyx coined the term in an engineering context and described the role shift from "writing code" to "orchestrating AI systems," a framing that aligns with the AIL Zone 3 description. Analogous shifts are beginning to appear in other crafts: product managers who use AI to rapidly generate and evaluate product strategy alternatives, designers who use AI to explore design spaces more broadly, and QA professionals who use AI to generate comprehensive test strategies.
 
-By 2024-2025, job postings for roles explicitly described as "AI Engineer" or "AI-augmented" practitioner roles began appearing, though the role definition varies significantly across organizations. In engineering, some use "AI Engineer" to mean ML/AI model development; others use it closer to the ACE meaning of a practitioner who works primarily through AI augmentation. Similar role evolution in non-engineering crafts is less formalized but emerging.
+By 2024-2025, job postings for roles explicitly described as "AI Engineer" or "AI-augmented" practitioner roles began appearing, though the role definition varies significantly across organizations. In engineering, some use "AI Engineer" to mean ML/AI model development; others use it closer to the AIL meaning of a practitioner who works primarily through AI augmentation. Similar role evolution in non-engineering crafts is less formalized but emerging.
 
 ### Shift in Practitioner Work Patterns
 
-Research from Microsoft Research (Mozannar et al., 2024) and Google (Tabachnyk & Nikolov, 2022) documents early shifts in work patterns with AI tools, but these studies capture Zone 1-level changes (individual tool use) rather than the Zone 3-level role transformation. The shift from "practitioner who uses AI" to "AI-augmented practitioner who specifies and verifies" is a prediction of the ACE framework that has limited formal research validation.
+Research from Microsoft Research (Mozannar et al., 2024) and Google (Tabachnyk & Nikolov, 2022) documents early shifts in work patterns with AI tools, but these studies capture Zone 1-level changes (individual tool use) rather than the Zone 3-level role transformation. The shift from "practitioner who uses AI" to "AI-augmented practitioner who specifies and verifies" is a prediction of the AIL framework that has limited formal research validation.
 
 Anecdotal evidence from early adopters of agentic AI tools describes a workflow that closely matches the Zone 3 prediction: practitioners across crafts spend more time on specification and review, less time on direct production, and can tackle tasks outside their traditional specialization because the AI handles implementation details. In engineering, this is documented through blog posts, conference talks, and community discussions about Claude Code and Cursor. In product management and design, similar patterns are emerging but less publicly documented.
 
@@ -163,7 +163,7 @@ Kent Beck's writing on "AI-Assisted Software Engineering" (2024) describes a shi
 
 The concept of eval pipelines for AI-augmented development -- systematic evaluation of AI output quality -- is emerging primarily from the AI/ML community rather than traditional software engineering. Anthropic, OpenAI, and other AI companies have published extensively on evaluation methodology for AI systems, and some of these practices are being adapted for AI-augmented software development.
 
-Formal research on eval pipelines specifically for AI-generated code in production software development is limited. The ACE framework's inclusion of eval pipelines as a Zone 3 technique reflects emerging practitioner practice rather than validated research.
+Formal research on eval pipelines specifically for AI-generated code in production software development is limited. The AIL framework's inclusion of eval pipelines as a Zone 3 technique reflects emerging practitioner practice rather than validated research.
 
 ---
 
@@ -171,17 +171,17 @@ Formal research on eval pipelines specifically for AI-generated code in producti
 
 ### Early Evidence of AI-First Development
 
-Zone 4 -- organizational industrialization of AI -- is largely speculative as of early 2026. No formal research validates the specific practices and outcomes described in the ACE Zone 4 definition. However, several signals suggest the trajectory:
+Zone 4 -- organizational industrialization of AI -- is largely speculative as of early 2026. No formal research validates the specific practices and outcomes described in the AIL Zone 4 definition. However, several signals suggest the trajectory:
 
 1. **AI-native startups.** A growing number of startups are building with AI as a foundational development tool from day one, achieving output-to-headcount ratios that would be impossible with traditional development. These organizations represent early instances of Zone 4-like practices, though they benefit from having no legacy processes to transform.
 
-2. **Enterprise AI platform teams.** Large enterprises including Google, Microsoft, Meta, and others have created internal AI platform teams that build and maintain custom AI development infrastructure. While these efforts predate the ACE framework, they represent the kind of organizational investment described in Zone 4.
+2. **Enterprise AI platform teams.** Large enterprises including Google, Microsoft, Meta, and others have created internal AI platform teams that build and maintain custom AI development infrastructure. While these efforts predate the AIL framework, they represent the kind of organizational investment described in Zone 4.
 
 3. **Custom model fine-tuning for development.** Organizations beginning to fine-tune AI models on their proprietary codebases represent an early signal of Zone 4 investment. Research from organizations like Replit, Sourcegraph, and others documents early experiments in this direction.
 
 ### Agentic AI Systems in Production
 
-The emergence of agentic AI systems -- AI tools that can execute multi-step tasks with greater autonomy -- is a significant development for ACE's Zone 3 and Zone 4 predictions. Devin (by Cognition), SWE-Agent (Princeton NLP), and similar projects demonstrate the potential for AI agents to handle increasingly complex development tasks.
+The emergence of agentic AI systems -- AI tools that can execute multi-step tasks with greater autonomy -- is a significant development forAIL's Zone 3 and Zone 4 predictions. Devin (by Cognition), SWE-Agent (Princeton NLP), and similar projects demonstrate the potential for AI agents to handle increasingly complex development tasks.
 
 However, as of early 2026, fully autonomous AI development agents remain limited in their reliability for production software engineering. Benchmarks such as SWE-bench (Jimenez et al., 2024) show that even the best AI agents resolve only a fraction of real-world software issues without human intervention. This suggests that the Zone 3 model of human-directed, AI-assisted development is more realistic in the near term than the Zone 4 model of highly autonomous AI development.
 
@@ -196,7 +196,7 @@ The trajectory from current evidence suggests:
 
 ## Section 5b: Responsible AI and Ethical Considerations
 
-The ACE framework operates in a broader context of responsible AI research that is essential for understanding the risks and obligations associated with AI-augmented software production.
+The AIL framework operates in a broader context of responsible AI research that is essential for understanding the risks and obligations associated with AI-augmented software production.
 
 ### AI Bias in Code Generation
 
@@ -204,19 +204,19 @@ AI code generation models are trained on large corpora of existing code, which m
 
 Beyond bias in generated code, AI augmentation can create accountability gaps when systematic verification practices are absent. Perry et al. (2023) found that developers using AI coding assistants produced code with more security vulnerabilities while reporting higher confidence in their code's security -- a concrete demonstration of how AI augmentation can undermine the self-assessment that quality processes depend on.
 
-The implications for ACE are concrete: teams using AI code generation should review AI output not only for correctness and security but also for embedded assumptions that may not serve all users. This concern is reflected in the bias awareness additions to Zone 1 proficiency descriptions for PM, Design, and Engineering roles.
+The implications for AIL are concrete: teams using AI code generation should review AI output not only for correctness and security but also for embedded assumptions that may not serve all users. This concern is reflected in the bias awareness additions to Zone 1 proficiency descriptions for PM, Design, and Engineering roles.
 
 ### Accountability and Governance Frameworks
 
-The NIST AI Risk Management Framework (NIST, 2023) and the EU AI Act (2024) establish governance expectations for organizations deploying AI systems. Organizations operating at Zone 3-4 -- where AI is a primary production mechanism -- should evaluate their obligations under these frameworks. Raji et al. (2020) provide a practical internal auditing framework that maps well to ACE's eval harness and CAT pipeline architecture.
+The NIST AI Risk Management Framework (NIST, 2023) and the EU AI Act (2024) establish governance expectations for organizations deploying AI systems. Organizations operating at Zone 3-4 -- where AI is a primary production mechanism -- should evaluate their obligations under these frameworks. Raji et al. (2020) provide a practical internal auditing framework that maps well toAIL's eval harness and CAT pipeline architecture.
 
 ### Workforce Transition
 
-Acemoglu & Restrepo (2020) demonstrate that automation simultaneously displaces workers in automated tasks and creates demand for workers in new tasks **[Validated]**. Autor (2024) argues that whether AI concentrates or democratizes expertise depends on organizational design choices. These findings are directly relevant to ACE zone transitions, particularly Zone 3-4 where the role of software engineers changes fundamentally.
+Acemoglu & Restrepo (2020) demonstrate that automation simultaneously displaces workers in automated tasks and creates demand for workers in new tasks **[Validated]**. Autor (2024) argues that whether AI concentrates or democratizes expertise depends on organizational design choices. These findings are directly relevant to AIL zone transitions, particularly Zone 3-4 where the role of software engineers changes fundamentally.
 
 ### Ethical Principles for AI Deployment
 
-Floridi et al. (2018) synthesize five ethical principles for AI: beneficence, non-maleficence, autonomy, justice, and explicability **[Validated]**. Jobin et al. (2019) confirm these principles across 84 international AI ethics guidelines **[Validated]**. ACE's observability and eval infrastructure addresses explicability; the accountability additions in Zone 3-4 address responsibility; the gaps in justice/fairness are addressed through targeted additions to proficiency definitions and organizational investments.
+Floridi et al. (2018) synthesize five ethical principles for AI: beneficence, non-maleficence, autonomy, justice, and explicability **[Validated]**. Jobin et al. (2019) confirm these principles across 84 international AI ethics guidelines **[Validated]**.AIL's observability and eval infrastructure addresses explicability; the accountability additions in Zone 3-4 address responsibility; the gaps in justice/fairness are addressed through targeted additions to proficiency definitions and organizational investments.
 
 ### Additional References
 
@@ -238,39 +238,39 @@ Floridi et al. (2018) synthesize five ethical principles for AI: beneficence, no
 
 ### What Is Missing from Current Research
 
-1. **Team-level and cross-craft studies are scarce.** Nearly all published research on AI-augmented software production focuses on individual developers working on coding tasks. Research on how cross-functional teams systematically integrate AI into shared workflows across crafts is minimal. This is the biggest gap relevant to ACE, as Zones 2-4 are fundamentally about team and organizational practices spanning all software production disciplines.
+1. **Team-level and cross-craft studies are scarce.** Nearly all published research on AI-augmented software production focuses on individual developers working on coding tasks. Research on how cross-functional teams systematically integrate AI into shared workflows across crafts is minimal. This is the biggest gap relevant to AIL, as Zones 2-4 are fundamentally about team and organizational practices spanning all software production disciplines.
 
-2. **Longitudinal studies are rare.** Most studies capture a snapshot of AI tool usage. Few track how AI usage patterns evolve over months or years, making it difficult to validate the ACE concept of "competency" as a durable behavior pattern.
+2. **Longitudinal studies are rare.** Most studies capture a snapshot of AI tool usage. Few track how AI usage patterns evolve over months or years, making it difficult to validate the AIL concept of "competency" as a durable behavior pattern.
 
-3. **Organizational adoption studies are limited.** Research on the organizational conditions that enable or block AI adoption in software production is less developed than research on individual tool use. The ACE organizational investment framework draws more on DevOps and organizational change research by analogy than on direct AI-specific evidence.
+3. **Organizational adoption studies are limited.** Research on the organizational conditions that enable or block AI adoption in software production is less developed than research on individual tool use. The AIL organizational investment framework draws more on DevOps and organizational change research by analogy than on direct AI-specific evidence.
 
 4. **Quality and safety evidence is mixed.** Whether AI-augmented development produces higher or lower quality code appears to depend heavily on the practices surrounding AI use (review, testing, feedback loops) rather than AI use per se. More research is needed on which practices reliably produce quality improvements.
 
 5. **Role transformation evidence is anecdotal.** The Zone 3 prediction that practitioner roles will shift from direct production to specifying and verifying is supported by practitioner reports but not by formal research. This gap is especially pronounced for non-engineering crafts.
 
-6. **Non-engineering craft research is nearly absent.** Almost no published research examines AI's impact on product management, design, QA, or other software production crafts with the rigor applied to coding productivity. ACE's cross-craft scope is informed by practitioner observation rather than formal evidence for these disciplines.
+6. **Non-engineering craft research is nearly absent.** Almost no published research examines AI's impact on product management, design, QA, or other software production crafts with the rigor applied to coding productivity.AIL's cross-craft scope is informed by practitioner observation rather than formal evidence for these disciplines.
 
 7. **Economic impact studies are preliminary.** While individual productivity gains are documented (primarily for coding), the economic impact of AI adoption on organizational delivery capacity, team sizing, and total cost of software production is not well-studied.
 
-### How ACE Addresses These Gaps
+### How AIL Addresses These Gaps
 
-ACE provides a structured framework for understanding AI adoption across all software production crafts:
+AIL provides a structured framework for understanding AI adoption across all software production crafts:
 
-- **Distinguishes individual from team from organizational adoption.** Most current frameworks treat AI adoption as a single dimension. ACE's zone model separates individual tool use (Zone 1) from team integration (Zone 2) from role transformation (Zone 3) from organizational capability (Zone 4).
+- **Distinguishes individual from team from organizational adoption.** Most current frameworks treat AI adoption as a single dimension.AIL's zone model separates individual tool use (Zone 1) from team integration (Zone 2) from role transformation (Zone 3) from organizational capability (Zone 4).
 
-- **Addresses all crafts, not just engineering.** While published research focuses on coding, ACE assesses AI adoption across engineering, product management, design, QA, and other disciplines involved in software production. This cross-craft perspective reflects the reality that software is produced by cross-functional teams, not by engineers alone.
+- **Addresses all crafts, not just engineering.** While published research focuses on coding, AIL assesses AI adoption across engineering, product management, design, QA, and other disciplines involved in software production. This cross-craft perspective reflects the reality that software is produced by cross-functional teams, not by engineers alone.
 
-- **Emphasizes competency over knowledge.** The ACE focus on habitual behavior under pressure addresses a gap in current adoption measurement, which typically counts tool licenses or self-reported usage without assessing behavioral durability.
+- **Emphasizes competency over knowledge.** The AIL focus on habitual behavior under pressure addresses a gap in current adoption measurement, which typically counts tool licenses or self-reported usage without assessing behavioral durability.
 
-- **Identifies organizational investments as prerequisites for team competency.** Current research often attributes adoption success or failure to individual practitioner motivation. ACE explicitly identifies the organizational changes required to support team-level competency across crafts.
+- **Identifies organizational investments as prerequisites for team competency.** Current research often attributes adoption success or failure to individual practitioner motivation. AIL explicitly identifies the organizational changes required to support team-level competency across crafts.
 
-- **Provides a diagnostic instrument for assessment.** Rather than relying on self-report surveys with vague questions, ACE's facilitated diagnostic aims to assess observable behavior and organizational conditions directly.
+- **Provides a diagnostic instrument for assessment.** Rather than relying on self-report surveys with vague questions,AIL's facilitated diagnostic aims to assess observable behavior and organizational conditions directly.
 
 ### Areas Requiring Further Validation
 
 1. **Zone boundary validity.** Are the four zones the right number? Are the boundaries between zones drawn in the right places? Expert validation and longitudinal data are needed.
 
-2. **Investment-outcome linkage.** Does making the organizational investments described for each zone actually produce the predicted benefits? This requires longitudinal study of organizations that have used the ACE framework.
+2. **Investment-outcome linkage.** Does making the organizational investments described for each zone actually produce the predicted benefits? This requires longitudinal study of organizations that have used the AIL framework.
 
 3. **Competency assessment reliability.** Does the facilitated diagnostic produce consistent results across different facilitators, organizations, and time periods? Inter-rater reliability studies are needed.
 
@@ -315,6 +315,6 @@ See the [Validation Study Plan](/research/validation-study-plan) for a structure
 
 ## Related Documentation
 
-- [Validation Study Plan](/research/validation-study-plan) -- Design for validating the ACE framework
-- [What Is ACE](/toolkit/what-is-ace) -- Framework overview
+- [Validation Study Plan](/research/validation-study-plan) -- Design for validating the AIL framework
+- [What Is AIL](/toolkit/what-is-ail) -- Framework overview
 - [Metrics Tree](/toolkit/metrics-tree) -- Measurement framework for AI adoption progress

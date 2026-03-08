@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 816 1056"
      font-family="'Inter', sans-serif">
-  <title>ACE Diagnostic Questionnaire -- Page 4 of 4</title>
-  <desc>Printable participant response form for the ACE diagnostic assessment. Page 4 contains Section D (questions 33 through 42) covering factory-level AI operations, plus Section E for sentinel questions.</desc>
+  <title>AIL Diagnostic Questionnaire -- Page 4 of 4</title>
+  <desc>Printable participant response form for the AIL diagnostic assessment. Page 4 contains Section D (questions 33 through 42) covering factory-level AI operations, plus Section E for sentinel questions.</desc>
 
   <defs>
     <style>
@@ -31,7 +31,7 @@
   <rect x="0" y="0" width="816" height="4" fill="#9CA3AF"/>
 
   <!-- ============ PAGE HEADER ============ -->
-  <text x="48" y="26" class="title">ACE Diagnostic Questionnaire</text>
+  <text x="48" y="26" class="title">AIL Diagnostic Questionnaire</text>
   <text x="480" y="20" class="fl">Name / ID:</text>
   <line x1="536" y1="22" x2="680" y2="22" class="fline"/>
   <text x="694" y="20" class="fl">Team:</text>
@@ -348,7 +348,7 @@
 
   <!-- ============ FOOTER ============ -->
   <line x1="48" y1="960" x2="768" y2="960" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="48" y="976" class="ft">ACE Diagnostic Questionnaire</text>
+  <text x="48" y="976" class="ft">AIL Diagnostic Questionnaire</text>
   <text x="768" y="976" class="ft" text-anchor="end">Page 4 of 4 -- Confidential</text>
 
 </svg>

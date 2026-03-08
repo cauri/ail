@@ -1,28 +1,28 @@
 ---
-title: "ACE Facilitator Training Program"
-description: "A cohort-based, multi-month training program ensuring Artium consultants deliver consistent, high-quality ACE diagnostics grounded in deep understanding of the model, facilitation methodology, and organizational dynamics."
+title: "AIL Facilitator Training Program"
+description: "A cohort-based, multi-month training program ensuring consultants deliver consistent, high-quality AIL diagnostics grounded in deep understanding of the model, facilitation methodology, and organizational dynamics."
 order: 0
 ---
 
 ## Program Purpose
 
-The ACE Facilitator Training Program exists to ensure that every client organization receiving an ACE diagnostic gets a consistent, high-quality experience delivered by an Artium consultant who deeply understands the model, the facilitation methodology, and the organizational dynamics of AI adoption.
+The AIL Facilitator Training Program exists to ensure that every client organization receiving an AIL diagnostic gets a consistent, high-quality experience delivered by a consultant who deeply understands the model, the facilitation methodology, and the organizational dynamics of AI adoption.
 
 Training matters for three reasons:
 
-**Quality assurance.** The ACE diagnostic is a facilitated self-assessment, not a survey. The quality of the diagnostic depends entirely on the facilitator's ability to create safe space for honest reflection, probe beneath surface-level answers, interpret results accurately, and produce actionable reports. A poorly facilitated diagnostic produces misleading results that lead to misguided investments. Training ensures facilitators have the skills and knowledge to deliver diagnostics that client organizations can trust.
+**Quality assurance.** The AIL diagnostic is a facilitated self-assessment, not a survey. The quality of the diagnostic depends entirely on the facilitator's ability to create safe space for honest reflection, probe beneath surface-level answers, interpret results accurately, and produce actionable reports. A poorly facilitated diagnostic produces misleading results that lead to misguided investments. Training ensures facilitators have the skills and knowledge to deliver diagnostics that client organizations can trust.
 
-**Brand integrity.** ACE is Artium's framework. Every diagnostic delivered under the ACE name either reinforces or erodes Artium's reputation. Training creates a quality floor: every trained facilitator has demonstrated competence through supervised practice and assessment, not just self-reported familiarity with the materials.
+**Brand integrity.** AIL is the organization's framework. Every diagnostic delivered under the AIL name either reinforces or erodes the organization's reputation. Training creates a quality floor: every trained facilitator has demonstrated competence through supervised practice and assessment, not just self-reported familiarity with the materials.
 
-**Framework fidelity.** ACE is built on specific concepts -- competency as habitual behavior under stress, the progressive competency model, organizational investments over individual training -- that are easy to dilute or misrepresent. Facilitators who understand the model superficially may revert to maturity-model framing, treat the diagnostic as an audit rather than a self-assessment, or recommend zone targets based on aspiration rather than strategic analysis. Training ensures facilitators internalize the framework's distinctions well enough to maintain them under the pressure of client engagement.
+**Framework fidelity.** AIL is built on specific concepts -- competency as habitual behavior under stress, the progressive competency model, organizational investments over individual training -- that are easy to dilute or misrepresent. Facilitators who understand the model superficially may revert to maturity-model framing, treat the diagnostic as an audit rather than a self-assessment, or recommend zone targets based on aspiration rather than strategic analysis. Training ensures facilitators internalize the framework's distinctions well enough to maintain them under the pressure of client engagement.
 
-**Building client capability, not dependency.** The ultimate measure of a successful ACE engagement is the client organization's ability to self-assess, self-improve, and sustain its practices without ongoing facilitator involvement. Facilitators should approach every engagement with the goal of coaching themselves out of a job -- building the client's internal capacity to use the diagnostic instruments, interpret leading indicators, and facilitate their own investment retrospectives. An engagement that produces lasting facilitator dependency has failed on one of its core objectives, regardless of what the diagnostic scores show.
+**Building client capability, not dependency.** The ultimate measure of a successful AIL engagement is the client organization's ability to self-assess, self-improve, and sustain its practices without ongoing facilitator involvement. Facilitators should approach every engagement with the goal of coaching themselves out of a job -- building the client's internal capacity to use the diagnostic instruments, interpret leading indicators, and facilitate their own investment retrospectives. An engagement that produces lasting facilitator dependency has failed on one of its core objectives, regardless of what the diagnostic scores show.
 
 ---
 
 ## Program Structure
 
-The training program is a cohort-based, multi-month experience designed for Artium consultants who will continue their client engagement work while completing the program.
+The training program is a cohort-based, multi-month experience designed for consultants who will continue their client engagement work while completing the program.
 
 ### Duration
 
@@ -34,7 +34,7 @@ The program consists of six sequential training modules, two supervised engageme
 
 | Component | Format | Duration |
 |-----------|--------|----------|
-| Module 1: The ACE Model | Intensive or async | 2 days / 8 hours |
+| Module 1: The AIL Model | Intensive or async | 2 days / 8 hours |
 | Module 2: Diagnostic Facilitation Skills | Intensive or async | 2 days / 10 hours |
 | Module 3: Goal Setting & Zone Selection | Intensive or async | 1 day / 6 hours |
 | Module 4: Progression Roadmap Design | Intensive or async | 1 day / 5 hours |
@@ -50,7 +50,7 @@ Total instructional time: approximately 39 hours across modules, plus assessment
 
 Trainees participate in cohorts of 4-8 people. The cohort model serves several purposes:
 
-- **Peer learning.** Trainees learn from each other's questions, experiences, and perspectives. A cohort of Artium Principals and senior consultants with diverse client engagement backgrounds produces richer discussion than individual study.
+- **Peer learning.** Trainees learn from each other's questions, experiences, and perspectives. A cohort of Principals and senior consultants with diverse client engagement backgrounds produces richer discussion than individual study.
 - **Practice partners.** Role-play exercises, mock facilitations, and peer feedback require a group. Individual study cannot replicate the interpersonal dynamics of facilitation.
 - **Accountability.** Cohort members support each other's progress and create natural checkpoints for completing work between modules.
 - **Community formation.** Cohort relationships become the nucleus of the ongoing facilitator community of practice.
@@ -84,11 +84,11 @@ After completing all six modules, each trainee must conduct two supervised engag
 
 **Second supervised engagement:** The master facilitator observes again, with the expectation that feedback from the first engagement has been incorporated. The second engagement serves as the primary practical assessment for training completion.
 
-Supervised engagements are conducted through Artium's client engagements. The program coordinates with engagement leads to identify appropriate opportunities for supervised practice.
+Supervised engagements are conducted through the organization's client engagements. The program coordinates with engagement leads to identify appropriate opportunities for supervised practice.
 
 ### Applied Scenario Assessment
 
-The applied scenario assessment is a take-home exam that tests the trainee's ability to apply ACE concepts to realistic scenarios. It covers:
+The applied scenario assessment is a take-home exam that tests the trainee's ability to apply AIL concepts to realistic scenarios. It covers:
 
 - Model knowledge (zones, proficiencies, investments, the progressive competency model)
 - Diagnostic interpretation (given workshop data, determine zone and stage)
@@ -112,13 +112,13 @@ Before Module 1, read the [Facilitator Guide](/toolkit/facilitator-guide) for an
 
 - **Experience in software development.** Participants must have meaningful experience in a software development context -- as an engineer, product manager, designer, engineering manager, QA engineer, or similar role. The specific role matters less than having lived the daily reality of software teams. Facilitators who have never been part of a software team cannot credibly facilitate a diagnostic about software team practices.
 
-- **Familiarity with AI tools in software development.** Participants should have personal experience using AI tools in a software development context. Ideally, participants are operating at Zone 2 or above in their own practice -- they use AI tools habitually and understand team-level AI integration from experience, not just theory. Participants who have only read about AI tools but not used them substantially will struggle to probe team responses with credibility. For Artisans participating only in Module 6 (Embedded Delivery), the minimum requirement is Zone 2 competency in their own practice, including deep fluency in the foundational engineering disciplines (TDD, pair programming, continuous integration, small iterations) that make AI-augmented development reliable.
+- **Familiarity with AI tools in software development.** Participants should have personal experience using AI tools in a software development context. Ideally, participants are operating at Zone 2 or above in their own practice -- they use AI tools habitually and understand team-level AI integration from experience, not just theory. Participants who have only read about AI tools but not used them substantially will struggle to probe team responses with credibility. For Practitioners participating only in Module 6 (Embedded Delivery), the minimum requirement is Zone 2 competency in their own practice, including deep fluency in the foundational engineering disciplines (TDD, pair programming, continuous integration, small iterations) that make AI-augmented development reliable.
 
-- **Experience facilitating team workshops.** Participants must have prior experience facilitating workshops, retrospectives, or collaborative sessions with teams. The ACE diagnostic is a facilitation exercise, not a presentation or an interview. Participants need baseline facilitation skills (managing group dynamics, asking open questions, handling disagreement, creating psychological safety) before the program can build ACE-specific facilitation skills on top.
+- **Experience facilitating team workshops.** Participants must have prior experience facilitating workshops, retrospectives, or collaborative sessions with teams. The AIL diagnostic is a facilitation exercise, not a presentation or an interview. Participants need baseline facilitation skills (managing group dynamics, asking open questions, handling disagreement, creating psychological safety) before the program can build AIL-specific facilitation skills on top.
 
 ### Recommended
 
-- **Consulting experience.** As Artium Principals and senior consultants, participants are expected to bring substantial consulting experience -- working with client organizations, navigating organizational dynamics, and delivering difficult messages diplomatically. The ACE engagement model involves working with both teams and leadership, and this experience is foundational.
+- **Consulting experience.** As Principals and senior consultants, participants are expected to bring substantial consulting experience -- working with client organizations, navigating organizational dynamics, and delivering difficult messages diplomatically. The AIL engagement model involves working with both teams and leadership, and this experience is foundational.
 
 - **Familiarity with organizational competency or maturity frameworks.** Participants who have experience with diagnostic or maturity frameworks will find many concepts familiar. This is not required but accelerates learning in Module 1.
 
@@ -146,7 +146,7 @@ Trained facilitators accept the following responsibilities:
 
 ### Diagnostic Quality
 
-- **Only trained facilitators may conduct ACE diagnostics for client engagements.** The diagnostic is a core part of Artium's consulting offering. Facilitating it requires completing the training program to ensure consistent quality across engagements.
+- **Only trained facilitators may conduct AIL diagnostics for client engagements.** The diagnostic is a core part of the organization's consulting offering. Facilitating it requires completing the training program to ensure consistent quality across engagements.
 - **Facilitators follow the established diagnostic methodology.** This includes the pre-workshop preparation process, the workshop facilitation structure, the scoring methodology, and the dual reporting format. Facilitators may adapt the process to specific organizational contexts but may not omit or substantially alter core elements.
 - **Facilitators maintain accurate records of diagnostics conducted.** Records include date, organization (anonymized if required), team size, zone assessment results, and any notable facilitation challenges. These records support framework improvement.
 
@@ -158,18 +158,18 @@ Trained facilitators accept the following responsibilities:
 ### Community Participation
 
 - **Participate in the facilitator community of practice.** The community of practice meets monthly for 60-minute virtual sessions focused on case discussion, peer coaching, and skill maintenance. Each monthly session begins with a brief scenario exercise (10-15 minutes) where facilitators work through a case independently before group discussion -- maintaining the retrieval practice discipline established during the training program. Monthly cadence ensures that facilitation skills remain sharp between engagements and that facilitators process challenging experiences while they are still recent. Quarterly, the community holds a longer deep-dive session (half-day, virtual or in-person) for framework updates, structured calibration exercises, and collaborative problem-solving on systemic patterns observed across engagements. Regular participation in both monthly and quarterly sessions strengthens facilitation skills and keeps facilitators aligned with evolving best practices.
-- **Contribute to collective learning.** Facilitators are encouraged to share anonymized case studies, facilitation techniques, and lessons learned with the community. The community of practice is the primary mechanism for improving facilitation quality across Artium's ACE practice.
+- **Contribute to collective learning.** Facilitators are encouraged to share anonymized case studies, facilitation techniques, and lessons learned with the community. The community of practice is the primary mechanism for improving facilitation quality across the organization's AIL practice.
 
 ### Framework Improvement
 
-- **Report systemic findings to framework stewards.** When facilitators observe patterns across multiple diagnostics -- common failure modes, recurring investment gaps, zones where the diagnostic questions do not capture important distinctions -- they report these observations (anonymized) to the framework stewards. This feedback loop is how the ACE framework improves over time.
+- **Report systemic findings to framework stewards.** When facilitators observe patterns across multiple diagnostics -- common failure modes, recurring investment gaps, zones where the diagnostic questions do not capture important distinctions -- they report these observations (anonymized) to the framework stewards. This feedback loop is how the AIL framework improves over time.
 - **Participate in framework revision processes.** When the framework stewards propose changes to zone definitions, diagnostic instruments, or facilitation practices, trained facilitators are invited to review and provide feedback. The facilitator community is a key stakeholder in framework evolution.
 
 ### Ethical Standards
 
 - **Maintain confidentiality.** Diagnostic results are shared only with the intended recipients (team and management, as defined by the dual reporting structure). Facilitators do not share identifiable diagnostic data with other clients, in marketing materials, or in public forums without explicit written permission.
 - **Avoid conflicts of interest.** Facilitators disclose any relationships with the organization being assessed that could compromise objectivity. A facilitator who has a consulting engagement with an organization should not also serve as the diagnostic facilitator for that organization's teams unless the dual role is disclosed and accepted by all parties.
-- **Represent the framework accurately.** Facilitators do not misrepresent the ACE framework, its origins, its limitations, or their own qualifications. They do not claim capabilities the framework does not provide (e.g., predictive benchmarking, industry-specific compliance assessment).
+- **Represent the framework accurately.** Facilitators do not misrepresent the AIL framework, its origins, its limitations, or their own qualifications. They do not claim capabilities the framework does not provide (e.g., predictive benchmarking, industry-specific compliance assessment).
 
 ---
 
@@ -177,23 +177,23 @@ Trained facilitators accept the following responsibilities:
 
 The six training modules build on each other sequentially. Each module has detailed learning objectives, content outlines, learning activities, and assessments documented in separate module guides:
 
-1. **[Module 1: The ACE Model](/training/module-1-model-foundations/)** -- Deep understanding of the framework: zones, competency, progressive competency, organizational investments. The knowledge foundation on which all facilitation skills are built.
+1. **[Module 1: The AIL Model](/training/module-1-model-foundations/)** -- Deep understanding of the framework: zones, competency, progressive competency, organizational investments. The knowledge foundation on which all facilitation skills are built.
 
-2. **[Module 2: Diagnostic Facilitation Skills](/training/module-2-diagnostic-facilitation/)** -- How to prepare for, run, and report on a complete ACE diagnostic workshop. The core facilitation competency.
+2. **[Module 2: Diagnostic Facilitation Skills](/training/module-2-diagnostic-facilitation/)** -- How to prepare for, run, and report on a complete AIL diagnostic workshop. The core facilitation competency.
 
 3. **[Module 3: Goal Setting & Zone Selection](/training/module-3-goal-setting/)** -- How to facilitate zone-selection sessions with organizational leadership. Connecting diagnostic results to strategic decisions.
 
 4. **[Module 4: Progression Roadmap Design](/training/module-4-roadmap-design/)** -- How to design realistic, zone-specific progression roadmaps with appropriate leading indicators and reassessment cadences.
 
-5. **Module 5: [Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/)** -- How to support organizations through zone transitions as the ACE Facilitator: structured check-ins, investment retrospectives, re-diagnostics, regression handling, and managing the ongoing facilitator-client relationship within engagements that include embedded Artisan teams.
+5. **Module 5: [Facilitator-Led Assessment and Coaching](/training/module-5-coaching-engagement/)** -- How to support organizations through zone transitions as the AIL Facilitator: structured check-ins, investment retrospectives, re-diagnostics, regression handling, and managing the ongoing facilitator-client relationship within engagements that include embedded Practitioner teams.
 
-6. **Module 6: [Embedded Delivery and Mentoring](/training/module-6-embedded-delivery/)** -- How to deliver software alongside client teams as an embedded Artisan: mentoring through collaborative work, maintaining the capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management as an embedded team member. Module 6 serves a broader audience than Modules 1-5: it is required for all Artisans participating in embedded delivery, not only those pursuing facilitator certification. Artisans who complete only Module 6 are prepared for the embedded delivery role but are not certified to conduct independent ACE diagnostics or facilitate goal-setting sessions, which require completion of the full six-module program.
+6. **Module 6: [Embedded Delivery and Mentoring](/training/module-6-embedded-delivery/)** -- How to deliver software alongside client teams as an embedded Practitioner: mentoring through collaborative work, maintaining the capability-building purpose, cross-craft collaboration, ramp-down planning, and relationship management as an embedded team member. Module 6 serves a broader audience than Modules 1-5: it is required for all Practitioners participating in embedded delivery, not only those pursuing facilitator certification. Practitioners who complete only Module 6 are prepared for the embedded delivery role but are not certified to conduct independent AIL diagnostics or facilitate goal-setting sessions, which require completion of the full six-module program.
 
 ---
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace/)
+- [What Is AIL?](/toolkit/what-is-ail/)
 - [Competency vs. Knowledge](/toolkit/competency-vs-knowledge/)
 - [Progressive Competency Model](/toolkit/progressive-competency-model/)
 - [Organizational Investments](/toolkit/organizational-investments/)

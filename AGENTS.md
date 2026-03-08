@@ -1,4 +1,4 @@
-# ACE Framework Review Team
+# AIL Framework Review Team
 
 ## Team Structure
 
@@ -36,7 +36,7 @@
    - **Major**: Significant gap, misleading framing, or structural problem
    - **Minor**: Imprecise language, unclear explanation, or missed opportunity
    - **Suggestion**: Enhancement idea, not a deficiency
-4. **Cite the source.** Every concern references specific text from the ACE content.
+4. **Cite the source.** Every concern references specific text from the AIL content.
 5. **Recommend, don't just critique.** Every concern includes a recommendation.
 6. **Check others' reviews first.** Before writing your review of a shared content
    section, read existing reviews in `.reviews/` to avoid duplication. If you agree

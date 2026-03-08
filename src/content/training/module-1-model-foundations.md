@@ -1,6 +1,6 @@
 ---
-title: "Module 1: The ACE Model"
-description: "Deep understanding of the ACE framework including zones, competency concepts, progressive competency, and organizational investments -- the knowledge foundation for all facilitation skills."
+title: "Module 1: The AIL Model"
+description: "Deep understanding of the AIL framework including zones, competency concepts, progressive competency, and organizational investments -- the knowledge foundation for all facilitation skills."
 order: 1
 duration: "2-day intensive or 8 hours async"
 prerequisites: "Module 1 of 6 (prerequisite for all subsequent modules)"
@@ -15,11 +15,11 @@ prerequisites: "Module 1 of 6 (prerequisite for all subsequent modules)"
 
 By the end of this module, trainees will be able to:
 
-1. **Articulate the ACE model with clarity and confidence.** Explain the framework's purpose, structure, and key concepts to both technical and non-technical audiences without relying on notes or materials.
+1. **Articulate the AIL model with clarity and confidence.** Explain the framework's purpose, structure, and key concepts to both technical and non-technical audiences without relying on notes or materials.
 
 2. **Explain the four zones with specific, concrete examples.** Describe each zone's definition, proficiencies, organizational investments, benefits, and techniques using examples grounded in real software development contexts -- not abstract descriptions.
 
-3. **Distinguish competency from knowledge and best-day performance.** Explain why ACE measures habitual behavior under stress rather than theoretical understanding or peak capability, and identify the practical implications for assessment.
+3. **Distinguish competency from knowledge and best-day performance.** Explain why AIL measures habitual behavior under stress rather than theoretical understanding or peak capability, and identify the practical implications for assessment.
 
 4. **Explain the progressive competency model.** Articulate how all four zones form a single linear progression where organizations choose their stopping point based on strategy, risk appetite, and investment capacity, and explain why each zone transition deserves strategic analysis.
 
@@ -29,17 +29,17 @@ By the end of this module, trainees will be able to:
 
 ## Content Outline
 
-### Session 1: Introduction to the ACE Framework
+### Session 1: Introduction to the AIL Framework
 
 ![VA-21: Content Architecture Map](/images/content-architecture-map.svg)
 
-**Origin and purpose.** ACE provides a structured approach to AI adoption that respects organizational context, focusing on habitual behaviors rather than checklist compliance.
+**Origin and purpose.** AIL provides a structured approach to AI adoption that respects organizational context, focusing on habitual behaviors rather than checklist compliance.
 
-**The three problems ACE solves.** Organizations do not know where they are (confusion between individual enthusiasm and organizational capability), where to go (pressure to pursue the highest level rather than the right destination), or how to get there (lack of structured investment planning).
+**The three problems AIL solves.** Organizations do not know where they are (confusion between individual enthusiasm and organizational capability), where to go (pressure to pursue the highest level rather than the right destination), or how to get there (lack of structured investment planning).
 
 **The engagement model.** Facilitated diagnostic, goal setting, roadmap creation, Collaborative Delivery, and reassessment. The system is designed to be repeatable -- a continuous improvement cycle grounded in observable behavior.
 
-**What ACE is not.** Not a mandate -- it is a progression where organizations choose their stopping point based on strategic need. Not an audit (it is a facilitated self-assessment). Not a certification or compliance framework. Not a tool recommendation engine.
+**What AIL is not.** Not a mandate -- it is a progression where organizations choose their stopping point based on strategic need. Not an audit (it is a facilitated self-assessment). Not a certification or compliance framework. Not a tool recommendation engine.
 
 ### Session 2: The Competency Concept
 
@@ -53,7 +53,7 @@ By the end of this module, trainees will be able to:
 
 **Why knowledge is insufficient.** Common knowledge-without-competency patterns: teams that completed training but do not use tools, developers who can explain prompting strategies but default to manual coding under pressure, organizations with documented standards that are not followed.
 
-**Why best-day performance is insufficient.** Assessment based on demos, hackathons, or pilot projects overstates actual capability. ACE assesses what teams do consistently, especially when conditions are least conducive to new practices.
+**Why best-day performance is insufficient.** Assessment based on demos, hackathons, or pilot projects overstates actual capability. AIL assesses what teams do consistently, especially when conditions are least conducive to new practices.
 
 **Five stages within a zone.** Emerging (practicing but inconsistent), Developing (mostly consistent but untested by sustained pressure), Established (habitual and consistent even under stress), Consistent (meets all three quantitative threshold criteria uniformly), Exemplary (Consistent plus coaching capability, contextual adaptation, and practice innovation -- assessed qualitatively by the facilitator). These stages apply within each zone independently.
 
@@ -149,11 +149,11 @@ By the end of this module, trainees will be able to:
 
 **The investment ROI framing.** Each zone transition has identifiable costs and returns. The investment case must be made to management, not just to teams.
 
-### Session 9: How ACE Differs from Maturity Models
+### Session 9: How AIL Differs from Maturity Models
 
 **The maturity model problem.** Traditional maturity models (CMMI, various AI maturity frameworks) present levels as a linear hierarchy where higher is always better. This creates pressure to climb levels for prestige rather than business value.
 
-**Key distinctions.** ACE uses zones, not levels. Zones are destinations, not ranks. The diagnostic is a facilitated self-assessment, not an external audit. Competency is measured by habitual behavior, not knowledge or peak performance. Zone targeting is a strategic choice, not an aspirational goal.
+**Key distinctions.** AIL uses zones, not levels. Zones are destinations, not ranks. The diagnostic is a facilitated self-assessment, not an external audit. Competency is measured by habitual behavior, not knowledge or peak performance. Zone targeting is a strategic choice, not an aspirational goal.
 
 **Common misframings to watch for.** "We need to be at the highest zone." "We failed because we are only at Zone 2." "Zone 3 is better than Zone 2." Facilitators must be prepared to reframe these conversations consistently.
 
@@ -261,7 +261,7 @@ Scoring emphasizes reasoning quality over specific answers. Multiple reasonable 
 
 **Assessment criteria.** The case study quiz is evaluated on four dimensions, each designed to distinguish surface-level recall from the deep understanding required for competent facilitation:
 
-1. **Evidence-based zone identification.** A surface-level answer names a zone based on keyword matching (e.g., "they use AI tools, so Zone 1"). A strong answer identifies the zone based on behavioral evidence, distinguishes between what the organization knows and what it does habitually, and addresses whether the described behaviors hold under pressure -- the "habitual under pressure" standard that defines competency in the ACE framework.
+1. **Evidence-based zone identification.** A surface-level answer names a zone based on keyword matching (e.g., "they use AI tools, so Zone 1"). A strong answer identifies the zone based on behavioral evidence, distinguishes between what the organization knows and what it does habitually, and addresses whether the described behaviors hold under pressure -- the "habitual under pressure" standard that defines competency in the AIL framework.
 2. **Target zone reasoning.** A surface-level answer recommends the next zone up as the target. A strong answer considers the organization's strategic context, risk appetite, investment capacity, and change readiness to justify why a particular target zone is appropriate -- including cases where staying at the current zone or choosing a lower target is the right recommendation.
 3. **Investment specificity.** A surface-level answer lists generic investment categories ("training," "tooling," "leadership support"). A strong answer identifies investments specific to the described organization's gaps, classifies them by type (structural, policy, resource, management behavior), and explains why each investment addresses an observable behavioral gap rather than a theoretical need.
 4. **Pitfall identification.** A surface-level answer names a generic risk ("teams might resist change"). A strong answer identifies a pitfall specific to the scenario -- one that arises from the particular combination of organizational dynamics, current competency level, and target zone described -- and explains why that pitfall is likely given the evidence presented.
@@ -272,7 +272,7 @@ Scoring emphasizes reasoning quality over specific answers. Multiple reasonable 
 
 After completing Module 1, trainees should:
 
-- **Retrieval exercise (do this first, from memory, before looking at any materials):** Without consulting any notes or documents, write down: (a) the definition of competency as used in the ACE framework, (b) the four zones in order with a one-sentence description of each, (c) the five competency stages within a zone, and (d) three differences between ACE and a traditional maturity model. After writing your answers from memory, check them against the Module 1 materials and note what you got wrong or incomplete.
+- **Retrieval exercise (do this first, from memory, before looking at any materials):** Without consulting any notes or documents, write down: (a) the definition of competency as used in the AIL framework, (b) the four zones in order with a one-sentence description of each, (c) the five competency stages within a zone, and (d) three differences between AIL and a traditional maturity model. After writing your answers from memory, check them against the Module 1 materials and note what you got wrong or incomplete.
 - Review the diagnostic questionnaire instruments for all zones.
 - Read the facilitation notes included with each questionnaire.
 - Reflect on their own experience being assessed or assessed by others -- what made assessments feel safe and productive vs. threatening and performative?
@@ -283,7 +283,7 @@ Module 2 builds directly on Module 1's knowledge foundation by applying it to th
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace/)
+- [What Is AIL?](/toolkit/what-is-ail/)
 - [Competency vs. Knowledge](/toolkit/competency-vs-knowledge/)
 - [Progressive Competency Model](/toolkit/progressive-competency-model/)
 - [Organizational Investments](/toolkit/organizational-investments/)

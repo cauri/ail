@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 960"
      font-family="'Inter', sans-serif">
   <title>Scoring Threshold Decision Tree</title>
-  <desc>A flowchart for determining a team's competency stage within an ACE zone. Step 1 checks three quantitative criteria (composite average, response consistency, no weak links). If all three are met, the team is Consistent. Step 1b assesses qualitative capabilities to determine if Consistent teams qualify as Exemplary. If fewer than three criteria are met in Step 1, Step 2 determines the stage from the composite score range: Established, Developing, Emerging, or Not Yet.</desc>
+  <desc>A flowchart for determining a team's competency stage within an AIL zone. Step 1 checks three quantitative criteria (composite average, response consistency, no weak links). If all three are met, the team is Consistent. Step 1b assesses qualitative capabilities to determine if Consistent teams qualify as Exemplary. If fewer than three criteria are met in Step 1, Step 2 determines the stage from the composite score range: Established, Developing, Emerging, or Not Yet.</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>

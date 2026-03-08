@@ -1,32 +1,32 @@
 ---
-title: "What Is ACE?"
-description: "Overview of the ACE framework for organizational AI adoption."
+title: "What Is AIL?"
+description: "Overview of the AIL framework for organizational AI adoption."
 section: "reference"
 type: "concept"
 audience: "facilitator"
 order: 10
 ---
-The AI Competency Evaluation (ACE) framework helps software organizations understand where they are in AI adoption, decide where they want to go, and build a practical roadmap to get there.
+The AI Launchpad (AIL) framework helps software organizations understand where they are in AI adoption, decide where they want to go, and build a practical roadmap to get there.
 
-ACE provides a structured approach to AI adoption that respects organizational context and treats competency as something deeper than knowledge or occasional best-day performance.
+AIL provides a structured approach to AI adoption that respects organizational context and treats competency as something deeper than knowledge or occasional best-day performance.
 
-## The Problem ACE Solves
+## The Problem AIL Solves
 
 Most organizations pursuing AI adoption face three interrelated problems:
 
 1. **They don't know where they are.** Leadership hears that "we're using AI" but has no way to assess whether that usage is habitual, effective, or integrated into delivery workflows. Individual enthusiasm is confused with organizational capability.
 
-2. **They don't know where to go.** Traditional maturity models suggest that more is always better, pushing organizations toward the highest level regardless of strategic fit. ACE takes a different approach: it defines a staged progression where each stage builds on the previous one, but treats the choice of stopping point as a strategic decision, not a failure to progress. ACE is a staged progression model with a deliberate innovation -- every zone, including Zone 1, is a legitimate destination when chosen through informed strategic analysis.
+2. **They don't know where to go.** Traditional maturity models suggest that more is always better, pushing organizations toward the highest level regardless of strategic fit. AIL takes a different approach: it defines a staged progression where each stage builds on the previous one, but treats the choice of stopping point as a strategic decision, not a failure to progress. AIL is a staged progression model with a deliberate innovation -- every zone, including Zone 1, is a legitimate destination when chosen through informed strategic analysis.
 
 3. **They don't know how to get there.** Even organizations with clear goals lack a structured approach to identifying the specific investments -- organizational, not just individual -- required to reach their target zone of AI integration.
 
-ACE addresses all three problems through a facilitated diagnostic, contextual goal-setting, and investment-based roadmapping.
+AIL addresses all three problems through a facilitated diagnostic, contextual goal-setting, and investment-based roadmapping.
 
 ![VA-21: Content Architecture Map](/images/content-architecture-map.svg)
 
 ## The Four Zones
 
-ACE defines four zones of AI-augmented software development, plus a pre-AI baseline:
+AIL defines four zones of AI-augmented software development, plus a pre-AI baseline:
 
 - **Zone 0 (Baseline):** Traditional software development with no meaningful AI integration. Individual team members may have experimented with AI tools, but usage is sporadic and unsupported.
 
@@ -42,17 +42,17 @@ Each zone represents a distinct set of proficiencies, organizational investments
 
 ## A Progressive Path, Not a Mandate
 
-ACE defines a single linear progression: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Zone 2 is the typical near-term target for most organizations -- it represents the point at which AI adoption becomes a durable team-level capability. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Zones 3 and 4 require progressively larger investments that are justified only in certain strategic contexts. A deeply competent Zone 2 organization that has chosen its stopping point through careful analysis is in a stronger position than a Zone 4 organization that overextended its investment capacity. See [Progressive Competency Model](/toolkit/progressive-competency-model) for a deeper explanation.
+AIL defines a single linear progression: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Zone 2 is the typical near-term target for most organizations -- it represents the point at which AI adoption becomes a durable team-level capability. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Zones 3 and 4 require progressively larger investments that are justified only in certain strategic contexts. A deeply competent Zone 2 organization that has chosen its stopping point through careful analysis is in a stronger position than a Zone 4 organization that overextended its investment capacity. See [Progressive Competency Model](/toolkit/progressive-competency-model) for a deeper explanation.
 
 ## Competency, Not Knowledge
 
-The word "competency" in ACE is intentional and specific. Competency means habitual behavior under stress -- not knowledge about best practices, and not performance on a team's best day.
+The word "competency" in AIL is intentional and specific. Competency means habitual behavior under stress -- not knowledge about best practices, and not performance on a team's best day.
 
 A team that knows how to integrate AI into their CI/CD pipeline but abandons that practice when a deadline tightens is not competent. A developer who uses AI tools impressively during a demo but reverts to manual coding under pressure is not competent. Competency is what you do reliably, even when conditions are unfavorable. See [Competency vs. Knowledge](/toolkit/competency-vs-knowledge) for a complete treatment.
 
-## How ACE Is Used
+## How AIL Is Used
 
-A typical ACE engagement runs two tracks concurrently:
+A typical AIL engagement runs two tracks concurrently:
 
 **Assessment track (facilitator-led):**
 
@@ -64,7 +64,7 @@ A typical ACE engagement runs two tracks concurrently:
 
 **Delivery track (runs concurrently from the start):**
 
-- **Collaborative Delivery.** Embedded Artisans -- engineers, product managers, and designers -- join the client team to deliver real software together from the beginning of the engagement. They do not wait for the assessment to complete. While facilitators build the diagnostic picture and progression plan, Artisans are already assessing the team's discipline firsthand and strengthening the foundational practices that teams need before AI-augmented workflows can take hold. As assessment outputs arrive, they refine the delivery team's focus. The roadmap formalizes what is already underway and sets the direction forward.
+- **Collaborative Delivery.** Embedded Practitioners -- engineers, product managers, and designers -- join the client team to deliver real software together from the beginning of the engagement. They do not wait for the assessment to complete. While facilitators build the diagnostic picture and progression plan, Practitioners are already assessing the team's discipline firsthand and strengthening the foundational practices that teams need before AI-augmented workflows can take hold. As assessment outputs arrive, they refine the delivery team's focus. The roadmap formalizes what is already underway and sets the direction forward.
 
 - **Reassessment.** Periodic re-administration of the diagnostic measures actual competency progression and informs roadmap adjustments.
 

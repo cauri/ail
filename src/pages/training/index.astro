@@ -7,14 +7,14 @@ const allModules = await getCollection('training');
 const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
 ---
 
-<PageLayout title="Training Program" description="The ACE Facilitator Certification program prepares practitioners to diagnose, advise, and guide organizations through AI adoption.">
+<PageLayout title="Training Program" description="The AIL Facilitator Certification program prepares practitioners to diagnose, advise, and guide organizations through AI adoption.">
   <section class="bg-white px-6 py-24">
     <div class="mx-auto max-w-4xl">
       <h1 class="font-heading text-4xl leading-tight tracking-[-0.06em] text-primary md:text-5xl">
         Facilitator Certification Program
       </h1>
       <p class="mt-6 text-lg text-gray-500">
-        The ACE Facilitator Certification program prepares practitioners to diagnose organizational AI competency, set meaningful goals, and guide teams through progressive AI adoption.
+        The AIL Facilitator Certification program prepares practitioners to diagnose organizational AI competency, set meaningful goals, and guide teams through progressive AI adoption.
       </p>
       <p class="mt-4 text-sm text-gray-500">
         During training, you will reference documents from the <a href={baseUrl("/toolkit")} class="text-magenta hover:text-pink underline">facilitator toolkit</a> — these are the same scripts, scoring tools, and reference materials you will use during live engagements after certification.
@@ -35,7 +35,7 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
           <h3 class="font-heading text-lg text-primary group-hover:text-magenta">
             Study Flashcards
           </h3>
-          <p class="mt-1 text-sm text-gray-500">Test your recall of key ACE concepts with 90 interactive flashcards. Filter by module and card type.</p>
+          <p class="mt-1 text-sm text-gray-500">Test your recall of key AIL concepts with 90 interactive flashcards. Filter by module and card type.</p>
         </div>
       </a>
       {sorted.map((mod, index) => (
@@ -61,11 +61,11 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
   </section>
 
   <!-- Academy Context Section (~15% visual weight) -->
-  <section id="artium-academy" class="bg-white px-6 py-16">
+  <section id="ail-academy" class="bg-white px-6 py-16">
     <div class="mx-auto max-w-4xl">
-      <h2 class="font-heading text-2xl text-primary">How Artisans Prepare</h2>
+      <h2 class="font-heading text-2xl text-primary">How Practitioners Prepare</h2>
       <p class="mt-4 text-sm text-gray-500">
-        The ACE Facilitator Certification program and Artium Academy serve complementary purposes. Facilitator Certification prepares consultants to diagnose and guide organizations. Artium Academy prepares Artisans for the hands-on embedded delivery described in <a href={baseUrl("/training/module-6-embedded-delivery")} class="text-magenta hover:text-pink underline">Module 6</a>. Both programs assess readiness through practical demonstration — building working systems or facilitating real engagements — not through quizzes or self-reported confidence.
+        The AIL Facilitator Certification program and AIL Academy serve complementary purposes. Facilitator Certification prepares consultants to diagnose and guide organizations. AIL Academy prepares Practitioners for the hands-on embedded delivery described in <a href={baseUrl("/training/module-6-embedded-delivery")} class="text-magenta hover:text-pink underline">Module 6</a>. Both programs assess readiness through practical demonstration — building working systems or facilitating real engagements — not through quizzes or self-reported confidence.
       </p>
 
       <div class="mt-8 overflow-x-auto">
@@ -74,19 +74,19 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
             <tr class="border-b-2 border-gray-200">
               <th class="py-3 pr-6 text-left font-medium text-primary"></th>
               <th class="py-3 pr-6 text-left font-medium text-primary">Facilitator Certification</th>
-              <th class="py-3 text-left font-medium text-gray-500 bg-gray-50 px-4 rounded-t-lg">Artium Academy</th>
+              <th class="py-3 text-left font-medium text-gray-500 bg-gray-50 px-4 rounded-t-lg">AIL Academy</th>
             </tr>
           </thead>
           <tbody class="text-gray-500">
             <tr class="border-b border-gray-200">
               <td class="py-3 pr-6 font-medium text-primary">Purpose</td>
-              <td class="py-3 pr-6">Certify consultants to deliver ACE diagnostics and guide organizations</td>
-              <td class="py-3 bg-gray-50 px-4">Prepare Artisans for embedded client delivery</td>
+              <td class="py-3 pr-6">Certify consultants to deliver AIL diagnostics and guide organizations</td>
+              <td class="py-3 bg-gray-50 px-4">Prepare Practitioners for embedded client delivery</td>
             </tr>
             <tr class="border-b border-gray-200">
               <td class="py-3 pr-6 font-medium text-primary">Audience</td>
-              <td class="py-3 pr-6">Artium consultants pursuing facilitator certification</td>
-              <td class="py-3 bg-gray-50 px-4">All Artisans</td>
+              <td class="py-3 pr-6">consultants pursuing facilitator certification</td>
+              <td class="py-3 bg-gray-50 px-4">All Practitioners</td>
             </tr>
             <tr class="border-b border-gray-200">
               <td class="py-3 pr-6 font-medium text-primary">Covers</td>
@@ -108,8 +108,8 @@ const sorted = allModules.sort((a, b) => a.data.order - b.data.order);
       </div>
 
       <p class="mt-6 text-sm text-gray-500">
-        <a href="https://www.notion.so/artium/Artium-Academy-Program-Details" target="_blank" rel="noopener" class="text-magenta hover:text-pink underline">
-          See the full Artium Academy program details
+        <a href="#" class="text-magenta hover:text-pink underline">
+          See the full AIL Academy program details
           <svg class="mb-0.5 ml-1 inline h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
         </a>
       </p>

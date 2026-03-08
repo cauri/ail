@@ -1,12 +1,12 @@
 ---
 title: "Expert Interview Guide"
-description: "Semi-structured interview guide for AI-augmented software production practitioners, coaches, and leaders validating the ACE framework's content accuracy and completeness."
+description: "Semi-structured interview guide for AI-augmented software production practitioners, coaches, and leaders validating the AIL framework's content accuracy and completeness."
 order: 3
 ---
 
 ## 1. Purpose and Usage
 
-This guide is for interviews with practitioners who have deep, hands-on experience with AI-augmented software production. These interviews are part of Phase 1 of the ACE validation study. Their purpose is to assess content validity: do the framework's zone descriptions, proficiency lists, and investment recommendations accurately reflect the reality that experienced practitioners observe?
+This guide is for interviews with practitioners who have deep, hands-on experience with AI-augmented software production. These interviews are part of Phase 1 of the AIL validation study. Their purpose is to assess content validity: do the framework's zone descriptions, proficiency lists, and investment recommendations accurately reflect the reality that experienced practitioners observe?
 
 These are not interviews with organizational assessment experts or academic researchers. They are interviews with people who have *lived* in the territory the framework is trying to map. Their job is to tell us where the map is wrong.
 
@@ -50,7 +50,7 @@ Use this script to open the interview. Adapt the language to match your conversa
 
 *"Thanks for making time for this. I want to spend a few minutes setting expectations before we get into it.*
 
-*The ACE framework is a consulting tool for helping organizations understand and improve their AI-augmented software production practices -- across engineering, product, design, QA, and other crafts. We've developed it based on practice experience, but it has not been through formal empirical validation. That's what this interview is part of: we're trying to find out what's wrong with it before we use it with clients at scale.*
+*The AIL framework is a consulting tool for helping organizations understand and improve their AI-augmented software production practices -- across engineering, product, design, QA, and other crafts. We've developed it based on practice experience, but it has not been through formal empirical validation. That's what this interview is part of: we're trying to find out what's wrong with it before we use it with clients at scale.*
 
 *I want to be direct about what I'm looking for. I'm not here for a thumbs-up. I'm looking for the places where the framework is inaccurate, incomplete, or misleading -- where the map doesn't match the territory you've lived in. Polite agreement is actually unhelpful to us. Specific critique is what we need.*
 

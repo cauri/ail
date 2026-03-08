@@ -1,5 +1,5 @@
 /**
- * Flashcard data for the ACE training program.
+ * Flashcard data for the AIL training program.
  *
  * Card types follow Thalheimer's retrieval practice design:
  * - conceptual: Conceptual discrimination — "what is X vs Y?" (~30%)
@@ -28,37 +28,37 @@ export const flashcards: Flashcard[] = [
     id: 1,
     type: 'factual',
     maxModule: 0,
-    front: 'What are the three problems ACE solves for organizations?',
+    front: 'What are the three problems AIL solves for organizations?',
     back: '1) Organizations don\'t know where they are (confusion between individual enthusiasm and organizational capability). 2) They don\'t know where to go (pressure to pursue the highest level rather than the right destination). 3) They don\'t know how to get there (lack of structured investment planning).',
   },
   {
     id: 2,
     type: 'elaborative',
     maxModule: 0,
-    front: 'Why does ACE use facilitated self-assessment rather than external audit?',
+    front: 'Why does AIL use facilitated self-assessment rather than external audit?',
     back: 'Because the quality of the diagnostic depends on the facilitator\'s ability to create safe space for honest reflection, probe beneath surface-level answers, and interpret results accurately. A poorly facilitated diagnostic produces misleading results. Self-assessment also builds the team\'s ownership of their findings.',
   },
   {
     id: 3,
     type: 'conceptual',
     maxModule: 0,
-    front: 'What is the difference between ACE Facilitator Certification and a maturity model certification?',
-    back: 'ACE is not a certification or compliance framework. It is a progression where organizations choose their stopping point based on strategic need. Facilitator Certification prepares consultants to diagnose and guide organizations — it certifies the facilitator\'s competence, not the organization\'s "level."',
+    front: 'What is the difference between AIL Facilitator Certification and a maturity model certification?',
+    back: 'AIL is not a certification or compliance framework. It is a progression where organizations choose their stopping point based on strategic need. Facilitator Certification prepares consultants to diagnose and guide organizations — it certifies the facilitator\'s competence, not the organization\'s "level."',
   },
 
-  // === Module 1: The ACE Model ===
+  // === Module 1: The AIL Model ===
   {
     id: 4,
     type: 'conceptual',
     maxModule: 1,
-    front: 'What is the difference between competency and knowledge in the ACE framework?',
-    back: 'Knowledge is understanding what to do. Competency is habitually doing it under stress. A developer who can explain prompting strategies but defaults to manual coding under deadline pressure has knowledge without competency. ACE measures habitual behavior under stress, not theoretical understanding.',
+    front: 'What is the difference between competency and knowledge in the AIL framework?',
+    back: 'Knowledge is understanding what to do. Competency is habitually doing it under stress. A developer who can explain prompting strategies but defaults to manual coding under deadline pressure has knowledge without competency. AIL measures habitual behavior under stress, not theoretical understanding.',
   },
   {
     id: 5,
     type: 'factual',
     maxModule: 1,
-    front: 'Name the four zones of the ACE model in order.',
+    front: 'Name the four zones of the AIL model in order.',
     back: 'Zone 1: Augmenting (individual AI tool adoption). Zone 2: Integrating (team-level shared AI workflow). Zone 3: Accelerating (AI-driven core development, humans specify/verify). Zone 4: Industrializing (AI-first software factory at portfolio scale).',
   },
   {
@@ -73,7 +73,7 @@ export const flashcards: Flashcard[] = [
     type: 'scenario',
     maxModule: 1,
     front: 'A team completed AI training last month and scored well on a knowledge quiz. Their manager says they are "Zone 1 competent." What is wrong with this assessment?',
-    back: 'Knowledge quizzes measure understanding, not habitual behavior. ACE competency requires that the team uses AI tools habitually even under pressure — tight deadlines, production incidents, unfamiliar codebases. Completing training and passing a quiz demonstrates knowledge, not competency. You would need to observe (or facilitate honest self-assessment of) actual behavior over the past 2-4 weeks.',
+    back: 'Knowledge quizzes measure understanding, not habitual behavior. AIL competency requires that the team uses AI tools habitually even under pressure — tight deadlines, production incidents, unfamiliar codebases. Completing training and passing a quiz demonstrates knowledge, not competency. You would need to observe (or facilitate honest self-assessment of) actual behavior over the past 2-4 weeks.',
   },
   {
     id: 8,
@@ -121,8 +121,8 @@ export const flashcards: Flashcard[] = [
     id: 14,
     type: 'elaborative',
     maxModule: 1,
-    front: 'Why does ACE measure "habitual behavior under stress" rather than "best-day performance"?',
-    back: 'Because best-day performance overstates actual capability. Assessment based on demos, hackathons, or pilot projects captures peak performance, not reliable practice. ACE cares about what teams do consistently when conditions deteriorate — tight deadlines, production incidents, unfamiliar territory. These stressful conditions reveal whether practices are truly habitual or merely aspirational.',
+    front: 'Why does AIL measure "habitual behavior under stress" rather than "best-day performance"?',
+    back: 'Because best-day performance overstates actual capability. Assessment based on demos, hackathons, or pilot projects captures peak performance, not reliable practice. AIL cares about what teams do consistently when conditions deteriorate — tight deadlines, production incidents, unfamiliar territory. These stressful conditions reveal whether practices are truly habitual or merely aspirational.',
   },
 
   // === Module 2: Diagnostic Facilitation Skills ===
@@ -577,14 +577,14 @@ export const flashcards: Flashcard[] = [
     type: 'elaborative',
     maxModule: 6,
     front: 'Why should facilitators approach every engagement with the goal of "coaching themselves out of a job"?',
-    back: 'Because the ultimate measure of a successful ACE engagement is the client\'s ability to self-assess, self-improve, and sustain practices without ongoing facilitator involvement. An engagement that produces lasting facilitator dependency has failed on a core objective, regardless of what diagnostic scores show. The goal is building internal capacity, not creating recurring revenue through dependency.',
+    back: 'Because the ultimate measure of a successful AIL engagement is the client\'s ability to self-assess, self-improve, and sustain practices without ongoing facilitator involvement. An engagement that produces lasting facilitator dependency has failed on a core objective, regardless of what diagnostic scores show. The goal is building internal capacity, not creating recurring revenue through dependency.',
   },
   {
     id: 78,
     type: 'conceptual',
     maxModule: 6,
-    front: 'What is the difference between the Facilitator role and the embedded Artisan role?',
-    back: 'The Facilitator maintains the assessment and coaching layer: diagnostics, check-ins, investment retrospectives, roadmap updates. The Facilitator is not part of the delivery team. Embedded Artisans deliver real software alongside the client team, modeling target-zone practices in daily work. Artisan observations are valuable input to the Facilitator, but the Facilitator must form independent judgment through the formal diagnostic process.',
+    front: 'What is the difference between the Facilitator role and the embedded Practitioner role?',
+    back: 'The Facilitator maintains the assessment and coaching layer: diagnostics, check-ins, investment retrospectives, roadmap updates. The Facilitator is not part of the delivery team. Embedded Practitioners deliver real software alongside the client team, modeling target-zone practices in daily work. Practitioner observations are valuable input to the Facilitator, but the Facilitator must form independent judgment through the formal diagnostic process.',
   },
   {
     id: 79,
@@ -597,8 +597,8 @@ export const flashcards: Flashcard[] = [
     id: 80,
     type: 'elaborative',
     maxModule: 6,
-    front: 'Why are Artisan observations treated as "one input among several" rather than definitive?',
-    back: 'Because embedded Artisans see behavior firsthand during pairing — but they see one perspective. They may observe behaviors in pairing contexts that don\'t represent the team\'s broader practice. The Facilitator triangulates Artisan observations against leading indicators, team self-report, and their own diagnostic assessment. Artisan observations can surface early regression signals weeks before they show in metrics, but they don\'t replace the formal diagnostic process.',
+    front: 'Why are Practitioner observations treated as "one input among several" rather than definitive?',
+    back: 'Because embedded Practitioners see behavior firsthand during pairing — but they see one perspective. They may observe behaviors in pairing contexts that don\'t represent the team\'s broader practice. The Facilitator triangulates Practitioner observations against leading indicators, team self-report, and their own diagnostic assessment. Practitioner observations can surface early regression signals weeks before they show in metrics, but they don\'t replace the formal diagnostic process.',
   },
   {
     id: 81,
@@ -619,7 +619,7 @@ export const flashcards: Flashcard[] = [
     type: 'scenario',
     maxModule: 6,
     front: 'A client team\'s VP explains missed milestones are due to a major incident and reorg. How do you assess this?',
-    back: 'Distinguish genuine environmental obstacles from post-hoc rationalization. Check: Do leading indicators show a pattern change coinciding with the reported events? Do Artisan team observations corroborate the timeline? Were these obstacles reported at the time, or only surfaced when asked about missed milestones? Triangulate across sources. If the environmental obstacles are genuine, update the roadmap to account for the disruption. If the explanation doesn\'t hold up, address the gap directly.',
+    back: 'Distinguish genuine environmental obstacles from post-hoc rationalization. Check: Do leading indicators show a pattern change coinciding with the reported events? Do Practitioner team observations corroborate the timeline? Were these obstacles reported at the time, or only surfaced when asked about missed milestones? Triangulate across sources. If the environmental obstacles are genuine, update the roadmap to account for the disruption. If the explanation doesn\'t hold up, address the gap directly.',
   },
   {
     id: 84,
@@ -667,7 +667,7 @@ export const flashcards: Flashcard[] = [
     id: 90,
     type: 'factual',
     maxModule: 2,
-    front: 'What is the Collaborative Delivery model in ACE?',
-    back: 'A two-track engagement structure. Track 1: The Facilitator conducts diagnostics, maintains accountability through check-ins and investment retrospectives, administers re-diagnostics, and updates roadmaps. Track 2: Embedded Artisans deliver real software alongside the client team, modeling target-zone practices in daily work. The Facilitator is independent from the Artisan team to maintain diagnostic objectivity.',
+    front: 'What is the Collaborative Delivery model in AIL?',
+    back: 'A two-track engagement structure. Track 1: The Facilitator conducts diagnostics, maintains accountability through check-ins and investment retrospectives, administers re-diagnostics, and updates roadmaps. Track 2: Embedded Practitioners deliver real software alongside the client team, modeling target-zone practices in daily work. The Facilitator is independent from the Practitioner team to maintain diagnostic objectivity.',
   },
 ];

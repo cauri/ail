@@ -1,12 +1,12 @@
 ---
 title: "Diagnostic Workshop Facilitation Script"
-description: "This is a detailed, ready-to-use script for running an ACE diagnostic workshop."
+description: "This is a detailed, ready-to-use script for running an AIL diagnostic workshop."
 type: "diagnostic"
 audience: "facilitator"
 section: "diagnostic"
 order: 7
 ---
-This is a detailed, ready-to-use script for running an ACE diagnostic workshop. It is used during both training (as a practice tool in Module 2) and live engagements (as a facilitation reference). Mastering this script during training directly prepares you for practice.
+This is a detailed, ready-to-use script for running an AIL diagnostic workshop. It is used during both training (as a practice tool in Module 2) and live engagements (as a facilitation reference). Mastering this script during training directly prepares you for practice.
 
 Text in plain format is what the facilitator says or does. *Text in italics is facilitator notes -- internal guidance, not spoken aloud.*
 

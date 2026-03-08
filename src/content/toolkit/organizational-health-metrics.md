@@ -18,7 +18,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 ### 1.1 Team-Level Zone Distribution
 
-- **What it measures:** The distribution of teams across ACE zones. How many teams are at Zone 0, Zone 1, Zone 2, Zone 3, or Zone 4?
+- **What it measures:** The distribution of teams across AIL zones. How many teams are at Zone 0, Zone 1, Zone 2, Zone 3, or Zone 4?
 - **Why it matters:** Gives leadership a snapshot of where the organization stands overall. A healthy organization should see teams progressing toward their chosen target zones over time — not necessarily toward higher zones. An organization that has deliberately chosen Zone 2 as its target should see consolidation at Zone 2, not pressure to reach Zone 3.
 - **How to measure:** Aggregate results from facilitated diagnostic assessments. Each team receives a zone classification; report the distribution.
 - **Reporting frequency:** Quarterly or after each round of diagnostic assessments.
@@ -84,7 +84,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 ### 3.1 Committed vs. Actual Investment Completion Rate
 
-- **What it measures:** Percentage of organizational investments identified in ACE roadmaps that were actually completed within the committed timeframe.
+- **What it measures:** Percentage of organizational investments identified in AIL roadmaps that were actually completed within the committed timeframe.
 - **Why it matters:** This is the single most important organizational health metric. Teams cannot progress if the organization fails to make the investments it committed to. Common failures include: promised training not delivered, tool licenses delayed, policy decisions deferred, time for infrastructure not allocated.
 - **How to measure:** Quarterly audit comparing roadmap investment commitments to actual completion status.
 - **Reporting frequency:** Quarterly.
@@ -172,7 +172,7 @@ The purpose of organizational health metrics is to ensure that leadership has vi
 
 - **What it measures:** Gap between training available and training needed for the organization's target zone distribution.
 - **Why it matters:** Training is a required organizational investment for every zone. Gaps in training prevent teams from developing the proficiencies needed for progression.
-- **How to measure:** Compare available training programs against zone-specific training requirements from the ACE framework.
+- **How to measure:** Compare available training programs against zone-specific training requirements from the AIL framework.
 - **Reporting frequency:** Semi-annually.
 - **What "good" looks like:** [Expert judgment] Training programs exist for all proficiencies in the organization's target zone. 80%+ of team members have completed training relevant to their team's current or target zone.
 
@@ -278,4 +278,4 @@ Leadership should resist the temptation to use organizational health metrics to 
 
 - [Metrics Tree](/toolkit/metrics-tree) -- North Star metric decomposition with zone-level leading and lagging indicators
 - [Zone-Specific Metrics](/toolkit/zone-specific-metrics) -- Detailed team-level metrics for each zone
-- [What Is ACE](/toolkit/what-is-ace) -- Framework overview
+- [What Is AIL](/toolkit/what-is-ail) -- Framework overview

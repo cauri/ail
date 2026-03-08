@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 816 1056"
      font-family="'Inter', sans-serif">
-  <title>ACE Diagnostic Questionnaire -- Page 1 of 4</title>
-  <desc>Printable participant response form for the ACE diagnostic assessment. Page 1 contains Section A (questions 1 through 12) covering individual AI tool adoption practices.</desc>
+  <title>AIL Diagnostic Questionnaire -- Page 1 of 4</title>
+  <desc>Printable participant response form for the AIL diagnostic assessment. Page 1 contains Section A (questions 1 through 12) covering individual AI tool adoption practices.</desc>
 
   <defs>
     <style>
@@ -33,7 +33,7 @@
   <rect x="0" y="0" width="816" height="4" fill="#9CA3AF"/>
 
   <!-- ============ HEADER ============ -->
-  <text x="48" y="34" class="title">ACE Diagnostic Questionnaire</text>
+  <text x="48" y="34" class="title">AIL Diagnostic Questionnaire</text>
   <text x="48" y="49" class="subtitle">AI Competency Evaluation -- Individual Response Form</text>
 
   <!-- Participant info -->
@@ -312,7 +312,7 @@
 
   <!-- ============ FOOTER ============ -->
   <line x1="48" y1="800" x2="768" y2="800" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="48" y="816" class="ft">ACE Diagnostic Questionnaire</text>
+  <text x="48" y="816" class="ft">AIL Diagnostic Questionnaire</text>
   <text x="768" y="816" class="ft" text-anchor="end">Page 1 of 4 -- Confidential</text>
 
 </svg>

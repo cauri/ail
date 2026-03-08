@@ -6,21 +6,21 @@ type: "concept"
 audience: "facilitator"
 order: 12
 ---
-ACE uses a progressive competency model with a single linear path: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the capabilities and habits of the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Higher zones are not universally better -- they represent deeper organizational commitment that is justified only in certain strategic contexts.
+AIL uses a progressive competency model with a single linear path: Zone 1 → Zone 2 → Zone 3 → Zone 4. Each zone builds on the capabilities and habits of the previous one. Organizations choose how far along this path to travel based on their strategic context, investment capacity, and risk appetite. Higher zones are not universally better -- they represent deeper organizational commitment that is justified only in certain strategic contexts.
 
 ![VA-12: Zone Comparison Matrix](/images/zone-comparison-matrix.svg)
 
 ## What Kind of Model Is This?
 
-ACE is a staged progression model. It shares structural properties with maturity models: zones are numbered, sequential, and cumulative -- each builds on the previous one. Organizations cannot skip zones, and each zone assumes the competencies of all preceding zones.
+AIL is a staged progression model. It shares structural properties with maturity models: zones are numbered, sequential, and cumulative -- each builds on the previous one. Organizations cannot skip zones, and each zone assumes the competencies of all preceding zones.
 
-ACE differs from traditional maturity models in two deliberate design choices:
+AIL differs from traditional maturity models in two deliberate design choices:
 
-1. **Every zone is a legitimate destination.** Traditional maturity models treat lower levels as deficiencies. ACE treats each zone as a distinct organizational capability with its own value proposition. An organization that achieves deep Zone 2 competency through informed strategic analysis has succeeded -- it has not "stalled" at level 2.
+1. **Every zone is a legitimate destination.** Traditional maturity models treat lower levels as deficiencies. AIL treats each zone as a distinct organizational capability with its own value proposition. An organization that achieves deep Zone 2 competency through informed strategic analysis has succeeded -- it has not "stalled" at level 2.
 
-2. **Competency is measured by habitual behavior under stress, not by process compliance or capability checklists.** Traditional maturity models measure whether an organization has implemented prescribed practices. ACE measures whether practices are habitual enough to persist when conditions are least favorable.
+2. **Competency is measured by habitual behavior under stress, not by process compliance or capability checklists.** Traditional maturity models measure whether an organization has implemented prescribed practices. AIL measures whether practices are habitual enough to persist when conditions are least favorable.
 
-These are meaningful innovations, but they do not change the underlying structure: ACE defines a single linear path with mandatory sequential ordering. Calling this a "capability model" would be inaccurate -- capability models allow organizations to develop capabilities in different orders based on context. ACE does not. The most honest description is: ACE is a staged progression model designed to be used as a strategic planning tool, not a scorecard.
+These are meaningful innovations, but they do not change the underlying structure: AIL defines a single linear path with mandatory sequential ordering. Calling this a "capability model" would be inaccurate -- capability models allow organizations to develop capabilities in different orders based on context. AIL does not. The most honest description is: AIL is a staged progression model designed to be used as a strategic planning tool, not a scorecard.
 
 ## A Single Path, Multiple Destinations
 
@@ -86,6 +86,6 @@ The investments grow at each step, and the analysis should grow with them. The c
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace)
+- [What Is AIL?](/toolkit/what-is-ail)
 - [Organizational Investments](/toolkit/organizational-investments)
 - [How to Choose a Target Zone](/toolkit/choose-target-zone)

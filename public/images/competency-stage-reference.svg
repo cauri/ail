@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 810"
      font-family="'Inter', sans-serif">
   <title>Competency Stage Quick Reference</title>
-  <desc>A five-row horizontal progression showing the five competency stages within any zone: Emerging, Developing, Established, Consistent, and Exemplary. Each row includes the stage name, behavioral definition, a sounds-like indicator quote, and the key distinction from the adjacent stage. Uses stage-specific colors from the ACE design system. Footer emphasizes that competency equals habitual behavior under stress.</desc>
+  <desc>A five-row horizontal progression showing the five competency stages within any zone: Emerging, Developing, Established, Consistent, and Exemplary. Each row includes the stage name, behavioral definition, a sounds-like indicator quote, and the key distinction from the adjacent stage. Uses stage-specific colors from the AIL design system. Footer emphasizes that competency equals habitual behavior under stress.</desc>
 
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">

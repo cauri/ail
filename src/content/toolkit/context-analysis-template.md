@@ -1,5 +1,5 @@
 ---
-title: "Context Analysis Template — ACE Discovery Phase"
+title: "Context Analysis Template — AIL Discovery Phase"
 description: "Complete this template during Phase 1 (Discovery) to produce the Context Analysis Report."
 section: "consulting"
 order: 4

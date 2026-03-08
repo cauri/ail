@@ -1,12 +1,12 @@
 ---
-title: "ACE Metrics Tree"
-description: "This document defines the metrics tree for the AI Competency Evaluation framework."
+title: "AIL Metrics Tree"
+description: "This document defines the metrics tree for the AI Launchpad framework."
 section: "metrics"
 type: "catalog"
 audience: "facilitator"
 order: 1
 ---
-This document defines the metrics tree for the AI Competency Evaluation framework. The tree decomposes a single North Star Metric into leading indicators, lagging indicators, and counter-metrics across the four ACE zones, providing organizations with a structured approach to measuring AI adoption progress.
+This document defines the metrics tree for the AI Launchpad framework. The tree decomposes a single North Star Metric into leading indicators, lagging indicators, and counter-metrics across the four AIL zones, providing organizations with a structured approach to measuring AI adoption progress.
 
 ### Evidence Level Key
 
@@ -16,7 +16,7 @@ Quantitative targets throughout this document are tagged with their evidence bas
 - **[Emerging evidence]** --- Supported by preliminary studies, practitioner surveys, or extrapolation from related validated findings. The derivation involves assumptions that have not been independently tested.
 - **[Expert judgment]** --- Based on practitioner experience and professional judgment. These targets are reasonable planning heuristics but have not been empirically tested. They will be refined through the [Validation Study Plan](/research/validation-study-plan).
 
-Most targets in this document are tagged [Expert judgment] or [Emerging evidence]. This is expected for a framework at ACE's current validation stage. The tags are provided so that organizations can calibrate their expectations appropriately and avoid treating unvalidated estimates as empirical benchmarks.
+Most targets in this document are tagged [Expert judgment] or [Emerging evidence]. This is expected for a framework atAIL's current validation stage. The tags are provided so that organizations can calibrate their expectations appropriately and avoid treating unvalidated estimates as empirical benchmarks.
 
 ## North Star Metric
 
@@ -244,7 +244,7 @@ These metrics predict whether the organization is successfully industrializing A
 - **What it measures:** Elapsed time from business requirement identification to production deployment.
 - **Why it matters:** The ultimate business value of Zone 4 is dramatic acceleration of the organization's ability to ship new capabilities.
 - **How to measure:** Portfolio-level tracking from intake to deployment.
-- **What "good" looks like:** [Expert judgment — speculative] 3-5x improvement from pre-ACE baseline.
+- **What "good" looks like:** [Expert judgment — speculative] 3-5x improvement from pre-AIL baseline.
 
 ### 4.5 AI Capability as Competitive Differentiator
 

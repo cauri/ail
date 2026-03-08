@@ -1,6 +1,6 @@
 ---
-title: "Stakeholder Interview Guide — ACE Discovery Phase"
-description: "This guide supports the facilitated interviews conducted during Phase 1 (Discovery) of an ACE engagement."
+title: "Stakeholder Interview Guide — AIL Discovery Phase"
+description: "This guide supports the facilitated interviews conducted during Phase 1 (Discovery) of an AIL engagement."
 type: "diagnostic"
 audience: "facilitator"
 section: "consulting"
@@ -8,7 +8,7 @@ order: 3
 ---
 ## 1. Purpose and Usage
 
-This guide supports the facilitated interviews conducted during Phase 1 (Discovery) of an ACE engagement. Its purpose is to help you build an accurate, nuanced picture of the organization's context — its current AI usage, development maturity, organizational dynamics, and constraints — before designing the diagnostic approach.
+This guide supports the facilitated interviews conducted during Phase 1 (Discovery) of an AIL engagement. Its purpose is to help you build an accurate, nuanced picture of the organization's context — its current AI usage, development maturity, organizational dynamics, and constraints — before designing the diagnostic approach.
 
 **When to use this guide:** Conduct these interviews during the first 1-2 weeks of Discovery, before completing the Context Analysis Template. Allow 1-3 business days after all interviews conclude before writing the analysis, so patterns can surface.
 

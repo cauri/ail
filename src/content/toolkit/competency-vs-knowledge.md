@@ -1,12 +1,12 @@
 ---
 title: "Competency vs. Knowledge"
-description: "Why ACE measures habitual behavior under stress rather than knowledge or best-day performance."
+description: "Why AIL measures habitual behavior under stress rather than knowledge or best-day performance."
 section: "reference"
 type: "concept"
 audience: "facilitator"
 order: 11
 ---
-The word "competency" in ACE carries specific meaning borrowed from performance science and organizational change literature. Understanding this distinction is essential to using the framework correctly, because it determines how organizations assess their current state, set goals, and measure progress.
+The word "competency" in AIL carries specific meaning borrowed from performance science and organizational change literature. Understanding this distinction is essential to using the framework correctly, because it determines how organizations assess their current state, set goals, and measure progress.
 
 ## What Competency Means
 
@@ -31,7 +31,7 @@ Common knowledge-without-competency patterns include:
 - Organizations that have documented AI integration standards but do not follow them consistently
 - Leaders who can articulate the value of AI-augmented development but do not invest in the structural changes required to support it
 
-The gap between knowledge and competency is the gap between knowing and doing. ACE measures the doing.
+The gap between knowledge and competency is the gap between knowing and doing. AIL measures the doing.
 
 ## Why Best-Day Performance Is Insufficient
 
@@ -43,11 +43,11 @@ Best-day performance patterns include:
 - A developer who builds an excellent AI-assisted prototype during dedicated learning time but does not use AI tools during feature development
 - An organization that showcases AI achievements from its most advanced team while the majority of teams have minimal AI adoption
 
-ACE assesses competency by looking at what teams do consistently, especially when conditions are least conducive to new practices. The diagnostic is designed to surface the gap between best-day performance and actual habitual behavior.
+AIL assesses competency by looking at what teams do consistently, especially when conditions are least conducive to new practices. The diagnostic is designed to surface the gap between best-day performance and actual habitual behavior.
 
 ## Implications for Measurement
 
-Because competency is about habitual behavior rather than knowledge or peak performance, ACE measurement follows specific principles:
+Because competency is about habitual behavior rather than knowledge or peak performance, AIL measurement follows specific principles:
 
 - **Assess what teams do, not what they know.** The diagnostic asks about actual practices, not theoretical understanding. "Do your developers use AI tools when debugging production issues?" is a competency question. "Can your developers list three AI-assisted debugging techniques?" is a knowledge question.
 
@@ -73,7 +73,7 @@ These stages apply within each zone independently. A team can be at Established 
 
 ## Implications for the Diagnostic
 
-The ACE diagnostic is a facilitated self-assessment, not an external audit. This design choice follows directly from the competency concept:
+The AIL diagnostic is a facilitated self-assessment, not an external audit. This design choice follows directly from the competency concept:
 
 - Team members have the most direct access to information about their own habitual behavior -- they know whether AI tools get dropped under pressure, and they know whether documented practices are actually followed. However, self-report is subject to social desirability bias (reporting what sounds good rather than what actually happens) and self-serving attribution. These biases are real and well-documented in organizational assessment literature. The facilitated format is designed to mitigate -- not eliminate -- these biases through behavioral probing, evidence anchoring, and skilled facilitation. See the workshop script for the specific facilitation techniques that address these risks.
 - Facilitation creates conditions for honest reflection. Teams are more likely to accurately report their actual behavior when the process is framed as self-assessment for improvement rather than external evaluation for judgment. The dual reporting structure (team report vs. management report) supports this by ensuring that honest self-assessment does not expose the team to managerial consequences.
@@ -83,6 +83,6 @@ The goal of the diagnostic is not to assign a score or a grade. It is to build s
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace) -- Overview of the framework
+- [What Is AIL?](/toolkit/what-is-ail) -- Overview of the framework
 - [Organizational Investments](/toolkit/organizational-investments) -- Why systemic change is required for competency
 - [How to Choose a Target Zone](/toolkit/choose-target-zone) -- Using competency assessment to inform goal-setting

@@ -1,4 +1,4 @@
-name: Deploy ACE Website to GitHub Pages
+name: Deploy AIL Website to GitHub Pages
 
 on:
   push:
@@ -18,7 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      SITE_URL: https://thisisartium.github.io
+      SITE_URL: https://cauri.github.io
+      BASE_PATH: /ail
     steps:
       - name: Checkout
         uses: actions/checkout@v4

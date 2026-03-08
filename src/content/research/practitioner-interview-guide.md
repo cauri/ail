@@ -1,12 +1,12 @@
 ---
 title: "Practitioner Interview Guide"
-description: "Semi-structured interview guide for software production practitioners across all crafts validating whether ACE zone descriptions match the reality of AI adoption on the ground."
+description: "Semi-structured interview guide for software production practitioners across all crafts validating whether AIL zone descriptions match the reality of AI adoption on the ground."
 order: 5
 ---
 
 ## 1. Purpose
 
-This guide is for interviews with software production practitioners across all crafts: engineers, tech leads, product managers, designers, QA professionals, and engineering managers who are actively using AI tools in their daily work. These interviews validate the ACE zone definitions from the perspective of people living through AI adoption.
+This guide is for interviews with software production practitioners across all crafts: engineers, tech leads, product managers, designers, QA professionals, and engineering managers who are actively using AI tools in their daily work. These interviews validate the AIL zone definitions from the perspective of people living through AI adoption.
 
 The expert interviews (see [Expert Interview Guide](/research/expert-interview-guide)) assess whether the framework's descriptions are theoretically accurate. These interviews assess whether the framework's descriptions are *recognizable* -- whether practitioners see their actual experience reflected in the zone definitions, or whether the framework describes something that sounds plausible but doesn't match what it's actually like to be on the ground.
 

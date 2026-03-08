@@ -1,12 +1,12 @@
 ---
 title: "Pre-Workshop Checklist"
-description: "This checklist covers everything a facilitator must prepare before running an ACE diagnostic workshop."
+description: "This checklist covers everything a facilitator must prepare before running an AIL diagnostic workshop."
 section: "diagnostic"
 type: "diagnostic"
 audience: "facilitator"
 order: 8
 ---
-This checklist covers everything a facilitator must prepare before running an ACE diagnostic workshop. Thorough preparation is the difference between a workshop that produces actionable insights and one that produces surface-level scores.
+This checklist covers everything a facilitator must prepare before running an AIL diagnostic workshop. Thorough preparation is the difference between a workshop that produces actionable insights and one that produces surface-level scores.
 
 ---
 

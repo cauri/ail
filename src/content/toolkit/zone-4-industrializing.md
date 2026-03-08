@@ -6,7 +6,7 @@ type: "zone-reference"
 audience: "facilitator"
 order: 4
 ---
-The organization operates an AI-first software factory. Engineers maintain the factory, PMs define factory production specifications, designers own the factory's design specification layer, and QA engineers operate the factory's evaluation infrastructure; AI produces the software. Software delivery is treated as an industrial operation with AI as the primary production mechanism and humans as factory designers and operators. Zone 4 represents a fundamental cultural transformation -- the shift from software development as craft production (skilled individuals making things) to software development as industrial production (engineers designing and operating systems that make things). In the AI Competency Evaluation (ACE) model, Zone 4 is the deepest level of organizational commitment in the ACE model, requiring mastery of all preceding zones and a willingness to reorganize the entire software organization around the premise that AI is the primary producer of software artifacts.
+The organization operates an AI-first software factory. Engineers maintain the factory, PMs define factory production specifications, designers own the factory's design specification layer, and QA engineers operate the factory's evaluation infrastructure; AI produces the software. Software delivery is treated as an industrial operation with AI as the primary production mechanism and humans as factory designers and operators. Zone 4 represents a fundamental cultural transformation -- the shift from software development as craft production (skilled individuals making things) to software development as industrial production (engineers designing and operating systems that make things). In the AI Launchpad (AIL) model, Zone 4 is the deepest level of organizational commitment in the AIL model, requiring mastery of all preceding zones and a willingness to reorganize the entire software organization around the premise that AI is the primary producer of software artifacts.
 
 **Shift type:** Production model shift
 
@@ -186,7 +186,7 @@ Zone 4 competency can regress, and the consequences of regression at factory sca
 
 ## Progressive Competency Note
 
-Zone 4 represents the deepest level of organizational commitment in the ACE model. It is not "better" than Zone 3 in a universal sense -- it is deeper, and the depth is only valuable in specific organizational contexts where software production volume is a strategic differentiator.
+Zone 4 represents the deepest level of organizational commitment in the AIL model. It is not "better" than Zone 3 in a universal sense -- it is deeper, and the depth is only valuable in specific organizational contexts where software production volume is a strategic differentiator.
 
 Most software organizations will find their optimal stopping point at Zone 2 or Zone 3. Zone 4 is documented because the model should be complete and because some organizations will genuinely benefit from this level of capability. The framework's stopping-point principle applies to every zone, including Zone 4: the right zone is the one that matches the organization's actual strategic needs, not the highest one the organization can reach.
 
@@ -213,7 +213,7 @@ Zone 4's industrialized AI usage at organizational scale carries material enviro
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace) -- Framework overview and the four zones in context
+- [What Is AIL?](/toolkit/what-is-ail) -- Framework overview and the four zones in context
 - [Zone 3: Accelerating](/toolkit/zone-3-accelerating) -- The prerequisite zone; genuine Zone 3 competency is required before Zone 4 investment
 - [Zone 4 Diagnostic Questions](/toolkit/zone-4-questions) -- The assessment instrument for this zone (10 questions)
 - [Zone-3-to-Zone-4 Roadmap](/toolkit/zone-3-to-4) -- Progression plan for organizations pursuing Zone 4

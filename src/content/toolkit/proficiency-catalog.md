@@ -1,12 +1,12 @@
 ---
 title: "Proficiency Catalog"
-description: "A comprehensive catalog of all proficiencies across all zones of the AI Competency Evaluation (ACE) model."
+description: "A comprehensive catalog of all proficiencies across all zones of the AI Launchpad (AIL) model."
 type: "catalog"
 audience: "facilitator"
 section: "reference"
 order: 8
 ---
-A comprehensive catalog of all proficiencies across all zones of the AI Competency Evaluation (ACE) model. Proficiencies are specific, observable behaviors practiced habitually -- not occasionally or only when convenient. Competency at each zone is demonstrated when these behaviors persist under pressure.
+A comprehensive catalog of all proficiencies across all zones of the AI Launchpad (AIL) model. Proficiencies are specific, observable behaviors practiced habitually -- not occasionally or only when convenient. Competency at each zone is demonstrated when these behaviors persist under pressure.
 
 Proficiencies are organized by the role that most commonly demonstrates them (Engineering, Product Management, Design, QA), but they are not exclusive to that role. Organizations structure teams differently -- a developer who contributes to product discovery, a designer who writes test criteria, or a PM who reviews code specifications is demonstrating cross-functional capability, not stepping outside their lane. The role headings exist to ensure the diagnostic captures the full breadth of team capability, not to prescribe how work should be divided. At higher zones, role boundaries become increasingly fluid as the framework describes.
 
@@ -53,7 +53,7 @@ Zone 1 represents individual AI tool adoption. The shift is from "AI is new, unf
 
 ### A Note on Data Science and ML Practitioners
 
-Data science and ML practitioners on the team should participate in Zone 1 adoption alongside other roles. Their existing practices -- notebooks, data analysis, model experimentation -- naturally overlap with AI tool usage. ACE does not define a separate data science proficiency track because data science is a specialization rather than a universal team role in software production. Where data science practitioners are present, they should be included in training, assessed alongside the team, and their AI tool adoption measured by the same habitual-use standard applied to all other roles.
+Data science and ML practitioners on the team should participate in Zone 1 adoption alongside other roles. Their existing practices -- notebooks, data analysis, model experimentation -- naturally overlap with AI tool usage. AIL does not define a separate data science proficiency track because data science is a specialization rather than a universal team role in software production. Where data science practitioners are present, they should be included in training, assessed alongside the team, and their AI tool adoption measured by the same habitual-use standard applied to all other roles.
 
 ---
 

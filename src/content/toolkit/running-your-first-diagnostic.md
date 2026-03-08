@@ -1,12 +1,12 @@
 ---
 title: "Running Your First Diagnostic Workshop"
-description: "This tutorial walks you through the full arc of an ACE diagnostic workshop -- from preparation to follow-up."
+description: "This tutorial walks you through the full arc of an AIL diagnostic workshop -- from preparation to follow-up."
 section: "guides"
 type: "diagnostic"
 audience: "facilitator"
 order: 2
 ---
-This tutorial walks you through the full arc of an ACE diagnostic workshop — from preparation to follow-up. It is written as a learning journey, not a checklist. You will understand not just what to do at each step, but why it matters and what to watch for.
+This tutorial walks you through the full arc of an AIL diagnostic workshop — from preparation to follow-up. It is written as a learning journey, not a checklist. You will understand not just what to do at each step, but why it matters and what to watch for.
 
 This tutorial covers ground taught in depth in [Module 2: Diagnostic Facilitation Skills](/training/module-2-diagnostic-facilitation) of the training program. If you have not completed Module 2, this guide provides orientation but is not a substitute for the full module, which includes learning activities, role-play practice, and supervised assessment. Use this as a preview before training or as a refresher before engagements.
 
@@ -16,7 +16,7 @@ If you have not yet read the [Facilitator Guide](/toolkit/facilitator-guide), st
 
 ### Prepare Yourself
 
-Your most important preparation is not logistical -- it is mental. You need to walk into the room (or video call) as someone who deeply understands the ACE model and can explain it conversationally.
+Your most important preparation is not logistical -- it is mental. You need to walk into the room (or video call) as someone who deeply understands the AIL model and can explain it conversationally.
 
 Review the zone reference documents ([Zone 1](/toolkit/zone-1-augmenting), [Zone 2](/toolkit/zone-2-integrating), [Zone 3](/toolkit/zone-3-accelerating), [Zone 4](/toolkit/zone-4-industrializing)) for whichever zones you will be assessing. Most workshops assess Zone 1 and Zone 2. For each zone, know the core metric, the key proficiencies, and the organizational investments. You do not need to memorize every detail, but you should be able to explain what each zone represents in plain language, without jargon.
 
@@ -124,7 +124,7 @@ Other organizational blockers to listen for: unclear policies on AI tool usage, 
 
 ### Moving from Problem to Investment Framing
 
-When the team identifies a gap, gently shift the conversation from "this is a problem" to "this is an investment opportunity." The ACE framework is built on the concept that zone transitions require [organizational investments](/toolkit/organizational-investments), not just individual effort.
+When the team identifies a gap, gently shift the conversation from "this is a problem" to "this is an investment opportunity." The AIL framework is built on the concept that zone transitions require [organizational investments](/toolkit/organizational-investments), not just individual effort.
 
 Instead of: "We're bad at this."
 Guide toward: "What would need to change in our environment for this behavior to become habitual?"

@@ -27,7 +27,7 @@ Your responsibilities:
 
 These are hard rules. No exceptions.
 
-1. **NEVER perform content evaluations.** You must not read ACE content files for your
+1. **NEVER perform content evaluations.** You must not read AIL content files for your
    own analysis, write review feedback, or make quality judgments about the material. If
    content needs to be evaluated, ask a reviewer to do it. Your job is to route the
    right content to the right reviewer and compile their findings.
@@ -43,7 +43,7 @@ These are hard rules. No exceptions.
 ## Review Model
 
 This team operates as a **review panel**, not a mob programming team. There is no
-Driver/Reviewer distinction — all team members are reviewers who evaluate the ACE
+Driver/Reviewer distinction — all team members are reviewers who evaluate theAIL
 framework content from their specific expert perspective.
 
 ### Review Workflow
@@ -60,7 +60,7 @@ framework content from their specific expert perspective.
 
 ### Content Sections for Review
 
-The ACE framework has three content collections:
+The AIL framework has three content collections:
 
 | Collection | Path | Primary Reviewers |
 |---|---|---|
@@ -111,7 +111,7 @@ When activating a reviewer agent:
 - Remind them to write reviews to `.reviews/` directory
 
 Reviewers have **read-only access to project content** plus **write access to
-`.reviews/`**. They do NOT modify ACE content files.
+`.reviews/`**. They do NOT modify AIL content files.
 
 ## Team Roster
 

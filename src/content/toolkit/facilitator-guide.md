@@ -1,19 +1,19 @@
 ---
-title: "Facilitator Guide: Getting Started with ACE"
-description: "This tutorial is your introduction to facilitating ACE diagnostic engagements."
+title: "Facilitator Guide: Getting Started with AIL"
+description: "This tutorial is your introduction to facilitating AIL diagnostic engagements."
 type: "diagnostic"
 audience: "facilitator"
 section: "guides"
 order: 1
 ---
-This guide serves two purposes: as an orientation for new facilitators before formal training, and as a reference for trained facilitators preparing for engagements. If you are new to ACE, this is a good starting point — but it is not a substitute for the [ACE Facilitator Training Program](/training/program-overview), which includes structured learning activities, assessments, and supervised practice.
+This guide serves two purposes: as an orientation for new facilitators before formal training, and as a reference for trained facilitators preparing for engagements. If you are new to AIL, this is a good starting point — but it is not a substitute for the [AIL Facilitator Training Program](/training/program-overview), which includes structured learning activities, assessments, and supervised practice.
 
 By the end, you will understand your role, the engagement lifecycle, and the principles that make the difference between a diagnostic that produces real insight and one that produces numbers on a page.
 
 ## What You'll Learn
 
 - What a facilitator's role is -- and what it is not
-- The full lifecycle of an ACE engagement
+- The full lifecycle of an AIL engagement
 - The key principles that underpin effective facilitation
 - Common challenges new facilitators face and how to handle them
 - How to build confidence before your first engagement
@@ -42,11 +42,11 @@ Your job is to create the conditions in which a team can honestly assess its own
 
 If you have a consulting background, you may feel a pull to diagnose problems and prescribe solutions. Resist that pull during the diagnostic workshop. Your facilitation creates the space for the team to discover their own situation. The consulting happens later, during goal setting and roadmap development.
 
-**A note on the Facilitator role during Collaborative Delivery.** The principle "resist the pull to prescribe" applies during the assessment track (Discovery, Diagnostic, Goal Setting). During Collaborative Delivery — the delivery track — hands-on work IS the model. But the hands-on work is done by the embedded Artisan team, not the Facilitator. The Facilitator's role during Collaborative Delivery is the assessment and coaching layer: conducting check-ins, facilitating retrospectives, administering re-diagnostics, and refreshing the roadmap. The Facilitator maintains diagnostic objectivity by remaining separate from the delivery work itself. If you serve as both Facilitator and embedded Artisan (common in smaller engagements), be explicit about which hat you are wearing in each interaction.
+**A note on the Facilitator role during Collaborative Delivery.** The principle "resist the pull to prescribe" applies during the assessment track (Discovery, Diagnostic, Goal Setting). During Collaborative Delivery — the delivery track — hands-on work IS the model. But the hands-on work is done by the embedded Practitioner team, not the Facilitator. The Facilitator's role during Collaborative Delivery is the assessment and coaching layer: conducting check-ins, facilitating retrospectives, administering re-diagnostics, and refreshing the roadmap. The Facilitator maintains diagnostic objectivity by remaining separate from the delivery work itself. If you serve as both Facilitator and embedded Practitioner (common in smaller engagements), be explicit about which hat you are wearing in each interaction.
 
 ### Role Transitions Throughout the Engagement
 
-The ACE engagement requires the facilitator to operate in three distinct roles at different points:
+The AIL engagement requires the facilitator to operate in three distinct roles at different points:
 
 **Facilitator** (during the diagnostic workshop): You guide the team's self-assessment. You are not evaluating them. You ask questions that help them see their own practices clearly.
 
@@ -67,7 +67,7 @@ The principle: every role the facilitator occupies should be named and transpare
 
 ## The Engagement Lifecycle
 
-A full ACE engagement runs two concurrent tracks. Understanding both gives you context for where the diagnostic fits in the bigger picture.
+A full AIL engagement runs two concurrent tracks. Understanding both gives you context for where the diagnostic fits in the bigger picture.
 
 **Assessment track (facilitator-led, sequential):**
 
@@ -79,7 +79,7 @@ A full ACE engagement runs two concurrent tracks. Understanding both gives you c
 
 **Delivery track (runs concurrently from the start):**
 
-**Collaborative Delivery (3-18 months).** Embedded Artisans join the client team to deliver real software together while mentoring through the shared work — this starts at the beginning of the engagement, not after the assessment track completes. As the Facilitator, your role during this track is the assessment layer: conducting monthly check-ins, facilitating quarterly retrospectives, administering re-diagnostics, and refreshing the roadmap. You coordinate with the Artisan team lead but maintain diagnostic independence. See the [engagement model](/toolkit/engagement-model) for full details on how the Facilitator and Artisan roles interact.
+**Collaborative Delivery (3-18 months).** Embedded Practitioners join the client team to deliver real software together while mentoring through the shared work — this starts at the beginning of the engagement, not after the assessment track completes. As the Facilitator, your role during this track is the assessment layer: conducting monthly check-ins, facilitating quarterly retrospectives, administering re-diagnostics, and refreshing the roadmap. You coordinate with the Practitioner team lead but maintain diagnostic independence. See the [engagement model](/toolkit/engagement-model) for full details on how the Facilitator and Practitioner roles interact.
 
 As a new facilitator, you will focus primarily on Discovery and the Diagnostic. Goal setting and Collaborative Delivery come with experience and deeper client relationships.
 
@@ -105,7 +105,7 @@ The scores are the starting point, not the destination. The facilitated discussi
 
 ## Dual Reporting
 
-ACE uses a dual reporting model, and this is non-negotiable. Understanding why will help you hold the line when clients push back.
+AIL uses a dual reporting model, and this is non-negotiable. Understanding why will help you hold the line when clients push back.
 
 **The team report** goes to the team and their direct leadership. It contains specific scores, discussion themes, identified strengths and gaps, and investment recommendations. This report is detailed enough to be actionable at the team level.
 
@@ -213,37 +213,37 @@ The cross-functional probes are designated as pilot items. Facilitators should r
 - Note whether probe responses correlate with scored question responses (e.g., do teams that score high on Question 7 in Zone 2 also produce strong evidence on the PM probes?).
 - Report patterns to the validation study (see [Validation Study Plan](/research/validation-study-plan)) so that data from probes can inform whether additional scored questions should be added in future instrument versions.
 
-## Artisan Observation Protocol for Re-Diagnostics
+## Practitioner Observation Protocol for Re-Diagnostics
 
-In engagements with embedded Artisans, the Facilitator has access to a source of behavioral evidence that complements the team's self-assessment: the Artisan team's direct observation of the team's daily practices. This protocol structures that observation for use during re-diagnostics.
+In engagements with embedded Practitioners, the Facilitator has access to a source of behavioral evidence that complements the team's self-assessment: the Practitioner team's direct observation of the team's daily practices. This protocol structures that observation for use during re-diagnostics.
 
-**Purpose:** The Artisan observation provides a calibration reference for the Facilitator. It does not replace the team's self-assessment or override it. When the Artisan's observations significantly diverge from the team's self-report, the divergence is a signal for the Facilitator to probe more deeply during the re-diagnostic workshop -- not a correction to apply privately.
+**Purpose:** The Practitioner observation provides a calibration reference for the Facilitator. It does not replace the team's self-assessment or override it. When the Practitioner's observations significantly diverge from the team's self-report, the divergence is a signal for the Facilitator to probe more deeply during the re-diagnostic workshop -- not a correction to apply privately.
 
-**Timing:** The Artisan team lead completes the observation form 1-2 weeks before the scheduled re-diagnostic workshop. The Facilitator reviews it before facilitating the workshop.
+**Timing:** The Practitioner team lead completes the observation form 1-2 weeks before the scheduled re-diagnostic workshop. The Facilitator reviews it before facilitating the workshop.
 
 **Audience:** The observation form is shared with the Facilitator only. It is not shared with the team, with management, or included in any report. It is a facilitation preparation tool.
 
 ### Observation Form Structure
 
-For each zone question being re-assessed, the Artisan team lead rates the team's observed behavior on a 3-point scale:
+For each zone question being re-assessed, the Practitioner team lead rates the team's observed behavior on a 3-point scale:
 
 | Rating | Definition |
 |---|---|
-| **Observed consistently** | The Artisan has seen this behavior occur regularly in the team's daily work, including under pressure or in unfamiliar situations. |
-| **Observed sometimes** | The Artisan has seen this behavior occur in some contexts but not others, or from some team members but not others. |
-| **Not observed or rarely observed** | The Artisan has not seen this behavior in the team's regular work, or has seen it only in isolated instances. |
+| **Observed consistently** | The Practitioner has seen this behavior occur regularly in the team's daily work, including under pressure or in unfamiliar situations. |
+| **Observed sometimes** | The Practitioner has seen this behavior occur in some contexts but not others, or from some team members but not others. |
+| **Not observed or rarely observed** | The Practitioner has not seen this behavior in the team's regular work, or has seen it only in isolated instances. |
 
-For each rating, the Artisan provides one brief behavioral example: a specific instance they observed that supports their rating.
+For each rating, the Practitioner provides one brief behavioral example: a specific instance they observed that supports their rating.
 
 ### How the Facilitator Uses the Observation
 
-1. **Before the re-diagnostic workshop:** Compare the Artisan's observation ratings against the team's previous self-assessment scores. Identify questions where the Artisan's observation is significantly lower than the team's prior self-report (e.g., team reported 4-5, Artisan observed "sometimes" or "not observed").
+1. **Before the re-diagnostic workshop:** Compare the Practitioner's observation ratings against the team's previous self-assessment scores. Identify questions where the Practitioner's observation is significantly lower than the team's prior self-report (e.g., team reported 4-5, Practitioner observed "sometimes" or "not observed").
 
-2. **During the re-diagnostic workshop:** Use the divergence points to guide probing. When the team self-reports a high score on a question where the Artisan's observation was lower, probe for specific evidence: "That score is higher than last time. Can you point to a specific example from the past month when you used that practice under pressure?"
+2. **During the re-diagnostic workshop:** Use the divergence points to guide probing. When the team self-reports a high score on a question where the Practitioner's observation was lower, probe for specific evidence: "That score is higher than last time. Can you point to a specific example from the past month when you used that practice under pressure?"
 
-3. **After the workshop:** The Artisan observation is one input among several. The Facilitator's assessment should triangulate between the team's self-report, the Artisan's observations, and the leading indicator data. No single source is treated as ground truth.
+3. **After the workshop:** The Practitioner observation is one input among several. The Facilitator's assessment should triangulate between the team's self-report, the Practitioner's observations, and the leading indicator data. No single source is treated as ground truth.
 
-**Disclosure:** The existence of the Artisan observation protocol should be disclosed to the team during the engagement setup (see the [Engagement Model](/toolkit/engagement-model) guidance on transparency about the observation channel). Teams should understand that Artisan observations inform the Facilitator's preparation, not that they override the team's self-assessment.
+**Disclosure:** The existence of the Practitioner observation protocol should be disclosed to the team during the engagement setup (see the [Engagement Model](/toolkit/engagement-model) guidance on transparency about the observation channel). Teams should understand that Practitioner observations inform the Facilitator's preparation, not that they override the team's self-assessment.
 
 ## Facilitator Independent Rating (Dual-Scoring Procedure)
 
@@ -271,11 +271,11 @@ Facilitating your first diagnostic can feel daunting. Here is how to prepare:
 
 **Accept imperfection.** Your first diagnostic will not be your best. That is fine. The training program includes two supervised facilitations with feedback precisely because the skill develops through practice. Focus on creating safety and asking good questions. The rest improves with repetition.
 
-**Understand both of your roles.** In most ACE engagements, you will wear two hats: Facilitator and Artisan. As Facilitator, you run diagnostics, interpret results, and coach organizations through goal setting. As Artisan, you embed with client teams to deliver software and build capability through collaborative practice. These are different modes of working — one is assessment and coaching, the other is hands-on craft. Review [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/) to understand how the Artisan role works alongside the Facilitator role during Collaborative Delivery.
+**Understand both of your roles.** In most AIL engagements, you will wear two hats: Facilitator and Practitioner. As Facilitator, you run diagnostics, interpret results, and coach organizations through goal setting. As Practitioner, you embed with client teams to deliver software and build capability through collaborative practice. These are different modes of working — one is assessment and coaching, the other is hands-on craft. Review [Module 6: Embedded Delivery](/training/module-6-embedded-delivery/) to understand how the Practitioner role works alongside the Facilitator role during Collaborative Delivery.
 
 ## Next Steps
 
-1. Work through the [ACE Facilitator Training Program](/training/program-overview) modules, starting with Module 1: The ACE Model. The training program is the recommended path to facilitator certification.
+1. Work through the [AIL Facilitator Training Program](/training/program-overview) modules, starting with Module 1: The AIL Model. The training program is the recommended path to facilitator certification.
 2. Use the following toolkit tutorials as study companions during training and as refreshers before engagements:
    - [Running Your First Diagnostic](/toolkit/running-your-first-diagnostic) — a walkthrough of the workshop itself
    - [Interpreting Results](/toolkit/interpreting-results) — how to make sense of the scores your workshops produce
@@ -290,5 +290,5 @@ The best facilitators are not the ones who know the most about AI. They are the 
 - [Interpreting Results](/toolkit/interpreting-results) -- How to make sense of diagnostic scores
 - [Pre-Workshop Checklist](/toolkit/pre-workshop-checklist) -- Preparation checklist
 - [Engagement Model](/toolkit/engagement-model) -- Full engagement lifecycle
-- [ACE Facilitator Training Program](/training/program-overview) -- Training program overview
+- [AIL Facilitator Training Program](/training/program-overview) -- Training program overview
 - [Scoring Thresholds](/toolkit/scoring-thresholds) -- How scores are calculated and interpreted

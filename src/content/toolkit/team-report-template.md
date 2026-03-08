@@ -1,6 +1,6 @@
 ---
 title: "Team Report Template"
-description: "Template for producing a team-level diagnostic report after an ACE workshop."
+description: "Template for producing a team-level diagnostic report after an AIL workshop."
 section: "reports"
 type: "report"
 audience: "facilitator"
@@ -16,7 +16,7 @@ order: 1
 
 ## How to Read This Report
 
-This report is the product of a facilitated self-assessment workshop in which your team scored its own practices against the ACE framework's behavioral criteria. Scores reflect the team's collective judgment about how frequently specific behaviors occur in daily work -- not an external audit or a performance evaluation. No individual scores are recorded; every number in this report is a team-level composite.
+This report is the product of a facilitated self-assessment workshop in which your team scored its own practices against the AIL framework's behavioral criteria. Scores reflect the team's collective judgment about how frequently specific behaviors occur in daily work -- not an external audit or a performance evaluation. No individual scores are recorded; every number in this report is a team-level composite.
 
 The report is structured in four parts. The **Executive Summary** gives the overall zone and competency stage assessment with key strengths and opportunities. **Zone-by-Zone Results** presents composite scores for each diagnostic question along with discussion highlights and high-variance items -- areas where team members' experiences diverged significantly. The **Proficiency Analysis** maps scores to specific observable behaviors, distinguishing between strong, developing, and gap proficiencies. Finally, **Recommended Investments** translates the findings into sequenced, actionable next steps with expected effort, timeline, and benefit.
 
@@ -346,7 +346,7 @@ These observable behaviors will indicate progress before the next formal diagnos
 
 ---
 
-*This report was prepared by {{FACILITATOR_NAME}} following a facilitated ACE diagnostic workshop on {{DATE}}. The report is confidential to the {{TEAM_NAME}} team and should not be shared with organizational management without the team's consent. A separate management report with aggregated, anonymized patterns is provided to organizational leadership.*
+*This report was prepared by {{FACILITATOR_NAME}} following a facilitated AIL diagnostic workshop on {{DATE}}. The report is confidential to the {{TEAM_NAME}} team and should not be shared with organizational management without the team's consent. A separate management report with aggregated, anonymized patterns is provided to organizational leadership.*
 
 ---
 

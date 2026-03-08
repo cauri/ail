@@ -1,19 +1,19 @@
 ---
-title: "ACE Glossary"
-description: "Key terms used throughout the ACE framework, in alphabetical order."
+title: "AIL Glossary"
+description: "Key terms used throughout the AIL framework, in alphabetical order."
 section: "reference"
 type: "catalog"
 audience: "facilitator"
 order: 5
 ---
-Key terms used throughout the ACE framework, in alphabetical order. For full context on any term, follow the cross-references to the relevant zone or concept document.
+Key terms used throughout the AIL framework, in alphabetical order. For full context on any term, follow the cross-references to the relevant zone or concept document.
 
 ---
 
 ## A
 
-**Artisan**
-A practitioner -- typically an engineer, but may also be a PM, designer, or QA specialist -- who is embedded with a client team to model target-zone behaviors through daily work. Artisans must operate at Zone 2 or above in their own practice. Since most client teams begin at Zone 0 or Zone 1, this means Artisans are already practicing the foundational disciplines (TDD, pair programming, continuous integration, small iterations) that make AI-augmented development reliable. Without the humans on the team understanding these engineering basics, they will struggle to master AI-assisted development regardless of tooling. The Artisan demonstrates these practices through pair programming and collaborative delivery rather than through instruction. See [Training Program Overview](/training/program-overview).
+**Practitioner**
+A practitioner -- typically an engineer, but may also be a PM, designer, or QA specialist -- who is embedded with a client team to model target-zone behaviors through daily work. Practitioners must operate at Zone 2 or above in their own practice. Since most client teams begin at Zone 0 or Zone 1, this means Practitioners are already practicing the foundational disciplines (TDD, pair programming, continuous integration, small iterations) that make AI-augmented development reliable. Without the humans on the team understanding these engineering basics, they will struggle to master AI-assisted development regardless of tooling. The Practitioner demonstrates these practices through pair programming and collaborative delivery rather than through instruction. See [Training Program Overview](/training/program-overview).
 
 **AGENTS.md / CLAUDE.md**
 A shared AI configuration file committed to source control. Contains project context, coding standards, architectural constraints, workflow instructions, and team conventions. The primary Zone 2 infrastructure artifact — the team's "AI constitution." See [Zone 2: Integrating](/toolkit/zone-2-integrating).
@@ -39,7 +39,7 @@ A score pattern where responses cluster at two distinct levels (e.g., half the t
 ## C
 
 **Collaborative Delivery**
-The delivery track of the ACE engagement model, running concurrently with the assessment track from the start. Experienced Artisans embed with the client team as full members — not as advisors sitting in on meetings — to deliver real software together while mentoring through the shared work. Learning happens through the work itself: pair programming on real stories, collaborative design sessions, shared PR reviews, and real-time coaching on practices as they arise naturally in delivery. Distinct from advisory-only or staff-augmentation models: the work is shared, and both delivery and capability transfer are explicit objectives. See [Engagement Model](/toolkit/engagement-model).
+The delivery track of the AIL engagement model, running concurrently with the assessment track from the start. Experienced Practitioners embed with the client team as full members — not as advisors sitting in on meetings — to deliver real software together while mentoring through the shared work. Learning happens through the work itself: pair programming on real stories, collaborative design sessions, shared PR reviews, and real-time coaching on practices as they arise naturally in delivery. Distinct from advisory-only or staff-augmentation models: the work is shared, and both delivery and capability transfer are explicit objectives. See [Engagement Model](/toolkit/engagement-model).
 
 **CAT (Continuous Alignment Testing)**
 The AI analog of test-driven development. Automated pipelines that verify AI outputs remain consistent, accurate, and aligned with behavioral expectations. No AI-produced feature ships without passing its eval criteria. A Zone 3 core practice. See [Zone 3: Accelerating](/toolkit/zone-3-accelerating).
@@ -76,7 +76,7 @@ The single most important behavioral question for a zone, marked with a star in 
 The second of the five competency stages within each zone. The team performs the zone's behaviors mostly consistently. Lapses are recognized and self-corrected. Practices are becoming habitual but have not yet been tested by sustained pressure. See [Scoring Thresholds](/toolkit/scoring-thresholds) and [Competency vs. Knowledge](/toolkit/competency-vs-knowledge).
 
 **Discovery**
-The process of identifying an organization's current AI adoption state, strategic goals, team readiness, and potential blockers before designing an ACE engagement. Discovery typically includes stakeholder interviews, team surveys, and context analysis. See [Context Analysis Template](/toolkit/context-analysis-template) and [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide).
+The process of identifying an organization's current AI adoption state, strategic goals, team readiness, and potential blockers before designing an AIL engagement. Discovery typically includes stakeholder interviews, team surveys, and context analysis. See [Context Analysis Template](/toolkit/context-analysis-template) and [Stakeholder Interview Guide](/toolkit/stakeholder-interview-guide).
 
 **Dual reporting structure**
 The design feature that separates diagnostic results into two reports with different audiences: the team report (shared with the team, contains specific scores and improvement recommendations) and the management report (shared with organizational leadership, contains systemic patterns and investment themes — never individual team scores or attribution). This separation is what makes honest participation possible. See [Workshop Script](/toolkit/workshop-script).
@@ -111,7 +111,7 @@ A feature plan or implementation design written to a markdown file in the reposi
 ## F
 
 **Facilitator**
-The person who conducts an ACE diagnostic workshop with a team. The facilitator guides the team through the self-assessment process, probes for behavioral evidence, manages group dynamics, ensures honest reflection, and produces the team report. Facilitators must be trained in the ACE diagnostic methodology and the mutual learning facilitation approach. See [Workshop Script](/toolkit/workshop-script) and [Training Program Overview](/training/program-overview).
+The person who conducts an AIL diagnostic workshop with a team. The facilitator guides the team through the self-assessment process, probes for behavioral evidence, manages group dynamics, ensures honest reflection, and produces the team report. Facilitators must be trained in the AIL diagnostic methodology and the mutual learning facilitation approach. See [Workshop Script](/toolkit/workshop-script) and [Training Program Overview](/training/program-overview).
 
 **Fresh session**
 Starting a new agent session with no prior context about an implementation before performing code review. Ensures the review is independent of the implementation decisions rather than anchored to them. A Zone 2 practice. See [Zone 2: Integrating](/toolkit/zone-2-integrating).
@@ -138,7 +138,7 @@ Pre-commit hooks or equivalent CI/CD gates that require AI-generated code to pas
 ## N
 
 **North Star Metric**
-The single metric that best captures the core capability being measured across the ACE framework: AI-Augmented Development Throughput — the rate at which teams deliver validated, production-ready software per unit of human effort, enabled by AI augmentation. "Validated" is critical: raw output volume without quality is not throughput. The metrics tree decomposes this North Star Metric into zone-level leading indicators, lagging indicators, and counter-metrics. See [Metrics Tree](/toolkit/metrics-tree).
+The single metric that best captures the core capability being measured across the AIL framework: AI-Augmented Development Throughput — the rate at which teams deliver validated, production-ready software per unit of human effort, enabled by AI augmentation. "Validated" is critical: raw output volume without quality is not throughput. The metrics tree decomposes this North Star Metric into zone-level leading indicators, lagging indicators, and counter-metrics. See [Metrics Tree](/toolkit/metrics-tree).
 
 ---
 
@@ -213,16 +213,16 @@ A Zone 2 testing practice in which the agent stubs tests based on requirements, 
 ## Z
 
 **Zone**
-A defined stage of AI-augmented software development capability, characterized by a specific set of proficiencies (observable behaviors), organizational investments (what the organization must provide), and benefits (what the organization receives). Zones are destinations, not levels — higher is not universally better. See [What Is ACE?](/toolkit/what-is-ace).
+A defined stage of AI-augmented software development capability, characterized by a specific set of proficiencies (observable behaviors), organizational investments (what the organization must provide), and benefits (what the organization receives). Zones are destinations, not levels — higher is not universally better. See [What Is AIL?](/toolkit/what-is-ail).
 
 **Zone 0 (Baseline)**
-The starting state before any AI tool adoption. Teams in Zone 0 rely entirely on traditional development workflows. Some individuals may have experimented with AI tools, but usage is sporadic, unsupported by the organization, and not integrated into daily work. Zone 0 is the starting point for all ACE assessments. See [Zone 1: Augmenting](/toolkit/zone-1-augmenting) for the transition out of Zone 0 and [Baseline-to-Zone-1 Roadmap](/toolkit/baseline-to-zone-1) for the progression plan.
+The starting state before any AI tool adoption. Teams in Zone 0 rely entirely on traditional development workflows. Some individuals may have experimented with AI tools, but usage is sporadic, unsupported by the organization, and not integrated into daily work. Zone 0 is the starting point for all AIL assessments. See [Zone 1: Augmenting](/toolkit/zone-1-augmenting) for the transition out of Zone 0 and [Baseline-to-Zone-1 Roadmap](/toolkit/baseline-to-zone-1) for the progression plan.
 
 ---
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace) -- Conceptual overview of the framework; context for all terms defined here
+- [What Is AIL?](/toolkit/what-is-ail) -- Conceptual overview of the framework; context for all terms defined here
 - [Zone 1 Reference](/toolkit/zone-1-augmenting) -- Full definition of Zone 1 proficiencies, investments, and benefits
 - [Zone 2 Reference](/toolkit/zone-2-integrating) -- Full definition of Zone 2 proficiencies, investments, and benefits
 - [Zone 3 Reference](/toolkit/zone-3-accelerating) -- Full definition of Zone 3 proficiencies, investments, and benefits

@@ -1,6 +1,6 @@
 # SVG Production Style Guide
 
-This guide ensures all visual aids match the ACE site's design system. Every SVG must feel like a native part of the site, not an inserted corporate graphic.
+This guide ensures all visual aids match the AIL site's design system. Every SVG must feel like a native part of the site, not an inserted corporate graphic.
 
 ## Typography
 

@@ -12,7 +12,18 @@
       "Bash(cd /home/jwilger/projects/ai-asdf/website && npm install && npx astro add tailwind mdx --yes 2>&1)",
       "Bash(npm run:*)",
       "Bash(cd:*)",
-      "Bash(tail:*)"
+      "Bash(tail:*)",
+      "Bash(gh repo create cauri/ace --public --source=. --push)",
+      "Bash(git remote add cauri https://github.com/cauri/ace.git && git push cauri main)",
+      "Bash(git remote set-url origin https://github.com/cauri/ace.git && git remote remove cauri)",
+      "Bash(grep -rn \"ACE\" --include=\"*.astro\" --include=\"*.md\" --include=\"*.mdx\" --include=\"*.ts\" --include=\"*.js\" --include=\"*.json\" --include=\"*.svg\" --include=\"*.css\" --include=\"*.yaml\" --include=\"*.yml\" --include=\"*.toml\" . 2>/dev/null | grep -v node_modules | grep -v .git | head -100)",
+      "Bash(grep -rn \"Ace\" --include=\"*.astro\" --include=\"*.md\" --include=\"*.mdx\" --include=\"*.ts\" --include=\"*.js\" --include=\"*.json\" --include=\"*.svg\" --include=\"*.css\" --include=\"*.yaml\" --include=\"*.yml\" --include=\"*.toml\" . 2>/dev/null | grep -v node_modules | grep -v .git)",
+      "Bash(grep -rn \"ACE\" --include=\"*.astro\" --include=\"*.md\" --include=\"*.mdx\" --include=\"*.ts\" --include=\"*.js\" --include=\"*.json\" --include=\"*.svg\" --include=\"*.css\" --include=\"*.yaml\" --include=\"*.yml\" --include=\"*.toml\" . 2>/dev/null | grep -v node_modules | grep -v .git | wc -l)",
+      "Bash(grep -rn ACE --include=*.astro --include=*.md --include=*.mdx --include=*.ts --include=*.js --include=*.json --include=*.svg --include=*.css --include=*.yaml --include=*.yml --include=*.toml .)",
+      "Bash(grep -rn \"Ace\" --include=\"*.astro\" --include=\"*.md\" --include=\"*.mdx\" --include=\"*.ts\" --include=\"*.js\" --include=\"*.json\" --include=\"*.svg\" --include=\"*.css\" --include=\"*.yaml\" --include=\"*.yml\" --include=\"*.toml\" . 2>/dev/null | grep -v node_modules | grep -v .git | grep -v \"ACE\" | head -20)",
+      "Bash(echo \"=== SUMMARY ===\" && echo \"\" && echo \"Total 'ACE' matches:\" && grep -rn \"ACE\" --include=\"*.astro\" --include=\"*.md\" --include=\"*.mdx\" --include=\"*.ts\" --include=\"*.js\" --include=\"*.json\" --include=\"*.svg\" --include=\"*.css\" --include=\"*.yaml\" --include=\"*.yml\" --include=\"*.toml\" . 2>/dev/null | grep -v node_modules | grep -v .git | wc -l && echo \"\" && echo \"Total 'Ace' matches \\(excluding ACE\\):\" && grep -rn \"Ace\" --include=\"*.astro\" --include=\"*.md\" --include=\"*.mdx\" --include=\"*.ts\" --include=\"*.js\" --include=\"*.json\" --include=\"*.svg\" --include=\"*.css\" --include=\"*.yaml\" --include=\"*.yml\" --include=\"*.toml\" . 2>/dev/null | grep -v node_modules | grep -v .git | grep -v \"ACE\" | wc -l)",
+      "Bash(ls public/favicon* public/*.ico public/*.png 2>/dev/null; find public -name \"favicon*\" -o -name \"*.ico\" 2>/dev/null)",
+      "Bash(# Rename what-is-ace.md -> what-is-ail.md\nmv src/content/toolkit/what-is-ace.md src/content/toolkit/what-is-ail.md\necho \"Renamed what-is-ace.md -> what-is-ail.md\")"
     ]
   },
   "spinnerTipsEnabled": false

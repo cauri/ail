@@ -1,7 +1,7 @@
-# ACE Framework Review Project
+# AIL Framework Review Project
 
-The ACE (AI Competency Evaluation) framework is a diagnostic and training program
-created by Artium to help software organizations understand their level of AI adoption,
+The AIL (AI Launchpad) framework is a diagnostic and training program
+created by the AIL team to help software organizations understand their level of AI adoption,
 determine strategic targets, and execute roadmaps. This review project assembles a panel
 of domain experts to evaluate the framework's content from multiple perspectives.
 
@@ -21,13 +21,13 @@ These are non-negotiable practices for the review:
 
 - **Expert Perspective**: Each reviewer evaluates content strictly from their area of
   expertise. Do not drift into other reviewers' domains unless there is genuine overlap.
-- **Evidence-Based Critique**: Every concern must cite specific content from the ACE
+- **Evidence-Based Critique**: Every concern must cite specific content from theAIL
   framework. No vague "this feels off" feedback — point to the text.
 - **Constructive Recommendations**: Every concern must include a recommendation for
   improvement. Identifying problems without solutions is insufficient.
 - **Severity Classification**: All concerns must be classified as Critical, Major,
   Minor, or Suggestion. This enables prioritization.
-- **Read-Only Content Access**: Reviewers read ACE content but do NOT modify it.
+- **Read-Only Content Access**: Reviewers read AIL content but do NOT modify it.
   All feedback goes to `.reviews/` files. Content changes are made by the project
   owner based on review findings.
 - **Consensus on Cross-Cutting Issues**: When multiple reviewers identify the same

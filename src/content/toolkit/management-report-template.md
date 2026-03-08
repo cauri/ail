@@ -261,17 +261,17 @@ Total                |          |            |             |            |       
 
 ---
 
-## Appendix: ACE Methodology
+## Appendix: AIL Methodology
 
-*This section is provided for readers who may be unfamiliar with the ACE framework. It is intentionally brief.*
+*This section is provided for readers who may be unfamiliar with the AIL framework. It is intentionally brief.*
 
-### What ACE Measures
+### What AIL Measures
 
-The AI Competency Evaluation (ACE) framework is a diagnostic system for measuring how deeply AI-assisted practices have become habitual within software delivery teams. It measures observable behavior, not knowledge or intent. The core question at every zone is: does the team actually do this consistently, including under deadline pressure and in unfamiliar conditions?
+The AI Launchpad (AIL) framework is a diagnostic system for measuring how deeply AI-assisted practices have become habitual within software delivery teams. It measures observable behavior, not knowledge or intent. The core question at every zone is: does the team actually do this consistently, including under deadline pressure and in unfamiliar conditions?
 
 ### The Zones
 
-ACE defines five zones of AI competency, each representing a qualitatively different relationship between the team and AI tooling:
+AIL defines five zones of AI competency, each representing a qualitatively different relationship between the team and AI tooling:
 
 | Zone | Name | What Changes |
 |---|---|---|
@@ -293,7 +293,7 @@ The diagnostic is a facilitated self-assessment, not an external audit. A traine
 
 ---
 
-*This report was prepared by [FACILITATOR NAME] following ACE diagnostic assessments conducted [ASSESSMENT DATES] with [N] teams at [ORGANIZATION NAME]. Individual team results are confidential to each team and are not disclosed in this report. Questions about this report or the ACE methodology may be directed to [FACILITATOR CONTACT].*
+*This report was prepared by [FACILITATOR NAME] following AIL diagnostic assessments conducted [ASSESSMENT DATES] with [N] teams at [ORGANIZATION NAME]. Individual team results are confidential to each team and are not disclosed in this report. Questions about this report or the AIL methodology may be directed to [FACILITATOR CONTACT].*
 
 ---
 

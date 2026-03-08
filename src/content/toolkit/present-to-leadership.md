@@ -1,18 +1,18 @@
 ---
-title: "How to Present ACE Results to Leadership"
-description: "How to help a client presenter frame ACE diagnostic results and progression plans as business investments for their leadership."
+title: "How to Present AIL Results to Leadership"
+description: "How to help a client presenter frame AIL diagnostic results and progression plans as business investments for their leadership."
 section: "guides"
 type: "planning"
 audience: "leadership"
 order: 6
 ---
-This guide helps facilitators prepare a client-side presenter (typically an engineering leader or change agent) to bring ACE diagnostic results and a progression plan to their leadership. The goal is to frame zone transitions as business investments that leadership can evaluate, fund, and champion -- not as "AI training" requests that get deprioritized.
+This guide helps facilitators prepare a client-side presenter (typically an engineering leader or change agent) to bring AIL diagnostic results and a progression plan to their leadership. The goal is to frame zone transitions as business investments that leadership can evaluate, fund, and champion -- not as "AI training" requests that get deprioritized.
 
 ## Prerequisites
 
 Before the presentation, the facilitator should ensure the client presenter has:
 
-- Completed ACE diagnostic results for one or more teams
+- Completed AIL diagnostic results for one or more teams
 - A recommended target zone with supporting rationale. See [How to Choose a Target Zone](/toolkit/choose-target-zone).
 - A draft progression roadmap. See [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap).
 
@@ -89,7 +89,7 @@ Zone 1 requires modest investment: policy clarity, training time, and management
 
 ### "How do we know this will work?"
 
-The ACE framework includes built-in reassessment. We propose a phased approach with diagnostic checkpoints at each phase boundary. If the leading indicators are not showing progress, we adjust the roadmap before committing to the next phase. You are never more than one phase away from a decision point.
+The AIL framework includes built-in reassessment. We propose a phased approach with diagnostic checkpoints at each phase boundary. If the leading indicators are not showing progress, we adjust the roadmap before committing to the next phase. You are never more than one phase away from a decision point.
 
 ### "Our teams are already using AI. We're fine."
 
@@ -111,7 +111,7 @@ A single presentation is not enough. Leadership commitment must be sustained acr
 ## Report Structure Template
 
 ```
-ACE Diagnostic Report: [Organization Name]
+AIL Diagnostic Report: [Organization Name]
 =================================================
 
 Executive Summary
@@ -148,4 +148,4 @@ Reassessment Schedule
 - [How to Choose a Target Zone](/toolkit/choose-target-zone) -- Strategic zone selection
 - [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap) -- Building the investment plan
 - [Organizational Investments](/toolkit/organizational-investments) -- What each zone requires
-- [What Is ACE?](/toolkit/what-is-ace) -- Framework overview for leadership context
+- [What Is AIL?](/toolkit/what-is-ail) -- Framework overview for leadership context

@@ -1,12 +1,12 @@
 ---
 title: "Zone-Specific Metrics"
-description: "This document defines primary, secondary, anti-metrics, leading indicators, and lagging indicators for each ACE zone."
+description: "This document defines primary, secondary, anti-metrics, leading indicators, and lagging indicators for each AIL zone."
 section: "metrics"
 type: "catalog"
 audience: "facilitator"
 order: 2
 ---
-This document defines primary, secondary, anti-metrics, leading indicators, and lagging indicators for each ACE zone. These metrics complement the [Metrics Tree](/toolkit/metrics-tree) with zone-level detail and provide the measurement foundation for diagnostic assessments and progression roadmaps.
+This document defines primary, secondary, anti-metrics, leading indicators, and lagging indicators for each AIL zone. These metrics complement the [Metrics Tree](/toolkit/metrics-tree) with zone-level detail and provide the measurement foundation for diagnostic assessments and progression roadmaps.
 
 ---
 

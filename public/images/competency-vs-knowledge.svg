@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 920"
      font-family="'Inter', sans-serif">
   <title>VA-11: Competency vs Knowledge vs Best-Day Performance</title>
-  <desc>Three-column comparison showing the critical distinction between what teams know, what they can do on a good day, and what they do habitually under stress. Competency -- habitual behavior under pressure -- is what ACE measures.</desc>
+  <desc>Three-column comparison showing the critical distinction between what teams know, what they can do on a good day, and what they do habitually under stress. Competency -- habitual behavior under pressure -- is what AIL measures.</desc>
 
   <!-- Background -->
   <rect width="880" height="920" fill="#fff" rx="8"/>
@@ -9,7 +9,7 @@
   <!-- Title -->
   <text x="40" y="40" font-family="'DM Sans', sans-serif" font-size="20"
         font-weight="400" fill="#151D1A" letter-spacing="-0.03em">Competency vs Knowledge vs Best-Day Performance</text>
-  <text x="40" y="60" font-size="12" fill="#6B7280">What ACE measures -- and what it does not</text>
+  <text x="40" y="60" font-size="12" fill="#6B7280">What AIL measures -- and what it does not</text>
 
   <!-- Column Headers -->
   <!-- Knowledge Column -->
@@ -126,9 +126,9 @@
   <rect x="572" y="600" width="268" height="72" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
   <text x="584" y="622" font-size="11" fill="#D912AE" font-weight="600" font-style="italic">"Do they do it when it is</text>
   <text x="584" y="637" font-size="11" fill="#D912AE" font-weight="600" font-style="italic">hard, stressful, or urgent?"</text>
-  <text x="584" y="658" font-size="10" fill="#D912AE">This is what ACE measures.</text>
+  <text x="584" y="658" font-size="10" fill="#D912AE">This is what AIL measures.</text>
 
-  <!-- Arrow indicating what ACE measures -->
+  <!-- Arrow indicating what AIL measures -->
   <line x1="706" y1="690" x2="706" y2="672" stroke="#D912AE" stroke-width="1.5"/>
   <polygon points="700,690 706,700 712,690" fill="#D912AE"/>
 

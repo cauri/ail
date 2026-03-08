@@ -18,7 +18,7 @@ The scoring methodology in this document --- including the frequency scale, comp
 
 - The Agile Fluency Model's approach to facilitated competency assessment (Larsen & Shore, 2012), which demonstrated that habitual behavior under stress is the appropriate competency construct for team capability
 - The DORA research program's measurement principles (Forsgren, Humble, & Kim, 2018), which established that organizational capability classification should be grounded in observable behavior and that classification criteria should disclose their evidence basis
-- Practitioner experience from Artium engagements with software teams adopting AI-augmented practices
+- Practitioner experience from AIL engagements with software teams adopting AI-augmented practices
 
 **These thresholds have not yet been validated against empirical data.** The specific numeric values for Consistent status (composite >= 4.7, SD <= 0.5, no question composite below 4.0) are expert-judgment starting points, not empirically derived cutoffs. The qualitative Exemplary criteria (coaching capability, contextual adaptation, practice innovation) are similarly expert-informed. The [Validation Study Plan](/research/validation-study-plan) includes ROC analysis (Phase 3) to empirically calibrate these thresholds against independently observed competent behavior.
 

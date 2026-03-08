@@ -1,6 +1,6 @@
 ---
 title: "Leadership Interview Guide"
-description: "Semi-structured interview guide for CTOs, VPs of Engineering, and business executives validating the ACE framework's organizational investment and goal-setting dimensions."
+description: "Semi-structured interview guide for CTOs, VPs of Engineering, and business executives validating the AIL framework's organizational investment and goal-setting dimensions."
 order: 4
 ---
 
@@ -135,7 +135,7 @@ Probes:
 - Which would require new measurement capability to verify?
 - Are there benefits that matter deeply to you personally but don't land with your stakeholders?
 - Are there benefits missing from the framework that would be important to your organization?
-- The ACE diagnostic is a facilitated self-assessment -- team members rate their own behavior on a frequency scale, and results are discussed in a facilitated workshop. How credible is that to you as a measurement approach? What would make you more or less confident in the results?
+- The AIL diagnostic is a facilitated self-assessment -- team members rate their own behavior on a frequency scale, and results are discussed in a facilitated workshop. How credible is that to you as a measurement approach? What would make you more or less confident in the results?
 
 ---
 

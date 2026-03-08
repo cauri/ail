@@ -6,7 +6,7 @@ order: 3
 type: "zone-reference"
 audience: "facilitator"
 ---
-AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Zone 3 represents a deep role identity shift in the AI Competency Evaluation (ACE) model. Not every organization will progress this far, and not every organization will benefit from the structural and role changes it demands. The decision to pursue Zone 3 should be grounded in strategic analysis of whether the investment is justified by the organization's context. Organizations that do pursue Zone 3 unlock dramatic throughput gains by treating AI as the primary implementation engine and redefining engineering as pipeline design, specification, and verification.
+AI drives core development work. Humans specify, review, and orchestrate; AI implements. The developer role fundamentally changes from writing code to designing the process by which code is produced. Zone 3 represents a deep role identity shift in the AI Launchpad (AIL) model. Not every organization will progress this far, and not every organization will benefit from the structural and role changes it demands. The decision to pursue Zone 3 should be grounded in strategic analysis of whether the investment is justified by the organization's context. Organizations that do pursue Zone 3 unlock dramatic throughput gains by treating AI as the primary implementation engine and redefining engineering as pipeline design, specification, and verification.
 
 **Shift type:** Role identity shift
 
@@ -224,7 +224,7 @@ AI pipeline development is inherently experimental. Experiment tracking follows 
 
 ### Separate Generation from Decisioning
 
-This four-level framework structures how AI capabilities are designed and governed. The framework synthesizes patterns observed in early AI-native engineering organizations and draws on principles from industrial process control, where the separation of production from quality governance is well established. The specific four-level structure (Conditioning, Authority, Workflows, Evals) is an ACE contribution that organizes these emerging patterns into a teachable progression. [Expert judgment — this framework codifies observed practice rather than validated theory. As organizations gain Zone 3 experience, the framework should be refined against empirical evidence of what governance structures actually prevent AI pipeline failures.]
+This four-level framework structures how AI capabilities are designed and governed. The framework synthesizes patterns observed in early AI-native engineering organizations and draws on principles from industrial process control, where the separation of production from quality governance is well established. The specific four-level structure (Conditioning, Authority, Workflows, Evals) is an AIL contribution that organizes these emerging patterns into a teachable progression. [Expert judgment — this framework codifies observed practice rather than validated theory. As organizations gain Zone 3 experience, the framework should be refined against empirical evidence of what governance structures actually prevent AI pipeline failures.]
 
 Level 1 (Conditioning) addresses how to steer generation through intent specification and constraint design. Level 2 (Authority) addresses how to maintain human ownership without full authorship. Level 3 (Workflows) addresses how to decompose AI capabilities into reliable, observable pipeline steps. Level 4 (Evals) addresses how to build self-correcting systems through eval harnesses and feedback loops. Teams apply this framework when designing any AI-driven feature or pipeline.
 
@@ -290,7 +290,7 @@ Zone 4 extends Zone 3's AI-driven development into organization-wide strategic c
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace) -- Framework overview and the four zones in context
+- [What Is AIL?](/toolkit/what-is-ail) -- Framework overview and the four zones in context
 - [Zone 2: Integrating](/toolkit/zone-2-integrating) -- The prerequisite zone; strong Zone 2 competency is required before Zone 3 investment
 - [Zone 4: Industrializing](/toolkit/zone-4-industrializing) -- The next zone in the progression; the AI factory model for organizations ready to go beyond Zone 3
 - [Zone 3 Diagnostic Questions](/toolkit/zone-3-questions) -- The assessment instrument for this zone

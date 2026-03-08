@@ -22,7 +22,7 @@ order: 2
 
 ## How to Read This Report
 
-This report is the product of a facilitated self-assessment workshop in which your team scored its own practices against the ACE framework's behavioral criteria. Scores reflect the team's collective judgment about how frequently specific behaviors occur in daily work -- not an external audit or a performance evaluation. No individual scores are recorded; every number in this report is a team-level composite.
+This report is the product of a facilitated self-assessment workshop in which your team scored its own practices against the AIL framework's behavioral criteria. Scores reflect the team's collective judgment about how frequently specific behaviors occur in daily work -- not an external audit or a performance evaluation. No individual scores are recorded; every number in this report is a team-level composite.
 
 The report is structured in four parts. The **Assessment Summary** gives the overall zone and competency stage assessment with key context. **Zone Assessment Breakdowns** present composite scores for each diagnostic question along with observations from the workshop discussion. **Strengths** and **Growth Areas** translate scores into narrative findings. Finally, **Investment Recommendations** provides sequenced, actionable next steps with expected effort, timeline, and benefit.
 
@@ -34,7 +34,7 @@ This report is confidential to your team. A separate management report with aggr
 
 ## Assessment Summary
 
-The Payments Platform team completed a facilitated ACE diagnostic workshop on January 28, 2026. All eight team members participated for the full 110-minute session. The team assessed Zone 1 in full and completed a screening pass through Zone 2 to establish competency.
+The Payments Platform team completed a facilitated AIL diagnostic workshop on January 28, 2026. All eight team members participated for the full 110-minute session. The team assessed Zone 1 in full and completed a screening pass through Zone 2 to establish competency.
 
 **Current zone and stage: Zone 1 — Established**
 
@@ -157,7 +157,7 @@ The following investments are specific to this team's Zone 2 transition. They ar
 
 This is the single most important action for Zone 2 transition. The AGENTS.md (or CLAUDE.md, depending on the primary agentic tool) is the team's shared AI configuration: it tells AI agents how the codebase is organized, what conventions to follow, what verification steps are required, and what is in and out of scope for autonomous action. It is also the artifact that makes "One Team One Setup" concrete — once it lives in the repository, every team member and every AI agent starts from the same context.
 
-The tech lead's existing Confluence notes are the input. A practical first session: the tech lead (or, if an Artisan Engineer is embedded with the team, the Artisan and tech lead together) shares the notes as a starting draft, and the team spends 90 minutes converting them into an AGENTS.md and adding items from each engineer's individual configuration. Commit the result. The file will evolve through retro iteration; it does not need to be complete to be useful. A two-page AGENTS.md that the team actually maintains is worth more than a ten-page one that goes stale.
+The tech lead's existing Confluence notes are the input. A practical first session: the tech lead (or, if an Practitioner Engineer is embedded with the team, the Practitioner and tech lead together) shares the notes as a starting draft, and the team spends 90 minutes converting them into an AGENTS.md and adding items from each engineer's individual configuration. Commit the result. The file will evolve through retro iteration; it does not need to be complete to be useful. A two-page AGENTS.md that the team actually maintains is worth more than a ten-page one that goes stale.
 
 ### 2. Establish Plan/Code/Verify as an explicit team norm
 
@@ -167,7 +167,7 @@ The tech lead's existing Confluence notes are the input. A practical first sessi
 
 Plan/Code/Verify is a three-phase discipline for AI-assisted development: externalize a plan (as a markdown file in the repo, a GitHub issue comment, or a structured prompt) before generation; generate code using the plan as context; verify output against the plan using the mandatory feedback loop before accepting. For small changes, the plan is a sentence. For complex changes, it is a short document with scope and constraints stated explicitly.
 
-The team's immediate action is to name this pattern and agree it exists. The tech lead can introduce it at the next sprint planning or retro as "our Zone 2 habit to build." If an Artisan Engineer is embedded with the team, the most effective introduction is the Artisan demonstrating Plan/Code/Verify through pair programming on a real story — the client engineer experiences the practice firsthand rather than hearing about it. Within two sprints, it should feel natural for engineers to say "I haven't written a plan yet" before starting an AI generation task, and to treat that as a prompt to do so rather than an obstacle to skip.
+The team's immediate action is to name this pattern and agree it exists. The tech lead can introduce it at the next sprint planning or retro as "our Zone 2 habit to build." If an Practitioner Engineer is embedded with the team, the most effective introduction is the Practitioner demonstrating Plan/Code/Verify through pair programming on a real story — the client engineer experiences the practice firsthand rather than hearing about it. Within two sprints, it should feel natural for engineers to say "I haven't written a plan yet" before starting an AI generation task, and to treat that as a prompt to do so rather than an obstacle to skip.
 
 ### 3. Enforce mandatory feedback loops in the development workflow
 
@@ -197,7 +197,7 @@ This is a gradual shift. A useful starting point: the PM picks two stories per s
 
 - **Week 1:** Tech lead schedules a half-day AGENTS.md kickoff with all engineers. Input: Confluence notes on AI conventions, 15 minutes from each engineer on their individual tool setup, and discussion on what the team wants an AI agent to know before touching the codebase.
 - **Week 2:** First AGENTS.md committed to the main branch. All team members review and add at least one item from their individual configuration. Include the mandatory feedback loop command in the file.
-- **Week 2-3:** Tech lead introduces Plan/Code/Verify at the next sprint planning or retro. Engineers pair on one story using the pattern explicitly — if an Artisan Engineer is embedded, the Artisan and a client engineer pair on the first story together to make the practice concrete before it becomes habitual.
+- **Week 2-3:** Tech lead introduces Plan/Code/Verify at the next sprint planning or retro. Engineers pair on one story using the pattern explicitly — if an Practitioner Engineer is embedded, the Practitioner and a client engineer pair on the first story together to make the practice concrete before it becomes habitual.
 - **Week 4:** AGENTS.md retrospective — 15 minutes at the retro to review what worked, what to add, what to change. This becomes a standing item.
 
 ### Next 90 days
@@ -206,12 +206,12 @@ This is a gradual shift. A useful starting point: the PM picks two stories per s
 - Plan/Code/Verify running as the default for all non-trivial AI generation tasks. "Trivial" is defined by the team — a useful first definition: any AI task that touches more than one function or produces more than 20 lines.
 - PM running structured acceptance criteria on at least half of all stories.
 - AGENTS.md updated at each sprint retro as a standing 15-minute agenda item.
-- If Artisan team is embedded: Artisan Engineers are actively pairing with client engineers on Plan/Code/Verify and AGENTS.md evolution; ramp-down indicators are being tracked.
+- If Practitioner team is embedded: Practitioner Engineers are actively pairing with client engineers on Plan/Code/Verify and AGENTS.md evolution; ramp-down indicators are being tracked.
 - Schedule re-assessment for 90 days out (late April 2026) to evaluate Zone 2 Emerging stage competency.
 
 ---
 
-*This report was prepared by Maya Okafor following a facilitated ACE diagnostic workshop on January 28, 2026. This report is confidential to the Payments Platform team and should not be shared with FinServ Corp management or other teams without the team's consent. A separate management report with aggregated, anonymized organizational patterns has been provided to FinServ Corp leadership.*
+*This report was prepared by Maya Okafor following a facilitated AIL diagnostic workshop on January 28, 2026. This report is confidential to the Payments Platform team and should not be shared with FinServ Corp management or other teams without the team's consent. A separate management report with aggregated, anonymized organizational patterns has been provided to FinServ Corp leadership.*
 
 ---
 

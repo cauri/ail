@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 630"
      font-family="'Inter', sans-serif">
   <title>Metrics Tree Hierarchical Diagram</title>
-  <desc>Top-down tree diagram showing the ACE metrics hierarchy. The North Star Metric (AI-Augmented Development Throughput) branches into four zone-level metric groups, each with leading and lagging indicators. A parallel counter-metrics branch shows six gaming-prevention metrics. Evidence-level badges mark each metric as Validated, Emerging, Expert judgment, or Speculative.</desc>
+  <desc>Top-down tree diagram showing the AIL metrics hierarchy. The North Star Metric (AI-Augmented Development Throughput) branches into four zone-level metric groups, each with leading and lagging indicators. A parallel counter-metrics branch shows six gaming-prevention metrics. Evidence-level badges mark each metric as Validated, Emerging, Expert judgment, or Speculative.</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
@@ -25,7 +25,7 @@
 
   <!-- Title -->
   <text x="450" y="32" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="20"
-        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">ACE Metrics Tree</text>
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">AIL Metrics Tree</text>
   <text x="450" y="50" text-anchor="middle" font-size="11" fill="#6B7280">From North Star through zones to individual indicators, with evidence levels</text>
 
   <!-- Evidence level key -->
@@ -365,7 +365,7 @@
     <rect x="138" y="68" width="60" height="10" rx="2" fill="#FB923C" opacity="0.6"/>
   </g>
 
-  <text x="450" y="538" text-anchor="middle" font-size="10" fill="#6B7280">Most targets are expert judgment or speculative. This is expected at ACE's current validation stage.</text>
+  <text x="450" y="538" text-anchor="middle" font-size="10" fill="#6B7280">Most targets are expert judgment or speculative. This is expected at AIL's current validation stage.</text>
 
   <!-- ==================== BOTTOM ANNOTATION ==================== -->
   <line x1="30" y1="556" x2="870" y2="556" stroke="#E5E7EB" stroke-width="1"/>

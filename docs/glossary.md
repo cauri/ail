@@ -1,6 +1,6 @@
-# ACE Framework Glossary
+# AIL Framework Glossary
 
-Domain terminology for the ACE (AI Competency Evaluation) framework. All review
+Domain terminology for the AIL (AI Launchpad) framework. All review
 feedback should use these terms consistently.
 
 ## Core Types
@@ -16,7 +16,7 @@ feedback should use these terms consistently.
 | Competency | Habitual behavior under stress, not knowledge or peak-day performance |
 | Proficiency | A specific observable behavior within a zone |
 | Diagnostic | A facilitated self-assessment workshop that produces a zone-level score |
-| Facilitator | An Artium-certified professional who delivers ACE diagnostics |
+| Facilitator | An certified professional who delivers AIL diagnostics |
 | Organizational Investment | Structural, policy, resource, or cultural changes required for a zone |
 
 ## Competency Stages
@@ -36,7 +36,7 @@ feedback should use these terms consistently.
 | Discovery | Initial engagement phase to understand organizational context |
 | Diagnostic | Facilitated self-assessment workshop producing zone scores |
 | Goal Setting | Leadership session to select target zone based on strategic fit |
-| Collaborative Delivery | Embedded Artisans work alongside client teams to build capability |
+| Collaborative Delivery | Embedded Practitioners work alongside client teams to build capability |
 
 ## Assessment Terms
 

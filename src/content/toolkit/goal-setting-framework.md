@@ -1,18 +1,18 @@
 ---
 title: "Goal-Setting Framework: Choosing a Target Zone"
-description: "This framework helps organizations choose their target zone after completing the ACE diagnostic."
+description: "This framework helps organizations choose their target zone after completing the AIL diagnostic."
 section: "consulting"
 type: "planning"
 audience: "facilitator"
 order: 2
 ---
-This framework helps organizations choose their target zone after completing the ACE diagnostic. It is designed to be structured enough for a non-expert facilitator to use and rigorous enough to prevent organizations from selecting zones based on aspiration rather than strategic analysis.
+This framework helps organizations choose their target zone after completing the AIL diagnostic. It is designed to be structured enough for a non-expert facilitator to use and rigorous enough to prevent organizations from selecting zones based on aspiration rather than strategic analysis.
 
 ---
 
 ## When to Use This Framework
 
-Use this framework during Phase 3 (Goal Setting & Roadmap) of an ACE engagement, after the diagnostic results are available and before roadmap creation begins. The primary audience is organizational leadership -- CTO, VP Engineering, Engineering Directors, and business leaders who have budget and structural authority.
+Use this framework during Phase 3 (Goal Setting & Roadmap) of an AIL engagement, after the diagnostic results are available and before roadmap creation begins. The primary audience is organizational leadership -- CTO, VP Engineering, Engineering Directors, and business leaders who have budget and structural authority.
 
 This framework does not replace facilitated discussion. It structures that discussion so that the target zone decision is grounded in evidence rather than enthusiasm.
 

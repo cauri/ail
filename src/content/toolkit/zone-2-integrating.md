@@ -22,7 +22,7 @@ Zone 2 is for teams that have established individual competence with AI tools (Z
 - **Designers** who define the experience standards the team's AI-augmented delivery must meet and use AI to accelerate their own discovery and production work.
 - **QA engineers** who ensure the team's AI-augmented delivery meets quality standards -- adapting test strategies for AI-generated code patterns and contributing quality perspective to the team's shared workflow evolution.
 
-Zone 2 is the **most common near-term target** for organizations pursuing AI-augmented development. Most organizations that complete an ACE diagnostic and choose to invest in progression will target Zone 2, because team-level integration is where AI adoption becomes durable and scalable. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Organizations whose strategic analysis supports Zone 1 as the appropriate destination -- because the investment in team-level process change is not justified by their context -- should make that choice with confidence. Zone 1 is a legitimate destination, not a waypoint.
+Zone 2 is the **most common near-term target** for organizations pursuing AI-augmented development. Most organizations that complete an AIL diagnostic and choose to invest in progression will target Zone 2, because team-level integration is where AI adoption becomes durable and scalable. However, the decision to pursue Zone 2 should emerge from strategic analysis, not from a framework mandate. Organizations whose strategic analysis supports Zone 1 as the appropriate destination -- because the investment in team-level process change is not justified by their context -- should make that choice with confidence. Zone 1 is a legitimate destination, not a waypoint.
 
 ### Evidence Status
 
@@ -295,7 +295,7 @@ The [Zone-2-to-Zone-3 Roadmap](/toolkit/zone-2-to-3) covers the transition pract
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace) -- Framework overview and the four zones in context
+- [What Is AIL?](/toolkit/what-is-ail) -- Framework overview and the four zones in context
 - [Zone 1: Augmenting](/toolkit/zone-1-augmenting) -- The prerequisite zone; Zone 2 requires Zone 1 competency as a foundation
 - [Zone 3: Accelerating](/toolkit/zone-3-accelerating) -- The next zone in the progression; appropriate for organizations whose strategic analysis supports the investment
 - [Zone 2 Diagnostic Questions](/toolkit/zone-2-questions) -- The assessment instrument for this zone

@@ -1,12 +1,12 @@
 ---
 title: "How to Choose a Target Zone"
-description: "This guide walks through the process of selecting the right ACE target zone for a client organization."
+description: "This guide walks through the process of selecting the right AIL target zone for a client organization."
 section: "guides"
 order: 4
 type: "planning"
 audience: "facilitator"
 ---
-This guide walks through the process of selecting the right ACE target zone for a client organization. It covers ground taught in depth in [Module 3: Goal Setting & Zone Selection](/training/module-3-goal-setting). Use this as a preview before training or as a refresher before engagements.
+This guide walks through the process of selecting the right AIL target zone for a client organization. It covers ground taught in depth in [Module 3: Goal Setting & Zone Selection](/training/module-3-goal-setting). Use this as a preview before training or as a refresher before engagements.
 
 The goal is not to reach the highest zone possible but to choose the zone that best serves the organization's strategic position, risk tolerance, and investment capacity.
 
@@ -14,13 +14,13 @@ The goal is not to reach the highest zone possible but to choose the zone that b
 
 Before starting this process, the facilitator needs:
 
-- Completed ACE diagnostic results establishing the client's current zone and competency stage
+- Completed AIL diagnostic results establishing the client's current zone and competency stage
 - Access to organizational leadership who can discuss strategic priorities and investment capacity
 - Understanding of the [progressive competency model](/toolkit/progressive-competency-model) -- how zone progression works and why organizations choose their stopping point
 
 ## Step 1: Establish the Current Zone
 
-Run the ACE diagnostic to determine where the organization is today. The diagnostic produces two key outputs:
+Run the AIL diagnostic to determine where the organization is today. The diagnostic produces two key outputs:
 
 - **Current zone:** Which zone's proficiencies does the organization practice habitually?
 - **Competency stage within that zone:** Emerging, Developing, Established, Consistent, or Exemplary?
@@ -171,4 +171,4 @@ After the target zone has been chosen:
 
 - [Progressive Competency Model](/toolkit/progressive-competency-model) -- How zone progression works and why organizations choose their stopping point
 - [Organizational Investments](/toolkit/organizational-investments) -- What each zone transition requires
-- [What Is ACE?](/toolkit/what-is-ace) -- Overview of the framework
+- [What Is AIL?](/toolkit/what-is-ail) -- Overview of the framework

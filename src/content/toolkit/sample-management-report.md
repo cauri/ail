@@ -37,13 +37,13 @@ The recommended path forward is a focused 18-month Zone 2 adoption program for a
 
 FinServ Corp is a financial services company of approximately 1,800 employees, with a software engineering organization of roughly 220 engineers across product delivery, platform, data, and mobile workstreams. Engineering teams operate under significant compliance requirements imposed by relevant financial services regulations. Production deployments go through a multi-stage release process, and code that touches customer financial data requires security review before shipping.
 
-The organization initiated this ACE diagnostic as part of a broader AI-augmented engineering initiative approved by the CTO in Q3 2025. The stated goal of that initiative is for FinServ Corp engineering teams to reach Zone 2 competency across all delivery teams within 18 months. Five teams were selected for the initial diagnostic cohort: Payments Platform, Core Banking, Developer Experience, Data Science, and Mobile.
+The organization initiated this AIL diagnostic as part of a broader AI-augmented engineering initiative approved by the CTO in Q3 2025. The stated goal of that initiative is for FinServ Corp engineering teams to reach Zone 2 competency across all delivery teams within 18 months. Five teams were selected for the initial diagnostic cohort: Payments Platform, Core Banking, Developer Experience, Data Science, and Mobile.
 
 ---
 
 ## Assessment Overview
 
-Five teams participated in facilitated ACE diagnostic workshops between January 12 and January 30, 2026. All workshops were conducted with intact delivery teams; no team was split for the assessment. Total participants: 32 across the five teams, representing software engineers, tech leads, product managers, designers, QA engineers, and in one case a data scientist.
+Five teams participated in facilitated AIL diagnostic workshops between January 12 and January 30, 2026. All workshops were conducted with intact delivery teams; no team was split for the assessment. Total participants: 32 across the five teams, representing software engineers, tech leads, product managers, designers, QA engineers, and in one case a data scientist.
 
 ### Zone Distribution
 
@@ -200,13 +200,13 @@ The following actions are recommended for CTO, VP Engineering, and organizationa
 
 5. **Schedule a 6-month re-assessment.** The next formal diagnostic should be conducted in July-August 2026. This provides enough time for the organizational investments to take effect and for teams to act on their individual recommendations. A re-assessment at 3 months is too early to see habit formation; 12 months is too long to wait to course-correct if investments stall.
 
-6. **Consider embedded Artisan support for the Zone 2 transition.** The organizational investments described above create the conditions for Zone 2 adoption. For teams that would benefit from hands-on support in building Zone 2 practices, an embedded Artisan team — experienced engineers, product managers, and designers who join the team to deliver software together while mentoring through the shared work — can accelerate the transition. The Artisan team works the same backlog, demonstrates practices like Plan/Code/Verify and shared AGENTS.md through daily collaboration, and ramps down as the client team builds competency. This approach is particularly valuable for the first team to adopt Zone 2 practices, as their experience can then be leveraged to support other teams.
+6. **Consider embedded Practitioner support for the Zone 2 transition.** The organizational investments described above create the conditions for Zone 2 adoption. For teams that would benefit from hands-on support in building Zone 2 practices, an embedded Practitioner team — experienced engineers, product managers, and designers who join the team to deliver software together while mentoring through the shared work — can accelerate the transition. The Practitioner team works the same backlog, demonstrates practices like Plan/Code/Verify and shared AGENTS.md through daily collaboration, and ramps down as the client team builds competency. This approach is particularly valuable for the first team to adopt Zone 2 practices, as their experience can then be leveraged to support other teams.
 
 ---
 
 ## Methodology Note
 
-The ACE (AI Competency Evaluation) framework diagnostic is a facilitated self-assessment for measuring how deeply AI-assisted practices have become habitual within software delivery teams. The diagnostic does not measure knowledge, intent, or best-day performance. It measures observable behavior — specifically, what teams actually do under normal conditions and under pressure.
+The AIL (AI Launchpad) framework diagnostic is a facilitated self-assessment for measuring how deeply AI-assisted practices have become habitual within software delivery teams. The diagnostic does not measure knowledge, intent, or best-day performance. It measures observable behavior — specifically, what teams actually do under normal conditions and under pressure.
 
 Each team workshop ran 90-120 minutes. Team members individually scored 10-12 questions per zone on a 1-5 frequency scale (1 = Never, 5 = Always) and then participated in facilitated discussion about scores, variance, and blockers. Zone competency requires a composite average of 4.7 or higher, a standard deviation across all individual responses of 0.5 or lower, and no single question composite below 4.0.
 
@@ -216,7 +216,7 @@ The scoring thresholds are expert-judgment-based starting points informed by the
 
 ---
 
-*This report was prepared by Maya Okafor following ACE diagnostic workshops conducted January 12-30, 2026 with 5 teams at FinServ Corp. Individual team results are confidential to each team and are not disclosed in this report. Questions about this report or the ACE methodology may be directed to Maya Okafor.*
+*This report was prepared by Maya Okafor following AIL diagnostic workshops conducted January 12-30, 2026 with 5 teams at FinServ Corp. Individual team results are confidential to each team and are not disclosed in this report. Questions about this report or the AIL methodology may be directed to Maya Okafor.*
 
 ---
 

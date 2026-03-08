@@ -6,7 +6,7 @@ type: "catalog"
 audience: "facilitator"
 order: 13
 ---
-Every zone transition in ACE requires organizational investment -- structural changes, policy changes, resource allocation, and management behavior. Individual training and motivation are necessary but insufficient. The most common failure mode in AI adoption is investing in individuals while leaving the organizational system unchanged.
+Every zone transition in AIL requires organizational investment -- structural changes, policy changes, resource allocation, and management behavior. Individual training and motivation are necessary but insufficient. The most common failure mode in AI adoption is investing in individuals while leaving the organizational system unchanged.
 
 ## The Common Failure Mode
 
@@ -26,7 +26,7 @@ The organizational system -- policies, tools, processes, incentives, management 
 
 ## What "Organizational Investment" Means
 
-In ACE, organizational investment goes beyond budget allocation. It encompasses:
+In AIL, organizational investment goes beyond budget allocation. It encompasses:
 
 - **Structural changes:** Modifying team topology, reporting relationships, or role definitions to support new working patterns.
 - **Policy changes:** Updating security policies, data handling guidelines, procurement processes, and compliance frameworks to enable AI tool adoption rather than obstruct it.
@@ -93,7 +93,7 @@ Zone transitions do not happen bottom-up. Individual contributors and teams can 
 
 This means management must understand what each zone requires -- not just the benefits, but the specific investments. A leader who sponsors Zone 2 adoption but does not authorize changes to CI/CD policies, update quality assurance processes, or allocate time for teams to establish new practices is sponsoring in name only.
 
-ACE includes management-focused materials and facilitation practices specifically to build this understanding. The diagnostic is designed to produce results that are meaningful to leadership, and the roadmapping process explicitly maps investments to business outcomes. See [How to Present to Leadership](/toolkit/present-to-leadership) for guidance on framing zone transitions as business investments.
+AIL includes management-focused materials and facilitation practices specifically to build this understanding. The diagnostic is designed to produce results that are meaningful to leadership, and the roadmapping process explicitly maps investments to business outcomes. See [How to Present to Leadership](/toolkit/present-to-leadership) for guidance on framing zone transitions as business investments.
 
 ## The Investment ROI Framing
 
@@ -110,7 +110,7 @@ Each subsequent zone requires larger investments but delivers returns that are m
 
 ## Related Documentation
 
-- [What Is ACE?](/toolkit/what-is-ace) -- Overview of the framework
+- [What Is AIL?](/toolkit/what-is-ail) -- Overview of the framework
 - [Progressive Competency Model](/toolkit/progressive-competency-model) -- How zone progression works and why organizations choose their stopping point
 - [How to Present to Leadership](/toolkit/present-to-leadership) -- Framing investments for executive audiences
 - [How to Create a Progression Roadmap](/toolkit/create-progression-roadmap) -- Mapping investments to timelines

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 920"
      font-family="'Inter', sans-serif">
   <title>Content Architecture Map</title>
-  <desc>A navigational map of all ACE framework content organized by collection (Training, Toolkit, Research) with audience entry points and primary navigation pathways. Training contains 8 sequential modules. Toolkit contains approximately 44 files grouped by section type. Research contains 5 files. Pathways show the engagement lifecycle and facilitator learning paths.</desc>
+  <desc>A navigational map of all AIL framework content organized by collection (Training, Toolkit, Research) with audience entry points and primary navigation pathways. Training contains 8 sequential modules. Toolkit contains approximately 44 files grouped by section type. Research contains 5 files. Pathways show the engagement lifecycle and facilitator learning paths.</desc>
 
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
@@ -20,7 +20,7 @@
 
   <!-- Title -->
   <text x="30" y="32" font-family="'DM Sans', sans-serif" font-size="20"
-        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">ACE Content Architecture</text>
+        font-weight="400" fill="#151D1A" letter-spacing="-0.03em">AIL Content Architecture</text>
   <text x="30" y="50" font-size="12" fill="#6B7280">57 documents across 3 collections — find where you start and where to go next</text>
 
   <!-- ================================================ -->
@@ -35,7 +35,7 @@
   <text x="142" y="78" font-size="8" fill="#6B7280">&#8595; Training</text>
 
   <text x="290" y="86" font-size="10" fill="#151D1A" font-weight="500">Leadership</text>
-  <text x="290" y="78" font-size="8" fill="#6B7280">&#8595; What Is ACE</text>
+  <text x="290" y="78" font-size="8" fill="#6B7280">&#8595; What Is AIL</text>
 
   <text x="438" y="86" font-size="10" fill="#151D1A" font-weight="500">Team Members</text>
   <text x="438" y="78" font-size="8" fill="#6B7280">&#8595; Zone References</text>
@@ -126,7 +126,7 @@
   <text x="150" y="322" font-size="9" fill="#9CA3AF">Core model documentation</text>
 
   <rect x="64" y="332" width="112" height="22" rx="4" fill="#EDF2FE" stroke="#60A5FA" stroke-width="1"/>
-  <text x="120" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#1E40AF">What Is ACE</text>
+  <text x="120" y="347" text-anchor="middle" font-size="8" font-weight="500" fill="#1E40AF">What Is AIL</text>
 
   <rect x="184" y="332" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
   <text x="240" y="347" text-anchor="middle" font-size="8" fill="#151D1A">Progressive Model</text>

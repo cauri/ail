@@ -1,12 +1,12 @@
 ---
-title: "ACE Validation Study Plan"
-description: "Design for a mixed-methods validation study to establish the reliability and validity of the ACE framework through expert review, pilot diagnostics, and longitudinal outcome tracking."
+title: "AIL Validation Study Plan"
+description: "Design for a mixed-methods validation study to establish the reliability and validity of the AIL framework through expert review, pilot diagnostics, and longitudinal outcome tracking."
 order: 2
 ---
 
 ## 1. Purpose and Scope
 
-The ACE framework has been developed through theory and internal practice experience at Artium. It is informed by observation of software teams adopting AI-augmented practices across all crafts involved in software production. It has not yet been validated through formal empirical research.
+The AIL framework has been developed through theory and internal practice experience internally. It is informed by observation of software teams adopting AI-augmented practices across all crafts involved in software production. It has not yet been validated through formal empirical research.
 
 This study plan describes the work required to move the framework from practitioner-informed theory to an instrument with demonstrated reliability and validity. "Validation" in this context does not mean proof of perfection. It means establishing enough evidence to justify recommending the framework to client organizations with confidence -- confidence that the zone descriptions reflect real organizational states, that the diagnostic questions reliably distinguish those states, and that following the framework's investment recommendations actually produces the promised benefits.
 
@@ -118,7 +118,7 @@ Each expert evaluates the framework across the following dimensions using a stru
 
 ### Protocol
 
-1. **Initial briefing (30 minutes).** Explain the ACE framework, validation goals, and the expert's role. Provide all materials: zone definitions document, diagnostic questionnaire, scoring rubric.
+1. **Initial briefing (30 minutes).** Explain the AIL framework, validation goals, and the expert's role. Provide all materials: zone definitions document, diagnostic questionnaire, scoring rubric.
 2. **Independent review (1-2 weeks).** Expert reviews materials at their own pace and completes the structured feedback form.
 3. **Structured interview (60 minutes).** Semi-structured interview to explore feedback in depth. See [Expert Interview Guide](/research/expert-interview-guide).
 4. **Synthesis and iteration.** Research team synthesizes feedback, identifies patterns, and revises framework materials.
@@ -150,10 +150,10 @@ Establish construct validity and practical utility: does the diagnostic instrume
 2. **Diagnostic administration (Weeks 2-3).** Trained facilitators administer the diagnostic to each team. Record the session with participant consent.
 3. **Behavioral observation session (Week 3).** For a subset of pilot teams (at least 2 per organization), conduct a structured behavioral observation: observe the team working under real conditions for a half-day, using a standardized observation protocol that maps observable behaviors to zone proficiencies. This provides convergent validity evidence -- a check on whether the self-reported diagnostic scores align with independently observed behavior. The observation protocol should specify: which behaviors to observe (mapped to each zone's core proficiencies), a time-sampling method (e.g., 5-minute observation intervals), and behavioral anchors corresponding to each scoring level. Observations should be conducted by a researcher who did not facilitate the team's diagnostic to reduce confirmation bias. The behavioral observation protocol will be developed as a Phase 1 deliverable and piloted with at least two observers coding the same session to establish inter-observer agreement (target kappa >= 0.7) before Phase 2 data collection begins. **Schedule dependency:** To support Phase 2 data collection starting at Month 6, the behavioral observation protocol should be developed by Month 4 and piloted with observer calibration sessions during Months 4-5. This allows time to revise behavioral anchors and resolve inter-observer disagreements before the protocol is used in live pilot diagnostics.
 
-**Measurement bias mitigation protocol.** The ACE diagnostic relies on self-reported frequency ratings, which are subject to several known biases that the facilitator and research team should actively mitigate:
+**Measurement bias mitigation protocol.** The AIL diagnostic relies on self-reported frequency ratings, which are subject to several known biases that the facilitator and research team should actively mitigate:
 
 - **Social desirability bias** (tendency to report behavior that appears favorable). Mitigation: the facilitator explicitly normalizes low scores during the workshop opening; individual scoring occurs before group discussion to prevent anchoring; the confidentiality structure (team-level reporting only, no individual attribution) reduces the perceived cost of honest low scores. In the validation study, compare self-report scores against behavioral observation and objective artifact data to estimate the magnitude of social desirability effects.
-- **Acquiescence bias** (tendency to agree with positively-worded statements). Mitigation: the ACE diagnostic questions are framed as frequency statements (1=Never to 5=Always), not agree/disagree items, which reduces but does not eliminate acquiescence. In the validation study, examine whether any questions show ceiling effects or unusually low variance, which may indicate acquiescence.
+- **Acquiescence bias** (tendency to agree with positively-worded statements). Mitigation: the AIL diagnostic questions are framed as frequency statements (1=Never to 5=Always), not agree/disagree items, which reduces but does not eliminate acquiescence. In the validation study, examine whether any questions show ceiling effects or unusually low variance, which may indicate acquiescence.
 - **Common method variance** (inflated correlations because all questions use the same response format and are administered in the same session). Mitigation: the facilitated discussion phase provides a qualitative check on quantitative scores — facilitators probe for behavioral evidence behind high scores. In the validation study, the behavioral observation and artifact audit provide a second method that does not share the self-report format, allowing assessment of common method variance through multi-trait multi-method comparison.
 - **Conformity pressure** (tendency for individual scores to converge toward the group norm after discussion). Mitigation: individual scores are collected and locked before group discussion. The diagnostic design deliberately separates individual scoring from group discussion to preserve score independence. In the validation study, analyze whether post-discussion score adjustments (if permitted in re-scoring protocols) systematically reduce variance.
 
@@ -293,7 +293,7 @@ The following feasibility matrix evaluates each planned analysis against the rea
 
 3. **Longitudinal attrition.** Organizations that participate in Phase 2 may not be available for Phase 3 follow-up due to leadership changes, budget shifts, or engagement completion. Mitigation: over-recruit by 30% for Phase 2; establish data-sharing agreements early; maintain relationship with organizational sponsors through quarterly check-ins.
 
-4. **Phase 3 sample accumulation timeline.** Reaching 20-40 teams requires sustained engagement volume over 12+ months. If Artium's ACE engagement pipeline produces fewer than 3-4 engagements per quarter, Phase 3 may need to extend beyond 24 months. This should be treated as a realistic possibility, not a failure of the research design.
+4. **Phase 3 sample accumulation timeline.** Reaching 20-40 teams requires sustained engagement volume over 12+ months. If the organization's AIL engagement pipeline produces fewer than 3-4 engagements per quarter, Phase 3 may need to extend beyond 24 months. This should be treated as a realistic possibility, not a failure of the research design.
 
 ---
 
@@ -402,15 +402,15 @@ The 24-month timeline assumes that expert recruitment (Phase 1) and pilot organi
 
 **This study will not establish the following:**
 
-- **Large-sample statistical validation.** The consulting-grade sample sizes in this study (8-15 organizations, 20-40 teams) are sufficient for inter-rater reliability and moderate effect size detection, but they are not sufficient to claim clinical or educational psychometric standards of validity. ACE is not a clinical instrument; a larger-scale academic validation study would be required to reach that standard.
+- **Large-sample statistical validation.** The consulting-grade sample sizes in this study (8-15 organizations, 20-40 teams) are sufficient for inter-rater reliability and moderate effect size detection, but they are not sufficient to claim clinical or educational psychometric standards of validity. AIL is not a clinical instrument; a larger-scale academic validation study would be required to reach that standard.
 
-- **Causal attribution.** Because pilot organizations are not randomly assigned to treatment and control conditions, we cannot establish that following the ACE framework *caused* improved outcomes rather than being correlated with organizational characteristics (like a culture of deliberate practice) that independently predict success. Honest communication about this limitation is required when presenting validation findings.
+- **Causal attribution.** Because pilot organizations are not randomly assigned to treatment and control conditions, we cannot establish that following the AIL framework *caused* improved outcomes rather than being correlated with organizational characteristics (like a culture of deliberate practice) that independently predict success. Honest communication about this limitation is required when presenting validation findings.
 
-- **Generalizability across all organization types.** Pilot organizations will be selected from contexts accessible to Artium's consulting network. Organizations in regulated industries with severe AI restrictions, fully remote organizations with distributed team structures, or organizations outside North America and Western Europe may not be well-represented. Framework applicability in those contexts requires additional validation.
+- **Generalizability across all organization types.** Pilot organizations will be selected from contexts accessible to the organization's consulting network. Organizations in regulated industries with severe AI restrictions, fully remote organizations with distributed team structures, or organizations outside North America and Western Europe may not be well-represented. Framework applicability in those contexts requires additional validation.
 
 - **Zone 4 validity.** Zone 4 (Industrializing) practices are less mature than those in earlier zones. This validation study will not attempt to validate Zone 4 zone descriptions, proficiencies, or investments. A separate validation effort would be required once Zone 4 practices become more widespread. **Zone 4 validation trigger:** Zone 4 validation should be initiated when at least 3-5 organizations can be identified that credibly claim to operate at Zone 4 levels. Until that threshold is met, Zone 4 content should be clearly labeled as provisional and theory-derived rather than empirically validated.
 
-- **Long-term stability beyond 24 months.** This study tracks outcomes to 24 months. Whether ACE zone classifications remain predictive over longer timeframes, and whether the zone definitions remain relevant as AI tools continue to evolve, is beyond the scope of this study.
+- **Long-term stability beyond 24 months.** This study tracks outcomes to 24 months. Whether AIL zone classifications remain predictive over longer timeframes, and whether the zone definitions remain relevant as AI tools continue to evolve, is beyond the scope of this study.
 
 ### 11.1 Framework Disconfirmation Criteria (Recommended for Phase 3)
 

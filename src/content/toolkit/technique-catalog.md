@@ -1,12 +1,12 @@
 ---
 title: "Technique Catalog"
-description: "A reference catalog of all techniques, tools, and practices used across the ACE zones."
+description: "A reference catalog of all techniques, tools, and practices used across the AIL zones."
 section: "reference"
 type: "catalog"
 audience: "facilitator"
 order: 9
 ---
-A reference catalog of all techniques, tools, and practices used across the ACE zones. Entries are organized by zone and sorted alphabetically within each zone. Each entry is a concise lookup reference; for full context on any technique, consult the linked zone reference document.
+A reference catalog of all techniques, tools, and practices used across the AIL zones. Entries are organized by zone and sorted alphabetically within each zone. Each entry is a concise lookup reference; for full context on any technique, consult the linked zone reference document.
 
 This catalog synthesizes techniques from the individual zone reference documents. For full context on any zone, see:
 - [Zone 1: Augmenting](/toolkit/zone-1-augmenting)
