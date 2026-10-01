@@ -45,11 +45,11 @@
   <circle cx="420" cy="68" r="6" fill="#60A5FA" opacity="0.85"/>
 
   <!-- Mean line at 4.7: y = 192 - (4.7-1)*31 = 192 - 114.7 = 77.3 -->
-  <line x1="80" y1="77" x2="438" y2="77" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="444" y="81" font-size="9" fill="#D912AE">x&#772;=4.7</text>
+  <line x1="80" y1="77" x2="438" y2="77" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="444" y="81" font-size="9" fill="#6A0DAD">x&#772;=4.7</text>
 
   <!-- Interpretation block -->
   <text x="24" y="234" font-size="10" font-weight="600" fill="#151D1A">Likely near Consistent. Verify with probing.</text>
   <text x="24" y="250" font-size="10" fill="#6B7280">Caution: uniform 5s may signal social desirability.</text>
-  <text x="24" y="266" font-size="10" fill="#D912AE">Probe: &#x201C;Describe a time you didn&#x2019;t do this.&#x201D;</text>
+  <text x="24" y="266" font-size="10" fill="#6A0DAD">Probe: &#x201C;Describe a time you didn&#x2019;t do this.&#x201D;</text>
 </svg>

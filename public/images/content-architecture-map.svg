@@ -8,7 +8,7 @@
       <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
     </marker>
     <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+      <polygon points="0 0, 8 3, 0 6" fill="#6A0DAD"/>
     </marker>
     <marker id="arrow-blue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#60A5FA"/>
@@ -26,10 +26,10 @@
   <!-- ================================================ -->
   <!-- AUDIENCE ENTRY POINTS (y=66..90) -->
   <!-- ================================================ -->
-  <rect x="30" y="66" width="840" height="32" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
+  <rect x="30" y="66" width="840" height="32" rx="8" fill="#F9FAFB" stroke="#6A0DAD" stroke-width="1.5"/>
 
-  <circle cx="49" cy="82" r="6" fill="#D912AE"/>
-  <text x="60" y="86" font-size="10" font-weight="500" fill="#D912AE">Entry Points:</text>
+  <circle cx="49" cy="82" r="6" fill="#6A0DAD"/>
+  <text x="60" y="86" font-size="10" font-weight="500" fill="#6A0DAD">Entry Points:</text>
 
   <text x="142" y="86" font-size="10" fill="#151D1A" font-weight="500">Facilitators</text>
   <text x="142" y="78" font-size="8" fill="#6B7280">&#8595; Training</text>
@@ -61,37 +61,37 @@
   <text x="94" y="168" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Overview</text>
 
   <!-- Module sequence: 90 + 22 + 74 + 22 + 74 + 22 + 74 + 22 + 74 + 22 + 74 + 22 + 74 = 666px chain, starts x=49, ends x=715 -->
-  <line x1="139" y1="156" x2="161" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="139" y1="156" x2="161" y2="156" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <rect x="169" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
   <text x="206" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 1</text>
   <text x="206" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Foundations</text>
 
-  <line x1="243" y1="156" x2="265" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="243" y1="156" x2="265" y2="156" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <rect x="273" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
   <text x="310" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 2</text>
   <text x="310" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Diagnostic</text>
 
-  <line x1="347" y1="156" x2="369" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="347" y1="156" x2="369" y2="156" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <rect x="377" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
   <text x="414" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 3</text>
   <text x="414" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Goal Setting</text>
 
-  <line x1="451" y1="156" x2="473" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="451" y1="156" x2="473" y2="156" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <rect x="481" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
   <text x="518" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 4</text>
   <text x="518" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Roadmaps</text>
 
-  <line x1="555" y1="156" x2="577" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="555" y1="156" x2="577" y2="156" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <rect x="585" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
   <text x="622" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 5</text>
   <text x="622" y="164" text-anchor="middle" font-size="8" fill="#6B7280">Coaching</text>
 
-  <line x1="659" y1="156" x2="681" y2="156" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="659" y1="156" x2="681" y2="156" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <rect x="689" y="142" width="74" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1.5"/>
   <text x="726" y="154" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">Module 6</text>
@@ -103,8 +103,8 @@
   <text x="816" y="168" text-anchor="middle" font-size="9" fill="#6B7280">Checklist</text>
 
   <!-- Pathway label -->
-  <rect x="49" y="180" width="154" height="18" rx="4" fill="#D912AE" fill-opacity="0.1" stroke="#D912AE" stroke-width="1"/>
-  <text x="126" y="193" text-anchor="middle" font-size="9" font-weight="500" fill="#D912AE">Facilitator Learning Path &#8594;</text>
+  <rect x="49" y="180" width="154" height="18" rx="4" fill="#6A0DAD" fill-opacity="0.1" stroke="#6A0DAD" stroke-width="1"/>
+  <text x="126" y="193" text-anchor="middle" font-size="9" font-weight="500" fill="#6A0DAD">Facilitator Learning Path &#8594;</text>
 
   <!-- Module-to-toolkit connections note -->
   <text x="49" y="216" font-size="9" fill="#6B7280">Each module references Toolkit documents as supporting material. Modules build sequentially:</text>
@@ -224,8 +224,8 @@
   <text x="478" y="442" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#151D1A">Consulting</text>
   <text x="562" y="442" font-size="9" fill="#9CA3AF">Engagement and goal-setting</text>
 
-  <rect x="478" y="452" width="112" height="22" rx="4" fill="#EDE8F5" stroke="#D912AE" stroke-width="1"/>
-  <text x="534" y="467" text-anchor="middle" font-size="8" font-weight="500" fill="#D912AE">Engagement Model</text>
+  <rect x="478" y="452" width="112" height="22" rx="4" fill="#EDE8F5" stroke="#6A0DAD" stroke-width="1"/>
+  <text x="534" y="467" text-anchor="middle" font-size="8" font-weight="500" fill="#6A0DAD">Engagement Model</text>
 
   <rect x="598" y="452" width="112" height="22" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
   <text x="654" y="467" text-anchor="middle" font-size="8" fill="#151D1A">Goal-Setting Framework</text>
@@ -319,17 +319,17 @@
   <!-- ================================================ -->
 
   <!-- Engagement lifecycle pathway (vertical, left side) -->
-  <rect x="463" y="700" width="394" height="78" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="478" y="716" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#D912AE">Engagement Lifecycle Path</text>
+  <rect x="463" y="700" width="394" height="78" rx="8" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="478" y="716" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6A0DAD">Engagement Lifecycle Path</text>
   <text x="478" y="732" font-size="9" fill="#6B7280">Follow the consulting engagement from start to finish:</text>
 
-  <text x="488" y="752" font-size="9" fill="#D912AE" font-weight="500">Discovery</text>
+  <text x="488" y="752" font-size="9" fill="#6A0DAD" font-weight="500">Discovery</text>
   <text x="536" y="752" font-size="9" fill="#6B7280">&#8594;</text>
-  <text x="550" y="752" font-size="9" fill="#D912AE" font-weight="500">Diagnostic</text>
+  <text x="550" y="752" font-size="9" fill="#6A0DAD" font-weight="500">Diagnostic</text>
   <text x="604" y="752" font-size="9" fill="#6B7280">&#8594;</text>
-  <text x="618" y="752" font-size="9" fill="#D912AE" font-weight="500">Goal Setting</text>
+  <text x="618" y="752" font-size="9" fill="#6A0DAD" font-weight="500">Goal Setting</text>
   <text x="686" y="752" font-size="9" fill="#6B7280">&#8594;</text>
-  <text x="700" y="752" font-size="9" fill="#D912AE" font-weight="500">Collaborative Delivery</text>
+  <text x="700" y="752" font-size="9" fill="#6A0DAD" font-weight="500">Collaborative Delivery</text>
 
   <text x="478" y="768" font-size="9" fill="#6B7280" font-style="italic">Each phase has its own set of toolkit documents. Start with the Engagement Model.</text>
 
@@ -356,8 +356,8 @@
   <rect x="256" y="882" width="16" height="14" rx="4" fill="#EDE8F5" stroke="#A78BFA" stroke-width="1"/>
   <text x="278" y="893" font-size="10" fill="#5B21B6">Research</text>
 
-  <line x1="340" y1="889" x2="364" y2="889" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
-  <text x="372" y="893" font-size="10" fill="#D912AE">Navigation pathway</text>
+  <line x1="340" y1="889" x2="364" y2="889" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <text x="372" y="893" font-size="10" fill="#6A0DAD">Navigation pathway</text>
 
   <rect x="492" y="882" width="16" height="14" rx="4" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
   <rect x="512" y="882" width="16" height="14" rx="4" fill="#ECFDF5" stroke="#34D399" stroke-width="1"/>
@@ -365,10 +365,10 @@
   <rect x="552" y="882" width="16" height="14" rx="4" fill="#F5F3FF" stroke="#A78BFA" stroke-width="1"/>
   <text x="574" y="893" font-size="10" fill="#6B7280">Zone colors (1–4)</text>
 
-  <circle cx="664" cy="889" r="5" fill="#D912AE"/>
-  <text x="674" y="893" font-size="10" fill="#D912AE">Audience entry point</text>
+  <circle cx="664" cy="889" r="5" fill="#6A0DAD"/>
+  <text x="674" y="893" font-size="10" fill="#6A0DAD">Audience entry point</text>
 
-  <rect x="786" y="882" width="16" height="14" rx="4" fill="#EDE8F5" stroke="#D912AE" stroke-width="1"/>
-  <text x="808" y="893" font-size="10" fill="#D912AE">Key document</text>
+  <rect x="786" y="882" width="16" height="14" rx="4" fill="#EDE8F5" stroke="#6A0DAD" stroke-width="1"/>
+  <text x="808" y="893" font-size="10" fill="#6A0DAD">Key document</text>
 
 </svg>

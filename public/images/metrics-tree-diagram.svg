@@ -57,7 +57,7 @@
   </g>
 
   <!-- ==================== NORTH STAR (Level 0) ==================== -->
-  <rect x="250" y="84" width="400" height="40" rx="8" fill="#EDE8F5" stroke="#D912AE" stroke-width="2"/>
+  <rect x="250" y="84" width="400" height="40" rx="8" fill="#EDE8F5" stroke="#6A0DAD" stroke-width="2"/>
   <text x="450" y="101" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">AI-Augmented Development Throughput</text>
   <text x="450" y="116" text-anchor="middle" font-size="9" fill="#6B7280">North Star Metric</text>
   <rect x="636" y="90" width="14" height="14" rx="2" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1"/>
@@ -371,7 +371,7 @@
   <line x1="30" y1="556" x2="870" y2="556" stroke="#E5E7EB" stroke-width="1"/>
 
   <rect x="50" y="570" width="800" height="46" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="50" y="570" width="3" height="46" rx="1" fill="#D912AE"/>
+  <rect x="50" y="570" width="3" height="46" rx="1" fill="#6A0DAD"/>
   <text x="72" y="590" font-size="11" font-weight="500" fill="#151D1A">Leading indicators predict. Lagging indicators confirm. Counter-metrics prevent gaming.</text>
   <text x="72" y="606" font-size="10" fill="#6B7280">Report distributions, not averages. Apply thresholds at team level, not organizational average.</text>
 </svg>

@@ -38,8 +38,8 @@
     <!-- Fill to 65% example -->
     <rect x="16" y="54" width="159" height="16" rx="4" fill="#34D399" opacity="0.7"/>
     <!-- 80% threshold marker -->
-    <line x1="211" y1="50" x2="211" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="211" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 80%</text>
+    <line x1="211" y1="50" x2="211" y2="74" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="211" y="46" text-anchor="middle" font-size="7" fill="#6A0DAD">Target: 80%</text>
     <!-- Current value -->
     <text x="175" y="66" font-size="9" font-weight="600" fill="#065F46">65%</text>
 
@@ -67,8 +67,8 @@
     <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
     <rect x="16" y="54" width="183" height="16" rx="4" fill="#34D399" opacity="0.7"/>
     <!-- 90% threshold -->
-    <line x1="236" y1="50" x2="236" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="236" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 90%</text>
+    <line x1="236" y1="50" x2="236" y2="74" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="236" y="46" text-anchor="middle" font-size="7" fill="#6A0DAD">Target: 90%</text>
     <text x="199" y="66" font-size="9" font-weight="600" fill="#065F46">75%</text>
 
     <text x="16" y="82" font-size="7" fill="#9CA3AF">0%</text>
@@ -93,8 +93,8 @@
     <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
     <rect x="16" y="54" width="122" height="16" rx="4" fill="#FBBF24" opacity="0.6"/>
     <!-- Target: 6 events -> x = 16 + 244*(6/8) = 199 -->
-    <line x1="199" y1="50" x2="199" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="199" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 6</text>
+    <line x1="199" y1="50" x2="199" y2="74" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="199" y="46" text-anchor="middle" font-size="7" fill="#6A0DAD">Target: 6</text>
     <text x="138" y="66" font-size="9" font-weight="600" fill="#92400E">4</text>
 
     <text x="16" y="82" font-size="7" fill="#9CA3AF">0</text>
@@ -122,8 +122,8 @@
     <!-- Fill to 3.6 out of 5: (3.6-1)/(5-1) = 0.65 -> width = 159 -->
     <rect x="16" y="54" width="159" height="16" rx="4" fill="#FBBF24" opacity="0.6"/>
     <!-- Target: 4.0 -> (4.0-1)/(5-1) = 0.75 -> x = 16 + 244*0.75 = 199 -->
-    <line x1="199" y1="50" x2="199" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="199" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 4.0</text>
+    <line x1="199" y1="50" x2="199" y2="74" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="199" y="46" text-anchor="middle" font-size="7" fill="#6A0DAD">Target: 4.0</text>
     <text x="175" y="66" font-size="9" font-weight="600" fill="#92400E">3.6</text>
 
     <text x="16" y="82" font-size="7" fill="#9CA3AF">1</text>
@@ -150,8 +150,8 @@
     <rect x="16" y="54" width="244" height="16" rx="4" fill="#E5E7EB"/>
     <rect x="16" y="54" width="110" height="16" rx="4" fill="#FB923C" opacity="0.6"/>
     <!-- 80% threshold -> x = 16 + 244*0.8 = 211 -->
-    <line x1="211" y1="50" x2="211" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="211" y="46" text-anchor="middle" font-size="7" fill="#D912AE">Target: 80%</text>
+    <line x1="211" y1="50" x2="211" y2="74" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="211" y="46" text-anchor="middle" font-size="7" fill="#6A0DAD">Target: 80%</text>
     <text x="126" y="66" font-size="9" font-weight="600" fill="#9A3412">45%</text>
 
     <text x="16" y="82" font-size="7" fill="#9CA3AF">0%</text>
@@ -181,8 +181,8 @@
     <rect x="16" y="76" width="16" height="10" rx="2" fill="#FB923C" opacity="0.6"/>
     <text x="38" y="85" font-size="9" fill="#151D1A">At risk (below 50% of target)</text>
 
-    <line x1="16" y1="96" x2="260" y2="96" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="38" y="102" font-size="9" fill="#D912AE">Target threshold (expert judgment)</text>
+    <line x1="16" y1="96" x2="260" y2="96" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="38" y="102" font-size="9" fill="#6A0DAD">Target threshold (expert judgment)</text>
 
     <line x1="16" y1="116" x2="260" y2="116" stroke="#E5E7EB" stroke-width="1"/>
 
@@ -206,8 +206,8 @@
     <text x="0" y="12" font-size="10" fill="#151D1A">3.1 Committed vs. Actual Investments</text>
     <rect x="280" y="0" width="420" height="18" rx="4" fill="#E5E7EB"/>
     <rect x="280" y="0" width="294" height="18" rx="4" fill="#34D399" opacity="0.7"/>
-    <line x1="616" y1="-4" x2="616" y2="22" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="616" y="-8" text-anchor="middle" font-size="7" fill="#D912AE">Target: 80%</text>
+    <line x1="616" y1="-4" x2="616" y2="22" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="616" y="-8" text-anchor="middle" font-size="7" fill="#6A0DAD">Target: 80%</text>
     <text x="574" y="13" font-size="9" font-weight="500" fill="#065F46">70%</text>
     <text x="700" y="13" text-anchor="end" font-size="7" fill="#9CA3AF">100%</text>
 
@@ -215,8 +215,8 @@
     <text x="0" y="42" font-size="10" fill="#151D1A">3.2 Top blocker category concentration</text>
     <rect x="280" y="30" width="420" height="18" rx="4" fill="#E5E7EB"/>
     <rect x="280" y="30" width="147" height="18" rx="4" fill="#FBBF24" opacity="0.6"/>
-    <line x1="406" y1="26" x2="406" y2="52" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="3,2"/>
-    <text x="406" y="22" text-anchor="middle" font-size="7" fill="#D912AE">Concern: >30%</text>
+    <line x1="406" y1="26" x2="406" y2="52" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="406" y="22" text-anchor="middle" font-size="7" fill="#6A0DAD">Concern: >30%</text>
     <text x="427" y="43" font-size="9" font-weight="500" fill="#92400E">35%</text>
     <text x="700" y="43" text-anchor="end" font-size="7" fill="#9CA3AF">100%</text>
   </g>
@@ -225,7 +225,7 @@
   <line x1="24" y1="628" x2="876" y2="628" stroke="#E5E7EB" stroke-width="1"/>
 
   <rect x="50" y="642" width="800" height="46" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="50" y="642" width="3" height="46" rx="1" fill="#D912AE"/>
+  <rect x="50" y="642" width="3" height="46" rx="1" fill="#6A0DAD"/>
   <text x="72" y="662" font-size="10" font-weight="500" fill="#151D1A">Leading indicators predict Zone 2 readiness. They do not replace team-level diagnostic assessment.</text>
   <text x="72" y="678" font-size="10" fill="#6B7280">Organizations targeting Zone 1 as their stopping point may track these for readiness monitoring, not as obligations.</text>
 

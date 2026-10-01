@@ -53,7 +53,7 @@
   <text x="786" y="365" font-size="10" fill="#1E40AF" text-anchor="middle">~5 min</text>
 
   <!-- Section 2: When a Team Is Behind -->
-  <rect x="40" y="412" width="800" height="28" rx="4" fill="#FDF2FB"/>
+  <rect x="40" y="412" width="800" height="28" rx="4" fill="#F3E8FF"/>
   <text x="52" y="431" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">Section 2: When a Team Is Behind</text>
 
   <!-- Three columns -->
@@ -92,9 +92,9 @@
   <text x="329" y="640" font-size="10" fill="#151D1A">deprioritization is systemic.</text>
 
   <!-- Environmental Barrier -->
-  <rect x="586" y="448" width="254" height="210" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="713" y="472" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#D912AE" text-anchor="middle">Environmental Barrier</text>
-  <line x1="602" y1="482" x2="824" y2="482" stroke="#D912AE" stroke-width="0.5"/>
+  <rect x="586" y="448" width="254" height="210" rx="8" fill="#F3E8FF" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="713" y="472" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#6A0DAD" text-anchor="middle">Environmental Barrier</text>
+  <line x1="602" y1="482" x2="824" y2="482" stroke="#6A0DAD" stroke-width="0.5"/>
 
   <text x="602" y="502" font-size="10" font-weight="500" fill="#6B7280">DIAGNOSTIC SIGNAL</text>
   <text x="602" y="520" font-size="10" fill="#151D1A">Organizational conditions the</text>
@@ -102,8 +102,8 @@
   <text x="602" y="548" font-size="10" fill="#151D1A">place. Infrastructure, policy, time.</text>
 
   <text x="602" y="572" font-size="10" font-weight="500" fill="#6B7280">APPROPRIATE RESPONSE</text>
-  <text x="602" y="590" font-size="10" fill="#D912AE" font-weight="500">Surface the gap to leadership.</text>
-  <text x="602" y="604" font-size="10" fill="#D912AE" font-weight="500">This is not the team's failure.</text>
+  <text x="602" y="590" font-size="10" fill="#6A0DAD" font-weight="500">Surface the gap to leadership.</text>
+  <text x="602" y="604" font-size="10" fill="#6A0DAD" font-weight="500">This is not the team's failure.</text>
 
   <text x="602" y="626" font-size="10" fill="#151D1A">New organizational investments</text>
   <text x="602" y="640" font-size="10" fill="#151D1A">needed, not in original plan.</text>

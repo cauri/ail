@@ -149,13 +149,13 @@
 
   <!-- Side annotation box -->
   <rect x="50" y="832" width="800" height="54" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="50" y="832" width="3" height="54" rx="1" fill="#D912AE"/>
+  <rect x="50" y="832" width="3" height="54" rx="1" fill="#6A0DAD"/>
   <text x="72" y="853" font-size="11" font-weight="600" fill="#151D1A">Thresholds measure both high performance AND consistency.</text>
   <text x="72" y="870" font-size="10" fill="#6B7280">Check each criterion independently. A team at 4.8 composite with high variance (SD > 0.5) is Established, not Consistent.</text>
 
   <!-- Example box -->
   <rect x="50" y="900" width="800" height="48" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="50" y="900" width="3" height="48" rx="1" fill="#D912AE"/>
+  <rect x="50" y="900" width="3" height="48" rx="1" fill="#6A0DAD"/>
   <text x="72" y="920" font-size="11" font-weight="600" fill="#151D1A">Example</text>
   <text x="72" y="936" font-size="10" fill="#6B7280">Team scores 4.8 composite. SD = 0.6 (one member consistently lower). Criterion 2 fails. Stage = Established (not Consistent).</text>
 </svg>

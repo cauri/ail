@@ -120,9 +120,9 @@
   <text x="560" y="650" font-size="10" fill="#6B7280">against investment reality.</text>
 
   <!-- Investment Commitment Test -->
-  <rect x="36" y="686" width="520" height="118" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
-  <rect x="36" y="686" width="4" height="118" rx="2" fill="#D912AE"/>
-  <text x="56" y="710" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#D912AE">Investment Commitment Test</text>
+  <rect x="36" y="686" width="520" height="118" rx="8" fill="#F9FAFB" stroke="#6A0DAD" stroke-width="1.5"/>
+  <rect x="36" y="686" width="4" height="118" rx="2" fill="#6A0DAD"/>
+  <text x="56" y="710" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#6A0DAD">Investment Commitment Test</text>
   <text x="56" y="730" font-size="11" fill="#151D1A">A target zone declaration that cannot pass this test</text>
   <text x="56" y="746" font-size="11" fill="#151D1A">is not a commitment — it is a wish.</text>
   <text x="56" y="770" font-size="11" font-weight="600" fill="#151D1A">Can you name the specific investments, assign a</text>

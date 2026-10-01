@@ -23,9 +23,9 @@
         fill="#151D1A" text-anchor="middle">Best-Day Performance</text>
 
   <!-- Competency Column (magenta accent) -->
-  <rect x="572" y="84" width="268" height="44" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <rect x="572" y="84" width="268" height="44" rx="8" fill="#F3E8FF" stroke="#6A0DAD" stroke-width="2"/>
   <text x="706" y="111" font-family="'DM Sans', sans-serif" font-size="14" font-weight="700"
-        fill="#D912AE" text-anchor="middle">Competency</text>
+        fill="#6A0DAD" text-anchor="middle">Competency</text>
 
   <!-- Row 1: Definition -->
   <text x="40" y="156" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#6B7280">DEFINITION</text>
@@ -46,7 +46,7 @@
   </text>
 
   <!-- Competency definition -->
-  <rect x="572" y="176" width="268" height="72" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <rect x="572" y="176" width="268" height="72" rx="8" fill="#F3E8FF" stroke="#6A0DAD" stroke-width="2"/>
   <text x="584" y="196" font-size="11" fill="#151D1A" font-weight="500">What the team DOES
     <tspan x="584" dy="15">HABITUALLY under stress,</tspan>
     <tspan x="584" dy="15">when conditions are unfavorable.</tspan>
@@ -73,7 +73,7 @@
   <text x="318" y="393" font-size="11" fill="#151D1A">low-pressure sprints.</text>
 
   <!-- Competency examples -->
-  <rect x="572" y="300" width="268" height="114" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
+  <rect x="572" y="300" width="268" height="114" rx="8" fill="#F3E8FF" stroke="#6A0DAD" stroke-width="2"/>
   <text x="584" y="320" font-size="11" fill="#151D1A" font-weight="500">Uses AI tools during a</text>
   <text x="584" y="335" font-size="11" fill="#151D1A" font-weight="500">production incident.</text>
   <text x="584" y="358" font-size="11" fill="#151D1A" font-weight="500">Follows Plan/Code/Verify under</text>
@@ -123,18 +123,18 @@
   <text x="318" y="658" font-size="10" fill="#6B7280">Encouraging but not proof.</text>
 
   <!-- Competency test -->
-  <rect x="572" y="600" width="268" height="72" rx="8" fill="#FDF2FB" stroke="#D912AE" stroke-width="2"/>
-  <text x="584" y="622" font-size="11" fill="#D912AE" font-weight="600" font-style="italic">"Do they do it when it is</text>
-  <text x="584" y="637" font-size="11" fill="#D912AE" font-weight="600" font-style="italic">hard, stressful, or urgent?"</text>
-  <text x="584" y="658" font-size="10" fill="#D912AE">This is what AIL measures.</text>
+  <rect x="572" y="600" width="268" height="72" rx="8" fill="#F3E8FF" stroke="#6A0DAD" stroke-width="2"/>
+  <text x="584" y="622" font-size="11" fill="#6A0DAD" font-weight="600" font-style="italic">"Do they do it when it is</text>
+  <text x="584" y="637" font-size="11" fill="#6A0DAD" font-weight="600" font-style="italic">hard, stressful, or urgent?"</text>
+  <text x="584" y="658" font-size="10" fill="#6A0DAD">This is what AIL measures.</text>
 
   <!-- Arrow indicating what AIL measures -->
-  <line x1="706" y1="690" x2="706" y2="672" stroke="#D912AE" stroke-width="1.5"/>
-  <polygon points="700,690 706,700 712,690" fill="#D912AE"/>
+  <line x1="706" y1="690" x2="706" y2="672" stroke="#6A0DAD" stroke-width="1.5"/>
+  <polygon points="700,690 706,700 712,690" fill="#6A0DAD"/>
 
   <!-- Footer: Basketball analogy -->
   <rect x="40" y="720" width="800" height="80" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="40" y="720" width="4" height="80" rx="2" fill="#D912AE"/>
+  <rect x="40" y="720" width="4" height="80" rx="2" fill="#6A0DAD"/>
 
   <text x="60" y="747" font-family="'DM Sans', sans-serif" font-size="13" font-weight="500" fill="#151D1A">The Basketball Analogy</text>
   <text x="60" y="770" font-size="12" fill="#151D1A">90% free throws in the gym, 50% in the playoffs = skill, not competency.</text>
