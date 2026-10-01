@@ -53,13 +53,13 @@
     <circle cx="230" cy="54" r="5" fill="#60A5FA" opacity="0.8"/>
 
     <!-- Mean line at ~4.7 -->
-    <line x1="52" y1="61" x2="248" y2="61" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="252" y="64" font-size="8" fill="#D912AE">x&#772;=4.7</text>
+    <line x1="52" y1="61" x2="248" y2="61" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="64" font-size="8" fill="#6A0DAD">x&#772;=4.7</text>
 
     <!-- Interpretation -->
     <text x="16" y="185" font-size="9" font-weight="500" fill="#151D1A">Likely near Consistent. Verify with probing.</text>
     <text x="16" y="198" font-size="9" fill="#6B7280">Caution: uniform 5s may signal social desirability.</text>
-    <text x="16" y="211" font-size="9" fill="#D912AE">Probe: "Describe a time you didn't do this."</text>
+    <text x="16" y="211" font-size="9" fill="#6A0DAD">Probe: "Describe a time you didn't do this."</text>
   </g>
 
   <!-- Panel 2: Uniform Low -->
@@ -94,13 +94,13 @@
     <circle cx="230" cy="129" r="5" fill="#FB923C" opacity="0.8"/>
 
     <!-- Mean line at ~2.5 -->
-    <line x1="52" y1="117" x2="248" y2="117" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="252" y="120" font-size="8" fill="#D912AE">x&#772;=2.4</text>
+    <line x1="52" y1="117" x2="248" y2="117" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="120" font-size="8" fill="#6A0DAD">x&#772;=2.4</text>
 
     <!-- Interpretation -->
     <text x="16" y="185" font-size="9" font-weight="500" fill="#151D1A">Emerging stage. Honest assessment is valuable.</text>
     <text x="16" y="198" font-size="9" fill="#6B7280">Team is consistent but early. Investment needed.</text>
-    <text x="16" y="211" font-size="9" fill="#D912AE">Praise honesty. Plan targeted zone investment.</text>
+    <text x="16" y="211" font-size="9" fill="#6A0DAD">Praise honesty. Plan targeted zone investment.</text>
   </g>
 
   <!-- Panel 3: High Average, High Variance -->
@@ -135,13 +135,13 @@
     <circle cx="230" cy="129" r="5" fill="#FB923C" opacity="0.8"/>
 
     <!-- Mean line at ~4.0 -->
-    <line x1="52" y1="79" x2="248" y2="79" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="252" y="82" font-size="8" fill="#D912AE">x&#772;=4.0</text>
+    <line x1="52" y1="79" x2="248" y2="79" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="82" font-size="8" fill="#6A0DAD">x&#772;=4.0</text>
 
     <!-- Interpretation -->
     <text x="16" y="185" font-size="9" font-weight="500" fill="#151D1A">Established. Fails Criterion 2 (SD > 0.5).</text>
     <text x="16" y="198" font-size="9" fill="#6B7280">Some members/areas lag. Investigate the spread.</text>
-    <text x="16" y="211" font-size="9" fill="#D912AE">Decompose variance: person vs. question.</text>
+    <text x="16" y="211" font-size="9" fill="#6A0DAD">Decompose variance: person vs. question.</text>
   </g>
 
   <!-- ==================== ROW 2 ==================== -->
@@ -184,13 +184,13 @@
     <text x="210" y="175" text-anchor="middle" font-size="7" fill="#9A3412">cluster: 1-2</text>
 
     <!-- Mean line at ~3.6 -->
-    <line x1="52" y1="89" x2="248" y2="89" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="252" y="92" font-size="8" fill="#D912AE">x&#772;=3.6</text>
+    <line x1="52" y1="89" x2="248" y2="89" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="92" font-size="8" fill="#6A0DAD">x&#772;=3.6</text>
 
     <!-- Interpretation -->
     <text x="16" y="190" font-size="9" font-weight="500" fill="#151D1A">Average is misleading. Team is split.</text>
     <text x="16" y="203" font-size="9" fill="#6B7280">Check: role-based, tenure-based, or adoption split?</text>
-    <text x="16" y="216" font-size="9" fill="#D912AE">Do NOT declare competency. Address the split.</text>
+    <text x="16" y="216" font-size="9" fill="#6A0DAD">Do NOT declare competency. Address the split.</text>
   </g>
 
   <!-- Panel 5: Single Outlier -->
@@ -229,13 +229,13 @@
     <text x="243" y="116" font-size="7" fill="#9A3412">outlier</text>
 
     <!-- Mean line at ~4.2 -->
-    <line x1="52" y1="74" x2="248" y2="74" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="252" y="77" font-size="8" fill="#D912AE">x&#772;=4.2</text>
+    <line x1="52" y1="74" x2="248" y2="74" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <text x="252" y="77" font-size="8" fill="#6A0DAD">x&#772;=4.2</text>
 
     <!-- Interpretation -->
     <text x="16" y="190" font-size="9" font-weight="500" fill="#151D1A">High-performing team + one gap. Targeted fix.</text>
     <text x="16" y="203" font-size="9" fill="#6B7280">Likely onboarding or access barrier, not resistance.</text>
-    <text x="16" y="216" font-size="9" fill="#D912AE">Protect the outlier. Pair with high performers.</text>
+    <text x="16" y="216" font-size="9" fill="#6A0DAD">Protect the outlier. Pair with high performers.</text>
   </g>
 
   <!-- Panel 6: Gradually Decreasing -->
@@ -292,7 +292,7 @@
     <!-- Interpretation -->
     <text x="16" y="190" font-size="9" font-weight="500" fill="#151D1A">Natural progression: basic skills first.</text>
     <text x="16" y="203" font-size="9" fill="#6B7280">Foundational behaviors strong, advanced lag.</text>
-    <text x="16" y="216" font-size="9" fill="#D912AE">Focus coaching on later-numbered questions.</text>
+    <text x="16" y="216" font-size="9" fill="#6A0DAD">Focus coaching on later-numbered questions.</text>
   </g>
 
   <!-- ==================== Bottom legend / key ==================== -->
@@ -311,7 +311,7 @@
 
   <!-- Decision guidance -->
   <rect x="50" y="620" width="800" height="60" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-  <rect x="50" y="620" width="3" height="60" rx="1" fill="#D912AE"/>
+  <rect x="50" y="620" width="3" height="60" rx="1" fill="#6A0DAD"/>
   <text x="72" y="640" font-size="11" font-weight="600" fill="#151D1A">Key principle: distributions, not averages</text>
   <text x="72" y="655" font-size="10" fill="#6B7280">A composite average of 3.5 that is actually 5+5+5+2+1 tells a different story from 4+4+3+3+4.</text>
   <text x="72" y="670" font-size="10" fill="#6B7280">Always examine the distribution shape before interpreting the stage.</text>

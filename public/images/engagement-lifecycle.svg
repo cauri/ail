@@ -14,7 +14,7 @@
       <polygon points="0 0, 8 3, 0 6" fill="#34D399"/>
     </marker>
     <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+      <polygon points="0 0, 8 3, 0 6" fill="#6A0DAD"/>
     </marker>
   </defs>
 
@@ -89,18 +89,18 @@
   <text x="632" y="228" text-anchor="middle" font-size="9" fill="#9CA3AF">1-2 weeks</text>
 
   <!-- Arrow Phase 3→Periodic -->
-  <line x1="712" y1="200" x2="740" y2="200" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="712" y1="200" x2="740" y2="200" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <!-- Periodic assessment box -->
-  <rect x="742" y="160" width="114" height="80" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="799" y="180" text-anchor="middle" font-size="10" font-weight="500" fill="#D912AE">Periodic</text>
-  <text x="799" y="194" text-anchor="middle" font-size="10" font-weight="500" fill="#D912AE">Assessment</text>
+  <rect x="742" y="160" width="114" height="80" rx="8" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="799" y="180" text-anchor="middle" font-size="10" font-weight="500" fill="#6A0DAD">Periodic</text>
+  <text x="799" y="194" text-anchor="middle" font-size="10" font-weight="500" fill="#6A0DAD">Assessment</text>
   <text x="799" y="212" text-anchor="middle" font-size="9" fill="#6B7280">Check-ins, retros</text>
   <text x="799" y="226" text-anchor="middle" font-size="9" fill="#6B7280">Re-diagnostic</text>
 
   <!-- Loop arrow on periodic -->
-  <path d="M 820 240 C 820 258, 778 258, 778 240" fill="none" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
-  <text x="799" y="268" text-anchor="middle" font-size="8" fill="#D912AE">Repeats until self-sufficient</text>
+  <path d="M 820 240 C 820 258, 778 258, 778 240" fill="none" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <text x="799" y="268" text-anchor="middle" font-size="8" fill="#6A0DAD">Repeats until self-sufficient</text>
 
   <!-- Gate exit annotations -->
   <text x="260" y="244" text-anchor="middle" font-size="9" fill="#FBBF24" font-weight="500">Exit OK</text>
@@ -165,8 +165,8 @@
   <!-- ================================================ -->
   <!-- KEY PRINCIPLE -->
   <!-- ================================================ -->
-  <rect x="32" y="550" width="836" height="44" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="450" y="568" text-anchor="middle" font-size="11" fill="#D912AE" font-weight="500">Each assessment gate is a genuine decision point. Stopping after any phase is legitimate.</text>
+  <rect x="32" y="550" width="836" height="44" rx="8" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="450" y="568" text-anchor="middle" font-size="11" fill="#6A0DAD" font-weight="500">Each assessment gate is a genuine decision point. Stopping after any phase is legitimate.</text>
   <text x="450" y="584" text-anchor="middle" font-size="10" fill="#6B7280">Commitment momentum from early Artisan embedding should be surfaced and discussed at each decision point.</text>
 
   <!-- ================================================ -->
@@ -184,7 +184,7 @@
   <rect x="360" y="625" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 366 631)"/>
   <text x="380" y="635" font-size="9" fill="#6B7280">Decision gate</text>
 
-  <rect x="470" y="624" width="18" height="14" rx="4" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <rect x="470" y="624" width="18" height="14" rx="4" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
   <text x="494" y="635" font-size="9" fill="#6B7280">Periodic assessment</text>
 
   <line x1="610" y1="631" x2="634" y2="631" stroke="#6B7280" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrow)"/>

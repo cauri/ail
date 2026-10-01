@@ -8,7 +8,7 @@
       <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
     </marker>
     <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+      <polygon points="0 0, 8 3, 0 6" fill="#6A0DAD"/>
     </marker>
     <marker id="arrow-z1" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#60A5FA"/>
@@ -61,7 +61,7 @@
   <text x="385" y="136" text-anchor="middle" font-size="9" font-weight="500" fill="#1E40AF">API Keys / Access</text>
 
   <!-- Critical path highlight -->
-  <rect x="30" y="116" width="402" height="32" rx="6" fill="none" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <rect x="30" y="116" width="402" height="32" rx="6" fill="none" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,2"/>
 
   <!-- Arrow from Licenses to Training (vertical, row 1 to row 2) -->
   <line x1="251" y1="146" x2="251" y2="178" stroke="#60A5FA" stroke-width="1.5" marker-end="url(#arrow-z1)"/>
@@ -80,7 +80,7 @@
   <rect x="326" y="186" width="100" height="28" rx="4" fill="#fff" stroke="#60A5FA" stroke-width="1"/>
   <text x="376" y="204" text-anchor="middle" font-size="9" fill="#1E40AF">Workforce Concerns</text>
 
-  <text x="32" y="232" font-size="9" fill="#D912AE" font-weight="500">Critical path: Policy &#8594; Licenses &#8594; Access</text>
+  <text x="32" y="232" font-size="9" fill="#6A0DAD" font-weight="500">Critical path: Policy &#8594; Licenses &#8594; Access</text>
 
   <!-- Panel annotation -->
   <text x="32" y="250" font-size="9" fill="#6B7280" font-style="italic">Mostly parallel investments. Policy enables everything else.</text>
@@ -138,7 +138,7 @@
   <text x="807" y="262" text-anchor="middle" font-size="8" fill="#065F46">Manager Enablement</text>
 
   <!-- Critical path -->
-  <text x="470" y="278" font-size="9" fill="#D912AE" font-weight="500">Critical path: One Team Setup &#8594; Quality Gates &#8594; Workflow Training</text>
+  <text x="470" y="278" font-size="9" fill="#6A0DAD" font-weight="500">Critical path: One Team Setup &#8594; Quality Gates &#8594; Workflow Training</text>
 
   <!-- ================================================ -->
   <!-- ZONE BOUNDARY: vertical divider between panels -->
@@ -196,7 +196,7 @@
   <rect x="340" y="506" width="104" height="28" rx="4" fill="#fff" stroke="#FBBF24" stroke-width="1"/>
   <text x="392" y="524" text-anchor="middle" font-size="9" fill="#92400E">Workforce Planning</text>
 
-  <text x="32" y="554" font-size="9" fill="#D912AE" font-weight="500">Critical path: AI Engineer Role &#8594; CAT &#8594; Cross-Functional Training</text>
+  <text x="32" y="554" font-size="9" fill="#6A0DAD" font-weight="500">Critical path: AI Engineer Role &#8594; CAT &#8594; Cross-Functional Training</text>
 
   <!-- ================================================ -->
   <!-- PANEL 4: Zone 3 to Zone 4 (y=320..570, right side) -->
@@ -248,7 +248,7 @@
   <rect x="662" y="566" width="140" height="24" rx="4" fill="#fff" stroke="#A78BFA" stroke-width="1"/>
   <text x="732" y="582" text-anchor="middle" font-size="8" fill="#5B21B6">External Audit</text>
 
-  <text x="488" y="606" font-size="9" fill="#D912AE" font-weight="500">Critical path: Reorg &#8594; Factory Infra &#8594; Governance &#8594; Risk Mgmt</text>
+  <text x="488" y="606" font-size="9" fill="#6A0DAD" font-weight="500">Critical path: Reorg &#8594; Factory Infra &#8594; Governance &#8594; Risk Mgmt</text>
 
   <!-- Zone boundary -->
   <line x1="466" y1="320" x2="466" y2="592" stroke="#E5E7EB" stroke-width="2"/>
@@ -273,7 +273,7 @@
   <text x="300" y="723" text-anchor="middle" font-size="9" font-weight="500" fill="#065F46">+ Zone 2: 9 new investments (15 total)</text>
 
   <!-- Compounding note -->
-  <text x="440" y="683" font-size="10" fill="#D912AE" font-weight="500">Each zone transition requires all prior investments PLUS new ones.</text>
+  <text x="440" y="683" font-size="10" fill="#6A0DAD" font-weight="500">Each zone transition requires all prior investments PLUS new ones.</text>
   <text x="440" y="698" font-size="10" fill="#6B7280">Zone 3 requires 25+ simultaneous investments.</text>
   <text x="440" y="713" font-size="10" fill="#6B7280">Zone 4 requires 29+ investments plus cultural transformation.</text>
   <text x="440" y="728" font-size="10" fill="#6B7280" font-style="italic">The right zone is the one your investment capacity supports.</text>
@@ -299,15 +299,15 @@
   <line x1="420" y1="771" x2="450" y2="771" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
   <text x="458" y="775" font-size="10" fill="#6B7280">Dependency</text>
 
-  <rect x="540" y="764" width="80" height="14" rx="4" fill="none" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,2"/>
-  <text x="628" y="775" font-size="10" fill="#D912AE">Critical path</text>
+  <rect x="540" y="764" width="80" height="14" rx="4" fill="none" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="628" y="775" font-size="10" fill="#6A0DAD">Critical path</text>
 
   <line x1="720" y1="761" x2="720" y2="785" stroke="#E5E7EB" stroke-width="2"/>
   <text x="730" y="775" font-size="10" fill="#6B7280">Zone boundary (cumulative)</text>
 
   <!-- Narrative footer -->
-  <rect x="32" y="812" width="836" height="32" rx="8" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="450" y="832" text-anchor="middle" font-size="11" fill="#D912AE" font-weight="500">Investments are what the organization provides. They are the prerequisite for every team-level activity that follows.</text>
+  <rect x="32" y="812" width="836" height="32" rx="8" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="450" y="832" text-anchor="middle" font-size="11" fill="#6A0DAD" font-weight="500">Investments are what the organization provides. They are the prerequisite for every team-level activity that follows.</text>
 
   <!-- Strategic simplification note -->
   <text x="450" y="870" text-anchor="middle" font-size="10" fill="#9CA3AF">Strategically simplified for leadership. See the full 29-investment catalog for complete dependencies.</text>

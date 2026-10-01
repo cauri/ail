@@ -120,7 +120,7 @@ const cardDataJson = JSON.stringify(flashcards);
             </button>
             <button
               id="btn-didnt"
-              class="rounded-lg border border-pink-300 bg-pink-50 px-4 py-2 text-sm font-medium text-pink-700 transition-colors hover:bg-pink-100"
+              class="rounded-lg border border-purple-300 bg-purple-50 px-4 py-2 text-sm font-medium text-purple-700 transition-colors hover:bg-purple-100"
             >
               Missed it
             </button>
@@ -144,7 +144,7 @@ const cardDataJson = JSON.stringify(flashcards);
               <div class="text-sm text-gray-500">Knew it</div>
             </div>
             <div>
-              <div id="summary-missed" class="text-3xl font-bold text-pink-600">0</div>
+              <div id="summary-missed" class="text-3xl font-bold text-purple-600">0</div>
               <div class="text-sm text-gray-500">Missed it</div>
             </div>
             <div>
@@ -247,9 +247,9 @@ const cardDataJson = JSON.stringify(flashcards);
       cardModuleBadge.textContent = moduleLabel;
 
       // Highlight card border based on result
-      card.classList.remove('border-emerald-300', 'border-pink-300');
+      card.classList.remove('border-emerald-300', 'border-purple-300');
       if (results[c.id] === 'knew') card.classList.add('border-emerald-300');
-      if (results[c.id] === 'missed') card.classList.add('border-pink-300');
+      if (results[c.id] === 'missed') card.classList.add('border-purple-300');
 
       btnPrev.disabled = currentIndex === 0;
       btnNext.disabled = currentIndex >= filteredCards.length - 1;

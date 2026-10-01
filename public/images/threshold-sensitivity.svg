@@ -72,12 +72,12 @@
               fill="none" stroke="#151D1A" stroke-width="2"/>
 
     <!-- Current threshold marker at 4.7 -> x=281 -->
-    <line x1="281" y1="20" x2="281" y2="240" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="5,3"/>
-    <text x="281" y="16" text-anchor="middle" font-size="9" font-weight="600" fill="#D912AE">Current: 4.7</text>
+    <line x1="281" y1="20" x2="281" y2="240" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <text x="281" y="16" text-anchor="middle" font-size="9" font-weight="600" fill="#6A0DAD">Current: 4.7</text>
 
     <!-- Data point on curve at 4.7 -->
-    <circle cx="281" cy="192" r="4" fill="#D912AE"/>
-    <text x="296" y="188" font-size="8" fill="#D912AE">~22%</text>
+    <circle cx="281" cy="192" r="4" fill="#6A0DAD"/>
+    <text x="296" y="188" font-size="8" fill="#6A0DAD">~22%</text>
 
     <!-- Ambiguity label -->
     <text x="281" y="290" text-anchor="middle" font-size="8" fill="#92400E">&#177;0.2 ambiguity zone</text>
@@ -127,12 +127,12 @@
               fill="none" stroke="#151D1A" stroke-width="2"/>
 
     <!-- Current threshold marker at 0.5 -> x=215 -->
-    <line x1="215" y1="20" x2="215" y2="240" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="5,3"/>
-    <text x="215" y="16" text-anchor="middle" font-size="9" font-weight="600" fill="#D912AE">Current: 0.5</text>
+    <line x1="215" y1="20" x2="215" y2="240" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <text x="215" y="16" text-anchor="middle" font-size="9" font-weight="600" fill="#6A0DAD">Current: 0.5</text>
 
     <!-- Data point on curve at 0.5 -->
-    <circle cx="215" cy="112" r="4" fill="#D912AE"/>
-    <text x="230" y="108" font-size="8" fill="#D912AE">~58%</text>
+    <circle cx="215" cy="112" r="4" fill="#6A0DAD"/>
+    <text x="230" y="108" font-size="8" fill="#6A0DAD">~58%</text>
 
     <!-- Ambiguity label -->
     <text x="215" y="290" text-anchor="middle" font-size="8" fill="#92400E">&#177;0.1 ambiguity zone</text>
@@ -143,7 +143,7 @@
 
   <g transform="translate(40, 460)">
     <rect x="0" y="0" width="820" height="40" rx="8" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1"/>
-    <rect x="0" y="0" width="3" height="40" rx="1" fill="#D912AE"/>
+    <rect x="0" y="0" width="3" height="40" rx="1" fill="#6A0DAD"/>
     <text x="20" y="17" font-size="10" font-weight="600" fill="#151D1A">Key insight: the thresholds sit on steep parts of the curve.</text>
     <text x="20" y="32" font-size="10" fill="#6B7280">Small shifts (&#177;0.2 composite, &#177;0.1 SD) produce large reclassification effects. These are not bright lines.</text>
   </g>

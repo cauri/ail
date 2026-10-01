@@ -43,11 +43,11 @@
   <circle cx="420" cy="161" r="6" fill="#FB923C" opacity="0.85"/>
 
   <!-- Mean line at 2.4: y = 192 - (2.4-1)*31 = 192 - 43.4 = 148.6 -->
-  <line x1="80" y1="149" x2="438" y2="149" stroke="#D912AE" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="444" y="153" font-size="9" fill="#D912AE">x&#772;=2.4</text>
+  <line x1="80" y1="149" x2="438" y2="149" stroke="#6A0DAD" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="444" y="153" font-size="9" fill="#6A0DAD">x&#772;=2.4</text>
 
   <!-- Interpretation block -->
   <text x="24" y="234" font-size="10" font-weight="600" fill="#151D1A">Emerging stage. Honest assessment is valuable.</text>
   <text x="24" y="250" font-size="10" fill="#6B7280">Team is consistent but early. Investment needed.</text>
-  <text x="24" y="266" font-size="10" fill="#D912AE">Praise honesty. Plan targeted zone investment.</text>
+  <text x="24" y="266" font-size="10" fill="#6A0DAD">Praise honesty. Plan targeted zone investment.</text>
 </svg>

@@ -8,7 +8,7 @@
       <polygon points="0 0, 8 3, 0 6" fill="#6B7280"/>
     </marker>
     <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#D912AE"/>
+      <polygon points="0 0, 8 3, 0 6" fill="#6A0DAD"/>
     </marker>
     <marker id="arrow-success" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#34D399"/>
@@ -133,19 +133,19 @@
   <!-- ================================================ -->
   <!-- ROW 3: Re-Diagnostics (y=285..370) — most prominent -->
   <!-- ================================================ -->
-  <rect x="16" y="285" width="94" height="85" rx="8" fill="#fff" stroke="#D912AE" stroke-width="2"/>
-  <text x="63" y="319" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#D912AE">Re-Diagnostics</text>
+  <rect x="16" y="285" width="94" height="85" rx="8" fill="#fff" stroke="#6A0DAD" stroke-width="2"/>
+  <text x="63" y="319" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="11" font-weight="500" fill="#6A0DAD">Re-Diagnostics</text>
   <text x="63" y="336" text-anchor="middle" font-size="9" fill="#6B7280">vs. baseline</text>
   <text x="63" y="354" text-anchor="middle" font-size="9" fill="#9CA3AF">Every 3–6 months</text>
 
   <rect x="116" y="285" width="668" height="85" rx="0" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
 
   <!-- Re-diagnostic markers (prominent) at ~month 4 and ~month 10 -->
-  <rect x="276" y="312" width="18" height="18" rx="0" fill="#D912AE" fill-opacity="0.15" stroke="#D912AE" stroke-width="2" transform="rotate(45 285 321)"/>
-  <text x="285" y="325" text-anchor="middle" font-size="10" fill="#D912AE" font-weight="600">R1</text>
+  <rect x="276" y="312" width="18" height="18" rx="0" fill="#6A0DAD" fill-opacity="0.15" stroke="#6A0DAD" stroke-width="2" transform="rotate(45 285 321)"/>
+  <text x="285" y="325" text-anchor="middle" font-size="10" fill="#6A0DAD" font-weight="600">R1</text>
 
-  <rect x="606" y="312" width="18" height="18" rx="0" fill="#D912AE" fill-opacity="0.15" stroke="#D912AE" stroke-width="2" transform="rotate(45 615 321)"/>
-  <text x="615" y="325" text-anchor="middle" font-size="10" fill="#D912AE" font-weight="600">R2</text>
+  <rect x="606" y="312" width="18" height="18" rx="0" fill="#6A0DAD" fill-opacity="0.15" stroke="#6A0DAD" stroke-width="2" transform="rotate(45 615 321)"/>
+  <text x="615" y="325" text-anchor="middle" font-size="10" fill="#6A0DAD" font-weight="600">R2</text>
 
   <!-- Callout -->
   <rect x="310" y="300" width="234" height="14" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
@@ -162,15 +162,15 @@
   <rect x="116" y="380" width="668" height="70" rx="0" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" fill-opacity="0.5"/>
 
   <!-- Roadmap refresh blocks linked to re-diagnostics -->
-  <rect x="260" y="396" width="52" height="24" rx="4" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="286" y="412" text-anchor="middle" font-size="9" font-weight="500" fill="#D912AE">Refresh</text>
+  <rect x="260" y="396" width="52" height="24" rx="4" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="286" y="412" text-anchor="middle" font-size="9" font-weight="500" fill="#6A0DAD">Refresh</text>
 
-  <rect x="590" y="396" width="52" height="24" rx="4" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="616" y="412" text-anchor="middle" font-size="9" font-weight="500" fill="#D912AE">Refresh</text>
+  <rect x="590" y="396" width="52" height="24" rx="4" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="616" y="412" text-anchor="middle" font-size="9" font-weight="500" fill="#6A0DAD">Refresh</text>
 
   <!-- Dependency arrows from re-diagnostic to roadmap refresh -->
-  <line x1="285" y1="340" x2="285" y2="396" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
-  <line x1="615" y1="340" x2="615" y2="396" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="285" y1="340" x2="285" y2="396" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="615" y1="340" x2="615" y2="396" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
 
   <!-- Callout -->
   <rect x="340" y="394" width="228" height="30" rx="4" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
@@ -211,8 +211,8 @@
   <!-- ================================================ -->
 
   <!-- Key principle -->
-  <rect x="16" y="468" width="868" height="40" rx="8" fill="#F9FAFB" stroke="#D912AE" stroke-width="1.5"/>
-  <text x="450" y="486" text-anchor="middle" font-size="10" fill="#D912AE" font-weight="500">Each activity type has a different purpose and conversation structure.</text>
+  <rect x="16" y="468" width="868" height="40" rx="8" fill="#F9FAFB" stroke="#6A0DAD" stroke-width="1.5"/>
+  <text x="450" y="486" text-anchor="middle" font-size="10" fill="#6A0DAD" font-weight="500">Each activity type has a different purpose and conversation structure.</text>
   <text x="450" y="500" text-anchor="middle" font-size="10" fill="#6B7280">Do not let check-ins drift into retrospectives, or retrospectives drift into re-diagnostics.</text>
 
   <!-- Legend -->
@@ -225,13 +225,13 @@
   <rect x="228" y="537" width="10" height="10" rx="2" fill="#EDE8F5" stroke="#A78BFA" stroke-width="1.5" transform="rotate(45 233 542)"/>
   <text x="248" y="547" font-size="10" fill="#6B7280">Quarterly retro</text>
 
-  <rect x="362" y="537" width="10" height="10" rx="0" fill="#D912AE" fill-opacity="0.15" stroke="#D912AE" stroke-width="2" transform="rotate(45 367 542)"/>
+  <rect x="362" y="537" width="10" height="10" rx="0" fill="#6A0DAD" fill-opacity="0.15" stroke="#6A0DAD" stroke-width="2" transform="rotate(45 367 542)"/>
   <text x="382" y="547" font-size="10" fill="#6B7280">Re-diagnostic</text>
 
-  <rect x="488" y="536" width="24" height="14" rx="4" fill="#fff" stroke="#D912AE" stroke-width="1.5"/>
+  <rect x="488" y="536" width="24" height="14" rx="4" fill="#fff" stroke="#6A0DAD" stroke-width="1.5"/>
   <text x="520" y="547" font-size="10" fill="#6B7280">Roadmap refresh</text>
 
-  <line x1="622" y1="543" x2="646" y2="543" stroke="#D912AE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="622" y1="543" x2="646" y2="543" stroke="#6A0DAD" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
   <text x="656" y="547" font-size="10" fill="#6B7280">Dependency</text>
 
   <rect x="740" y="536" width="12" height="12" rx="2" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5" transform="rotate(45 746 542)"/>

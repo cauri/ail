@@ -238,7 +238,7 @@
 
   <!-- Zone 3 Prime Directive callout -->
   <rect x="40" y="830" width="850" height="56" rx="8" fill="#FFFBEB" stroke="#FBBF24" stroke-width="1.5"/>
-  <rect x="40" y="830" width="4" height="56" rx="2" fill="#D912AE"/>
+  <rect x="40" y="830" width="4" height="56" rx="2" fill="#6A0DAD"/>
   <text x="60" y="852" font-family="'DM Sans', sans-serif" font-size="12" font-weight="500" fill="#92400E">The Prime Directive (Zone 3):</text>
   <text x="60" y="872" font-size="11" fill="#151D1A">All roles shift from producing artifacts to designing the process by which artifacts are produced.</text>
 

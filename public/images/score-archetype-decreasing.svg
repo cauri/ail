@@ -72,5 +72,5 @@
   <!-- Interpretation block -->
   <text x="24" y="234" font-size="10" font-weight="600" fill="#151D1A">Natural progression: basic skills first.</text>
   <text x="24" y="250" font-size="10" fill="#6B7280">Foundational behaviors strong, advanced lag.</text>
-  <text x="24" y="266" font-size="10" fill="#D912AE">Focus coaching on later-numbered questions.</text>
+  <text x="24" y="266" font-size="10" fill="#6A0DAD">Focus coaching on later-numbered questions.</text>
 </svg>
